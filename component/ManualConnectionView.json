@@ -1,0 +1,394 @@
+{
+  "type": "View",
+  "props": {
+    "y": 50,
+    "x": -6,
+    "width": 624,
+    "runtime": "game/view/component/ManualConnectionDetail.ts",
+    "mouseThrough": true,
+    "height": 1290,
+    "cacheAs": "bitmap"
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": -83,
+        "x": -65,
+        "visible": false
+      },
+      "compId": 492
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 624,
+        "height": 1290
+      },
+      "compId": 493,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 130,
+            "x": -34,
+            "var": "panel_mask",
+            "skin": "res_common/panel_mask.png"
+          },
+          "compId": 690
+        },
+        {
+          "type": "Panel",
+          "props": {
+            "y": 146,
+            "x": -22,
+            "width": 668,
+            "vScrollBarSkin": " ",
+            "height": 999,
+            "centerY": 0,
+            "centerX": 0
+          },
+          "compId": 684,
+          "child": [
+            {
+              "type": "List",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "var": "cntList",
+                "spaceY": 3,
+                "space": 6,
+                "repeatY": 4,
+                "cacheAs": "none"
+              },
+              "compId": 494,
+              "child": [
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "width": 668,
+                    "renderType": "render",
+                    "name": "cntItem",
+                    "height": 291
+                  },
+                  "compId": 655,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "width": 668,
+                        "skin": "res_common/panel_bz.png",
+                        "sizeGrid": "101,0,85,0",
+                        "height": 291
+                      },
+                      "compId": 656
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 56,
+                        "x": 41,
+                        "name": "icon",
+                        "anchorY": 0.5,
+                        "anchorX": 0.5
+                      },
+                      "compId": 657
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 17,
+                        "x": 75,
+                        "text": "【战士】己方上阵2/4个战士时",
+                        "name": "desc",
+                        "fontSize": 21,
+                        "font": "Microsoft YaHei",
+                        "color": "#43260f",
+                        "bold": true
+                      },
+                      "compId": 677
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 46,
+                        "x": 76,
+                        "text": "【2名】",
+                        "name": "needNum1",
+                        "fontSize": 18,
+                        "font": "Microsoft YaHei",
+                        "color": "#f14400",
+                        "bold": false,
+                        "align": "left"
+                      },
+                      "compId": 676
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 46,
+                        "x": 140,
+                        "text": "所有战士 +5 物理防御",
+                        "name": "skilldesc1",
+                        "fontSize": 18,
+                        "font": "Microsoft YaHei",
+                        "color": "#180b00",
+                        "bold": false,
+                        "align": "left"
+                      },
+                      "compId": 681
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 68,
+                        "x": 76,
+                        "text": "【4名】",
+                        "name": "needNum2",
+                        "fontSize": 18,
+                        "font": "Microsoft YaHei",
+                        "color": "#f14400",
+                        "bold": false,
+                        "align": "left"
+                      },
+                      "compId": 678
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 68,
+                        "x": 140,
+                        "text": "所有战士 +15 物理防御",
+                        "name": "skilldesc2",
+                        "fontSize": 18,
+                        "font": "Microsoft YaHei",
+                        "color": "#180b00",
+                        "bold": false,
+                        "align": "left"
+                      },
+                      "compId": 683
+                    },
+                    {
+                      "type": "Panel",
+                      "props": {
+                        "y": 80,
+                        "x": 3,
+                        "width": 662,
+                        "vScrollBarSkin": " ",
+                        "name": "monsterPanel",
+                        "height": 200,
+                        "hScrollBarSkin": " ",
+                        "anchorX": 0
+                      },
+                      "compId": 532,
+                      "child": [
+                        {
+                          "type": "List",
+                          "props": {
+                            "y": 0,
+                            "x": 0,
+                            "spaceX": 5,
+                            "repeatX": 5,
+                            "name": "mstList",
+                            "height": 200,
+                            "hScrollBarSkin": " "
+                          },
+                          "compId": 499,
+                          "child": [
+                            {
+                              "type": "Box",
+                              "props": {
+                                "y": 205,
+                                "x": 75,
+                                "presetID": 1,
+                                "width": 140,
+                                "renderType": "render",
+                                "name": "Item",
+                                "isPresetRoot": true,
+                                "height": 190,
+                                "anchorY": 1,
+                                "anchorX": 0.5
+                              },
+                              "compId": 693,
+                              "child": [
+                                {
+                                  "type": "Box",
+                                  "props": {
+                                    "presetID": 2,
+                                    "name": "spineBox",
+                                    "centerX": 0,
+                                    "bottom": 45
+                                  },
+                                  "compId": 501
+                                },
+                                {
+                                  "type": "Image",
+                                  "props": {
+                                    "presetID": 3,
+                                    "y": 164,
+                                    "skin": "netRes/monsterName/style_3_md/CK-SWK.png",
+                                    "scaleY": 1,
+                                    "scaleX": 1,
+                                    "name": "nameRes",
+                                    "centerX": 0,
+                                    "anchorY": 0.5,
+                                    "anchorX": 0.5
+                                  },
+                                  "compId": 502
+                                },
+                                {
+                                  "type": "Box",
+                                  "props": {
+                                    "presetID": 4,
+                                    "y": 151,
+                                    "width": 106,
+                                    "visible": false,
+                                    "name": "lockTip",
+                                    "centerX": 0
+                                  },
+                                  "compId": 553,
+                                  "child": [
+                                    {
+                                      "type": "Image",
+                                      "props": {
+                                        "presetID": 5,
+                                        "x": 5,
+                                        "skin": "res_view/manual/text_fsjs.png"
+                                      },
+                                      "compId": 554
+                                    },
+                                    {
+                                      "type": "FontClip",
+                                      "props": {
+                                        "presetID": 13,
+                                        "y": -2,
+                                        "value": "1",
+                                        "spaceX": -5,
+                                        "skin": "res_common/number/num_23_jxzk_ffffff_stk_2.png",
+                                        "sheet": "0123456789",
+                                        "centerX": 20
+                                      },
+                                      "compId": 562,
+                                      "child": [
+                                        {
+                                          "type": "Image",
+                                          "props": {
+                                            "presetID": 14,
+                                            "y": 2,
+                                            "skin": "res_view/manual/text_ss.png",
+                                            "left": -46
+                                          },
+                                          "compId": 563
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "FontClip",
+                                      "props": {
+                                        "presetID": 11,
+                                        "y": -2,
+                                        "visible": false,
+                                        "value": "15",
+                                        "spaceX": -5,
+                                        "skin": "res_common/number/num_23_jxzk_ffffff_stk_2.png",
+                                        "sheet": "0123456789",
+                                        "centerX": 8
+                                      },
+                                      "compId": 560,
+                                      "child": [
+                                        {
+                                          "type": "Image",
+                                          "props": {
+                                            "presetID": 9,
+                                            "y": 2,
+                                            "skin": "res_view/manual/text_sj.png",
+                                            "left": -46
+                                          },
+                                          "compId": 558
+                                        },
+                                        {
+                                          "type": "Image",
+                                          "props": {
+                                            "presetID": 10,
+                                            "y": 2,
+                                            "skin": "res_view/manual/text_z.png",
+                                            "right": -30
+                                          },
+                                          "compId": 559
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "Box",
+                                  "props": {
+                                    "presetID": 6,
+                                    "y": 85,
+                                    "x": 76,
+                                    "visible": false,
+                                    "name": "award",
+                                    "centerX": 0
+                                  },
+                                  "compId": 555,
+                                  "child": [
+                                    {
+                                      "type": "Animation",
+                                      "props": {
+                                        "presetID": 7,
+                                        "source": "ani/albumAward.ani"
+                                      },
+                                      "compId": 557
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "Image",
+                                  "props": {
+                                    "presetID": 8,
+                                    "y": 15,
+                                    "x": 90,
+                                    "skin": "res_common/redpoint.png",
+                                    "name": "redPoint"
+                                  },
+                                  "compId": 556
+                                },
+                                {
+                                  "type": "Rect",
+                                  "props": {
+                                    "presetID": 12,
+                                    "y": 15,
+                                    "x": 20,
+                                    "width": 100,
+                                    "renderType": "hit",
+                                    "lineWidth": 1,
+                                    "height": 130,
+                                    "fillColor": "#ff0000"
+                                  },
+                                  "compId": 561
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": ["prefab/manualMonsterItem.prefab"],
+  "loadList3D": []
+}

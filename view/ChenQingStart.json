@@ -1,0 +1,221 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "var": "cq_ani"
+          },
+          "compId": 7
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -203,
+            "x": -151,
+            "width": 1053,
+            "visible": false,
+            "var": "mask_bg",
+            "skin": "res_common/bg.png",
+            "height": 1768,
+            "alpha": 0.0001
+          },
+          "compId": 14
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 983,
+            "x": 191.5,
+            "visible": false,
+            "var": "text_bg",
+            "name": "text_bg"
+          },
+          "compId": 4,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -31,
+                "x": -33,
+                "visible": false,
+                "var": "bg_1",
+                "skin": "res_view/chenqing/panel_kq.png"
+              },
+              "compId": 9
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -2.5,
+                "x": 0,
+                "visible": false,
+                "var": "bg_2",
+                "skin": "res_view/chenqing/panel_zlrz.png"
+              },
+              "compId": 10
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 39,
+                "x": 49,
+                "visible": false,
+                "var": "text_1",
+                "skin": "res_view/chenqing/text_wcsssekq.png",
+                "name": "text_1"
+              },
+              "compId": 6
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 41,
+                "x": 108.5,
+                "visible": false,
+                "var": "text_2",
+                "skin": "res_view/chenqing/text_zlrz.png"
+              },
+              "compId": 11
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 1321,
+            "x": -1,
+            "width": 753,
+            "skin": "loading/panel_buttom.png",
+            "name": "bottom",
+            "height": 160,
+            "centerX": 0
+          },
+          "compId": 12
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -153,
+            "x": 0,
+            "width": 751,
+            "skin": "loading/panel_top.png",
+            "name": "top"
+          },
+          "compId": 13
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 4,
+          "keyframes": {
+            "x": [
+              {
+                "value": 191.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 4,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 191.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 4,
+                "key": "x",
+                "index": 40
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 4,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 4,
+                "key": "alpha",
+                "index": 40
+              }
+            ]
+          }
+        },
+        {
+          "target": 14,
+          "keyframes": {
+            "x": [
+              {
+                "value": -151,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 14,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": -151,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 14,
+                "key": "x",
+                "index": 40
+              }
+            ],
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 14,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 14,
+                "key": "visible",
+                "index": 40
+              }
+            ]
+          }
+        }
+      ],
+      "name": "showani",
+      "id": 1,
+      "frameRate": 30,
+      "action": 0
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

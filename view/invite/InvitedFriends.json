@@ -1,0 +1,181 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "var": "maskBg",
+        "top": 0,
+        "skin": "res_common/bg.png",
+        "right": 0,
+        "left": 0,
+        "bottom": 0,
+        "alpha": 0.6
+      },
+      "compId": 3
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 620,
+        "height": 470,
+        "centerY": -7,
+        "centerX": 0
+      },
+      "compId": 5,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -26,
+            "x": 9,
+            "skin": "res_view/invite/panel_yyhy.png",
+            "sizeGrid": "116,0,163,0"
+          },
+          "compId": 6
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": -21,
+            "x": 543,
+            "width": 60,
+            "var": "closeBtn",
+            "height": 60
+          },
+          "compId": 7
+        },
+        {
+          "type": "List",
+          "props": {
+            "y": 86,
+            "x": 31,
+            "width": 556,
+            "var": "friendsList",
+            "vScrollBarSkin": "comp/vscroll.png",
+            "spaceY": -1,
+            "height": 356
+          },
+          "compId": 8,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 556,
+                "renderType": "render",
+                "height": 132
+              },
+              "compId": 9,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 12,
+                    "x": 8,
+                    "width": 539,
+                    "skin": "res_view/invite/panel_friend_3.png",
+                    "sizeGrid": "0,100,0,27",
+                    "height": 124
+                  },
+                  "compId": 11
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 22,
+                    "x": 49,
+                    "skin": "res_view/invite/panel_friend_tx.png"
+                  },
+                  "compId": 12
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 22,
+                    "x": 49,
+                    "width": 99,
+                    "skin": "res_view/invite/img_huajuan.png",
+                    "name": "headImg",
+                    "height": 99
+                  },
+                  "compId": 13,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 2,
+                        "x": 2,
+                        "width": 95,
+                        "skin": "res_view/invite/bg21.png",
+                        "renderType": "mask",
+                        "name": "mask",
+                        "height": 95
+                      },
+                      "compId": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 79,
+                    "x": 203,
+                    "skin": "res_view/invite/img_gongdelan.png"
+                  },
+                  "compId": 17
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 66,
+                    "x": 166,
+                    "skin": "res_view/invite/logo_gongde.png",
+                    "alpha": 1
+                  },
+                  "compId": 16
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 29,
+                    "x": 169,
+                    "text": "玩家",
+                    "name": "nickname",
+                    "fontSize": 28,
+                    "font": "Microsoft YaHei",
+                    "color": "#674445"
+                  },
+                  "compId": 15
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 82,
+                    "x": 224,
+                    "value": "888",
+                    "spaceX": -5,
+                    "skin": "res_common/number/num_24_rhrc_f1efe0.png",
+                    "sheet": "0123456789+-*/:.",
+                    "name": "gongde"
+                  },
+                  "compId": 19
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": ["comp/vscroll.png"],
+  "loadList3D": []
+}

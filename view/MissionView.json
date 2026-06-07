@@ -1,0 +1,305 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 813,
+        "x": 500,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 3
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 592,
+        "var": "context",
+        "height": 524,
+        "centerY": 5,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "top": 0,
+            "skin": "res_common/panel_l.png",
+            "sizeGrid": "155,0,162,0",
+            "right": 0,
+            "left": 0,
+            "bottom": 0
+          },
+          "compId": 5
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 12,
+            "x": 128,
+            "skin": "res_main/text_rwxq.png",
+            "centerX": 0
+          },
+          "compId": 6
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 86,
+            "x": 42,
+            "width": 508,
+            "skin": "res_main/panel_goumai.png",
+            "sizeGrid": "23,25,23,24",
+            "height": 282
+          },
+          "compId": 20
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 117,
+            "skin": "res_main/plist_wupin.png",
+            "centerX": 0
+          },
+          "compId": 21
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 130,
+            "width": 301,
+            "var": "nameLab",
+            "text": "逃出新手村",
+            "strokeColor": "#dfe4d9",
+            "stroke": 3,
+            "fontSize": 28,
+            "font": "SimHei",
+            "color": "#20363a",
+            "centerX": 0,
+            "bold": true,
+            "align": "center"
+          },
+          "compId": 22
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 200,
+            "width": 500,
+            "var": "descBox",
+            "centerX": 0
+          },
+          "compId": 30
+        },
+        {
+          "type": "HBox",
+          "props": {
+            "y": 244,
+            "x": 0,
+            "var": "rwdBox",
+            "height": 100,
+            "centerX": 0,
+            "align": "middle"
+          },
+          "compId": 29
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 434,
+            "x": 296,
+            "visible": false,
+            "var": "getBtn",
+            "stateNum": 1,
+            "skin": "res_common/common_btn_big_cyan.png",
+            "label": "label",
+            "centerX": 0,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 24,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 19,
+                "x": 58,
+                "skin": "res_main/text_lq.png"
+              },
+              "compId": 27
+            },
+            {
+              "type": "Script",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "runtime": "game/tools/BtnScale90.ts"
+              },
+              "compId": 28
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 434,
+            "x": 229,
+            "visible": false,
+            "var": "adBtn",
+            "stateNum": 1,
+            "skin": "res_common/common_btn_big_cyan.png",
+            "label": "label",
+            "centerX": 0,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 31,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 38,
+                "x": 50,
+                "var": "freeVideoIcon",
+                "skin": "res_common/icon_ad1.png",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 32
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 17,
+                "x": 78,
+                "width": 118,
+                "var": "proLab",
+                "spaceX": -10,
+                "presetID": 1,
+                "height": 44,
+                "align": "center",
+                "value": "0123456789+-*/()<>",
+                "skin": "res_common/number/num_33_jxzk_e0e8f5.png",
+                "sheet": "0123456789+-*/()<>",
+                "isPresetRoot": true
+              },
+              "compId": 33
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 13,
+                "x": 102,
+                "visible": false,
+                "var": "freeImg",
+                "skin": "res_common/text_mianfei.png"
+              },
+              "compId": 34
+            },
+            {
+              "type": "Script",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "runtime": "game/tools/BtnScale90.ts"
+              },
+              "compId": 35
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 434,
+            "x": 296,
+            "visible": false,
+            "var": "turnToBtn",
+            "stateNum": 1,
+            "skin": "res_common/common_btn_big_cyan.png",
+            "label": "label",
+            "centerX": 0,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 36,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 18,
+                "x": 59,
+                "skin": "res_main/text_qw.png"
+              },
+              "compId": 37
+            },
+            {
+              "type": "Script",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "runtime": "game/tools/BtnScale90.ts"
+              },
+              "compId": 38
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 624,
+            "x": 296,
+            "visible": false,
+            "var": "doneBtn",
+            "stateNum": 1,
+            "skin": "res_common/common_btn_big_cyan.png",
+            "label": "label",
+            "centerX": 0,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 39,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "y": 22,
+                "x": 40,
+                "text": "完成任务",
+                "stroke": 1,
+                "fontSize": 34,
+                "color": "#ffffff",
+                "bold": true
+              },
+              "compId": 42
+            },
+            {
+              "type": "Script",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "runtime": "game/tools/BtnScale90.ts"
+              },
+              "compId": 41
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": ["prefab/number/num_36_ss_fffff_stk.prefab"],
+  "loadList3D": []
+}

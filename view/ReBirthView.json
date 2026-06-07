@@ -1,0 +1,216 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 667,
+        "x": 375,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 1
+      },
+      "compId": 3
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 750,
+        "var": "context",
+        "height": 1334,
+        "centerY": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Panel",
+          "props": {
+            "y": 62,
+            "x": -125,
+            "width": 1000,
+            "var": "spineBox",
+            "height": 740,
+            "alpha": 0
+          },
+          "compId": 12
+        },
+        {
+          "type": "Image",
+          "props": {
+            "x": 32,
+            "skin": "res_common/panel_text.png",
+            "centerY": 204,
+            "alpha": 0
+          },
+          "compId": 13,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "y": 19,
+                "wordWrap": true,
+                "width": 550,
+                "var": "textLab",
+                "valign": "middle",
+                "text": "我真的重生回来了！",
+                "leading": 22,
+                "height": 111,
+                "fontSize": 30,
+                "font": "SimHei",
+                "color": "#ffffff",
+                "centerX": 0,
+                "bold": true,
+                "align": "center"
+              },
+              "compId": 14
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "var": "roleBox",
+            "centerY": 180,
+            "centerX": 0,
+            "alpha": 0
+          },
+          "compId": 11
+        },
+        {
+          "type": "Animation",
+          "props": {
+            "y": 667,
+            "x": 375,
+            "var": "eyeAni",
+            "source": "ani/eyeAni.ani"
+          },
+          "compId": 16
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 3,
+          "keyframes": {
+            "x": [
+              {
+                "value": 375,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 3,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 3,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0.6,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 3,
+                "key": "alpha",
+                "index": 10
+              }
+            ]
+          }
+        },
+        {
+          "target": 12,
+          "keyframes": {
+            "x": [
+              {
+                "value": -125,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 12,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 12,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 12,
+                "key": "alpha",
+                "index": 10
+              }
+            ]
+          }
+        },
+        {
+          "target": 13,
+          "keyframes": {
+            "x": [
+              {
+                "value": 32,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 13,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 13,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 13,
+                "key": "alpha",
+                "index": 10
+              }
+            ]
+          }
+        }
+      ],
+      "name": "openAni",
+      "id": 1,
+      "frameRate": 30,
+      "action": 0
+    }
+  ],
+  "loadList": ["ani/eyeAni.ani"],
+  "loadList3D": []
+}

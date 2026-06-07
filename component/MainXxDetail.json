@@ -1,0 +1,6566 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "var": "contentBox",
+        "height": 1334,
+        "centerY": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": -1,
+            "width": 750,
+            "var": "bg",
+            "skin": "res_view/xiuxin/img_bg.png",
+            "height": 1334
+          },
+          "compId": 5
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 893,
+            "x": 274,
+            "visible": false,
+            "var": "dayuanman",
+            "skin": "res_view/xiuxin/btn_wlxb.png",
+            "name": "dayuanman"
+          },
+          "compId": 77,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 68.5,
+                "skin": "res_view/xiuxin/text_mianfei.png"
+              },
+              "compId": 78
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 67,
+            "x": 298,
+            "width": 195,
+            "visible": true,
+            "var": "anibox_1",
+            "name": "anibox_1",
+            "height": 56
+          },
+          "compId": 84,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -276,
+                "x": -849,
+                "var": "light_1",
+                "scaleY": 2,
+                "scaleX": 2.5,
+                "name": "light_1"
+              },
+              "compId": 86
+            },
+            {
+              "type": "Image",
+              "props": {
+                "var": "tupo_3",
+                "name": "tupo_3"
+              },
+              "compId": 89
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "var": "tupo_7",
+                "name": "tupo_7"
+              },
+              "compId": 92
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "var": "tupo_8",
+                "name": "tupo_8"
+              },
+              "compId": 94
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "var": "tupo_9",
+                "name": "tupo_9"
+              },
+              "compId": 95
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 6,
+                "x": -12,
+                "var": "tupo_5",
+                "name": "tupo_5"
+              },
+              "compId": 91
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": -108,
+            "x": 0,
+            "var": "yuanshenBox",
+            "name": "yuanshenBox"
+          },
+          "compId": 40,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0
+              },
+              "compId": 85,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 583,
+                    "x": 150,
+                    "skin": "res_view/xiuxin/img_zi_2.png"
+                  },
+                  "compId": 48
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 603,
+                    "x": 551,
+                    "skin": "res_view/xiuxin/img_zi_3.png"
+                  },
+                  "compId": 47
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 688,
+                    "x": 678,
+                    "skin": "res_view/xiuxin/img_zi_4.png"
+                  },
+                  "compId": 46
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 698,
+                    "x": 50,
+                    "skin": "res_view/xiuxin/img_zi_1.png",
+                    "name": "Bgbox"
+                  },
+                  "compId": 44
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 122,
+                "x": 182,
+                "visible": true,
+                "var": "yuanpan",
+                "skin": "res_view/xiuxin/img_bgz.png",
+                "name": "yuanpan"
+              },
+              "compId": 211
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 196,
+                "x": 50,
+                "var": "yuanshenbgbox",
+                "name": "yuanshenbgbox"
+              },
+              "compId": 41
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 196,
+                "x": 103,
+                "var": "yuanshenname",
+                "skin": "res_view/xiuxin/text_lx.png",
+                "name": "yuanshenname"
+              },
+              "compId": 42
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 550,
+                "x": 87.5,
+                "var": "shiTi_blue",
+                "skin": "res_view/xiuxin/img_ren_blue.png",
+                "name": "shiTi_blue"
+              },
+              "compId": 82
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 577,
+                "x": 116.5,
+                "var": "shiTiBox",
+                "skin": "res_view/xiuxin/img_ren.png",
+                "name": "shiTiBox"
+              },
+              "compId": 81
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 134,
+            "x": 596,
+            "width": 195,
+            "visible": true,
+            "var": "anibox_2",
+            "name": "anibox_2",
+            "height": 56
+          },
+          "compId": 96,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -67,
+                "x": -298,
+                "skin": "comp/image.png",
+                "name": "tupo_6"
+              },
+              "compId": 93
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 243,
+                "x": -554,
+                "var": "tupo_1",
+                "name": "tupo_1"
+              },
+              "compId": 87
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -67,
+                "x": -298,
+                "var": "tupo_4",
+                "skin": "comp/image.png",
+                "name": "tupo_4"
+              },
+              "compId": 90
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -67,
+                "x": -298,
+                "var": "tupo_2",
+                "skin": "comp/image.png",
+                "name": "tupo_2"
+              },
+              "compId": 88
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 877,
+            "x": 25,
+            "width": 709,
+            "var": "jingjie_progress",
+            "name": "jingjie_progress",
+            "height": 148
+          },
+          "compId": 69,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 162,
+                "var": "jingjie_t",
+                "skin": "res_view/xiuxin/text_lianxu.png",
+                "name": "jingjie_t"
+              },
+              "compId": 49,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 116,
+                    "var": "jieduan_t",
+                    "skin": "res_view/xiuxin/text_chuqi.png",
+                    "name": "jieduan_t"
+                  },
+                  "compId": 50
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 19,
+                    "x": 238,
+                    "skin": "res_view/xiuxin/text_dian.png"
+                  },
+                  "compId": 52
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 2,
+                    "x": 263,
+                    "var": "zhoji",
+                    "skin": "res_view/xiuxin/text_ceng1_0.png",
+                    "name": "zhoji"
+                  },
+                  "compId": 51
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -6.5,
+                    "x": 380,
+                    "var": "noticeBtn",
+                    "skin": "res_view/xiuxin/bg_repair_prompt.png",
+                    "name": "noticeBtn"
+                  },
+                  "compId": 53
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 58,
+                "x": 0,
+                "width": 700,
+                "visible": true,
+                "var": "gdCom",
+                "skin": "res_view/xiuxin/iconl_upgrade_1.png",
+                "sizeGrid": "0,21,0,21",
+                "name": "gdCom",
+                "height": 49,
+                "alpha": 1
+              },
+              "compId": 30,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 18,
+                    "x": 14,
+                    "width": 671,
+                    "var": "progress_gd_bar",
+                    "skin": "res_view/xiuxin/iconl_upgrade_2.png",
+                    "sizeGrid": "0,11,0,0",
+                    "height": 20
+                  },
+                  "compId": 31
+                }
+              ]
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 110,
+                "x": 86,
+                "width": 537,
+                "var": "needgd_text",
+                "text": "功德达到9999999999，增加修炼次数一次",
+                "strokeColor": "#15172e",
+                "stroke": 2,
+                "name": "needgd_text",
+                "height": 25,
+                "fontSize": 25,
+                "color": "#ffffff",
+                "align": "center"
+              },
+              "compId": 38
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 75,
+                "x": 332,
+                "var": "jindu_t",
+                "text": "6/8",
+                "strokeColor": "#7b2300",
+                "stroke": 1,
+                "name": "jindu_t",
+                "fontSize": 22,
+                "color": "#ffffff",
+                "centerX": -3,
+                "align": "center"
+              },
+              "compId": 54
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": -536,
+                "x": 162,
+                "width": 384,
+                "var": "tupoBox",
+                "name": "tupBox",
+                "height": 669
+              },
+              "compId": 70,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 598,
+                    "skin": "res_view/xiuxin/text_bctpgl.png",
+                    "centerX": -32
+                  },
+                  "compId": 71,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 3,
+                        "x": 211,
+                        "var": "tupo_num",
+                        "text": "20%",
+                        "stroke": 1,
+                        "name": "tupo_num",
+                        "fontSize": 30,
+                        "font": "Microsoft YaHei",
+                        "color": "#ff0000",
+                        "bold": true
+                      },
+                      "compId": 72
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 25,
+                    "x": 24,
+                    "var": "next_Topo",
+                    "skin": "res_view/xiuxin/text_xctpsysj.png",
+                    "name": "next_Topo"
+                  },
+                  "compId": 74,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 51,
+                        "x": 84.71337890625,
+                        "width": 128,
+                        "var": "tupo_time",
+                        "text": "23:59",
+                        "stroke": 1,
+                        "name": "tupo_time",
+                        "height": 30,
+                        "fontSize": 30,
+                        "font": "Microsoft YaHei",
+                        "color": "#ff0000",
+                        "bold": true,
+                        "align": "center"
+                      },
+                      "compId": 75
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 622,
+            "x": 298,
+            "visible": true,
+            "var": "tupoBtn",
+            "skin": "res_view/xiuxin/btn_tupo.png",
+            "name": "tupoBtn"
+          },
+          "compId": 117,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -6,
+                "x": 32.5,
+                "skin": "res_view/xiuxin/text_tupo.png",
+                "name": "tupo_img_N"
+              },
+              "compId": 118
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 620,
+            "x": 298,
+            "visible": false,
+            "var": "tupoBtn_ani",
+            "skin": "res_view/xiuxin/btn_tupo.png",
+            "name": "tupoBtn_ani"
+          },
+          "compId": 65,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -6,
+                "x": 32.5,
+                "var": "tupo_img_N",
+                "skin": "res_view/xiuxin/text_tupo.png",
+                "name": "tupo_img_N"
+              },
+              "compId": 66
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 620,
+            "x": 303,
+            "visible": true,
+            "var": "adtupoBtn",
+            "skin": "res_view/xiuxin/btn_tupo.png",
+            "name": "adtupoBtn"
+          },
+          "compId": 119,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 5,
+                "x": 25.5,
+                "skin": "res_view/xiuxin/text_tqtp.png",
+                "scaleY": 1.1,
+                "scaleX": 1.1,
+                "name": "tupo_img_P"
+              },
+              "compId": 120,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 13,
+                    "x": -19,
+                    "skin": "res_view/xiuxin/icon_ad.png"
+                  },
+                  "compId": 121
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 625.5,
+            "x": 301.5,
+            "visible": false,
+            "var": "adtupoBtn_ani",
+            "skin": "res_view/xiuxin/btn_tupo.png",
+            "name": "adtupoBtn_ani"
+          },
+          "compId": 107,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 5,
+                "x": 25.5,
+                "skin": "res_view/xiuxin/text_tqtp.png",
+                "scaleY": 1.1,
+                "scaleX": 1.1,
+                "name": "tupo_img_P"
+              },
+              "compId": 109,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 13,
+                    "x": -19,
+                    "skin": "res_view/xiuxin/icon_ad.png"
+                  },
+                  "compId": 110
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 622,
+            "x": 331,
+            "var": "pojinBtn",
+            "name": "pojinBtn"
+          },
+          "compId": 113,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -27,
+                "x": -47,
+                "visible": true,
+                "var": "pojinBtn_bg",
+                "skin": "res_view/xiuxin/btn_pj.png",
+                "name": "pojinBtn_bg"
+              },
+              "compId": 79
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "skin": "res_view/xiuxin/text_pj.png"
+              },
+              "compId": 80
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 113,
+            "x": 10,
+            "var": "cf_btn",
+            "skin": "res_view/xiuxin/icon_cifu.png"
+          },
+          "compId": 27
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 1017,
+            "x": 76,
+            "width": 598,
+            "visible": true,
+            "var": "btnBox",
+            "height": 136,
+            "gray": false,
+            "centerX": 0,
+            "alpha": 1
+          },
+          "compId": 6,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 75,
+                "x": 123,
+                "width": 281,
+                "var": "recoveryBtn",
+                "stateNum": 1,
+                "skin": "res_common/btn_hua_yellow.png",
+                "label": "label",
+                "height": 140,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 7,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 24,
+                    "text": "text",
+                    "skin": "res_view/xiuxin/btn_xiulian.png",
+                    "centerX": 1
+                  },
+                  "compId": 8
+                },
+                {
+                  "type": "HBox",
+                  "props": {
+                    "y": 78,
+                    "space": 5,
+                    "centerX": 0
+                  },
+                  "compId": 9,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "skin": "res_view/sg/text_sy.png"
+                      },
+                      "compId": 10
+                    },
+                    {
+                      "type": "Box",
+                      "props": {
+                        "y": 0,
+                        "x": 86
+                      },
+                      "compId": 11,
+                      "child": [
+                        {
+                          "type": "Text",
+                          "props": {
+                            "y": -1,
+                            "x": 0,
+                            "var": "xiunian_n",
+                            "text": "3",
+                            "stroke": 1,
+                            "name": "xiunian_n",
+                            "fontSize": 28,
+                            "color": "#ffffff",
+                            "runtime": "Laya.Text"
+                          },
+                          "compId": 55
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 96,
+                        "skin": "res_view/sg/text_c_.png"
+                      },
+                      "compId": 63
+                    }
+                  ]
+                },
+                {
+                  "type": "Script",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 14
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 75,
+                "x": 462,
+                "width": 281,
+                "var": "getRecoveryNum",
+                "stateNum": 1,
+                "skin": "res_common/btn_hua_green.png",
+                "label": "label",
+                "height": 140,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 15,
+              "child": [
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 31,
+                    "x": 58,
+                    "texture": "res_common/icon_ad1.png"
+                  },
+                  "compId": 16
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 24,
+                    "text": "text",
+                    "skin": "res_view/sg/text_mf_2.png",
+                    "centerX": 33
+                  },
+                  "compId": 17
+                },
+                {
+                  "type": "HBox",
+                  "props": {
+                    "y": 78,
+                    "space": 5,
+                    "centerX": 0
+                  },
+                  "compId": 18,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "skin": "res_view/sg/text_sy.png"
+                      },
+                      "compId": 19
+                    },
+                    {
+                      "type": "Box",
+                      "props": {},
+                      "compId": 20,
+                      "child": [
+                        {
+                          "type": "Text",
+                          "props": {
+                            "y": 0,
+                            "x": 0,
+                            "var": "shengyu_n",
+                            "text": "0",
+                            "stroke": 1,
+                            "name": "shengyu_n",
+                            "fontSize": 28,
+                            "color": "#ffffff",
+                            "runtime": "Laya.Text"
+                          },
+                          "compId": 64
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "skin": "res_view/sg/text_c_.png"
+                      },
+                      "compId": 22
+                    }
+                  ]
+                },
+                {
+                  "type": "Script",
+                  "props": {
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 23
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 983.5,
+            "x": 261,
+            "visible": false,
+            "var": "wlxb_btn",
+            "skin": "res_view/xiuxin/btn_wlxb.png"
+          },
+          "compId": 115,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 68.5,
+                "var": "wlxb",
+                "skin": "res_view/xiuxin/text_mianfei.png",
+                "name": "wlxb"
+              },
+              "compId": 116
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 984,
+            "x": 261,
+            "var": "anibox_3",
+            "name": "anibox_3"
+          },
+          "compId": 205,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -1149,
+                "x": -389,
+                "visible": false,
+                "var": "baoji_8",
+                "skin": "res_view/xiuxin/baoji/mask_baoji.png",
+                "name": "baoji_8"
+              },
+              "compId": 204
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -970,
+                "x": -67,
+                "visible": false,
+                "var": "baoji_7",
+                "skin": "res_view/xiuxin/img_bgz.png",
+                "name": "baoji_7"
+              },
+              "compId": 203
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -900,
+                "x": -209,
+                "var": "yuanshenanibgbox",
+                "name": "yuanshenanibgbox"
+              },
+              "compId": 206
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -850,
+                "x": 335,
+                "visible": false,
+                "var": "baoji_6",
+                "skin": "res_view/xiuxin/baoji/爆炸/序列帧/1_00.png",
+                "name": "baoji_6"
+              },
+              "compId": 202
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -463,
+                "x": 241,
+                "visible": false,
+                "var": "baoji_t",
+                "skin": "res_view/xiuxin/text_bjx.png",
+                "name": "baoji_t"
+              },
+              "compId": 111,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 5,
+                    "x": 136,
+                    "var": "baoji_num",
+                    "skin": "res_view/xiuxin/text_bj_5.png",
+                    "name": "baoji_num"
+                  },
+                  "compId": 112
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 5,
+                    "x": 173,
+                    "var": "baoji_num2",
+                    "skin": "res_view/xiuxin/text_bj_9.png",
+                    "name": "baoji_num2"
+                  },
+                  "compId": 196
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": -710,
+                "x": -265,
+                "width": 750,
+                "visible": false,
+                "var": "popup",
+                "height": 60
+              },
+              "compId": 122,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "width": 750,
+                    "var": "contextBg",
+                    "skin": "res_common/panel_text.png",
+                    "sizeGrid": "0,303,0,319",
+                    "height": 60,
+                    "centerY": 0,
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5,
+                    "alpha": 1
+                  },
+                  "compId": 123
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 15,
+                    "x": 119,
+                    "width": 539,
+                    "var": "TipText",
+                    "text": "你好你好你好年后",
+                    "name": "TipText",
+                    "height": 30,
+                    "fontSize": 30,
+                    "font": "Microsoft YaHei",
+                    "color": "#0bf40b",
+                    "align": "center"
+                  },
+                  "compId": 137
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -850,
+                "x": 335,
+                "visible": false,
+                "var": "baoji_2",
+                "skin": "res_view/xiuxin/baoji/爆炸/序列帧/1_00.png",
+                "name": "baoji_2"
+              },
+              "compId": 197
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -362,
+                "x": 56,
+                "visible": false,
+                "var": "baoji_3",
+                "skin": "res_view/xiuxin/baoji/ganwuqiu.png",
+                "name": "baoji_3"
+              },
+              "compId": 198
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -342,
+                "x": 72,
+                "visible": false,
+                "var": "baoji_wu",
+                "skin": "res_view/xiuxin/baoji/wu.png",
+                "name": "baoji_wu"
+              },
+              "compId": 200
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -850,
+                "x": 335,
+                "visible": false,
+                "var": "baoji_4",
+                "skin": "res_view/xiuxin/baoji/爆炸/序列帧/1_00.png",
+                "name": "baoji_4"
+              },
+              "compId": 199
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -850,
+                "x": 335,
+                "visible": false,
+                "var": "baoji_5",
+                "skin": "res_view/xiuxin/baoji/爆炸/序列帧/1_00.png",
+                "name": "baoji_5"
+              },
+              "compId": 201
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -362,
+                "x": 56,
+                "visible": false,
+                "var": "baoji_3s",
+                "skin": "res_view/xiuxin/baoji/ganwuqiu.png",
+                "name": "baoji_3s"
+              },
+              "compId": 207
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -342,
+                "x": 72,
+                "visible": false,
+                "var": "baoji_wus",
+                "skin": "res_view/xiuxin/baoji/wu.png",
+                "name": "baoji_wus"
+              },
+              "compId": 208
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -850,
+                "x": 335,
+                "visible": false,
+                "var": "baoji_4s",
+                "skin": "res_view/xiuxin/baoji/爆炸/序列帧/1_00.png",
+                "name": "baoji_4s"
+              },
+              "compId": 209
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -850,
+                "x": 335,
+                "visible": false,
+                "var": "baoji_5s",
+                "skin": "res_view/xiuxin/baoji/爆炸/序列帧/1_00.png",
+                "name": "baoji_5s"
+              },
+              "compId": 210
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 82,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 82,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 82,
+                "key": "alpha",
+                "index": 30
+              },
+              {
+                "value": 0.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 82,
+                "label": null,
+                "key": "alpha",
+                "index": 60
+              }
+            ]
+          }
+        }
+      ],
+      "name": "shenti",
+      "id": 1,
+      "frameRate": 24,
+      "action": 2
+    },
+    {
+      "nodes": [
+        {
+          "target": 44,
+          "keyframes": {
+            "y": [
+              {
+                "value": 700,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 44,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 680,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 44,
+                "key": "y",
+                "index": 45
+              },
+              {
+                "value": 700,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 44,
+                "label": null,
+                "key": "y",
+                "index": 90
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 44,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 44,
+                "key": "alpha",
+                "index": 25
+              },
+              {
+                "value": 0.4,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 44,
+                "key": "alpha",
+                "index": 45
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 44,
+                "key": "alpha",
+                "index": 70
+              },
+              {
+                "value": 0.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 44,
+                "key": "alpha",
+                "index": 90
+              }
+            ]
+          }
+        },
+        {
+          "target": 48,
+          "keyframes": {
+            "y": [
+              {
+                "value": 575,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 48,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 580,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 48,
+                "key": "y",
+                "index": 45
+              },
+              {
+                "value": 575,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 48,
+                "key": "y",
+                "index": 90
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 48,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 48,
+                "key": "alpha",
+                "index": 25
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 48,
+                "key": "alpha",
+                "index": 45
+              },
+              {
+                "value": 0.4,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 48,
+                "key": "alpha",
+                "index": 70
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 48,
+                "key": "alpha",
+                "index": 90
+              }
+            ]
+          }
+        },
+        {
+          "target": 47,
+          "keyframes": {
+            "y": [
+              {
+                "value": 600,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 47,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 590,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 47,
+                "key": "y",
+                "index": 45
+              },
+              {
+                "value": 600,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 47,
+                "key": "y",
+                "index": 90
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 47,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 47,
+                "key": "alpha",
+                "index": 25
+              },
+              {
+                "value": 0.6,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 47,
+                "key": "alpha",
+                "index": 45
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 47,
+                "key": "alpha",
+                "index": 70
+              },
+              {
+                "value": 0.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 47,
+                "key": "alpha",
+                "index": 90
+              }
+            ]
+          }
+        },
+        {
+          "target": 46,
+          "keyframes": {
+            "y": [
+              {
+                "value": 690,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 46,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 700,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 46,
+                "key": "y",
+                "index": 45
+              },
+              {
+                "value": 690,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 46,
+                "key": "y",
+                "index": 90
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 46,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 46,
+                "key": "alpha",
+                "index": 25
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 46,
+                "key": "alpha",
+                "index": 45
+              },
+              {
+                "value": 0.4,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 46,
+                "key": "alpha",
+                "index": 70
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 46,
+                "key": "alpha",
+                "index": 90
+              }
+            ]
+          }
+        }
+      ],
+      "name": "fawen",
+      "id": 2,
+      "frameRate": 24,
+      "action": 2
+    },
+    {
+      "nodes": [
+        {
+          "target": 86,
+          "keyframes": {
+            "y": [
+              {
+                "value": -279,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 86,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": -276,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 86,
+                "key": "y",
+                "index": 2
+              }
+            ],
+            "x": [
+              {
+                "value": -849,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 86,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": -849,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 86,
+                "key": "x",
+                "index": 2
+              }
+            ],
+            "skin": [
+              {
+                "value": "res_view/xiuxin/light_1/1_0000.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 86,
+                "key": "skin",
+                "index": 0
+              },
+              {
+                "value": "res_view/xiuxin/light_1/1_0001.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 86,
+                "key": "skin",
+                "index": 2
+              },
+              {
+                "value": "res_view/xiuxin/light_1/1_0002.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 86,
+                "key": "skin",
+                "index": 4
+              },
+              {
+                "value": "res_view/xiuxin/light_1/1_0003.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 86,
+                "key": "skin",
+                "index": 6
+              },
+              {
+                "value": "res_view/xiuxin/light_1/1_0004.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 86,
+                "key": "skin",
+                "index": 8
+              },
+              {
+                "value": "res_view/xiuxin/light_1/1_0005.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 86,
+                "key": "skin",
+                "index": 10
+              },
+              {
+                "value": "res_view/xiuxin/light_1/1_0006.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 86,
+                "key": "skin",
+                "index": 12
+              },
+              {
+                "value": "res_view/xiuxin/light_1/1_0007.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 86,
+                "key": "skin",
+                "index": 14
+              },
+              {
+                "value": "res_view/xiuxin/light_1/1_0008.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 86,
+                "key": "skin",
+                "index": 16
+              },
+              {
+                "value": "res_view/xiuxin/light_1/1_0009.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 86,
+                "key": "skin",
+                "index": 18
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 86,
+                "key": "scaleY",
+                "index": 0
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 2.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 86,
+                "key": "scaleX",
+                "index": 0
+              }
+            ]
+          }
+        }
+      ],
+      "name": "anilight_1",
+      "id": 3,
+      "frameRate": 24,
+      "action": 2
+    },
+    {
+      "nodes": [
+        {
+          "target": 87,
+          "keyframes": {
+            "y": [
+              {
+                "value": 545,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 87,
+                "key": "y",
+                "index": 0
+              }
+            ],
+            "x": [
+              {
+                "value": -218,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 87,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 87,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 87,
+                "key": "visible",
+                "index": 14
+              }
+            ],
+            "skin": [
+              {
+                "value": "res_view/xiuxin/tupo_4/132_02.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 87,
+                "key": "skin",
+                "index": 0
+              },
+              {
+                "value": "res_view/xiuxin/tupo_4/132_03.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 87,
+                "key": "skin",
+                "index": 2
+              },
+              {
+                "value": "res_view/xiuxin/tupo_4/132_04.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 87,
+                "key": "skin",
+                "index": 4
+              },
+              {
+                "value": "res_view/xiuxin/tupo_4/132_05.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 87,
+                "key": "skin",
+                "index": 6
+              },
+              {
+                "value": "res_view/xiuxin/tupo_4/132_06.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 87,
+                "key": "skin",
+                "index": 8
+              },
+              {
+                "value": "res_view/xiuxin/tupo_4/132_07.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 87,
+                "key": "skin",
+                "index": 10
+              },
+              {
+                "value": "res_view/xiuxin/tupo_4/132_08.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 87,
+                "key": "skin",
+                "index": 12
+              },
+              {
+                "value": "res_view/xiuxin/tupo_4/132_09.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 87,
+                "key": "skin",
+                "index": 14
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 87,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 87,
+                "key": "scaleY",
+                "index": 14
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 87,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 87,
+                "key": "scaleX",
+                "index": 14
+              }
+            ],
+            "pivotY": [
+              {
+                "value": 302,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 87,
+                "key": "pivotY",
+                "index": 0
+              }
+            ],
+            "pivotX": [
+              {
+                "value": 326,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 87,
+                "key": "pivotX",
+                "index": 0
+              }
+            ],
+            "gray": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 87,
+                "key": "gray",
+                "index": 0
+              }
+            ]
+          }
+        }
+      ],
+      "name": "anitupo_1",
+      "id": 4,
+      "frameRate": 24,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 88,
+          "keyframes": {
+            "y": [
+              {
+                "value": 507,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 88,
+                "key": "y",
+                "index": 0
+              }
+            ],
+            "x": [
+              {
+                "value": -271,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 88,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 88,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 88,
+                "key": "visible",
+                "index": 16
+              }
+            ],
+            "skin": [
+              {
+                "value": "res_view/xiuxin/tupo_1/di_00.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 88,
+                "key": "skin",
+                "index": 0
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/di_01.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 88,
+                "key": "skin",
+                "index": 2
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/di_02.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 88,
+                "key": "skin",
+                "index": 4
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/di_03.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 88,
+                "key": "skin",
+                "index": 6
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/di_04.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 88,
+                "key": "skin",
+                "index": 8
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/di_05.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 88,
+                "key": "skin",
+                "index": 10
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/di_06.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 88,
+                "key": "skin",
+                "index": 12
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/di_07.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 88,
+                "key": "skin",
+                "index": 14
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/di_08.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 88,
+                "key": "skin",
+                "index": 16
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 88,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 88,
+                "key": "alpha",
+                "index": 16
+              }
+            ]
+          }
+        },
+        {
+          "target": 89,
+          "keyframes": {
+            "y": [
+              {
+                "value": 763,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 754,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "y",
+                "index": 2
+              },
+              {
+                "value": 743,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "y",
+                "index": 4
+              },
+              {
+                "value": 727,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "y",
+                "index": 6
+              },
+              {
+                "value": 703,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "y",
+                "index": 8
+              }
+            ],
+            "x": [
+              {
+                "value": 26,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": -7,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "x",
+                "index": 2
+              },
+              {
+                "value": -32,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "x",
+                "index": 4
+              },
+              {
+                "value": -75,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "x",
+                "index": 6
+              },
+              {
+                "value": -176,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "x",
+                "index": 8
+              }
+            ],
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 89,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 89,
+                "key": "visible",
+                "index": 24
+              }
+            ],
+            "skin": [
+              {
+                "value": "res_view/xiuxin/tupo_1/huan_00.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 89,
+                "key": "skin",
+                "index": 0
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/huan_01.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 89,
+                "key": "skin",
+                "index": 2
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/huan_02.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 89,
+                "key": "skin",
+                "index": 4
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/huan_03.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 89,
+                "key": "skin",
+                "index": 6
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/huan_04.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 89,
+                "key": "skin",
+                "index": 8
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/huan_05.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 89,
+                "key": "skin",
+                "index": 10
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/huan_06.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 89,
+                "key": "skin",
+                "index": 12
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/huan_07.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 89,
+                "key": "skin",
+                "index": 14
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/huan_08.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 89,
+                "label": null,
+                "key": "skin",
+                "index": 16
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/huan_09.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 89,
+                "label": null,
+                "key": "skin",
+                "index": 18
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/huan_10.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 89,
+                "label": null,
+                "key": "skin",
+                "index": 20
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/huan_11.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 89,
+                "label": null,
+                "key": "skin",
+                "index": 22
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/huan_12.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 89,
+                "label": null,
+                "key": "skin",
+                "index": 24
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 0.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 0.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "scaleY",
+                "index": 2
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "scaleY",
+                "index": 4
+              },
+              {
+                "value": 1.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "scaleY",
+                "index": 6
+              },
+              {
+                "value": 2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "scaleY",
+                "index": 8
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 0.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 0.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "scaleX",
+                "index": 2
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "scaleX",
+                "index": 4
+              },
+              {
+                "value": 1.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "scaleX",
+                "index": 6
+              },
+              {
+                "value": 2.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "scaleX",
+                "index": 8
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "alpha",
+                "index": 8
+              }
+            ]
+          }
+        },
+        {
+          "target": 90,
+          "keyframes": {
+            "y": [
+              {
+                "value": 211,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 90,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 211,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 90,
+                "key": "y",
+                "index": 3
+              },
+              {
+                "value": 211,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 90,
+                "key": "y",
+                "index": 6
+              },
+              {
+                "value": 211,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 90,
+                "key": "y",
+                "index": 9
+              },
+              {
+                "value": 211,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 90,
+                "key": "y",
+                "index": 12
+              },
+              {
+                "value": 211,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 90,
+                "key": "y",
+                "index": 15
+              },
+              {
+                "value": 211,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 90,
+                "key": "y",
+                "index": 18
+              }
+            ],
+            "x": [
+              {
+                "value": -705,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 90,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": -705,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 90,
+                "key": "x",
+                "index": 3
+              },
+              {
+                "value": -705,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 90,
+                "key": "x",
+                "index": 6
+              },
+              {
+                "value": -705,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 90,
+                "key": "x",
+                "index": 9
+              },
+              {
+                "value": -705,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 90,
+                "key": "x",
+                "index": 12
+              },
+              {
+                "value": -705,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 90,
+                "key": "x",
+                "index": 15
+              },
+              {
+                "value": -705,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 90,
+                "key": "x",
+                "index": 18
+              }
+            ],
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 90,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 90,
+                "key": "visible",
+                "index": 21
+              }
+            ],
+            "skin": [
+              {
+                "value": "res_view/xiuxin/tupo_2/03_0018.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 90,
+                "key": "skin",
+                "index": 0
+              },
+              {
+                "value": "res_view/xiuxin/tupo_2/03_0019.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 90,
+                "key": "skin",
+                "index": 3
+              },
+              {
+                "value": "res_view/xiuxin/tupo_2/03_0020.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 90,
+                "key": "skin",
+                "index": 6
+              },
+              {
+                "value": "res_view/xiuxin/tupo_2/03_0021.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 90,
+                "key": "skin",
+                "index": 9
+              },
+              {
+                "value": "res_view/xiuxin/tupo_2/03_0022.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 90,
+                "key": "skin",
+                "index": 12
+              },
+              {
+                "value": "res_view/xiuxin/tupo_2/03_0023.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 90,
+                "key": "skin",
+                "index": 15
+              },
+              {
+                "value": "res_view/xiuxin/tupo_2/03_0024.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 90,
+                "key": "skin",
+                "index": 18
+              },
+              {
+                "value": "res_view/xiuxin/tupo_2/03_0025.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 90,
+                "key": "skin",
+                "index": 21
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 90,
+                "key": "scaleY",
+                "index": 0
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 2.2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 90,
+                "key": "scaleX",
+                "index": 0
+              }
+            ]
+          }
+        }
+      ],
+      "name": "anitupo_234",
+      "id": 5,
+      "frameRate": 24,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 91,
+          "keyframes": {
+            "y": [
+              {
+                "value": 702,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 91,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 612,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 91,
+                "key": "y",
+                "index": 1
+              },
+              {
+                "value": 495,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 91,
+                "key": "y",
+                "index": 2
+              },
+              {
+                "value": 334,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 91,
+                "key": "y",
+                "index": 3
+              },
+              {
+                "value": 50,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 91,
+                "key": "y",
+                "index": 6
+              }
+            ],
+            "x": [
+              {
+                "value": 30,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 91,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": -30,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 91,
+                "key": "x",
+                "index": 1
+              },
+              {
+                "value": -165,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 91,
+                "key": "x",
+                "index": 2
+              },
+              {
+                "value": -320,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 91,
+                "key": "x",
+                "index": 3
+              },
+              {
+                "value": -925,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 91,
+                "key": "x",
+                "index": 6
+              }
+            ],
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 91,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 91,
+                "key": "visible",
+                "index": 18
+              }
+            ],
+            "skin": [
+              {
+                "value": "res_view/xiuxin/xiuxin_1/1_0000.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 91,
+                "key": "skin",
+                "index": 0
+              },
+              {
+                "value": "res_view/xiuxin/xiuxin_1/1_0001.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 91,
+                "key": "skin",
+                "index": 1
+              },
+              {
+                "value": "res_view/xiuxin/xiuxin_1/1_0002.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 91,
+                "key": "skin",
+                "index": 2
+              },
+              {
+                "value": "res_view/xiuxin/xiuxin_1/1_0003.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 91,
+                "key": "skin",
+                "index": 3
+              },
+              {
+                "value": "res_view/xiuxin/xiuxin_1/1_0004.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 91,
+                "key": "skin",
+                "index": 6
+              },
+              {
+                "value": "res_view/xiuxin/xiuxin_1/1_0005.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 91,
+                "key": "skin",
+                "index": 10
+              },
+              {
+                "value": "res_view/xiuxin/xiuxin_1/1_0006.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 91,
+                "key": "skin",
+                "index": 12
+              },
+              {
+                "value": "res_view/xiuxin/xiuxin_1/1_0007.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 91,
+                "key": "skin",
+                "index": 14
+              },
+              {
+                "value": "res_view/xiuxin/xiuxin_1/1_0008.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 91,
+                "key": "skin",
+                "index": 16
+              },
+              {
+                "value": "res_view/xiuxin/xiuxin_1/1_0009.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 91,
+                "key": "skin",
+                "index": 18
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 0.2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 91,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 0.6,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 91,
+                "key": "scaleY",
+                "index": 1
+              },
+              {
+                "value": 1.2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 91,
+                "key": "scaleY",
+                "index": 2
+              },
+              {
+                "value": 2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 91,
+                "key": "scaleY",
+                "index": 3
+              },
+              {
+                "value": 3.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 91,
+                "key": "scaleY",
+                "index": 6
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 0.2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 91,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 0.6,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 91,
+                "key": "scaleX",
+                "index": 1
+              },
+              {
+                "value": 1.2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 91,
+                "key": "scaleX",
+                "index": 2
+              },
+              {
+                "value": 2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 91,
+                "key": "scaleX",
+                "index": 3
+              },
+              {
+                "value": 5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 91,
+                "key": "scaleX",
+                "index": 6
+              }
+            ]
+          }
+        },
+        {
+          "target": 93,
+          "keyframes": {
+            "y": [
+              {
+                "value": -56,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 93,
+                "key": "y",
+                "index": 0
+              }
+            ],
+            "x": [
+              {
+                "value": -921,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 93,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 93,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 93,
+                "key": "visible",
+                "index": 18
+              }
+            ],
+            "skin": [
+              {
+                "value": "res_view/xiuxin/xiuxin_2/100000.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 93,
+                "key": "skin",
+                "index": 0
+              },
+              {
+                "value": "res_view/xiuxin/xiuxin_2/100001.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 93,
+                "key": "skin",
+                "index": 2
+              },
+              {
+                "value": "res_view/xiuxin/xiuxin_2/100002.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 93,
+                "key": "skin",
+                "index": 4
+              },
+              {
+                "value": "res_view/xiuxin/xiuxin_2/100003.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 93,
+                "key": "skin",
+                "index": 6
+              },
+              {
+                "value": "res_view/xiuxin/xiuxin_2/100004.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 93,
+                "key": "skin",
+                "index": 8
+              },
+              {
+                "value": "res_view/xiuxin/xiuxin_2/100005.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 93,
+                "key": "skin",
+                "index": 10
+              },
+              {
+                "value": "res_view/xiuxin/xiuxin_2/100006.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 93,
+                "key": "skin",
+                "index": 12
+              },
+              {
+                "value": "res_view/xiuxin/xiuxin_2/100007.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 93,
+                "key": "skin",
+                "index": 14
+              },
+              {
+                "value": "res_view/xiuxin/xiuxin_2/100008.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 93,
+                "key": "skin",
+                "index": 16
+              },
+              {
+                "value": "res_view/xiuxin/xiuxin_2/100009.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 93,
+                "key": "skin",
+                "index": 18
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 93,
+                "key": "scaleY",
+                "index": 0
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 93,
+                "key": "scaleX",
+                "index": 0
+              }
+            ]
+          }
+        }
+      ],
+      "name": "anitopo_56",
+      "id": 6,
+      "frameRate": 24,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 111,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 111,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 111,
+                "key": "visible",
+                "index": 15
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 111,
+                "key": "visible",
+                "index": 20
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 0.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 111,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 111,
+                "key": "scaleY",
+                "index": 5
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 111,
+                "key": "scaleY",
+                "index": 15
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 111,
+                "key": "scaleY",
+                "index": 18
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 111,
+                "key": "scaleY",
+                "index": 20
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 0.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 111,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 111,
+                "key": "scaleX",
+                "index": 5
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 111,
+                "key": "scaleX",
+                "index": 15
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 111,
+                "key": "scaleX",
+                "index": 18
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 111,
+                "key": "scaleX",
+                "index": 20
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 111,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 111,
+                "key": "alpha",
+                "index": 15
+              },
+              {
+                "value": 0.1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 111,
+                "key": "alpha",
+                "index": 20
+              }
+            ]
+          }
+        }
+      ],
+      "name": "baoji",
+      "id": 7,
+      "frameRate": 24,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 79,
+          "keyframes": {
+            "y": [
+              {
+                "value": 64,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 79,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 64,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 79,
+                "label": null,
+                "key": "y",
+                "index": 80
+              }
+            ],
+            "x": [
+              {
+                "value": 43,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 79,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 43,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 79,
+                "label": null,
+                "key": "x",
+                "index": 80
+              }
+            ],
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 79,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 79,
+                "label": null,
+                "key": "visible",
+                "index": 80
+              }
+            ],
+            "rotation": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 79,
+                "key": "rotation",
+                "index": 0
+              },
+              {
+                "value": 181,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 79,
+                "key": "rotation",
+                "index": 40
+              },
+              {
+                "value": 360,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 79,
+                "label": null,
+                "key": "rotation",
+                "index": 80
+              }
+            ],
+            "pivotY": [
+              {
+                "value": 91,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 79,
+                "key": "pivotY",
+                "index": 0
+              },
+              {
+                "value": 91,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 79,
+                "label": null,
+                "key": "pivotY",
+                "index": 80
+              }
+            ],
+            "pivotX": [
+              {
+                "value": 90,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 79,
+                "key": "pivotX",
+                "index": 0
+              },
+              {
+                "value": 90,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 79,
+                "label": null,
+                "key": "pivotX",
+                "index": 80
+              }
+            ],
+            "name": [
+              {
+                "value": "pojinBtn",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 79,
+                "key": "name",
+                "index": 0
+              },
+              {
+                "value": "pojin_bg",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 79,
+                "key": "name",
+                "index": 40
+              },
+              {
+                "value": "pojinBtn",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 79,
+                "label": null,
+                "key": "name",
+                "index": 80
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani_pojin",
+      "id": 8,
+      "frameRate": 24,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 107,
+          "keyframes": {
+            "y": [
+              {
+                "value": 684,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 107,
+                "key": "y",
+                "index": 0
+              }
+            ],
+            "x": [
+              {
+                "value": 374,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 107,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 107,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 107,
+                "key": "visible",
+                "index": 21
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 107,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 0.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 107,
+                "key": "scaleY",
+                "index": 20
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 107,
+                "key": "scaleY",
+                "index": 21
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 107,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 0.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 107,
+                "key": "scaleX",
+                "index": 20
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 107,
+                "key": "scaleX",
+                "index": 21
+              }
+            ],
+            "pivotY": [
+              {
+                "value": 58,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 107,
+                "key": "pivotY",
+                "index": 0
+              }
+            ],
+            "pivotX": [
+              {
+                "value": 73,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 107,
+                "key": "pivotX",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 107,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 107,
+                "key": "alpha",
+                "index": 20
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 107,
+                "key": "alpha",
+                "index": 21
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani_adtupo",
+      "id": 9,
+      "frameRate": 24,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 65,
+          "keyframes": {
+            "y": [
+              {
+                "value": 678,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 65,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 678,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 65,
+                "key": "y",
+                "index": 20
+              }
+            ],
+            "x": [
+              {
+                "value": 371,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 65,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 371,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 65,
+                "key": "x",
+                "index": 20
+              }
+            ],
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 65,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 65,
+                "key": "visible",
+                "index": 20
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 65,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 0.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 65,
+                "key": "scaleY",
+                "index": 20
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 65,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 0.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 65,
+                "key": "scaleX",
+                "index": 20
+              }
+            ],
+            "pivotY": [
+              {
+                "value": 58,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 65,
+                "key": "pivotY",
+                "index": 0
+              },
+              {
+                "value": 58,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 65,
+                "key": "pivotY",
+                "index": 20
+              }
+            ],
+            "pivotX": [
+              {
+                "value": 73,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 65,
+                "key": "pivotX",
+                "index": 0
+              },
+              {
+                "value": 73,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 65,
+                "key": "pivotX",
+                "index": 20
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 65,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 65,
+                "key": "alpha",
+                "index": 20
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani_tupo",
+      "id": 10,
+      "frameRate": 24,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 88,
+          "keyframes": {
+            "y": [
+              {
+                "value": 507,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 88,
+                "key": "y",
+                "index": 0
+              }
+            ],
+            "x": [
+              {
+                "value": -271,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 88,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 88,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 88,
+                "key": "visible",
+                "index": 16
+              }
+            ],
+            "skin": [
+              {
+                "value": "res_view/xiuxin/tupo_1/di_00.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 88,
+                "key": "skin",
+                "index": 0
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/di_01.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 88,
+                "key": "skin",
+                "index": 2
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/di_02.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 88,
+                "key": "skin",
+                "index": 4
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/di_03.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 88,
+                "key": "skin",
+                "index": 6
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/di_04.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 88,
+                "key": "skin",
+                "index": 8
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/di_05.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 88,
+                "key": "skin",
+                "index": 10
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/di_06.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 88,
+                "key": "skin",
+                "index": 12
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/di_07.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 88,
+                "key": "skin",
+                "index": 14
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/di_08.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 88,
+                "key": "skin",
+                "index": 16
+              }
+            ],
+            "gray": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 88,
+                "key": "gray",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 88,
+                "key": "gray",
+                "index": 17
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 88,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 88,
+                "key": "alpha",
+                "index": 16
+              }
+            ]
+          }
+        },
+        {
+          "target": 89,
+          "keyframes": {
+            "y": [
+              {
+                "value": 763,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 754,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "y",
+                "index": 2
+              },
+              {
+                "value": 743,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "y",
+                "index": 4
+              },
+              {
+                "value": 727,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "y",
+                "index": 6
+              },
+              {
+                "value": 703,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "y",
+                "index": 8
+              }
+            ],
+            "x": [
+              {
+                "value": 26,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": -7,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "x",
+                "index": 2
+              },
+              {
+                "value": -32,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "x",
+                "index": 4
+              },
+              {
+                "value": -75,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "x",
+                "index": 6
+              },
+              {
+                "value": -176,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "x",
+                "index": 8
+              }
+            ],
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 89,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 89,
+                "key": "visible",
+                "index": 24
+              }
+            ],
+            "skin": [
+              {
+                "value": "res_view/xiuxin/tupo_1/huan_00.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 89,
+                "key": "skin",
+                "index": 0
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/huan_01.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 89,
+                "key": "skin",
+                "index": 2
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/huan_02.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 89,
+                "key": "skin",
+                "index": 4
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/huan_03.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 89,
+                "key": "skin",
+                "index": 6
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/huan_04.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 89,
+                "key": "skin",
+                "index": 8
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/huan_05.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 89,
+                "key": "skin",
+                "index": 10
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/huan_06.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 89,
+                "key": "skin",
+                "index": 12
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/huan_07.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 89,
+                "key": "skin",
+                "index": 14
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/huan_08.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 89,
+                "label": null,
+                "key": "skin",
+                "index": 16
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/huan_09.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 89,
+                "label": null,
+                "key": "skin",
+                "index": 18
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/huan_10.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 89,
+                "label": null,
+                "key": "skin",
+                "index": 20
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/huan_11.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 89,
+                "label": null,
+                "key": "skin",
+                "index": 22
+              },
+              {
+                "value": "res_view/xiuxin/tupo_1/huan_12.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 89,
+                "label": null,
+                "key": "skin",
+                "index": 24
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 0.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 0.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "scaleY",
+                "index": 2
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "scaleY",
+                "index": 4
+              },
+              {
+                "value": 1.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "scaleY",
+                "index": 6
+              },
+              {
+                "value": 2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "scaleY",
+                "index": 8
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 0.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 0.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "scaleX",
+                "index": 2
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "scaleX",
+                "index": 4
+              },
+              {
+                "value": 1.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "scaleX",
+                "index": 6
+              },
+              {
+                "value": 2.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "scaleX",
+                "index": 8
+              }
+            ],
+            "gray": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 89,
+                "key": "gray",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 89,
+                "key": "gray",
+                "index": 25
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 89,
+                "key": "alpha",
+                "index": 8
+              }
+            ]
+          }
+        },
+        {
+          "target": 90,
+          "keyframes": {
+            "y": [
+              {
+                "value": 211,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 90,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 211,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 90,
+                "key": "y",
+                "index": 3
+              },
+              {
+                "value": 211,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 90,
+                "key": "y",
+                "index": 6
+              },
+              {
+                "value": 211,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 90,
+                "key": "y",
+                "index": 9
+              },
+              {
+                "value": 211,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 90,
+                "key": "y",
+                "index": 12
+              },
+              {
+                "value": 211,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 90,
+                "key": "y",
+                "index": 15
+              },
+              {
+                "value": 211,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 90,
+                "key": "y",
+                "index": 18
+              }
+            ],
+            "x": [
+              {
+                "value": -705,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 90,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": -705,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 90,
+                "key": "x",
+                "index": 3
+              },
+              {
+                "value": -705,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 90,
+                "key": "x",
+                "index": 6
+              },
+              {
+                "value": -705,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 90,
+                "key": "x",
+                "index": 9
+              },
+              {
+                "value": -705,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 90,
+                "key": "x",
+                "index": 12
+              },
+              {
+                "value": -705,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 90,
+                "key": "x",
+                "index": 15
+              },
+              {
+                "value": -705,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 90,
+                "key": "x",
+                "index": 18
+              }
+            ],
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 90,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 90,
+                "key": "visible",
+                "index": 21
+              }
+            ],
+            "skin": [
+              {
+                "value": "res_view/xiuxin/tupo_2/03_0018.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 90,
+                "key": "skin",
+                "index": 0
+              },
+              {
+                "value": "res_view/xiuxin/tupo_2/03_0019.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 90,
+                "key": "skin",
+                "index": 3
+              },
+              {
+                "value": "res_view/xiuxin/tupo_2/03_0020.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 90,
+                "key": "skin",
+                "index": 6
+              },
+              {
+                "value": "res_view/xiuxin/tupo_2/03_0021.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 90,
+                "key": "skin",
+                "index": 9
+              },
+              {
+                "value": "res_view/xiuxin/tupo_2/03_0022.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 90,
+                "key": "skin",
+                "index": 12
+              },
+              {
+                "value": "res_view/xiuxin/tupo_2/03_0023.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 90,
+                "key": "skin",
+                "index": 15
+              },
+              {
+                "value": "res_view/xiuxin/tupo_2/03_0024.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 90,
+                "key": "skin",
+                "index": 18
+              },
+              {
+                "value": "res_view/xiuxin/tupo_2/03_0025.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 90,
+                "key": "skin",
+                "index": 21
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 90,
+                "key": "scaleY",
+                "index": 0
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 2.2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 90,
+                "key": "scaleX",
+                "index": 0
+              }
+            ],
+            "gray": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 90,
+                "key": "gray",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 90,
+                "key": "gray",
+                "index": 22
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani_tupoLose",
+      "id": 5,
+      "frameRate": 24,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 122,
+          "keyframes": {
+            "y": [
+              {
+                "value": -603,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": -729,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "y",
+                "index": 10
+              },
+              {
+                "value": -772,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "y",
+                "index": 23
+              }
+            ],
+            "x": [
+              {
+                "value": -264,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": -264,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "x",
+                "index": 10
+              },
+              {
+                "value": -264,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "x",
+                "index": 20
+              },
+              {
+                "value": -264,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "x",
+                "index": 23
+              }
+            ],
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "visible",
+                "index": 20
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "visible",
+                "index": 23
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "alpha",
+                "index": 20
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "alpha",
+                "index": 23
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani_ziti",
+      "id": 11,
+      "frameRate": 24,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 198,
+          "keyframes": {
+            "y": [
+              {
+                "value": -302,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 198,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": -288,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 198,
+                "key": "y",
+                "index": 20
+              }
+            ],
+            "x": [
+              {
+                "value": 111,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 198,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": -110,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 198,
+                "key": "x",
+                "index": 20
+              }
+            ],
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 198,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 198,
+                "key": "visible",
+                "index": 21
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 0.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 198,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 198,
+                "key": "scaleY",
+                "index": 20
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 0.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 198,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 198,
+                "key": "scaleX",
+                "index": 20
+              }
+            ],
+            "rotation": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 198,
+                "key": "rotation",
+                "index": 0
+              },
+              {
+                "value": 90,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 198,
+                "key": "rotation",
+                "index": 20
+              }
+            ],
+            "pivotY": [
+              {
+                "value": 57,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 198,
+                "key": "pivotY",
+                "index": 0
+              }
+            ],
+            "pivotX": [
+              {
+                "value": 55,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 198,
+                "key": "pivotX",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0.4,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 198,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 198,
+                "key": "alpha",
+                "index": 20
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 198,
+                "key": "alpha",
+                "index": 21
+              }
+            ]
+          }
+        },
+        {
+          "target": 200,
+          "keyframes": {
+            "y": [
+              {
+                "value": -302,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 200,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": -288,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 200,
+                "key": "y",
+                "index": 20
+              }
+            ],
+            "x": [
+              {
+                "value": 111,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 200,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": -110,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 200,
+                "key": "x",
+                "index": 20
+              }
+            ],
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 200,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 200,
+                "key": "visible",
+                "index": 21
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 0.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 200,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 200,
+                "key": "scaleY",
+                "index": 20
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 0.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 200,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 200,
+                "key": "scaleX",
+                "index": 20
+              }
+            ],
+            "pivotY": [
+              {
+                "value": 37,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 200,
+                "key": "pivotY",
+                "index": 0
+              }
+            ],
+            "pivotX": [
+              {
+                "value": 39,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 200,
+                "key": "pivotX",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0.4,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 200,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 200,
+                "key": "alpha",
+                "index": 20
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 200,
+                "key": "alpha",
+                "index": 21
+              }
+            ]
+          }
+        },
+        {
+          "target": 199,
+          "keyframes": {
+            "y": [
+              {
+                "value": -360.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 199,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": -400,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 199,
+                "key": "y",
+                "index": 21
+              }
+            ],
+            "x": [
+              {
+                "value": -193,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 199,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": -201.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 199,
+                "key": "x",
+                "index": 21
+              }
+            ],
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 199,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 199,
+                "key": "visible",
+                "index": 21
+              }
+            ],
+            "skin": [
+              {
+                "value": "res_view/xiuxin/baoji/爆炸/序列帧/1_00.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 199,
+                "key": "skin",
+                "index": 0
+              },
+              {
+                "value": "res_view/xiuxin/baoji/baozha/1_00.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 199,
+                "key": "skin",
+                "index": 21
+              },
+              {
+                "value": "res_view/xiuxin/baoji/baozha/1_01.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 199,
+                "key": "skin",
+                "index": 22
+              },
+              {
+                "value": "res_view/xiuxin/baoji/baozha/1_02.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 199,
+                "key": "skin",
+                "index": 23
+              },
+              {
+                "value": "res_view/xiuxin/baoji/baozha/1_03.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 199,
+                "key": "skin",
+                "index": 24
+              },
+              {
+                "value": "res_view/xiuxin/baoji/baozha/1_04.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 199,
+                "key": "skin",
+                "index": 25
+              },
+              {
+                "value": "res_view/xiuxin/baoji/baozha/1_05.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 199,
+                "key": "skin",
+                "index": 26
+              },
+              {
+                "value": "res_view/xiuxin/baoji/baozha/1_06.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 199,
+                "key": "skin",
+                "index": 27
+              },
+              {
+                "value": "res_view/xiuxin/baoji/baozha/1_07.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 199,
+                "key": "skin",
+                "index": 28
+              }
+            ]
+          }
+        },
+        {
+          "target": 201,
+          "keyframes": {
+            "y": [
+              {
+                "value": -419,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 201,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": -400,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 201,
+                "key": "y",
+                "index": 22
+              },
+              {
+                "value": -400,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 201,
+                "key": "y",
+                "index": 23
+              }
+            ],
+            "x": [
+              {
+                "value": -138,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 201,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": -25,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 201,
+                "key": "x",
+                "index": 22
+              },
+              {
+                "value": -25,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 201,
+                "key": "x",
+                "index": 23
+              }
+            ],
+            "width": [
+              {
+                "value": 183,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 201,
+                "key": "width",
+                "index": 0
+              }
+            ],
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 201,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 201,
+                "key": "visible",
+                "index": 22
+              }
+            ],
+            "skin": [
+              {
+                "value": "res_view/xiuxin/baoji/爆炸/序列帧/1_00.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 201,
+                "key": "skin",
+                "index": 0
+              },
+              {
+                "value": "res_view/xiuxin/baoji/tuowei/pd10001.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 201,
+                "key": "skin",
+                "index": 22
+              },
+              {
+                "value": "res_view/xiuxin/baoji/tuowei/pd10002.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 201,
+                "key": "skin",
+                "index": 23
+              },
+              {
+                "value": "res_view/xiuxin/baoji/tuowei/pd10003.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 201,
+                "key": "skin",
+                "index": 24
+              },
+              {
+                "value": "res_view/xiuxin/baoji/tuowei/pd10004.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 201,
+                "key": "skin",
+                "index": 25
+              },
+              {
+                "value": "res_view/xiuxin/baoji/tuowei/pd10005.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 201,
+                "key": "skin",
+                "index": 26
+              },
+              {
+                "value": "res_view/xiuxin/baoji/tuowei/pd10006.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 201,
+                "key": "skin",
+                "index": 27
+              },
+              {
+                "value": "res_view/xiuxin/baoji/tuowei/pd10007.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 201,
+                "key": "skin",
+                "index": 28
+              },
+              {
+                "value": "res_view/xiuxin/baoji/tuowei/pd10008.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 201,
+                "key": "skin",
+                "index": 29
+              },
+              {
+                "value": "res_view/xiuxin/baoji/tuowei/pd10009.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 201,
+                "key": "skin",
+                "index": 30
+              }
+            ],
+            "skewY": [
+              {
+                "value": 180,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 201,
+                "key": "skewY",
+                "index": 0
+              },
+              {
+                "value": 180,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 201,
+                "key": "skewY",
+                "index": 22
+              },
+              {
+                "value": 180,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 201,
+                "key": "skewY",
+                "index": 23
+              }
+            ],
+            "skewX": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 201,
+                "key": "skewX",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 201,
+                "key": "skewX",
+                "index": 23
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 201,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 201,
+                "key": "scaleY",
+                "index": 22
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 201,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 201,
+                "key": "scaleX",
+                "index": 22
+              }
+            ],
+            "rotation": [
+              {
+                "value": 242,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 201,
+                "key": "rotation",
+                "index": 0
+              },
+              {
+                "value": 140,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 201,
+                "key": "rotation",
+                "index": 22
+              },
+              {
+                "value": 140,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 201,
+                "key": "rotation",
+                "index": 23
+              }
+            ],
+            "pivotY": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 201,
+                "key": "pivotY",
+                "index": 0
+              },
+              {
+                "value": 96,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 201,
+                "key": "pivotY",
+                "index": 22
+              }
+            ],
+            "pivotX": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 201,
+                "key": "pivotX",
+                "index": 0
+              },
+              {
+                "value": 92,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 201,
+                "key": "pivotX",
+                "index": 22
+              }
+            ],
+            "height": [
+              {
+                "value": 191,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 201,
+                "key": "height",
+                "index": 0
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani_baoji3",
+      "id": 12,
+      "frameRate": 24,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 202,
+          "keyframes": {
+            "y": [
+              {
+                "value": -525,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 202,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": -521,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 202,
+                "key": "y",
+                "index": 5
+              }
+            ],
+            "x": [
+              {
+                "value": -150,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 202,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": -149,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 202,
+                "key": "x",
+                "index": 5
+              }
+            ],
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 202,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 202,
+                "key": "visible",
+                "index": 5
+              }
+            ],
+            "skin": [
+              {
+                "value": "res_view/xiuxin/baoji/ganwuren.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 202,
+                "key": "skin",
+                "index": 0
+              },
+              {
+                "value": "res_view/xiuxin/baoji/ganwuren.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 202,
+                "key": "skin",
+                "index": 5
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 202,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 202,
+                "key": "alpha",
+                "index": 5
+              }
+            ]
+          }
+        },
+        {
+          "target": 204,
+          "keyframes": {
+            "x": [
+              {
+                "value": -389,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 204,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": -385,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 204,
+                "key": "x",
+                "index": 5
+              }
+            ],
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 204,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 204,
+                "key": "visible",
+                "index": 5
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 204,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 204,
+                "key": "alpha",
+                "index": 5
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani_baoji4",
+      "id": 13,
+      "frameRate": 24,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 202,
+          "keyframes": {
+            "y": [
+              {
+                "value": -521,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 202,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": -521,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 202,
+                "label": null,
+                "key": "y",
+                "index": 5
+              }
+            ],
+            "x": [
+              {
+                "value": -149,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 202,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": -149,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 202,
+                "label": null,
+                "key": "x",
+                "index": 5
+              }
+            ],
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 202,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 202,
+                "label": null,
+                "key": "visible",
+                "index": 5
+              }
+            ],
+            "skin": [
+              {
+                "value": "res_view/xiuxin/baoji/ganwuren.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 202,
+                "key": "skin",
+                "index": 0
+              },
+              {
+                "value": "res_view/xiuxin/baoji/ganwuren.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 202,
+                "label": null,
+                "key": "skin",
+                "index": 5
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 202,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 202,
+                "key": "alpha",
+                "index": 5
+              }
+            ]
+          }
+        },
+        {
+          "target": 204,
+          "keyframes": {
+            "x": [
+              {
+                "value": -385,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 204,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": -385,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 204,
+                "label": null,
+                "key": "x",
+                "index": 5
+              }
+            ],
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 204,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 204,
+                "label": null,
+                "key": "visible",
+                "index": 5
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 204,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 204,
+                "key": "alpha",
+                "index": 5
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani_baoji4_end",
+      "id": 13,
+      "frameRate": 24,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 203,
+          "keyframes": {
+            "y": [
+              {
+                "value": -828,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 203,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": -828,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 203,
+                "key": "y",
+                "index": 10
+              }
+            ],
+            "x": [
+              {
+                "value": 111,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 203,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 111,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 203,
+                "key": "x",
+                "index": 10
+              }
+            ],
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 203,
+                "key": "visible",
+                "index": 0
+              }
+            ],
+            "rotation": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 203,
+                "key": "rotation",
+                "index": 0
+              },
+              {
+                "value": 180,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 203,
+                "key": "rotation",
+                "index": 10
+              },
+              {
+                "value": 360,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 203,
+                "key": "rotation",
+                "index": 20
+              }
+            ],
+            "pivotY": [
+              {
+                "value": 178,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 203,
+                "key": "pivotY",
+                "index": 0
+              },
+              {
+                "value": 178,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 203,
+                "key": "pivotY",
+                "index": 10
+              }
+            ],
+            "pivotX": [
+              {
+                "value": 178,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 203,
+                "key": "pivotX",
+                "index": 0
+              },
+              {
+                "value": 178,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 203,
+                "key": "pivotX",
+                "index": 10
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani_yuanhuan",
+      "id": 13,
+      "frameRate": 24,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 207,
+          "keyframes": {
+            "y": [
+              {
+                "value": -302,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 207,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": -393,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 207,
+                "label": null,
+                "key": "y",
+                "index": 20
+              }
+            ],
+            "x": [
+              {
+                "value": 111,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 207,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 307.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 207,
+                "label": null,
+                "key": "x",
+                "index": 20
+              }
+            ],
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 207,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 207,
+                "label": null,
+                "key": "visible",
+                "index": 21
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 0.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 207,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 207,
+                "label": null,
+                "key": "scaleY",
+                "index": 20
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 0.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 207,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 207,
+                "label": null,
+                "key": "scaleX",
+                "index": 20
+              }
+            ],
+            "rotation": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 207,
+                "key": "rotation",
+                "index": 0
+              },
+              {
+                "value": 90,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 207,
+                "label": null,
+                "key": "rotation",
+                "index": 20
+              }
+            ],
+            "pivotY": [
+              {
+                "value": 57,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 207,
+                "key": "pivotY",
+                "index": 0
+              }
+            ],
+            "pivotX": [
+              {
+                "value": 55,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 207,
+                "key": "pivotX",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0.4,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 207,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 207,
+                "label": null,
+                "key": "alpha",
+                "index": 20
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 207,
+                "label": null,
+                "key": "alpha",
+                "index": 21
+              }
+            ]
+          }
+        },
+        {
+          "target": 208,
+          "keyframes": {
+            "y": [
+              {
+                "value": -302,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 208,
+                "label": null,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": -373.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 208,
+                "label": null,
+                "key": "y",
+                "index": 20
+              }
+            ],
+            "x": [
+              {
+                "value": 111,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 208,
+                "label": null,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 324,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 208,
+                "label": null,
+                "key": "x",
+                "index": 20
+              }
+            ],
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 208,
+                "label": null,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 208,
+                "label": null,
+                "key": "visible",
+                "index": 21
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 0.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 208,
+                "label": null,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 208,
+                "label": null,
+                "key": "scaleY",
+                "index": 20
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 0.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 208,
+                "label": null,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 208,
+                "label": null,
+                "key": "scaleX",
+                "index": 20
+              }
+            ],
+            "rotation": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 208,
+                "label": null,
+                "key": "rotation",
+                "index": 0
+              }
+            ],
+            "pivotY": [
+              {
+                "value": 57,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 208,
+                "label": null,
+                "key": "pivotY",
+                "index": 0
+              }
+            ],
+            "pivotX": [
+              {
+                "value": 55,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 208,
+                "label": null,
+                "key": "pivotX",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0.4,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 208,
+                "label": null,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 208,
+                "label": null,
+                "key": "alpha",
+                "index": 20
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 208,
+                "label": null,
+                "key": "alpha",
+                "index": 21
+              }
+            ]
+          }
+        },
+        {
+          "target": 209,
+          "keyframes": {
+            "y": [
+              {
+                "value": -360.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 209,
+                "label": null,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": -469,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 209,
+                "label": null,
+                "key": "y",
+                "index": 21
+              }
+            ],
+            "x": [
+              {
+                "value": -193,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 209,
+                "label": null,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 232.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 209,
+                "label": null,
+                "key": "x",
+                "index": 21
+              }
+            ],
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 209,
+                "label": null,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 209,
+                "label": null,
+                "key": "visible",
+                "index": 21
+              }
+            ],
+            "skin": [
+              {
+                "value": "res_view/xiuxin/baoji/baozha/1_00.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 209,
+                "label": null,
+                "key": "skin",
+                "index": 0
+              },
+              {
+                "value": "res_view/xiuxin/baoji/baozha/1_01.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 209,
+                "label": null,
+                "key": "skin",
+                "index": 23
+              },
+              {
+                "value": "res_view/xiuxin/baoji/baozha/1_02.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 209,
+                "label": null,
+                "key": "skin",
+                "index": 25
+              },
+              {
+                "value": "res_view/xiuxin/baoji/baozha/1_03.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 209,
+                "label": null,
+                "key": "skin",
+                "index": 27
+              },
+              {
+                "value": "res_view/xiuxin/baoji/baozha/1_04.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 209,
+                "label": null,
+                "key": "skin",
+                "index": 28
+              },
+              {
+                "value": "res_view/xiuxin/baoji/baozha/1_05.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 209,
+                "label": null,
+                "key": "skin",
+                "index": 29
+              },
+              {
+                "value": "res_view/xiuxin/baoji/baozha/1_06.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 209,
+                "label": null,
+                "key": "skin",
+                "index": 30
+              },
+              {
+                "value": "res_view/xiuxin/baoji/baozha/1_07.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 209,
+                "label": null,
+                "key": "skin",
+                "index": 31
+              }
+            ]
+          }
+        },
+        {
+          "target": 210,
+          "keyframes": {
+            "y": [
+              {
+                "value": -360.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 210,
+                "label": null,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": -469,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 210,
+                "label": null,
+                "key": "y",
+                "index": 22
+              },
+              {
+                "value": -431.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 210,
+                "label": null,
+                "key": "y",
+                "index": 24
+              }
+            ],
+            "x": [
+              {
+                "value": 270,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 210,
+                "label": null,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 218,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 210,
+                "label": null,
+                "key": "x",
+                "index": 22
+              },
+              {
+                "value": 207,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 210,
+                "label": null,
+                "key": "x",
+                "index": 24
+              }
+            ],
+            "width": [
+              {
+                "value": 183,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 210,
+                "label": null,
+                "key": "width",
+                "index": 0
+              }
+            ],
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 210,
+                "label": null,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 210,
+                "label": null,
+                "key": "visible",
+                "index": 22
+              }
+            ],
+            "skin": [
+              {
+                "value": "res_view/xiuxin/baoji/tuowei/pd10001.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 210,
+                "label": null,
+                "key": "skin",
+                "index": 0
+              },
+              {
+                "value": "res_view/xiuxin/baoji/tuowei/pd10001.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 210,
+                "label": null,
+                "key": "skin",
+                "index": 22
+              },
+              {
+                "value": "res_view/xiuxin/baoji/tuowei/pd10002.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 210,
+                "label": null,
+                "key": "skin",
+                "index": 24
+              },
+              {
+                "value": "res_view/xiuxin/baoji/tuowei/pd10003.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 210,
+                "label": null,
+                "key": "skin",
+                "index": 26
+              },
+              {
+                "value": "res_view/xiuxin/baoji/tuowei/pd10004.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 210,
+                "label": null,
+                "key": "skin",
+                "index": 28
+              },
+              {
+                "value": "res_view/xiuxin/baoji/tuowei/pd10005.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 210,
+                "label": null,
+                "key": "skin",
+                "index": 29
+              },
+              {
+                "value": "res_view/xiuxin/baoji/tuowei/pd10006.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 210,
+                "label": null,
+                "key": "skin",
+                "index": 30
+              },
+              {
+                "value": "res_view/xiuxin/baoji/tuowei/pd10007.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 210,
+                "label": null,
+                "key": "skin",
+                "index": 31
+              },
+              {
+                "value": "res_view/xiuxin/baoji/tuowei/pd10008.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 210,
+                "label": null,
+                "key": "skin",
+                "index": 32
+              },
+              {
+                "value": "res_view/xiuxin/baoji/tuowei/pd10009.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 210,
+                "label": null,
+                "key": "skin",
+                "index": 33
+              }
+            ],
+            "skewY": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 210,
+                "label": null,
+                "key": "skewY",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 210,
+                "label": null,
+                "key": "skewY",
+                "index": 22
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 210,
+                "label": null,
+                "key": "skewY",
+                "index": 24
+              }
+            ],
+            "skewX": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 210,
+                "label": null,
+                "key": "skewX",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 210,
+                "label": null,
+                "key": "skewX",
+                "index": 24
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 210,
+                "label": null,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 210,
+                "label": null,
+                "key": "scaleY",
+                "index": 22
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 210,
+                "label": null,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 210,
+                "label": null,
+                "key": "scaleX",
+                "index": 22
+              }
+            ],
+            "rotation": [
+              {
+                "value": 200,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 210,
+                "label": null,
+                "key": "rotation",
+                "index": 0
+              },
+              {
+                "value": 200,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 210,
+                "label": null,
+                "key": "rotation",
+                "index": 22
+              },
+              {
+                "value": 200,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 210,
+                "label": null,
+                "key": "rotation",
+                "index": 24
+              }
+            ],
+            "pivotY": [
+              {
+                "value": 96,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 210,
+                "label": null,
+                "key": "pivotY",
+                "index": 0
+              },
+              {
+                "value": 96,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 210,
+                "label": null,
+                "key": "pivotY",
+                "index": 22
+              }
+            ],
+            "pivotX": [
+              {
+                "value": 92,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 210,
+                "label": null,
+                "key": "pivotX",
+                "index": 0
+              },
+              {
+                "value": 92,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 210,
+                "label": null,
+                "key": "pivotX",
+                "index": 22
+              }
+            ],
+            "height": [
+              {
+                "value": 191,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 210,
+                "label": null,
+                "key": "height",
+                "index": 0
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani_baoji2",
+      "id": 12,
+      "frameRate": 24,
+      "action": 0
+    }
+  ],
+  "loadList": [
+    "res_common/icon_ad1.png",
+    "res_view/xiuxin/baoji/爆炸/序列帧/1_00.png",
+    "res_view/xiuxin/light_1/1_0000.png",
+    "res_view/xiuxin/light_1/1_0001.png",
+    "res_view/xiuxin/light_1/1_0002.png",
+    "res_view/xiuxin/light_1/1_0003.png",
+    "res_view/xiuxin/light_1/1_0004.png",
+    "res_view/xiuxin/light_1/1_0005.png",
+    "res_view/xiuxin/light_1/1_0006.png",
+    "res_view/xiuxin/light_1/1_0007.png",
+    "res_view/xiuxin/light_1/1_0008.png",
+    "res_view/xiuxin/light_1/1_0009.png",
+    "res_view/xiuxin/tupo_4/132_02.png",
+    "res_view/xiuxin/tupo_4/132_03.png",
+    "res_view/xiuxin/tupo_4/132_04.png",
+    "res_view/xiuxin/tupo_4/132_05.png",
+    "res_view/xiuxin/tupo_4/132_06.png",
+    "res_view/xiuxin/tupo_4/132_07.png",
+    "res_view/xiuxin/tupo_4/132_08.png",
+    "res_view/xiuxin/tupo_4/132_09.png",
+    "res_view/xiuxin/tupo_1/di_00.png",
+    "res_view/xiuxin/tupo_1/di_01.png",
+    "res_view/xiuxin/tupo_1/di_02.png",
+    "res_view/xiuxin/tupo_1/di_03.png",
+    "res_view/xiuxin/tupo_1/di_04.png",
+    "res_view/xiuxin/tupo_1/di_05.png",
+    "res_view/xiuxin/tupo_1/di_06.png",
+    "res_view/xiuxin/tupo_1/di_07.png",
+    "res_view/xiuxin/tupo_1/di_08.png",
+    "res_view/xiuxin/tupo_1/huan_00.png",
+    "res_view/xiuxin/tupo_1/huan_01.png",
+    "res_view/xiuxin/tupo_1/huan_02.png",
+    "res_view/xiuxin/tupo_1/huan_03.png",
+    "res_view/xiuxin/tupo_1/huan_04.png",
+    "res_view/xiuxin/tupo_1/huan_05.png",
+    "res_view/xiuxin/tupo_1/huan_06.png",
+    "res_view/xiuxin/tupo_1/huan_07.png",
+    "res_view/xiuxin/tupo_1/huan_08.png",
+    "res_view/xiuxin/tupo_1/huan_09.png",
+    "res_view/xiuxin/tupo_1/huan_10.png",
+    "res_view/xiuxin/tupo_1/huan_11.png",
+    "res_view/xiuxin/tupo_1/huan_12.png",
+    "res_view/xiuxin/tupo_2/03_0018.png",
+    "res_view/xiuxin/tupo_2/03_0019.png",
+    "res_view/xiuxin/tupo_2/03_0020.png",
+    "res_view/xiuxin/tupo_2/03_0021.png",
+    "res_view/xiuxin/tupo_2/03_0022.png",
+    "res_view/xiuxin/tupo_2/03_0023.png",
+    "res_view/xiuxin/tupo_2/03_0024.png",
+    "res_view/xiuxin/tupo_2/03_0025.png",
+    "res_view/xiuxin/xiuxin_1/1_0000.png",
+    "res_view/xiuxin/xiuxin_1/1_0001.png",
+    "res_view/xiuxin/xiuxin_1/1_0002.png",
+    "res_view/xiuxin/xiuxin_1/1_0003.png",
+    "res_view/xiuxin/xiuxin_1/1_0004.png",
+    "res_view/xiuxin/xiuxin_1/1_0005.png",
+    "res_view/xiuxin/xiuxin_1/1_0006.png",
+    "res_view/xiuxin/xiuxin_1/1_0007.png",
+    "res_view/xiuxin/xiuxin_1/1_0008.png",
+    "res_view/xiuxin/xiuxin_1/1_0009.png",
+    "res_view/xiuxin/xiuxin_2/100000.png",
+    "res_view/xiuxin/xiuxin_2/100001.png",
+    "res_view/xiuxin/xiuxin_2/100002.png",
+    "res_view/xiuxin/xiuxin_2/100003.png",
+    "res_view/xiuxin/xiuxin_2/100004.png",
+    "res_view/xiuxin/xiuxin_2/100005.png",
+    "res_view/xiuxin/xiuxin_2/100006.png",
+    "res_view/xiuxin/xiuxin_2/100007.png",
+    "res_view/xiuxin/xiuxin_2/100008.png",
+    "res_view/xiuxin/xiuxin_2/100009.png",
+    "res_view/xiuxin/baoji/baozha/1_00.png",
+    "res_view/xiuxin/baoji/baozha/1_01.png",
+    "res_view/xiuxin/baoji/baozha/1_02.png",
+    "res_view/xiuxin/baoji/baozha/1_03.png",
+    "res_view/xiuxin/baoji/baozha/1_04.png",
+    "res_view/xiuxin/baoji/baozha/1_05.png",
+    "res_view/xiuxin/baoji/baozha/1_06.png",
+    "res_view/xiuxin/baoji/baozha/1_07.png",
+    "res_view/xiuxin/baoji/tuowei/pd10001.png",
+    "res_view/xiuxin/baoji/tuowei/pd10002.png",
+    "res_view/xiuxin/baoji/tuowei/pd10003.png",
+    "res_view/xiuxin/baoji/tuowei/pd10004.png",
+    "res_view/xiuxin/baoji/tuowei/pd10005.png",
+    "res_view/xiuxin/baoji/tuowei/pd10006.png",
+    "res_view/xiuxin/baoji/tuowei/pd10007.png",
+    "res_view/xiuxin/baoji/tuowei/pd10008.png",
+    "res_view/xiuxin/baoji/tuowei/pd10009.png",
+    "res_view/xiuxin/baoji/ganwuren.png"
+  ],
+  "loadList3D": []
+}

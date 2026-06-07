@@ -1,0 +1,140 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "top": 0,
+        "skin": "res_common/bg.png",
+        "right": 0,
+        "name": "maskBg",
+        "left": 0,
+        "bottom": 0,
+        "alpha": 0.5
+      },
+      "compId": 8
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 750,
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "y": 642,
+            "x": 375,
+            "width": 750,
+            "var": "showBox",
+            "height": 828,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 4,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -80,
+                "x": 60.5,
+                "skin": "res_view/guide/panel_hs.png"
+              },
+              "compId": 5
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 9,
+                "x": 35,
+                "text": "text",
+                "skin": "res_view/guide/text_hs.png"
+              },
+              "compId": 11
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 10,
+                "x": 467,
+                "text": "text",
+                "skin": "res_view/guide/text_zy.png"
+              },
+              "compId": 26
+            },
+            {
+              "type": "Panel",
+              "props": {
+                "y": -226,
+                "x": 59,
+                "width": 657,
+                "height": 1017
+              },
+              "compId": 19,
+              "child": [
+                {
+                  "type": "SkeletonPlayer",
+                  "props": {
+                    "y": 1339,
+                    "x": 343,
+                    "width": 100,
+                    "url": "res_view/guide/spine/hszy.sk",
+                    "scaleY": 1.05,
+                    "scaleX": 1.05,
+                    "height": 100,
+                    "runtime": "Laya.Skeleton"
+                  },
+                  "compId": 20
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 634,
+                "x": -23,
+                "skin": "res_view/guide/panel_hei.png"
+              },
+              "compId": 15
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 649,
+                "x": 119,
+                "text": "text",
+                "skin": "res_view/guide/text_hsms.png"
+              },
+              "compId": 16
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 1054,
+            "x": 239,
+            "text": "text",
+            "skin": "res_common/text_djgb.png"
+          },
+          "compId": 9
+        }
+      ]
+    }
+  ],
+  "loadList": ["res_view/guide/spine/hszy.sk"],
+  "loadList3D": []
+}

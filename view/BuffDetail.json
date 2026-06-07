@@ -1,0 +1,137 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": true,
+    "height": 1344,
+    "drawCallOptimize": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 672,
+        "x": 375,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 58
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 412,
+        "var": "contentBox",
+        "scaleY": 1,
+        "height": 294,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 87,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "top": 0,
+            "skin": "res_main/panel_tips.png",
+            "sizeGrid": "200,0,136,0",
+            "right": 0,
+            "name": "bg",
+            "left": 0,
+            "bottom": 0
+          },
+          "compId": 88
+        },
+        {
+          "type": "HBox",
+          "props": {
+            "y": 54,
+            "space": 10,
+            "centerX": 7
+          },
+          "compId": 99,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "var": "buffName",
+                "valign": "middle",
+                "text": "希瓦的守护",
+                "strokeColor": "#000000",
+                "fontSize": 30,
+                "font": "Microsoft YaHei",
+                "color": "#37d1fe",
+                "centerX": -18,
+                "bold": false,
+                "align": "right"
+              },
+              "compId": 92
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 8,
+                "x": 159,
+                "visible": false,
+                "var": "buffLayers",
+                "valign": "top",
+                "text": "(2层)",
+                "strokeColor": "#000000",
+                "fontSize": 18,
+                "font": "Microsoft YaHei",
+                "color": "#fdda89",
+                "bold": false,
+                "align": "left"
+              },
+              "compId": 98
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 117,
+            "x": 24,
+            "skin": "res_view/equipDetail/line.png",
+            "centerX": 0
+          },
+          "compId": 100
+        },
+        {
+          "type": "VBox",
+          "props": {
+            "y": 155,
+            "width": 395,
+            "var": "skillBox",
+            "spaceY": 15,
+            "space": 15,
+            "centerX": 0,
+            "align": "left"
+          },
+          "compId": 94
+        },
+        {
+          "type": "Image",
+          "props": {
+            "skin": "res_common/text_djgb.png",
+            "centerX": -2,
+            "bottom": -47
+          },
+          "compId": 95
+        }
+      ]
+    }
+  ],
+  "loadList": ["res_main/panel_tips.png"],
+  "loadList3D": []
+}

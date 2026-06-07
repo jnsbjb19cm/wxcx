@@ -1,0 +1,321 @@
+{
+  "type": "View",
+  "props": {
+    "y": -10,
+    "width": 750,
+    "mouseThrough": true,
+    "height": 1334,
+    "drawCallOptimize": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 370,
+        "width": 750,
+        "var": "contentBox",
+        "height": 638,
+        "centerX": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -53,
+            "var": "title",
+            "skin": "netRes/arenaN/text_xzdw.png",
+            "centerX": 10
+          },
+          "compId": 23
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": -1,
+            "width": 750,
+            "var": "comBox",
+            "height": 500,
+            "centerX": 38
+          },
+          "compId": 24,
+          "child": [
+            {
+              "type": "List",
+              "props": {
+                "y": 33,
+                "x": 30,
+                "width": 690,
+                "var": "list",
+                "name": "list",
+                "height": 424
+              },
+              "compId": 9,
+              "child": [
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "width": 220,
+                    "renderType": "render",
+                    "height": 500
+                  },
+                  "compId": 10,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -99,
+                        "x": -19,
+                        "skin": "netRes/arenaN/panel_bz_1.png",
+                        "alpha": 0.7
+                      },
+                      "compId": 35
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 188,
+                        "x": 102,
+                        "width": 201,
+                        "visible": true,
+                        "name": "commonBg",
+                        "height": 405,
+                        "anchorY": 0.5,
+                        "anchorX": 0.5
+                      },
+                      "compId": 41,
+                      "child": [
+                        {
+                          "type": "Panel",
+                          "props": {
+                            "y": -1,
+                            "x": 11,
+                            "width": 164,
+                            "name": "imgPanel",
+                            "height": 391
+                          },
+                          "compId": 44
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -55,
+                        "width": 231,
+                        "skin": "netRes/arenaN/panel_bz_2.png",
+                        "name": "bottom",
+                        "height": 540,
+                        "centerX": -16
+                      },
+                      "compId": 45,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 333,
+                            "width": 223,
+                            "skin": "netRes/arenaN/panel_bz_1(1).png",
+                            "name": "bottom",
+                            "height": 100,
+                            "centerX": 0,
+                            "alpha": 1
+                          },
+                          "compId": 46
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 22,
+                        "x": 26,
+                        "visible": false,
+                        "skin": "res_icon/racesIcon/icon_race_XY.png",
+                        "scaleY": 0.5,
+                        "scaleX": 0.5,
+                        "name": "raceIcon",
+                        "anchorY": 0.5,
+                        "anchorX": 0.5
+                      },
+                      "compId": 26
+                    },
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": 414.5,
+                        "value": "0",
+                        "spaceX": -9,
+                        "skin": "res_common/number/num_19_kt_fff9c9.png",
+                        "sheet": "0123456789",
+                        "name": "haveNum",
+                        "centerX": 5
+                      },
+                      "compId": 36,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 9,
+                            "skin": "netRes/arena/text_yy.png",
+                            "left": -47
+                          },
+                          "compId": 28
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 368.5,
+                        "x": 32.5,
+                        "skin": "res_icon/monsterLvIcon/char_lv2.png",
+                        "scaleY": 1,
+                        "scaleX": 1,
+                        "name": "lvIcon"
+                      },
+                      "compId": 16
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 485,
+                        "x": 99,
+                        "width": 180,
+                        "skin": "netRes/arenaN/btn_gg.png",
+                        "name": "chooseBtn",
+                        "height": 90,
+                        "anchorY": 0.5,
+                        "anchorX": 0.5
+                      },
+                      "compId": 37,
+                      "child": [
+                        {
+                          "type": "Sprite",
+                          "props": {
+                            "y": 17,
+                            "x": 50.5,
+                            "texture": "netRes/arenaN/text_xz.png"
+                          },
+                          "compId": 38
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 373,
+                        "x": 71,
+                        "skin": "netRes/monsterName/style_1/MJ-NZ.png",
+                        "scaleY": 1,
+                        "scaleX": 1,
+                        "name": "nameImg"
+                      },
+                      "compId": 29
+                    },
+                    {
+                      "type": "Box",
+                      "props": {
+                        "y": 374,
+                        "x": 93,
+                        "name": "spineClickBox"
+                      },
+                      "compId": 39
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 23,
+          "keyframes": {
+            "y": [
+              {
+                "value": -15,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 23,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": -15,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 23,
+                "key": "y",
+                "index": 8
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 23,
+                "key": "y",
+                "index": 12
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 23,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 23,
+                "key": "alpha",
+                "index": 8
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 23,
+                "key": "alpha",
+                "index": 12
+              }
+            ]
+          }
+        },
+        {
+          "target": 9,
+          "keyframes": {
+            "name": [
+              {
+                "value": "list",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 9,
+                "key": "name",
+                "index": 0
+              }
+            ]
+          }
+        }
+      ],
+      "name": "titleAni",
+      "id": 1,
+      "frameRate": 30,
+      "action": 0
+    }
+  ],
+  "loadList": ["netRes/arenaN/text_xz.png"],
+  "loadList3D": []
+}

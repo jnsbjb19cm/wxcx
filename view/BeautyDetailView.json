@@ -1,0 +1,1113 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "var": "maskbg",
+        "top": 0,
+        "skin": "res_common/bg.png",
+        "right": 0,
+        "left": 0,
+        "bottom": 0,
+        "alpha": 0.6
+      },
+      "compId": 6
+    },
+    {
+      "type": "Panel",
+      "props": {
+        "width": 750,
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 128,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -145,
+            "x": 0,
+            "var": "panel",
+            "skin": "res_view/beauty/bj_mrqp.png",
+            "mouseEnabled": true,
+            "centerY": 0,
+            "centerX": 0
+          },
+          "compId": 7
+        },
+        {
+          "type": "Image",
+          "props": {
+            "var": "beautyBg",
+            "top": 0,
+            "right": 0,
+            "left": 0,
+            "bottom": 0
+          },
+          "compId": 102
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 5,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "var": "content",
+            "top": 0,
+            "right": 0,
+            "left": 0,
+            "bottom": 0
+          },
+          "compId": 20,
+          "child": [
+            {
+              "type": "Panel",
+              "props": {
+                "var": "halfbodyBox",
+                "top": 0,
+                "right": 0,
+                "left": 0,
+                "bottom": 0,
+                "anchorY": 0,
+                "anchorX": 0.5
+              },
+              "compId": 24,
+              "child": [
+                {
+                  "type": "Rect",
+                  "props": {
+                    "y": 372,
+                    "x": 158,
+                    "width": 394,
+                    "renderType": "hit",
+                    "lineWidth": 1,
+                    "height": 601,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 57
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 20,
+                    "width": 535,
+                    "height": 705,
+                    "centerX": -20,
+                    "anchorY": 0,
+                    "anchorX": 0.5
+                  },
+                  "compId": 25
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 232,
+                "x": 125,
+                "width": 500,
+                "var": "halfbodyTopBtn",
+                "height": 478
+              },
+              "compId": 171,
+              "child": [
+                {
+                  "type": "Rect",
+                  "props": {
+                    "width": 500,
+                    "renderType": "hit",
+                    "lineWidth": 1,
+                    "height": 478,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 175
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 710,
+                "x": 125,
+                "width": 500,
+                "var": "halfbodyBottomBtn",
+                "height": 370
+              },
+              "compId": 174,
+              "child": [
+                {
+                  "type": "Rect",
+                  "props": {
+                    "width": 500,
+                    "renderType": "hit",
+                    "lineWidth": 1,
+                    "height": 370,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 176
+                }
+              ]
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 343,
+                "x": 146,
+                "wordWrap": true,
+                "width": 28,
+                "var": "careerName",
+                "valign": "top",
+                "text": "第一峰峰主",
+                "strokeColor": "#472e2e",
+                "stroke": 2,
+                "overflow": "visible",
+                "name": "careerName",
+                "leading": 5,
+                "height": 258,
+                "fontSize": 26,
+                "font": "Microsoft YaHei",
+                "color": "#ff5eca",
+                "bold": true,
+                "align": "center"
+              },
+              "compId": 145,
+              "child": [
+                {
+                  "type": "Text",
+                  "props": {
+                    "y": -27,
+                    "x": 14,
+                    "width": 26,
+                    "var": "UpMid",
+                    "text": "【",
+                    "strokeColor": "#472e2e",
+                    "stroke": 2,
+                    "rotation": 90,
+                    "pivotY": 10,
+                    "pivotX": 15,
+                    "name": "UpMid",
+                    "height": 24,
+                    "fontSize": 26,
+                    "font": "Microsoft YaHei",
+                    "color": "#ff5eca",
+                    "bold": true,
+                    "runtime": "Laya.Text"
+                  },
+                  "compId": 150
+                },
+                {
+                  "type": "Text",
+                  "props": {
+                    "y": 169,
+                    "x": 14,
+                    "width": 26,
+                    "var": "downMid",
+                    "text": "【",
+                    "strokeColor": "#472e2e",
+                    "stroke": 2,
+                    "rotation": 270,
+                    "pivotY": 10,
+                    "pivotX": 15,
+                    "name": "downMid",
+                    "height": 26,
+                    "fontSize": 26,
+                    "font": "Microsoft YaHei",
+                    "color": "#ff5eca",
+                    "bold": true,
+                    "runtime": "Laya.Text"
+                  },
+                  "compId": 151
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 369,
+                "x": 101,
+                "width": 57,
+                "var": "nameQua",
+                "skin": "res_view/beauty/panel_mz_2.png",
+                "height": 217,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 21,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "var": "nameImg",
+                    "scaleY": 1,
+                    "scaleX": 1,
+                    "centerY": 0,
+                    "centerX": 0
+                  },
+                  "compId": 22
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 242,
+                "var": "qua",
+                "skin": "res_view/beauty/icon_yl.png",
+                "scaleY": 1.25,
+                "scaleX": 1.25,
+                "left": 53,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 23
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 322,
+                "x": 674,
+                "width": 80,
+                "visible": false,
+                "var": "shareBtn",
+                "skin": "res_view/sg/btn_share_02.png",
+                "pivotY": 41,
+                "pivotX": 40,
+                "label": "label",
+                "height": 106
+              },
+              "compId": 65,
+              "child": [
+                {
+                  "type": "Script",
+                  "props": {
+                    "runtime": "game/tools/BtnScale85.ts"
+                  },
+                  "compId": 70
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 153,
+                "var": "upTip",
+                "skin": "res_view/beauty/panel_oy.png",
+                "centerX": 10
+              },
+              "compId": 45,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 10,
+                    "var": "tip_wm",
+                    "text": "text",
+                    "skin": "res_view/beauty/text_pzh_fs.png",
+                    "centerX": -71
+                  },
+                  "compId": 56,
+                  "child": [
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": -10,
+                        "var": "curMeetNum",
+                        "value": "40",
+                        "spaceX": -5,
+                        "skin": "res_common/number/num_22_jxzk_ff8181.png",
+                        "sheet": "0123456789",
+                        "right": 14,
+                        "height": 34,
+                        "anchorX": 0,
+                        "align": "left"
+                      },
+                      "compId": 52,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 6,
+                            "skin": "res_view/beauty/text_hgd.png",
+                            "left": -81
+                          },
+                          "compId": 46,
+                          "child": [
+                            {
+                              "type": "Image",
+                              "props": {
+                                "y": 2,
+                                "x": 115,
+                                "skin": "res_view/beauty/text_kh2.png",
+                                "right": -11
+                              },
+                              "compId": 47
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": -10,
+                        "var": "maxMeetNum",
+                        "value": "10",
+                        "spaceX": -5,
+                        "skin": "res_common/number/num_22_jxzk_ff8181.png",
+                        "sheet": "0123456789",
+                        "left": 4,
+                        "anchorX": 0
+                      },
+                      "compId": 51,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 6,
+                            "skin": "res_view/beauty/text_gxjy.png",
+                            "right": -164
+                          },
+                          "compId": 48,
+                          "child": [
+                            {
+                              "type": "Image",
+                              "props": {
+                                "y": 2,
+                                "skin": "res_view/beauty/text_kh1.png",
+                                "left": -10
+                              },
+                              "compId": 49
+                            },
+                            {
+                              "type": "Image",
+                              "props": {
+                                "y": 2,
+                                "x": 153,
+                                "skin": "res_view/beauty/text_kh_1.png"
+                              },
+                              "compId": 98
+                            },
+                            {
+                              "type": "Image",
+                              "props": {
+                                "y": 2,
+                                "x": 210,
+                                "skin": "res_view/beauty/text_kh_2.png"
+                              },
+                              "compId": 99
+                            },
+                            {
+                              "type": "Image",
+                              "props": {
+                                "y": 2,
+                                "x": 161,
+                                "var": "lvTxt",
+                                "skin": "res_view/beauty/text_zhiji_.png"
+                              },
+                              "compId": 100
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "var": "tip_man",
+                    "skin": "res_view/beauty/text_hgddb.png",
+                    "centerY": 0,
+                    "centerX": -33
+                  },
+                  "compId": 103,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 2,
+                        "x": 277,
+                        "skin": "res_view/beauty/text_kh_1.png"
+                      },
+                      "compId": 104
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 2,
+                        "x": 334,
+                        "skin": "res_view/beauty/text_kh_2.png"
+                      },
+                      "compId": 105
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 2,
+                        "x": 285,
+                        "var": "lvTxt2",
+                        "skin": "res_view/beauty/text_zhiji_.png"
+                      },
+                      "compId": 106
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 118,
+                "width": 388,
+                "var": "lovePro",
+                "skin": "res_view/beauty/frame_card_blood02.png",
+                "sizeGrid": "0,14,0,56",
+                "height": 29,
+                "centerX": 25
+              },
+              "compId": 42,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 2,
+                    "x": 5,
+                    "width": 380,
+                    "var": "loveBar",
+                    "skin": "res_view/beauty/frame_card_hgd.png",
+                    "sizeGrid": "0,11,0,10",
+                    "height": 25
+                  },
+                  "compId": 117
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": -18,
+                    "x": -36.5,
+                    "texture": "res_common/icon_hgd.png",
+                    "scaleY": 0.7,
+                    "scaleX": 0.7
+                  },
+                  "compId": 44
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 5,
+                    "text": "text",
+                    "skin": "res_view/beauty/text_pzh.png",
+                    "centerX": 0
+                  },
+                  "compId": 55,
+                  "child": [
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": -9,
+                        "var": "loveMaxTet",
+                        "value": "10",
+                        "spaceX": -12,
+                        "skin": "res_common/number/num_27_jxzk_ffffff_stk_1_gt.png",
+                        "sheet": "0123456789",
+                        "left": 5
+                      },
+                      "compId": 54
+                    },
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": -9,
+                        "var": "loveTxt",
+                        "value": "67",
+                        "spaceX": -12,
+                        "skin": "res_common/number/num_27_jxzk_ffffff_stk_1_gt.png",
+                        "sheet": "0123456789",
+                        "right": 20,
+                        "anchorX": 1
+                      },
+                      "compId": 53
+                    }
+                  ]
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": -4,
+                    "visible": false,
+                    "var": "maxLvAff",
+                    "value": "67",
+                    "spaceX": -12,
+                    "skin": "res_common/number/num_27_jxzk_ffffff_stk_1_gt.png",
+                    "sheet": "0123456789",
+                    "name": "maxLvAff",
+                    "centerX": -6,
+                    "anchorX": 1
+                  },
+                  "compId": 118
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 87,
+                "var": "loveLv",
+                "skin": "res_view/beauty/icon_jieyuan.png",
+                "centerX": 10,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 58,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 25,
+                    "visible": false,
+                    "var": "lvPre",
+                    "text": "text",
+                    "skin": "res_view/beauty/text_xdjjjkf.png",
+                    "right": -184
+                  },
+                  "compId": 137
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 116,
+                "var": "detailBtn",
+                "skin": "res_view/beauty/btn_pvp_detailed.png",
+                "label": "label",
+                "centerX": 248
+              },
+              "compId": 80
+            },
+            {
+              "type": "Image",
+              "props": {
+                "width": 400,
+                "var": "skill",
+                "skin": "res_view/beauty/panel_att.png",
+                "height": 87,
+                "centerX": 0,
+                "bottom": 252,
+                "anchorY": 1
+              },
+              "compId": 83,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "x": 65,
+                    "width": 80,
+                    "skin": "res_view/beauty/panel_mrann.png",
+                    "height": 80,
+                    "centerY": -3
+                  },
+                  "compId": 110,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "width": 78,
+                        "var": "skillIcon",
+                        "height": 79,
+                        "centerY": 0,
+                        "centerX": 1
+                      },
+                      "compId": 111
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "visible": false,
+                        "var": "skillLock",
+                        "skin": "res_view/beauty/text_jyjs.png",
+                        "centerY": 5,
+                        "centerX": 1
+                      },
+                      "compId": 136
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 6,
+                    "x": 166
+                  },
+                  "compId": 144,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 10,
+                        "x": 19,
+                        "var": "skillName",
+                        "text": "【慷慨大方】",
+                        "fontSize": 24,
+                        "font": "Microsoft YaHei",
+                        "color": "#28fff1",
+                        "centerX": -22,
+                        "bold": true
+                      },
+                      "compId": 112,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -5,
+                            "var": "skillDetailBtn",
+                            "skin": "res_view/beauty/common_icon_xiangqing02.png",
+                            "right": -29
+                          },
+                          "compId": 113
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 49,
+                        "x": 0,
+                        "wordWrap": true,
+                        "var": "skillDesc",
+                        "text": "战斗内铜钱加成战斗内铜钱加成战斗内铜",
+                        "leading": 5,
+                        "height": 18,
+                        "fontSize": 20,
+                        "font": "Microsoft YaHei",
+                        "color": "#f2ebeb",
+                        "bold": true
+                      },
+                      "compId": 114
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "width": 86,
+                "visible": true,
+                "var": "changeSkin",
+                "skin": "res_view/beauty/icon_huanzhuang.png",
+                "pivotY": 45,
+                "pivotX": 43,
+                "name": "changeSkin",
+                "left": 92,
+                "height": 90,
+                "bottom": 251
+              },
+              "compId": 156,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -5,
+                    "x": -3,
+                    "visible": false,
+                    "skin": "res_common/redpoint.png",
+                    "name": "redPoint"
+                  },
+                  "compId": 161
+                },
+                {
+                  "type": "Script",
+                  "props": {
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 162
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 950,
+                "x": 29.5,
+                "visible": false,
+                "var": "xiehou",
+                "skin": "res_view/beauty/icon_xh.png"
+              },
+              "compId": 76,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 65,
+                    "x": 10,
+                    "visible": false,
+                    "text": "邂逅",
+                    "skin": "res_view/beauty/icon_ad.png",
+                    "fontSize": 50,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff"
+                  },
+                  "compId": 77
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 63,
+                    "text": "广告",
+                    "skin": "res_view/beauty/text_xh.png",
+                    "fontSize": 25,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "centerX": -1
+                  },
+                  "compId": 78
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -5,
+                    "x": -3,
+                    "skin": "res_common/redpoint.png"
+                  },
+                  "compId": 107
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "visible": false,
+                "var": "memoBtn",
+                "skin": "res_view/beauty/btn_lgj.png",
+                "right": 91,
+                "bottom": 247
+              },
+              "compId": 33,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 55,
+                    "visible": false,
+                    "skin": "res_common/redpoint.png",
+                    "name": "redPoint"
+                  },
+                  "compId": 34
+                },
+                {
+                  "type": "Rect",
+                  "props": {
+                    "y": -3,
+                    "x": -2,
+                    "width": 93,
+                    "renderType": "hit",
+                    "lineWidth": 1,
+                    "height": 92,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 35
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "visible": false,
+                "var": "rwdBox",
+                "centerX": 11,
+                "bottom": 104
+              },
+              "compId": 89,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": -11,
+                    "width": 622,
+                    "skin": "res_view/beauty/panel_hgddj.png",
+                    "name": "panel",
+                    "height": 140
+                  },
+                  "compId": 90,
+                  "child": [
+                    {
+                      "type": "Panel",
+                      "props": {
+                        "x": 6,
+                        "width": 383,
+                        "var": "rwdPanel",
+                        "height": 115,
+                        "hScrollBarSkin": " ",
+                        "centerY": 0
+                      },
+                      "compId": 91,
+                      "child": [
+                        {
+                          "type": "Sprite",
+                          "props": {
+                            "y": 3,
+                            "x": 114.5,
+                            "var": "light",
+                            "texture": "res_view/beauty/frame_activity_carnival08.png"
+                          },
+                          "compId": 115
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 26,
+                    "x": 400,
+                    "width": 192,
+                    "var": "sendBtn",
+                    "skin": "res_common/btn_yellow.png",
+                    "height": 88
+                  },
+                  "compId": 96,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "text": "text",
+                        "skin": "res_view/beauty/text_zl.png",
+                        "centerY": 1,
+                        "centerX": 4
+                      },
+                      "compId": 97
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "width": 211,
+            "visible": false,
+            "var": "upLevel",
+            "skin": "res_common/btn_yellow.png",
+            "height": 95,
+            "centerX": 0,
+            "bottom": 431
+          },
+          "compId": 74,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "text": "升级",
+                "skin": "res_view/beauty/text_ts.png",
+                "scaleY": 1.7,
+                "scaleX": 1.7,
+                "fontSize": 50,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "centerY": 1,
+                "centerX": 2
+              },
+              "compId": 75
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -7,
+                "x": 188,
+                "skin": "res_common/redpoint.png",
+                "name": "redPoint"
+              },
+              "compId": 135
+            }
+          ]
+        },
+        {
+          "type": "Label",
+          "props": {
+            "var": "trail",
+            "text": "行踪：混迹于北山的冷泉附近",
+            "fontSize": 19,
+            "font": "Microsoft YaHei",
+            "color": "#c8bbad",
+            "centerX": -1,
+            "bottom": 170,
+            "bold": true
+          },
+          "compId": 116
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 570,
+            "var": "turnRight",
+            "skin": "res_view/beauty/btn_next.png",
+            "right": 11,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 36,
+          "child": [
+            {
+              "type": "Rect",
+              "props": {
+                "y": -32,
+                "x": -11,
+                "width": 68,
+                "renderType": "hit",
+                "lineWidth": 1,
+                "height": 131,
+                "fillColor": "#ff0000"
+              },
+              "compId": 38
+            },
+            {
+              "type": "Script",
+              "props": {
+                "runtime": "game/tools/BtnScale90.ts"
+              },
+              "compId": 61
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 570,
+            "width": 46,
+            "var": "tutnLeft",
+            "skin": "res_view/beauty/btn_prev.png",
+            "left": 15,
+            "height": 67,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 37,
+          "child": [
+            {
+              "type": "Rect",
+              "props": {
+                "y": -32,
+                "x": -11,
+                "width": 68,
+                "renderType": "hit",
+                "lineWidth": 1,
+                "height": 131,
+                "fillColor": "#ff0000"
+              },
+              "compId": 39
+            },
+            {
+              "type": "Script",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "runtime": "game/tools/BtnScale90.ts"
+              },
+              "compId": 62
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 1223,
+            "x": 627,
+            "var": "closeBtn",
+            "skin": "res_view/beauty/btn_back1.png"
+          },
+          "compId": 18,
+          "child": [
+            {
+              "type": "Rect",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 123,
+                "renderType": "hit",
+                "lineWidth": 1,
+                "height": 114,
+                "fillColor": "#ff0000"
+              },
+              "compId": 19
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "width": 2000,
+            "visible": false,
+            "var": "guideBox",
+            "mouseThrough": false,
+            "mouseEnabled": true,
+            "height": 2000,
+            "centerY": 0,
+            "centerX": 0
+          },
+          "compId": 131
+        },
+        {
+          "type": "Box",
+          "props": {
+            "width": 250,
+            "visible": false,
+            "var": "guideBtn",
+            "mouseThrough": false,
+            "mouseEnabled": true,
+            "height": 110,
+            "centerX": 0,
+            "bottom": 424
+          },
+          "compId": 132
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -155,
+            "skin": "loading/panel_top.png",
+            "name": "top",
+            "centerX": 0
+          },
+          "compId": 166
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 1321,
+            "skin": "loading/panel_buttom.png",
+            "name": "bottom",
+            "centerX": 0
+          },
+          "compId": 167
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "res_common/icon_hgd.png",
+    "res_view/beauty/frame_activity_carnival08.png"
+  ],
+  "loadList3D": []
+}

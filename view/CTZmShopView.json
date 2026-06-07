@@ -1,0 +1,289 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": true,
+    "height": 1344,
+    "drawCallOptimize": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 672,
+        "x": 375,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.01
+      },
+      "compId": 58
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "var": "contentBox",
+        "height": 772,
+        "centerY": -30,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "List",
+          "props": {
+            "y": 10,
+            "width": 696,
+            "var": "itemList",
+            "spaceY": -20,
+            "spaceX": -8,
+            "repeatY": 3,
+            "repeatX": 4,
+            "height": 593,
+            "drawCallOptimize": true,
+            "centerX": 0
+          },
+          "compId": 117,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": -11,
+                "x": 0,
+                "renderType": "render"
+              },
+              "compId": 118,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "x": 20,
+                    "skin": "res_combat/specialStageView/heiShi/panel_shangpin.png"
+                  },
+                  "compId": 119
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 21,
+                    "x": 21,
+                    "width": 56,
+                    "skin": "res_icon/monsterLvIcon/char_lv1.png",
+                    "scaleY": 0.73,
+                    "scaleX": 0.73,
+                    "name": "lvIcon",
+                    "height": 56
+                  },
+                  "compId": 121
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 162,
+                    "x": 19,
+                    "visible": false,
+                    "skin": "res_combat/specialStageView/heiShi/solt_price.png",
+                    "name": "priceLayer"
+                  },
+                  "compId": 122
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 163,
+                    "x": 57,
+                    "width": 87,
+                    "value": "200",
+                    "spaceX": -5,
+                    "skin": "res_common/number/num_24_ss_fff3df.png",
+                    "sheet": "0123456789",
+                    "name": "price",
+                    "height": 29,
+                    "align": "center"
+                  },
+                  "compId": 133
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "zOrder": 100,
+                    "y": 54,
+                    "x": 19,
+                    "visible": false,
+                    "texture": "res_combat/public/tag_soldout.png",
+                    "name": "beSell"
+                  },
+                  "compId": 129
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 159,
+                    "x": 30,
+                    "skin": "res_combat/public/icon_gold.png",
+                    "name": "gold"
+                  },
+                  "compId": 157
+                }
+              ]
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 545,
+                "x": 515,
+                "texture": "res_common/icon_ad.png"
+              },
+              "compId": 130,
+              "child": [
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 3,
+                    "x": 40,
+                    "texture": "res_combat/specialStageView/heiShi/text_de.png"
+                  },
+                  "compId": 134
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": -1,
+                    "x": 63,
+                    "var": "goldLabel",
+                    "value": "200",
+                    "spaceX": -5,
+                    "skin": "res_common/number/num_24_ss_fff3df.png",
+                    "sheet": "0123456789"
+                  },
+                  "compId": 136,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 4,
+                        "skin": "res_combat/specialStageView/heiShi/text_tongqian.png",
+                        "right": -52
+                      },
+                      "compId": 135
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Animation",
+              "props": {
+                "y": 480,
+                "x": 592,
+                "visible": false,
+                "var": "goldAni",
+                "source": "ani/goldFlash.ani"
+              },
+              "compId": 149
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 618,
+            "var": "sellPanel",
+            "skin": "res_combat/specialStageView/heiShi/panel_chushou.png",
+            "mouseThrough": true,
+            "centerX": -82
+          },
+          "compId": 120,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 148,
+                "x": 530,
+                "var": "npcBox"
+              },
+              "compId": 152
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 51,
+                "x": 174,
+                "skin": "res_combat/specialStageView/heiShi/text_sell.png"
+              },
+              "compId": 137
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": -75,
+                "x": 196,
+                "visible": false,
+                "var": "sellTips",
+                "texture": "res_combat/specialStageView/heiShi/shop_dialog.png"
+              },
+              "compId": 153,
+              "child": [
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 46,
+                    "x": 63,
+                    "var": "sellIcon",
+                    "texture": "res_combat/public/icon_gold.png"
+                  },
+                  "compId": 154
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 48,
+                    "x": 100,
+                    "width": 87,
+                    "var": "sellPrice",
+                    "value": "200",
+                    "spaceX": -8,
+                    "skin": "res_common/number/num_30_ss_000000.png",
+                    "sheet": "0123456789-+",
+                    "height": 29,
+                    "align": "center"
+                  },
+                  "compId": 155
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 52.5,
+                    "x": 68,
+                    "visible": false,
+                    "var": "noCanSellTips",
+                    "text": "text",
+                    "skin": "res_combat/specialStageView/heiShi/text_unable.png"
+                  },
+                  "compId": 156
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "res_combat/specialStageView/heiShi/panel_shangpin.png",
+    "res_combat/public/tag_soldout.png",
+    "res_combat/public/icon_gold.png",
+    "res_common/icon_ad.png",
+    "res_combat/specialStageView/heiShi/text_de.png",
+    "ani/goldFlash.ani",
+    "res_combat/specialStageView/heiShi/shop_dialog.png"
+  ],
+  "loadList3D": []
+}

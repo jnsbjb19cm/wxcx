@@ -1,0 +1,1094 @@
+{
+  "type": "BaseDynamicUI",
+  "props": {
+    "y": 0,
+    "x": 0,
+    "width": 750,
+    "mouseThrough": true,
+    "mouseEnabled": true,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "var": "weaponDetail",
+        "mouseThrough": true,
+        "mouseEnabled": true,
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 5,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 207,
+            "x": 30,
+            "width": 689,
+            "skin": "res_view/sg/bg_fq.jpg",
+            "rotation": 0,
+            "height": 1026
+          },
+          "compId": 283
+        },
+        {
+          "type": "Box",
+          "props": {
+            "width": 750,
+            "var": "weaponsBox",
+            "mouseThrough": true,
+            "mouseEnabled": true,
+            "height": 1334
+          },
+          "compId": 285,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 968,
+                "x": 35,
+                "width": 234,
+                "visible": true,
+                "skin": "res_view/sg/panel_fq_yellow.png",
+                "name": "weaponItem1",
+                "height": 200,
+                "anchorY": 1,
+                "anchorX": 0
+              },
+              "compId": 286,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "netRes/icon/weaponIcon/icon_fq_rssxg.png",
+                    "name": "weaponIcon",
+                    "centerY": -15,
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 287
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 135,
+                    "x": 26,
+                    "width": 155,
+                    "skin": "res_common/main_shuzi.png",
+                    "height": 42
+                  },
+                  "compId": 290
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 157,
+                    "x": 103,
+                    "skin": "netRes/icon/weaponIcon/text_fq_rssxg.png",
+                    "name": "name",
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 291
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 183,
+                    "width": 85,
+                    "name": "level",
+                    "centerX": -15
+                  },
+                  "compId": 429,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "visible": false,
+                        "skin": "res_view/sg/text_slmj.png",
+                        "scaleY": 1.3,
+                        "scaleX": 1.32,
+                        "name": "maxLevel",
+                        "centerY": 0,
+                        "centerX": 0
+                      },
+                      "compId": 430
+                    },
+                    {
+                      "type": "HBox",
+                      "props": {
+                        "space": 0,
+                        "scaleY": 1,
+                        "scaleX": 1,
+                        "centerY": 0,
+                        "centerX": 0
+                      },
+                      "compId": 431,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 0,
+                            "x": 10,
+                            "width": 23,
+                            "skin": "res_view/sg/text_j_3.png",
+                            "height": 23
+                          },
+                          "compId": 433
+                        },
+                        {
+                          "type": "Box",
+                          "props": {
+                            "y": -3,
+                            "x": 0,
+                            "width": 18.5
+                          },
+                          "compId": 434,
+                          "child": [
+                            {
+                              "type": "FontClip",
+                              "props": {
+                                "x": 0,
+                                "value": "3",
+                                "spaceX": -3,
+                                "skin": "res_common/number/num_23_jxzk_ffffff_stk.png",
+                                "sheet": "0123456789"
+                              },
+                              "compId": 435
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 26,
+                    "x": 157.5,
+                    "skin": "res_common/redpoint.png",
+                    "name": "redPoint"
+                  },
+                  "compId": 299
+                },
+                {
+                  "type": "Circle",
+                  "props": {
+                    "y": 94.3779082173948,
+                    "x": 114.3779082173948,
+                    "renderType": "hit",
+                    "radius": 78,
+                    "lineWidth": 1,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 373
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 1084,
+                "x": 258,
+                "width": 234,
+                "visible": true,
+                "skin": "res_view/sg/panel_fq_purple.png",
+                "name": "weaponItem2",
+                "height": 200,
+                "anchorY": 1,
+                "anchorX": 0
+              },
+              "compId": 300,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "netRes/icon/weaponIcon/icon_fq_zxjz.png",
+                    "name": "weaponIcon",
+                    "centerY": -8,
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 301
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 138,
+                    "x": 26,
+                    "width": 155,
+                    "skin": "res_common/main_shuzi.png",
+                    "height": 36
+                  },
+                  "compId": 302
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 155,
+                    "x": 105,
+                    "skin": "netRes/icon/weaponIcon/text_fq_zxjz.png",
+                    "name": "name",
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 303
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 179,
+                    "width": 85,
+                    "name": "level",
+                    "centerX": -16
+                  },
+                  "compId": 436,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "visible": false,
+                        "skin": "res_view/sg/text_slmj.png",
+                        "scaleY": 1.3,
+                        "scaleX": 1.32,
+                        "name": "maxLevel",
+                        "centerY": 0,
+                        "centerX": 0
+                      },
+                      "compId": 464
+                    },
+                    {
+                      "type": "HBox",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "space": 0,
+                        "scaleY": 1,
+                        "scaleX": 1,
+                        "centerY": 0,
+                        "centerX": 0
+                      },
+                      "compId": 490,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 0,
+                            "x": 10,
+                            "width": 23,
+                            "skin": "res_view/sg/text_j_3.png",
+                            "height": 23
+                          },
+                          "compId": 491
+                        },
+                        {
+                          "type": "Box",
+                          "props": {
+                            "y": -3,
+                            "x": 0,
+                            "width": 18.5
+                          },
+                          "compId": 492,
+                          "child": [
+                            {
+                              "type": "FontClip",
+                              "props": {
+                                "x": 0,
+                                "value": "3",
+                                "spaceX": -3,
+                                "skin": "res_common/number/num_23_jxzk_ffffff_stk.png",
+                                "sheet": "0123456789"
+                              },
+                              "compId": 493
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 26,
+                    "x": 157.5,
+                    "skin": "res_common/redpoint.png",
+                    "name": "redPoint"
+                  },
+                  "compId": 311
+                },
+                {
+                  "type": "Circle",
+                  "props": {
+                    "y": 94,
+                    "x": 114,
+                    "renderType": "hit",
+                    "radius": 78,
+                    "lineWidth": 1,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 374
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 963,
+                "x": 482,
+                "width": 234,
+                "visible": true,
+                "skin": "res_view/sg/panel_fq_purple.png",
+                "name": "weaponItem3",
+                "height": 200,
+                "anchorY": 1,
+                "anchorX": 0
+              },
+              "compId": 312,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "netRes/icon/weaponIcon/icon_fq_dhhdz.png",
+                    "name": "weaponIcon",
+                    "centerY": -15,
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 313
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 134,
+                    "x": 26,
+                    "width": 155,
+                    "skin": "res_common/main_shuzi.png",
+                    "height": 43
+                  },
+                  "compId": 314
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 156,
+                    "x": 104,
+                    "skin": "netRes/icon/weaponIcon/text_fq_dhhdz.png",
+                    "name": "name",
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 315
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 182,
+                    "x": 54,
+                    "width": 85,
+                    "name": "level",
+                    "centerX": -15
+                  },
+                  "compId": 443,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "visible": false,
+                        "skin": "res_view/sg/text_slmj.png",
+                        "scaleY": 1.3,
+                        "scaleX": 1.32,
+                        "name": "maxLevel",
+                        "centerY": 0,
+                        "centerX": 0
+                      },
+                      "compId": 469
+                    },
+                    {
+                      "type": "HBox",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "space": 0,
+                        "scaleY": 1,
+                        "scaleX": 1,
+                        "centerY": 0,
+                        "centerX": 0
+                      },
+                      "compId": 494,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 0,
+                            "x": 10,
+                            "width": 23,
+                            "skin": "res_view/sg/text_j_3.png",
+                            "height": 23
+                          },
+                          "compId": 495
+                        },
+                        {
+                          "type": "Box",
+                          "props": {
+                            "y": -3,
+                            "x": 0,
+                            "width": 18.5
+                          },
+                          "compId": 496,
+                          "child": [
+                            {
+                              "type": "FontClip",
+                              "props": {
+                                "x": 0,
+                                "value": "3",
+                                "spaceX": -3,
+                                "skin": "res_common/number/num_23_jxzk_ffffff_stk.png",
+                                "sheet": "0123456789"
+                              },
+                              "compId": 497
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 26,
+                    "x": 157.5,
+                    "skin": "res_common/redpoint.png",
+                    "name": "redPoint"
+                  },
+                  "compId": 323
+                },
+                {
+                  "type": "Circle",
+                  "props": {
+                    "y": 94,
+                    "x": 114,
+                    "renderType": "hit",
+                    "radius": 78,
+                    "lineWidth": 1,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 375
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 391,
+                "x": 20,
+                "width": 204,
+                "visible": true,
+                "skin": "res_view/sg/panel_fq_purple.png",
+                "name": "weaponItem4",
+                "height": 172,
+                "anchorY": 0,
+                "anchorX": 0
+              },
+              "compId": 324,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "netRes/icon/weaponIcon/icon_fq_tjqkj.png",
+                    "name": "weaponIcon",
+                    "centerY": -2,
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 325
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 117,
+                    "x": 26,
+                    "width": 138,
+                    "skin": "res_common/main_shuzi.png",
+                    "height": 36
+                  },
+                  "compId": 326
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 135,
+                    "x": 93,
+                    "skin": "netRes/icon/weaponIcon/text_fq_tjqkj.png",
+                    "name": "name",
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 327
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 157,
+                    "width": 75.5,
+                    "name": "level",
+                    "centerX": -12
+                  },
+                  "compId": 422,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "visible": false,
+                        "skin": "res_view/sg/text_slmj.png",
+                        "scaleY": 1.07,
+                        "scaleX": 1.18,
+                        "name": "maxLevel",
+                        "centerY": 0,
+                        "centerX": 0
+                      },
+                      "compId": 423
+                    },
+                    {
+                      "type": "HBox",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "space": 0,
+                        "scaleY": 1,
+                        "scaleX": 1,
+                        "centerY": 0,
+                        "centerX": 0
+                      },
+                      "compId": 498,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 0,
+                            "x": 10,
+                            "width": 23,
+                            "skin": "res_view/sg/text_j_3.png",
+                            "height": 23
+                          },
+                          "compId": 499
+                        },
+                        {
+                          "type": "Box",
+                          "props": {
+                            "y": -3,
+                            "x": 0,
+                            "width": 18.5
+                          },
+                          "compId": 500,
+                          "child": [
+                            {
+                              "type": "FontClip",
+                              "props": {
+                                "x": 0,
+                                "value": "3",
+                                "spaceX": -3,
+                                "skin": "res_common/number/num_23_jxzk_ffffff_stk.png",
+                                "sheet": "0123456789"
+                              },
+                              "compId": 501
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 15,
+                    "x": 124,
+                    "skin": "res_common/redpoint.png",
+                    "name": "redPoint"
+                  },
+                  "compId": 335
+                },
+                {
+                  "type": "Circle",
+                  "props": {
+                    "y": 84.5,
+                    "x": 98.39999999999998,
+                    "renderType": "hit",
+                    "radius": 78,
+                    "lineWidth": 1,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 376
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 271,
+                "x": 171,
+                "width": 204,
+                "visible": true,
+                "skin": "res_view/sg/panel_fq_purple.png",
+                "name": "weaponItem5",
+                "height": 172,
+                "anchorY": 0,
+                "anchorX": 0
+              },
+              "compId": 336,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "netRes/icon/weaponIcon/icon_fq_wlbsf.png",
+                    "name": "weaponIcon",
+                    "centerY": -19,
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 338
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 115,
+                    "x": 25,
+                    "width": 138,
+                    "skin": "res_common/main_shuzi.png",
+                    "height": 36
+                  },
+                  "compId": 339
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 133,
+                    "x": 93,
+                    "skin": "netRes/icon/weaponIcon/text_fq_wlbsf.png",
+                    "name": "name",
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 340
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 155,
+                    "width": 75.5,
+                    "name": "level",
+                    "centerX": -10
+                  },
+                  "compId": 401,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "visible": false,
+                        "skin": "res_view/sg/text_slmj.png",
+                        "scaleY": 1.07,
+                        "scaleX": 1.18,
+                        "name": "maxLevel",
+                        "centerY": 0,
+                        "centerX": 0
+                      },
+                      "compId": 474
+                    },
+                    {
+                      "type": "HBox",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "space": 0,
+                        "scaleY": 1,
+                        "scaleX": 1,
+                        "centerY": 0,
+                        "centerX": 0
+                      },
+                      "compId": 502,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 0,
+                            "x": 10,
+                            "width": 23,
+                            "skin": "res_view/sg/text_j_3.png",
+                            "height": 23
+                          },
+                          "compId": 503
+                        },
+                        {
+                          "type": "Box",
+                          "props": {
+                            "y": -3,
+                            "x": 0,
+                            "width": 18.5
+                          },
+                          "compId": 504,
+                          "child": [
+                            {
+                              "type": "FontClip",
+                              "props": {
+                                "x": 0,
+                                "value": "3",
+                                "spaceX": -3,
+                                "skin": "res_common/number/num_23_jxzk_ffffff_stk.png",
+                                "sheet": "0123456789"
+                              },
+                              "compId": 505
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 15,
+                    "x": 124,
+                    "skin": "res_common/redpoint.png",
+                    "name": "redPoint"
+                  },
+                  "compId": 348
+                },
+                {
+                  "type": "Circle",
+                  "props": {
+                    "y": 84,
+                    "x": 98,
+                    "renderType": "hit",
+                    "radius": 78,
+                    "lineWidth": 1,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 377
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 270,
+                "x": 374,
+                "width": 204,
+                "visible": true,
+                "skin": "res_view/sg/panel_fq_purple.png",
+                "name": "weaponItem6",
+                "height": 172,
+                "anchorY": 0,
+                "anchorX": 0
+              },
+              "compId": 349,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "netRes/icon/weaponIcon/icon_fq_tmsyq.png",
+                    "name": "weaponIcon",
+                    "centerY": -12,
+                    "centerX": 2,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 350
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 115,
+                    "x": 26,
+                    "width": 138,
+                    "skin": "res_common/main_shuzi.png",
+                    "height": 36
+                  },
+                  "compId": 351
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 132,
+                    "x": 92,
+                    "skin": "netRes/icon/weaponIcon/text_fq_tmsyq.png",
+                    "name": "name",
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 352
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 154,
+                    "width": 75.5,
+                    "name": "level",
+                    "centerX": -11
+                  },
+                  "compId": 450,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "visible": false,
+                        "skin": "res_view/sg/text_slmj.png",
+                        "scaleY": 1.07,
+                        "scaleX": 1.18,
+                        "name": "maxLevel",
+                        "centerY": 0,
+                        "centerX": 0
+                      },
+                      "compId": 479
+                    },
+                    {
+                      "type": "HBox",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "space": 0,
+                        "scaleY": 1,
+                        "scaleX": 1,
+                        "centerY": 0,
+                        "centerX": 0
+                      },
+                      "compId": 506,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 0,
+                            "x": 10,
+                            "width": 23,
+                            "skin": "res_view/sg/text_j_3.png",
+                            "height": 23
+                          },
+                          "compId": 507
+                        },
+                        {
+                          "type": "Box",
+                          "props": {
+                            "y": -3,
+                            "x": 0,
+                            "width": 18.5
+                          },
+                          "compId": 508,
+                          "child": [
+                            {
+                              "type": "FontClip",
+                              "props": {
+                                "x": 0,
+                                "value": "3",
+                                "spaceX": -3,
+                                "skin": "res_common/number/num_23_jxzk_ffffff_stk.png",
+                                "sheet": "0123456789"
+                              },
+                              "compId": 509
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 10,
+                    "x": 133,
+                    "skin": "res_common/redpoint.png",
+                    "name": "redPoint"
+                  },
+                  "compId": 360
+                },
+                {
+                  "type": "Circle",
+                  "props": {
+                    "y": 84,
+                    "x": 98,
+                    "renderType": "hit",
+                    "radius": 78,
+                    "lineWidth": 1,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 378
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 391,
+                "x": 530,
+                "width": 204,
+                "visible": true,
+                "skin": "res_view/sg/panel_fq_purple.png",
+                "name": "weaponItem7",
+                "height": 172,
+                "anchorY": 0,
+                "anchorX": 0
+              },
+              "compId": 361,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "netRes/icon/weaponIcon/icon_fq_jslhx.png",
+                    "name": "weaponIcon",
+                    "centerY": -16,
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 362
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 117,
+                    "x": 26,
+                    "width": 138,
+                    "skin": "res_common/main_shuzi.png",
+                    "height": 36
+                  },
+                  "compId": 363
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 135,
+                    "x": 95,
+                    "skin": "netRes/icon/weaponIcon/text_fq_jslhx.png",
+                    "name": "name",
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 364
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 158,
+                    "width": 75.5,
+                    "name": "level",
+                    "centerX": 0
+                  },
+                  "compId": 457,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "visible": false,
+                        "skin": "res_view/sg/text_slmj.png",
+                        "scaleY": 1.07,
+                        "scaleX": 1.18,
+                        "name": "maxLevel",
+                        "centerY": 0,
+                        "centerX": 0
+                      },
+                      "compId": 484
+                    },
+                    {
+                      "type": "HBox",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "space": 0,
+                        "scaleY": 1,
+                        "scaleX": 1,
+                        "centerY": 0,
+                        "centerX": 0
+                      },
+                      "compId": 510,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 0,
+                            "x": 10,
+                            "width": 23,
+                            "skin": "res_view/sg/text_j_3.png",
+                            "height": 23
+                          },
+                          "compId": 511
+                        },
+                        {
+                          "type": "Box",
+                          "props": {
+                            "y": -3,
+                            "x": 0,
+                            "width": 18.5
+                          },
+                          "compId": 512,
+                          "child": [
+                            {
+                              "type": "FontClip",
+                              "props": {
+                                "x": 0,
+                                "value": "3",
+                                "spaceX": -3,
+                                "skin": "res_common/number/num_23_jxzk_ffffff_stk.png",
+                                "sheet": "0123456789"
+                              },
+                              "compId": 513
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 12,
+                    "x": 131,
+                    "skin": "res_common/redpoint.png",
+                    "name": "redPoint"
+                  },
+                  "compId": 372
+                },
+                {
+                  "type": "Circle",
+                  "props": {
+                    "y": 82,
+                    "x": 99,
+                    "renderType": "hit",
+                    "radius": 78,
+                    "lineWidth": 1,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 379
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": ["res_view/sg/bg_fq.jpg"],
+  "loadList3D": []
+}

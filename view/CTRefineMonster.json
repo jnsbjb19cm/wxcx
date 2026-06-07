@@ -1,0 +1,145 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": true,
+    "height": 1344,
+    "drawCallOptimize": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 672,
+        "x": 375,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0
+      },
+      "compId": 58
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "var": "contentBox",
+        "height": 958,
+        "centerY": -48,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "skin": "netRes/combat/heroSkill/yx_dcq/luzi.png",
+            "centerX": 0
+          },
+          "compId": 148
+        },
+        {
+          "type": "Image",
+          "props": {
+            "width": 589,
+            "var": "equipPanel",
+            "height": 149,
+            "centerY": 136,
+            "centerX": 0
+          },
+          "compId": 133,
+          "child": [
+            {
+              "type": "Sprite",
+              "props": {
+                "y": -15,
+                "x": 103,
+                "var": "iconBg0",
+                "texture": "netRes/combat/heroSkill/yx_dcq/kacao.png"
+              },
+              "compId": 134
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": -15,
+                "x": 323,
+                "var": "iconBg1",
+                "texture": "netRes/combat/heroSkill/yx_dcq/kacao.png"
+              },
+              "compId": 135
+            }
+          ]
+        },
+        {
+          "type": "Button",
+          "props": {
+            "y": 848,
+            "width": 245,
+            "var": "confirmBtn",
+            "stateNum": 1,
+            "skin": "res_common/btn_yellow.png",
+            "labelStroke": 2,
+            "labelSize": 35,
+            "labelFont": "Microsoft YaHei",
+            "labelColors": "#ffffff",
+            "labelBold": true,
+            "height": 108,
+            "centerX": 150
+          },
+          "compId": 139,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "text": "text",
+                "skin": "netRes/combat/heroSkill/yx_dcq/text_btn_liandan.png",
+                "centerY": 0,
+                "centerX": 0
+              },
+              "compId": 149
+            }
+          ]
+        },
+        {
+          "type": "Button",
+          "props": {
+            "y": 848,
+            "width": 245,
+            "var": "closeBtn",
+            "stateNum": 1,
+            "skin": "res_common/btn_blue.png",
+            "labelStroke": 2,
+            "labelSize": 35,
+            "labelFont": "Microsoft YaHei",
+            "labelColors": "#ffffff",
+            "labelBold": true,
+            "height": 108,
+            "centerX": -150
+          },
+          "compId": 142,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 27.5,
+                "x": 51.5,
+                "skin": "netRes/combat/heroSkill/yx_dcq/text_btn_quxiao.png"
+              },
+              "compId": 151
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": ["netRes/combat/heroSkill/yx_dcq/kacao.png"],
+  "loadList3D": []
+}

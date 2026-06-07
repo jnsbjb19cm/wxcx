@@ -1,0 +1,440 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 798,
+        "var": "contentBox",
+        "mouseThrough": true,
+        "height": 1211,
+        "centerY": 21,
+        "centerX": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 589,
+            "x": 399,
+            "width": 1000,
+            "var": "maskBg",
+            "skin": "res_common/bg.png",
+            "height": 1625,
+            "centerX": 0,
+            "anchorY": 0.5,
+            "anchorX": 0.5,
+            "alpha": 0.6
+          },
+          "compId": 6
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -20,
+            "x": -31,
+            "width": 861,
+            "skin": "res_view/manual/panel_tujianzzz.png",
+            "sizeGrid": "113,0,23,0",
+            "height": 1209
+          },
+          "compId": 7
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 115,
+            "x": 40,
+            "width": 723,
+            "skin": "res_view/manual/img_tujiandiban.png",
+            "sizeGrid": "372,0,322,0",
+            "height": 1061
+          },
+          "compId": 8
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -56,
+            "x": 56,
+            "skin": "res_common/icon_head.png"
+          },
+          "compId": 9
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -52,
+            "x": 171,
+            "skin": "res_view/manual/text_tj.png",
+            "name": "img_tujian"
+          },
+          "compId": 10
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -19,
+            "x": 700,
+            "var": "closeBtn",
+            "skin": "res_common/bg_common_close.png",
+            "label": "label"
+          },
+          "compId": 11,
+          "child": [
+            {
+              "type": "Rect",
+              "props": {
+                "y": -15,
+                "x": -11,
+                "width": 77,
+                "renderType": "hit",
+                "lineWidth": 1,
+                "height": 70,
+                "fillColor": "#ff0000"
+              },
+              "compId": 12
+            }
+          ]
+        },
+        {
+          "type": "Panel",
+          "props": {
+            "y": 135.5,
+            "width": 650,
+            "var": "listapprentipanel",
+            "vScrollBarSkin": " ",
+            "name": "listapprentipanel",
+            "height": 1000,
+            "centerX": 0
+          },
+          "compId": 13,
+          "child": [
+            {
+              "type": "List",
+              "props": {
+                "y": 0,
+                "width": 650,
+                "var": "aprrenticesList",
+                "spaceY": 0,
+                "spaceX": 5,
+                "right": 0,
+                "repeatX": 4,
+                "name": "aprrenticesList",
+                "left": 0,
+                "height": 1657
+              },
+              "compId": 14,
+              "child": [
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 13,
+                    "x": 0,
+                    "width": 157,
+                    "renderType": "render",
+                    "height": 229
+                  },
+                  "compId": 15,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 6,
+                        "x": 2,
+                        "width": 156,
+                        "skin": "netRes/liuhe/viewUI/panel_friend.png",
+                        "name": "quality",
+                        "height": 217
+                      },
+                      "compId": 16
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 134,
+                        "x": 40,
+                        "var": "shadow",
+                        "skin": "netRes/liuhe/viewUI/pic_touying.png",
+                        "name": "shadow"
+                      },
+                      "compId": 50
+                    },
+                    {
+                      "type": "HBox",
+                      "props": {
+                        "y": 101,
+                        "x": 76,
+                        "width": 1,
+                        "var": "BodyRes",
+                        "name": "BodyRes",
+                        "height": 1
+                      },
+                      "compId": 49
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "var": "studentName",
+                        "pivotY": 25,
+                        "pivotX": 26,
+                        "name": "studentName",
+                        "centerY": 69,
+                        "centerX": 4
+                      },
+                      "compId": 54
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 170.5,
+                        "x": 55.5,
+                        "skin": "netRes/monsterName/style_3_md/text_lock.png",
+                        "scaleY": 1.2,
+                        "scaleX": 1.2,
+                        "name": "question"
+                      },
+                      "compId": 53
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 10,
+                        "x": 13,
+                        "width": 28,
+                        "visible": false,
+                        "skin": "res_view/beauty/panel_mz_2.png",
+                        "name": "namebg",
+                        "height": 133
+                      },
+                      "compId": 21,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "scaleY": 0.67,
+                            "scaleX": 0.67,
+                            "name": "name",
+                            "centerY": 0,
+                            "centerX": 0
+                          },
+                          "compId": 22
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 118.5,
+                        "visible": false,
+                        "skin": "res_common/redpoint.png",
+                        "name": "redPoint"
+                      },
+                      "compId": 31
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 28,
+                        "x": 32,
+                        "width": 1,
+                        "name": "detailBtn",
+                        "height": 1
+                      },
+                      "compId": 33,
+                      "child": [
+                        {
+                          "type": "Rect",
+                          "props": {
+                            "y": 14,
+                            "x": 6,
+                            "width": 185,
+                            "renderType": "hit",
+                            "lineWidth": 1,
+                            "height": 331,
+                            "fillColor": "#ff0000"
+                          },
+                          "compId": 34
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Box",
+                      "props": {
+                        "y": 100,
+                        "x": 79,
+                        "width": 1,
+                        "visible": false,
+                        "name": "award",
+                        "height": 1
+                      },
+                      "compId": 44,
+                      "child": [
+                        {
+                          "type": "Animation",
+                          "props": {
+                            "source": "ani/albumAward.ani"
+                          },
+                          "compId": 45
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "List",
+          "props": {
+            "y": 26,
+            "x": 288,
+            "width": 420,
+            "visible": true,
+            "var": "tabList",
+            "spaceX": 13,
+            "selectedIndex": 1,
+            "selectEnable": true,
+            "repeatY": 1,
+            "repeatX": 1,
+            "mouseThrough": true,
+            "mouseEnabled": true,
+            "height": 99
+          },
+          "compId": 35,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 12,
+                "x": 287,
+                "width": 124,
+                "renderType": "render",
+                "mouseThrough": true,
+                "mouseEnabled": true,
+                "height": 75
+              },
+              "compId": 36,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 1,
+                    "x": 61,
+                    "skin": "res_view/manual/btn_1_2.png",
+                    "name": "tabBg",
+                    "anchorY": 0,
+                    "anchorX": 0.5
+                  },
+                  "compId": 37
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 24,
+                    "x": 22,
+                    "skin": "netRes/liuhe/viewUI/text_dizi.png",
+                    "name": "img_txtType"
+                  },
+                  "compId": 38
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": -12,
+                    "x": 100,
+                    "visible": false,
+                    "texture": "main/redpoint.png",
+                    "name": "redPoint"
+                  },
+                  "compId": 39
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 59,
+                    "x": 1,
+                    "visible": false,
+                    "skin": "res_view/sg/img_fenyejiantou.png",
+                    "name": "jiantou"
+                  },
+                  "compId": 40
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 1183,
+            "x": 264,
+            "skin": "res_common/text_djgb.png",
+            "name": "img_blankClose",
+            "centerX": 0
+          },
+          "compId": 41
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 155,
+            "x": 74,
+            "width": 156,
+            "visible": false,
+            "var": "quality",
+            "skin": "netRes/liuhe/viewUI/panel_friend.png",
+            "name": "quality",
+            "height": 217
+          },
+          "compId": 47
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 3000,
+        "visible": true,
+        "var": "topClose",
+        "height": 830,
+        "centerY": -994,
+        "centerX": 0
+      },
+      "compId": 4
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 3000,
+        "visible": true,
+        "var": "bottomClose",
+        "height": 648,
+        "centerY": 928,
+        "centerX": 0
+      },
+      "compId": 5
+    }
+  ],
+  "loadList": [
+    "res_view/manual/panel_tujianzzz.png",
+    "res_view/manual/img_tujiandiban.png",
+    "ani/albumAward.ani",
+    "main/redpoint.png"
+  ],
+  "loadList3D": []
+}

@@ -1,0 +1,100 @@
+{
+  "type": "View",
+  "props": {
+    "width": 400,
+    "height": 150
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "width": 400,
+        "var": "showBox",
+        "height": 150
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 1,
+            "x": 17,
+            "skin": "res_combat/public/panel_bm.png"
+          },
+          "compId": 4
+        },
+        {
+          "type": "Image",
+          "props": {
+            "var": "artText",
+            "text": "text",
+            "centerY": -1,
+            "centerX": 4
+          },
+          "compId": 6
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 46,
+            "x": 37,
+            "width": 74,
+            "skin": "res_common/solt_hero_blue.png",
+            "height": 74
+          },
+          "compId": 7,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -88,
+                "x": -27,
+                "width": 138,
+                "var": "headImgL",
+                "height": 178
+              },
+              "compId": 9
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 45,
+            "x": 298,
+            "width": 75,
+            "skin": "res_common/solt_hero_red.png",
+            "height": 75
+          },
+          "compId": 8,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -88,
+                "x": -27,
+                "width": 138,
+                "var": "headImgR",
+                "height": 178
+              },
+              "compId": 10
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 37,
+            "x": 290,
+            "var": "killIcon",
+            "skin": "res_combat/public/img_kill.png"
+          },
+          "compId": 11
+        }
+      ]
+    }
+  ],
+  "loadList": ["res_common/solt_hero_blue.png"],
+  "loadList3D": []
+}

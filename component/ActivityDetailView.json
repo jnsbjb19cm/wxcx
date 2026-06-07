@@ -1,0 +1,620 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334,
+    "centerY": 0,
+    "centerX": 0
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "width": 760,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1334,
+        "alpha": 0.6
+      },
+      "compId": 131
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 128,
+        "width": 761,
+        "skin": "netRes/mail/img_house_title02.png",
+        "sizeGrid": "150,0,216,0",
+        "mouseEnabled": true,
+        "height": 1047,
+        "centerX": 0,
+        "alpha": 1
+      },
+      "compId": 86,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -17,
+            "x": 40,
+            "skin": "res_common/icon_head.png"
+          },
+          "compId": 87
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 1,
+            "x": 162,
+            "var": "titleImg",
+            "skin": "res_view/activity/text_hd.png"
+          },
+          "compId": 88
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 1054,
+            "x": 244,
+            "skin": "res_common/text_djgb.png",
+            "mouseEnabled": false
+          },
+          "compId": 108
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 924,
+            "x": 27,
+            "skin": "res_view/activity/img_activity_paperman.png"
+          },
+          "compId": 112
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 6,
+            "x": 641,
+            "var": "closeBtn",
+            "skin": "res_common/btn_close.png",
+            "label": "label"
+          },
+          "compId": 113
+        }
+      ]
+    },
+    {
+      "type": "Panel",
+      "props": {
+        "y": 202,
+        "width": 680,
+        "vScrollBarSkin": " ",
+        "height": 826,
+        "centerX": 0
+      },
+      "compId": 114,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "width": 680,
+            "var": "YS",
+            "height": 199
+          },
+          "compId": 115,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 18,
+                "x": 9,
+                "skin": "res_view/activity/pic_boss.png"
+              },
+              "compId": 116
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 13,
+                "x": 8,
+                "skin": "res_view/activity/solt_kuang.png"
+              },
+              "compId": 117
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 3,
+                "x": -15,
+                "var": "ys_unlock",
+                "skin": "res_view/activity/text_ysjs.png"
+              },
+              "compId": 118
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 680,
+                "var": "ys_lockStyle",
+                "height": 199
+              },
+              "compId": 141,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -22,
+                    "x": -3,
+                    "skin": "res_view/activity/text_ysjs.png",
+                    "scaleY": 0.9,
+                    "scaleX": 0.9,
+                    "name": "acitvityName"
+                  },
+                  "compId": 142
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 110,
+                    "x": 38,
+                    "texture": "res_view/activity/pic_xq.png"
+                  },
+                  "compId": 143,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 4,
+                        "text": "text",
+                        "skin": "res_view/activity/text_ysjsyxpj.png",
+                        "centerX": 0
+                      },
+                      "compId": 144
+                    }
+                  ]
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 157,
+                    "x": 30,
+                    "texture": "res_view/activity/chongzhi_bg_8.png"
+                  },
+                  "compId": 145,
+                  "child": [
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": -2,
+                        "var": "ys_unlockZoneId",
+                        "value": "5",
+                        "spaceX": -10,
+                        "skin": "res_common/number/num_18_jxzk_dd6866.png",
+                        "sheet": "0123456789",
+                        "centerX": 7
+                      },
+                      "compId": 146,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 8,
+                            "text": "text",
+                            "skin": "res_view/activity/text_ss.png",
+                            "left": -31
+                          },
+                          "compId": 147
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 8,
+                            "skin": "res_view/activity/text_kq.png",
+                            "right": -42
+                          },
+                          "compId": 148
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 4,
+                "x": 636,
+                "var": "ys_redPoint",
+                "skin": "res_common/redpoint.png"
+              },
+              "compId": 149
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 191,
+            "x": 0,
+            "width": 680,
+            "var": "SJ",
+            "height": 199
+          },
+          "compId": 119,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 16,
+                "x": 9,
+                "skin": "res_view/activity/pic_sanjie.png"
+              },
+              "compId": 120
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 13,
+                "x": 8,
+                "skin": "res_view/activity/solt_kuang.png"
+              },
+              "compId": 121
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 20,
+                "x": -2.5,
+                "var": "sj_unlock",
+                "skin": "res_view/activity/text_sjfb.png",
+                "scaleY": 1.1,
+                "scaleX": 1.1
+              },
+              "compId": 137
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 680,
+                "var": "sj_lockStyle",
+                "height": 199
+              },
+              "compId": 136,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -8,
+                    "x": 2,
+                    "skin": "res_view/activity/text_sjfb.png",
+                    "name": "acitvityName"
+                  },
+                  "compId": 122
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 111,
+                    "x": 31,
+                    "texture": "res_view/activity/pic_xq.png"
+                  },
+                  "compId": 123,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 4,
+                        "text": "text",
+                        "skin": "res_view/activity/text_gyrq.png",
+                        "centerX": 0
+                      },
+                      "compId": 124
+                    }
+                  ]
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 159,
+                    "x": 29,
+                    "texture": "res_view/activity/chongzhi_bg_8.png"
+                  },
+                  "compId": 125,
+                  "child": [
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": -2,
+                        "var": "sj_unlockZoneId",
+                        "value": "12",
+                        "spaceX": -10,
+                        "skin": "res_common/number/num_18_jxzk_dd6866.png",
+                        "sheet": "0123456789",
+                        "centerX": 7
+                      },
+                      "compId": 135,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 8,
+                            "text": "text",
+                            "skin": "res_view/activity/text_ss.png",
+                            "left": -30
+                          },
+                          "compId": 133
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 8,
+                            "skin": "res_view/activity/text_kq.png",
+                            "right": -42
+                          },
+                          "compId": 134
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 4,
+                "x": 636,
+                "var": "sj_redPoint",
+                "skin": "res_common/redpoint.png"
+              },
+              "compId": 150
+            },
+            {
+              "type": "Box",
+              "props": {
+                "var": "sjLock",
+                "top": 0,
+                "right": 0,
+                "left": 0,
+                "bottom": 0
+              },
+              "compId": 164,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 25,
+                    "x": 0,
+                    "text": "text",
+                    "skin": "res_view/activity/text_sjfb.png"
+                  },
+                  "compId": 165
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 21,
+                    "x": 21,
+                    "width": 635,
+                    "skin": "res_view/activity/chongzhi_bg_8.png",
+                    "height": 167
+                  },
+                  "compId": 166
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 0,
+                    "x": 376,
+                    "texture": "res_view/activity/icon_common_lock03.png"
+                  },
+                  "compId": 167
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 386,
+            "x": 0,
+            "width": 680,
+            "var": "DB",
+            "height": 199
+          },
+          "compId": 127,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 1,
+                "x": -16,
+                "skin": "res_view/activity/pic_xmdb_2.png"
+              },
+              "compId": 151
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 13,
+                "x": 8,
+                "skin": "res_view/activity/solt_kuang.png"
+              },
+              "compId": 152
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 46.5,
+                "x": 25,
+                "var": "db_unlock",
+                "skin": "res_view/activity/text_xmdb.png",
+                "scaleY": 1.1,
+                "scaleX": 1.1
+              },
+              "compId": 153
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 680,
+                "var": "db_lockStyle",
+                "height": 199
+              },
+              "compId": 154,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 22.5,
+                    "x": 30,
+                    "skin": "res_view/activity/text_xmdb.png",
+                    "name": "acitvityName"
+                  },
+                  "compId": 156
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 111,
+                    "x": 31,
+                    "texture": "res_view/activity/pic_xq.png"
+                  },
+                  "compId": 157,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 4,
+                        "text": "text",
+                        "skin": "res_view/activity/text_xtyg.png",
+                        "centerX": 0
+                      },
+                      "compId": 158
+                    }
+                  ]
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 159,
+                    "x": 29,
+                    "texture": "res_view/activity/chongzhi_bg_8.png"
+                  },
+                  "compId": 159,
+                  "child": [
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": -2,
+                        "var": "db_unlockZoneId",
+                        "value": "20",
+                        "spaceX": -8,
+                        "skin": "res_common/number/num_18_jxzk_dd6866.png",
+                        "sheet": "0123456789",
+                        "centerX": 5
+                      },
+                      "compId": 160,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 8,
+                            "text": "text",
+                            "skin": "res_view/activity/text_ss.png",
+                            "left": -32
+                          },
+                          "compId": 161
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 8,
+                            "skin": "res_view/activity/text_kq.png",
+                            "right": -42
+                          },
+                          "compId": 162
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 4,
+                "x": 636,
+                "var": "db_redPoint",
+                "skin": "res_common/redpoint.png"
+              },
+              "compId": 155
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "var": "dbLock",
+                "top": 0,
+                "right": 0,
+                "left": 0,
+                "bottom": 0
+              },
+              "compId": 168,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 48.5,
+                    "x": 30,
+                    "text": "text",
+                    "skin": "res_view/activity/text_xmdb.png"
+                  },
+                  "compId": 169
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 21,
+                    "x": 21,
+                    "width": 635,
+                    "skin": "res_view/activity/chongzhi_bg_8.png",
+                    "height": 167
+                  },
+                  "compId": 170
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 0,
+                    "x": 378,
+                    "texture": "res_view/activity/icon_common_lock03.png"
+                  },
+                  "compId": 171
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "netRes/mail/img_house_title02.png",
+    "res_view/activity/pic_xq.png",
+    "res_view/activity/chongzhi_bg_8.png",
+    "res_view/activity/icon_common_lock03.png"
+  ],
+  "loadList3D": []
+}

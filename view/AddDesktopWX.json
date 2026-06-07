@@ -1,0 +1,477 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "var": "maskBg",
+        "top": 0,
+        "skin": "res_common/bg.png",
+        "right": 0,
+        "left": 0,
+        "bottom": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 3
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 610,
+        "height": 960,
+        "centerY": 25,
+        "centerX": -2
+      },
+      "compId": 6,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -14,
+            "x": 5,
+            "width": 606,
+            "skin": "res_view/platformFeatures/panel_1.png",
+            "sizeGrid": "74,0,101,0",
+            "height": 970
+          },
+          "compId": 7
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -22,
+            "x": 520,
+            "var": "closeBtn",
+            "skin": "res_view/platformFeatures/btn_close.png",
+            "label": "label"
+          },
+          "compId": 8
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 48,
+            "x": 171,
+            "skin": "res_view/platformFeatures/bg_title01.png"
+          },
+          "compId": 9
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 55,
+            "x": 248,
+            "text": "text",
+            "skin": "res_view/platformFeatures/addDesktop/text_scyl.png"
+          },
+          "compId": 10
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 107,
+            "x": 39,
+            "skin": "res_view/platformFeatures/addDesktop/bg_scyl.png"
+          },
+          "compId": 11
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 311,
+            "x": 46,
+            "text": "1.点击顶部    图标",
+            "fontSize": 30,
+            "font": "SimHei",
+            "color": "#4c2a2b"
+          },
+          "compId": 12
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 314,
+            "x": 204,
+            "skin": "res_view/platformFeatures/addDesktop/pic_fx_1.png"
+          },
+          "compId": 13
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 299,
+            "x": 404,
+            "skin": "res_view/platformFeatures/addDesktop/pic_fx_2.png"
+          },
+          "compId": 14
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 347,
+            "x": 438,
+            "width": 108,
+            "skin": "res_view/platformFeatures/addDesktop/icon_shou.png",
+            "name": "hand1",
+            "height": 136
+          },
+          "compId": 15
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 447,
+            "x": 47,
+            "text": "2.点击下方“添加到桌面”",
+            "fontSize": 30,
+            "font": "SimHei",
+            "color": "#4c2a2b"
+          },
+          "compId": 16
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 505,
+            "x": 66,
+            "skin": "res_view/platformFeatures/addDesktop/pic_fx_3.png"
+          },
+          "compId": 17
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 582,
+            "x": 452,
+            "skin": "res_view/platformFeatures/addDesktop/icon_shou.png",
+            "name": "hand2"
+          },
+          "compId": 18
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 724,
+            "x": 47,
+            "text": "3.完成后，从桌面点击图标\\n进入游戏即可领奖",
+            "leading": 6,
+            "fontSize": 30,
+            "font": "SimHei",
+            "color": "#4c2a2b"
+          },
+          "compId": 19
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 719,
+            "x": 464,
+            "width": 101,
+            "var": "itemBox",
+            "height": 101
+          },
+          "compId": 23
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 887,
+            "x": 306,
+            "width": 157,
+            "var": "getBtn",
+            "skin": "res_common/btn_yellow.png",
+            "label": "label",
+            "height": 73,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 21,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 21,
+                "x": 39,
+                "text": "text",
+                "skin": "res_view/platformFeatures/addDesktop/text_lq.png"
+              },
+              "compId": 20
+            },
+            {
+              "type": "Script",
+              "props": {
+                "runtime": "game/tools/BtnScale90.ts"
+              },
+              "compId": 28
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 15,
+          "keyframes": {
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 15,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 15,
+                "key": "scaleY",
+                "index": 1
+              },
+              {
+                "value": 0.6,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 15,
+                "key": "scaleY",
+                "index": 20
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 15,
+                "key": "scaleY",
+                "index": 40
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 15,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 15,
+                "key": "scaleX",
+                "index": 1
+              },
+              {
+                "value": 0.6,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 15,
+                "key": "scaleX",
+                "index": 20
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 15,
+                "key": "scaleX",
+                "index": 40
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 15,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 15,
+                "key": "alpha",
+                "index": 1
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 15,
+                "key": "alpha",
+                "index": 20
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 15,
+                "key": "alpha",
+                "index": 40
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 15,
+                "key": "alpha",
+                "index": 41
+              }
+            ]
+          }
+        },
+        {
+          "target": 18,
+          "keyframes": {
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "scaleY",
+                "index": 45
+              },
+              {
+                "value": 0.6,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "scaleY",
+                "index": 65
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "scaleY",
+                "index": 85
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "scaleX",
+                "index": 45
+              },
+              {
+                "value": 0.6,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "scaleX",
+                "index": 65
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "scaleX",
+                "index": 85
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "alpha",
+                "index": 44
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "alpha",
+                "index": 45
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "alpha",
+                "index": 65
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "alpha",
+                "index": 85
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "alpha",
+                "index": 86
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "alpha",
+                "index": 90
+              }
+            ]
+          }
+        }
+      ],
+      "name": "handAnim",
+      "id": 1,
+      "frameRate": 24,
+      "action": 0
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

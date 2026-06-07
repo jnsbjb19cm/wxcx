@@ -1,0 +1,477 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "top": 0,
+        "skin": "res_common/bg.png",
+        "right": 0,
+        "name": "maskBg",
+        "left": 0,
+        "bottom": 0,
+        "alpha": 0.5
+      },
+      "compId": 8
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 750,
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "y": 630,
+            "x": 375,
+            "width": 750,
+            "var": "showBox",
+            "height": 760,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 4,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 7,
+                "x": 87,
+                "skin": "res_view/guide/panel_znbjb.png"
+              },
+              "compId": 5
+            },
+            {
+              "type": "Panel",
+              "props": {
+                "y": -255,
+                "x": 0,
+                "width": 750,
+                "var": "spineBox",
+                "height": 680
+              },
+              "compId": 154,
+              "child": [
+                {
+                  "type": "SkeletonPlayer",
+                  "props": {
+                    "y": 1409,
+                    "x": 411,
+                    "url": "res_view/guide/spine/NPC-XSLG-SJ-01.sk",
+                    "scaleY": 1.1,
+                    "scaleX": 1.1,
+                    "runtime": "Laya.Skeleton"
+                  },
+                  "compId": 158
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -71,
+                "x": 479,
+                "skin": "res_view/guide/haoeqipao.png"
+              },
+              "compId": 11
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 493,
+                "x": 213,
+                "text": "text",
+                "skin": "res_view/guide/text_tgxz.png"
+              },
+              "compId": 114
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 641,
+                "x": 100,
+                "width": 550,
+                "var": "proBox",
+                "height": 70
+              },
+              "compId": 80,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 15,
+                    "x": 26,
+                    "width": 510,
+                    "skin": "res_view/guide/bar_jindu_empty.png",
+                    "height": 28
+                  },
+                  "compId": 82
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "var": "sunPillarsBox"
+                  },
+                  "compId": 118,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 21,
+                        "x": 22,
+                        "visible": false,
+                        "skin": "res_view/guide/bar_jindu.png"
+                      },
+                      "compId": 120
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 21,
+                        "x": 83,
+                        "visible": false,
+                        "skin": "res_view/guide/bar_jindu.png"
+                      },
+                      "compId": 121
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 21,
+                        "x": 142,
+                        "visible": false,
+                        "skin": "res_view/guide/bar_jindu.png"
+                      },
+                      "compId": 122
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 21,
+                        "x": 203,
+                        "visible": false,
+                        "skin": "res_view/guide/bar_jindu.png"
+                      },
+                      "compId": 123
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 21,
+                        "x": 264,
+                        "visible": false,
+                        "skin": "res_view/guide/bar_jindu.png"
+                      },
+                      "compId": 124
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 21,
+                        "x": 325,
+                        "visible": false,
+                        "skin": "res_view/guide/bar_jindu.png"
+                      },
+                      "compId": 125
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 21,
+                        "x": 386,
+                        "visible": false,
+                        "skin": "res_view/guide/bar_jindu.png"
+                      },
+                      "compId": 126
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 21,
+                        "x": 446,
+                        "visible": false,
+                        "skin": "res_view/guide/bar_jindu.png"
+                      },
+                      "compId": 127
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "var": "pointBox"
+                  },
+                  "compId": 119,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 14,
+                        "x": 16,
+                        "skin": "res_view/guide/frame_online_03.png"
+                      },
+                      "compId": 128,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -6.5,
+                            "x": -7.5,
+                            "visible": false,
+                            "skin": "res_view/guide/frame_online_05.png"
+                          },
+                          "compId": 129
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 14,
+                        "x": 77,
+                        "skin": "res_view/guide/frame_online_03.png"
+                      },
+                      "compId": 130,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -6.5,
+                            "x": -7.5,
+                            "visible": false,
+                            "skin": "res_view/guide/frame_online_05.png"
+                          },
+                          "compId": 131
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 14,
+                        "x": 137,
+                        "skin": "res_view/guide/frame_online_03.png"
+                      },
+                      "compId": 132,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -6.5,
+                            "x": -7.5,
+                            "visible": false,
+                            "skin": "res_view/guide/frame_online_05.png"
+                          },
+                          "compId": 133
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 14,
+                        "x": 197,
+                        "skin": "res_view/guide/frame_online_03.png"
+                      },
+                      "compId": 134,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -6.5,
+                            "x": -7.5,
+                            "visible": false,
+                            "skin": "res_view/guide/frame_online_05.png"
+                          },
+                          "compId": 135
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 14,
+                        "x": 259,
+                        "skin": "res_view/guide/frame_online_03.png"
+                      },
+                      "compId": 136,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -6.5,
+                            "x": -7.5,
+                            "visible": false,
+                            "skin": "res_view/guide/frame_online_05.png"
+                          },
+                          "compId": 137
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 14,
+                        "x": 318,
+                        "skin": "res_view/guide/frame_online_03.png"
+                      },
+                      "compId": 138,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -6.5,
+                            "x": -7.5,
+                            "visible": false,
+                            "skin": "res_view/guide/frame_online_05.png"
+                          },
+                          "compId": 139
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 14,
+                        "x": 380,
+                        "skin": "res_view/guide/frame_online_03.png"
+                      },
+                      "compId": 140,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -6.5,
+                            "x": -7.5,
+                            "visible": false,
+                            "skin": "res_view/guide/frame_online_05.png"
+                          },
+                          "compId": 141
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 14,
+                        "x": 440,
+                        "skin": "res_view/guide/frame_online_03.png"
+                      },
+                      "compId": 142,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -6.5,
+                            "x": -7.5,
+                            "visible": false,
+                            "skin": "res_view/guide/frame_online_05.png"
+                          },
+                          "compId": 143
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 14,
+                        "x": 501,
+                        "skin": "res_view/guide/frame_online_03.png"
+                      },
+                      "compId": 144,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -6.5,
+                            "x": -7.5,
+                            "visible": false,
+                            "skin": "res_view/guide/frame_online_05.png"
+                          },
+                          "compId": 145
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "HBox",
+              "props": {
+                "y": 570,
+                "space": 11,
+                "height": 80,
+                "centerX": -1
+              },
+              "compId": 81,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "text": "text",
+                    "skin": "res_view/guide/text_hs2.png",
+                    "centerY": 0
+                  },
+                  "compId": 111
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "var": "content",
+                    "text": "9",
+                    "stroke": 2,
+                    "fontSize": 48,
+                    "font": "SimHei",
+                    "color": "#ffffff",
+                    "centerY": 0
+                  },
+                  "compId": 112
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "text": "text",
+                    "skin": "res_view/guide/text_g.png",
+                    "centerY": 0
+                  },
+                  "compId": 113
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 1011,
+            "x": 239,
+            "text": "text",
+            "skin": "res_common/text_djgb.png"
+          },
+          "compId": 9
+        }
+      ]
+    }
+  ],
+  "loadList": ["res_view/guide/spine/NPC-XSLG-SJ-01.sk"],
+  "loadList3D": []
+}

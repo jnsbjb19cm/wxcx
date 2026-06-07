@@ -1,0 +1,510 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "width": 554,
+        "visible": true,
+        "var": "child_info",
+        "height": 547,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -400,
+            "x": -101,
+            "width": 798,
+            "var": "child_info_maskbg",
+            "skin": "res_common/bg.png",
+            "height": 1344,
+            "alpha": 0.45
+          },
+          "compId": 4
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": -39,
+            "x": 16
+          },
+          "compId": 5,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 524,
+                "var": "info_bg",
+                "skin": "res_main/panel_tips.png",
+                "height": 526
+              },
+              "compId": 6
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 34,
+                "x": 40,
+                "skin": "res_view/children/title_znxq.png"
+              },
+              "compId": 7
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 109,
+                "x": 42,
+                "visible": false,
+                "var": "one_childbox"
+              },
+              "compId": 29,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "var": "info_name",
+                    "skin": "res_view/children/texe_xq_xm.png"
+                  },
+                  "compId": 8,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": -1,
+                        "x": 62,
+                        "var": "i_n_text",
+                        "text": "名字最多六字",
+                        "fontSize": 22,
+                        "font": "SimHei",
+                        "color": "#ffffff"
+                      },
+                      "compId": 9
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 48,
+                    "x": 1,
+                    "var": "info_quality",
+                    "skin": "res_view/children/texe_xq_pz.png"
+                  },
+                  "compId": 10,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": -1,
+                        "x": 60,
+                        "var": "i_q_text",
+                        "text": "平庸",
+                        "fontSize": 22,
+                        "font": "SimHei",
+                        "color": "#00e626"
+                      },
+                      "compId": 11
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 99,
+                    "x": 1,
+                    "var": "info_work",
+                    "skin": "res_view/children/texe_xq_zy.png"
+                  },
+                  "compId": 12,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": -1,
+                        "x": 61,
+                        "var": "i_w_text",
+                        "text": "刺客",
+                        "fontSize": 22,
+                        "font": "SimHei",
+                        "color": "#ffffff"
+                      },
+                      "compId": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 50,
+                    "x": 255,
+                    "var": "info_shouxue",
+                    "skin": "res_view/children/texe_xq_sx.png"
+                  },
+                  "compId": 24,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": -1,
+                        "x": 59,
+                        "var": "i_sx_text",
+                        "text": "私塾",
+                        "fontSize": 22,
+                        "font": "SimHei",
+                        "color": "#ffab3e"
+                      },
+                      "compId": 25
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "x": 255,
+                    "var": "info_fc",
+                    "skin": "res_view/children/fc.png"
+                  },
+                  "compId": 26,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": -1,
+                        "x": 61,
+                        "var": "i_f_name",
+                        "underlineColor": "#ffffff",
+                        "underline": true,
+                        "text": "最多五个字",
+                        "fontSize": 22,
+                        "font": "SimHei",
+                        "color": "#ffffff"
+                      },
+                      "compId": 27
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 109,
+                "x": 42,
+                "visible": false,
+                "var": "dou_childbox"
+              },
+              "compId": 30,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "var": "one_name",
+                    "skin": "res_view/children/texe_xq_gg.png"
+                  },
+                  "compId": 31,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": -1,
+                        "x": 62,
+                        "var": "name_1",
+                        "text": "名字最多六字",
+                        "fontSize": 22,
+                        "font": "SimHei",
+                        "color": "#ffffff"
+                      },
+                      "compId": 32
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 255,
+                    "var": "two_name",
+                    "skin": "res_view/children/texe_xq_dd.png"
+                  },
+                  "compId": 41,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": -1,
+                        "x": 62,
+                        "var": "name_2",
+                        "text": "名字最多六字",
+                        "fontSize": 22,
+                        "font": "SimHei",
+                        "color": "#ffffff"
+                      },
+                      "compId": 42
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 48,
+                    "x": 0,
+                    "var": "dou_fc",
+                    "skin": "res_view/children/fc.png"
+                  },
+                  "compId": 39,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": -1,
+                        "x": 61,
+                        "var": "dou_fc_text",
+                        "underlineColor": "#ffffff",
+                        "underline": true,
+                        "text": "最多五个字",
+                        "fontSize": 22,
+                        "font": "SimHei",
+                        "color": "#ffffff"
+                      },
+                      "compId": 40
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 48,
+                    "x": 255,
+                    "var": "dou_quality",
+                    "skin": "res_view/children/texe_xq_pz.png"
+                  },
+                  "compId": 33,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": -1,
+                        "x": 60,
+                        "var": "dou_quality_text",
+                        "text": "平庸",
+                        "fontSize": 22,
+                        "font": "SimHei",
+                        "color": "#00e626"
+                      },
+                      "compId": 34
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 99,
+                    "x": 1,
+                    "var": "dou_work",
+                    "skin": "res_view/children/texe_xq_zy.png"
+                  },
+                  "compId": 35,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": -1,
+                        "x": 61,
+                        "var": "dou_work_text",
+                        "text": "刺客",
+                        "fontSize": 22,
+                        "font": "SimHei",
+                        "color": "#ffffff"
+                      },
+                      "compId": 36
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 99,
+                    "x": 255,
+                    "var": "dou_shouxue",
+                    "skin": "res_view/children/texe_xq_sx.png"
+                  },
+                  "compId": 37,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": -1,
+                        "x": 59,
+                        "var": "dou_shouxue_text",
+                        "text": "私塾",
+                        "fontSize": 22,
+                        "font": "SimHei",
+                        "color": "#ffab3e"
+                      },
+                      "compId": 38
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 271,
+                "x": 42,
+                "var": "info_everytime",
+                "skin": "res_view/children/texe_xq_mcpy.png"
+              },
+              "compId": 14,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -13,
+                    "x": 106,
+                    "width": 52,
+                    "skin": "res_view/platformFeatures/concern/icon_gongde.png",
+                    "height": 52
+                  },
+                  "compId": 15
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 0,
+                    "x": 159,
+                    "var": "i_e_text",
+                    "text": "+5",
+                    "fontSize": 22,
+                    "font": "SimHei",
+                    "color": "#ffab3e"
+                  },
+                  "compId": 16
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 321,
+                "x": 42,
+                "var": "info_specialtalent",
+                "skin": "res_view/children/texe_xq_tstf.png"
+              },
+              "compId": 17,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 0,
+                    "x": 158,
+                    "var": "i_s_text",
+                    "text": "攻击属性 +5%",
+                    "fontSize": 22,
+                    "font": "SimHei",
+                    "color": "#ffffff"
+                  },
+                  "compId": 18
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -4,
+                    "x": 116,
+                    "width": 34,
+                    "var": "work_img",
+                    "skin": "netRes/icon/traitIcon/icon_jb_ck.png",
+                    "height": 34
+                  },
+                  "compId": 19
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 370,
+                "x": 43,
+                "var": "info_energymax",
+                "skin": "res_view/children/texe_xq_jchlsx.png"
+              },
+              "compId": 20,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 0,
+                    "x": 162,
+                    "var": "i_e_max",
+                    "text": "280",
+                    "fontSize": 22,
+                    "font": "SimHei",
+                    "color": "#ffffff"
+                  },
+                  "compId": 21
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 420,
+                "x": 40,
+                "var": "info_recover",
+                "skin": "res_view/children/texe_xq_hlhfsd.png"
+              },
+              "compId": 22,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 0,
+                    "x": 162,
+                    "var": "i_r_time",
+                    "text": "60/秒",
+                    "fontSize": 22,
+                    "font": "SimHei",
+                    "color": "#ffffff"
+                  },
+                  "compId": 23
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 526,
+                "x": 123,
+                "var": "clickclose",
+                "skin": "res_view/rank/text_djgb.png"
+              },
+              "compId": 28
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 470,
+                "x": 32,
+                "skin": "res_view/children/texe_qygdshgdsyfsyx.png"
+              },
+              "compId": 44
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": ["res_main/panel_tips.png"],
+  "loadList3D": []
+}

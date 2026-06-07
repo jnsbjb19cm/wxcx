@@ -1,0 +1,791 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "width": 750,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0,
+        "alpha": 0.6
+      },
+      "compId": 87
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "mouseThrough": true,
+        "mouseEnabled": true,
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 307,
+            "var": "weaponPanel",
+            "skin": "res_view/sg/panel_dj_yz.png",
+            "sizeGrid": "597,0,225,0",
+            "centerX": -24
+          },
+          "compId": 7,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 23,
+                "var": "weaponPanel_re",
+                "skin": "res_view/sg/panel_dj.jpg",
+                "centerX": 23
+              },
+              "compId": 143,
+              "child": [
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": -28,
+                    "x": 335,
+                    "texture": "res_view/sg/pic_niao_1.png"
+                  },
+                  "compId": 144
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 620,
+                    "x": -46,
+                    "texture": "res_view/sg/pic_niao_2.png"
+                  },
+                  "compId": 145
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 713,
+                    "wordWrap": true,
+                    "width": 396,
+                    "var": "desc",
+                    "text": "说战锤由上说战锤由上说战锤由上说战锤由上说战锤由上说战锤由上",
+                    "leading": 5,
+                    "fontSize": 22,
+                    "font": "SimHei",
+                    "color": "#817969",
+                    "centerX": 0,
+                    "anchorY": 1,
+                    "align": "center"
+                  },
+                  "compId": 82
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 23,
+                "x": 80,
+                "var": "qualityImg",
+                "skin": "res_view/sg/bg_artifact_name_2.png"
+              },
+              "compId": 92,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "var": "qualityText",
+                    "skin": "res_view/sg/text_cqfq.png",
+                    "centerY": -10,
+                    "centerX": -1
+                  },
+                  "compId": 93
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 278,
+                "width": 236,
+                "visible": true,
+                "var": "weapon",
+                "scaleY": 1.92,
+                "scaleX": 1.92,
+                "height": 236,
+                "centerX": 20,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 8,
+              "child": [
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 35.5,
+                    "x": 186.5,
+                    "texture": "res_view/sg/decorate_artifact_02.png",
+                    "scaleY": 0.5,
+                    "scaleX": 0.5
+                  },
+                  "compId": 94
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 123.5,
+                    "x": 8,
+                    "texture": "res_view/sg/decorate_artifact_01.png",
+                    "scaleY": 0.51,
+                    "scaleX": 0.51
+                  },
+                  "compId": 95
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "netRes/icon/weaponIcon/icon_fq_wlbsf.png",
+                    "name": "weaponIcon",
+                    "centerY": -6,
+                    "centerX": 3,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 65
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "visible": false,
+                    "skin": "res_view/sg/icon_lock_02.png",
+                    "scaleY": 0.5,
+                    "scaleX": 0.5,
+                    "name": "lock",
+                    "centerY": 0,
+                    "centerX": 0
+                  },
+                  "compId": 83
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 411,
+                "x": 186,
+                "var": "levelbg",
+                "skin": "res_view/sg/panel_slgy.png",
+                "centerX": 20
+              },
+              "compId": 86
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 422,
+                "x": 169,
+                "width": 246,
+                "skin": "res_view/sg/panel_fqmz.png",
+                "height": 59
+              },
+              "compId": 97
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 452,
+                "var": "nameImg",
+                "skin": "netRes/icon/weaponIcon/text_fq_dhhdz.png",
+                "scaleY": 1.2,
+                "scaleX": 1.2,
+                "centerX": 20,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 71
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 492,
+                "visible": false,
+                "var": "lockTip",
+                "skin": "res_view/sg/text_hfflhq.png",
+                "centerX": 23
+              },
+              "compId": 84
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 487,
+                "visible": false,
+                "var": "maxLevel",
+                "skin": "res_view/sg/text_slmj.png",
+                "scaleY": 1.6,
+                "scaleX": 1.6,
+                "centerX": 20
+              },
+              "compId": 78
+            },
+            {
+              "type": "HBox",
+              "props": {
+                "y": 488,
+                "var": "level",
+                "space": 3,
+                "scaleY": 0.85,
+                "scaleX": 0.85,
+                "centerX": 20
+              },
+              "compId": 72,
+              "child": [
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": -8,
+                    "x": 0
+                  },
+                  "compId": 74,
+                  "child": [
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "var": "levelNum",
+                        "value": "27",
+                        "spaceX": -15,
+                        "skin": "res_common/number/num_40_jxzk_ffffff_stk_2.png",
+                        "sheet": "0123456789",
+                        "pivotX": 8
+                      },
+                      "compId": 73
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 10,
+                    "width": 40,
+                    "height": 40
+                  },
+                  "compId": 121,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "skin": "res_view/sg/text_j_3.png",
+                        "scaleY": 1,
+                        "scaleX": 1
+                      },
+                      "compId": 75
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 537,
+                "x": 65,
+                "width": 466,
+                "skin": "res_view/sg/frame_artifact_skill.png",
+                "sizeGrid": "15,17,15,15",
+                "height": 140
+              },
+              "compId": 77,
+              "child": [
+                {
+                  "type": "HBox",
+                  "props": {
+                    "var": "attrPanel",
+                    "space": 10,
+                    "height": 140,
+                    "centerY": 0,
+                    "centerX": 0
+                  },
+                  "compId": 142,
+                  "child": [
+                    {
+                      "type": "VBox",
+                      "props": {
+                        "y": 33,
+                        "x": 10,
+                        "space": 30,
+                        "name": "content",
+                        "centerY": 0
+                      },
+                      "compId": 98,
+                      "child": [
+                        {
+                          "type": "HBox",
+                          "props": {
+                            "y": 0,
+                            "x": 0,
+                            "space": 0,
+                            "name": "curAttr"
+                          },
+                          "compId": 100,
+                          "child": [
+                            {
+                              "type": "Label",
+                              "props": {
+                                "y": 4,
+                                "x": 0,
+                                "text": "当前：",
+                                "name": "title1",
+                                "fontSize": 18,
+                                "font": "Microsoft YaHei",
+                                "color": "#70504f",
+                                "bold": true
+                              },
+                              "compId": 101
+                            },
+                            {
+                              "type": "VBox",
+                              "props": {
+                                "y": 0,
+                                "x": 0,
+                                "space": 10
+                              },
+                              "compId": 99,
+                              "child": [
+                                {
+                                  "type": "HBox",
+                                  "props": {
+                                    "name": "attr1"
+                                  },
+                                  "compId": 103,
+                                  "child": [
+                                    {
+                                      "type": "Label",
+                                      "props": {
+                                        "y": 0,
+                                        "x": 0,
+                                        "text": "所有使徒生命",
+                                        "name": "desc",
+                                        "fontSize": 22,
+                                        "font": "Microsoft YaHei",
+                                        "color": "#70504f",
+                                        "bold": true
+                                      },
+                                      "compId": 102
+                                    },
+                                    {
+                                      "type": "Label",
+                                      "props": {
+                                        "y": 0,
+                                        "x": 0,
+                                        "text": "+100",
+                                        "name": "num",
+                                        "fontSize": 22,
+                                        "font": "Microsoft YaHei",
+                                        "color": "#0b8235",
+                                        "bold": true
+                                      },
+                                      "compId": 104
+                                    },
+                                    {
+                                      "type": "Label",
+                                      "props": {
+                                        "y": 0,
+                                        "x": 0,
+                                        "visible": false,
+                                        "text": "次",
+                                        "name": "unit",
+                                        "fontSize": 22,
+                                        "font": "Microsoft YaHei",
+                                        "color": "#70504f",
+                                        "bold": true
+                                      },
+                                      "compId": 132
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "HBox",
+                                  "props": {
+                                    "y": 22,
+                                    "x": 0,
+                                    "visible": false,
+                                    "name": "attr2"
+                                  },
+                                  "compId": 106,
+                                  "child": [
+                                    {
+                                      "type": "Label",
+                                      "props": {
+                                        "y": 0,
+                                        "x": 0,
+                                        "text": "所有使徒生命",
+                                        "name": "desc",
+                                        "fontSize": 22,
+                                        "font": "Microsoft YaHei",
+                                        "color": "#70504f",
+                                        "bold": true
+                                      },
+                                      "compId": 107
+                                    },
+                                    {
+                                      "type": "Label",
+                                      "props": {
+                                        "y": 0,
+                                        "x": 0,
+                                        "text": "+100",
+                                        "name": "num",
+                                        "fontSize": 22,
+                                        "font": "Microsoft YaHei",
+                                        "color": "#0b8235",
+                                        "bold": true
+                                      },
+                                      "compId": 108
+                                    },
+                                    {
+                                      "type": "Label",
+                                      "props": {
+                                        "visible": false,
+                                        "text": "次",
+                                        "name": "unit",
+                                        "fontSize": 22,
+                                        "font": "Microsoft YaHei",
+                                        "color": "#70504f",
+                                        "bold": true
+                                      },
+                                      "compId": 119
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "HBox",
+                                  "props": {
+                                    "y": 64,
+                                    "x": 0,
+                                    "visible": false,
+                                    "name": "attr3"
+                                  },
+                                  "compId": 146,
+                                  "child": [
+                                    {
+                                      "type": "Label",
+                                      "props": {
+                                        "y": 0,
+                                        "x": 0,
+                                        "text": "所有使徒生命",
+                                        "name": "desc",
+                                        "fontSize": 22,
+                                        "font": "Microsoft YaHei",
+                                        "color": "#70504f",
+                                        "bold": true
+                                      },
+                                      "compId": 147
+                                    },
+                                    {
+                                      "type": "Label",
+                                      "props": {
+                                        "y": 0,
+                                        "x": 0,
+                                        "text": "+100",
+                                        "name": "num",
+                                        "fontSize": 22,
+                                        "font": "Microsoft YaHei",
+                                        "color": "#0b8235",
+                                        "bold": true
+                                      },
+                                      "compId": 148
+                                    },
+                                    {
+                                      "type": "Label",
+                                      "props": {
+                                        "visible": false,
+                                        "text": "次",
+                                        "name": "unit",
+                                        "fontSize": 22,
+                                        "font": "Microsoft YaHei",
+                                        "color": "#70504f",
+                                        "bold": true
+                                      },
+                                      "compId": 149
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "HBox",
+                          "props": {
+                            "y": 0,
+                            "x": 0,
+                            "name": "nextAttr"
+                          },
+                          "compId": 109,
+                          "child": [
+                            {
+                              "type": "Label",
+                              "props": {
+                                "y": 4,
+                                "x": 0,
+                                "text": "下级：",
+                                "name": "title2",
+                                "fontSize": 18,
+                                "font": "Microsoft YaHei",
+                                "color": "#0b8235",
+                                "bold": true
+                              },
+                              "compId": 110
+                            },
+                            {
+                              "type": "VBox",
+                              "props": {
+                                "y": 0,
+                                "x": 0,
+                                "space": 10
+                              },
+                              "compId": 133,
+                              "child": [
+                                {
+                                  "type": "HBox",
+                                  "props": {
+                                    "name": "attr1"
+                                  },
+                                  "compId": 134,
+                                  "child": [
+                                    {
+                                      "type": "Label",
+                                      "props": {
+                                        "y": 0,
+                                        "x": 0,
+                                        "text": "所有使徒生命",
+                                        "name": "desc",
+                                        "fontSize": 22,
+                                        "font": "Microsoft YaHei",
+                                        "color": "#70504f",
+                                        "bold": true
+                                      },
+                                      "compId": 135
+                                    },
+                                    {
+                                      "type": "Label",
+                                      "props": {
+                                        "y": 0,
+                                        "x": 0,
+                                        "text": "+100",
+                                        "name": "num",
+                                        "fontSize": 22,
+                                        "font": "Microsoft YaHei",
+                                        "color": "#0b8235",
+                                        "bold": true
+                                      },
+                                      "compId": 136
+                                    },
+                                    {
+                                      "type": "Label",
+                                      "props": {
+                                        "y": 0,
+                                        "x": 0,
+                                        "visible": false,
+                                        "text": "次",
+                                        "name": "unit",
+                                        "fontSize": 22,
+                                        "font": "Microsoft YaHei",
+                                        "color": "#70504f",
+                                        "bold": true
+                                      },
+                                      "compId": 137
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "HBox",
+                                  "props": {
+                                    "y": 32,
+                                    "x": 0,
+                                    "visible": false,
+                                    "name": "attr2"
+                                  },
+                                  "compId": 138,
+                                  "child": [
+                                    {
+                                      "type": "Label",
+                                      "props": {
+                                        "y": 0,
+                                        "x": 0,
+                                        "text": "所有使徒生命",
+                                        "name": "desc",
+                                        "fontSize": 22,
+                                        "font": "Microsoft YaHei",
+                                        "color": "#70504f",
+                                        "bold": true
+                                      },
+                                      "compId": 139
+                                    },
+                                    {
+                                      "type": "Label",
+                                      "props": {
+                                        "y": 0,
+                                        "x": 0,
+                                        "text": "+100",
+                                        "name": "num",
+                                        "fontSize": 22,
+                                        "font": "Microsoft YaHei",
+                                        "color": "#0b8235",
+                                        "bold": true
+                                      },
+                                      "compId": 140
+                                    },
+                                    {
+                                      "type": "Label",
+                                      "props": {
+                                        "visible": false,
+                                        "text": "次",
+                                        "name": "unit",
+                                        "fontSize": 22,
+                                        "font": "Microsoft YaHei",
+                                        "color": "#70504f",
+                                        "bold": true
+                                      },
+                                      "compId": 141
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "HBox",
+                                  "props": {
+                                    "y": 61,
+                                    "x": 0,
+                                    "visible": false,
+                                    "name": "attr3"
+                                  },
+                                  "compId": 150,
+                                  "child": [
+                                    {
+                                      "type": "Label",
+                                      "props": {
+                                        "y": 0,
+                                        "x": 0,
+                                        "text": "所有使徒生命",
+                                        "name": "desc",
+                                        "fontSize": 22,
+                                        "font": "Microsoft YaHei",
+                                        "color": "#70504f",
+                                        "bold": true
+                                      },
+                                      "compId": 151
+                                    },
+                                    {
+                                      "type": "Label",
+                                      "props": {
+                                        "y": 0,
+                                        "x": 0,
+                                        "text": "+100",
+                                        "name": "num",
+                                        "fontSize": 22,
+                                        "font": "Microsoft YaHei",
+                                        "color": "#0b8235",
+                                        "bold": true
+                                      },
+                                      "compId": 152
+                                    },
+                                    {
+                                      "type": "Label",
+                                      "props": {
+                                        "visible": false,
+                                        "text": "次",
+                                        "name": "unit",
+                                        "fontSize": 22,
+                                        "font": "Microsoft YaHei",
+                                        "color": "#70504f",
+                                        "bold": true
+                                      },
+                                      "compId": 153
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 69,
+                        "x": -1,
+                        "skin": "res_view/sg/panel_fq.png",
+                        "scaleY": 1.1,
+                        "scaleX": 1.1,
+                        "name": "weapon",
+                        "centerY": -1,
+                        "anchorY": 0.5,
+                        "anchorX": 0.5
+                      },
+                      "compId": 130,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "skin": "res_view/sg/text_fq.png",
+                            "centerY": 0,
+                            "centerX": 1
+                          },
+                          "compId": 131
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "skin": "res_common/text_djgb.png",
+                "centerX": 17,
+                "bottom": -41
+              },
+              "compId": 127
+            }
+          ]
+        },
+        {
+          "type": "Rect",
+          "props": {
+            "y": 330,
+            "x": 117,
+            "width": 514,
+            "renderType": "hit",
+            "lineWidth": 1,
+            "height": 736,
+            "fillColor": "#ff0000"
+          },
+          "compId": 118
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "res_view/sg/panel_dj.jpg",
+    "res_view/sg/pic_niao_1.png",
+    "res_view/sg/pic_niao_2.png",
+    "res_view/sg/decorate_artifact_02.png",
+    "res_view/sg/decorate_artifact_01.png"
+  ],
+  "loadList3D": []
+}

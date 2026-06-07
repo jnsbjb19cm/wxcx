@@ -1,0 +1,809 @@
+{
+  "type": "View",
+  "props": {
+    "width": 377,
+    "visible": false,
+    "mouseThrough": true,
+    "mouseEnabled": true,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 377,
+        "mouseThrough": true,
+        "mouseEnabled": true,
+        "height": 1334,
+        "centerX": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "y": -140,
+            "x": -186,
+            "width": 750,
+            "var": "halfBodyPanel",
+            "vScrollBarSkin": " ",
+            "mouseThrough": true,
+            "mouseEnabled": true,
+            "height": 1453,
+            "hScrollBarSkin": " "
+          },
+          "compId": 6,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 325,
+                "x": 246,
+                "var": "unknownHalfBoday",
+                "skin": "res_view/monsterDetailLvUp/img_bz_weizhi.png",
+                "mouseEnabled": true
+              },
+              "compId": 8,
+              "child": [
+                {
+                  "type": "Rect",
+                  "props": {
+                    "y": 0,
+                    "x": 9,
+                    "width": 264,
+                    "renderType": "hit",
+                    "lineWidth": 1,
+                    "height": 929,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 164
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 534,
+        "width": 377,
+        "var": "contentBox",
+        "mouseEnabled": true,
+        "height": 803,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "var": "bigBg",
+            "top": 0,
+            "skin": "res_view/monsterDetail/panel_01.png",
+            "sizeGrid": "242,0,191,0",
+            "right": 0,
+            "mouseThrough": false,
+            "mouseEnabled": true,
+            "left": 0,
+            "bottom": 0
+          },
+          "compId": 16
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 31,
+            "x": 53,
+            "var": "titleBg",
+            "skin": "res_common/bg_common_title.png"
+          },
+          "compId": 19,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 6,
+                "x": 111,
+                "text": "text",
+                "skin": "res_view/monsterDetailLvUp/text_sjjs.png"
+              },
+              "compId": 127
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 54,
+            "x": 122,
+            "width": 56,
+            "visible": true,
+            "var": "lvIcon",
+            "skin": "res_icon/monsterLvIcon/char_lv1.png",
+            "scaleY": 1.3,
+            "scaleX": 1.3,
+            "height": 56,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 21,
+          "child": [
+            {
+              "type": "FontClip",
+              "props": {
+                "y": -4,
+                "x": 22,
+                "visible": false,
+                "spaceX": -8,
+                "skin": "res_common/number/num_16_rhrc_ffffff_stk.png",
+                "sheet": "0123456789-+/",
+                "name": "num"
+              },
+              "compId": 22
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 87,
+            "x": 82,
+            "width": 227,
+            "var": "traitBox",
+            "height": 76
+          },
+          "compId": 23,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 5,
+                "x": 20,
+                "skin": "res_view/monsterDetailLvUp/panel_weizhi.png"
+              },
+              "compId": 24
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 5,
+                "x": 88,
+                "skin": "res_view/monsterDetailLvUp/panel_weizhi.png"
+              },
+              "compId": 25
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 5,
+                "x": 154,
+                "skin": "res_view/monsterDetailLvUp/panel_weizhi.png"
+              },
+              "compId": 27
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 56,
+                "x": 35,
+                "text": "text",
+                "skin": "res_view/monsterDetailLvUp/text_wenhao.png"
+              },
+              "compId": 26
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 56,
+                "x": 104,
+                "text": "text",
+                "skin": "res_view/monsterDetailLvUp/text_wenhao.png"
+              },
+              "compId": 128
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 56,
+                "x": 170,
+                "text": "text",
+                "skin": "res_view/monsterDetailLvUp/text_wenhao.png"
+              },
+              "compId": 129
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 165,
+            "x": 68,
+            "skin": "res_view/monsterDetail/hp_solt.png",
+            "name": "hp"
+          },
+          "compId": 31,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "width": 237,
+                "var": "hpVolume",
+                "top": 2,
+                "skin": "res_view/monsterDetail/img_battle_HP_Current01.png",
+                "sizeGrid": "0,0,0,3",
+                "left": 2,
+                "height": 21
+              },
+              "compId": 32
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": -2,
+                "var": "hpTxt",
+                "spaceX": -9,
+                "skin": "res_common/number/num_18_jxzk_ffffff.png",
+                "sheet": "0123456789+-*/%:()→?",
+                "centerX": 0
+              },
+              "compId": 33
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 4,
+                "x": 103,
+                "text": "text",
+                "skin": "res_view/monsterDetailLvUp/text_weizhi_bai.png"
+              },
+              "compId": 161
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 198,
+            "width": 360,
+            "var": "attrBox",
+            "height": 80,
+            "centerX": 1
+          },
+          "compId": 34,
+          "child": [
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 3,
+                "x": 3,
+                "texture": "res_view/monsterDetail/panel_02.png",
+                "name": "atk"
+              },
+              "compId": 35,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 10,
+                    "x": 9,
+                    "var": "atkIcon",
+                    "skin": "res_view/monsterDetail/texy_wlgj.png"
+                  },
+                  "compId": 36
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 9,
+                    "x": 132,
+                    "text": "text",
+                    "skin": "res_view/monsterDetailLvUp/text_weizhi.png"
+                  },
+                  "compId": 130
+                }
+              ]
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 3,
+                "x": 182,
+                "texture": "res_view/monsterDetail/panel_02.png",
+                "name": "range"
+              },
+              "compId": 38,
+              "child": [
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 10,
+                    "x": 8,
+                    "texture": "res_view/monsterDetail/text_sc.png"
+                  },
+                  "compId": 39
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 9,
+                    "x": 132,
+                    "text": "text",
+                    "skin": "res_view/monsterDetailLvUp/text_weizhi.png"
+                  },
+                  "compId": 131
+                }
+              ]
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 40,
+                "x": 3,
+                "texture": "res_view/monsterDetail/panel_02.png",
+                "name": "armor"
+              },
+              "compId": 41,
+              "child": [
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 10,
+                    "x": 9,
+                    "texture": "res_view/monsterDetail/text_wlfy.png"
+                  },
+                  "compId": 42
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 9,
+                    "x": 132,
+                    "text": "text",
+                    "skin": "res_view/monsterDetailLvUp/text_weizhi.png"
+                  },
+                  "compId": 132
+                }
+              ]
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 40,
+                "x": 182,
+                "texture": "res_view/monsterDetail/panel_02.png",
+                "name": "mageDef"
+              },
+              "compId": 44,
+              "child": [
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 10,
+                    "x": 9,
+                    "texture": "res_view/monsterDetail/text_fsfy.png"
+                  },
+                  "compId": 45
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 9,
+                    "x": 132,
+                    "text": "text",
+                    "skin": "res_view/monsterDetailLvUp/text_weizhi.png"
+                  },
+                  "compId": 133
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 281,
+            "x": 15,
+            "var": "skillBox",
+            "space": 10
+          },
+          "compId": 47,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 342,
+                "visible": false,
+                "name": "skill_1",
+                "height": 95
+              },
+              "compId": 48,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 8,
+                    "x": 1,
+                    "skin": "res_view/monsterDetailLvUp/panel_jn_weizhi.png",
+                    "name": "skillIcon_1"
+                  },
+                  "compId": 49
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 2,
+                    "x": 85,
+                    "text": "最长有六个字",
+                    "skin": "res_view/monsterDetailLvUp/text_wzjn.png",
+                    "name": "skillName",
+                    "fontSize": 18,
+                    "font": "Microsoft YaHei",
+                    "color": "#6c4a4a",
+                    "bold": true
+                  },
+                  "compId": 53
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 5,
+                    "x": 245,
+                    "text": "text",
+                    "skin": "res_view/monsterDetailLvUp/text_lqsjwz.png"
+                  },
+                  "compId": 134
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 44,
+                    "x": 92,
+                    "skin": "res_view/monsterDetailLvUp/img_xuxian.png"
+                  },
+                  "compId": 135
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 342,
+                "visible": false,
+                "name": "skill_2",
+                "height": 95
+              },
+              "compId": 136,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 8,
+                    "x": 1,
+                    "skin": "res_view/monsterDetailLvUp/panel_jn_weizhi.png",
+                    "name": "skillIcon_1"
+                  },
+                  "compId": 137
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 2,
+                    "x": 85,
+                    "text": "最长有六个字",
+                    "skin": "res_view/monsterDetailLvUp/text_wzjn.png",
+                    "name": "skillName",
+                    "fontSize": 18,
+                    "font": "Microsoft YaHei",
+                    "color": "#6c4a4a",
+                    "bold": true
+                  },
+                  "compId": 138
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 5,
+                    "x": 245,
+                    "text": "text",
+                    "skin": "res_view/monsterDetailLvUp/text_lqsjwz.png"
+                  },
+                  "compId": 139
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 44,
+                    "x": 92,
+                    "skin": "res_view/monsterDetailLvUp/img_xuxian.png"
+                  },
+                  "compId": 140
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 342,
+                "visible": false,
+                "name": "skill_3",
+                "height": 95
+              },
+              "compId": 146,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 8,
+                    "x": 1,
+                    "skin": "res_view/monsterDetailLvUp/panel_jn_weizhi.png",
+                    "name": "skillIcon_1"
+                  },
+                  "compId": 147
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 2,
+                    "x": 85,
+                    "text": "最长有六个字",
+                    "skin": "res_view/monsterDetailLvUp/text_wzjn.png",
+                    "name": "skillName",
+                    "fontSize": 18,
+                    "font": "Microsoft YaHei",
+                    "color": "#6c4a4a",
+                    "bold": true
+                  },
+                  "compId": 148
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 5,
+                    "x": 245,
+                    "text": "text",
+                    "skin": "res_view/monsterDetailLvUp/text_lqsjwz.png"
+                  },
+                  "compId": 149
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 44,
+                    "x": 92,
+                    "skin": "res_view/monsterDetailLvUp/img_xuxian.png"
+                  },
+                  "compId": 150
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 342,
+                "visible": false,
+                "name": "skill_4",
+                "height": 95
+              },
+              "compId": 151,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 8,
+                    "x": 1,
+                    "skin": "res_view/monsterDetailLvUp/panel_jn_weizhi.png",
+                    "name": "skillIcon_1"
+                  },
+                  "compId": 152
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 2,
+                    "x": 85,
+                    "text": "最长有六个字",
+                    "skin": "res_view/monsterDetailLvUp/text_wzjn.png",
+                    "name": "skillName",
+                    "fontSize": 18,
+                    "font": "Microsoft YaHei",
+                    "color": "#6c4a4a",
+                    "bold": true
+                  },
+                  "compId": 153
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 5,
+                    "x": 245,
+                    "text": "text",
+                    "skin": "res_view/monsterDetailLvUp/text_lqsjwz.png"
+                  },
+                  "compId": 154
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 44,
+                    "x": 92,
+                    "skin": "res_view/monsterDetailLvUp/img_xuxian.png"
+                  },
+                  "compId": 155
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 342,
+                "visible": false,
+                "name": "skill_5",
+                "height": 95
+              },
+              "compId": 156,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 8,
+                    "x": 1,
+                    "skin": "res_view/monsterDetailLvUp/panel_jn_weizhi.png",
+                    "name": "skillIcon_1"
+                  },
+                  "compId": 157
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 2,
+                    "x": 85,
+                    "text": "最长有六个字",
+                    "skin": "res_view/monsterDetailLvUp/text_wzjn.png",
+                    "name": "skillName",
+                    "fontSize": 18,
+                    "font": "Microsoft YaHei",
+                    "color": "#6c4a4a",
+                    "bold": true
+                  },
+                  "compId": 158
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 5,
+                    "x": 245,
+                    "text": "text",
+                    "skin": "res_view/monsterDetailLvUp/text_lqsjwz.png"
+                  },
+                  "compId": 159
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 44,
+                    "x": 92,
+                    "skin": "res_view/monsterDetailLvUp/img_xuxian.png"
+                  },
+                  "compId": 160
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "var": "confirmBtn",
+            "skin": "res_common/btn_yellow.png",
+            "label": "label",
+            "centerX": 0,
+            "bottom": 19,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 116,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "text": "text",
+                "skin": "res_view/monsterDetailLvUp/text_sjsj.png",
+                "centerY": 3,
+                "centerX": 3
+              },
+              "compId": 117
+            },
+            {
+              "type": "Script",
+              "props": {
+                "runtime": "game/tools/BtnScale90.ts"
+              },
+              "compId": 118
+            },
+            {
+              "type": "Rect",
+              "props": {
+                "y": 8,
+                "x": -5,
+                "width": 216,
+                "renderType": "hit",
+                "lineWidth": 1,
+                "height": 63,
+                "fillColor": "#ff0000"
+              },
+              "compId": 162
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "x": 72,
+            "width": 260,
+            "var": "appointBox",
+            "top": -187,
+            "height": 190
+          },
+          "compId": 9,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 17,
+                "x": 76,
+                "skin": "res_view/monsterDetailLvUp/panel_tj.png"
+              },
+              "compId": 10
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 128,
+                "x": 54,
+                "text": "text",
+                "skin": "res_view/monsterDetailLvUp/text_zdsj.png"
+              },
+              "compId": 11
+            }
+          ]
+        },
+        {
+          "type": "Rect",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "width": 382,
+            "renderType": "hit",
+            "lineWidth": 1,
+            "height": 800,
+            "fillColor": "#ff0000"
+          },
+          "compId": 163
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "res_view/monsterDetail/panel_01.png",
+    "res_view/monsterDetail/panel_02.png",
+    "res_view/monsterDetail/text_sc.png",
+    "res_view/monsterDetail/text_wlfy.png",
+    "res_view/monsterDetail/text_fsfy.png"
+  ],
+  "loadList3D": []
+}

@@ -1,0 +1,140 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 672,
+        "x": 375,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 3
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 17,
+        "x": 0,
+        "width": 750,
+        "var": "contentBox",
+        "mouseThrough": true,
+        "height": 1300,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 73,
+            "x": 39,
+            "width": 669,
+            "var": "bg",
+            "skin": "res_view/rank/bg.png",
+            "sizeGrid": "193,0,170,0",
+            "height": 1131
+          },
+          "compId": 5
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 162,
+            "skin": "res_view/rank/bg_array_title02.png",
+            "centerX": 10
+          },
+          "compId": 7,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "var": "equipNameLab",
+                "valign": "middle",
+                "text": "装备最长七个字",
+                "strokeColor": "#000000",
+                "stroke": 1,
+                "fontSize": 28,
+                "font": "Helvetica",
+                "color": "#f438d3",
+                "centerY": 0,
+                "centerX": 0,
+                "bold": true,
+                "anchorX": 1,
+                "align": "right"
+              },
+              "compId": 26
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 224,
+            "x": 283,
+            "skin": "res_view/rank/img_ranking.png"
+          },
+          "compId": 32,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 5,
+                "text": "排名每小时更新",
+                "skin": "res_view/rank/text_pmmxsgx.png",
+                "fontSize": 13,
+                "font": "Microsoft YaHei",
+                "color": "#2f5041",
+                "centerX": 8,
+                "bold": true
+              },
+              "compId": 27
+            }
+          ]
+        },
+        {
+          "type": "Panel",
+          "props": {
+            "y": 248,
+            "x": 87,
+            "width": 573,
+            "var": "rankList",
+            "vScrollBarSkin": "comp/vscroll.png",
+            "spaceY": 10,
+            "repeatX": 1,
+            "height": 859,
+            "elasticEnabled": true
+          },
+          "compId": 9
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -17,
+            "x": 0,
+            "visible": false,
+            "skin": "单件装备评分(1).png",
+            "name": "123465789132",
+            "alpha": 0.5
+          },
+          "compId": 31
+        }
+      ]
+    }
+  ],
+  "loadList": ["comp/vscroll.png"],
+  "loadList3D": []
+}

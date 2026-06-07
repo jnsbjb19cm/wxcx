@@ -1,0 +1,558 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": true,
+    "height": 1344,
+    "drawCallOptimize": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 813,
+        "x": 500,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 140
+    },
+    {
+      "type": "Image",
+      "props": {
+        "width": 732,
+        "var": "bgPanel",
+        "skin": "netRes/arenaN/invite/panel_yqhy.png",
+        "sizeGrid": "149,0,141,0",
+        "scaleY": 1.05,
+        "scaleX": 1.05,
+        "height": 1109,
+        "centerY": 0,
+        "centerX": -1
+      },
+      "compId": 163,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -22.5,
+            "x": 92,
+            "skin": "netRes/arenaN/invite/title_yqhy.png",
+            "scaleY": 1,
+            "scaleX": 1
+          },
+          "compId": 165
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 111,
+            "x": -16.5,
+            "width": 578,
+            "var": "heroPicPanel",
+            "scaleY": 0.76,
+            "scaleX": 0.76,
+            "height": 137
+          },
+          "compId": 180,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 268,
+                "x": 895,
+                "var": "heroPic",
+                "skin": "netRes/arenaN/invite/img_yqhy.png",
+                "scaleY": 1.15,
+                "scaleX": 1.15,
+                "anchorY": 1,
+                "anchorX": 1
+              },
+              "compId": 181
+            },
+            {
+              "type": "Rect",
+              "props": {
+                "y": 118,
+                "x": 82,
+                "width": 289,
+                "renderType": "hit",
+                "lineWidth": 1,
+                "height": 391,
+                "fillColor": "#ff0000"
+              },
+              "compId": 195
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 126,
+            "x": 252,
+            "width": 440,
+            "var": "tipBox",
+            "scaleY": 0.85,
+            "scaleX": 0.85,
+            "height": 167
+          },
+          "compId": 184,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "var": "tip1",
+                "text": "text",
+                "skin": "netRes/arenaN/invite/text_ljdjs.png",
+                "centerX": 1
+              },
+              "compId": 185
+            },
+            {
+              "type": "Image",
+              "props": {
+                "visible": false,
+                "var": "tip2",
+                "text": "text",
+                "centerX": 0,
+                "bottom": 5
+              },
+              "compId": 186
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "x": -17,
+                "var": "unit1Txt",
+                "value": "01",
+                "spaceX": -60,
+                "skin": "res_common/number/num_90_jxzk_ffe27f_fffcf2_stk_2.png",
+                "sheet": "0123456789",
+                "centerY": 4,
+                "align": "center"
+              },
+              "compId": 189
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 95,
+                "x": 176,
+                "var": "unit1Icon",
+                "text": "text",
+                "skin": "netRes/arenaN/invite/text_tian.png",
+                "centerY": 2,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 187
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "x": 196,
+                "var": "unit2Txt",
+                "value": "04",
+                "spaceX": -60,
+                "skin": "res_common/number/num_90_jxzk_ffe27f_fffcf2_stk_2.png",
+                "sheet": "0123456789",
+                "centerY": 0,
+                "align": "center"
+              },
+              "compId": 190
+            },
+            {
+              "type": "Image",
+              "props": {
+                "x": 394.5,
+                "var": "unit2Icon",
+                "text": "text",
+                "skin": "netRes/arenaN/invite/text_shi.png",
+                "centerY": 4,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 188
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 150,
+                "x": 73,
+                "skin": "netRes/arenaN/invite/text_xlyh.png"
+              },
+              "compId": 228
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 189,
+                "x": 82,
+                "skin": "netRes/arenaN/invite/text_ljjdjs.png",
+                "scaleY": 0.9,
+                "scaleX": 0.9
+              },
+              "compId": 227
+            }
+          ]
+        },
+        {
+          "type": "List",
+          "props": {
+            "y": 335,
+            "width": 639,
+            "var": "rwdList",
+            "vScrollBarSkin": "comp/vscroll.png",
+            "spaceY": 0,
+            "scaleY": 0.9,
+            "scaleX": 0.9,
+            "height": 731,
+            "centerX": 13
+          },
+          "compId": 192,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 608,
+                "renderType": "render",
+                "height": 140
+              },
+              "compId": 193,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "width": 604,
+                    "top": 0,
+                    "skin": "res_view/children/bg_family_organization_01.png",
+                    "left": 0,
+                    "height": 140,
+                    "bottom": 0
+                  },
+                  "compId": 194
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 20,
+                    "x": 13.5,
+                    "var": "yq",
+                    "skin": "netRes/arenaN/invite/text_yq.png",
+                    "name": "yq"
+                  },
+                  "compId": 222
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "x": 63,
+                    "var": "Fnum",
+                    "value": "1",
+                    "spaceX": -10,
+                    "skin": "res_common/number/num_26_jxzk_5b393a.png",
+                    "sheet": "0123456789",
+                    "name": "Fnum",
+                    "centerY": -39,
+                    "align": "center"
+                  },
+                  "compId": 224
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 21,
+                    "x": 82,
+                    "var": "mhy",
+                    "skin": "netRes/arenaN/invite/text_mhy.png",
+                    "name": "mhy"
+                  },
+                  "compId": 223
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 85,
+                    "x": 513,
+                    "width": 130,
+                    "var": "stateBtn",
+                    "skin": "netRes/arenaN/invite/btn_common_orange03.png",
+                    "name": "stateBtn",
+                    "label": "label",
+                    "height": 62,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 210,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "text": "领  取",
+                        "stroke": 2,
+                        "fontSize": 24,
+                        "font": "Microsoft YaHei",
+                        "color": "#ffffff",
+                        "centerY": 4,
+                        "centerX": 0,
+                        "bold": true
+                      },
+                      "compId": 211
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 15,
+                    "x": 190,
+                    "skin": "netRes/arenaN/invite/frame_battle_exp04.png"
+                  },
+                  "compId": 201
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 21,
+                    "x": 198,
+                    "width": 175,
+                    "skin": "netRes/arenaN/invite/frame_battle_levelup04.png",
+                    "sizeGrid": "0,8,0,7",
+                    "scaleX": 1,
+                    "name": "proBar",
+                    "height": 19
+                  },
+                  "compId": 204
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "width": 104,
+                    "text": "1/3",
+                    "stroke": 2,
+                    "name": "proVal",
+                    "height": 18,
+                    "fontSize": 23,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "centerY": -42,
+                    "centerX": -22,
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 212
+                },
+                {
+                  "type": "HBox",
+                  "props": {
+                    "y": 56,
+                    "x": 8.5,
+                    "width": 538,
+                    "space": 18,
+                    "scaleY": 0.55,
+                    "scaleX": 0.55,
+                    "name": "propBox",
+                    "height": 120
+                  },
+                  "compId": 205,
+                  "child": [
+                    {
+                      "type": "PropItem",
+                      "props": {
+                        "y": 0,
+                        "x": -13,
+                        "runtime": "ui.component.PropItemUI"
+                      },
+                      "compId": 206
+                    },
+                    {
+                      "type": "PropItem",
+                      "props": {
+                        "y": 0,
+                        "x": 9,
+                        "runtime": "ui.component.PropItemUI"
+                      },
+                      "compId": 216
+                    },
+                    {
+                      "type": "PropItem",
+                      "props": {
+                        "y": 0,
+                        "x": 9,
+                        "runtime": "ui.component.PropItemUI"
+                      },
+                      "compId": 217
+                    },
+                    {
+                      "type": "PropItem",
+                      "props": {
+                        "y": 0,
+                        "x": 9,
+                        "runtime": "ui.component.PropItemUI"
+                      },
+                      "compId": 218
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 70,
+                    "x": 474,
+                    "skin": "netRes/arenaN/invite/icon_ylq.png",
+                    "scaleY": 0.8,
+                    "scaleX": 0.8,
+                    "name": "gotSign"
+                  },
+                  "compId": 221
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": -155,
+            "x": 148,
+            "var": "codeBox"
+          },
+          "compId": 200,
+          "child": [
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 9,
+                "x": 31,
+                "var": "codeIcon",
+                "texture": "res_view/friend/plist_talk.png"
+              },
+              "compId": 198
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 59,
+                "x": 65,
+                "wordWrap": true,
+                "width": 136,
+                "var": "overTips",
+                "valign": "middle",
+                "text": "点我领取\\n兑换码",
+                "leading": 10,
+                "height": 101,
+                "fontSize": 26,
+                "font": "Microsoft YaHei",
+                "color": "#47392c",
+                "bold": true,
+                "alpha": 1,
+                "align": "center"
+              },
+              "compId": 199
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 122,
+          "keyframes": {
+            "x": [
+              {
+                "value": 150,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 150,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "x",
+                "index": 50
+              }
+            ],
+            "text": [
+              {
+                "value": "5",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 0
+              },
+              {
+                "value": "4",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 10
+              },
+              {
+                "value": "3",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 20
+              },
+              {
+                "value": "2",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 30
+              },
+              {
+                "value": "1",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 40
+              },
+              {
+                "value": "0",
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "text",
+                "index": 50
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani",
+      "id": 1,
+      "frameRate": 10,
+      "action": 0
+    }
+  ],
+  "loadList": [
+    "comp/vscroll.png",
+    "component/PropItem.scene",
+    "res_view/friend/plist_talk.png"
+  ],
+  "loadList3D": []
+}

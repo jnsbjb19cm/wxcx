@@ -1,0 +1,373 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "visible": true,
+        "var": "shijiaoview",
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "width": 931,
+            "var": "sj_maskbg",
+            "skin": "res_common/bg.png",
+            "height": 1342,
+            "alpha": 0.5
+          },
+          "compId": 4
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 46,
+            "x": 74,
+            "width": 763,
+            "visible": true,
+            "var": "sj_box",
+            "height": 1230
+          },
+          "compId": 5,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -17,
+                "x": 51,
+                "skin": "res_common/icon_head.png"
+              },
+              "compId": 34,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 7,
+                    "x": 113,
+                    "skin": "res_view/lianyin/text_sj.png"
+                  },
+                  "compId": 35
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 5,
+                "x": 550,
+                "skin": "res_view/lianyin/pic_sy.png"
+              },
+              "compId": 36
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 16,
+                "x": -39,
+                "skin": "res_view/manual/panel_tujianzzz.png"
+              },
+              "compId": 31
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 149,
+                "x": 23,
+                "width": 746,
+                "skin": "res_view/lianyin/panel_sj.png",
+                "sizeGrid": "376,0,391,0",
+                "height": 1064
+              },
+              "compId": 6
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 10,
+                "x": 671,
+                "var": "sj_close",
+                "skin": "netRes/task/btn_close.png"
+              },
+              "compId": 25
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 1065,
+                "x": 609,
+                "var": "sjgl_btn",
+                "skin": "res_view/lianyin/btn_sjgl.png"
+              },
+              "compId": 7
+            },
+            {
+              "type": "Panel",
+              "props": {
+                "y": 240,
+                "x": 51,
+                "width": 681,
+                "var": "sj_list",
+                "vScrollBarSkin": " ",
+                "height": 825
+              },
+              "compId": 8
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 191,
+                "x": 587,
+                "width": 164,
+                "var": "sj_people",
+                "skin": "res_view/lianyin/img_house_friend.png",
+                "height": 34
+              },
+              "compId": 9,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 0,
+                    "x": 69,
+                    "var": "sjpeoplenum",
+                    "text": "0/30",
+                    "fontSize": 34,
+                    "font": "SimHei",
+                    "color": "#ffeaa0"
+                  },
+                  "compId": 38
+                }
+              ]
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 199,
+                "x": 59,
+                "var": "sj_tips",
+                "text": "*与其他玩家联姻5次可成为世交",
+                "fontSize": 24,
+                "font": "SimHei",
+                "color": "#442b2d"
+              },
+              "compId": 10
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 1223,
+                "x": 256,
+                "skin": "res_view/rank/text_djgb.png"
+              },
+              "compId": 26
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 363.5,
+                "x": 192,
+                "skin": "res_view/manual/img_anwen.png"
+              },
+              "compId": 40
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 561,
+                "x": 72,
+                "visible": true,
+                "var": "zwsjtips",
+                "skin": "res_view/lianyin/text_yqtwjlywc.png"
+              },
+              "compId": 29
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 0,
+            "x": 71,
+            "width": 778,
+            "visible": false,
+            "var": "sjgl_box",
+            "height": 1343
+          },
+          "compId": 11,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": -71,
+                "width": 931,
+                "var": "sjgl_maskbg",
+                "skin": "res_common/bg.png",
+                "height": 1342,
+                "alpha": 0.5
+              },
+              "compId": 12
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 132,
+                "x": 10,
+                "width": 765,
+                "height": 1051
+              },
+              "compId": 13,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": -43,
+                    "width": 845,
+                    "skin": "res_view/children/img_zinv_title03.png",
+                    "sizeGrid": "137,410,148,344",
+                    "name": "cnl_bg",
+                    "height": 1099
+                  },
+                  "compId": 14,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 141,
+                        "x": 38,
+                        "width": 759,
+                        "skin": "res_view/children/panel_zinv_2.png",
+                        "sizeGrid": "3,3,3,3",
+                        "height": 792
+                      },
+                      "compId": 15
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 14,
+                        "x": 149,
+                        "skin": "res_view/lianyin/text_sjgl.png"
+                      },
+                      "compId": 16
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 23,
+                        "x": 707,
+                        "var": "sjgl_close",
+                        "skin": "netRes/task/btn_close.png"
+                      },
+                      "compId": 17
+                    }
+                  ]
+                },
+                {
+                  "type": "Panel",
+                  "props": {
+                    "y": 141,
+                    "x": 14,
+                    "width": 720,
+                    "var": "gllist",
+                    "vScrollBarSkin": " ",
+                    "height": 789
+                  },
+                  "compId": 18
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 971,
+                    "x": 19,
+                    "var": "sjgl_text",
+                    "underline": false,
+                    "text": "*与其他玩家联姻5名徒弟可成为世交",
+                    "fontSize": 25,
+                    "font": "Microsoft YaHei",
+                    "color": "#523938"
+                  },
+                  "compId": 19
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 79,
+                    "x": 197,
+                    "width": 171,
+                    "var": "sj_btn",
+                    "skin": "res_view/rank/btn_common_label01(1).png",
+                    "scaleY": 1,
+                    "height": 77
+                  },
+                  "compId": 20,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 18,
+                        "x": 44.5,
+                        "var": "sj_btn_name",
+                        "skin": "res_view/lianyin/text_sj_brown.png"
+                      },
+                      "compId": 21
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 79,
+                    "x": 380,
+                    "width": 168,
+                    "var": "lsly_btn",
+                    "skin": "res_view/rank/btn_common_label02.png",
+                    "height": 63
+                  },
+                  "compId": 22,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 14.5,
+                        "x": 14,
+                        "var": "lsly_btn_name",
+                        "skin": "res_view/lianyin/text_lsly_2.png"
+                      },
+                      "compId": 23
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 1172,
+                "x": 261,
+                "skin": "res_view/rank/text_djgb.png"
+              },
+              "compId": 27
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": ["res_view/manual/panel_tujianzzz.png"],
+  "loadList3D": []
+}

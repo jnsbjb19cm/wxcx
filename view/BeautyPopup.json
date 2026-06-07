@@ -1,0 +1,104 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 20,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "width": 1000,
+            "var": "maskBg",
+            "skin": "res_common/bg.png",
+            "height": 1650,
+            "centerY": 0,
+            "centerX": 0,
+            "alpha": 0.6
+          },
+          "compId": 19
+        },
+        {
+          "type": "Image",
+          "props": {
+            "width": 606,
+            "var": "bgPanel",
+            "skin": "res_common/bg_1.png",
+            "sizeGrid": "237,0,148,0",
+            "mouseEnabled": true,
+            "height": 483,
+            "centerY": -40,
+            "centerX": 0
+          },
+          "compId": 23,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 60,
+                "x": 167,
+                "width": 273,
+                "skin": "res_common/bg_title01.png"
+              },
+              "compId": 24,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "var": "title",
+                    "text": "text",
+                    "skin": "res_view/beauty/text_xiehou.png",
+                    "centerY": -4,
+                    "centerX": -2
+                  },
+                  "compId": 25
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 521,
+                "skin": "res_common/img_common_02.png"
+              },
+              "compId": 35
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -9,
+                "x": 516,
+                "var": "closeBtn",
+                "skin": "res_common/btn_close.png"
+              },
+              "compId": 36
+            },
+            {
+              "type": "Image",
+              "props": {
+                "x": 167,
+                "skin": "res_common/text_djgb.png",
+                "bottom": -53
+              },
+              "compId": 37
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": ["res_common/bg_1.png"],
+  "loadList3D": []
+}

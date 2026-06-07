@@ -1,0 +1,643 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": true,
+    "height": 1344
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 813,
+        "x": 500,
+        "width": 1000,
+        "var": "maskBg1",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 140
+    },
+    {
+      "type": "Image",
+      "props": {
+        "width": 750,
+        "skin": "res_view/selectServer/main_bg.png",
+        "sizeGrid": "311,0,282,0",
+        "name": "bg_bottom",
+        "height": 1008,
+        "centerY": -37,
+        "centerX": 0
+      },
+      "compId": 149,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 38,
+            "x": 54,
+            "skin": "res_common/bg_title01.png",
+            "name": "bg_current_server",
+            "centerX": 0
+          },
+          "compId": 17,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 8,
+                "x": 72,
+                "skin": "res_view/selectServer/text_dangqianfuwuqi.png"
+              },
+              "compId": 198
+            }
+          ]
+        },
+        {
+          "type": "List",
+          "props": {
+            "y": 272,
+            "x": 28,
+            "width": 207,
+            "var": "groupList",
+            "vScrollBarSkin": " ",
+            "spaceY": 10,
+            "renderType": "render",
+            "height": 719
+          },
+          "compId": 155,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": -4,
+                "x": 0,
+                "width": 212,
+                "renderType": "render",
+                "height": 63
+              },
+              "compId": 156,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -3,
+                    "text": "label",
+                    "skin": "res_common/btn_yellow.png",
+                    "right": 0,
+                    "name": "bg",
+                    "left": 0,
+                    "height": 71
+                  },
+                  "compId": 157
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 34,
+                    "x": 22,
+                    "width": 167,
+                    "valign": "bottom",
+                    "text": "最近登录",
+                    "name": "txt",
+                    "height": 34,
+                    "fontSize": 34,
+                    "font": "SimSun",
+                    "color": "#5b393a",
+                    "bold": true,
+                    "anchorY": 0.5,
+                    "align": "center"
+                  },
+                  "compId": 158
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "List",
+          "props": {
+            "y": 268,
+            "x": 286,
+            "width": 455,
+            "var": "itemList",
+            "vScrollBarSkin": " ",
+            "spaceY": 24,
+            "spaceX": 16,
+            "repeatY": 7,
+            "repeatX": 2,
+            "height": 701
+          },
+          "compId": 159,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 22,
+                "width": 218,
+                "renderType": "render",
+                "height": 77
+              },
+              "compId": 160,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "text": "label",
+                    "skin": "res_view/selectServer/btn_common_Panel.png",
+                    "name": "bg"
+                  },
+                  "compId": 161
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "text": "A1",
+                    "right": 0,
+                    "name": "serverID",
+                    "left": 0,
+                    "height": 28,
+                    "fontSize": 33,
+                    "font": "SimHei",
+                    "color": "#8d5a4e",
+                    "centerY": -10,
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 162
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "x": 25,
+                    "skin": "res_view/selectServer/frame_common_tips04.png",
+                    "name": "light",
+                    "centerY": 0
+                  },
+                  "compId": 163
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "text": "8月5日",
+                    "stroke": 2,
+                    "right": 0,
+                    "name": "date",
+                    "left": 0,
+                    "height": 31,
+                    "fontSize": 24,
+                    "font": "SimHei",
+                    "color": "#ffffff",
+                    "bottom": 3,
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 164
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "List",
+          "props": {
+            "y": 268,
+            "x": 286,
+            "width": 455,
+            "var": "recordList",
+            "vScrollBarSkin": " ",
+            "spaceY": 24,
+            "spaceX": 16,
+            "repeatY": 7,
+            "repeatX": 2,
+            "renderType": "render",
+            "height": 711
+          },
+          "compId": 182,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 22,
+                "x": 0,
+                "width": 218,
+                "visible": false,
+                "renderType": "render",
+                "height": 77
+              },
+              "compId": 183,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "top": 0,
+                    "text": "label",
+                    "skin": "res_view/selectServer/btn_common_Panel.png",
+                    "sizeGrid": "31,35,33,52",
+                    "right": 0,
+                    "name": "bg",
+                    "left": 0,
+                    "bottom": 0
+                  },
+                  "compId": 184
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "width": 218,
+                    "valign": "middle",
+                    "top": 0,
+                    "text": "A1",
+                    "right": 0,
+                    "padding": "0",
+                    "name": "serverID",
+                    "left": 0,
+                    "height": 77,
+                    "fontSize": 33,
+                    "font": "SimHei",
+                    "color": "#8d5a4e",
+                    "bottom": 0,
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 185
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 77,
+                    "x": 167.5,
+                    "width": 101,
+                    "visible": false,
+                    "scaleY": 0.9,
+                    "scaleX": 0.9,
+                    "presetID": 1,
+                    "pivotY": 78,
+                    "pivotX": 50.5,
+                    "name": "iconBox",
+                    "height": 78,
+                    "skin": "res_common/solt_hero_blue.png",
+                    "isPresetRoot": true,
+                    "anchorY": 1,
+                    "anchorX": 0.5
+                  },
+                  "compId": 188,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "top": 0,
+                        "right": 0,
+                        "presetID": 3,
+                        "name": "icon",
+                        "left": 0,
+                        "bottom": 0,
+                        "y": 142,
+                        "x": 75,
+                        "anchorY": 1,
+                        "anchorX": 0.5
+                      },
+                      "compId": 4
+                    }
+                  ]
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "visible": false,
+                    "text": "战役101",
+                    "stroke": 2,
+                    "name": "zonesNum",
+                    "fontSize": 18,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "centerX": 0,
+                    "bottom": 35,
+                    "bold": true
+                  },
+                  "compId": 189
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 24,
+                    "x": 36,
+                    "skin": "res_view/selectServer/frame_common_tips04.png",
+                    "name": "light"
+                  },
+                  "compId": 186
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 212,
+            "x": 54,
+            "skin": "res_common/bg_title01.png",
+            "name": "bg_all_server",
+            "centerX": 0
+          },
+          "compId": 196,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 10,
+                "x": 71,
+                "skin": "res_view/selectServer/text_quanbufuwuqi.png"
+              },
+              "compId": 199
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 94,
+            "skin": "res_view/selectServer/panel_01.png",
+            "right": 5,
+            "name": "bg_currentServer_down",
+            "left": 5
+          },
+          "compId": 200,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 18,
+                "x": 44,
+                "skin": "res_view/selectServer/btn_common_label022.png"
+              },
+              "compId": 201
+            },
+            {
+              "type": "Text",
+              "props": {
+                "y": 3.5,
+                "x": 97,
+                "width": 489,
+                "var": "txtCurrentServerInfo",
+                "valign": "middle",
+                "text": "A",
+                "height": 56,
+                "fontSize": 26,
+                "font": "Microsoft YaHei",
+                "color": "#6b5c41",
+                "bold": true,
+                "align": "left",
+                "runtime": "Laya.Text"
+              },
+              "compId": 204
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "skin": "res_view/selectServer/img_common_01.png",
+        "centerY": -562,
+        "centerX": 285
+      },
+      "compId": 203
+    },
+    {
+      "type": "Image",
+      "props": {
+        "var": "imgClose",
+        "skin": "res_common/bg_common_close.png",
+        "centerY": -542,
+        "centerX": 348
+      },
+      "compId": 202
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 813,
+        "x": 500,
+        "width": 1000,
+        "visible": false,
+        "var": "newServerWindow",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 1
+      },
+      "compId": 211,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 813,
+            "x": 500,
+            "width": 1000,
+            "skin": "res_common/bg.png",
+            "height": 1625,
+            "centerY": 0,
+            "centerX": 0,
+            "anchorY": 0.5,
+            "anchorX": 0.5,
+            "alpha": 0.6
+          },
+          "compId": 212
+        },
+        {
+          "type": "Image",
+          "props": {
+            "width": 604,
+            "visible": true,
+            "skin": "res_common/bg_common.png",
+            "sizeGrid": "82,0,123,0",
+            "height": 461,
+            "centerY": -10,
+            "centerX": -2
+          },
+          "compId": 166,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -19,
+                "x": 522,
+                "skin": "res_common/img_common_02.png"
+              },
+              "compId": 218
+            },
+            {
+              "type": "Image",
+              "props": {
+                "skin": "res_common/bg_title01.png",
+                "centerY": -162,
+                "centerX": 0
+              },
+              "compId": 169,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "x": 77,
+                    "skin": "res_view/selectServer/text_xindetiaozhan.png",
+                    "centerY": -5
+                  },
+                  "compId": 205
+                }
+              ]
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 131,
+                "width": 473,
+                "var": "newServerTips1",
+                "text": "进入新的服务器将开启新的冒险\\n你也可以随时切换到原先服务器继续游戏",
+                "stroke": 0,
+                "leading": 10,
+                "height": 58,
+                "fontSize": 24,
+                "font": "SimHei",
+                "color": "#684546",
+                "centerX": 0,
+                "bold": false,
+                "align": "center"
+              },
+              "compId": 171
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 199,
+                "width": 267,
+                "var": "newServerTips2",
+                "text": "是否进入",
+                "stroke": 0,
+                "leading": 10,
+                "height": 28,
+                "fontSize": 30,
+                "font": "SimHei",
+                "color": "#684546",
+                "centerX": -4,
+                "bold": false,
+                "align": "center"
+              },
+              "compId": 176
+            },
+            {
+              "type": "Label",
+              "props": {
+                "width": 282,
+                "var": "selectServerID",
+                "valign": "middle",
+                "text": "A1",
+                "strokeColor": "#411d1d",
+                "stroke": 3,
+                "leading": 10,
+                "height": 36,
+                "fontSize": 36,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "centerY": 57,
+                "centerX": 0,
+                "bold": true,
+                "align": "center"
+              },
+              "compId": 179
+            },
+            {
+              "type": "Button",
+              "props": {
+                "y": 347,
+                "width": 211,
+                "var": "closeBtn",
+                "stateNum": 1,
+                "skin": "res_common/btn_blue.png",
+                "labelStroke": 2,
+                "labelSize": 30,
+                "labelFont": "Microsoft YaHei",
+                "labelColors": "#ffffff",
+                "labelBold": true,
+                "height": 72,
+                "centerX": -130
+              },
+              "compId": 172,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 21.5,
+                    "x": 58,
+                    "skin": "res_view/selectServer/text_qvxiao.png"
+                  },
+                  "compId": 207
+                }
+              ]
+            },
+            {
+              "type": "Button",
+              "props": {
+                "width": 211,
+                "var": "confirmBtn",
+                "stateNum": 1,
+                "skin": "res_common/btn_yellow.png",
+                "labelStroke": 2,
+                "labelSize": 30,
+                "labelFont": "Microsoft YaHei",
+                "labelColors": "#ffffff",
+                "labelBold": true,
+                "height": 72,
+                "centerY": 152,
+                "centerX": 135
+              },
+              "compId": 180,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 22,
+                    "x": 60,
+                    "skin": "res_view/selectServer/text_jinru.png"
+                  },
+                  "compId": 206
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -28,
+                "x": 517,
+                "var": "closeNewServerWin",
+                "skin": "res_common/btn_close.png"
+              },
+              "compId": 208
+            },
+            {
+              "type": "Image",
+              "props": {
+                "var": "blankCloseWin",
+                "skin": "res_common/text_djgb.png",
+                "centerY": 246,
+                "centerX": 0
+              },
+              "compId": 209
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": ["prefab/HeroIcon.prefab"],
+  "loadList3D": []
+}

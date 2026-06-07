@@ -1,0 +1,237 @@
+{
+  "type": "View",
+  "props": {
+    "width": 150,
+    "height": 150
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "var": "contextBox",
+        "top": 0,
+        "right": 0,
+        "left": 0,
+        "bottom": 0
+      },
+      "compId": 12,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "visible": false,
+            "var": "heroSolt",
+            "scaleY": 0.85,
+            "scaleX": 0.85,
+            "presetID": 1,
+            "centerX": 0,
+            "bottom": -1,
+            "skin": "res_common/solt_profile_blue.png",
+            "isPresetRoot": true,
+            "anchorY": 1,
+            "anchorX": 0.5
+          },
+          "compId": 4,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "var": "heroIcon",
+                "presetID": 3,
+                "y": 160,
+                "x": 70,
+                "anchorY": 1,
+                "anchorX": 0.5
+              },
+              "compId": 5
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 132,
+            "x": 75,
+            "visible": false,
+            "var": "sysIcon",
+            "skin": "netRes/icon/vipIcon/icon_houshan.png",
+            "anchorY": 1,
+            "anchorX": 0.5
+          },
+          "compId": 9
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 22,
+            "x": 37,
+            "visible": false,
+            "var": "unlockEquip",
+            "scaleY": 0.4,
+            "scaleX": 0.4,
+            "presetID": 1,
+            "width": 183,
+            "isPresetRoot": true,
+            "height": 183,
+            "cacheAs": "bitmap"
+          },
+          "compId": 20,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 6,
+                "width": 160,
+                "name": "icon",
+                "height": 160,
+                "centerY": 0,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 21
+            },
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 4,
+                "y": 92,
+                "x": 92,
+                "width": 188,
+                "skin": "res_common/equip_rank_blue.png",
+                "sizeGrid": "34,42,35,29",
+                "name": "iconK",
+                "height": 183,
+                "centerY": 0,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 22
+            },
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 7,
+                "width": 188,
+                "visible": false,
+                "skin": "res_common/equip_b.png",
+                "name": "iconAwkPoint",
+                "height": 183,
+                "centerY": 0,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "y": 92,
+                "x": 92,
+                "sizeGrid": "34,42,35,29"
+              },
+              "compId": 23
+            },
+            {
+              "type": "Box",
+              "props": {
+                "presetID": 8,
+                "y": 82,
+                "x": 91,
+                "visible": false,
+                "name": "award"
+              },
+              "compId": 24,
+              "child": [
+                {
+                  "type": "Animation",
+                  "props": {
+                    "presetID": 9,
+                    "source": "ani/albumAward.ani"
+                  },
+                  "compId": 25
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 117,
+            "x": 0,
+            "width": 150,
+            "var": "unlockNum",
+            "height": 33
+          },
+          "compId": 28,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 5,
+                "x": 11,
+                "var": "ss",
+                "skin": "res_main/text_sszjm.png",
+                "name": "ss"
+              },
+              "compId": 27
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": -6,
+                "var": "unlockLab",
+                "value": "1",
+                "spaceX": -11,
+                "skin": "res_common/number/num_30_jxzk_fffff_stk2.png",
+                "sheet": "0123456789-",
+                "centerX": -9,
+                "align": "center"
+              },
+              "compId": 7
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 5,
+                "x": 86,
+                "var": "js",
+                "skin": "res_main/text_js.png",
+                "name": "js"
+              },
+              "compId": 26
+            }
+          ]
+        },
+        {
+          "type": "Animation",
+          "props": {
+            "y": 60,
+            "x": 68,
+            "source": "ani/goldFlash.ani",
+            "scaleY": 1.4,
+            "scaleX": 1.4,
+            "index": 0,
+            "autoPlay": true
+          },
+          "compId": 18
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 117,
+            "x": 10,
+            "visible": false,
+            "var": "vip_jllx",
+            "skin": "res_main/text_jllx.png"
+          },
+          "compId": 29
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "prefab/HeroIcon2.prefab",
+    "prefab/EquipItem1.prefab",
+    "ani/goldFlash.ani"
+  ],
+  "loadList3D": []
+}

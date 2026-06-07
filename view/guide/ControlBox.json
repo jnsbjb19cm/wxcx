@@ -1,0 +1,334 @@
+{
+  "type": "View",
+  "props": {
+    "width": 150,
+    "height": 150
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 150,
+        "visible": false,
+        "var": "encounterBox",
+        "height": 150
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -3,
+            "x": 4,
+            "skin": "res_view/guide/btn_xiehou.png"
+          },
+          "compId": 4
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 111,
+            "var": "content",
+            "stroke": 3,
+            "fontSize": 22,
+            "font": "Microsoft YaHei",
+            "color": "#3ab622",
+            "centerX": 1
+          },
+          "compId": 5
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 150,
+        "visible": false,
+        "var": "evilThingBox",
+        "height": 150
+      },
+      "compId": 6,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 3,
+            "x": -29,
+            "skin": "res_view/guide/btn_xs.png"
+          },
+          "compId": 7
+        },
+        {
+          "type": "HBox",
+          "props": {
+            "y": 132,
+            "space": 6,
+            "height": 30,
+            "centerX": -7
+          },
+          "compId": 19,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "text": "text",
+                "skin": "res_view/guide/text_hs_w.png",
+                "centerY": 0
+              },
+              "compId": 20
+            },
+            {
+              "type": "HBox",
+              "props": {
+                "var": "content2",
+                "text": "0",
+                "stroke": 2,
+                "sheet": "0123456789",
+                "fontSize": 22,
+                "font": "Microsoft YaHei",
+                "color": "#4ae01b",
+                "centerY": 0,
+                "bold": true
+              },
+              "compId": 8
+            },
+            {
+              "type": "Image",
+              "props": {
+                "text": "text",
+                "skin": "res_view/guide/text_g_w.png",
+                "centerY": 0
+              },
+              "compId": 21
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 150,
+        "visible": false,
+        "var": "bloodPactBox",
+        "height": 150
+      },
+      "compId": 9,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 13,
+            "x": -26,
+            "skin": "res_view/guide/btn_xueqi.png"
+          },
+          "compId": 10
+        },
+        {
+          "type": "HBox",
+          "props": {
+            "y": 113,
+            "space": 7,
+            "height": 30,
+            "centerX": -6
+          },
+          "compId": 25,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "text": "text",
+                "skin": "res_view/guide/text_hs_w.png",
+                "centerY": 0
+              },
+              "compId": 26
+            },
+            {
+              "type": "HBox",
+              "props": {
+                "var": "content3",
+                "text": "0",
+                "stroke": 2,
+                "sheet": "0123456789",
+                "fontSize": 22,
+                "font": "Microsoft YaHei",
+                "color": "#4ae01b",
+                "centerY": 0,
+                "bold": true
+              },
+              "compId": 27
+            },
+            {
+              "type": "Image",
+              "props": {
+                "text": "text",
+                "skin": "res_view/guide/text_m.png",
+                "centerY": 0
+              },
+              "compId": 28
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 150,
+        "visible": false,
+        "var": "childrenBox",
+        "height": 150
+      },
+      "compId": 12,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 2,
+            "x": 16,
+            "skin": "res_view/guide/icon_haizi.png"
+          },
+          "compId": 13
+        },
+        {
+          "type": "HBox",
+          "props": {
+            "y": 121,
+            "space": 7,
+            "height": 30,
+            "centerX": -9
+          },
+          "compId": 29,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "text": "text",
+                "skin": "res_view/guide/text_hs_w.png",
+                "centerY": 0
+              },
+              "compId": 30
+            },
+            {
+              "type": "HBox",
+              "props": {
+                "var": "content4",
+                "text": "0",
+                "stroke": 2,
+                "sheet": "0123456789",
+                "fontSize": 22,
+                "font": "Microsoft YaHei",
+                "color": "#4ae01b",
+                "centerY": 0,
+                "bold": true
+              },
+              "compId": 31
+            },
+            {
+              "type": "Image",
+              "props": {
+                "text": "text",
+                "skin": "res_view/guide/text_g_w.png",
+                "centerY": 0
+              },
+              "compId": 32
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 56,
+            "x": 104,
+            "width": 135,
+            "var": "childrenBubble",
+            "skin": "res_view/guide/miaowu.png",
+            "pivotY": 91,
+            "pivotX": 14,
+            "height": 91
+          },
+          "compId": 33
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 150,
+        "visible": false,
+        "var": "afterSunsetBox",
+        "height": 150
+      },
+      "compId": 35,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 11,
+            "x": -25,
+            "skin": "res_view/guide/icon_houshan.png"
+          },
+          "compId": 36
+        },
+        {
+          "type": "HBox",
+          "props": {
+            "y": 114,
+            "space": 6,
+            "height": 30,
+            "centerX": -7
+          },
+          "compId": 37,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "text": "text",
+                "skin": "res_view/guide/text_hs_w.png",
+                "centerY": 0
+              },
+              "compId": 38
+            },
+            {
+              "type": "HBox",
+              "props": {
+                "var": "content5",
+                "text": "0",
+                "stroke": 2,
+                "sheet": "0123456789",
+                "fontSize": 22,
+                "font": "Microsoft YaHei",
+                "color": "#4ae01b",
+                "centerY": 0,
+                "bold": true
+              },
+              "compId": 39
+            },
+            {
+              "type": "Image",
+              "props": {
+                "text": "text",
+                "skin": "res_view/guide/text_g_w.png",
+                "centerY": 0
+              },
+              "compId": 40
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

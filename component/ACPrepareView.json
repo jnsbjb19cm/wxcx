@@ -1,0 +1,1714 @@
+{
+  "type": "View",
+  "props": {
+    "zOrder": -1,
+    "width": 750,
+    "mouseThrough": true,
+    "height": 1334,
+    "drawCallOptimize": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "var": "contentBox",
+        "height": 816,
+        "centerY": -35,
+        "centerX": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -10,
+            "x": -8,
+            "width": 764,
+            "var": "bkg",
+            "skin": "netRes/arenaN/bg_slsec.png",
+            "name": "bkg",
+            "height": 850
+          },
+          "compId": 30
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -10,
+            "x": 114,
+            "var": "light_number",
+            "skin": "netRes/arenaN/light/pic_gx_10.png",
+            "scaleY": 0.5,
+            "scaleX": 0.5,
+            "name": "light_number"
+          },
+          "compId": 97
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 45,
+            "x": 199,
+            "var": "men",
+            "skin": "netRes/arenaN/pic_jz.png",
+            "name": "men"
+          },
+          "compId": 94
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": 160,
+            "var": "tips",
+            "skin": "netRes/arenaN/text_slsec.png"
+          },
+          "compId": 55
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 356,
+            "x": 374,
+            "visible": false,
+            "var": "fxImg",
+            "skin": "netRes/arena/pic_fgxg.png",
+            "scaleY": 1,
+            "scaleX": 1,
+            "anchorY": 0.5,
+            "anchorX": 0.5,
+            "alpha": 1
+          },
+          "compId": 52
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 356,
+            "x": 374,
+            "visible": false,
+            "var": "fixImg2",
+            "skin": "netRes/arena/pic_fgxg.png",
+            "scaleY": 1,
+            "scaleX": 1,
+            "anchorY": 0.5,
+            "anchorX": 0.5,
+            "alpha": 1
+          },
+          "compId": 54
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 668,
+            "x": 182,
+            "width": 373,
+            "var": "loseBox",
+            "height": 60
+          },
+          "compId": 21,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 22,
+                "x": 52,
+                "skin": "netRes/arenaN/text_sb.png"
+              },
+              "compId": 23
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 10,
+                "x": 123.5,
+                "texture": "netRes/arenaN/panel_sbk.png"
+              },
+              "compId": 24
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 39,
+                "x": 149,
+                "width": 46,
+                "visible": false,
+                "var": "lose_1",
+                "texture": "netRes/arena/pic_c.png",
+                "pivotY": 29,
+                "pivotX": 27,
+                "height": 46
+              },
+              "compId": 25
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 36.5,
+                "x": 199.5,
+                "width": 46,
+                "visible": false,
+                "var": "lose_2",
+                "texture": "netRes/arena/pic_c.png",
+                "pivotY": 29,
+                "pivotX": 27,
+                "height": 47
+              },
+              "compId": 59
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 39,
+                "x": 245.5,
+                "width": 47,
+                "visible": true,
+                "var": "lose_3",
+                "texture": "netRes/arena/pic_c.png",
+                "scaleY": 1,
+                "scaleX": 1,
+                "pivotY": 29,
+                "pivotX": 27,
+                "height": 46
+              },
+              "compId": 60
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 192,
+            "x": 369,
+            "width": 120,
+            "var": "winBox",
+            "height": 90
+          },
+          "compId": 36,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -8,
+                "x": -128,
+                "skin": "netRes/arenaN/text_sl.png"
+              },
+              "compId": 34
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 64,
+                "x": 53,
+                "width": 109,
+                "var": "staticWinLab",
+                "value": "01",
+                "spaceX": -8,
+                "skin": "res_common/number/num_37_jxzk_805002_000000_stk_2_gt.png",
+                "sheet": "0123456789",
+                "scaleY": 1,
+                "scaleX": 1,
+                "pivotY": 23,
+                "pivotX": 55,
+                "height": 46,
+                "alpha": 1,
+                "align": "center"
+              },
+              "compId": 53
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 64,
+                "x": 53,
+                "width": 109,
+                "var": "winLab",
+                "value": "01",
+                "spaceX": -8,
+                "skin": "res_common/number/num_37_jxzk_805002_000000_stk_2_gt.png",
+                "sheet": "0123456789",
+                "scaleY": 1,
+                "scaleX": 1,
+                "pivotY": 23,
+                "pivotX": 55,
+                "height": 46,
+                "alpha": 1,
+                "align": "center"
+              },
+              "compId": 35
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -30,
+                "x": -58,
+                "skin": "netRes/arenaN/tb_fybx_default.png"
+              },
+              "compId": 99
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "width": 750,
+            "var": "effectBox",
+            "height": 750
+          },
+          "compId": 65,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 613,
+                "x": 443,
+                "visible": false,
+                "var": "eff1",
+                "skin": "netRes/arenaN/icon_fail.png"
+              },
+              "compId": 66
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 574,
+                "x": 375,
+                "visible": false,
+                "var": "eff2",
+                "skin": "netRes/arenaN/icon_fail.png"
+              },
+              "compId": 70
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 547.5,
+                "x": 278,
+                "visible": false,
+                "var": "eff3",
+                "skin": "netRes/arenaN/icon_fail.png"
+              },
+              "compId": 72
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 522.5,
+                "x": 170,
+                "visible": false,
+                "var": "eff4",
+                "skin": "netRes/arenaN/icon_fail.png"
+              },
+              "compId": 74
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 494.5,
+                "x": 91,
+                "visible": false,
+                "var": "eff5",
+                "skin": "netRes/arenaN/icon_fail.png"
+              },
+              "compId": 76
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 431,
+                "x": 143.5,
+                "visible": false,
+                "var": "eff6",
+                "skin": "netRes/arenaN/icon_fail.png"
+              },
+              "compId": 78
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 417,
+                "x": 265,
+                "visible": false,
+                "var": "eff7",
+                "skin": "netRes/arenaN/icon_fail.png"
+              },
+              "compId": 80
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 417,
+                "x": 401.5,
+                "visible": false,
+                "var": "eff8",
+                "skin": "netRes/arenaN/icon_fail.png"
+              },
+              "compId": 82
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 390.5,
+                "x": 496,
+                "visible": false,
+                "var": "eff9",
+                "skin": "netRes/arenaN/icon_fail.png"
+              },
+              "compId": 84
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 364,
+                "x": 331,
+                "visible": false,
+                "var": "eff10",
+                "skin": "netRes/arenaN/icon_fail.png"
+              },
+              "compId": 86
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 337.5,
+                "x": 401.5,
+                "visible": false,
+                "var": "eff11",
+                "skin": "netRes/arenaN/icon_fail.png"
+              },
+              "compId": 88
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 296,
+                "x": 278,
+                "visible": false,
+                "var": "eff12",
+                "skin": "netRes/arenaN/icon_fail.png"
+              },
+              "compId": 90
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 266,
+            "x": 163,
+            "var": "searchBox"
+          },
+          "compId": 47,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -9,
+                "x": -1,
+                "skin": "netRes/arenaN/img_house_reel.png"
+              },
+              "compId": 48
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 40,
+                "x": 50,
+                "var": "magnifier",
+                "skin": "netRes/arenaN/icon_main_search1.png"
+              },
+              "compId": 49
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 57,
+                "x": 155,
+                "skin": "netRes/arenaN/text_ssds.png"
+              },
+              "compId": 61
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 79,
+                "x": 341,
+                "skin": "netRes/arena/text_ssds_colon.png"
+              },
+              "compId": 62
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 79,
+                "x": 351,
+                "skin": "netRes/arena/text_ssds_colon.png"
+              },
+              "compId": 63
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 79,
+                "x": 361,
+                "skin": "netRes/arena/text_ssds_colon.png"
+              },
+              "compId": 64
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 99,
+          "keyframes": {
+            "y": [
+              {
+                "value": -48,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 99,
+                "key": "y",
+                "index": 0
+              }
+            ],
+            "x": [
+              {
+                "value": -76,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 99,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 1.2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 99,
+                "key": "scaleY",
+                "index": 0
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1.2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 99,
+                "key": "scaleX",
+                "index": 0
+              }
+            ]
+          }
+        },
+        {
+          "target": 94,
+          "keyframes": {
+            "x": [
+              {
+                "value": 193,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 94,
+                "key": "x",
+                "index": 0
+              }
+            ]
+          }
+        }
+      ],
+      "name": "aniW",
+      "id": 1,
+      "frameRate": 30,
+      "action": 2
+    },
+    {
+      "nodes": [
+        {
+          "target": 49,
+          "keyframes": {
+            "y": [
+              {
+                "value": 20,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 21.4,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "y",
+                "index": 2
+              },
+              {
+                "value": 25,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "y",
+                "index": 4
+              },
+              {
+                "value": 30,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "y",
+                "index": 6
+              },
+              {
+                "value": 35,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "y",
+                "index": 8
+              },
+              {
+                "value": 36.4,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "y",
+                "index": 10
+              },
+              {
+                "value": 40,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "y",
+                "index": 12
+              },
+              {
+                "value": 38.6,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "y",
+                "index": 14
+              },
+              {
+                "value": 35,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "y",
+                "index": 16
+              },
+              {
+                "value": 30,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "y",
+                "index": 18
+              },
+              {
+                "value": 25,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "y",
+                "index": 20
+              },
+              {
+                "value": 21.4,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "y",
+                "index": 22
+              },
+              {
+                "value": 20,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "y",
+                "index": 24
+              }
+            ],
+            "x": [
+              {
+                "value": 50,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 55,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "x",
+                "index": 2
+              },
+              {
+                "value": 58.6,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "x",
+                "index": 4
+              },
+              {
+                "value": 60,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "x",
+                "index": 6
+              },
+              {
+                "value": 58.6,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "x",
+                "index": 8
+              },
+              {
+                "value": 55,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "x",
+                "index": 10
+              },
+              {
+                "value": 50,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "x",
+                "index": 12
+              },
+              {
+                "value": 45,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "x",
+                "index": 14
+              },
+              {
+                "value": 41.4,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "x",
+                "index": 16
+              },
+              {
+                "value": 40,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "x",
+                "index": 18
+              },
+              {
+                "value": 41.4,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "x",
+                "index": 20
+              },
+              {
+                "value": 45,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "x",
+                "index": 22
+              },
+              {
+                "value": 50,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "x",
+                "index": 24
+              }
+            ],
+            "skin": [
+              {
+                "value": "netRes/arenaN/icon_main_search1.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 49,
+                "key": "skin",
+                "index": 0
+              }
+            ]
+          }
+        }
+      ],
+      "name": "searchAni",
+      "id": 2,
+      "frameRate": 24,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 25,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 25,
+                "key": "visible",
+                "index": 0
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 25,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 0.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 25,
+                "key": "scaleY",
+                "index": 3
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 25,
+                "key": "scaleY",
+                "index": 5
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 25,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 0.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 25,
+                "key": "scaleX",
+                "index": 3
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 25,
+                "key": "scaleX",
+                "index": 5
+              }
+            ]
+          }
+        }
+      ],
+      "name": "loseAni1",
+      "id": 3,
+      "frameRate": 24,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 59,
+          "keyframes": {
+            "x": [
+              {
+                "value": 204,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 59,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 199.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 59,
+                "key": "x",
+                "index": 5
+              }
+            ],
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 59,
+                "label": null,
+                "key": "visible",
+                "index": 0
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 59,
+                "label": null,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 0.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 59,
+                "label": null,
+                "key": "scaleY",
+                "index": 3
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 59,
+                "label": null,
+                "key": "scaleY",
+                "index": 5
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 59,
+                "label": null,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 0.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 59,
+                "label": null,
+                "key": "scaleX",
+                "index": 3
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 59,
+                "label": null,
+                "key": "scaleX",
+                "index": 5
+              }
+            ]
+          }
+        }
+      ],
+      "name": "loseAni2",
+      "id": 4,
+      "frameRate": 24,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 60,
+          "keyframes": {
+            "y": [
+              {
+                "value": 39,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 37.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "y",
+                "index": 5
+              }
+            ],
+            "x": [
+              {
+                "value": 245.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 245.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "x",
+                "index": 5
+              }
+            ],
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 60,
+                "label": null,
+                "key": "visible",
+                "index": 0
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "label": null,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 0.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "label": null,
+                "key": "scaleY",
+                "index": 2
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "label": null,
+                "key": "scaleY",
+                "index": 5
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "label": null,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 0.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "label": null,
+                "key": "scaleX",
+                "index": 2
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "label": null,
+                "key": "scaleX",
+                "index": 5
+              }
+            ]
+          }
+        }
+      ],
+      "name": "loseAni3",
+      "id": 5,
+      "frameRate": 24,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 35,
+          "keyframes": {
+            "scaleY": [
+              {
+                "value": 4,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 35,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 0.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 35,
+                "key": "scaleY",
+                "index": 5
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 35,
+                "key": "scaleY",
+                "index": 6
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 4,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 35,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 0.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 35,
+                "key": "scaleX",
+                "index": 5
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 35,
+                "key": "scaleX",
+                "index": 6
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 35,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 35,
+                "key": "alpha",
+                "index": 5
+              }
+            ]
+          }
+        }
+      ],
+      "name": "winAni",
+      "id": 6,
+      "frameRate": 24,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 52,
+          "keyframes": {
+            "scaleY": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 52,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 52,
+                "label": null,
+                "key": "scaleY",
+                "index": 8
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 52,
+                "key": "scaleY",
+                "index": 12
+              },
+              {
+                "value": 1.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 52,
+                "key": "scaleY",
+                "index": 23
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 52,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 52,
+                "label": null,
+                "key": "scaleX",
+                "index": 8
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 52,
+                "key": "scaleX",
+                "index": 12
+              },
+              {
+                "value": 1.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 52,
+                "key": "scaleX",
+                "index": 23
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 52,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 52,
+                "label": null,
+                "key": "alpha",
+                "index": 8
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 52,
+                "label": "fxShow",
+                "key": "alpha",
+                "index": 12
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 52,
+                "key": "alpha",
+                "index": 23
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 52,
+                "key": "alpha",
+                "index": 28
+              }
+            ]
+          }
+        },
+        {
+          "target": 37,
+          "keyframes": {
+            "y": [
+              {
+                "value": 15,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 37,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 15,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 37,
+                "key": "y",
+                "index": 17
+              },
+              {
+                "value": 400,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 37,
+                "key": "y",
+                "index": 30
+              }
+            ],
+            "x": [
+              {
+                "value": 199,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 37,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 199,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 37,
+                "key": "x",
+                "index": 17
+              },
+              {
+                "value": 427,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 37,
+                "key": "x",
+                "index": 30
+              }
+            ],
+            "rotation": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 37,
+                "key": "rotation",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 37,
+                "label": null,
+                "key": "rotation",
+                "index": 17
+              },
+              {
+                "value": 16,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 37,
+                "key": "rotation",
+                "index": 30
+              }
+            ]
+          }
+        },
+        {
+          "target": 38,
+          "keyframes": {
+            "y": [
+              {
+                "value": 15,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 38,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 15,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 38,
+                "key": "y",
+                "index": 17
+              },
+              {
+                "value": 400,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 38,
+                "key": "y",
+                "index": 30
+              }
+            ],
+            "x": [
+              {
+                "value": 7,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 38,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 7,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 38,
+                "key": "x",
+                "index": 17
+              },
+              {
+                "value": -247,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 38,
+                "key": "x",
+                "index": 30
+              }
+            ],
+            "rotation": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 38,
+                "key": "rotation",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 38,
+                "label": null,
+                "key": "rotation",
+                "index": 17
+              },
+              {
+                "value": -13,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 38,
+                "key": "rotation",
+                "index": 30
+              }
+            ]
+          }
+        },
+        {
+          "target": 39,
+          "keyframes": {
+            "y": [
+              {
+                "value": 176,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 39,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 176,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 39,
+                "key": "y",
+                "index": 17
+              },
+              {
+                "value": 600,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 39,
+                "key": "y",
+                "index": 30
+              }
+            ],
+            "x": [
+              {
+                "value": 18,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 39,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 18,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 39,
+                "key": "x",
+                "index": 17
+              },
+              {
+                "value": -234,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 39,
+                "key": "x",
+                "index": 30
+              }
+            ],
+            "rotation": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 39,
+                "key": "rotation",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 39,
+                "label": null,
+                "key": "rotation",
+                "index": 17
+              },
+              {
+                "value": -14,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 39,
+                "key": "rotation",
+                "index": 30
+              }
+            ]
+          }
+        },
+        {
+          "target": 40,
+          "keyframes": {
+            "y": [
+              {
+                "value": 177,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 40,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 177,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 40,
+                "key": "y",
+                "index": 17
+              },
+              {
+                "value": 600,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 40,
+                "key": "y",
+                "index": 30
+              }
+            ],
+            "x": [
+              {
+                "value": 197,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 40,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 197,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 40,
+                "key": "x",
+                "index": 17
+              },
+              {
+                "value": 545,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 40,
+                "key": "x",
+                "index": 30
+              }
+            ],
+            "rotation": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 40,
+                "key": "rotation",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 40,
+                "label": null,
+                "key": "rotation",
+                "index": 17
+              },
+              {
+                "value": 18,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 40,
+                "key": "rotation",
+                "index": 30
+              }
+            ]
+          }
+        },
+        {
+          "target": 41,
+          "keyframes": {
+            "y": [
+              {
+                "value": 106,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 41,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 106,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 41,
+                "key": "y",
+                "index": 17
+              },
+              {
+                "value": 600,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 41,
+                "key": "y",
+                "index": 30
+              }
+            ],
+            "rotation": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 41,
+                "key": "rotation",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 41,
+                "label": null,
+                "key": "rotation",
+                "index": 17
+              },
+              {
+                "value": -70,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 41,
+                "key": "rotation",
+                "index": 30
+              }
+            ]
+          }
+        },
+        {
+          "target": 54,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 54,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 54,
+                "key": "alpha",
+                "index": 8
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 54,
+                "key": "alpha",
+                "index": 12
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 54,
+                "key": "alpha",
+                "index": 20
+              }
+            ]
+          }
+        }
+      ],
+      "name": "lockAni",
+      "id": 7,
+      "frameRate": 24,
+      "action": 0
+    }
+  ],
+  "loadList": [
+    "netRes/arenaN/panel_sbk.png",
+    "netRes/arena/pic_c.png",
+    "netRes/arenaN/icon_main_search1.png"
+  ],
+  "loadList3D": []
+}

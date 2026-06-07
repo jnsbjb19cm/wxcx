@@ -1,0 +1,614 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 672,
+        "x": 375,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 98
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 17,
+        "x": 0,
+        "width": 750,
+        "var": "contentBox",
+        "mouseThrough": true,
+        "height": 1364,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 99,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 144,
+            "visible": true,
+            "var": "bg",
+            "centerX": -262
+          },
+          "compId": 103,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "width": 733,
+                "visible": true,
+                "skin": "res_view/rank/panel_house_title03.png",
+                "sizeGrid": "220,0,196,0",
+                "height": 1104,
+                "centerX": 264
+              },
+              "compId": 104
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 230,
+                "x": 50,
+                "visible": false,
+                "var": "nullrank",
+                "skin": "res_view/rank/bg_equipment_title03.png"
+              },
+              "compId": 105,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 290.5,
+                    "x": 97.5,
+                    "skin": "res_view/rank/text_zwwjsb.png"
+                  },
+                  "compId": 106
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 129,
+            "x": 77
+          },
+          "compId": 107,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -84,
+                "x": -76,
+                "skin": "res_view/rank/icon_title_1.png"
+              },
+              "compId": 108
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": -11.5,
+                "x": -76,
+                "texture": "res_view/rank/icon_yun.png"
+              },
+              "compId": 109
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 12.5,
+                "x": 195,
+                "skin": "res_view/rank/icon_yun_2.png"
+              },
+              "compId": 110
+            },
+            {
+              "type": "Image",
+              "props": {
+                "var": "titleLab",
+                "text": "梦魇挑战榜",
+                "stroke": 2,
+                "skin": "netRes/liuhe/viewUI/text_zzb.png",
+                "fontSize": 30,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "centerY": -152,
+                "centerX": -32,
+                "bold": true,
+                "align": "center"
+              },
+              "compId": 111
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 108,
+                "x": 197,
+                "skin": "res_view/rank/img_ranking_name.png",
+                "name": "mxsgx_bg"
+              },
+              "compId": 112
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 113.5,
+                "x": 254,
+                "skin": "res_view/rank/text_ts.png",
+                "name": "mxsgx"
+              },
+              "compId": 113
+            }
+          ]
+        },
+        {
+          "type": "Panel",
+          "props": {
+            "y": 265,
+            "x": 66,
+            "width": 622,
+            "var": "rankList",
+            "vScrollBarSkin": " ",
+            "spaceY": 10,
+            "repeatX": 1,
+            "height": 828,
+            "elasticEnabled": true
+          },
+          "compId": 114,
+          "child": [
+            {
+              "type": "RankItem",
+              "props": {
+                "runtime": "game/view/component/RankItem.ts"
+              },
+              "compId": 115
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 1104,
+            "x": 68.5,
+            "width": 617,
+            "var": "selfBox",
+            "height": 117
+          },
+          "compId": 116,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -40,
+                "x": -27,
+                "skin": "res_view/rank/bg_ranking04.png"
+              },
+              "compId": 117,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 43,
+                    "x": 18,
+                    "width": 637,
+                    "visible": false,
+                    "var": "selg_s",
+                    "skin": "res_view/rank/img_ranking_fightme02_1.png",
+                    "height": 122
+                  },
+                  "compId": 118
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "var": "infoitem"
+              },
+              "compId": 119,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 60,
+                    "x": 55,
+                    "width": 78,
+                    "visible": false,
+                    "var": "numImg",
+                    "skin": "res_view/rank/img_ranking_number06.png",
+                    "height": 78,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 120
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 37,
+                    "x": 1,
+                    "width": 95,
+                    "var": "numLab",
+                    "value": "6",
+                    "spaceX": -12,
+                    "skin": "res_common/number/num_34_jxzk_684546.png",
+                    "sheet": "0123456789!",
+                    "height": 44,
+                    "align": "center"
+                  },
+                  "compId": 121
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 49,
+                    "x": 22,
+                    "var": "noRankLab",
+                    "valign": "middle",
+                    "text": "未上榜",
+                    "stroke": 2,
+                    "skin": "res_view/rank/text_wsb.png",
+                    "fontSize": 26,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 122
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "var": "head_1"
+                  },
+                  "compId": 123,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 15,
+                        "x": 122,
+                        "width": 85,
+                        "var": "headImg",
+                        "height": 84
+                      },
+                      "compId": 124,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "width": 80,
+                            "var": "headSd",
+                            "skin": "res_view/rank/pro_mask.png",
+                            "renderType": "mask",
+                            "height": 80
+                          },
+                          "compId": 125
+                        },
+                        {
+                          "type": "Label",
+                          "props": {
+                            "width": 56,
+                            "visible": false,
+                            "var": "passLab",
+                            "text": "100",
+                            "stroke": 2,
+                            "right": 3,
+                            "height": 21,
+                            "fontSize": 21,
+                            "font": "Microsoft YaHei",
+                            "color": "#ffffff",
+                            "bottom": 3,
+                            "bold": true,
+                            "align": "right"
+                          },
+                          "compId": 126
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 14,
+                        "x": 119,
+                        "width": 85,
+                        "skin": "res_view/rank/pro_solt.png",
+                        "height": 84
+                      },
+                      "compId": 127
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "var": "head_2"
+                  },
+                  "compId": 128,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 10,
+                        "x": 114,
+                        "width": 92,
+                        "var": "childicon",
+                        "skin": "res_common/solt_hero_blue.png",
+                        "height": 92
+                      },
+                      "compId": 129
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 14,
+                        "x": 113,
+                        "width": 106,
+                        "var": "childrenhead",
+                        "height": 85
+                      },
+                      "compId": 130,
+                      "child": [
+                        {
+                          "type": "Sprite",
+                          "props": {
+                            "renderType": "mask"
+                          },
+                          "compId": 131,
+                          "child": [
+                            {
+                              "type": "Circle",
+                              "props": {
+                                "y": 41.25,
+                                "x": 47.25,
+                                "radius": 35,
+                                "lineWidth": 1,
+                                "fillColor": "#ff0000"
+                              },
+                              "compId": 132
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 52,
+                        "x": 175.5,
+                        "width": 53,
+                        "var": "playerhead",
+                        "skin": "res_common/solt_profile_blue.png",
+                        "height": 53
+                      },
+                      "compId": 133
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 58.5,
+                        "x": 182,
+                        "width": 40,
+                        "var": "p_head",
+                        "skin": "res_common/headImg_default.png",
+                        "height": 40
+                      },
+                      "compId": 134,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 0,
+                            "x": 0,
+                            "width": 40,
+                            "skin": "res_main/mask_profile.png",
+                            "renderType": "mask",
+                            "height": 40
+                          },
+                          "compId": 135
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 46,
+                    "x": 235,
+                    "width": 225,
+                    "var": "nameLab",
+                    "valign": "middle",
+                    "text": "名字最长六个字",
+                    "strokeColor": "#4a3333",
+                    "stroke": 5,
+                    "overflow": "hidden",
+                    "fontSize": 26,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "bold": false
+                  },
+                  "compId": 137
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 69,
+                    "x": 239,
+                    "visible": false,
+                    "var": "childname",
+                    "text": "徒弟：名字最长六字",
+                    "fontSize": 20,
+                    "font": "Microsoft YaHei",
+                    "color": "#684546"
+                  },
+                  "compId": 138
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 32,
+                    "x": 473,
+                    "width": 126,
+                    "var": "nightBox",
+                    "space": 20,
+                    "height": 28
+                  },
+                  "compId": 139,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 4,
+                        "x": 29,
+                        "var": "nightName",
+                        "skin": "res_view/rank/text_sj.png"
+                      },
+                      "compId": 140
+                    },
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": -4,
+                        "x": 50,
+                        "width": 41,
+                        "var": "nightZoonLab",
+                        "value": "0",
+                        "valign": "middle",
+                        "text": "梦魇123",
+                        "stroke": 2,
+                        "spaceX": -9,
+                        "skin": "res_common/number/num_18_jxzk_684546.png",
+                        "sheet": "0123456789-",
+                        "height": 34,
+                        "fontSize": 24,
+                        "font": "Microsoft YaHei",
+                        "color": "#ffffff",
+                        "bold": true,
+                        "align": "right"
+                      },
+                      "compId": 141
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 23,
+                    "x": 510,
+                    "var": "equipScoreTip",
+                    "skin": "res_view/rank/texe_gdjc.png"
+                  },
+                  "compId": 142
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 56,
+                    "x": 494,
+                    "width": 100,
+                    "var": "numbg",
+                    "skin": "res_view/rank/img_ranking_number_gd.png"
+                  },
+                  "compId": 143
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 49,
+                    "x": 512,
+                    "width": 129,
+                    "var": "mixZoonLab",
+                    "value": "5-15",
+                    "valign": "middle",
+                    "text": "9-25",
+                    "stroke": 2,
+                    "spaceX": -7,
+                    "skin": "res_common/number/num_18_jxzk_684546_stk.png",
+                    "sheet": "0123456789-",
+                    "fontSize": 22,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 144
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 72,
+                    "x": 460,
+                    "visible": false,
+                    "var": "fshtest",
+                    "skin": "res_view/rank/text_fs.png",
+                    "name": "fshtest"
+                  },
+                  "compId": 145
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 30,
+                    "x": 462,
+                    "var": "openTip"
+                  },
+                  "compId": 146
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 44,
+                "x": 186,
+                "visible": false,
+                "var": "noadultchild",
+                "skin": "res_view/rank/texe_zwcnznksb.png"
+              },
+              "compId": 147
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 1257,
+            "x": 240,
+            "skin": "res_view/rank/text_djgb.png"
+          },
+          "compId": 148
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "res_view/rank/panel_house_title03.png",
+    "res_view/rank/icon_yun.png",
+    "component/RankItem.scene",
+    "res_common/solt_hero_blue.png",
+    "res_common/solt_profile_blue.png"
+  ],
+  "loadList3D": []
+}

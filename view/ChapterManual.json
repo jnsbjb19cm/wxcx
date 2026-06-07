@@ -1,0 +1,925 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 813,
+        "x": 500,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 3
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 597,
+        "var": "context",
+        "height": 910,
+        "centerY": 15,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -95,
+            "width": 861,
+            "var": "popupBg",
+            "skin": "res_common/panel_1.png",
+            "sizeGrid": "213,0,154,0",
+            "scaleY": 1,
+            "scaleX": 1,
+            "height": 1070,
+            "centerX": -3
+          },
+          "compId": 5,
+          "child": [
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 17,
+                "x": 88,
+                "texture": "res_common/icon_head.png"
+              },
+              "compId": 75
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 27,
+                "x": 308,
+                "var": "titleImg",
+                "skin": "res_view/chapterDetail/text_gqtj.png",
+                "centerX": -123,
+                "anchorX": 0.5
+              },
+              "compId": 6
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 41,
+                "x": 690,
+                "skin": "res_common/btn_close.png"
+              },
+              "compId": 76
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 76,
+            "x": -11,
+            "width": 615,
+            "var": "chapterList",
+            "height": 1012
+          },
+          "compId": 48,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 44,
+                "x": 0,
+                "var": "chapter11",
+                "presetID": 1,
+                "skin": "res_view/chapterDetail/panel_2.png",
+                "sizeGrid": "0,25,0,25",
+                "isPresetRoot": true
+              },
+              "compId": 81,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "res_view/chapterDetail/level_lengquan.png",
+                    "presetID": 2,
+                    "y": -4,
+                    "scaleY": 0.8,
+                    "scaleX": 0.8,
+                    "name": "chaImg",
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 82
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "presetID": 3,
+                    "y": 50,
+                    "wordWrap": true,
+                    "width": 119,
+                    "valign": "middle",
+                    "text": "普通关是打普通怪的地方",
+                    "name": "descLab",
+                    "leading": 6,
+                    "height": 66,
+                    "fontSize": 16,
+                    "font": "SimHei",
+                    "color": "#191918",
+                    "centerX": 0,
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 83
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 44,
+                "x": 216.5,
+                "var": "chapter2",
+                "presetID": 1,
+                "skin": "res_view/chapterDetail/panel_2.png",
+                "sizeGrid": "0,25,0,25",
+                "isPresetRoot": true
+              },
+              "compId": 21,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "res_view/chapterDetail/level_baoxiang.png",
+                    "presetID": 2,
+                    "y": -4,
+                    "scaleY": 0.8,
+                    "scaleX": 0.8,
+                    "name": "chaImg",
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 22
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "presetID": 3,
+                    "y": 50,
+                    "wordWrap": true,
+                    "width": 119,
+                    "valign": "middle",
+                    "text": "普通关是打普通怪的地方",
+                    "name": "descLab",
+                    "leading": 6,
+                    "height": 66,
+                    "fontSize": 16,
+                    "font": "SimHei",
+                    "color": "#191918",
+                    "centerX": 0,
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 23
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 44,
+                "x": 432.5,
+                "var": "chapter5",
+                "presetID": 1,
+                "skin": "res_view/chapterDetail/panel_2.png",
+                "sizeGrid": "0,25,0,25",
+                "isPresetRoot": true
+              },
+              "compId": 24,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "res_view/chapterDetail/level_biaoju.png",
+                    "presetID": 2,
+                    "y": -4,
+                    "scaleY": 0.8,
+                    "scaleX": 0.8,
+                    "name": "chaImg",
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 25
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "presetID": 3,
+                    "y": 50,
+                    "wordWrap": true,
+                    "width": 119,
+                    "valign": "middle",
+                    "text": "普通关是打普通怪的地方",
+                    "name": "descLab",
+                    "leading": 6,
+                    "height": 66,
+                    "fontSize": 16,
+                    "font": "SimHei",
+                    "color": "#191918",
+                    "centerX": 0,
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 26
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 247,
+                "x": 0,
+                "var": "chapter3",
+                "presetID": 1,
+                "skin": "res_view/chapterDetail/panel_2.png",
+                "sizeGrid": "0,25,0,25",
+                "isPresetRoot": true
+              },
+              "compId": 27,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 2,
+                    "y": -4,
+                    "skin": "res_view/chapterDetail/level_jingying.png",
+                    "scaleY": 0.8,
+                    "scaleX": 0.8,
+                    "name": "chaImg",
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 30
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "presetID": 3,
+                    "y": 50,
+                    "wordWrap": true,
+                    "width": 119,
+                    "valign": "middle",
+                    "text": "普通关是打普通怪的地方",
+                    "name": "descLab",
+                    "leading": 6,
+                    "height": 66,
+                    "fontSize": 16,
+                    "font": "SimHei",
+                    "color": "#191918",
+                    "centerX": 0,
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 31
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 247,
+                "x": 216.5,
+                "var": "chapter6",
+                "presetID": 1,
+                "skin": "res_view/chapterDetail/panel_2.png",
+                "sizeGrid": "0,25,0,25",
+                "isPresetRoot": true
+              },
+              "compId": 28,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 2,
+                    "y": -4,
+                    "skin": "res_view/chapterDetail/level_jingying.png",
+                    "scaleY": 0.8,
+                    "scaleX": 0.8,
+                    "name": "chaImg",
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 32
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "presetID": 3,
+                    "y": 50,
+                    "wordWrap": true,
+                    "width": 119,
+                    "valign": "middle",
+                    "text": "普通关是打普通怪的地方",
+                    "name": "descLab",
+                    "leading": 6,
+                    "height": 66,
+                    "fontSize": 16,
+                    "font": "SimHei",
+                    "color": "#191918",
+                    "centerX": 0,
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 33
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 247,
+                "x": 432.5,
+                "var": "chapter8",
+                "presetID": 1,
+                "skin": "res_view/chapterDetail/panel_2.png",
+                "sizeGrid": "0,25,0,25",
+                "isPresetRoot": true
+              },
+              "compId": 29,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 2,
+                    "y": -4,
+                    "skin": "res_view/chapterDetail/level_jingying.png",
+                    "scaleY": 0.8,
+                    "scaleX": 0.8,
+                    "name": "chaImg",
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 34
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "presetID": 3,
+                    "y": 50,
+                    "wordWrap": true,
+                    "width": 119,
+                    "valign": "middle",
+                    "text": "普通关是打普通怪的地方",
+                    "name": "descLab",
+                    "leading": 6,
+                    "height": 66,
+                    "fontSize": 16,
+                    "font": "SimHei",
+                    "color": "#191918",
+                    "centerX": 0,
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 35
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 448,
+                "x": 0,
+                "var": "chapter7",
+                "presetID": 1,
+                "skin": "res_view/chapterDetail/panel_2.png",
+                "sizeGrid": "0,25,0,25",
+                "isPresetRoot": true
+              },
+              "compId": 39,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 2,
+                    "y": -4,
+                    "skin": "res_view/chapterDetail/level_jingying.png",
+                    "scaleY": 0.8,
+                    "scaleX": 0.8,
+                    "name": "chaImg",
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 42
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "presetID": 3,
+                    "y": 50,
+                    "wordWrap": true,
+                    "width": 119,
+                    "valign": "middle",
+                    "text": "普通关是打普通怪的地方",
+                    "name": "descLab",
+                    "leading": 6,
+                    "height": 66,
+                    "fontSize": 16,
+                    "font": "SimHei",
+                    "color": "#191918",
+                    "centerX": 0,
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 43
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 448,
+                "x": 216.5,
+                "var": "chapter9",
+                "presetID": 1,
+                "skin": "res_view/chapterDetail/panel_2.png",
+                "sizeGrid": "0,25,0,25",
+                "isPresetRoot": true
+              },
+              "compId": 40,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 2,
+                    "y": -4,
+                    "skin": "res_view/chapterDetail/level_jingying.png",
+                    "scaleY": 0.8,
+                    "scaleX": 0.8,
+                    "name": "chaImg",
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 44
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "presetID": 3,
+                    "y": 50,
+                    "wordWrap": true,
+                    "width": 119,
+                    "valign": "middle",
+                    "text": "普通关是打普通怪的地方",
+                    "name": "descLab",
+                    "leading": 6,
+                    "height": 66,
+                    "fontSize": 16,
+                    "font": "SimHei",
+                    "color": "#191918",
+                    "centerX": 0,
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 45
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 448,
+                "x": 432.5,
+                "var": "chapter10",
+                "presetID": 1,
+                "skin": "res_view/chapterDetail/panel_2.png",
+                "sizeGrid": "0,25,0,25",
+                "isPresetRoot": true
+              },
+              "compId": 41,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 2,
+                    "y": -4,
+                    "skin": "res_view/chapterDetail/level_jingying.png",
+                    "scaleY": 0.8,
+                    "scaleX": 0.8,
+                    "name": "chaImg",
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 46
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "presetID": 3,
+                    "y": 50,
+                    "wordWrap": true,
+                    "width": 119,
+                    "valign": "middle",
+                    "text": "普通关是打普通怪的地方",
+                    "name": "descLab",
+                    "leading": 6,
+                    "height": 66,
+                    "fontSize": 16,
+                    "font": "SimHei",
+                    "color": "#191918",
+                    "centerX": 0,
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 47
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 621,
+                "x": 182,
+                "width": 310,
+                "var": "chapter4",
+                "presetID": 1,
+                "skin": "res_view/chapterDetail/panel_2.png",
+                "sizeGrid": "0,25,0,25",
+                "isPresetRoot": true
+              },
+              "compId": 49,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 132,
+                    "skin": "res_view/chapterDetail/level_boss.png",
+                    "presetID": 2,
+                    "centerX": -132,
+                    "scaleY": 0.8,
+                    "scaleX": 0.8,
+                    "name": "chaImg",
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 50
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 40,
+                    "width": 162,
+                    "presetID": 3,
+                    "height": 52,
+                    "centerX": 44,
+                    "wordWrap": true,
+                    "valign": "middle",
+                    "text": "普通关是打普通怪的地方",
+                    "name": "descLab",
+                    "leading": 6,
+                    "fontSize": 16,
+                    "font": "SimHei",
+                    "color": "#191918",
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 51
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 825,
+                "x": 3,
+                "visible": false,
+                "var": "chapter17",
+                "skin": "res_view/chapterDetail/panel_4.png",
+                "presetID": 1,
+                "sizeGrid": "0,25,0,25",
+                "isPresetRoot": true
+              },
+              "compId": 55,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 2,
+                    "y": -4,
+                    "skin": "res_view/chapterDetail/level_jingying.png",
+                    "scaleY": 0.8,
+                    "scaleX": 0.8,
+                    "name": "chaImg",
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 58
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "presetID": 3,
+                    "y": 50,
+                    "wordWrap": true,
+                    "width": 119,
+                    "valign": "middle",
+                    "text": "普通关是打普通怪的地方",
+                    "name": "descLab",
+                    "leading": 6,
+                    "height": 66,
+                    "fontSize": 16,
+                    "font": "SimHei",
+                    "color": "#191918",
+                    "centerX": 0,
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 59
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 826,
+                "x": 217,
+                "visible": false,
+                "var": "chapter13",
+                "skin": "res_view/chapterDetail/panel_4.png",
+                "presetID": 1,
+                "sizeGrid": "0,25,0,25",
+                "isPresetRoot": true
+              },
+              "compId": 56,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 2,
+                    "y": -4,
+                    "skin": "res_view/chapterDetail/level_jingying.png",
+                    "scaleY": 0.8,
+                    "scaleX": 0.8,
+                    "name": "chaImg",
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 60
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "presetID": 3,
+                    "y": 50,
+                    "wordWrap": true,
+                    "width": 119,
+                    "valign": "middle",
+                    "text": "普通关是打普通怪的地方",
+                    "name": "descLab",
+                    "leading": 6,
+                    "height": 66,
+                    "fontSize": 16,
+                    "font": "SimHei",
+                    "color": "#191918",
+                    "centerX": 0,
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 61
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 825,
+                "x": 433,
+                "visible": false,
+                "var": "chapter12",
+                "skin": "res_view/chapterDetail/panel_4.png",
+                "presetID": 1,
+                "sizeGrid": "0,25,0,25",
+                "isPresetRoot": true
+              },
+              "compId": 57,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 2,
+                    "y": -4,
+                    "skin": "res_view/chapterDetail/level_jingying.png",
+                    "scaleY": 0.8,
+                    "scaleX": 0.8,
+                    "name": "chaImg",
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 62
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "presetID": 3,
+                    "y": 50,
+                    "wordWrap": true,
+                    "width": 119,
+                    "valign": "middle",
+                    "text": "普通关是打普通怪的地方",
+                    "name": "descLab",
+                    "leading": 6,
+                    "height": 66,
+                    "fontSize": 16,
+                    "font": "SimHei",
+                    "color": "#191918",
+                    "centerX": 0,
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 63
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 825,
+                "x": 3,
+                "visible": false,
+                "var": "chapter16",
+                "skin": "res_view/chapterDetail/panel_6.png",
+                "presetID": 1,
+                "sizeGrid": "0,25,0,25",
+                "isPresetRoot": true
+              },
+              "compId": 64,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 2,
+                    "y": -4,
+                    "skin": "res_view/chapterDetail/level_jingying.png",
+                    "scaleY": 0.8,
+                    "scaleX": 0.8,
+                    "name": "chaImg",
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 67
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "presetID": 3,
+                    "y": 50,
+                    "wordWrap": true,
+                    "width": 119,
+                    "valign": "middle",
+                    "text": "普通关是打普通怪的地方",
+                    "name": "descLab",
+                    "leading": 6,
+                    "height": 66,
+                    "fontSize": 16,
+                    "font": "SimHei",
+                    "color": "#191918",
+                    "centerX": 0,
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 68
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 826,
+                "x": 217,
+                "visible": false,
+                "var": "chapter14",
+                "skin": "res_view/chapterDetail/panel_6.png",
+                "presetID": 1,
+                "sizeGrid": "0,25,0,25",
+                "isPresetRoot": true
+              },
+              "compId": 65,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 2,
+                    "y": -4,
+                    "skin": "res_view/chapterDetail/level_jingying.png",
+                    "scaleY": 0.8,
+                    "scaleX": 0.8,
+                    "name": "chaImg",
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 69
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "presetID": 3,
+                    "y": 50,
+                    "wordWrap": true,
+                    "width": 119,
+                    "valign": "middle",
+                    "text": "普通关是打普通怪的地方",
+                    "name": "descLab",
+                    "leading": 6,
+                    "height": 66,
+                    "fontSize": 16,
+                    "font": "SimHei",
+                    "color": "#191918",
+                    "centerX": 0,
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 70
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 825,
+                "x": 433,
+                "visible": false,
+                "var": "chapter15",
+                "skin": "res_view/chapterDetail/panel_6.png",
+                "presetID": 1,
+                "sizeGrid": "0,25,0,25",
+                "isPresetRoot": true
+              },
+              "compId": 66,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 2,
+                    "y": -4,
+                    "skin": "res_view/chapterDetail/level_jingying.png",
+                    "scaleY": 0.8,
+                    "scaleX": 0.8,
+                    "name": "chaImg",
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 71
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "presetID": 3,
+                    "y": 50,
+                    "wordWrap": true,
+                    "width": 119,
+                    "valign": "middle",
+                    "text": "普通关是打普通怪的地方",
+                    "name": "descLab",
+                    "leading": 6,
+                    "height": 66,
+                    "fontSize": 16,
+                    "font": "SimHei",
+                    "color": "#191918",
+                    "centerX": 0,
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 72
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": ["res_common/icon_head.png", "prefab/chapterItem.prefab"],
+  "loadList3D": []
+}

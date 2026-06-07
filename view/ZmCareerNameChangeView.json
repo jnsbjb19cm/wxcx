@@ -1,0 +1,229 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": false,
+    "height": 1334,
+    "drawCallOptimize": true,
+    "autoDestroyAtClosed": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 798,
+        "var": "UnLockBox",
+        "name": "UnLockBox",
+        "height": 1211,
+        "centerY": 21,
+        "centerX": 0
+      },
+      "compId": 686,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 576,
+            "width": 1000,
+            "skin": "res_common/bg.png",
+            "height": 1625,
+            "centerX": -16,
+            "anchorY": 0.5,
+            "anchorX": 0.5,
+            "alpha": 0.6
+          },
+          "compId": 687
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 325,
+            "x": 97,
+            "width": 603,
+            "skin": "res_view/platformFeatures/panel_1.png",
+            "sizeGrid": "42,97,19,5",
+            "name": "Bg",
+            "height": 360
+          },
+          "compId": 688,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 63,
+                "x": 165,
+                "width": 280,
+                "skin": "netRes/liuhe/viewUI/bg_common_title06.png",
+                "sizeGrid": "0,63,0,68",
+                "name": "txtBg",
+                "height": 52
+              },
+              "compId": 811
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 69,
+                "x": 239,
+                "skin": "netRes/liuhe/viewUI/text_zwmc.png",
+                "name": "txt_img"
+              },
+              "compId": 812
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 359,
+                "skin": "res_common/text_djgb.png",
+                "name": "img_blankClose",
+                "centerX": -4
+              },
+              "compId": 696
+            },
+            {
+              "type": "Image",
+              "props": {
+                "width": 3000,
+                "visible": true,
+                "var": "topClose",
+                "name": "topClose",
+                "height": 1322,
+                "centerY": -814,
+                "centerX": -10
+              },
+              "compId": 697
+            },
+            {
+              "type": "Image",
+              "props": {
+                "width": 1505,
+                "visible": true,
+                "var": "leftClose",
+                "name": "leftClose",
+                "height": 1483,
+                "centerY": 41,
+                "centerX": -1048
+              },
+              "compId": 698
+            },
+            {
+              "type": "Image",
+              "props": {
+                "width": 1522,
+                "visible": true,
+                "var": "rightClose",
+                "name": "rightClose",
+                "height": 1483,
+                "centerY": 41,
+                "centerX": 1050
+              },
+              "compId": 699
+            },
+            {
+              "type": "Image",
+              "props": {
+                "width": 3000,
+                "visible": true,
+                "var": "bottomClose",
+                "name": "bottomClose",
+                "height": 1168,
+                "centerY": 758,
+                "centerX": -31
+              },
+              "compId": 700
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 30,
+                "x": 563,
+                "width": 91,
+                "var": "closeBtn",
+                "skin": "netRes/chat/btn_close.png",
+                "pivotY": 39,
+                "pivotX": 52,
+                "name": "closeBtn",
+                "label": "label",
+                "height": 91,
+                "alpha": 1
+              },
+              "compId": 693,
+              "child": [
+                {
+                  "type": "Script",
+                  "props": {
+                    "y": 41,
+                    "x": 93,
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 695
+                }
+              ]
+            },
+            {
+              "type": "TextInput",
+              "props": {
+                "y": 163,
+                "x": 134,
+                "wordWrap": true,
+                "width": 330,
+                "var": "NameInput",
+                "skin": "comp/textinput.png",
+                "name": "NameInput",
+                "maxChars": 6,
+                "height": 48,
+                "fontSize": 30,
+                "font": "Microsoft YaHei",
+                "color": "#613735",
+                "bold": true,
+                "align": "center"
+              },
+              "compId": 810
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 622,
+            "x": 409,
+            "width": 215,
+            "var": "btn_sure",
+            "skin": "res_combat/specialStageView/biaoJu/btn_yellow.png",
+            "pivotY": 41,
+            "pivotX": 115,
+            "name": "btn_sure",
+            "height": 77,
+            "alpha": 1
+          },
+          "compId": 747,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 21.5,
+                "x": 50.5,
+                "skin": "netRes/liuhe/viewUI/text_qd.png"
+              },
+              "compId": 748
+            },
+            {
+              "type": "Script",
+              "props": {
+                "y": 41,
+                "x": 93,
+                "runtime": "game/tools/BtnScale90.ts"
+              },
+              "compId": 749
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

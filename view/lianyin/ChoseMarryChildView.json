@@ -1,0 +1,664 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "var": "chosemarrychidiew",
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -103,
+            "x": 25,
+            "width": 881,
+            "var": "cmc_maskbg",
+            "skin": "res_common/bg.png",
+            "height": 1443,
+            "alpha": 0.5
+          },
+          "compId": 4
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 226,
+            "x": 62,
+            "width": 794,
+            "height": 921
+          },
+          "compId": 5,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": -24,
+                "width": 845,
+                "skin": "res_view/children/img_zinv_title03.png",
+                "sizeGrid": "137,410,148,344",
+                "name": "cnl_bg",
+                "height": 949
+              },
+              "compId": 6,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 134,
+                    "x": 38,
+                    "width": 759,
+                    "skin": "res_view/children/panel_zinv_2.png",
+                    "sizeGrid": "3,3,3,3",
+                    "height": 715
+                  },
+                  "compId": 7
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 20,
+                    "x": 145,
+                    "skin": "res_view/lianyin/text_xzlyzn.png"
+                  },
+                  "compId": 8
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 23,
+                    "x": 707,
+                    "var": "cmc_close",
+                    "skin": "netRes/task/btn_close.png"
+                  },
+                  "compId": 9
+                }
+              ]
+            },
+            {
+              "type": "List",
+              "props": {
+                "y": 147,
+                "x": 33,
+                "width": 719,
+                "visible": false,
+                "var": "selflist",
+                "vScrollBarSkin": " ",
+                "height": 697
+              },
+              "compId": 10,
+              "child": [
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "width": 679,
+                    "renderType": "render",
+                    "name": "box",
+                    "height": 146
+                  },
+                  "compId": 93,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "width": 668,
+                        "skin": "res_view/children/bg_family_organization_01.png",
+                        "name": "bg",
+                        "height": 156
+                      },
+                      "compId": 94
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 14,
+                        "width": 128,
+                        "skin": "res_common/solt_hero_blue.png",
+                        "name": "headimg",
+                        "height": 128
+                      },
+                      "compId": 95,
+                      "child": [
+                        {
+                          "type": "Box",
+                          "props": {
+                            "name": "headspine"
+                          },
+                          "compId": 96,
+                          "child": [
+                            {
+                              "type": "Sprite",
+                              "props": {
+                                "renderType": "mask"
+                              },
+                              "compId": 97,
+                              "child": [
+                                {
+                                  "type": "Circle",
+                                  "props": {
+                                    "y": 63.25,
+                                    "x": 63.25,
+                                    "radius": 48,
+                                    "lineWidth": 1,
+                                    "fillColor": "#ff0000"
+                                  },
+                                  "compId": 98
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 16,
+                        "x": 146,
+                        "text": "名字最多六字",
+                        "name": "child_name",
+                        "fontSize": 26,
+                        "font": "SimHei",
+                        "color": "#825956"
+                      },
+                      "compId": 99
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 60,
+                        "x": 182,
+                        "width": 111,
+                        "name": "gd",
+                        "height": 24,
+                        "fontSize": 24,
+                        "font": "Microsoft YaHei",
+                        "color": "#6b5150",
+                        "bold": true
+                      },
+                      "compId": 100,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -18,
+                            "x": -42,
+                            "width": 47,
+                            "skin": "res_view/platformFeatures/concern/icon_gongde.png",
+                            "height": 47
+                          },
+                          "compId": 101
+                        },
+                        {
+                          "type": "Label",
+                          "props": {
+                            "y": -2,
+                            "x": 3,
+                            "width": 111,
+                            "text": "功德加成：+502",
+                            "name": "gd_addnum",
+                            "height": 24,
+                            "fontSize": 24,
+                            "font": "Microsoft YaHei",
+                            "color": "#6b5150",
+                            "bold": true
+                          },
+                          "compId": 102
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 95,
+                        "x": 189,
+                        "width": 111,
+                        "name": "work",
+                        "height": 24,
+                        "fontSize": 24,
+                        "font": "Microsoft YaHei",
+                        "color": "#6b5150",
+                        "bold": true
+                      },
+                      "compId": 103,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -9,
+                            "x": -42,
+                            "width": 34,
+                            "skin": "netRes/icon/traitIcon/icon_jb_ck.png",
+                            "name": "work_img",
+                            "height": 34
+                          },
+                          "compId": 104
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 95,
+                        "x": 186,
+                        "name": "work_name",
+                        "fontSize": 24,
+                        "font": "Microsoft YaHei",
+                        "color": "#6b5150"
+                      },
+                      "compId": 105,
+                      "child": [
+                        {
+                          "type": "Label",
+                          "props": {
+                            "y": 1,
+                            "x": -1,
+                            "width": 111,
+                            "text": "xx属性",
+                            "name": "work_attr",
+                            "height": 24,
+                            "fontSize": 24,
+                            "font": "Microsoft YaHei",
+                            "color": "#6b5150",
+                            "bold": true
+                          },
+                          "compId": 106
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 33,
+                        "x": 531,
+                        "width": 158,
+                        "skin": "res_common/btn_yellow.png",
+                        "name": "chose_12_btn",
+                        "height": 70
+                      },
+                      "compId": 110,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 19.5,
+                            "x": 36.5,
+                            "width": 83,
+                            "skin": "res_view/openPlot/text_xz.png",
+                            "height": 35
+                          },
+                          "compId": 111
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "List",
+              "props": {
+                "y": 147,
+                "x": 33,
+                "width": 719,
+                "visible": false,
+                "var": "targetlist",
+                "vScrollBarSkin": " ",
+                "height": 697
+              },
+              "compId": 12,
+              "child": [
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "width": 679,
+                    "renderType": "render",
+                    "name": "box",
+                    "height": 146
+                  },
+                  "compId": 112,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "width": 668,
+                        "skin": "res_view/children/bg_family_organization_01.png",
+                        "name": "bg",
+                        "height": 156
+                      },
+                      "compId": 113
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 14,
+                        "width": 128,
+                        "skin": "res_common/solt_hero_blue.png",
+                        "name": "headimg",
+                        "height": 128
+                      },
+                      "compId": 114,
+                      "child": [
+                        {
+                          "type": "Box",
+                          "props": {
+                            "name": "headspine"
+                          },
+                          "compId": 115,
+                          "child": [
+                            {
+                              "type": "Sprite",
+                              "props": {
+                                "renderType": "mask"
+                              },
+                              "compId": 116,
+                              "child": [
+                                {
+                                  "type": "Circle",
+                                  "props": {
+                                    "y": 63.25,
+                                    "x": 63.25,
+                                    "radius": 48,
+                                    "lineWidth": 1,
+                                    "fillColor": "#ff0000"
+                                  },
+                                  "compId": 117
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 16,
+                        "x": 146,
+                        "text": "名字最多六字",
+                        "name": "child_name",
+                        "fontSize": 26,
+                        "font": "SimHei",
+                        "color": "#825956"
+                      },
+                      "compId": 118
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 60,
+                        "x": 182,
+                        "width": 111,
+                        "name": "gd",
+                        "height": 24,
+                        "fontSize": 24,
+                        "font": "Microsoft YaHei",
+                        "color": "#6b5150",
+                        "bold": true
+                      },
+                      "compId": 119,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -18,
+                            "x": -42,
+                            "width": 47,
+                            "skin": "res_view/platformFeatures/concern/icon_gongde.png",
+                            "height": 47
+                          },
+                          "compId": 120
+                        },
+                        {
+                          "type": "Label",
+                          "props": {
+                            "y": -2,
+                            "x": 3,
+                            "width": 111,
+                            "text": "功德加成：+502",
+                            "name": "gd_addnum",
+                            "height": 24,
+                            "fontSize": 24,
+                            "font": "Microsoft YaHei",
+                            "color": "#6b5150",
+                            "bold": true
+                          },
+                          "compId": 121
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 95,
+                        "x": 189,
+                        "width": 111,
+                        "name": "work",
+                        "height": 24,
+                        "fontSize": 24,
+                        "font": "Microsoft YaHei",
+                        "color": "#6b5150",
+                        "bold": true
+                      },
+                      "compId": 122,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -9,
+                            "x": -42,
+                            "width": 34,
+                            "skin": "netRes/icon/traitIcon/icon_jb_ck.png",
+                            "name": "work_img",
+                            "height": 34
+                          },
+                          "compId": 123
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 95,
+                        "x": 186,
+                        "name": "work_name",
+                        "fontSize": 24,
+                        "font": "Microsoft YaHei",
+                        "color": "#6b5150"
+                      },
+                      "compId": 124,
+                      "child": [
+                        {
+                          "type": "Label",
+                          "props": {
+                            "y": 1,
+                            "x": -1,
+                            "width": 111,
+                            "text": "xx属性",
+                            "name": "work_attr",
+                            "height": 24,
+                            "fontSize": 24,
+                            "font": "Microsoft YaHei",
+                            "color": "#6b5150",
+                            "bold": true
+                          },
+                          "compId": 125
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 33,
+                        "x": 531,
+                        "width": 158,
+                        "skin": "res_common/btn_yellow.png",
+                        "name": "chose_btn",
+                        "height": 70
+                      },
+                      "compId": 129,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 19.5,
+                            "x": 36.5,
+                            "width": 83,
+                            "skin": "res_view/openPlot/text_xz.png",
+                            "height": 35
+                          },
+                          "compId": 130
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 881,
+                "x": 257,
+                "skin": "res_view/rank/text_djgb.png"
+              },
+              "compId": 11
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 102,
+                "x": 33,
+                "var": "chosebtn",
+                "skin": "res_view/lianyin/panel_gd.png"
+              },
+              "compId": 131,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 4.5,
+                    "x": 116,
+                    "var": "openchose",
+                    "skin": "res_view/lianyin/btn_team_extension.png"
+                  },
+                  "compId": 133
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 5.5,
+                    "x": 22,
+                    "var": "curchose",
+                    "skin": "res_view/lianyin/text_px_gd.png"
+                  },
+                  "compId": 134
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 127,
+                "x": 33,
+                "width": 115,
+                "visible": false,
+                "var": "chose_box",
+                "height": 109
+              },
+              "compId": 132,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 8,
+                    "x": 0,
+                    "var": "chose_1",
+                    "skin": "res_view/lianyin/panel_gd (2).png"
+                  },
+                  "compId": 135,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 5.5,
+                        "x": 22.5,
+                        "skin": "res_view/lianyin/text_px_gd.png"
+                      },
+                      "compId": 136
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 41,
+                    "x": 0,
+                    "var": "chose_2",
+                    "skin": "res_view/lianyin/panel_gd (2).png"
+                  },
+                  "compId": 137,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 5.5,
+                        "x": 22.5,
+                        "skin": "res_view/lianyin/text_px_sx.png"
+                      },
+                      "compId": 138
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 74,
+                    "x": 0,
+                    "var": "chose_3",
+                    "skin": "res_view/lianyin/panel_gd (2).png"
+                  },
+                  "compId": 139,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 5.5,
+                        "x": 22.5,
+                        "skin": "res_view/lianyin/text_px_sj.png"
+                      },
+                      "compId": 140
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": ["res_common/solt_hero_blue.png"],
+  "loadList3D": []
+}

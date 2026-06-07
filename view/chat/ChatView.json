@@ -1,0 +1,335 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "var": "maskBg",
+        "top": 0,
+        "skin": "res_common/bg.png",
+        "right": 0,
+        "left": 0,
+        "bottom": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 3
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "var": "contentBox",
+        "height": 1000,
+        "centerY": 2,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5
+      },
+      "compId": 51,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 4,
+            "x": -6,
+            "skin": "netRes/chat/panel_chat.png"
+          },
+          "compId": 50,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -20,
+                "x": -1,
+                "skin": "netRes/chat/icon_sjpd.png"
+              },
+              "compId": 74
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -6,
+                "x": 116,
+                "skin": "netRes/chat/title_liaotian.png"
+              },
+              "compId": 75
+            }
+          ]
+        },
+        {
+          "type": "List",
+          "props": {
+            "y": 71,
+            "x": 161,
+            "width": 430,
+            "var": "tagList",
+            "spaceX": 43,
+            "height": 61
+          },
+          "compId": 77,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "width": 193,
+                "visible": true,
+                "renderType": "render",
+                "label": "label",
+                "height": 61
+              },
+              "compId": 78,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "width": 193,
+                    "skin": "res_common/btn_common_label01.png",
+                    "name": "bg",
+                    "label": "label",
+                    "height": 61
+                  },
+                  "compId": 79
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "text": "text",
+                    "skin": "netRes/chat/text_bfpd_1.png",
+                    "name": "content",
+                    "centerY": 2,
+                    "centerX": 0
+                  },
+                  "compId": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "skin": "netRes/chat/plist_type_2.png",
+            "right": 0,
+            "left": 0,
+            "bottom": 3
+          },
+          "compId": 67
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 925,
+            "x": 52,
+            "var": "inputBg",
+            "skin": "netRes/chat/plist_type_1.png"
+          },
+          "compId": 28,
+          "child": [
+            {
+              "type": "TextInput",
+              "props": {
+                "y": 14,
+                "x": 17,
+                "width": 380,
+                "var": "contextInput",
+                "valign": "middle",
+                "promptColor": "#8f6363",
+                "prompt": "点击输入内容",
+                "overflow": "hidden",
+                "fontSize": 24,
+                "font": "Microsoft YaHei",
+                "color": "#8f6363",
+                "bold": true
+              },
+              "compId": 31
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 914,
+            "x": 543,
+            "width": 157,
+            "var": "sendBtn",
+            "stateNum": 1,
+            "skin": "res_common/btn_yellow.png",
+            "labelStroke": 2,
+            "labelSize": 24,
+            "labelFont": "Microsoft YaHei",
+            "labelColors": "#ffffff",
+            "labelBold": true,
+            "labelAlign": "center",
+            "label": "发  送",
+            "height": 73
+          },
+          "compId": 29,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 22,
+                "x": 38,
+                "var": "sendImg",
+                "text": "text",
+                "skin": "netRes/chat/text_fasong.png"
+              },
+              "compId": 55
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 914,
+            "x": 543,
+            "width": 157,
+            "var": "cdBox",
+            "mouseThrough": false,
+            "height": 73
+          },
+          "compId": 36,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "visible": false,
+                "top": 0,
+                "skin": "res_common/bg.png",
+                "right": 0,
+                "left": 0,
+                "bottom": 0,
+                "alpha": 0
+              },
+              "compId": 37
+            },
+            {
+              "type": "HBox",
+              "props": {
+                "y": 15,
+                "space": 0,
+                "height": 50,
+                "centerX": 0
+              },
+              "compId": 57
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 17,
+                "var": "cdLab",
+                "value": "60",
+                "valign": "middle",
+                "text": "34s",
+                "stroke": 2,
+                "spaceX": -10,
+                "skin": "res_common/number/num_33_jxzk_674445.png",
+                "sheet": "0123456789",
+                "height": 44,
+                "fontSize": 24,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "centerX": -24,
+                "bold": true
+              },
+              "compId": 38
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 24,
+                "x": 82,
+                "width": 32,
+                "text": "text",
+                "skin": "netRes/chat/text_miao.png",
+                "height": 31
+              },
+              "compId": 56
+            }
+          ]
+        },
+        {
+          "type": "Panel",
+          "props": {
+            "y": 132,
+            "x": 0,
+            "width": 750,
+            "var": "chatPanel",
+            "vScrollBarSkin": "comp/vscroll.png",
+            "height": 772
+          },
+          "compId": 30
+        },
+        {
+          "type": "Panel",
+          "props": {
+            "y": 132,
+            "x": 0,
+            "width": 750,
+            "var": "chatWorldPanel",
+            "vScrollBarSkin": "comp/vscroll.png",
+            "height": 772
+          },
+          "compId": 47
+        },
+        {
+          "type": "Panel",
+          "props": {
+            "y": 132,
+            "x": 0,
+            "width": 750,
+            "var": "chatGuildPanel",
+            "vScrollBarSkin": "comp/vscroll.png",
+            "height": 772
+          },
+          "compId": 46
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 906,
+            "x": 0,
+            "width": 750,
+            "var": "fobidBox",
+            "mouseThrough": false,
+            "mouseEnabled": true,
+            "height": 91
+          },
+          "compId": 32
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 997,
+            "x": 240,
+            "text": "text",
+            "skin": "netRes/chat/text_djgb.png"
+          },
+          "compId": 68
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 11,
+            "x": 659,
+            "width": 70,
+            "var": "closeBox",
+            "height": 70
+          },
+          "compId": 69
+        }
+      ]
+    }
+  ],
+  "loadList": ["netRes/chat/panel_chat.png", "comp/vscroll.png"],
+  "loadList3D": []
+}

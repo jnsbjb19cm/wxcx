@@ -1,0 +1,63 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "var": "popup",
+        "height": 44,
+        "centerY": -228,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "width": 750,
+            "var": "contextBg",
+            "skin": "res_common/panel_text.png",
+            "sizeGrid": "0,303,0,319",
+            "height": 60,
+            "centerY": 0,
+            "centerX": 0,
+            "anchorY": 0.5,
+            "anchorX": 0.5,
+            "alpha": 1
+          },
+          "compId": 5
+        },
+        {
+          "type": "Text",
+          "props": {
+            "y": 21,
+            "x": 375,
+            "width": 500,
+            "visible": false,
+            "var": "context",
+            "valign": "middle",
+            "text": "资源不足资源不足",
+            "pivotY": 12,
+            "pivotX": 250,
+            "height": 26,
+            "fontSize": 24,
+            "font": "SimHei",
+            "color": "#ffffff",
+            "bold": true,
+            "align": "center",
+            "runtime": "Laya.Text"
+          },
+          "compId": 7
+        }
+      ]
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

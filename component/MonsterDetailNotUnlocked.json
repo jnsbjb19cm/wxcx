@@ -1,0 +1,212 @@
+{
+  "type": "View",
+  "props": {
+    "width": 377,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 377,
+        "mouseThrough": true,
+        "mouseEnabled": true,
+        "height": 1334,
+        "centerX": 0
+      },
+      "compId": 77,
+      "child": [
+        {
+          "type": "Panel",
+          "props": {
+            "y": -290,
+            "x": -411,
+            "width": 1200,
+            "var": "halfBodyPanel",
+            "vScrollBarSkin": " ",
+            "mouseEnabled": false,
+            "height": 824,
+            "hScrollBarSkin": " ",
+            "cacheAs": "bitmap"
+          },
+          "compId": 79,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "width": 1,
+                "var": "spineBox",
+                "centerX": 0
+              },
+              "compId": 80
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 518,
+            "x": -311,
+            "visible": false,
+            "var": "maskPro",
+            "skin": "res_view/monsterDetail/img_CP_new05.png",
+            "mouseEnabled": false
+          },
+          "compId": 81
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 534,
+        "x": 0,
+        "width": 377,
+        "var": "contentBox",
+        "mouseEnabled": true,
+        "height": 803,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "var": "bigBg",
+            "top": 0,
+            "skin": "res_view/monsterDetail/panel_01.png",
+            "sizeGrid": "242,0,191,0",
+            "right": 0,
+            "mouseThrough": false,
+            "mouseEnabled": true,
+            "left": 0,
+            "bottom": 0
+          },
+          "compId": 8
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 31,
+            "x": 53,
+            "var": "titleBg",
+            "skin": "res_common/bg_common_title.png"
+          },
+          "compId": 9,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 9,
+                "x": 128,
+                "text": "text",
+                "skin": "res_view/monsterDetailLvUp/texe_wzmc.png"
+              },
+              "compId": 10
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 54,
+            "x": 122,
+            "width": 56,
+            "visible": true,
+            "var": "lvIcon",
+            "skin": "res_icon/monsterLvIcon/char_lv1.png",
+            "scaleY": 1.3,
+            "scaleX": 1.3,
+            "height": 56,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 11,
+          "child": [
+            {
+              "type": "FontClip",
+              "props": {
+                "y": -4,
+                "x": 22,
+                "visible": false,
+                "spaceX": -8,
+                "skin": "res_common/number/num_16_rhrc_ffffff_stk.png",
+                "sheet": "0123456789-+/",
+                "name": "num"
+              },
+              "compId": 12
+            }
+          ]
+        },
+        {
+          "type": "Rect",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "width": 382,
+            "renderType": "hit",
+            "lineWidth": 1,
+            "height": 800,
+            "fillColor": "#ff0000"
+          },
+          "compId": 70
+        },
+        {
+          "type": "Image",
+          "props": {
+            "skin": "res_view/monsterDetailLvUp/bg_card_not.png",
+            "centerY": 0,
+            "centerX": 0
+          },
+          "compId": 72
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 380,
+            "x": 81,
+            "visible": false,
+            "var": "openSoon",
+            "text": "text",
+            "skin": "res_view/monsterDetailLvUp/text_jjkf.png",
+            "centerY": 0,
+            "centerX": 0
+          },
+          "compId": 73
+        },
+        {
+          "type": "Image",
+          "props": {
+            "visible": false,
+            "var": "unlockConditions",
+            "text": "text",
+            "skin": "res_view/monsterDetailLvUp/text_tgsjjs.png",
+            "centerY": 0,
+            "centerX": 0
+          },
+          "compId": 74,
+          "child": [
+            {
+              "type": "FontClip",
+              "props": {
+                "var": "unlockZoon",
+                "value": "5",
+                "spaceX": -10,
+                "skin": "res_common/number/num_40_jxzk_674445.png",
+                "sheet": "0123456789+",
+                "centerY": -1,
+                "centerX": 41
+              },
+              "compId": 76
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": ["res_view/monsterDetail/panel_01.png"],
+  "loadList3D": []
+}

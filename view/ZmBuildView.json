@@ -1,0 +1,1457 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": false,
+    "height": 1334,
+    "drawCallOptimize": true,
+    "autoDestroyAtClosed": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 798,
+        "name": "LvUpBox",
+        "height": 1211,
+        "centerY": 21,
+        "centerX": 0
+      },
+      "compId": 578,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 589,
+            "x": 399,
+            "width": 1000,
+            "var": "maskBg",
+            "skin": "res_common/bg.png",
+            "height": 1625,
+            "centerX": 0,
+            "anchorY": 0.5,
+            "anchorX": 0.5,
+            "alpha": 0.6
+          },
+          "compId": 579
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -18,
+            "x": 70,
+            "width": 659,
+            "skin": "res_view/haream/panrl_1.png",
+            "sizeGrid": "162,0,218,0",
+            "name": "Bg",
+            "height": 1104,
+            "alpha": 1
+          },
+          "compId": 580,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 82,
+                "x": 72,
+                "width": 513,
+                "skin": "res_view/haream/panel_2.png",
+                "sizeGrid": "105,0,87,0",
+                "name": "img_bg",
+                "height": 886
+              },
+              "compId": 621
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 175,
+                "x": 70,
+                "skin": "res_view/haream/line_house_punctuation.png",
+                "name": "img_bg_2"
+              },
+              "compId": 581,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 281,
+                    "x": 196,
+                    "var": "text_lvUp",
+                    "skin": "res_view/haream/text_sjxg.png",
+                    "name": "text_lvUp"
+                  },
+                  "compId": 623
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 202,
+                "x": 234,
+                "var": "img_build",
+                "scaleY": 0.35,
+                "scaleX": 0.35,
+                "name": "img_build"
+              },
+              "compId": 622
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 29,
+                "x": 585,
+                "width": 55,
+                "var": "closeBtn",
+                "skin": "res_common/bg_common_close.png",
+                "pivotY": 28,
+                "pivotX": 28,
+                "label": "label",
+                "height": 55
+              },
+              "compId": 584,
+              "child": [
+                {
+                  "type": "Rect",
+                  "props": {
+                    "y": -15,
+                    "x": -11,
+                    "width": 77,
+                    "renderType": "hit",
+                    "lineWidth": 1,
+                    "height": 70,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 585
+                },
+                {
+                  "type": "Script",
+                  "props": {
+                    "y": 41,
+                    "x": 93,
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 683
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 1088,
+                "skin": "res_common/text_djgb.png",
+                "name": "img_blankClose",
+                "centerX": 5
+              },
+              "compId": 586
+            },
+            {
+              "type": "Image",
+              "props": {
+                "width": 3000,
+                "visible": true,
+                "var": "topClose",
+                "height": 830,
+                "centerY": -881,
+                "centerX": -4
+              },
+              "compId": 587
+            },
+            {
+              "type": "Image",
+              "props": {
+                "width": 1535,
+                "visible": true,
+                "var": "leftClose",
+                "name": "leftClose",
+                "height": 1483,
+                "centerY": 41,
+                "centerX": -1048
+              },
+              "compId": 681
+            },
+            {
+              "type": "Image",
+              "props": {
+                "width": 1535,
+                "visible": true,
+                "var": "rightClose",
+                "name": "rightClose",
+                "height": 1483,
+                "centerY": 41,
+                "centerX": 1050
+              },
+              "compId": 682
+            },
+            {
+              "type": "Image",
+              "props": {
+                "width": 3000,
+                "visible": true,
+                "var": "bottomClose",
+                "height": 648,
+                "centerY": 846,
+                "centerX": 13
+              },
+              "compId": 588
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 112,
+            "x": 275.5,
+            "name": "BasicMesBox"
+          },
+          "compId": 678,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -33,
+                "x": -58,
+                "skin": "res_view/haream/bg_common_title06.png",
+                "name": "bg"
+              },
+              "compId": 806
+            },
+            {
+              "type": "Text",
+              "props": {
+                "y": -33,
+                "x": 14,
+                "width": 224,
+                "var": "Name",
+                "valign": "middle",
+                "text": "青云宗分布",
+                "name": "Name",
+                "height": 50,
+                "fontSize": 33,
+                "font": "SimHei",
+                "color": "#50342c",
+                "align": "center",
+                "runtime": "Laya.Text"
+              },
+              "compId": 679
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 18,
+                "x": -10,
+                "width": 223,
+                "var": "Lv",
+                "value": "15",
+                "spaceX": -12,
+                "skin": "res_common/number/num_26_jxzk_5b393a.png",
+                "sheet": "0123456789",
+                "name": "Lv",
+                "height": 33,
+                "align": "center"
+              },
+              "compId": 817
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -6,
+                "x": 252,
+                "width": 54,
+                "var": "Btn_NameChange",
+                "skin": "res_view/haream/btn_gm.png",
+                "pivotY": 27,
+                "pivotX": 27,
+                "name": "Btn_NameChange",
+                "height": 54
+              },
+              "compId": 809,
+              "child": [
+                {
+                  "type": "Script",
+                  "props": {
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 819
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 34,
+                "x": 60,
+                "skin": "res_view/haream/text_line.png",
+                "name": "line1"
+              },
+              "compId": 810
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 23,
+                "x": 126,
+                "skin": "res_view/haream/text_ji_brown.png",
+                "name": "line2"
+              },
+              "compId": 833
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 516,
+            "x": 158,
+            "var": "LvUpBox",
+            "name": "LvUpBox"
+          },
+          "compId": 625,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -41,
+                "x": 0,
+                "width": 475,
+                "skin": "res_view/haream/panel_k.png",
+                "sizeGrid": "105,0,87,0",
+                "name": "img_bg",
+                "height": 162
+              },
+              "compId": 626
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -27.5,
+                "x": 18,
+                "var": "rew1",
+                "skin": "res_view/haream/text_fzzn.png",
+                "name": "rew1"
+              },
+              "compId": 635,
+              "child": [
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": -4,
+                    "x": 223,
+                    "width": 71,
+                    "var": "txt_rew1",
+                    "value": "22.5",
+                    "spaceX": -7,
+                    "skin": "res_common/number/num_21_jxzk_1b8100.png",
+                    "sheet": "0123456789.",
+                    "name": "txt_rew1",
+                    "height": 29,
+                    "align": "left"
+                  },
+                  "compId": 820,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 7,
+                        "x": 65,
+                        "width": 12,
+                        "skin": "res_view/haream/text_bfb.png",
+                        "name": "img",
+                        "height": 15
+                      },
+                      "compId": 826
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 6,
+                    "x": 212,
+                    "skin": "res_view/haream/text_jiahao.png",
+                    "name": "img2"
+                  },
+                  "compId": 834
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -28,
+                "x": 18,
+                "var": "rew2",
+                "skin": "res_view/haream/text_xq5.png",
+                "name": "rew2"
+              },
+              "compId": 633,
+              "child": [
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": -5,
+                    "x": 247,
+                    "width": 68,
+                    "var": "txt_rew2",
+                    "value": "22.5",
+                    "spaceX": -7,
+                    "skin": "res_common/number/num_21_jxzk_1b8100.png",
+                    "sheet": "0123456789.",
+                    "name": "txt_rew2",
+                    "height": 29,
+                    "align": "left"
+                  },
+                  "compId": 821,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 7,
+                        "x": 59,
+                        "skin": "res_view/haream/text_bfb.png",
+                        "name": "img"
+                      },
+                      "compId": 828
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 5,
+                    "x": 235,
+                    "skin": "res_view/haream/text_jiahao.png",
+                    "name": "img2"
+                  },
+                  "compId": 835
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -28,
+                "x": 18,
+                "var": "rew3",
+                "skin": "res_view/haream/text_xq6.png",
+                "name": "rew3"
+              },
+              "compId": 773,
+              "child": [
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": -5.5,
+                    "x": 224.5,
+                    "width": 113,
+                    "var": "txt_rew3",
+                    "value": "22.5",
+                    "spaceX": -7,
+                    "skin": "res_common/number/num_21_jxzk_1b8100.png",
+                    "sheet": "0123456789.",
+                    "name": "txt_rew3",
+                    "height": 29,
+                    "align": "left"
+                  },
+                  "compId": 822,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 7,
+                        "x": 119,
+                        "skin": "res_view/haream/text_bfb.png",
+                        "name": "img"
+                      },
+                      "compId": 829
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 6,
+                    "x": 212,
+                    "skin": "res_view/haream/text_jiahao.png",
+                    "name": "img2"
+                  },
+                  "compId": 836
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -28,
+                "x": 18,
+                "var": "rew4",
+                "skin": "res_view/haream/text_jldz.png",
+                "name": "rew4"
+              },
+              "compId": 636,
+              "child": [
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": -5,
+                    "x": 95,
+                    "width": 68,
+                    "var": "txt_rew4",
+                    "value": "5",
+                    "spaceX": -7,
+                    "skin": "res_common/number/num_21_jxzk_1b8100.png",
+                    "sheet": "0123456789.",
+                    "name": "txt_rew4",
+                    "height": 29,
+                    "align": "left"
+                  },
+                  "compId": 823
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 5.5,
+                    "x": 87,
+                    "skin": "res_view/haream/text_jiahao.png",
+                    "name": "img2"
+                  },
+                  "compId": 837
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -27.5,
+                "x": 18,
+                "var": "rew5",
+                "skin": "res_view/haream/text_jsxzw.png",
+                "name": "rew5"
+              },
+              "compId": 637,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -1,
+                    "x": 111,
+                    "var": "img_rew5",
+                    "skin": "res_view/haream/text_fz.png",
+                    "scaleY": 0.9,
+                    "scaleX": 0.9,
+                    "name": "img_rew5"
+                  },
+                  "compId": 825
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 679,
+            "x": 182.5,
+            "var": "BeautyBox",
+            "name": "BeautyBox"
+          },
+          "compId": 632,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 42,
+                "x": 68,
+                "width": 86,
+                "pivotY": 42,
+                "pivotX": 43,
+                "name": "beauty0",
+                "height": 83
+              },
+              "compId": 638,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 42,
+                    "x": 41,
+                    "width": 81,
+                    "skin": "res_view/boostReward/solt_monster_lv3.png",
+                    "pivotY": 42,
+                    "pivotX": 42,
+                    "name": "quality",
+                    "height": 81
+                  },
+                  "compId": 642
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 35,
+                    "x": 37,
+                    "pivotY": 144,
+                    "pivotX": 101,
+                    "name": "beautyIcon"
+                  },
+                  "compId": 643
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 83,
+                    "x": -39,
+                    "width": 152,
+                    "skin": "res_view/haream/panel_xm.png",
+                    "name": "namebg",
+                    "height": 24
+                  },
+                  "compId": 644
+                },
+                {
+                  "type": "Text",
+                  "props": {
+                    "y": 84,
+                    "x": -15,
+                    "width": 107,
+                    "valign": "middle",
+                    "text": "职位",
+                    "stroke": 1,
+                    "name": "careerName",
+                    "height": 21,
+                    "fontSize": 19,
+                    "font": "SimHei",
+                    "color": "#ffffff",
+                    "align": "center",
+                    "runtime": "Laya.Text"
+                  },
+                  "compId": 645
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 1,
+                    "x": -5,
+                    "width": 90,
+                    "visible": false,
+                    "skin": "res_view/haream/bg_friend_Join.png",
+                    "name": "noBeauty",
+                    "height": 89
+                  },
+                  "compId": 657,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 2,
+                        "x": 64,
+                        "width": 21,
+                        "skin": "main/redpoint.png",
+                        "name": "redPoint",
+                        "height": 21
+                      },
+                      "compId": 886
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 1,
+                    "x": -4.5,
+                    "visible": false,
+                    "skin": "res_view/haream/icon_lock_02.png",
+                    "name": "unlock"
+                  },
+                  "compId": 655,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 15.5,
+                        "x": 22,
+                        "skin": "res_view/haream/text_sjjs.png",
+                        "name": "readyLvup"
+                      },
+                      "compId": 656
+                    },
+                    {
+                      "type": "Box",
+                      "props": {
+                        "name": "needLv"
+                      },
+                      "compId": 666,
+                      "child": [
+                        {
+                          "type": "FontClip",
+                          "props": {
+                            "y": 13,
+                            "x": -14,
+                            "width": 101,
+                            "value": "1",
+                            "spaceX": -7,
+                            "skin": "res_common/number/num_20_jxzk_ffffff_stk_1.png",
+                            "sheet": "0123456789/",
+                            "scaleY": 0.9,
+                            "scaleX": 0.9,
+                            "name": "lv",
+                            "height": 30,
+                            "align": "center"
+                          },
+                          "compId": 879
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 41,
+                            "x": 24,
+                            "skin": "res_view/hero/text_js.png",
+                            "name": "txt1"
+                          },
+                          "compId": 667
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 17,
+                            "x": 45,
+                            "width": 23,
+                            "skin": "res_view/haream/text_ji.png",
+                            "name": "txt2",
+                            "height": 23
+                          },
+                          "compId": 668
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Script",
+                  "props": {
+                    "y": 35,
+                    "x": 34,
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 775
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 41,
+                "x": 222,
+                "width": 86,
+                "pivotY": 42,
+                "pivotX": 43,
+                "name": "beauty1",
+                "height": 84
+              },
+              "compId": 778,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 42,
+                    "x": 41,
+                    "width": 81,
+                    "skin": "res_view/boostReward/solt_monster_lv3.png",
+                    "pivotY": 42,
+                    "pivotX": 42,
+                    "name": "quality",
+                    "height": 81
+                  },
+                  "compId": 862
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 35,
+                    "x": 37,
+                    "pivotY": 144,
+                    "pivotX": 101,
+                    "name": "beautyIcon"
+                  },
+                  "compId": 882
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 83,
+                    "x": -39,
+                    "width": 152,
+                    "skin": "res_view/haream/panel_xm.png",
+                    "name": "namebg",
+                    "height": 24
+                  },
+                  "compId": 781
+                },
+                {
+                  "type": "Text",
+                  "props": {
+                    "y": 84,
+                    "x": -15,
+                    "width": 107,
+                    "valign": "middle",
+                    "text": "职位",
+                    "stroke": 1,
+                    "name": "careerName",
+                    "height": 21,
+                    "fontSize": 19,
+                    "font": "SimHei",
+                    "color": "#ffffff",
+                    "align": "center",
+                    "runtime": "Laya.Text"
+                  },
+                  "compId": 782
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 1,
+                    "x": -5,
+                    "width": 90,
+                    "visible": false,
+                    "skin": "res_view/haream/bg_friend_Join.png",
+                    "name": "noBeauty",
+                    "height": 89
+                  },
+                  "compId": 783,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 63,
+                        "width": 21,
+                        "skin": "main/redpoint.png",
+                        "name": "redPoint",
+                        "height": 21
+                      },
+                      "compId": 884
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 1,
+                    "x": -6.5,
+                    "visible": false,
+                    "skin": "res_view/haream/icon_lock_02.png",
+                    "name": "unlock"
+                  },
+                  "compId": 784,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 15.5,
+                        "x": 22,
+                        "skin": "res_view/haream/text_sjjs.png",
+                        "name": "readyLvup"
+                      },
+                      "compId": 785
+                    },
+                    {
+                      "type": "Box",
+                      "props": {
+                        "name": "needLv"
+                      },
+                      "compId": 786,
+                      "child": [
+                        {
+                          "type": "FontClip",
+                          "props": {
+                            "y": 13.5,
+                            "x": -14.549999999999996,
+                            "width": 101,
+                            "var": "lv",
+                            "value": "1",
+                            "spaceX": -7,
+                            "skin": "res_common/number/num_20_jxzk_ffffff_stk_1.png",
+                            "sheet": "0123456789/",
+                            "scaleY": 0.9,
+                            "scaleX": 0.9,
+                            "height": 30,
+                            "align": "center"
+                          },
+                          "compId": 877
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 41,
+                            "x": 24,
+                            "skin": "res_view/hero/text_js.png",
+                            "name": "txt1"
+                          },
+                          "compId": 788
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 17,
+                            "x": 45,
+                            "width": 23,
+                            "skin": "res_view/haream/text_ji.png",
+                            "name": "txt2",
+                            "height": 23
+                          },
+                          "compId": 789
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Script",
+                  "props": {
+                    "y": 35,
+                    "x": 34,
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 790
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 42,
+                "x": 380,
+                "width": 86,
+                "pivotY": 42,
+                "pivotX": 43,
+                "name": "beauty2",
+                "height": 84
+              },
+              "compId": 791,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 42,
+                    "x": 41,
+                    "width": 81,
+                    "skin": "res_view/boostReward/solt_monster_lv3.png",
+                    "pivotY": 42,
+                    "pivotX": 42,
+                    "name": "quality",
+                    "height": 81
+                  },
+                  "compId": 864
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 35,
+                    "x": 37,
+                    "pivotY": 144,
+                    "pivotX": 101,
+                    "name": "beautyIcon"
+                  },
+                  "compId": 883
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 83,
+                    "x": -39,
+                    "width": 152,
+                    "skin": "res_view/haream/panel_xm.png",
+                    "name": "namebg",
+                    "height": 24
+                  },
+                  "compId": 794
+                },
+                {
+                  "type": "Text",
+                  "props": {
+                    "y": 84,
+                    "x": -15,
+                    "width": 107,
+                    "valign": "middle",
+                    "text": "职位",
+                    "stroke": 1,
+                    "name": "careerName",
+                    "height": 21,
+                    "fontSize": 19,
+                    "font": "SimHei",
+                    "color": "#ffffff",
+                    "align": "center",
+                    "runtime": "Laya.Text"
+                  },
+                  "compId": 795
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": -6,
+                    "width": 90,
+                    "visible": false,
+                    "skin": "res_view/haream/bg_friend_Join.png",
+                    "name": "noBeauty",
+                    "height": 89
+                  },
+                  "compId": 796,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 63,
+                        "width": 21,
+                        "skin": "main/redpoint.png",
+                        "name": "redPoint",
+                        "height": 21
+                      },
+                      "compId": 885
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": -5.5,
+                    "width": 91,
+                    "visible": false,
+                    "skin": "res_view/haream/icon_lock_02.png",
+                    "name": "unlock",
+                    "height": 89
+                  },
+                  "compId": 797,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 15.5,
+                        "x": 22,
+                        "skin": "res_view/haream/text_sjjs.png",
+                        "name": "readyLvup"
+                      },
+                      "compId": 798
+                    },
+                    {
+                      "type": "Box",
+                      "props": {
+                        "name": "needLv"
+                      },
+                      "compId": 799,
+                      "child": [
+                        {
+                          "type": "FontClip",
+                          "props": {
+                            "y": 13,
+                            "x": -14,
+                            "width": 101,
+                            "value": "1",
+                            "spaceX": -7,
+                            "skin": "res_common/number/num_20_jxzk_ffffff_stk_1.png",
+                            "sheet": "0123456789/",
+                            "scaleY": 0.9,
+                            "scaleX": 0.9,
+                            "name": "lv",
+                            "height": 30,
+                            "align": "center"
+                          },
+                          "compId": 878
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 41,
+                            "x": 24,
+                            "skin": "res_view/hero/text_js.png",
+                            "name": "txt1"
+                          },
+                          "compId": 801
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 17,
+                            "x": 45,
+                            "width": 23,
+                            "skin": "res_view/haream/text_ji.png",
+                            "name": "txt2",
+                            "height": 23
+                          },
+                          "compId": 802
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Script",
+                  "props": {
+                    "y": 35,
+                    "x": 34,
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 803
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 755,
+            "x": 169,
+            "var": "CareerNameChangeBox",
+            "name": "CareerNameChangeBox"
+          },
+          "compId": 849,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 20,
+                "x": 139,
+                "width": 32,
+                "skin": "res_view/haream/btn_gm.png",
+                "pivotY": 16,
+                "pivotX": 16,
+                "name": "BtnNameChange0",
+                "height": 32
+              },
+              "compId": 852,
+              "child": [
+                {
+                  "type": "Script",
+                  "props": {
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 853
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 19,
+                "x": 296,
+                "width": 32,
+                "skin": "res_view/haream/btn_gm.png",
+                "pivotY": 16,
+                "pivotX": 16,
+                "name": "BtnNameChange1",
+                "height": 32
+              },
+              "compId": 854,
+              "child": [
+                {
+                  "type": "Script",
+                  "props": {
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 855
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 20,
+                "x": 452,
+                "width": 32,
+                "skin": "res_view/haream/btn_gm.png",
+                "pivotY": 16,
+                "pivotX": 16,
+                "name": "BtnNameChange2",
+                "height": 32
+              },
+              "compId": 856,
+              "child": [
+                {
+                  "type": "Script",
+                  "props": {
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 857
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 989,
+            "x": 403,
+            "width": 230,
+            "var": "btn_lvUp",
+            "skin": "res_combat/specialStageView/biaoJu/btn_yellow.png",
+            "pivotY": 41,
+            "pivotX": 115,
+            "name": "btn_lvUp",
+            "height": 82,
+            "alpha": 1
+          },
+          "compId": 627,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 22.5,
+                "x": 58.5,
+                "skin": "res_view/haream/text_sj.png"
+              },
+              "compId": 628
+            },
+            {
+              "type": "Script",
+              "props": {
+                "y": 41,
+                "x": 93,
+                "runtime": "game/tools/BtnScale90.ts"
+              },
+              "compId": 684
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 871,
+            "x": 308.5,
+            "width": 188,
+            "var": "cost_box",
+            "name": "cost_box",
+            "height": 56
+          },
+          "compId": 629,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "skin": "res_view/haream/solt_ccy.png",
+                "name": "bg"
+              },
+              "compId": 630
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 10.5,
+                "x": 7,
+                "skin": "res_view/children/icon_yuanbao.png",
+                "scaleY": 0.8,
+                "scaleX": 0.8,
+                "name": "icon"
+              },
+              "compId": 631
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 10.5,
+                "x": 20.5,
+                "width": 149,
+                "var": "MonNum",
+                "value": "120",
+                "spaceX": -12,
+                "skin": "res_common/number/num_26_rhrc_f1efe0.png",
+                "sheet": "0123456789",
+                "name": "MonNum",
+                "height": 33,
+                "align": "center"
+              },
+              "compId": 830
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 851,
+            "x": 229.5,
+            "width": 322,
+            "visible": false,
+            "var": "peopleTips",
+            "name": "peopleTips",
+            "height": 58
+          },
+          "compId": 867,
+          "child": [
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 10,
+                "x": 131,
+                "width": 111,
+                "var": "peopleNum",
+                "value": "12345678",
+                "spaceX": -12,
+                "skin": "res_common/number/num_26_jxzk_d60006.png",
+                "sheet": "0123456789",
+                "name": "peopleNum",
+                "height": 33,
+                "align": "center"
+              },
+              "compId": 870,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 5,
+                    "x": -14.5,
+                    "width": 140,
+                    "skin": "res_view/haream/text_dzsdd_red.png",
+                    "pivotX": 140,
+                    "name": "img_tips",
+                    "height": 26
+                  },
+                  "compId": 869
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 5,
+                    "x": 135,
+                    "skin": "res_view/haream/text_kjs.png",
+                    "name": "img_tips"
+                  },
+                  "compId": 868
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 819,
+            "x": 271,
+            "width": 295,
+            "var": "LvupTimeBox",
+            "name": "LvupTimeBox",
+            "height": 29
+          },
+          "compId": 664,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "skin": "res_view/haream/text_des_jshs.png",
+                "name": "txt"
+              },
+              "compId": 665
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": -2,
+                "x": 96,
+                "width": 196,
+                "var": "upCDLab",
+                "value": "12:34:56",
+                "spaceX": -11,
+                "skin": "res_common/number/num_26_jxzk_22a441.png",
+                "sheet": "0123456789:.",
+                "presetID": 1,
+                "name": "upCDLab",
+                "height": 29,
+                "isPresetRoot": true,
+                "align": "center"
+              },
+              "compId": 759
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 817,
+            "x": 322,
+            "width": 322,
+            "visible": false,
+            "var": "lvTips",
+            "name": "lvTips",
+            "height": 58
+          },
+          "compId": 871,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 15.5,
+                "x": 75,
+                "skin": "res_view/haream/text_jksj.png",
+                "name": "img_tips"
+              },
+              "compId": 872
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 15.5,
+                "x": -35,
+                "width": 53,
+                "skin": "res_view/haream/text_zm_red.png",
+                "name": "img_tips",
+                "height": 26
+              },
+              "compId": 873
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 11,
+                "x": -60,
+                "width": 205,
+                "var": "lvNum",
+                "value": "120",
+                "spaceX": -12,
+                "skin": "res_common/number/num_26_jxzk_d60006.png",
+                "sheet": "0123456789",
+                "name": "lvNum",
+                "height": 33,
+                "align": "center"
+              },
+              "compId": 874
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 827,
+            "x": 344.5,
+            "var": "LvUpingTip",
+            "skin": "netRes/liuhe/viewUI/text_sjz.png",
+            "name": "LvUpingTip"
+          },
+          "compId": 805
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 831,
+            "x": 277,
+            "visible": false,
+            "var": "maxLv",
+            "skin": "res_view/haream/text_dqbbzgdj.png",
+            "name": "maxLv"
+          },
+          "compId": 876
+        }
+      ]
+    }
+  ],
+  "loadList": ["prefab/num24_rhrc.prefab"],
+  "loadList3D": []
+}

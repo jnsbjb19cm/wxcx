@@ -1,0 +1,960 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 166,
+    "drawCallOptimize": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Label",
+      "props": {
+        "y": 16,
+        "x": 230,
+        "width": 203,
+        "var": "playerName",
+        "text": "玩家名字七个字",
+        "strokeColor": "#141414",
+        "stroke": 4,
+        "overflow": "hidden",
+        "height": 28,
+        "fontSize": 30,
+        "font": "Microsoft YaHei",
+        "color": "#ffffff",
+        "bold": true
+      },
+      "compId": 24
+    },
+    {
+      "type": "Sprite",
+      "props": {
+        "y": 0,
+        "x": 138
+      },
+      "compId": 68,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 50,
+            "x": 70,
+            "var": "heroSkill1",
+            "skin": "res_combat/public/panel_skill.png"
+          },
+          "compId": 69,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "width": 50,
+                "var": "skillIcon1",
+                "height": 50,
+                "centerY": 0,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 70,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -9,
+                    "x": -9,
+                    "skin": "res_combat/public/panel_skill.png",
+                    "renderType": "mask"
+                  },
+                  "compId": 71
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 34,
+                "x": 35,
+                "visible": false,
+                "skin": "res_combat/public/efx_skill_available.png",
+                "rotation": 360,
+                "name": "ligth",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 72
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 50,
+            "x": 153,
+            "var": "heroSkill2",
+            "skin": "res_combat/public/panel_skill.png"
+          },
+          "compId": 73,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "width": 50,
+                "var": "skillIcon2",
+                "height": 50,
+                "gray": true,
+                "centerY": 0,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 74,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -9,
+                    "x": -9,
+                    "skin": "res_combat/public/panel_skill.png",
+                    "renderType": "mask"
+                  },
+                  "compId": 75
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 34,
+                "x": 35,
+                "visible": false,
+                "skin": "res_combat/public/efx_skill_available.png",
+                "rotation": 360,
+                "name": "light",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 76
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 10,
+                "x": 12,
+                "var": "skill2Lock",
+                "texture": "res_common/lock1.png"
+              },
+              "compId": 77
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Sprite",
+      "props": {
+        "y": 59,
+        "x": 485,
+        "texture": "res_combat/public/icon_population.png"
+      },
+      "compId": 27,
+      "child": [
+        {
+          "type": "Label",
+          "props": {
+            "y": 17,
+            "x": 73,
+            "text": "5/5",
+            "fontSize": 24,
+            "font": "Microsoft YaHei",
+            "color": "#000000",
+            "bold": true
+          },
+          "compId": 28,
+          "child": [
+            {
+              "type": "Rect",
+              "props": {
+                "y": -24,
+                "x": -72,
+                "width": 172,
+                "renderType": "hit",
+                "lineWidth": 1,
+                "height": 58,
+                "fillColor": "#ff0000"
+              },
+              "compId": 34
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Label",
+      "props": {
+        "y": 255,
+        "width": 116,
+        "visible": false,
+        "text": "关卡:1",
+        "height": 1,
+        "fontSize": 25,
+        "font": "Microsoft YaHei",
+        "color": "#000000",
+        "centerX": 0,
+        "bold": true,
+        "align": "center"
+      },
+      "compId": 30
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 29,
+        "x": 496,
+        "width": 94,
+        "height": 30
+      },
+      "compId": 57,
+      "child": [
+        {
+          "type": "Sprite",
+          "props": {
+            "y": -24.5,
+            "x": -1,
+            "texture": "res_combat/arena/pic_hk.png"
+          },
+          "compId": 58
+        },
+        {
+          "type": "Sprite",
+          "props": {
+            "y": -24.5,
+            "x": 53,
+            "texture": "res_combat/arena/pic_hk.png"
+          },
+          "compId": 78
+        },
+        {
+          "type": "Sprite",
+          "props": {
+            "y": -24.5,
+            "x": 106.5,
+            "texture": "res_combat/arena/pic_hk.png"
+          },
+          "compId": 79
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": 20.5,
+            "visible": false,
+            "var": "loseIcon1",
+            "skin": "res_combat/arena/pic_c.png",
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 59
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": 77,
+            "visible": false,
+            "var": "loseIcon2",
+            "skin": "res_combat/arena/pic_c.png",
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 60
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": 130.5,
+            "visible": false,
+            "var": "loseIcon3",
+            "skin": "res_combat/arena/pic_c.png",
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 61
+        }
+      ]
+    },
+    {
+      "type": "Sprite",
+      "props": {
+        "y": 85.5,
+        "x": 79,
+        "width": 118,
+        "visible": false,
+        "texture": "res_combat/arena/pic_sw.png",
+        "pivotY": 74,
+        "pivotX": 59,
+        "height": 147
+      },
+      "compId": 64
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 124,
+        "x": 18,
+        "skin": "res_combat/arena/panel_6.png"
+      },
+      "compId": 80,
+      "child": [
+        {
+          "type": "Label",
+          "props": {
+            "x": 7,
+            "var": "heroLv",
+            "text": "等级：2",
+            "fontSize": 22,
+            "color": "#ffffff",
+            "centerY": 0
+          },
+          "compId": 81
+        }
+      ]
+    },
+    {
+      "type": "Button",
+      "props": {
+        "y": 43,
+        "x": 658,
+        "visible": false,
+        "var": "doubleSpdBtn",
+        "stateNum": 1,
+        "skin": "res_combat/arena/btn_2xOff.png"
+      },
+      "compId": 66
+    },
+    {
+      "type": "Script",
+      "props": {
+        "skillLight2": "@node:76",
+        "skillLight1": "@node:72",
+        "skillIcon2": "@node:74",
+        "skillIcon1": "@node:70",
+        "popularLabel": "@node:28",
+        "playerName": "@node:24",
+        "heroSkill2": "@node:73",
+        "heroSkill1": "@node:69",
+        "heroLvLabel": "@node:81",
+        "runtime": "game/script/combat/CTArenaEnemyInfo.ts"
+      },
+      "compId": 82
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 63,
+          "keyframes": {
+            "x": [
+              {
+                "value": 43,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 63,
+                "label": null,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 63,
+                "label": null,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 63,
+                "label": null,
+                "key": "alpha",
+                "index": 9
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 63,
+                "label": null,
+                "key": "alpha",
+                "index": 13
+              }
+            ]
+          }
+        }
+      ],
+      "name": "dialogAni",
+      "id": 4,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 64,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 64,
+                "key": "visible",
+                "index": 0
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 64,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 0.95,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 64,
+                "key": "scaleY",
+                "index": 4
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 64,
+                "key": "scaleY",
+                "index": 5
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 64,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 0.95,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 64,
+                "key": "scaleX",
+                "index": 4
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 64,
+                "key": "scaleX",
+                "index": 5
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 64,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 64,
+                "key": "alpha",
+                "index": 4
+              }
+            ]
+          }
+        }
+      ],
+      "name": "loseAni",
+      "id": 5,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 59,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 59,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 59,
+                "key": "visible",
+                "index": 12
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 59,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 59,
+                "key": "scaleY",
+                "index": 11
+              },
+              {
+                "value": 3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 59,
+                "key": "scaleY",
+                "index": 12
+              },
+              {
+                "value": 0.95,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 59,
+                "key": "scaleY",
+                "index": 16
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 59,
+                "key": "scaleY",
+                "index": 17
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 59,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 59,
+                "key": "scaleX",
+                "index": 11
+              },
+              {
+                "value": 3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 59,
+                "key": "scaleX",
+                "index": 12
+              },
+              {
+                "value": 0.95,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 59,
+                "key": "scaleX",
+                "index": 16
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 59,
+                "key": "scaleX",
+                "index": 17
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 59,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 59,
+                "key": "alpha",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 59,
+                "key": "alpha",
+                "index": 16
+              }
+            ]
+          }
+        }
+      ],
+      "name": "loseIcon1Ani",
+      "id": 6,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 60,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 60,
+                "label": null,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 60,
+                "label": null,
+                "key": "visible",
+                "index": 12
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "label": null,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "label": null,
+                "key": "scaleY",
+                "index": 11
+              },
+              {
+                "value": 3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "label": null,
+                "key": "scaleY",
+                "index": 12
+              },
+              {
+                "value": 0.95,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "label": null,
+                "key": "scaleY",
+                "index": 16
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "label": null,
+                "key": "scaleY",
+                "index": 17
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "label": null,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "label": null,
+                "key": "scaleX",
+                "index": 11
+              },
+              {
+                "value": 3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "label": null,
+                "key": "scaleX",
+                "index": 12
+              },
+              {
+                "value": 0.95,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "label": null,
+                "key": "scaleX",
+                "index": 16
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "label": null,
+                "key": "scaleX",
+                "index": 17
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "label": null,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "label": null,
+                "key": "alpha",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "label": null,
+                "key": "alpha",
+                "index": 16
+              }
+            ]
+          }
+        }
+      ],
+      "name": "loseIcon2Ani",
+      "id": 7,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 61,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 61,
+                "label": null,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 61,
+                "label": null,
+                "key": "visible",
+                "index": 12
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "label": null,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "label": null,
+                "key": "scaleY",
+                "index": 11
+              },
+              {
+                "value": 3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "label": null,
+                "key": "scaleY",
+                "index": 12
+              },
+              {
+                "value": 0.95,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "label": null,
+                "key": "scaleY",
+                "index": 16
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "label": null,
+                "key": "scaleY",
+                "index": 17
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "label": null,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "label": null,
+                "key": "scaleX",
+                "index": 11
+              },
+              {
+                "value": 3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "label": null,
+                "key": "scaleX",
+                "index": 12
+              },
+              {
+                "value": 0.95,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "label": null,
+                "key": "scaleX",
+                "index": 16
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "label": null,
+                "key": "scaleX",
+                "index": 17
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "label": null,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "label": null,
+                "key": "alpha",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "label": null,
+                "key": "alpha",
+                "index": 16
+              }
+            ]
+          }
+        }
+      ],
+      "name": "loseIcon3Ani",
+      "id": 7,
+      "frameRate": 30,
+      "action": 0
+    }
+  ],
+  "loadList": [
+    "res_common/lock1.png",
+    "res_combat/public/icon_population.png",
+    "res_combat/arena/pic_hk.png",
+    "res_combat/arena/pic_sw.png"
+  ],
+  "loadList3D": []
+}

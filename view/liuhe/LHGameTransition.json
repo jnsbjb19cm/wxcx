@@ -1,0 +1,51 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "var": "bg",
+        "top": 0,
+        "right": 0,
+        "left": 0,
+        "bottom": 0,
+        "bgColor": "#000000",
+        "alpha": 0
+      },
+      "compId": 3
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Label",
+          "props": {
+            "y": 355,
+            "var": "day",
+            "text": "- 第一天 -",
+            "fontSize": 60,
+            "font": "SimHei",
+            "color": "#ffffff",
+            "centerX": 7,
+            "alpha": 0
+          },
+          "compId": 6
+        }
+      ]
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

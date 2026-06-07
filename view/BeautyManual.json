@@ -1,0 +1,758 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "width": 1000,
+            "var": "maskbg",
+            "skin": "res_common/bg.png",
+            "height": 1625,
+            "centerY": 0,
+            "centerX": 0,
+            "alpha": 0.6
+          },
+          "compId": 56
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 78,
+            "x": -55,
+            "skin": "res_view/beauty/panel_mrlb.png",
+            "mouseEnabled": true,
+            "centerX": 0
+          },
+          "compId": 9
+        },
+        {
+          "type": "Panel",
+          "props": {
+            "y": 194,
+            "width": 650,
+            "vScrollBarSkin": " ",
+            "height": 940,
+            "centerX": -1
+          },
+          "compId": 15,
+          "child": [
+            {
+              "type": "List",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "var": "meetList",
+                "spaceY": 26,
+                "spaceX": 11,
+                "right": 0,
+                "left": 0,
+                "height": 0
+              },
+              "compId": 16,
+              "child": [
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 6,
+                    "x": 20,
+                    "width": 195,
+                    "renderType": "render",
+                    "height": 355
+                  },
+                  "compId": 23,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 10,
+                        "x": 0,
+                        "skin": "res_view/beauty/pic_zk_2.png",
+                        "name": "quality"
+                      },
+                      "compId": 24
+                    },
+                    {
+                      "type": "Panel",
+                      "props": {
+                        "y": 16,
+                        "x": 6,
+                        "width": 184,
+                        "name": "halfBody",
+                        "height": 325
+                      },
+                      "compId": 27,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 325,
+                            "x": 92,
+                            "skin": "netRes/beautyPicture/pic_lock.png",
+                            "anchorY": 1,
+                            "anchorX": 0.5
+                          },
+                          "compId": 59
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 9,
+                        "x": 0,
+                        "skin": "res_view/beauty/pic_zk_1.png",
+                        "name": "qualityK"
+                      },
+                      "compId": 25
+                    },
+                    {
+                      "type": "Sprite",
+                      "props": {
+                        "y": -2,
+                        "x": 90.5,
+                        "texture": "res_view/beauty/img_rope_02.png"
+                      },
+                      "compId": 26
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 26,
+                        "x": 18,
+                        "width": 28,
+                        "skin": "res_view/beauty/panel_mz_2.png",
+                        "name": "namebg",
+                        "height": 133
+                      },
+                      "compId": 28,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "scaleY": 0.67,
+                            "scaleX": 0.67,
+                            "name": "name",
+                            "centerY": 0,
+                            "centerX": 0
+                          },
+                          "compId": 29
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 281,
+                        "x": 102,
+                        "skin": "res_view/beauty/icon_zhiji.png",
+                        "scaleY": 0.65,
+                        "scaleX": 0.65,
+                        "name": "lv",
+                        "centerX": 4,
+                        "anchorY": 0.5,
+                        "anchorX": 0.5
+                      },
+                      "compId": 96
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 304,
+                        "x": 38,
+                        "width": 136,
+                        "skin": "res_view/beauty/frame_card_blood02.png",
+                        "sizeGrid": "0,23,0,56",
+                        "name": "lovePro",
+                        "height": 20
+                      },
+                      "compId": 89,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 1.5,
+                            "x": 3,
+                            "width": 30,
+                            "skin": "res_view/beauty/frame_card_hgd.png",
+                            "sizeGrid": "0,12,0,11",
+                            "name": "loveBar",
+                            "height": 17
+                          },
+                          "compId": 95
+                        },
+                        {
+                          "type": "Sprite",
+                          "props": {
+                            "y": -14,
+                            "x": -27,
+                            "texture": "res_common/icon_hgd.png",
+                            "scaleY": 0.5,
+                            "scaleX": 0.5
+                          },
+                          "compId": 91
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 4,
+                            "text": "text",
+                            "skin": "res_view/beauty/text_pzh.png",
+                            "scaleY": 0.65,
+                            "scaleX": 0.7,
+                            "centerX": 0
+                          },
+                          "compId": 92,
+                          "child": [
+                            {
+                              "type": "FontClip",
+                              "props": {
+                                "y": -9,
+                                "value": "10",
+                                "spaceX": -12,
+                                "skin": "res_common/number/num_27_jxzk_ffffff_stk_1_gt.png",
+                                "sheet": "0123456789",
+                                "name": "loveMaxTxt",
+                                "left": 5
+                              },
+                              "compId": 93
+                            },
+                            {
+                              "type": "FontClip",
+                              "props": {
+                                "y": -9,
+                                "value": "67",
+                                "spaceX": -12,
+                                "skin": "res_common/number/num_27_jxzk_ffffff_stk_1_gt.png",
+                                "sheet": "0123456789",
+                                "right": 20,
+                                "name": "loveTxt",
+                                "anchorX": 1
+                              },
+                              "compId": 94
+                            }
+                          ]
+                        },
+                        {
+                          "type": "FontClip",
+                          "props": {
+                            "y": -2,
+                            "visible": false,
+                            "value": "123",
+                            "spaceX": -12,
+                            "skin": "res_common/number/num_27_jxzk_ffffff_stk_1_gt.png",
+                            "sheet": "0123456789",
+                            "scaleY": 0.65,
+                            "scaleX": 0.7,
+                            "name": "maxLvAff",
+                            "centerX": -6
+                          },
+                          "compId": 112
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Box",
+                      "props": {
+                        "y": 193,
+                        "x": 104,
+                        "styleSkin": "ani/clickedSelf.ani",
+                        "name": "clickMe"
+                      },
+                      "compId": 113
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 167,
+                        "visible": false,
+                        "skin": "res_common/redpoint.png",
+                        "name": "redPoint"
+                      },
+                      "compId": 60
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "name": "detailBtn"
+                      },
+                      "compId": 63,
+                      "child": [
+                        {
+                          "type": "Rect",
+                          "props": {
+                            "y": 14,
+                            "x": 6,
+                            "width": 185,
+                            "renderType": "hit",
+                            "lineWidth": 1,
+                            "height": 331,
+                            "fillColor": "#ff0000"
+                          },
+                          "compId": 64
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 380,
+                "right": 0,
+                "left": 0
+              },
+              "compId": 18,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 2,
+                    "skin": "res_view/beauty/panel_bt.png",
+                    "centerX": 1
+                  },
+                  "compId": 19,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "text": "text",
+                        "skin": "res_view/beauty/text_wjsmeiren.png",
+                        "centerY": -1,
+                        "centerX": 0
+                      },
+                      "compId": 20
+                    }
+                  ]
+                },
+                {
+                  "type": "List",
+                  "props": {
+                    "y": 48,
+                    "var": "notmeetList",
+                    "spaceY": 26,
+                    "spaceX": 11,
+                    "right": 0,
+                    "left": 0
+                  },
+                  "compId": 22,
+                  "child": [
+                    {
+                      "type": "Box",
+                      "props": {
+                        "y": 6,
+                        "x": 20,
+                        "width": 195,
+                        "renderType": "render",
+                        "height": 355
+                      },
+                      "compId": 36,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 10,
+                            "skin": "res_view/beauty/pic_ck_2.png",
+                            "name": "quality"
+                          },
+                          "compId": 37
+                        },
+                        {
+                          "type": "Panel",
+                          "props": {
+                            "y": 16,
+                            "x": 6,
+                            "width": 184,
+                            "name": "halfBody",
+                            "height": 325
+                          },
+                          "compId": 38
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 9,
+                            "x": 0,
+                            "skin": "res_view/beauty/pic_ck_1.png",
+                            "name": "qualityK"
+                          },
+                          "compId": 39
+                        },
+                        {
+                          "type": "Sprite",
+                          "props": {
+                            "y": -2,
+                            "x": 90.5,
+                            "texture": "res_view/beauty/img_rope_02.png"
+                          },
+                          "compId": 40
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 26,
+                            "x": 18,
+                            "width": 28,
+                            "skin": "res_view/beauty/panel_mz_2.png",
+                            "name": "namebg",
+                            "height": 133
+                          },
+                          "compId": 41,
+                          "child": [
+                            {
+                              "type": "Image",
+                              "props": {
+                                "scaleY": 0.67,
+                                "scaleX": 0.67,
+                                "name": "name",
+                                "centerY": 0,
+                                "centerX": 0
+                              },
+                              "compId": 42
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 280,
+                            "skin": "res_view/beauty/icon_psxf.png",
+                            "scaleY": 0.65,
+                            "scaleX": 0.65,
+                            "name": "lv",
+                            "centerX": 6,
+                            "anchorY": 0.5,
+                            "anchorX": 0.5
+                          },
+                          "compId": 104
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 304,
+                            "x": 38,
+                            "width": 136,
+                            "skin": "res_view/beauty/frame_card_blood02.png",
+                            "sizeGrid": "0,23,0,56",
+                            "name": "lovePro",
+                            "height": 20
+                          },
+                          "compId": 98,
+                          "child": [
+                            {
+                              "type": "Image",
+                              "props": {
+                                "y": 1.5,
+                                "x": 3,
+                                "width": 130,
+                                "skin": "res_view/beauty/frame_card_hgd.png",
+                                "sizeGrid": "0,12,0,11",
+                                "name": "loveBar",
+                                "height": 17
+                              },
+                              "compId": 99
+                            },
+                            {
+                              "type": "Sprite",
+                              "props": {
+                                "y": -14,
+                                "x": -27,
+                                "texture": "res_common/icon_hgd.png",
+                                "scaleY": 0.5,
+                                "scaleX": 0.5
+                              },
+                              "compId": 100
+                            },
+                            {
+                              "type": "Image",
+                              "props": {
+                                "y": 4,
+                                "text": "text",
+                                "skin": "res_view/beauty/text_pzh.png",
+                                "scaleY": 0.65,
+                                "scaleX": 0.7,
+                                "centerX": 0
+                              },
+                              "compId": 101,
+                              "child": [
+                                {
+                                  "type": "FontClip",
+                                  "props": {
+                                    "y": -9,
+                                    "value": "10",
+                                    "spaceX": -12,
+                                    "skin": "res_common/number/num_27_jxzk_ffffff_stk_1_gt.png",
+                                    "sheet": "0123456789",
+                                    "name": "loveMaxTxt",
+                                    "left": 5
+                                  },
+                                  "compId": 102
+                                },
+                                {
+                                  "type": "FontClip",
+                                  "props": {
+                                    "y": -9,
+                                    "value": "67",
+                                    "spaceX": -12,
+                                    "skin": "res_common/number/num_27_jxzk_ffffff_stk_1_gt.png",
+                                    "sheet": "0123456789",
+                                    "right": 20,
+                                    "name": "loveTxt",
+                                    "anchorX": 1
+                                  },
+                                  "compId": 103
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 180,
+                            "x": 65,
+                            "width": 68,
+                            "visible": false,
+                            "skin": "res_view/sg/icon_lock_02.png",
+                            "name": "lock",
+                            "height": 56
+                          },
+                          "compId": 55,
+                          "child": [
+                            {
+                              "type": "Image",
+                              "props": {
+                                "y": 59,
+                                "skin": "res_view/beauty/text_xyhjs.png",
+                                "name": "wyd",
+                                "centerX": 0
+                              },
+                              "compId": 105
+                            },
+                            {
+                              "type": "FontClip",
+                              "props": {
+                                "y": 55,
+                                "value": "3",
+                                "spaceX": -8,
+                                "skin": "res_common/number/num_21_jxzk_b09d9d.png",
+                                "sheet": "0123456789",
+                                "name": "ssjs",
+                                "centerX": 40
+                              },
+                              "compId": 110,
+                              "child": [
+                                {
+                                  "type": "Image",
+                                  "props": {
+                                    "y": 4,
+                                    "skin": "res_view/beauty/text_wcsss.png",
+                                    "left": -89
+                                  },
+                                  "compId": 109
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Box",
+                          "props": {
+                            "y": 193,
+                            "x": 104,
+                            "styleSkin": "ani/clickedSelf.ani",
+                            "name": "clickMe"
+                          },
+                          "compId": 111
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 0,
+                            "x": 0,
+                            "name": "detailBtn"
+                          },
+                          "compId": 62,
+                          "child": [
+                            {
+                              "type": "Rect",
+                              "props": {
+                                "y": 14,
+                                "x": 6,
+                                "width": 185,
+                                "renderType": "hit",
+                                "lineWidth": 1,
+                                "height": 331,
+                                "fillColor": "#ff0000"
+                              },
+                              "compId": 58
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 0,
+                            "x": 167,
+                            "visible": false,
+                            "skin": "res_common/redpoint.png",
+                            "name": "redPoint"
+                          },
+                          "compId": 61
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "width": 750,
+            "name": "staic",
+            "mouseEnabled": false,
+            "height": 1206
+          },
+          "compId": 6,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": -3,
+                "skin": "res_view/beauty/img_activity_grass03.png",
+                "name": "l"
+              },
+              "compId": 5
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 1047,
+                "x": 595,
+                "top": -2,
+                "skin": "res_view/beauty/img_activity_grass04.png",
+                "right": 0,
+                "name": "r"
+              },
+              "compId": 8
+            },
+            {
+              "type": "Image",
+              "props": {
+                "x": -4,
+                "skin": "res_view/beauty/img_activity_grass02.png",
+                "name": "b",
+                "bottom": 0
+              },
+              "compId": 7
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 24,
+                "x": -3,
+                "texture": "res_common/icon_head.png"
+              },
+              "compId": 10
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 74,
+                "x": -14,
+                "skin": "res_view/beauty/img_activity_starlight.png"
+              },
+              "compId": 11
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 1224,
+                "x": 237,
+                "text": "text",
+                "skin": "res_common/text_djgb.png"
+              },
+              "compId": 12
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 154,
+                "x": 145,
+                "skin": "res_view/beauty/panel_tips.png",
+                "centerX": 23
+              },
+              "compId": 13,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "text": "text",
+                    "skin": "res_view/beauty/text_tips.png",
+                    "centerY": 0,
+                    "centerX": 0
+                  },
+                  "compId": 14
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 38,
+                "x": 115,
+                "text": "text",
+                "skin": "res_view/beauty/text_mrbt.png"
+              },
+              "compId": 78
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 39,
+            "x": 207,
+            "visible": false,
+            "var": "detailBtn",
+            "skin": "res_view/beauty/btn_card_view.png"
+          },
+          "compId": 107
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "res_view/beauty/panel_mrlb.png",
+    "res_view/beauty/img_rope_02.png",
+    "res_common/icon_hgd.png",
+    "ani/clickedSelf.ani",
+    "res_common/icon_head.png"
+  ],
+  "loadList3D": []
+}

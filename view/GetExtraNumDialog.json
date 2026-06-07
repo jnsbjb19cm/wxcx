@@ -1,0 +1,524 @@
+{
+  "type": "Dialog",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "x": 0,
+        "width": 750,
+        "var": "dialogBox",
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -83,
+            "x": -125,
+            "width": 1000,
+            "var": "maskBg",
+            "skin": "res_common/bg.png",
+            "height": 1500,
+            "centerY": 0,
+            "centerX": 0,
+            "alpha": 0.6
+          },
+          "compId": 4
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 443,
+            "width": 605,
+            "var": "dialogBg",
+            "skin": "res_common/bg_common.png",
+            "sizeGrid": "37,0,35,0",
+            "scaleY": 1,
+            "scaleX": 1,
+            "mouseThrough": false,
+            "mouseEnabled": true,
+            "height": 448,
+            "centerX": 0
+          },
+          "compId": 5,
+          "child": [
+            {
+              "type": "Sprite",
+              "props": {
+                "y": -20.5,
+                "x": 520,
+                "texture": "res_common/img_common_02.png"
+              },
+              "compId": 6
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 44,
+                "var": "tipTxt",
+                "skin": "res_common/bg_title01.png",
+                "centerX": 0
+              },
+              "compId": 7,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 8,
+                    "text": "提 示",
+                    "fontSize": 28,
+                    "font": "SimHei",
+                    "color": "#684546",
+                    "centerX": -1,
+                    "bold": true
+                  },
+                  "compId": 8
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "x": 166,
+                "skin": "res_common/text_djgb.png",
+                "mouseEnabled": false,
+                "centerX": -1,
+                "bottom": -45
+              },
+              "compId": 9
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 443,
+            "x": 73,
+            "width": 605,
+            "var": "getNumContent",
+            "mouseEnabled": false,
+            "height": 448,
+            "centerX": 0
+          },
+          "compId": 10,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 146,
+                "x": 92,
+                "skin": "res_view/sg/text_ewhdcs.png"
+              },
+              "compId": 11,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 4,
+                    "x": 365,
+                    "width": 77,
+                    "skin": "res_combat/public/panel_qqjs.png",
+                    "height": 35
+                  },
+                  "compId": 12
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": -8.5,
+                    "x": 363,
+                    "var": "addCount",
+                    "value": "+1",
+                    "spaceX": -14,
+                    "skin": "res_common/number/num_40_jxzk_ffffff_stk_1.png",
+                    "sheet": "0123456789+"
+                  },
+                  "compId": 13
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 220,
+                "x": 184
+              },
+              "compId": 14,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "text": "剩",
+                    "fontSize": 26,
+                    "font": "Microsoft YaHei",
+                    "color": "#8e7071",
+                    "bold": true
+                  },
+                  "compId": 15
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 0,
+                    "x": 28.5,
+                    "text": "余",
+                    "fontSize": 26,
+                    "font": "Microsoft YaHei",
+                    "color": "#8e7071",
+                    "bold": true
+                  },
+                  "compId": 16
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 0,
+                    "x": 57,
+                    "text": "获",
+                    "fontSize": 26,
+                    "font": "Microsoft YaHei",
+                    "color": "#8e7071",
+                    "bold": true
+                  },
+                  "compId": 17
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 0,
+                    "x": 85.5,
+                    "text": "得",
+                    "fontSize": 26,
+                    "font": "Microsoft YaHei",
+                    "color": "#8e7071",
+                    "bold": true
+                  },
+                  "compId": 18
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 0,
+                    "x": 114,
+                    "text": "次",
+                    "fontSize": 26,
+                    "font": "Microsoft YaHei",
+                    "color": "#8e7071",
+                    "bold": true
+                  },
+                  "compId": 19
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 0,
+                    "x": 142.5,
+                    "text": "数",
+                    "fontSize": 26,
+                    "font": "Microsoft YaHei",
+                    "color": "#8e7071",
+                    "bold": true
+                  },
+                  "compId": 20
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 0,
+                    "x": 171,
+                    "text": "：",
+                    "fontSize": 26,
+                    "font": "Microsoft YaHei",
+                    "color": "#8e7071",
+                    "bold": true
+                  },
+                  "compId": 21
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 0,
+                    "x": 199.5,
+                    "var": "surplusCount",
+                    "text": "10",
+                    "fontSize": 26,
+                    "font": "Microsoft YaHei",
+                    "color": "#8e7071",
+                    "bold": true
+                  },
+                  "compId": 22
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 265,
+                "x": 193,
+                "centerX": 0
+              },
+              "compId": 23,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "text": "（",
+                    "fontSize": 26,
+                    "font": "Microsoft YaHei",
+                    "color": "#8e7071",
+                    "bold": true
+                  },
+                  "compId": 24
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 0,
+                    "x": 27.5,
+                    "text": "提",
+                    "fontSize": 26,
+                    "font": "Microsoft YaHei",
+                    "color": "#8e7071",
+                    "bold": true
+                  },
+                  "compId": 25
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 0,
+                    "x": 55,
+                    "text": "升",
+                    "fontSize": 26,
+                    "font": "Microsoft YaHei",
+                    "color": "#8e7071",
+                    "bold": true
+                  },
+                  "compId": 26
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 0,
+                    "x": 82.5,
+                    "text": "功",
+                    "fontSize": 26,
+                    "font": "Microsoft YaHei",
+                    "color": "#8e7071",
+                    "bold": true
+                  },
+                  "compId": 27
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 0,
+                    "x": 110,
+                    "text": "德",
+                    "fontSize": 26,
+                    "font": "Microsoft YaHei",
+                    "color": "#8e7071",
+                    "bold": true
+                  },
+                  "compId": 28
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 0,
+                    "x": 137.5,
+                    "text": "获",
+                    "fontSize": 26,
+                    "font": "Microsoft YaHei",
+                    "color": "#8e7071",
+                    "bold": true
+                  },
+                  "compId": 29
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 0,
+                    "x": 165,
+                    "text": "得",
+                    "fontSize": 26,
+                    "font": "Microsoft YaHei",
+                    "color": "#8e7071",
+                    "bold": true
+                  },
+                  "compId": 30
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 0,
+                    "x": 192.5,
+                    "text": "）",
+                    "fontSize": 26,
+                    "font": "Microsoft YaHei",
+                    "color": "#8e7071",
+                    "bold": true
+                  },
+                  "compId": 31
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 443,
+            "x": 0,
+            "width": 605,
+            "var": "flyUpContent",
+            "mouseEnabled": false,
+            "height": 516,
+            "centerX": 0
+          },
+          "compId": 32,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 44,
+                "var": "thank",
+                "skin": "res_view/sg/icon_srz.png",
+                "centerX": 0
+              },
+              "compId": 33,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 290,
+                    "x": -131,
+                    "skin": "res_view/sg/text_gxzc.png"
+                  },
+                  "compId": 34
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 66,
+                "var": "effort",
+                "skin": "res_view/sg/icon_ttz.png",
+                "centerX": 1
+              },
+              "compId": 35,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 286,
+                    "x": -91,
+                    "skin": "res_view/sg/text_jszzz.png"
+                  },
+                  "compId": 36
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Button",
+          "props": {
+            "y": 414,
+            "x": 589,
+            "var": "btn_close",
+            "stateNum": 1,
+            "skin": "res_common/btn_close.png"
+          },
+          "compId": 37
+        },
+        {
+          "type": "Button",
+          "props": {
+            "y": 782,
+            "x": 270,
+            "width": 212,
+            "var": "confirmBtn",
+            "stateNum": 1,
+            "skin": "res_common/btn_yellow.png",
+            "height": 73
+          },
+          "compId": 39,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 23,
+                "x": 36,
+                "skin": "res_common/icon_shuangbeijiangli.png"
+              },
+              "compId": 40
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 16.5,
+                "x": 90,
+                "var": "videoNum",
+                "value": "(0/2)",
+                "spaceX": -14,
+                "skin": "res_common/number/num_34_jxzk_5b393a.png",
+                "sheet": "0123456789()/"
+              },
+              "compId": 41
+            }
+          ]
+        },
+        {
+          "type": "Button",
+          "props": {
+            "y": 850,
+            "x": 270,
+            "width": 212,
+            "visible": false,
+            "var": "adBtn",
+            "stateNum": 1,
+            "skin": "res_common/btn_yellow.png",
+            "height": 73
+          },
+          "compId": 42,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 23,
+                "x": 13,
+                "skin": "res_common/icon_shuangbeijiangli.png"
+              },
+              "compId": 43
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 22,
+                "x": 63,
+                "skin": "res_view/sg/text_jskf.png"
+              },
+              "compId": 44
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": ["res_common/img_common_02.png"],
+  "loadList3D": []
+}

@@ -1,0 +1,1282 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": true,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 813,
+        "x": 500,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 140
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 600,
+        "var": "context",
+        "mouseEnabled": true,
+        "height": 630,
+        "centerY": -109,
+        "centerX": -3
+      },
+      "compId": 272,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -106,
+            "x": 0,
+            "width": 606,
+            "skin": "res_common/bg_1.png",
+            "sizeGrid": "191,0,153,0",
+            "height": 1070
+          },
+          "compId": 273
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -115,
+            "x": 517,
+            "var": "closeBtn",
+            "skin": "res_common/btn_close.png",
+            "label": "label"
+          },
+          "compId": 371,
+          "child": [
+            {
+              "type": "Rect",
+              "props": {
+                "y": 10,
+                "x": 23,
+                "width": 50,
+                "renderType": "hit",
+                "lineWidth": 1,
+                "height": 52,
+                "fillColor": "#ff0000"
+              },
+              "compId": 496
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -45,
+            "x": 164.5,
+            "skin": "res_common/bg_title01.png"
+          },
+          "compId": 372
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -38,
+            "x": 239,
+            "skin": "netRes/user/text_gerenxinxi.png"
+          },
+          "compId": 373
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 970,
+            "x": 168.5,
+            "text": "text",
+            "skin": "netRes/user/text_djgb.png",
+            "name": "tips"
+          },
+          "compId": 386
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 9.5,
+            "x": 44,
+            "width": 120,
+            "var": "serverBtn",
+            "height": 37
+          },
+          "compId": 377,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "x": 0,
+                "skin": "netRes/user/btn_common_label022.png",
+                "centerY": 0
+              },
+              "compId": 382
+            },
+            {
+              "type": "Label",
+              "props": {
+                "x": 40,
+                "var": "serverID",
+                "text": "A1234",
+                "stroke": 2,
+                "fontSize": 24,
+                "font": "Microsoft YaHei",
+                "color": "#ece1cb",
+                "centerY": 0,
+                "align": "center"
+              },
+              "compId": 383
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -39.5,
+            "x": 543.5,
+            "visible": false,
+            "var": "reportBtn",
+            "skin": "netRes/user/btn_common_details.png",
+            "label": "label"
+          },
+          "compId": 313,
+          "child": [
+            {
+              "type": "Rect",
+              "props": {
+                "y": -10,
+                "x": -5,
+                "width": 53,
+                "renderType": "hit",
+                "lineWidth": 1,
+                "height": 52,
+                "fillColor": "#ff0000"
+              },
+              "compId": 497
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 91,
+            "x": 130,
+            "scaleY": 0.84,
+            "scaleX": 0.84
+          },
+          "compId": 474,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 160,
+                "skin": "res_common/solt_profile_blue.png",
+                "sizeGrid": "0,0,0,0",
+                "name": "head",
+                "height": 160
+              },
+              "compId": 374,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 169,
+                    "x": 76,
+                    "var": "heroIcon",
+                    "anchorY": 1,
+                    "anchorX": 0.5
+                  },
+                  "compId": 379
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 75,
+                "x": 108,
+                "width": 90,
+                "skin": "res_common/solt_profile_blue.png",
+                "height": 90
+              },
+              "compId": 375,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "width": 67,
+                    "var": "userHead",
+                    "skin": "res_common/headImg_default.png",
+                    "height": 67,
+                    "centerY": -1,
+                    "centerX": -1
+                  },
+                  "compId": 380,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "width": 67,
+                        "skin": "res_main/mask_profile.png",
+                        "renderType": "mask",
+                        "height": 67
+                      },
+                      "compId": 381
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 232,
+            "width": 266,
+            "var": "userName",
+            "text": "哈吉米能买绿豆",
+            "height": 24,
+            "fontSize": 30,
+            "font": "Microsoft YaHei",
+            "color": "#684546",
+            "centerX": -104,
+            "bold": true,
+            "align": "center"
+          },
+          "compId": 376
+        },
+        {
+          "type": "HBox",
+          "props": {
+            "y": 901,
+            "space": 10,
+            "centerX": -5
+          },
+          "compId": 378,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "y": 12,
+                "visible": false,
+                "var": "userOpenId",
+                "text": "ID:34324324234324",
+                "fontSize": 18,
+                "font": "Microsoft YaHei",
+                "color": "#806361",
+                "align": "center"
+              },
+              "compId": 384
+            },
+            {
+              "type": "Image",
+              "props": {
+                "var": "btnCopyUID",
+                "toggle": false,
+                "stateNum": 1,
+                "skin": "netRes/user/icon_copy.png",
+                "labelSize": 20,
+                "labelAlign": "center",
+                "label": " 复制"
+              },
+              "compId": 385
+            }
+          ]
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 1025,
+            "width": 435,
+            "visible": false,
+            "var": "isKol",
+            "text": "白名单用户",
+            "fontSize": 20,
+            "font": "Microsoft YaHei",
+            "color": "#ffffff",
+            "centerX": -5,
+            "bold": true,
+            "align": "center"
+          },
+          "compId": 288
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 538,
+            "width": 500,
+            "var": "hBox",
+            "space": 7,
+            "height": 170,
+            "centerX": 4
+          },
+          "compId": 294,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 9,
+                "x": 5,
+                "width": 158,
+                "skin": "netRes/user/panel_sg.png",
+                "height": 155
+              },
+              "compId": 295,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 22,
+                    "x": 12,
+                    "skin": "netRes/user/icon_fq_2.png"
+                  },
+                  "compId": 389
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 8,
+                "x": 170,
+                "width": 158,
+                "skin": "netRes/user/panel_sg.png",
+                "height": 155
+              },
+              "compId": 390,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 22,
+                    "x": 5,
+                    "skin": "netRes/user/icon_sl_2.png"
+                  },
+                  "compId": 391
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 8,
+                "x": 335,
+                "width": 158,
+                "skin": "netRes/user/panel_sg.png",
+                "height": 155
+              },
+              "compId": 392,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 22,
+                    "x": 0,
+                    "skin": "netRes/user/icon_pf_2.png"
+                  },
+                  "compId": 393
+                }
+              ]
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 113,
+                "var": "weapon",
+                "value": "25/123",
+                "spaceX": -10,
+                "skin": "res_common/number/num_26.37_jxzk_ffffff_stk_2.png",
+                "sheet": "0123456789/",
+                "centerX": -161
+              },
+              "compId": 394
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 113,
+                "var": "power",
+                "value": "25/123",
+                "spaceX": -10,
+                "skin": "res_common/number/num_26.37_jxzk_ffffff_stk_2.png",
+                "sheet": "0123456789/",
+                "centerX": -3
+              },
+              "compId": 395
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 113,
+                "var": "skinName",
+                "value": "25/123",
+                "spaceX": -10,
+                "skin": "res_common/number/num_26.37_jxzk_ffffff_stk_2.png",
+                "sheet": "0123456789/",
+                "centerX": 167
+              },
+              "compId": 396
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 708,
+            "x": 0,
+            "width": 547,
+            "height": 181
+          },
+          "compId": 398,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 2,
+                "x": 59,
+                "skin": "netRes/user/bg_card_01.png",
+                "name": "zy"
+              },
+              "compId": 399,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 17,
+                    "x": 30,
+                    "skin": "netRes/user/tx_shanshi.png"
+                  },
+                  "compId": 407
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 77.5,
+                    "x": 22,
+                    "skin": "netRes/user/tx_tongguan.png"
+                  },
+                  "compId": 410
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 78,
+                    "x": 82.5,
+                    "var": "ssScore",
+                    "text": "9999",
+                    "fontSize": 22,
+                    "font": "SimHei",
+                    "color": "#4b2707",
+                    "bold": true
+                  },
+                  "compId": 414
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 123,
+                    "x": 21,
+                    "skin": "netRes/user/tz_paiming.png"
+                  },
+                  "compId": 411
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 124,
+                    "x": 82.5,
+                    "var": "ssRank",
+                    "text": "95",
+                    "fontSize": 22,
+                    "font": "SimHei",
+                    "color": "#4b2707",
+                    "bold": true
+                  },
+                  "compId": 415
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 2,
+                "x": 221,
+                "skin": "netRes/user/bg_card_01.png",
+                "name": "sj"
+              },
+              "compId": 400,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 15,
+                    "x": 30,
+                    "skin": "netRes/user/tx_sanjie.png"
+                  },
+                  "compId": 402
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 77,
+                    "x": 22,
+                    "skin": "netRes/user/tx_tongguan.png"
+                  },
+                  "compId": 403
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 78,
+                    "x": 81,
+                    "var": "nightScore",
+                    "text": "9999",
+                    "fontSize": 22,
+                    "font": "SimHei",
+                    "color": "#4b2707",
+                    "bold": true
+                  },
+                  "compId": 416
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 122,
+                    "x": 22,
+                    "skin": "netRes/user/tz_paiming.png"
+                  },
+                  "compId": 404
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 124,
+                    "x": 82.5,
+                    "var": "nightRank",
+                    "text": "95",
+                    "fontSize": 20,
+                    "font": "SimHei",
+                    "color": "#4b2707",
+                    "bold": true
+                  },
+                  "compId": 417
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 2,
+                "x": 383,
+                "skin": "netRes/user/bg_card_01.png",
+                "name": "zb"
+              },
+              "compId": 401,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 13,
+                    "x": 30,
+                    "skin": "netRes/user/tx_zhuangbei.png"
+                  },
+                  "compId": 405
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 77,
+                    "x": 23,
+                    "skin": "netRes/user/tx_pingfen.png"
+                  },
+                  "compId": 409
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 78,
+                    "x": 81,
+                    "var": "equipScore",
+                    "text": "9999",
+                    "fontSize": 22,
+                    "font": "SimHei",
+                    "color": "#4b2707",
+                    "bold": true
+                  },
+                  "compId": 418
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 122,
+                    "x": 23,
+                    "skin": "netRes/user/tz_paiming.png"
+                  },
+                  "compId": 408
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 124,
+                    "x": 82,
+                    "var": "equipRank",
+                    "text": "95",
+                    "fontSize": 20,
+                    "font": "SimHei",
+                    "color": "#4b2707",
+                    "bold": true
+                  },
+                  "compId": 419
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 255,
+            "x": 90,
+            "width": 421,
+            "height": 300
+          },
+          "compId": 421,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 36,
+                "x": 68,
+                "skin": "netRes/user/Z_主界面_个人信息(补充）.png"
+              },
+              "compId": 432,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -16,
+                    "x": -50.5,
+                    "skin": "netRes/user/img_zm.png"
+                  },
+                  "compId": 433
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 12,
+                    "x": 69,
+                    "text": "宗门等级：",
+                    "fontSize": 24,
+                    "font": "SimHei",
+                    "color": "#e5dbd3"
+                  },
+                  "compId": 434
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 10,
+                    "x": 187,
+                    "var": "mainPeakLv",
+                    "text": "99999",
+                    "fontSize": 30,
+                    "font": "SimHei",
+                    "color": "#e5dbd3"
+                  },
+                  "compId": 435
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 136,
+                "x": 68.5,
+                "skin": "netRes/user/Z_主界面_个人信息(补充）.png"
+              },
+              "compId": 422,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -15,
+                    "x": -55,
+                    "skin": "netRes/user/img_mr.png"
+                  },
+                  "compId": 424
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 12,
+                    "x": 69,
+                    "text": "总好感度：",
+                    "fontSize": 24,
+                    "font": "SimHei",
+                    "color": "#e5dbd3"
+                  },
+                  "compId": 426
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 10,
+                    "x": 187,
+                    "var": "gondfeelnum",
+                    "text": "99999",
+                    "fontSize": 30,
+                    "font": "SimHei",
+                    "color": "#e5dbd3"
+                  },
+                  "compId": 427
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 232,
+                "x": 68.5,
+                "skin": "netRes/user/Z_主界面_个人信息(补充）.png"
+              },
+              "compId": 423,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -22,
+                    "x": -53,
+                    "skin": "netRes/user/img_zn.png"
+                  },
+                  "compId": 425
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 13,
+                    "x": 47,
+                    "text": "总功德加成：",
+                    "fontSize": 24,
+                    "font": "SimHei",
+                    "color": "#e5dbd3"
+                  },
+                  "compId": 428
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 10,
+                    "x": 187,
+                    "var": "gongdenum",
+                    "text": "999999",
+                    "fontSize": 30,
+                    "font": "SimHei",
+                    "color": "#e5dbd3"
+                  },
+                  "compId": 429
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -13,
+            "x": 467,
+            "width": 92,
+            "var": "genealogy",
+            "skin": "res_main/panel_1.png",
+            "height": 89
+          },
+          "compId": 436,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 13.5,
+                "x": 18,
+                "skin": "res_view/haream/icon_zp.png",
+                "scaleY": 0.53,
+                "scaleX": 0.53,
+                "name": "Img"
+              },
+              "compId": 437
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 58.5,
+                "x": 20,
+                "skin": "netRes/liuhe/viewUI/text_zp.png",
+                "scaleY": 0.8,
+                "scaleX": 0.8,
+                "name": "txt_zp"
+              },
+              "compId": 438
+            }
+          ]
+        },
+        {
+          "type": "Rect",
+          "props": {
+            "y": -81,
+            "x": 0,
+            "width": 596,
+            "renderType": "hit",
+            "lineWidth": 1,
+            "height": 1036,
+            "fillColor": "#ff0000"
+          },
+          "compId": 439
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 12,
+            "x": 282,
+            "width": 238,
+            "var": "divisionBox",
+            "scaleY": 1,
+            "scaleX": 1,
+            "height": 236
+          },
+          "compId": 440,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 95,
+                "x": 119,
+                "var": "divisionImg",
+                "skin": "netRes/icon/divisionIcon/icon_rank_1.png",
+                "scaleY": 1.52,
+                "scaleX": 1.52,
+                "anchorY": 0,
+                "anchorX": 0.5
+              },
+              "compId": 442
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 222,
+                "x": 120,
+                "var": "divisionName",
+                "skin": "netRes/icon/divisionIcon/division1_0.png",
+                "scaleY": 1,
+                "scaleX": 1,
+                "centerX": 1,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 444
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 20,
+                "width": 360,
+                "var": "star",
+                "height": 217,
+                "centerX": 0
+              },
+              "compId": 445,
+              "child": [
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "width": 375,
+                    "visible": false,
+                    "var": "star5Box",
+                    "height": 177
+                  },
+                  "compId": 446,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 44,
+                        "x": 95,
+                        "skin": "netRes/arenaN/icon_common_card_star04.png",
+                        "scaleY": 1,
+                        "scaleX": 1
+                      },
+                      "compId": 447,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "skin": "netRes/arenaN/icon_common_card_star07.png"
+                          },
+                          "compId": 448
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 44,
+                        "x": 128,
+                        "skin": "netRes/arenaN/icon_common_card_star04.png",
+                        "scaleY": 1,
+                        "scaleX": 1
+                      },
+                      "compId": 449,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "skin": "netRes/arenaN/icon_common_card_star07.png"
+                          },
+                          "compId": 450
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 44,
+                        "x": 161,
+                        "skin": "netRes/arenaN/icon_common_card_star04.png"
+                      },
+                      "compId": 451,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "skin": "netRes/arenaN/icon_common_card_star07.png"
+                          },
+                          "compId": 452
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 44,
+                        "x": 194,
+                        "skin": "netRes/arenaN/icon_common_card_star04.png",
+                        "scaleY": 1,
+                        "scaleX": 1
+                      },
+                      "compId": 453,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "skin": "netRes/arenaN/icon_common_card_star07.png"
+                          },
+                          "compId": 454
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 44,
+                        "x": 227,
+                        "skin": "netRes/arenaN/icon_common_card_star04.png"
+                      },
+                      "compId": 455,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "skin": "netRes/arenaN/icon_common_card_star07.png"
+                          },
+                          "compId": 456
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "width": 375,
+                    "visible": false,
+                    "var": "star4Box",
+                    "height": 177
+                  },
+                  "compId": 457,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 44,
+                        "x": 112,
+                        "skin": "netRes/arenaN/icon_common_card_star04.png",
+                        "scaleY": 1,
+                        "scaleX": 1
+                      },
+                      "compId": 486,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "skin": "netRes/arenaN/icon_common_card_star07.png"
+                          },
+                          "compId": 491
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 44,
+                        "x": 145,
+                        "skin": "netRes/arenaN/icon_common_card_star04.png",
+                        "scaleY": 1,
+                        "scaleX": 1
+                      },
+                      "compId": 487,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "skin": "netRes/arenaN/icon_common_card_star07.png"
+                          },
+                          "compId": 492
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 44,
+                        "x": 178,
+                        "skin": "netRes/arenaN/icon_common_card_star04.png"
+                      },
+                      "compId": 488,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "skin": "netRes/arenaN/icon_common_card_star07.png"
+                          },
+                          "compId": 493
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 44,
+                        "x": 211,
+                        "skin": "netRes/arenaN/icon_common_card_star04.png",
+                        "scaleY": 1,
+                        "scaleX": 1
+                      },
+                      "compId": 489,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "skin": "netRes/arenaN/icon_common_card_star07.png"
+                          },
+                          "compId": 494
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "width": 375,
+                    "visible": false,
+                    "var": "star3Box",
+                    "height": 177
+                  },
+                  "compId": 466,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 44,
+                        "x": 128,
+                        "skin": "netRes/arenaN/icon_common_card_star04.png",
+                        "scaleY": 1,
+                        "scaleX": 1
+                      },
+                      "compId": 477,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "skin": "netRes/arenaN/icon_common_card_star07.png"
+                          },
+                          "compId": 482
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 44,
+                        "x": 161,
+                        "skin": "netRes/arenaN/icon_common_card_star04.png"
+                      },
+                      "compId": 478,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "skin": "netRes/arenaN/icon_common_card_star07.png"
+                          },
+                          "compId": 483
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 44,
+                        "x": 194,
+                        "skin": "netRes/arenaN/icon_common_card_star04.png",
+                        "scaleY": 1,
+                        "scaleX": 1
+                      },
+                      "compId": 479,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "skin": "netRes/arenaN/icon_common_card_star07.png"
+                          },
+                          "compId": 484
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 38,
+                    "width": 172,
+                    "var": "scoreFont",
+                    "value": "123456",
+                    "spaceX": -5,
+                    "skin": "res_common/number/num_30_jxzk_cf5552_0b2237_stk.png",
+                    "sheet": "0123456789",
+                    "height": 46,
+                    "centerX": -8,
+                    "align": "center"
+                  },
+                  "compId": 473
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 122,
+          "keyframes": {
+            "x": [
+              {
+                "value": 150,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 150,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "x",
+                "index": 50
+              }
+            ],
+            "text": [
+              {
+                "value": "5",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 0
+              },
+              {
+                "value": "4",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 10
+              },
+              {
+                "value": "3",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 20
+              },
+              {
+                "value": "2",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 30
+              },
+              {
+                "value": "1",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 40
+              },
+              {
+                "value": "0",
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "text",
+                "index": 50
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani",
+      "id": 1,
+      "frameRate": 10,
+      "action": 0
+    }
+  ],
+  "loadList": ["res_common/bg_1.png", "res_common/solt_profile_blue.png"],
+  "loadList3D": []
+}

@@ -1,0 +1,1033 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": false,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 813,
+        "x": 500,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "mouseThrough": false,
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.8
+      },
+      "compId": 3
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 574,
+        "var": "context",
+        "height": 940,
+        "centerY": -38,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -71,
+            "x": -15,
+            "width": 606,
+            "skin": "res_common/bg_1.png",
+            "sizeGrid": "270,0,193,0",
+            "height": 985
+          },
+          "compId": 112,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 521,
+                "skin": "res_common/img_common_02.png"
+              },
+              "compId": 113
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -9,
+                "x": 516,
+                "var": "closeBth",
+                "skin": "res_common/btn_close.png",
+                "label": "label"
+              },
+              "compId": 114
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 63,
+                "x": 165,
+                "skin": "res_common/bg_title01.png"
+              },
+              "compId": 115,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 7,
+                    "skin": "netRes/arenaN/text_bczj_1.png",
+                    "centerX": -1
+                  },
+                  "compId": 6
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 78,
+            "x": 64,
+            "width": 150,
+            "var": "headBox",
+            "scaleY": 1.05,
+            "scaleX": 1.05,
+            "height": 150
+          },
+          "compId": 21,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 144,
+                "x": 62,
+                "scaleY": 0.86,
+                "scaleX": 0.86,
+                "presetID": 1,
+                "name": "head",
+                "skin": "res_common/solt_profile_blue.png",
+                "isPresetRoot": true,
+                "anchorY": 1,
+                "anchorX": 0.5
+              },
+              "compId": 98,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "var": "heroIcon",
+                    "presetID": 3,
+                    "y": 160,
+                    "x": 70,
+                    "anchorY": 1,
+                    "anchorX": 0.5
+                  },
+                  "compId": 100
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 79,
+                "x": 78,
+                "width": 74,
+                "skin": "res_common/solt_profile_blue.png",
+                "name": "userIcon",
+                "height": 74
+              },
+              "compId": 99,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 40,
+                    "x": 39.5,
+                    "width": 60,
+                    "var": "userIcon",
+                    "skin": "res_common/pro_default.png",
+                    "height": 60,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 101,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "top": 0,
+                        "skin": "res_main/mask_profile.png",
+                        "right": 0,
+                        "renderType": "mask",
+                        "left": 0,
+                        "bottom": 0
+                      },
+                      "compId": 102
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Sprite",
+          "props": {
+            "y": 242,
+            "x": 55,
+            "texture": "netRes/arena/panel_name.png"
+          },
+          "compId": 8,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "y": 3,
+                "x": 7,
+                "width": 159,
+                "var": "userName",
+                "text": "游客",
+                "stroke": 2,
+                "height": 24,
+                "fontSize": 22,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "bold": true
+              },
+              "compId": 13
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 3,
+                "x": 167,
+                "var": "serverName",
+                "text": "[Ax服]",
+                "fontSize": 22,
+                "font": "Microsoft YaHei",
+                "color": "#ff0000",
+                "bold": false
+              },
+              "compId": 147
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 20.5,
+            "x": 327,
+            "width": 238,
+            "var": "divisionBox",
+            "height": 236
+          },
+          "compId": 44,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 84,
+                "x": 60,
+                "skin": "netRes/arena/panel_3.png",
+                "scaleY": 1.6,
+                "scaleX": 1.6
+              },
+              "compId": 108
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 96,
+                "x": 145,
+                "var": "divisionImg",
+                "skin": "netRes/icon/divisionIcon/icon_rank_6.png",
+                "scaleY": 1.6,
+                "scaleX": 1.6,
+                "centerX": 0
+              },
+              "compId": 45
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 203,
+                "x": 70,
+                "width": 108,
+                "skin": "netRes/arenaN/bg_araay_name.png",
+                "height": 38
+              },
+              "compId": 109
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 204,
+                "var": "divisionName",
+                "skin": "netRes/icon/divisionIcon/division2_1.png",
+                "scaleY": 1,
+                "scaleX": 1,
+                "centerX": 2
+              },
+              "compId": 46
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": -4,
+                "width": 360,
+                "var": "star",
+                "height": 217,
+                "centerX": 0
+              },
+              "compId": 47,
+              "child": [
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "width": 375,
+                    "visible": false,
+                    "var": "star5Box",
+                    "height": 177
+                  },
+                  "compId": 57,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 69.5,
+                        "x": 92,
+                        "skin": "netRes/arenaN/icon_common_card_star04.png",
+                        "scaleY": 1.3,
+                        "scaleX": 1.3
+                      },
+                      "compId": 58,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "skin": "netRes/arenaN/icon_common_card_star07.png"
+                          },
+                          "compId": 59
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 47,
+                        "x": 122,
+                        "skin": "netRes/arenaN/icon_common_card_star04.png",
+                        "scaleY": 1.3,
+                        "scaleX": 1.3
+                      },
+                      "compId": 60,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "skin": "netRes/arenaN/icon_common_card_star07.png"
+                          },
+                          "compId": 61
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 35,
+                        "x": 160,
+                        "skin": "netRes/arenaN/icon_common_card_star04.png",
+                        "scaleY": 1.3,
+                        "scaleX": 1.3
+                      },
+                      "compId": 62,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "skin": "netRes/arenaN/icon_common_card_star07.png"
+                          },
+                          "compId": 63
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 47,
+                        "x": 198,
+                        "skin": "netRes/arenaN/icon_common_card_star04.png",
+                        "scaleY": 1.3,
+                        "scaleX": 1.3
+                      },
+                      "compId": 64,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "skin": "netRes/arenaN/icon_common_card_star07.png"
+                          },
+                          "compId": 65
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 69.5,
+                        "x": 228,
+                        "skin": "netRes/arenaN/icon_common_card_star04.png",
+                        "scaleY": 1.3,
+                        "scaleX": 1.3
+                      },
+                      "compId": 66,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "skin": "netRes/arenaN/icon_common_card_star07.png"
+                          },
+                          "compId": 67
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "width": 375,
+                    "visible": false,
+                    "var": "star4Box",
+                    "height": 177
+                  },
+                  "compId": 68,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 62,
+                        "x": 107,
+                        "skin": "netRes/arenaN/icon_common_card_star04.png",
+                        "scaleY": 1.3,
+                        "scaleX": 1.3
+                      },
+                      "compId": 69,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "skin": "netRes/arenaN/icon_common_card_star07.png"
+                          },
+                          "compId": 70
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 42,
+                        "x": 138,
+                        "skin": "netRes/arenaN/icon_common_card_star04.png",
+                        "scaleY": 1.3,
+                        "scaleX": 1.3
+                      },
+                      "compId": 71,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "skin": "netRes/arenaN/icon_common_card_star07.png"
+                          },
+                          "compId": 72
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 42,
+                        "x": 178,
+                        "skin": "netRes/arenaN/icon_common_card_star04.png",
+                        "scaleY": 1.3,
+                        "scaleX": 1.3
+                      },
+                      "compId": 75,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "skin": "netRes/arenaN/icon_common_card_star07.png"
+                          },
+                          "compId": 76
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 63,
+                        "x": 209,
+                        "skin": "netRes/arenaN/icon_common_card_star04.png",
+                        "scaleY": 1.3,
+                        "scaleX": 1.3
+                      },
+                      "compId": 77,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "skin": "netRes/arenaN/icon_common_card_star07.png"
+                          },
+                          "compId": 78
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "width": 375,
+                    "visible": false,
+                    "var": "star3Box",
+                    "height": 177
+                  },
+                  "compId": 79,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 53.5,
+                        "x": 121,
+                        "skin": "netRes/arenaN/icon_common_card_star04.png",
+                        "scaleY": 1.3,
+                        "scaleX": 1.3
+                      },
+                      "compId": 82,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "skin": "netRes/arenaN/icon_common_card_star07.png"
+                          },
+                          "compId": 83
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 40,
+                        "x": 159,
+                        "skin": "netRes/arenaN/icon_common_card_star04.png",
+                        "scaleY": 1.3,
+                        "scaleX": 1.3,
+                        "anchorX": 0
+                      },
+                      "compId": 84,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "skin": "netRes/arenaN/icon_common_card_star07.png"
+                          },
+                          "compId": 85
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 53.5,
+                        "x": 197,
+                        "skin": "netRes/arenaN/icon_common_card_star04.png",
+                        "scaleY": 1.3,
+                        "scaleX": 1.3
+                      },
+                      "compId": 86,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "skin": "netRes/arenaN/icon_common_card_star07.png"
+                          },
+                          "compId": 87
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 47,
+                    "width": 172,
+                    "var": "scoreFont",
+                    "value": "100",
+                    "spaceX": -5,
+                    "skin": "res_common/number/num_30_jxzk_cf5552_0b2237_stk.png",
+                    "sheet": "0123456789",
+                    "height": 45,
+                    "centerX": -2,
+                    "align": "center"
+                  },
+                  "compId": 90
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 311,
+            "x": 14,
+            "width": 546,
+            "skin": "netRes/arenaN/panel_zhanji.png",
+            "sizeGrid": "18,14,18,14",
+            "height": 51
+          },
+          "compId": 127,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 8,
+                "x": 167,
+                "skin": "netRes/arenaN/text_sheng_purple.png",
+                "scaleY": 1.2,
+                "scaleX": 1.2
+              },
+              "compId": 103
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 10,
+                "x": 213,
+                "var": "winLab",
+                "value": "12",
+                "spaceX": -15,
+                "skin": "res_common/number/num_28_jxzk_ffde80_stk_3.png",
+                "sheet": "0123456789"
+              },
+              "compId": 104
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 8,
+                "x": 315,
+                "skin": "netRes/arenaN/text_bai.png",
+                "scaleY": 1.2,
+                "scaleX": 1.2
+              },
+              "compId": 105
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 10,
+                "x": 357,
+                "var": "lossLab",
+                "value": "2",
+                "spaceX": -15,
+                "skin": "res_common/number/num_28_jxzk_a1b9ff_stk_3.png",
+                "sheet": "0123456789"
+              },
+              "compId": 106
+            }
+          ]
+        },
+        {
+          "type": "Panel",
+          "props": {
+            "y": 373,
+            "width": 480,
+            "var": "panelBox",
+            "vScrollBarSkin": " ",
+            "scaleY": 1,
+            "scaleX": 1,
+            "height": 320,
+            "centerX": -2
+          },
+          "compId": 25,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "width": 488,
+                "var": "contentBox1",
+                "height": 157,
+                "centerX": 0
+              },
+              "compId": 26
+            },
+            {
+              "type": "HBox",
+              "props": {
+                "y": 8,
+                "width": 382,
+                "var": "lvBox1",
+                "space": 90,
+                "centerX": 0
+              },
+              "compId": 27,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "visible": false,
+                    "skin": "res_icon/monsterLvIcon/icon_ss.png",
+                    "scaleY": 0.7,
+                    "scaleX": 0.7
+                  },
+                  "compId": 28
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "visible": false,
+                    "skin": "res_icon/monsterLvIcon/icon_ss.png",
+                    "scaleY": 0.7,
+                    "scaleX": 0.7
+                  },
+                  "compId": 29
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "visible": false,
+                    "skin": "res_icon/monsterLvIcon/icon_ss.png",
+                    "scaleY": 0.7,
+                    "scaleX": 0.7
+                  },
+                  "compId": 30
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "visible": false,
+                    "skin": "res_icon/monsterLvIcon/icon_ss.png",
+                    "scaleY": 0.7,
+                    "scaleX": 0.7
+                  },
+                  "compId": 31
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 157,
+                "width": 488,
+                "var": "contentBox2",
+                "height": 157,
+                "centerX": 0
+              },
+              "compId": 34
+            },
+            {
+              "type": "HBox",
+              "props": {
+                "y": 165,
+                "width": 382,
+                "var": "lvBox2",
+                "space": 90,
+                "centerX": 0
+              },
+              "compId": 35,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "visible": false,
+                    "skin": "res_icon/monsterLvIcon/icon_ss.png",
+                    "scaleY": 0.7,
+                    "scaleX": 0.7
+                  },
+                  "compId": 36
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "visible": false,
+                    "skin": "res_icon/monsterLvIcon/icon_ss.png",
+                    "scaleY": 0.7,
+                    "scaleX": 0.7
+                  },
+                  "compId": 37
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "visible": false,
+                    "skin": "res_icon/monsterLvIcon/icon_ss.png",
+                    "scaleY": 0.7,
+                    "scaleX": 0.7
+                  },
+                  "compId": 38
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "visible": false,
+                    "skin": "res_icon/monsterLvIcon/icon_ss.png",
+                    "scaleY": 0.7,
+                    "scaleX": 0.7
+                  },
+                  "compId": 39
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 314,
+                "x": 0,
+                "width": 488,
+                "var": "contentBox3",
+                "height": 157,
+                "centerX": 0
+              },
+              "compId": 141
+            },
+            {
+              "type": "HBox",
+              "props": {
+                "y": 322,
+                "x": 0,
+                "width": 382,
+                "var": "lvBox3",
+                "space": 90,
+                "centerX": 0
+              },
+              "compId": 142,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "visible": false,
+                    "skin": "res_icon/monsterLvIcon/icon_ss.png",
+                    "scaleY": 0.7,
+                    "scaleX": 0.7
+                  },
+                  "compId": 143
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "visible": false,
+                    "skin": "res_icon/monsterLvIcon/icon_ss.png",
+                    "scaleY": 0.7,
+                    "scaleX": 0.7
+                  },
+                  "compId": 144
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "visible": false,
+                    "skin": "res_icon/monsterLvIcon/icon_ss.png",
+                    "scaleY": 0.7,
+                    "scaleX": 0.7
+                  },
+                  "compId": 145
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "visible": false,
+                    "skin": "res_icon/monsterLvIcon/icon_ss.png",
+                    "scaleY": 0.7,
+                    "scaleX": 0.7
+                  },
+                  "compId": 146
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 708,
+            "x": 12,
+            "width": 546,
+            "skin": "netRes/arenaN/panel_zhanji.png",
+            "sizeGrid": "14,14,14,14",
+            "height": 171
+          },
+          "compId": 128,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 25,
+                "x": 248,
+                "text": "奖 励",
+                "stroke": 3,
+                "skin": "netRes/arenaN/text_jl.png",
+                "fontSize": 30,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "centerX": 3,
+                "bold": true
+              },
+              "compId": 42
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 65,
+                "x": 85,
+                "width": 380,
+                "var": "rwdBox",
+                "centerX": 0
+              },
+              "compId": 43,
+              "child": [
+                {
+                  "type": "PropItem",
+                  "props": {
+                    "x": 0,
+                    "scaleY": 0.66,
+                    "scaleX": 0.66,
+                    "runtime": "ui.component.PropItemUI"
+                  },
+                  "compId": 92
+                },
+                {
+                  "type": "PropItem",
+                  "props": {
+                    "y": 0,
+                    "x": 100,
+                    "scaleY": 0.66,
+                    "scaleX": 0.66,
+                    "runtime": "ui.component.PropItemUI"
+                  },
+                  "compId": 134
+                },
+                {
+                  "type": "PropItem",
+                  "props": {
+                    "y": 0,
+                    "x": 200,
+                    "scaleY": 0.66,
+                    "scaleX": 0.66,
+                    "runtime": "ui.component.PropItemUI"
+                  },
+                  "compId": 135
+                },
+                {
+                  "type": "PropItem",
+                  "props": {
+                    "y": 0,
+                    "x": 300,
+                    "scaleY": 0.66,
+                    "scaleX": 0.66,
+                    "runtime": "ui.component.PropItemUI"
+                  },
+                  "compId": 136
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 914,
+            "x": 146.5,
+            "text": "text",
+            "skin": "res_common/text_djgb.png"
+          },
+          "compId": 125
+        },
+        {
+          "type": "Rect",
+          "props": {
+            "y": -50,
+            "x": -9,
+            "width": 591,
+            "renderType": "hit",
+            "lineWidth": 1,
+            "height": 962,
+            "fillColor": "#ff0000"
+          },
+          "compId": 137
+        }
+      ]
+    },
+    {
+      "type": "Button",
+      "props": {
+        "y": 1227,
+        "width": 270,
+        "var": "shareBtn",
+        "stateNum": 1,
+        "skin": "netRes/arenaN/btn_house_shop_page02.png",
+        "scaleY": 1.5,
+        "scaleX": 1.25,
+        "pivotY": 53,
+        "pivotX": 108,
+        "labelStroke": 2,
+        "labelSize": 44,
+        "labelFont": "Microsoft YaHei",
+        "labelColors": "#ffffff",
+        "labelBold": true,
+        "height": 117,
+        "centerX": -4
+      },
+      "compId": 11,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "skin": "netRes/arenaN/text_share.png",
+            "centerY": -11,
+            "centerX": 0
+          },
+          "compId": 126
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "res_common/bg_1.png",
+    "prefab/HeroIcon2.prefab",
+    "res_common/solt_profile_blue.png",
+    "netRes/arena/panel_name.png",
+    "component/PropItem.scene"
+  ],
+  "loadList3D": []
+}

@@ -1,0 +1,135 @@
+{
+  "type": "View",
+  "props": {
+    "y": 0,
+    "x": 0,
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "mouseThrough": true,
+        "mouseEnabled": true,
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 14,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 667,
+            "x": 375,
+            "width": 1000,
+            "var": "maskBg",
+            "skin": "res_common/bg.png",
+            "height": 1625,
+            "centerY": 0,
+            "centerX": 0,
+            "anchorY": 0.5,
+            "anchorX": 0.5,
+            "alpha": 0
+          },
+          "compId": 4
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -5,
+            "x": 0,
+            "width": 750,
+            "var": "maskBgRed",
+            "skin": "res_main/bg_xxtjs_hm.png",
+            "mouseEnabled": false,
+            "height": 1340,
+            "alpha": 1
+          },
+          "compId": 11
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -439,
+            "width": 998,
+            "skin": "res_common/bg.png",
+            "height": 300,
+            "centerX": 0
+          },
+          "compId": 44
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "skin": "loading/panel_top.png",
+            "scaleY": -1,
+            "centerX": 0
+          },
+          "compId": 43
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "skin": "res_view/monsterDetail/fx_guang.png"
+          },
+          "compId": 15
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 5,
+            "x": 0,
+            "width": 750,
+            "var": "contentBox",
+            "mouseThrough": true,
+            "mouseEnabled": true,
+            "height": 1334,
+            "centerY": 0,
+            "centerX": 0
+          },
+          "compId": 5
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": -284,
+            "x": -125,
+            "width": 1000,
+            "var": "closeTop",
+            "height": 300
+          },
+          "compId": 41
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 1443,
+            "x": 0,
+            "width": 750,
+            "skin": "res_common/bg.png",
+            "height": 263
+          },
+          "compId": 45
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 1320,
+            "x": 0,
+            "skin": "loading/panel_buttom.png"
+          },
+          "compId": 42
+        }
+      ]
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

@@ -1,0 +1,1603 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334,
+    "alpha": 1
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 672,
+        "x": 375,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.01
+      },
+      "compId": 3
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 204,
+        "x": 0,
+        "skin": "res_combat/specialStageView/naiheqiao/bg_naiheqiao.png",
+        "name": "bg"
+      },
+      "compId": 60
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 140,
+        "width": 750,
+        "var": "contentBox",
+        "height": 722,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "SkeletonPlayer",
+          "props": {
+            "y": 990,
+            "x": 210,
+            "var": "role",
+            "scaleY": 0.7,
+            "scaleX": 0.7,
+            "runtime": "Laya.Skeleton"
+          },
+          "compId": 5
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 140,
+            "x": 330,
+            "width": 430,
+            "var": "talkBox",
+            "height": 169,
+            "alpha": 1
+          },
+          "compId": 6,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 170,
+                "width": 425,
+                "skin": "res_combat/specialStageView/biaoJu/panel_dialog.png",
+                "scaleY": -1,
+                "height": 169,
+                "alpha": 1
+              },
+              "compId": 7
+            },
+            {
+              "type": "Label",
+              "props": {
+                "wordWrap": true,
+                "width": 309,
+                "var": "lineLab",
+                "valign": "middle",
+                "text": "投胎技术活\\n脸白一升五\\n脸黑五降一",
+                "name": "lineLab",
+                "leading": 15,
+                "height": 90,
+                "fontSize": 21,
+                "font": "Microsoft YaHei",
+                "color": "#000000",
+                "centerY": 0,
+                "centerX": 6,
+                "bold": true,
+                "align": "center"
+              },
+              "compId": 8
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -31,
+                "x": 37,
+                "skin": "res_combat/specialStageView/biaoJu/panel_name.png",
+                "sizeGrid": "0,0,0,46",
+                "name": "roleNamebg"
+              },
+              "compId": 82,
+              "child": [
+                {
+                  "type": "Text",
+                  "props": {
+                    "y": 0,
+                    "x": 8,
+                    "width": 144,
+                    "valign": "middle",
+                    "text": "text",
+                    "strokeColor": "#734230",
+                    "stroke": 2,
+                    "name": "roleName",
+                    "height": 38,
+                    "fontSize": 23,
+                    "font": "Microsoft YaHei",
+                    "color": "#f1dcbd",
+                    "alpha": 0,
+                    "align": "center",
+                    "runtime": "Laya.Text"
+                  },
+                  "compId": 83
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 8.5,
+                    "x": 44,
+                    "var": "img_name",
+                    "name": "img_name"
+                  },
+                  "compId": 84
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 789,
+        "x": 358,
+        "name": "Buttons",
+        "alpha": 1
+      },
+      "compId": 86,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -259,
+            "x": -59,
+            "skin": "res_combat/specialStageView/biaoJu/text_yourchoice.png",
+            "name": "title"
+          },
+          "compId": 11
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -13,
+            "x": -252,
+            "width": 282,
+            "var": "xqPanel",
+            "pivotY": 185,
+            "pivotX": 120,
+            "height": 414
+          },
+          "compId": 12,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -4,
+                "x": 1,
+                "width": 280,
+                "skin": "res_combat/specialStageView/fuDi/panel_lzg.png",
+                "name": "bg",
+                "height": 418,
+                "alpha": 1
+              },
+              "compId": 87
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 36,
+                "skin": "res_combat/public/img_stain.png",
+                "name": "bg_title",
+                "centerX": -12
+              },
+              "compId": 52,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 29.5,
+                    "x": -7.5,
+                    "skin": "res_combat/specialStageView/naiheqiao/text_mpt.png",
+                    "name": "text_title"
+                  },
+                  "compId": 13
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 148.5,
+                "x": 45.5,
+                "skin": "res_combat/specialStageView/naiheqiao/text_sjtt.png",
+                "name": "descripe"
+              },
+              "compId": 14
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 313,
+                "x": 141,
+                "width": 212,
+                "var": "btn1",
+                "skin": "res_common/btn_blue.png",
+                "scaleX": 1,
+                "name": "btn1",
+                "height": 71,
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 1
+              },
+              "compId": 92,
+              "child": [
+                {
+                  "type": "Script",
+                  "props": {
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 94
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 21,
+                    "width": 35,
+                    "skin": "res_combat/public/icon_gold.png",
+                    "scaleY": 1,
+                    "scaleX": 1,
+                    "name": "coinIcon",
+                    "left": 54,
+                    "height": 36
+                  },
+                  "compId": 95
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 24,
+                    "x": 106,
+                    "width": 42,
+                    "skin": "res_combat/specialStageView/biaoJu/text_yibai.png",
+                    "scaleY": 1.2,
+                    "scaleX": 1.2,
+                    "name": "100",
+                    "height": 24
+                  },
+                  "compId": 96
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -14,
+            "x": -5,
+            "width": 279,
+            "var": "pbPanel",
+            "pivotY": 185,
+            "pivotX": 120,
+            "height": 414
+          },
+          "compId": 17,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -4,
+                "x": 1,
+                "width": 280,
+                "skin": "res_combat/specialStageView/fuDi/panel_lzg.png",
+                "name": "bg",
+                "height": 418,
+                "alpha": 1
+              },
+              "compId": 90
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 36,
+                "x": 80,
+                "skin": "res_combat/public/img_stain.png",
+                "name": "bg_title",
+                "centerX": -12
+              },
+              "compId": 97,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 34.5,
+                    "x": -8.5,
+                    "skin": "res_combat/specialStageView/naiheqiao/text_mtt.png",
+                    "name": "text_title"
+                  },
+                  "compId": 98
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 153,
+                "x": 44.5,
+                "skin": "res_combat/specialStageView/naiheqiao/text_award.png",
+                "name": "describe"
+              },
+              "compId": 19
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 316,
+                "x": 143,
+                "width": 212,
+                "var": "btn2",
+                "skin": "res_combat/specialStageView/biaoJu/btn_yellow.png",
+                "scaleX": 1,
+                "name": "btn2",
+                "height": 71,
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 1
+              },
+              "compId": 99,
+              "child": [
+                {
+                  "type": "Script",
+                  "props": {
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 100
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 21,
+                    "width": 42,
+                    "skin": "res_combat/specialStageView/biaoJu/icon_shuangbeijiangli.png",
+                    "scaleY": 1,
+                    "scaleX": 1,
+                    "name": "freeIcon",
+                    "left": 33,
+                    "height": 33
+                  },
+                  "compId": 101
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 19,
+                    "x": 78,
+                    "width": 85,
+                    "skin": "res_combat/specialStageView/naiheqiao/text_mtt2.png",
+                    "scaleY": 1.2,
+                    "scaleX": 1.2,
+                    "name": "free_text",
+                    "height": 29
+                  },
+                  "compId": 102
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -14,
+            "x": 241,
+            "width": 279,
+            "var": "lkPanel",
+            "pivotY": 185,
+            "pivotX": 120,
+            "height": 413,
+            "alpha": 1
+          },
+          "compId": 22,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -4,
+                "x": 1,
+                "width": 280,
+                "skin": "res_combat/specialStageView/fuDi/panel_lzg.png",
+                "name": "bg",
+                "height": 418,
+                "alpha": 1
+              },
+              "compId": 91
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 40,
+                "skin": "res_combat/public/img_stain.png",
+                "name": "bg_title",
+                "centerX": -6
+              },
+              "compId": 103,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 27,
+                    "x": 9,
+                    "skin": "res_combat/specialStageView/naiheqiao/text_likai.png",
+                    "name": "text_title"
+                  },
+                  "compId": 104
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 169,
+                "x": 94.5,
+                "skin": "res_combat/specialStageView/naiheqiao/text_hcwl.png",
+                "name": "describe"
+              },
+              "compId": 24
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 313,
+                "x": 141,
+                "width": 212,
+                "var": "btn3",
+                "skin": "res_common/btn_blue.png",
+                "scaleX": 1,
+                "name": "btn3",
+                "height": 71,
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 1
+              },
+              "compId": 105,
+              "child": [
+                {
+                  "type": "Script",
+                  "props": {
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 106
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 24,
+                    "x": 55,
+                    "width": 126,
+                    "skin": "res_combat/specialStageView/biaoJu/text_lk.png",
+                    "sizeGrid": "0,41,0,42",
+                    "scaleY": 1,
+                    "scaleX": 0.8,
+                    "name": "text",
+                    "height": 32
+                  },
+                  "compId": 109
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 200,
+        "x": 0,
+        "width": 750,
+        "visible": false,
+        "var": "rebirthBox",
+        "height": 783
+      },
+      "compId": 31,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 408,
+            "x": 391,
+            "var": "shadowImg",
+            "skin": "res_combat/specialStageView/naiheqiao/img_yinying.png",
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 32,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 186,
+                "x": 23,
+                "skin": "res_combat/specialStageView/naiheqiao/img_+.png"
+              },
+              "compId": 33
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 680,
+            "x": 375,
+            "visible": true,
+            "var": "preSkBox"
+          },
+          "compId": 41
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 683,
+            "x": 386,
+            "width": 211,
+            "visible": false,
+            "var": "confirmBtn",
+            "skin": "res_common/btn_yellow.png",
+            "height": 72,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 42,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 19,
+                "x": 54,
+                "skin": "res_combat/specialStageView/naiheqiao/text_qd.png"
+              },
+              "compId": 43
+            },
+            {
+              "type": "Script",
+              "props": {
+                "runtime": "game/tools/BtnScale85.ts"
+              },
+              "compId": 48
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 485,
+            "width": 216,
+            "visible": false,
+            "var": "mptImg",
+            "skin": "res_combat/specialStageView/naiheqiao/img_mpt_1.png",
+            "pivotX": 108,
+            "height": 144,
+            "centerX": -7,
+            "anchorY": 0.8
+          },
+          "compId": 55
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 85,
+            "x": 32,
+            "width": 686,
+            "var": "topBg",
+            "skin": "res_common/panel_text.png",
+            "height": 110
+          },
+          "compId": 34,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "text": "text",
+                "skin": "res_combat/specialStageView/naiheqiao/text_tuodong.png",
+                "centerY": 0,
+                "centerX": 0
+              },
+              "compId": 56
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 200,
+        "x": 1.5,
+        "width": 750,
+        "visible": false,
+        "var": "getBox",
+        "height": 783
+      },
+      "compId": 37,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 646,
+            "x": 375,
+            "width": 1000,
+            "skin": "res_common/bg.png",
+            "height": 1625,
+            "centerY": 0,
+            "centerX": 0,
+            "anchorY": 0.5,
+            "anchorX": 0.5,
+            "alpha": 0.5
+          },
+          "compId": 64
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 690,
+            "x": 385,
+            "var": "halfBox"
+          },
+          "compId": 62
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 29,
+            "x": 228,
+            "skin": "res_combat/specialStageView/naiheqiao/text_ttcg.png"
+          },
+          "compId": 47
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 125,
+            "x": -19,
+            "width": 791,
+            "var": "bg_mask",
+            "skin": "res_combat/specialStageView/naiheqiao/bg_mask.png",
+            "height": 1085
+          },
+          "compId": 63
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 680,
+            "x": 375,
+            "var": "curSkBox"
+          },
+          "compId": 44
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 684,
+            "x": 374,
+            "width": 211,
+            "var": "closeBtn",
+            "skin": "res_common/btn_yellow.png",
+            "height": 72,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 45,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 19,
+                "x": 54,
+                "width": 139,
+                "skin": "res_combat/specialStageView/naiheqiao/text_qd.png",
+                "scaleY": 0.74,
+                "scaleX": 0.74,
+                "height": 46
+              },
+              "compId": 46
+            },
+            {
+              "type": "Script",
+              "props": {
+                "runtime": "game/tools/BtnScale85.ts"
+              },
+              "compId": 49
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 93,
+            "x": 215.5,
+            "width": 337,
+            "visible": true,
+            "var": "NewmonsterBox",
+            "height": 77
+          },
+          "compId": 65,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 18,
+                "x": 106,
+                "var": "newname",
+                "skin": "netRes/monsterName/style_1_md/TK-DHTY.png",
+                "scaleY": 0.65,
+                "scaleX": 0.65
+              },
+              "compId": 66
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 10,
+                "x": 22,
+                "width": 66,
+                "var": "newlv",
+                "skin": "res_icon/monsterLvIcon/icon_ss.png",
+                "height": 64
+              },
+              "compId": 67
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "zOrder": 100,
+        "y": -175,
+        "x": -125,
+        "width": 1000,
+        "visible": false,
+        "var": "lightImg",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 50,
+      "child": [
+        {
+          "type": "Rect",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "width": 1000,
+            "lineWidth": 1,
+            "height": 1625,
+            "fillColor": "#ffffff"
+          },
+          "compId": 51
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "var": "BeautyBoxItem",
+        "name": "BeautyBoxItem"
+      },
+      "compId": 68,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 245,
+            "x": 43,
+            "width": 161,
+            "visible": true,
+            "var": "lovePro",
+            "scaleY": 0.6,
+            "scaleX": 0.6,
+            "pivotX": 0,
+            "name": "lovePro",
+            "height": 29
+          },
+          "compId": 125,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -2,
+                "x": -11,
+                "width": 228,
+                "var": "loveBar_empty",
+                "skin": "res_view/beauty/frame_card_blood02.png",
+                "name": "loveBar_empty",
+                "height": 35
+              },
+              "compId": 127
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 2,
+                "x": -7,
+                "width": 214,
+                "var": "loveBar",
+                "skin": "res_view/beauty/frame_card_hgd.png",
+                "sizeGrid": "0,13,0,8",
+                "name": "loveBar",
+                "height": 27
+              },
+              "compId": 128
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 6,
+                "x": 8,
+                "var": "loveNum",
+                "name": "loveNum"
+              },
+              "compId": 129,
+              "child": [
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": -11,
+                    "x": -38,
+                    "width": 183,
+                    "visible": true,
+                    "var": "FullTxt",
+                    "value": "12",
+                    "spaceY": 0,
+                    "spaceX": -12,
+                    "skin": "res_common/number/num_27_jxzk_ffffff_stk_1_gt.png",
+                    "sheet": "0123456789",
+                    "scaleY": 1.2,
+                    "scaleX": 1.2,
+                    "name": "FullTxt",
+                    "height": 33,
+                    "direction": "horizontal",
+                    "align": "center"
+                  },
+                  "compId": 130
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "var": "UnFullTxt",
+                    "name": "UnFullTxt"
+                  },
+                  "compId": 131,
+                  "child": [
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": -12,
+                        "x": -154,
+                        "width": 183,
+                        "visible": true,
+                        "var": "loveTxt",
+                        "value": "12",
+                        "spaceY": 0,
+                        "spaceX": -12,
+                        "skin": "res_common/number/num_27_jxzk_ffffff_stk_1_gt.png",
+                        "sheet": "0123456789",
+                        "scaleY": 1.2,
+                        "scaleX": 1.2,
+                        "name": "loveTxt",
+                        "height": 33,
+                        "direction": "horizontal",
+                        "align": "right"
+                      },
+                      "compId": 132
+                    },
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": -11,
+                        "x": 78,
+                        "var": "loveMax",
+                        "value": "40",
+                        "spaceX": -12,
+                        "skin": "res_common/number/num_27_jxzk_ffffff_stk_1_gt.png",
+                        "sheet": "0123456789",
+                        "scaleY": 1.2,
+                        "scaleX": 1.2,
+                        "name": "loveMax",
+                        "left": 78,
+                        "align": "left"
+                      },
+                      "compId": 133
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -1,
+                        "x": 76,
+                        "text": "text",
+                        "skin": "res_view/beauty/text_pzh.png",
+                        "scaleY": 1.2,
+                        "scaleX": 1.2,
+                        "name": "img_cut",
+                        "centerX": 83
+                      },
+                      "compId": 134
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": -25,
+                "x": -73,
+                "width": 88,
+                "texture": "res_common/icon_hgd.png",
+                "name": "img_heart",
+                "height": 82
+              },
+              "compId": 135
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -71,
+                "x": 34,
+                "var": "img_status",
+                "skin": "netRes/beautyStatus/status_1.png",
+                "scaleY": 1,
+                "scaleX": 1,
+                "name": "img_status"
+              },
+              "compId": 136
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 203,
+            "x": 492,
+            "width": 302,
+            "skin": "res_view/beauty/panel_kggtshgd.png",
+            "name": "tipsbarbg",
+            "height": 23
+          },
+          "compId": 126,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 7,
+                "width": 250,
+                "skin": "res_view/beauty/text_kggtshgd.png",
+                "name": "tipsbarbg",
+                "height": 21
+              },
+              "compId": 137
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 50,
+          "keyframes": {
+            "x": [
+              {
+                "value": -125,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 50,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 50,
+                "label": null,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 50,
+                "label": null,
+                "key": "visible",
+                "index": 1
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 50,
+                "label": null,
+                "key": "visible",
+                "index": 11
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 50,
+                "label": null,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 50,
+                "label": null,
+                "key": "alpha",
+                "index": 1
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 50,
+                "label": null,
+                "key": "alpha",
+                "index": 10
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 50,
+                "label": null,
+                "key": "alpha",
+                "index": 11
+              }
+            ]
+          }
+        }
+      ],
+      "name": "lightAni",
+      "id": 1,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 55,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 55,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 55,
+                "key": "visible",
+                "index": 10
+              }
+            ],
+            "skin": [
+              {
+                "value": "res_combat/specialStageView/naiheqiao/img_mpt_1.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 55,
+                "key": "skin",
+                "index": 0
+              },
+              {
+                "value": "res_combat/specialStageView/naiheqiao/img_mpt_1.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 55,
+                "key": "skin",
+                "index": 10
+              },
+              {
+                "value": "res_combat/specialStageView/naiheqiao/img_mpt_2.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 55,
+                "key": "skin",
+                "index": 22
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 55,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 55,
+                "key": "alpha",
+                "index": 10
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 55,
+                "key": "alpha",
+                "index": 15
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 55,
+                "key": "alpha",
+                "index": 22
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 55,
+                "key": "alpha",
+                "index": 35
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 55,
+                "key": "alpha",
+                "index": 72
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 55,
+                "key": "alpha",
+                "index": 73
+              }
+            ]
+          }
+        }
+      ],
+      "name": "mptAni",
+      "id": 2,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 4,
+          "keyframes": {
+            "x": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 4,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 4,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 4,
+                "key": "alpha",
+                "index": 10
+              }
+            ]
+          }
+        },
+        {
+          "target": 6,
+          "keyframes": {
+            "x": [
+              {
+                "value": 333,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 6,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 333,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 6,
+                "key": "x",
+                "index": 4
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 6,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 6,
+                "key": "alpha",
+                "index": 4
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 6,
+                "key": "alpha",
+                "index": 12
+              }
+            ]
+          }
+        },
+        {
+          "target": 5,
+          "keyframes": {
+            "x": [
+              {
+                "value": 202,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 5,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 202,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 5,
+                "key": "x",
+                "index": 9
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 5,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 5,
+                "key": "alpha",
+                "index": 9
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 5,
+                "key": "alpha",
+                "index": 19
+              }
+            ]
+          }
+        },
+        {
+          "target": 11,
+          "keyframes": {
+            "y": [
+              {
+                "value": -258,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 11,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": -258,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 11,
+                "key": "y",
+                "index": 15
+              }
+            ],
+            "x": [
+              {
+                "value": -59,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 11,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": -59,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 11,
+                "key": "x",
+                "index": 15
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 11,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 11,
+                "key": "alpha",
+                "index": 15
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 11,
+                "key": "alpha",
+                "index": 20
+              }
+            ]
+          }
+        }
+      ],
+      "name": "openAni",
+      "id": 3,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 34,
+          "keyframes": {
+            "y": [
+              {
+                "value": 110,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 34,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 110,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 34,
+                "label": null,
+                "key": "y",
+                "index": 17
+              },
+              {
+                "value": 80,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 34,
+                "key": "y",
+                "index": 24
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 34,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 34,
+                "label": null,
+                "key": "alpha",
+                "index": 17
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 34,
+                "key": "alpha",
+                "index": 24
+              }
+            ]
+          }
+        },
+        {
+          "target": 32,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "key": "alpha",
+                "index": 17
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "key": "alpha",
+                "index": 23
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "key": "alpha",
+                "index": 24
+              }
+            ]
+          }
+        },
+        {
+          "target": 86,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 86,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 86,
+                "key": "visible",
+                "index": 24
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 86,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 86,
+                "key": "alpha",
+                "index": 7
+              }
+            ]
+          }
+        },
+        {
+          "target": 68,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 68,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 68,
+                "key": "alpha",
+                "index": 7
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 68,
+                "key": "alpha",
+                "index": 17
+              }
+            ]
+          }
+        }
+      ],
+      "name": "toutaiAni",
+      "id": 4,
+      "frameRate": 30,
+      "action": 0
+    }
+  ],
+  "loadList": [
+    "res_combat/specialStageView/naiheqiao/img_mpt_1.png",
+    "res_common/icon_hgd.png",
+    "res_combat/specialStageView/naiheqiao/img_mpt_2.png"
+  ],
+  "loadList3D": []
+}

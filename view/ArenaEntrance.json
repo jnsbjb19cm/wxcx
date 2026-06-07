@@ -1,0 +1,1837 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "x": -32,
+        "width": 1008,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1620,
+        "alpha": 0.6
+      },
+      "compId": 192
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "var": "contentBox",
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 83.5,
+            "x": 95,
+            "var": "title"
+          },
+          "compId": 110
+        },
+        {
+          "type": "Image",
+          "props": {
+            "var": "longmen",
+            "skin": "netRes/arenaN/img.png",
+            "centerY": 0,
+            "centerX": 0
+          },
+          "compId": 156
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 1135,
+            "x": 237,
+            "skin": "res_common/text_djgb.png",
+            "mouseEnabled": false
+          },
+          "compId": 194
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "var": "aniBox",
+            "name": "aniBox"
+          },
+          "compId": 208,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 717,
+                "x": 366,
+                "var": "pic_yuan",
+                "skin": "netRes/arenaN/aniBox/pic_yuan.png",
+                "name": "pic_yuan"
+              },
+              "compId": 209
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 763.5,
+                "x": 265,
+                "var": "r1",
+                "skin": "netRes/arenaN/aniBox/r_1.png",
+                "name": "r1"
+              },
+              "compId": 214
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 702.5,
+                "x": 402,
+                "var": "r2",
+                "skin": "netRes/arenaN/aniBox/r_2.png",
+                "name": "r2"
+              },
+              "compId": 213
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 840,
+                "x": 186,
+                "var": "r3",
+                "skin": "netRes/arenaN/aniBox/r_3.png",
+                "name": "r3"
+              },
+              "compId": 212
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 856.5,
+                "x": -128,
+                "var": "r4",
+                "skin": "netRes/arenaN/aniBox/r_4.png",
+                "name": "r4"
+              },
+              "compId": 211
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 717,
+                "x": 589,
+                "var": "r5",
+                "skin": "netRes/arenaN/aniBox/r_5.png",
+                "name": "r5"
+              },
+              "compId": 210
+            }
+          ]
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 772,
+            "visible": false,
+            "var": "tips",
+            "text": "每件神器概率相同，神器效果可提供给所有己方单位",
+            "stroke": 2,
+            "height": 18,
+            "fontSize": 18,
+            "color": "#ffffff",
+            "centerX": 0,
+            "bold": true,
+            "align": "center"
+          },
+          "compId": 53
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 909,
+            "width": 750,
+            "var": "btnBox",
+            "height": 172,
+            "centerX": 0
+          },
+          "compId": 94,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 95,
+                "width": 260,
+                "visible": false,
+                "var": "enterBtn",
+                "stateNum": 1,
+                "skin": "netRes/arenaN/btn_ks.png",
+                "left": 90,
+                "label": "label",
+                "height": 120,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 54,
+              "child": [
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 49.5,
+                    "x": 65,
+                    "width": 140,
+                    "texture": "netRes/arenaN/icon_yaoqinghan.png",
+                    "scaleY": 0.3,
+                    "scaleX": 0.3,
+                    "height": 118
+                  },
+                  "compId": 56
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 52.5,
+                    "x": 116,
+                    "var": "inviteCost",
+                    "value": "x20",
+                    "spaceX": -5,
+                    "skin": "res_common/number/num_34_jxzk_5b393a.png",
+                    "sheet": "0123456789-+/",
+                    "scaleY": 0.6,
+                    "scaleX": 0.6
+                  },
+                  "compId": 160
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 19.5,
+                    "x": 73,
+                    "skin": "netRes/arenaN/text_ks.png"
+                  },
+                  "compId": 165
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 60,
+                    "x": 104,
+                    "skin": "netRes/arenaN/text_chenghao.png"
+                  },
+                  "compId": 201
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 95,
+                "width": 260,
+                "visible": false,
+                "var": "freeBtn",
+                "stateNum": 1,
+                "skin": "netRes/arenaN/btn_house_shop_page02.png",
+                "right": 100,
+                "label": "label",
+                "height": 120,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 58,
+              "child": [
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 20,
+                    "x": 104,
+                    "var": "freeLab",
+                    "value": "(0/3)",
+                    "spaceX": -15,
+                    "skin": "res_common/number/num_34_jxzk_5b393a.png",
+                    "sheet": "0123456789()/"
+                  },
+                  "compId": 161
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 27,
+                    "x": 74,
+                    "var": "freeVideoIcon",
+                    "skin": "netRes/arenaN/icon_shuangbeijiangli.png",
+                    "scaleY": 0.8,
+                    "scaleX": 0.8
+                  },
+                  "compId": 60
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 57,
+                    "skin": "netRes/arenaN/text_jrsy.png",
+                    "left": 56
+                  },
+                  "compId": 163
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 57,
+                    "x": 167,
+                    "skin": "netRes/arenaN/text_ci.png"
+                  },
+                  "compId": 164
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 53,
+                    "var": "freeRemainNum",
+                    "value": "2",
+                    "skin": "res_common/number/num_34_jxzk_5b393a.png",
+                    "sheet": "0123456789-+/",
+                    "scaleY": 0.7,
+                    "scaleX": 0.8,
+                    "centerX": 26
+                  },
+                  "compId": 162
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 90,
+                    "var": "shanshi",
+                    "value": "50",
+                    "spaceX": -8,
+                    "skin": "res_common/number/num_19_jxzk_fff4da.png",
+                    "sheet": "0123456789+",
+                    "scaleY": 1,
+                    "scaleX": 1,
+                    "name": "shanshi",
+                    "centerX": 2
+                  },
+                  "compId": 195,
+                  "child": [
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": 0,
+                        "value": "+1",
+                        "spaceX": -8,
+                        "skin": "res_common/number/num_19_jxzk_fff4da.png",
+                        "sheet": "0123456789+",
+                        "scaleY": 1,
+                        "scaleX": 1,
+                        "name": "shanshi",
+                        "centerX": 76
+                      },
+                      "compId": 198
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 4,
+                        "x": -74,
+                        "skin": "netRes/arenaN/text_tgss.png"
+                      },
+                      "compId": 196
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 4,
+                        "x": 34,
+                        "skin": "netRes/arenaN/text_c.png"
+                      },
+                      "compId": 197
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 95,
+                "width": 260,
+                "visible": false,
+                "var": "continueBtn",
+                "stateNum": 1,
+                "skin": "netRes/arenaN/btn_gg.png",
+                "label": "label",
+                "height": 120,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 62,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 28,
+                    "x": 84,
+                    "skin": "netRes/arenaN/text_jx.png"
+                  },
+                  "compId": 199
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 888,
+            "width": 207,
+            "var": "invatition",
+            "height": 38,
+            "centerX": 0
+          },
+          "compId": 75,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 192,
+                "skin": "netRes/arenaN/bg_araay_name.png",
+                "height": 36
+              },
+              "compId": 166
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 0,
+                "var": "inviteLab",
+                "spaceX": -5,
+                "skin": "res_common/number/num_22_jxzk_ffffff_stk.png",
+                "sheet": "0123456789-+/",
+                "centerX": 9
+              },
+              "compId": 167,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -12,
+                    "x": -60,
+                    "skin": "netRes/arenaN/icon_yaoqinghan.png",
+                    "scaleY": 0.3,
+                    "scaleX": 0.3
+                  },
+                  "compId": 188
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Sprite",
+          "props": {
+            "y": 98,
+            "x": 586,
+            "var": "infoBtn",
+            "texture": "netRes/arenaN/icon_sm.png"
+          },
+          "compId": 76
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 657,
+            "width": 180,
+            "visible": false,
+            "var": "curProgress",
+            "height": 132,
+            "centerX": -2
+          },
+          "compId": 92,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 18,
+                "skin": "netRes/arenaN/text_dqjd.png"
+              },
+              "compId": 168
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 50,
+                "x": 38,
+                "skin": "netRes/arenaN/text_sheng.png"
+              },
+              "compId": 169,
+              "child": [
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 0,
+                    "x": 50,
+                    "var": "winLab",
+                    "spaceX": -10,
+                    "skin": "res_common/number/num_50_jxzk_fffbe8_stk.png",
+                    "sheet": "0123456789",
+                    "scaleY": 0.5,
+                    "scaleX": 0.5
+                  },
+                  "compId": 171
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 89,
+                "x": 38,
+                "skin": "netRes/arenaN/text_fu.png"
+              },
+              "compId": 172,
+              "child": [
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 0,
+                    "x": 50,
+                    "var": "lossLab",
+                    "skin": "res_common/number/num_50_jxzk_fffbe8_stk.png",
+                    "sheet": "0123456789",
+                    "scaleY": 0.5,
+                    "scaleX": 0.5
+                  },
+                  "compId": 174
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 439,
+            "x": 278,
+            "width": 320,
+            "visible": false,
+            "var": "divisionBox",
+            "height": 100
+          },
+          "compId": 111,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 5,
+                "x": -56,
+                "var": "divisionImg",
+                "scaleY": 1.2,
+                "scaleX": 1.2
+              },
+              "compId": 180
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 38,
+                "x": 70,
+                "var": "divisionName"
+              },
+              "compId": 113
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": -23,
+                "x": -14,
+                "width": 200,
+                "var": "star",
+                "height": 72
+              },
+              "compId": 114,
+              "child": [
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 10,
+                    "width": 206,
+                    "visible": false,
+                    "var": "star5Box",
+                    "height": 72,
+                    "centerX": 30
+                  },
+                  "compId": 115,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "skin": "netRes/arena/img_star_solt.png"
+                      },
+                      "compId": 116,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "x": 1,
+                            "skin": "netRes/arena/icon_star.png"
+                          },
+                          "compId": 117
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "x": 36,
+                        "skin": "netRes/arena/img_star_solt.png"
+                      },
+                      "compId": 118,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "x": 1,
+                            "skin": "netRes/arena/icon_star.png"
+                          },
+                          "compId": 119
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "x": 72,
+                        "skin": "netRes/arena/img_star_solt.png"
+                      },
+                      "compId": 120,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "x": 1,
+                            "skin": "netRes/arena/icon_star.png"
+                          },
+                          "compId": 121
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "x": 108,
+                        "skin": "netRes/arena/img_star_solt.png"
+                      },
+                      "compId": 122,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "x": 1,
+                            "skin": "netRes/arena/icon_star.png"
+                          },
+                          "compId": 123
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "x": 144,
+                        "skin": "netRes/arena/img_star_solt.png"
+                      },
+                      "compId": 124,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "x": 1,
+                            "skin": "netRes/arena/icon_star.png"
+                          },
+                          "compId": 125
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 10,
+                    "width": 160,
+                    "visible": false,
+                    "var": "star4Box",
+                    "height": 72,
+                    "centerX": 18
+                  },
+                  "compId": 126,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "skin": "netRes/arena/img_star_solt.png"
+                      },
+                      "compId": 127,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "x": 1,
+                            "skin": "netRes/arena/icon_star.png"
+                          },
+                          "compId": 128
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "x": 40,
+                        "skin": "netRes/arena/img_star_solt.png"
+                      },
+                      "compId": 129,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "x": 1,
+                            "skin": "netRes/arena/icon_star.png"
+                          },
+                          "compId": 130
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "x": 80,
+                        "skin": "netRes/arena/img_star_solt.png"
+                      },
+                      "compId": 131,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "x": 1,
+                            "skin": "netRes/arena/icon_star.png"
+                          },
+                          "compId": 132
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "x": 120,
+                        "skin": "netRes/arena/img_star_solt.png"
+                      },
+                      "compId": 133,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "x": 1,
+                            "skin": "netRes/arena/icon_star.png"
+                          },
+                          "compId": 134
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 10,
+                    "width": 138,
+                    "visible": false,
+                    "var": "star3Box",
+                    "height": 72,
+                    "centerX": 19
+                  },
+                  "compId": 135,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "skin": "netRes/arena/img_star_solt.png"
+                      },
+                      "compId": 136,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "x": 1,
+                            "skin": "netRes/arena/icon_star.png"
+                          },
+                          "compId": 137
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "x": 50,
+                        "skin": "netRes/arena/img_star_solt.png"
+                      },
+                      "compId": 138,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "x": 1,
+                            "skin": "netRes/arena/icon_star.png"
+                          },
+                          "compId": 139
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "x": 100,
+                        "skin": "netRes/arena/img_star_solt.png"
+                      },
+                      "compId": 140,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "x": 1,
+                            "skin": "netRes/arena/icon_star.png"
+                          },
+                          "compId": 141
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 28,
+                    "width": 200,
+                    "visible": false,
+                    "var": "scoreFont",
+                    "spaceX": -5,
+                    "skin": "res_common/number/num_30_jxzk_f1784c_faffef_stk_2.png",
+                    "sheet": "0123456789",
+                    "centerX": 15,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5,
+                    "align": "center"
+                  },
+                  "compId": 142
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 550,
+            "width": 185,
+            "visible": false,
+            "var": "remainTips",
+            "height": 34,
+            "centerX": 0
+          },
+          "compId": 143,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 185,
+                "skin": "netRes/arenaN/bg_araay_name.png",
+                "height": 31
+              },
+              "compId": 175
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 4,
+                "x": -4,
+                "var": "tip1",
+                "text": "text",
+                "skin": "netRes/arena/text_sysj.png"
+              },
+              "compId": 144,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 6,
+                    "skin": "netRes/arena/text_colon.png",
+                    "right": -7
+                  },
+                  "compId": 176
+                }
+              ]
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": -1,
+                "x": 82,
+                "var": "unit1Txt",
+                "value": "00",
+                "spaceX": -7,
+                "skin": "res_common/number/num_19_jxzk_ffffff_stk_1.png",
+                "sheet": "0123456789"
+              },
+              "compId": 146
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 14,
+                "x": 121,
+                "var": "unit1Icon",
+                "text": "text",
+                "skin": "netRes/arena/text_tian.png",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 147
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": -1,
+                "x": 129,
+                "var": "unit2Txt",
+                "value": "00",
+                "spaceX": -7,
+                "skin": "res_common/number/num_19_jxzk_ffffff_stk_1.png",
+                "sheet": "0123456789",
+                "align": "center"
+              },
+              "compId": 148
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 14,
+                "x": 167,
+                "var": "unit2Icon",
+                "text": "text",
+                "skin": "netRes/arena/text_shi.png",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 149
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 657.5,
+            "width": 269,
+            "visible": false,
+            "var": "waitTips",
+            "height": 96,
+            "centerX": 0
+          },
+          "compId": 150,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 35,
+                "skin": "netRes/arenaN/text_jlxhdkq.png"
+              },
+              "compId": 182
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 22,
+                "width": 250,
+                "height": 80,
+                "centerX": -4
+              },
+              "compId": 183,
+              "child": [
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "x": -28,
+                    "var": "waitFc1",
+                    "value": "00",
+                    "spaceX": -30,
+                    "skin": "res_common/number/num_50_jxzk_fffbe8_stk.png",
+                    "sheet": "0123456789",
+                    "centerY": 5
+                  },
+                  "compId": 184
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "x": 99,
+                    "var": "waitImg1",
+                    "text": "text",
+                    "skin": "netRes/arenaN/text_tian.png",
+                    "centerY": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 185
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "x": 125,
+                    "var": "waitFc2",
+                    "value": "00",
+                    "spaceX": -30,
+                    "skin": "res_common/number/num_50_jxzk_fffbe8_stk.png",
+                    "sheet": "0123456789",
+                    "centerY": 5
+                  },
+                  "compId": 186
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "x": 250,
+                    "var": "waitImg2",
+                    "text": "text",
+                    "skin": "netRes/arenaN/text_shi.png",
+                    "centerY": -1,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 187
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 150,
+            "x": 610,
+            "visible": false,
+            "var": "seasonImg"
+          },
+          "compId": 154,
+          "child": [
+            {
+              "type": "Sprite",
+              "props": {
+                "y": -3,
+                "x": 49,
+                "visible": false,
+                "texture": "main/redpoint.png",
+                "name": "redPoint"
+              },
+              "compId": 155
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 452.5,
+            "x": 72,
+            "var": "btnRward",
+            "skin": "netRes/arenaN/icon_jlyl.png",
+            "scaleY": 1.1,
+            "scaleX": 1.1
+          },
+          "compId": 202,
+          "child": [
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 0,
+                "x": 56.5,
+                "visible": false,
+                "texture": "main/redpoint.png"
+              },
+              "compId": 203
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 64,
+                "skin": "netRes/arenaN/text_jlyl.png",
+                "centerX": 0,
+                "anchorX": 0.5
+              },
+              "compId": 204
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 452.5,
+            "x": 573.5,
+            "var": "btnRank",
+            "skin": "netRes/arenaN/season_1.png",
+            "scaleY": 1.1,
+            "scaleX": 1.1
+          },
+          "compId": 177,
+          "child": [
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 0,
+                "x": 56.5,
+                "visible": false,
+                "texture": "main/redpoint.png"
+              },
+              "compId": 178
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 64,
+                "var": "nameRank",
+                "skin": "netRes/arenaN/text_season_1.png",
+                "name": "nameRank",
+                "centerX": 0,
+                "anchorX": 0.5
+              },
+              "compId": 179
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "x": 13,
+        "width": 750,
+        "visible": false,
+        "var": "infoBox",
+        "height": 821,
+        "centerY": 137
+      },
+      "compId": 77,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 412,
+            "x": 375,
+            "width": 1000,
+            "var": "infoSd",
+            "skin": "res_common/bg.png",
+            "height": 1625,
+            "centerX": 0,
+            "anchorY": 0.5,
+            "anchorX": 0.5,
+            "alpha": 0.6
+          },
+          "compId": 86
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 32,
+            "width": 613,
+            "height": 697,
+            "centerX": 0
+          },
+          "compId": 104,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "width": 621,
+                "skin": "res_common/bg_1.png",
+                "sizeGrid": "193,0,170,0",
+                "height": 469,
+                "centerX": 0
+              },
+              "compId": 79
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 47,
+                "x": 160,
+                "skin": "netRes/task/bg_title01.png"
+              },
+              "compId": 215,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 8,
+                    "x": 107,
+                    "skin": "res_combat/boss/text_shuoming.png"
+                  },
+                  "compId": 216
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 62,
+                "x": 160,
+                "var": "Labelbox"
+              },
+              "compId": 217,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 64,
+                    "x": -126,
+                    "wordWrap": true,
+                    "width": 509,
+                    "text": "1、通关善事20，可以进入仙门大比",
+                    "height": 28,
+                    "fontSize": 22,
+                    "font": "Microsoft YaHei",
+                    "color": "#684546"
+                  },
+                  "compId": 218
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 92,
+                    "x": -126,
+                    "wordWrap": true,
+                    "width": 515,
+                    "text": "2、进入仙门大比，需要消耗20个仙门令，或者通过",
+                    "height": 28,
+                    "fontSize": 22,
+                    "font": "Microsoft YaHei",
+                    "color": "#684546"
+                  },
+                  "compId": 219
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 120,
+                    "x": -126,
+                    "wordWrap": true,
+                    "width": 510,
+                    "text": "观看视频进入，随着善事的章节数提升，每日观看视",
+                    "height": 28,
+                    "fontSize": 22,
+                    "font": "Microsoft YaHei",
+                    "color": "#684546"
+                  },
+                  "compId": 220
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 203,
+                    "x": -126,
+                    "wordWrap": true,
+                    "width": 515,
+                    "text": "获得一定数量的兵种或装备，用于丰富自己的阵容",
+                    "rotation": 0,
+                    "height": 28,
+                    "fontSize": 22,
+                    "font": "Microsoft YaHei",
+                    "color": "#684546"
+                  },
+                  "compId": 221
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 175,
+                    "x": -126,
+                    "wordWrap": true,
+                    "width": 552,
+                    "text": "3、每次进入仙门大比或者每次战斗完成之后，都将",
+                    "rotation": 0,
+                    "height": 28,
+                    "fontSize": 22,
+                    "font": "Microsoft YaHei",
+                    "color": "#684546"
+                  },
+                  "compId": 222
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 231,
+                    "x": -126,
+                    "wordWrap": true,
+                    "width": 515,
+                    "text": "4、胜利12次或失败3次之后，将结束本次仙门大比",
+                    "height": 28,
+                    "fontSize": 22,
+                    "font": "Microsoft YaHei",
+                    "color": "#684546"
+                  },
+                  "compId": 223
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 149,
+                    "x": -126,
+                    "wordWrap": true,
+                    "width": 515,
+                    "text": "频进入的次数也会增加，最多增加到3次",
+                    "height": 28,
+                    "fontSize": 22,
+                    "font": "Microsoft YaHei",
+                    "color": "#684546"
+                  },
+                  "compId": 224
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 259,
+                    "x": -126,
+                    "wordWrap": true,
+                    "width": 515,
+                    "text": "挑战",
+                    "height": 28,
+                    "fontSize": 22,
+                    "font": "Microsoft YaHei",
+                    "color": "#684546"
+                  },
+                  "compId": 225
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 287,
+                    "x": -126,
+                    "wordWrap": true,
+                    "width": 515,
+                    "text": "5、仙门大比挑战的胜利次数越多，获得的奖励越丰",
+                    "height": 28,
+                    "fontSize": 22,
+                    "font": "Microsoft YaHei",
+                    "color": "#684546"
+                  },
+                  "compId": 226
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 315,
+                    "x": -126,
+                    "wordWrap": true,
+                    "width": 515,
+                    "text": "厚",
+                    "height": 28,
+                    "fontSize": 22,
+                    "font": "Microsoft YaHei",
+                    "color": "#684546"
+                  },
+                  "compId": 227
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -12.5,
+                "x": 570.5,
+                "var": "node_close",
+                "skin": "res_common/btn_close.png"
+              },
+              "compId": 234
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 469,
+                "x": 171,
+                "skin": "res_view/rank/text_djgb.png"
+              },
+              "compId": 235
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 1194,
+        "x": -140,
+        "width": 1008,
+        "var": "Botton",
+        "skin": "res_common/bg.png",
+        "name": "Botton",
+        "height": 530,
+        "alpha": 0
+      },
+      "compId": 193
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 110,
+          "keyframes": {
+            "y": [
+              {
+                "value": -500,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 110,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 83.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 110,
+                "key": "y",
+                "index": 10
+              }
+            ],
+            "x": [
+              {
+                "value": 125,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 110,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 95,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 110,
+                "key": "x",
+                "index": 10
+              }
+            ]
+          }
+        },
+        {
+          "target": 177,
+          "keyframes": {
+            "y": [
+              {
+                "value": -500,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 177,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 396,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 177,
+                "key": "y",
+                "index": 10
+              }
+            ]
+          }
+        },
+        {
+          "target": 202,
+          "keyframes": {
+            "y": [
+              {
+                "value": -500,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 202,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 398,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 202,
+                "key": "y",
+                "index": 10
+              }
+            ]
+          }
+        },
+        {
+          "target": 194,
+          "keyframes": {
+            "y": [
+              {
+                "value": 1356,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 194,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 1135,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 194,
+                "key": "y",
+                "index": 10
+              }
+            ]
+          }
+        },
+        {
+          "target": 94,
+          "keyframes": {
+            "y": [
+              {
+                "value": 1260,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 94,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 909,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 94,
+                "key": "y",
+                "index": 10
+              }
+            ]
+          }
+        },
+        {
+          "target": 75,
+          "keyframes": {
+            "y": [
+              {
+                "value": 1314,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 75,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 876,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 75,
+                "key": "y",
+                "index": 10
+              }
+            ]
+          }
+        },
+        {
+          "target": 143,
+          "keyframes": {
+            "y": [
+              {
+                "value": -113,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 143,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 550,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 143,
+                "key": "y",
+                "index": 10
+              }
+            ]
+          }
+        },
+        {
+          "target": 150,
+          "keyframes": {
+            "y": [
+              {
+                "value": 1269,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 150,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 657.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 150,
+                "key": "y",
+                "index": 10
+              }
+            ]
+          }
+        },
+        {
+          "target": 92,
+          "keyframes": {
+            "y": [
+              {
+                "value": 1234,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 92,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 657,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 92,
+                "key": "y",
+                "index": 10
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani1",
+      "id": 1,
+      "frameRate": 60,
+      "action": 1
+    },
+    {
+      "nodes": [
+        {
+          "target": 209,
+          "keyframes": {
+            "y": [
+              {
+                "value": 717,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 209,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 725,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 209,
+                "key": "y",
+                "index": 30
+              },
+              {
+                "value": 717,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 209,
+                "label": null,
+                "key": "y",
+                "index": 90
+              }
+            ]
+          }
+        },
+        {
+          "target": 214,
+          "keyframes": {
+            "y": [
+              {
+                "value": 763.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 214,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 734,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 214,
+                "key": "y",
+                "index": 30
+              },
+              {
+                "value": 763.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 214,
+                "label": null,
+                "key": "y",
+                "index": 90
+              }
+            ]
+          }
+        },
+        {
+          "target": 213,
+          "keyframes": {
+            "y": [
+              {
+                "value": 702.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 213,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 727,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 213,
+                "key": "y",
+                "index": 30
+              },
+              {
+                "value": 702.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 213,
+                "label": null,
+                "key": "y",
+                "index": 90
+              }
+            ]
+          }
+        },
+        {
+          "target": 212,
+          "keyframes": {
+            "y": [
+              {
+                "value": 840,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 212,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 860,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 212,
+                "key": "y",
+                "index": 35
+              },
+              {
+                "value": 840,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 212,
+                "label": null,
+                "key": "y",
+                "index": 90
+              }
+            ]
+          }
+        },
+        {
+          "target": 211,
+          "keyframes": {
+            "y": [
+              {
+                "value": 856.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 211,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 840,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 211,
+                "key": "y",
+                "index": 45
+              },
+              {
+                "value": 856.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 211,
+                "label": null,
+                "key": "y",
+                "index": 90
+              }
+            ]
+          }
+        },
+        {
+          "target": 210,
+          "keyframes": {
+            "y": [
+              {
+                "value": 717,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 210,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 740,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 210,
+                "key": "y",
+                "index": 45
+              },
+              {
+                "value": 717,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 210,
+                "label": null,
+                "key": "y",
+                "index": 90
+              }
+            ]
+          }
+        }
+      ],
+      "name": "people",
+      "id": 2,
+      "frameRate": 24,
+      "action": 2
+    }
+  ],
+  "loadList": [
+    "netRes/arenaN/icon_yaoqinghan.png",
+    "netRes/arenaN/icon_sm.png",
+    "main/redpoint.png",
+    "res_common/bg_1.png"
+  ],
+  "loadList3D": []
+}

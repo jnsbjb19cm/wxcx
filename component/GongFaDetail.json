@@ -1,0 +1,446 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "runtime": "game/view/component/GongFaDetail.ts",
+    "height": 1220
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Sprite",
+      "props": {
+        "texture": "res_view/gongFa/bg_talent.jpg"
+      },
+      "compId": 263
+    },
+    {
+      "type": "Box",
+      "props": {
+        "var": "awakeLineBox",
+        "top": 0,
+        "right": 0,
+        "left": 0,
+        "bottom": 0
+      },
+      "compId": 153
+    },
+    {
+      "type": "ViewStack",
+      "props": {
+        "x": 0,
+        "var": "raceViewStack",
+        "top": 0,
+        "selectedIndex": 0,
+        "right": 0,
+        "left": 0,
+        "bottom": 0
+      },
+      "compId": 265,
+      "child": [
+        {
+          "type": "GongFaRace_xk",
+          "props": {
+            "name": "item0",
+            "runtime": "ui.component.GongFaRace_xkUI"
+          },
+          "compId": 379
+        },
+        {
+          "type": "GongFaRace_xx",
+          "props": {
+            "name": "item1",
+            "runtime": "ui.component.GongFaRace_xxUI"
+          },
+          "compId": 380
+        },
+        {
+          "type": "GongFaRace_mj",
+          "props": {
+            "name": "item2",
+            "runtime": "ui.component.GongFaRace_mjUI"
+          },
+          "compId": 381
+        }
+      ]
+    },
+    {
+      "type": "List",
+      "props": {
+        "y": 1069,
+        "width": 740,
+        "var": "tabList",
+        "spaceX": -41,
+        "selectedIndex": 0,
+        "selectEnable": true,
+        "repeatY": 1,
+        "repeatX": 4,
+        "mouseThrough": true,
+        "mouseEnabled": true,
+        "height": 119,
+        "centerX": 0
+      },
+      "compId": 94,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "y": 38,
+            "x": -13,
+            "width": 230,
+            "scaleY": 0.9,
+            "scaleX": 0.85,
+            "renderType": "render",
+            "height": 79
+          },
+          "compId": 258,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 38,
+                "x": 115,
+                "width": 230,
+                "skin": "res_common/btn_hua_yellow.png",
+                "name": "tabBg",
+                "height": 79,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 96,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "text": "text",
+                    "skin": "res_view/gongFa/text_label_xk.png",
+                    "centerY": -3,
+                    "centerX": 0
+                  },
+                  "compId": 257
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -31,
+                "x": 15.5,
+                "skin": "res_view/gongFa/panel_price.png"
+              },
+              "compId": 262
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "value": "0",
+                "presetID": 1,
+                "name": "propNum",
+                "centerY": -54,
+                "centerX": 17,
+                "alpha": 1,
+                "y": 0,
+                "x": 0,
+                "spaceX": -5,
+                "skin": "res_common/number/num_24_jxzk_ffffff.png",
+                "sheet": "0123456789",
+                "isPresetRoot": true
+              },
+              "compId": 261,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -40,
+                    "x": -15,
+                    "width": 50,
+                    "skin": "netRes/icon/itemIcon/icon_miji_xiake.png",
+                    "height": 50,
+                    "centerY": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5,
+                    "alpha": 1
+                  },
+                  "compId": 259
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 254,
+        "x": 681.5,
+        "var": "getPonitBtn",
+        "stateNum": 1,
+        "skin": "res_view/gongFa/btn_obtain.png",
+        "label": "label",
+        "anchorY": 0.5,
+        "anchorX": 0.5
+      },
+      "compId": 69,
+      "child": [
+        {
+          "type": "Sprite",
+          "props": {
+            "y": -6,
+            "x": 70,
+            "visible": false,
+            "texture": "main/redpoint.png",
+            "name": "redPoint"
+          },
+          "compId": 387
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 129,
+        "x": 685.5,
+        "var": "resetPointBtn",
+        "stateNum": 1,
+        "skin": "res_view/gongFa/btn_replace.png",
+        "label": "label",
+        "anchorY": 0.5,
+        "anchorX": 0.5
+      },
+      "compId": 73
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 157,
+        "x": 53,
+        "var": "returnBtn",
+        "stateNum": 1,
+        "skin": "res_common/btn_back1.png",
+        "label": "label",
+        "anchorY": 0.5,
+        "anchorX": 0.5
+      },
+      "compId": 264
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 69,
+          "keyframes": {
+            "x": [
+              {
+                "value": 128,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 69,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 128,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 69,
+                "label": null,
+                "key": "x",
+                "index": 16
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 69,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 69,
+                "label": null,
+                "key": "alpha",
+                "index": 16
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 69,
+                "key": "alpha",
+                "index": 24
+              }
+            ]
+          }
+        },
+        {
+          "target": 73,
+          "keyframes": {
+            "x": [
+              {
+                "value": 623,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 73,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 623,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 73,
+                "label": null,
+                "key": "x",
+                "index": 16
+              },
+              {
+                "value": 623,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 73,
+                "key": "x",
+                "index": 24
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 73,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 73,
+                "label": null,
+                "key": "alpha",
+                "index": 16
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 73,
+                "key": "alpha",
+                "index": 24
+              }
+            ]
+          }
+        },
+        {
+          "target": 94,
+          "keyframes": {
+            "y": [
+              {
+                "value": 860,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 94,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 860,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 94,
+                "label": null,
+                "key": "y",
+                "index": 13
+              },
+              {
+                "value": 928,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 94,
+                "key": "y",
+                "index": 19
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 94,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0.01,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 94,
+                "key": "alpha",
+                "index": 13
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 94,
+                "key": "alpha",
+                "index": 19
+              }
+            ]
+          }
+        },
+        {
+          "target": 153,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 153,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0.01,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 153,
+                "key": "alpha",
+                "index": 16
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 153,
+                "key": "alpha",
+                "index": 24
+              }
+            ]
+          }
+        }
+      ],
+      "name": "enterAni",
+      "id": 1,
+      "frameRate": 60,
+      "action": 0
+    }
+  ],
+  "loadList": [
+    "res_view/gongFa/bg_talent.jpg",
+    "component/GongFaRace_xk.scene",
+    "component/GongFaRace_xx.scene",
+    "component/GongFaRace_mj.scene",
+    "prefab/number/num_24_jxzk_ffffff.prefab",
+    "main/redpoint.png"
+  ],
+  "loadList3D": []
+}

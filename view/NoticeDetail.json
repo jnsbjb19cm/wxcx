@@ -1,0 +1,405 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": true,
+    "height": 1344,
+    "drawCallOptimize": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "width": 1000,
+        "var": "maskBg1",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 140
+    },
+    {
+      "type": "Image",
+      "props": {
+        "x": -3,
+        "width": 756,
+        "var": "tipPanel",
+        "skin": "res_view/announce/img_house_title03.png",
+        "sizeGrid": "145,0,158,0",
+        "presetID": 1,
+        "mouseThrough": true,
+        "centerY": -35,
+        "y": 0,
+        "isPresetRoot": true,
+        "height": 329,
+        "centerX": 0
+      },
+      "compId": 149,
+      "child": [
+        {
+          "type": "Panel",
+          "props": {
+            "y": 136,
+            "width": 520,
+            "visible": false,
+            "var": "scrollPanel",
+            "vScrollBarSkin": " ",
+            "centerX": 0
+          },
+          "compId": 156,
+          "child": [
+            {
+              "type": "VBox",
+              "props": {
+                "y": 33,
+                "x": 0,
+                "space": 25
+              },
+              "compId": 214,
+              "child": [
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 125,
+                    "width": 271,
+                    "var": "Box_update",
+                    "height": 46
+                  },
+                  "compId": 191,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "width": 271,
+                        "skin": "res_common/bg_title01.png",
+                        "sizeGrid": "47,0,6,0",
+                        "name": "Image_update_bg",
+                        "height": 48
+                      },
+                      "compId": 176
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 8,
+                        "x": 73,
+                        "skin": "res_view/announce/text_banbengengxin_3.png",
+                        "name": "Image_update_text"
+                      },
+                      "compId": 177
+                    }
+                  ]
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 53,
+                    "wordWrap": true,
+                    "width": 520,
+                    "visible": true,
+                    "var": "updateTxt",
+                    "text": "各位少侠，当前版本涵盖内容如下：- 副本：40章- 掌门：2人- 兵种：侠客、修行、魔教- 装备：45件",
+                    "stroke": 0,
+                    "presetID": 4,
+                    "name": "",
+                    "leading": 6,
+                    "fontSize": 24,
+                    "font": "SimHei",
+                    "color": "#4c3425",
+                    "centerX": -1,
+                    "bold": true
+                  },
+                  "compId": 153
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 327,
+                    "x": 125,
+                    "var": "Box_nextUpdate"
+                  },
+                  "compId": 192,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": -1,
+                        "width": 271,
+                        "skin": "res_common/bg_title01.png",
+                        "sizeGrid": "47,0,5,0",
+                        "name": "Image_update_bg",
+                        "height": 49
+                      },
+                      "compId": 189
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 9,
+                        "x": 72.25,
+                        "skin": "res_view/announce/text_banbenyugao.png",
+                        "name": "Image_update_text"
+                      },
+                      "compId": 190
+                    }
+                  ]
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 404,
+                    "x": 0,
+                    "wordWrap": true,
+                    "width": 520,
+                    "var": "nextUpdateTxt",
+                    "text": "敬请期待更多内容！",
+                    "stroke": 0,
+                    "presetID": 4,
+                    "leading": 12,
+                    "fontSize": 24,
+                    "font": "SimHei",
+                    "color": "#4c3425",
+                    "centerX": 0,
+                    "bold": true,
+                    "align": "left"
+                  },
+                  "compId": 154
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Panel",
+          "props": {
+            "y": 165,
+            "x": 50,
+            "width": 652,
+            "visible": false,
+            "var": "scrollPanel2",
+            "vScrollBarSkin": " "
+          },
+          "compId": 161,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "wordWrap": true,
+                "width": 531,
+                "var": "freeze",
+                "top": 10,
+                "stroke": 0,
+                "right": 60,
+                "presetID": 4,
+                "name": "",
+                "leading": 6,
+                "fontSize": 24,
+                "font": "Microsoft YaHei",
+                "color": "#4c3425",
+                "bold": true,
+                "y": 15,
+                "text": "返  回",
+                "centerX": 0
+              },
+              "compId": 164
+            }
+          ]
+        },
+        {
+          "type": "List",
+          "props": {
+            "y": 66,
+            "x": 194,
+            "width": 379,
+            "var": "tabList",
+            "spaceX": -28,
+            "selectedIndex": 1,
+            "selectEnable": true,
+            "repeatY": 1,
+            "repeatX": 2,
+            "mouseThrough": true,
+            "mouseEnabled": true,
+            "height": 84,
+            "centerX": 7,
+            "alpha": 1
+          },
+          "compId": 157,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "x": 0,
+                "width": 197,
+                "renderType": "render",
+                "mouseThrough": true,
+                "mouseEnabled": true,
+                "height": 90,
+                "centerY": 0
+              },
+              "compId": 158,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "res_common/btn_common_label01.png",
+                    "name": "tabBg",
+                    "centerY": 0,
+                    "centerX": 0
+                  },
+                  "compId": 159
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 35,
+                    "x": 35,
+                    "skin": "res_view/announce/text_banbengengxin_1.png",
+                    "name": "Img_tabName"
+                  },
+                  "compId": 175
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "res_view/announce/img_fenyejiantou.png",
+                    "name": "Img_select",
+                    "centerY": 30,
+                    "centerX": 10
+                  },
+                  "compId": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 21,
+            "x": 614,
+            "var": "closeBtn",
+            "skin": "res_common/btn_close.png"
+          },
+          "compId": 170
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 15,
+            "x": 148,
+            "skin": "res_view/announce/text_gonggao.png",
+            "alpha": 1
+          },
+          "compId": 198
+        },
+        {
+          "type": "Image",
+          "props": {
+            "x": 244.5,
+            "skin": "res_common/text_djgb.png",
+            "name": "blankClose",
+            "bottom": -13
+          },
+          "compId": 217
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 122,
+          "keyframes": {
+            "x": [
+              {
+                "value": 150,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 150,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "x",
+                "index": 50
+              }
+            ],
+            "text": [
+              {
+                "value": "5",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 0
+              },
+              {
+                "value": "4",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 10
+              },
+              {
+                "value": "3",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 20
+              },
+              {
+                "value": "2",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 30
+              },
+              {
+                "value": "1",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 40
+              },
+              {
+                "value": "0",
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "text",
+                "index": 50
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani",
+      "id": 1,
+      "frameRate": 10,
+      "action": 0
+    }
+  ],
+  "loadList": [
+    "res_view/announce/img_house_title03.png",
+    "prefab/tipPanel.prefab"
+  ],
+  "loadList3D": []
+}

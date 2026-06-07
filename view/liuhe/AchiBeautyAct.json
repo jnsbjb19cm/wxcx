@@ -1,0 +1,32 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "width": 590,
+        "height": 760
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Panel",
+          "props": {
+            "width": 591,
+            "var": "cnlist",
+            "vScrollBarSkin": " ",
+            "height": 780
+          },
+          "compId": 4
+        }
+      ]
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

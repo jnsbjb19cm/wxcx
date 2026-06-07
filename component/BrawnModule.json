@@ -1,0 +1,80 @@
+{
+  "type": "View",
+  "props": {
+    "width": 150,
+    "height": 65
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "skin": "res_combat/public/plist_tili.png"
+      },
+      "compId": 4
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 4,
+        "x": 3,
+        "var": "brawnImg",
+        "skin": "res_combat/public/icon_tili_l.png",
+        "scaleY": 0.6,
+        "scaleX": 0.6
+      },
+      "compId": 5
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 34.5,
+        "x": 37,
+        "skin": "res_combat/public/hc_icon_add.png"
+      },
+      "compId": 14
+    },
+    {
+      "type": "FontClip",
+      "props": {
+        "y": 9,
+        "x": 31.5,
+        "width": 109,
+        "var": "brawnLab",
+        "value": "118/120",
+        "presetID": 1,
+        "height": 34,
+        "align": "center",
+        "spaceX": -10,
+        "skin": "res_common/number/num_18_rhrc_ffffff_stk.png",
+        "sheet": "0123456789-+*/",
+        "isPresetRoot": true
+      },
+      "compId": 13
+    },
+    {
+      "type": "FontClip",
+      "props": {
+        "y": -16,
+        "x": 36,
+        "width": 105,
+        "visible": false,
+        "var": "cdLab",
+        "value": "00:00:00",
+        "spaceX": -11,
+        "presetID": 1,
+        "height": 34,
+        "skin": "res_common/number/num_14_rhrc_ffffff_stk.png",
+        "sheet": "0123456789-+*:",
+        "isPresetRoot": true,
+        "align": "center"
+      },
+      "compId": 11
+    }
+  ],
+  "loadList": [
+    "prefab/number/num_18_rhrc_ffffff_stk.prefab",
+    "prefab/number/num_14_rhrc_ffffff_stk.prefab"
+  ],
+  "loadList3D": []
+}

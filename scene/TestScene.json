@@ -1,0 +1,48 @@
+{
+  "type": "Scene",
+  "props": {
+    "width": 750,
+    "runtime": "game/scene/TestScene.ts",
+    "height": 1334,
+    "autoDestroyAtClosed": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Button",
+      "props": {
+        "y": 330,
+        "var": "vicBtn",
+        "stateNum": 1,
+        "skin": "",
+        "labelStroke": 2,
+        "labelSize": 35,
+        "labelFont": "Microsoft YaHei",
+        "labelColors": "#ffffff",
+        "labelBold": true,
+        "label": "胜  利",
+        "centerX": 0
+      },
+      "compId": 3
+    },
+    {
+      "type": "Button",
+      "props": {
+        "y": 526,
+        "var": "failBtn",
+        "stateNum": 1,
+        "skin": "",
+        "labelStroke": 2,
+        "labelSize": 35,
+        "labelFont": "Microsoft YaHei",
+        "labelColors": "#ffffff",
+        "labelBold": true,
+        "label": "失  败",
+        "centerX": 0
+      },
+      "compId": 4
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

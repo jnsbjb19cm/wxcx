@@ -1,0 +1,758 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": true,
+    "height": 1344,
+    "drawCallOptimize": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 672,
+        "x": 375,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.8
+      },
+      "compId": 390
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 405,
+        "width": 750,
+        "var": "contentBox",
+        "height": 900,
+        "centerX": 0
+      },
+      "compId": 391,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 150,
+            "x": -32,
+            "var": "win_backgroud",
+            "skin": "res_view/settle/background.png",
+            "name": "win_backgroud",
+            "alpha": 0.8970588235294118
+          },
+          "compId": 491
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 1,
+            "x": 384,
+            "width": 351,
+            "visible": false,
+            "skin": "res_view/settle/img_battle_win02.png",
+            "scaleY": 1.95,
+            "scaleX": 1.95,
+            "height": 337,
+            "anchorY": 0.5,
+            "anchorX": 0.5,
+            "alpha": 1
+          },
+          "compId": 492
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 383,
+            "x": 375,
+            "visible": true,
+            "scaleY": 1,
+            "scaleX": 1,
+            "name": "winBg",
+            "anchorY": 0.5,
+            "anchorX": 0.5,
+            "alpha": 1
+          },
+          "compId": 455,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -330,
+                "x": 1,
+                "width": 285,
+                "skin": "res_view/settle/bg_battle_win1.png",
+                "scaleY": 0.985,
+                "scaleX": 0.9977777777777778,
+                "pivotY": 142,
+                "pivotX": 143,
+                "name": "winbg",
+                "height": 284,
+                "alpha": 1
+              },
+              "compId": 456
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -269.2962962962963,
+                "x": -217.7037037037037,
+                "skin": "res_view/settle/bg_battle_win3.png",
+                "scaleY": 0.9977777777777778,
+                "scaleX": 0.9977777777777778,
+                "name": "bg_1",
+                "alpha": 1
+              },
+              "compId": 457
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -273.64814814814818,
+                "x": -30.296296296296299,
+                "skin": "res_view/settle/bg_battle_win7.png",
+                "scaleY": 0.9977777777777778,
+                "scaleX": 0.9977777777777778,
+                "name": "bg_2",
+                "height": 65,
+                "alpha": 1
+              },
+              "compId": 458
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -283,
+                "x": -57,
+                "skin": "res_view/settle/bg_battle_win8.png",
+                "scaleY": 0.9977777777777778,
+                "scaleX": 0.9977777777777778,
+                "name": "bg_3",
+                "alpha": 1
+              },
+              "compId": 459
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -303.14814814814818,
+                "x": -230.7037037037037,
+                "width": 155,
+                "skin": "res_view/settle/bg_battle_win4.png",
+                "scaleY": 0.9977777777777778,
+                "scaleX": 0.9977777777777778,
+                "name": "bg_4",
+                "height": 34,
+                "alpha": 1
+              },
+              "compId": 460
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -306.14814814814818,
+                "x": 159.55555555555555,
+                "width": 124,
+                "skin": "res_view/settle/bg_battle_win5.png",
+                "scaleY": 0.9977777777777778,
+                "scaleX": 0.9977777777777778,
+                "pivotY": 18,
+                "pivotX": 62,
+                "name": "bg_5",
+                "height": 36,
+                "alpha": 1
+              },
+              "compId": 461
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -263,
+                "x": -157,
+                "width": 340,
+                "skin": "res_view/settle/bg_battle_win_light02.png",
+                "scaleY": 0.9341463414634148,
+                "scaleX": 0.9341463414634148,
+                "rotation": -43,
+                "name": "bg_li_1",
+                "height": 244,
+                "anchorX": 0,
+                "alpha": 0.34146341463414639
+              },
+              "compId": 462
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -508,
+                "x": 33,
+                "width": 340,
+                "skin": "res_view/settle/bg_battle_win_light02.png",
+                "scaleY": 0.9341463414634148,
+                "scaleX": 0.9341463414634148,
+                "rotation": 0,
+                "pivotY": 107,
+                "pivotX": 233,
+                "name": "bg_li_2",
+                "height": 244,
+                "alpha": 0.34146341463414639
+              },
+              "compId": 463
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -326,
+                "x": -2,
+                "width": 476,
+                "skin": "res_view/settle/bg_battle_win_light01.png",
+                "scaleY": 0.9115942028985508,
+                "scaleX": 0.8231884057971015,
+                "pivotY": 95,
+                "pivotX": 238,
+                "name": "bg_li_3",
+                "height": 190,
+                "alpha": 0
+              },
+              "compId": 464
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -333,
+                "x": 0,
+                "width": 290,
+                "skin": "res_view/settle/bg_battle_win12.png",
+                "scaleY": 1,
+                "scaleX": 1,
+                "rotation": -135.85185185185186,
+                "pivotY": 145,
+                "pivotX": 145,
+                "name": "winbgfish",
+                "height": 290,
+                "alpha": 1
+              },
+              "compId": 465
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -34,
+                "x": -5,
+                "width": 169,
+                "skin": "res_view/settle/bg_battle_win12_R.png",
+                "scaleY": 1.2,
+                "scaleX": 1.2,
+                "rotation": 30,
+                "pivotY": 141,
+                "pivotX": 17,
+                "name": "fish_r",
+                "height": 282,
+                "alpha": 0
+              },
+              "compId": 466
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -20,
+                "x": 7,
+                "width": 177,
+                "skin": "res_view/settle/bg_battle_win12_L.png",
+                "scaleY": 1.2,
+                "scaleX": 1.2,
+                "rotation": 30,
+                "pivotY": 143,
+                "pivotX": 153,
+                "name": "fish_l",
+                "height": 286,
+                "alpha": 0
+              },
+              "compId": 467
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -344,
+                "x": 149,
+                "skin": "res_view/settle/bg_battle_win16_1.png",
+                "name": "bg_hudie_1",
+                "alpha": 0
+              },
+              "compId": 468
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -423,
+                "x": -67,
+                "width": 51,
+                "skin": "res_view/settle/bg_battle_win16_1.png",
+                "scaleY": 0.031746031746031747,
+                "scaleX": 0.031746031746031747,
+                "pivotY": 25,
+                "pivotX": 26,
+                "name": "bg_hudie_2",
+                "height": 50,
+                "alpha": 0
+              },
+              "compId": 469
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -474,
+                "x": 31,
+                "width": 26,
+                "skin": "res_view/settle/bg_battle_win16_1.png",
+                "scaleY": 0.031746031746031747,
+                "scaleX": 0.031746031746031747,
+                "pivotY": 15,
+                "pivotX": 13,
+                "name": "bg_hudie_3",
+                "height": 29,
+                "alpha": 0
+              },
+              "compId": 470
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -197,
+                "x": 4,
+                "width": 155,
+                "skin": "res_view/settle/tab_battle.png",
+                "scaleY": 1,
+                "scaleX": 1,
+                "pivotY": 19,
+                "pivotX": 78,
+                "name": "gxtg",
+                "height": 37,
+                "alpha": 1
+              },
+              "compId": 471,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 4,
+                    "x": 50,
+                    "skin": "res_combat/arena/text_huode.png"
+                  },
+                  "compId": 472
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 132,
+            "x": 375,
+            "visible": false,
+            "var": "winGuang",
+            "skin": "res_view/settle/b_guang.png",
+            "scaleY": 1.95,
+            "scaleX": 1.95,
+            "anchorY": 0.5,
+            "anchorX": 0.5,
+            "alpha": 0
+          },
+          "compId": 393
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 327,
+            "width": 521,
+            "var": "rwdBox",
+            "height": 366,
+            "centerX": 10
+          },
+          "compId": 438,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 29,
+                "width": 521,
+                "visible": true,
+                "height": 436,
+                "centerX": -10
+              },
+              "compId": 475,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -20,
+                    "x": 180,
+                    "visible": true,
+                    "var": "sthdbg_l",
+                    "skin": "res_view/settle/bg_battle_win10.png",
+                    "name": "sthd_l_bg",
+                    "alpha": 1
+                  },
+                  "compId": 476,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 128,
+                        "var": "sthdbg_r",
+                        "skin": "res_view/settle/bg_battle_win10.png",
+                        "name": "r_bg"
+                      },
+                      "compId": 477,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -3,
+                            "x": -48,
+                            "width": 139,
+                            "var": "sthdbg_cen",
+                            "skin": "res_view/settle/bg_battle_win9.png",
+                            "pivotX": 70,
+                            "name": "cenbg",
+                            "height": 37,
+                            "alpha": 1
+                          },
+                          "compId": 478
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -17,
+                    "visible": true,
+                    "var": "midTitle",
+                    "skin": "res_view/settle/text_tongguan.png",
+                    "centerX": 0,
+                    "alpha": 0.75
+                  },
+                  "compId": 480
+                },
+                {
+                  "type": "HBox",
+                  "props": {
+                    "x": 150,
+                    "var": "nmRwdBox",
+                    "space": 10,
+                    "name": "nmRwdBox",
+                    "height": 120,
+                    "centerY": -112
+                  },
+                  "compId": 454
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Button",
+          "props": {
+            "y": 775,
+            "width": 207,
+            "var": "confirmBtn",
+            "stateNum": 1,
+            "skin": "res_combat/specialStageView/biaoJu/btn_blue.png",
+            "height": 75,
+            "centerX": -133,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 447,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 21,
+                "x": 53,
+                "width": 96,
+                "skin": "netRes/arenaN/invite/text_lq.png",
+                "sizeGrid": "0,37,0,38",
+                "name": "txt_lq",
+                "height": 33
+              },
+              "compId": 449
+            },
+            {
+              "type": "Script",
+              "props": {
+                "runtime": "game/tools/BtnScale85.ts"
+              },
+              "compId": 450
+            }
+          ]
+        },
+        {
+          "type": "Button",
+          "props": {
+            "y": 775,
+            "width": 207,
+            "var": "doubleBtn",
+            "stateNum": 1,
+            "skin": "res_combat/specialStageView/biaoJu/btn_yellow.png",
+            "height": 69,
+            "centerX": 134,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 448,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 20.5,
+                "x": 16.5,
+                "skin": "res_view/settle/text_sblq.png",
+                "name": "txt_sblq"
+              },
+              "compId": 452
+            },
+            {
+              "type": "Script",
+              "props": {
+                "runtime": "game/tools/BtnScale85.ts"
+              },
+              "compId": 453
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -163,
+            "x": 215,
+            "skin": "res_combat/arena/icon_sdjs.png",
+            "name": "title"
+          },
+          "compId": 490
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 654,
+            "x": 0,
+            "skin": "res_view/settle/img_open_decorationline.png",
+            "name": "rwd_Bg",
+            "alpha": 1
+          },
+          "compId": 498
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 393,
+          "keyframes": {
+            "x": [
+              {
+                "value": 375,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 393,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 375,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 393,
+                "label": null,
+                "key": "x",
+                "index": 13
+              },
+              {
+                "value": 375,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 393,
+                "label": null,
+                "key": "x",
+                "index": 15
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 1.95,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 393,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1.52,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 393,
+                "label": null,
+                "key": "scaleY",
+                "index": 12
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 393,
+                "label": null,
+                "key": "scaleY",
+                "index": 15
+              },
+              {
+                "value": 2.2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 393,
+                "label": null,
+                "key": "scaleY",
+                "index": 16
+              },
+              {
+                "value": 1.95,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 393,
+                "label": null,
+                "key": "scaleY",
+                "index": 17
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1.95,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 393,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1.52,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 393,
+                "label": null,
+                "key": "scaleX",
+                "index": 12
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 393,
+                "label": null,
+                "key": "scaleX",
+                "index": 15
+              },
+              {
+                "value": 2.2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 393,
+                "label": null,
+                "key": "scaleX",
+                "index": 16
+              },
+              {
+                "value": 1.95,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 393,
+                "label": null,
+                "key": "scaleX",
+                "index": 17
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 393,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 393,
+                "label": null,
+                "key": "alpha",
+                "index": 12
+              },
+              {
+                "value": 0.2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 393,
+                "label": null,
+                "key": "alpha",
+                "index": 13
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 393,
+                "label": null,
+                "key": "alpha",
+                "index": 15
+              },
+              {
+                "value": 0.46,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 393,
+                "label": null,
+                "key": "alpha",
+                "index": 16
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 393,
+                "label": null,
+                "key": "alpha",
+                "index": 17
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 393,
+                "label": null,
+                "key": "alpha",
+                "index": 21
+              }
+            ]
+          }
+        }
+      ],
+      "name": "winAni",
+      "id": 2,
+      "frameRate": 30,
+      "action": 0
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

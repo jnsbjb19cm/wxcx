@@ -1,0 +1,149 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "var": "maskBg",
+        "top": 0,
+        "skin": "res_common/bg.png",
+        "right": 0,
+        "left": 0,
+        "bottom": 0,
+        "alpha": 0.6
+      },
+      "compId": 3
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 600,
+        "height": 617,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 64,
+            "x": 40,
+            "presetID": 1,
+            "centerY": -80,
+            "centerX": 0,
+            "width": 520,
+            "skin": "res_common/panel_tips.png",
+            "isPresetRoot": true,
+            "height": 329
+          },
+          "compId": 5,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 2,
+                "top": 20,
+                "skin": "loading/grain.png",
+                "sizeGrid": "77,74,77,72",
+                "right": 20,
+                "left": 20,
+                "bottom": 20
+              },
+              "compId": 6
+            },
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 3,
+                "y": -29,
+                "x": 54,
+                "skin": "res_common/title.png",
+                "centerX": 0
+              },
+              "compId": 7,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "text": "违规提示",
+                    "presetID": 4,
+                    "y": 15,
+                    "stroke": 2,
+                    "fontSize": 30,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "centerX": 0,
+                    "bold": true
+                  },
+                  "compId": 8
+                }
+              ]
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 66,
+                "x": 40,
+                "wordWrap": true,
+                "width": 440,
+                "var": "desc",
+                "text": "您的账号被多次举报，禁言x天\\n解封时间：0000年00月00日00点00分00秒",
+                "stroke": 0,
+                "leading": 6,
+                "fontSize": 22,
+                "font": "Microsoft YaHei",
+                "color": "#7d5f48",
+                "bold": true,
+                "align": "left"
+              },
+              "compId": 9
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 316,
+            "x": 300,
+            "width": 166,
+            "var": "confirmBtn",
+            "skin": "res_common/btn_common_red02.png",
+            "label": "label",
+            "height": 84,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 10,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "y": 27,
+                "x": 42,
+                "text": "确 定",
+                "stroke": 4,
+                "fontSize": 35,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "bold": true
+              },
+              "compId": 11
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": ["prefab/tipPanel.prefab"],
+  "loadList3D": []
+}

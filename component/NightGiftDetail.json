@@ -1,0 +1,346 @@
+{
+  "type": "View",
+  "props": {
+    "width": 600,
+    "height": 630
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "top": -17,
+        "skin": "res_common/bg_1.png",
+        "sizeGrid": "170,0,231,0",
+        "right": -5,
+        "left": 0,
+        "bottom": 9
+      },
+      "compId": 21,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": 519,
+            "skin": "res_common/img_common_02.png"
+          },
+          "compId": 39
+        },
+        {
+          "type": "Sprite",
+          "props": {
+            "y": -41,
+            "x": 4,
+            "texture": "res_common/icon_head.png"
+          },
+          "compId": 24
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -8,
+            "x": 516,
+            "var": "closeBtn",
+            "skin": "res_common/btn_close.png"
+          },
+          "compId": 25,
+          "child": [
+            {
+              "type": "Rect",
+              "props": {
+                "y": -10,
+                "x": -2,
+                "width": 100,
+                "renderType": "hit",
+                "lineWidth": 1,
+                "height": 100,
+                "fillColor": "#ff0000"
+              },
+              "compId": 27
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -25,
+            "var": "titleImg",
+            "skin": "res_view/workshop/title_zst.png",
+            "centerX": -133,
+            "anchorX": 0.5
+          },
+          "compId": 26
+        },
+        {
+          "type": "Image",
+          "props": {
+            "text": "text",
+            "skin": "res_common/text_djgb.png",
+            "centerX": -6,
+            "bottom": -47
+          },
+          "compId": 33
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 45,
+        "x": 162,
+        "width": 278,
+        "skin": "res_common/bg_title01.png",
+        "sizeGrid": "0,123,0,120",
+        "name": "title",
+        "height": 53
+      },
+      "compId": 5,
+      "child": [
+        {
+          "type": "HBox",
+          "props": {
+            "y": 1,
+            "centerX": 0
+          },
+          "compId": 29,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 5,
+                "x": 0,
+                "width": 67
+              },
+              "compId": 38,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "skin": "res_view/workshop/text_sj.png"
+                  },
+                  "compId": 14
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": -1,
+                "x": 1
+              },
+              "compId": 30,
+              "child": [
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "var": "titleLab",
+                    "value": "1",
+                    "spaceX": -7,
+                    "skin": "res_common/number/num_36_jxzk_23b60b.png",
+                    "sheet": "0123456789+-*/()<>",
+                    "pivotX": 7,
+                    "direction": "horizontal",
+                    "align": "right"
+                  },
+                  "compId": 28
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 5,
+                "x": 2,
+                "width": 60
+              },
+              "compId": 31,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "skin": "res_view/workshop/text_lb_1.png"
+                  },
+                  "compId": 15
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 106,
+        "x": 213,
+        "skin": "res_view/workshop/img_zushitang.png"
+      },
+      "compId": 32
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 333,
+        "x": 254.5,
+        "var": "onlyOne",
+        "skin": "res_view/workshop/text_jxyc.png"
+      },
+      "compId": 16
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 380,
+        "x": 304,
+        "var": "giftList",
+        "height": 120,
+        "centerX": 0
+      },
+      "compId": 6
+    },
+    {
+      "type": "Button",
+      "props": {
+        "y": 552,
+        "width": 213,
+        "var": "getBtn",
+        "stateNum": 1,
+        "skin": "res_common/btn_yellow.png",
+        "labelSize": 24,
+        "labelFont": "Microsoft YaHei",
+        "labelColors": "#ffffff",
+        "labelBold": true,
+        "height": 75,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5
+      },
+      "compId": 7,
+      "child": [
+        {
+          "type": "Sprite",
+          "props": {
+            "y": 23,
+            "x": 15,
+            "texture": "res_common/icon_camera.png"
+          },
+          "compId": 17
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 21.5,
+            "x": 64,
+            "skin": "res_view/workshop/text_mflq.png"
+          },
+          "compId": 18
+        }
+      ]
+    },
+    {
+      "type": "Sprite",
+      "props": {
+        "y": 544,
+        "x": 266,
+        "var": "gotSign",
+        "texture": "res_view/workshop/text_des_yilingqu.png"
+      },
+      "compId": 8
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 443,
+        "var": "noneImg",
+        "skin": "res_view/workshop/text_des_jijiangkaiqi.png",
+        "centerX": -1
+      },
+      "compId": 9
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 545,
+        "var": "tipsLab",
+        "skin": "res_view/workshop/text_xxlqqyzlb.png",
+        "centerX": 0
+      },
+      "compId": 10
+    },
+    {
+      "type": "HBox",
+      "props": {
+        "y": 544,
+        "var": "passTipBox",
+        "space": 3,
+        "height": 30,
+        "centerX": 0
+      },
+      "compId": 40,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "skin": "res_view/workshop/text_tg.png"
+          },
+          "compId": 20
+        },
+        {
+          "type": "Box",
+          "props": {},
+          "compId": 41,
+          "child": [
+            {
+              "type": "FontClip",
+              "props": {
+                "y": -11,
+                "x": 0,
+                "var": "passTip",
+                "value": "5",
+                "spaceX": -18,
+                "skin": "res_common/number/num_30_jxzk_8a6c6c.png",
+                "sheet": "0123456789-",
+                "pivotX": 5
+              },
+              "compId": 11
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "width": 101
+          },
+          "compId": 42,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 10,
+                "skin": "res_view/workshop/text_klq.png"
+              },
+              "compId": 19
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "res_common/bg_1.png",
+    "res_common/icon_head.png",
+    "res_common/icon_camera.png",
+    "res_view/workshop/text_des_yilingqu.png"
+  ],
+  "loadList3D": []
+}

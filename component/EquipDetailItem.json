@@ -1,0 +1,848 @@
+{
+  "type": "View",
+  "props": {
+    "width": 397,
+    "visible": true,
+    "mouseThrough": true,
+    "mouseEnabled": true,
+    "height": 1000,
+    "drawCallOptimize": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "width": 385,
+        "var": "contentBox",
+        "height": 840,
+        "centerY": 30,
+        "centerX": 0
+      },
+      "compId": 69,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "x": 0,
+            "top": 0,
+            "skin": "res_main/panel_tips.png",
+            "sizeGrid": "200,0,136,0",
+            "right": 0,
+            "name": "bg",
+            "left": 0,
+            "bottom": 0
+          },
+          "compId": 127,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "width": 523,
+                "var": "equipQuaBg",
+                "top": -49,
+                "skin": "res_main/panel_p.png",
+                "sizeGrid": "51,98,44,47",
+                "scaleY": 1,
+                "scaleX": 1,
+                "left": -45,
+                "height": 244,
+                "anchorY": 0,
+                "anchorX": 0
+              },
+              "compId": 129
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "width": 130,
+            "var": "equipItem",
+            "top": 12,
+            "presetID": 1,
+            "left": 25.5,
+            "height": 130,
+            "y": 0,
+            "x": 0,
+            "isPresetRoot": true,
+            "cacheAs": "bitmap"
+          },
+          "compId": 247,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 6,
+                "width": 160,
+                "name": "icon",
+                "height": 160,
+                "centerY": 0,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 9,
+              "child": [
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "presetID": 9,
+                    "visible": false,
+                    "value": "1",
+                    "spaceX": -7,
+                    "skin": "res_common/number/num_18_jxzk_ffffff_stk.png",
+                    "sheet": "0123456789+-*/",
+                    "scaleY": 2,
+                    "scaleX": 2,
+                    "right": 15,
+                    "name": "layer",
+                    "bottom": -7,
+                    "anchorX": 1,
+                    "align": "right"
+                  },
+                  "compId": 15
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 4,
+                "width": 188,
+                "visible": true,
+                "skin": "res_common/equip_rank_blue.png",
+                "sizeGrid": "34,42,35,42",
+                "name": "iconK",
+                "height": 188,
+                "centerY": 0,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 5
+            },
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 8,
+                "width": 190,
+                "visible": false,
+                "skin": "res_common/equip_b.png",
+                "name": "iconAwkPoint",
+                "height": 190,
+                "centerY": 0,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 14
+            },
+            {
+              "type": "Script",
+              "props": {
+                "presetID": 5,
+                "runtime": "game/script/common/CMEquipItem.ts"
+              },
+              "compId": 8
+            }
+          ]
+        },
+        {
+          "type": "Label",
+          "props": {
+            "x": 257,
+            "width": 197,
+            "var": "equipName",
+            "valign": "top",
+            "top": 24,
+            "text": "黑羽但虚高",
+            "height": 30,
+            "fontSize": 30,
+            "font": "Microsoft YaHei",
+            "color": "#9a7fef",
+            "bold": true,
+            "anchorX": 0.5,
+            "align": "center"
+          },
+          "compId": 71
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 69,
+            "x": 257,
+            "width": 131,
+            "height": 62,
+            "anchorX": 0.5
+          },
+          "compId": 245,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 31,
+                "x": 27,
+                "var": "type",
+                "skin": "res_common/icon_wuli.png",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 103
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 31,
+                "x": 104,
+                "var": "career",
+                "skin": "res_common/icon_gong.png",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 109
+            }
+          ]
+        },
+        {
+          "type": "List",
+          "props": {
+            "y": 195.5,
+            "x": 36,
+            "width": 314,
+            "var": "attrList",
+            "spaceY": 15,
+            "repeatX": 1,
+            "height": 105
+          },
+          "compId": 179,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "renderType": "render",
+                "name": "Item",
+                "height": 25
+              },
+              "compId": 197,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 20,
+                    "x": 35,
+                    "text": "生命值",
+                    "renderType": "render",
+                    "name": "desc",
+                    "fontSize": 22,
+                    "font": "Microsoft YaHei",
+                    "color": "#f8f0e0",
+                    "anchorY": 1
+                  },
+                  "compId": 177
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 22,
+                    "x": 12,
+                    "skin": "res_view/equipDetail/icon_bjl.png",
+                    "name": "icon",
+                    "anchorY": 1,
+                    "anchorX": 0.5
+                  },
+                  "compId": 178
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 0.5,
+                    "x": 238.3,
+                    "text": "+ 1500",
+                    "renderType": "render",
+                    "name": "num",
+                    "fontSize": 22,
+                    "font": "SimHei",
+                    "color": "#fffac8",
+                    "bold": false
+                  },
+                  "compId": 78
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -19.5,
+                    "x": -33,
+                    "visible": false,
+                    "skin": "res_view/equipAwake/imng_jizhi.png",
+                    "name": "itemMax"
+                  },
+                  "compId": 271
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "VBox",
+          "props": {
+            "y": 334,
+            "x": 24,
+            "width": 320,
+            "var": "skillBox",
+            "spaceY": 15,
+            "space": 13,
+            "height": 134
+          },
+          "compId": 79
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 487,
+            "wordWrap": true,
+            "width": 320,
+            "var": "desc",
+            "valign": "top",
+            "text": "千年豹死留皮在，破冢风云绕铁铁枪",
+            "renderType": "render",
+            "leading": 3,
+            "height": 20,
+            "fontSize": 20,
+            "font": "SimHei",
+            "color": "#928e8b",
+            "centerX": 0,
+            "align": "center"
+          },
+          "compId": 80
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 547,
+            "visible": false,
+            "var": "line",
+            "skin": "res_view/equipDetail/line.png",
+            "centerX": 0
+          },
+          "compId": 233
+        },
+        {
+          "type": "Image",
+          "props": {
+            "visible": false,
+            "var": "titleTips",
+            "top": -157,
+            "skin": "res_combat/public/title_tgjl.png",
+            "centerX": -5
+          },
+          "compId": 228
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 585,
+            "visible": false,
+            "var": "scoreBox",
+            "height": 27,
+            "centerX": -8
+          },
+          "compId": 263,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "skin": "res_view/equipDetail/text_equip_rank.png"
+              },
+              "compId": 264
+            },
+            {
+              "type": "Label",
+              "props": {
+                "x": 117,
+                "var": "equipScore",
+                "value": "0123456789",
+                "text": "12345",
+                "sheet": "0123456789",
+                "height": 21,
+                "fontSize": 21,
+                "font": "SimHei",
+                "color": "#0bb606",
+                "centerY": 0,
+                "bold": true
+              },
+              "compId": 265
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 184,
+                "visible": false,
+                "var": "scoreChgIcon",
+                "skin": "res_view/equipAwake/gs_down.png"
+              },
+              "compId": 269
+            }
+          ]
+        },
+        {
+          "type": "Button",
+          "props": {
+            "x": 86,
+            "var": "confirmBtn",
+            "stateNum": 1,
+            "skin": "res_common/btn_blue.png",
+            "height": 74,
+            "bottom": 45
+          },
+          "compId": 226,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "skin": "res_view/equipDetail/text_xiexia.png",
+                "centerY": 2,
+                "centerX": -3
+              },
+              "compId": 227
+            }
+          ]
+        },
+        {
+          "type": "Button",
+          "props": {
+            "y": 735,
+            "x": 91.5,
+            "visible": false,
+            "var": "costBtn",
+            "stateNum": 1,
+            "skin": "res_common/btn_yellow.png",
+            "bottom": 41
+          },
+          "compId": 249,
+          "child": [
+            {
+              "type": "FontClip",
+              "props": {
+                "var": "costLab",
+                "value": "1000",
+                "valign": "middle",
+                "text": "1000",
+                "spaceX": -12,
+                "skin": "res_common/number/num_30_jxzk_674445.png",
+                "sheet": "0123456789",
+                "fontSize": 30,
+                "font": "SimHei",
+                "color": "#674445",
+                "centerY": 3,
+                "centerX": 10,
+                "align": "left"
+              },
+              "compId": 250
+            },
+            {
+              "type": "Image",
+              "props": {
+                "x": 59,
+                "width": 36,
+                "skin": "netRes/icon/itemIcon/icon_yuanbao.png",
+                "scaleY": 1.5,
+                "scaleX": 1.5,
+                "height": 37,
+                "centerY": 4,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 251
+            }
+          ]
+        },
+        {
+          "type": "Button",
+          "props": {
+            "x": 91.5,
+            "visible": false,
+            "var": "buyBtn",
+            "stateNum": 1,
+            "skin": "res_common/btn_yellow.png",
+            "bottom": 41
+          },
+          "compId": 234,
+          "child": [
+            {
+              "type": "FontClip",
+              "props": {
+                "var": "priceLabel",
+                "value": "1000",
+                "valign": "middle",
+                "text": "1000",
+                "spaceX": -12,
+                "skin": "res_common/number/num_30_jxzk_674445.png",
+                "sheet": "0123456789",
+                "fontSize": 30,
+                "font": "SimHei",
+                "color": "#674445",
+                "centerY": 3,
+                "centerX": 10,
+                "align": "left"
+              },
+              "compId": 236
+            },
+            {
+              "type": "Image",
+              "props": {
+                "x": 45,
+                "var": "buyIcon",
+                "skin": "res_view/equipDetail/icon_gold.png",
+                "name": "buyIcon",
+                "centerY": 2
+              },
+              "compId": 235
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -80,
+            "visible": false,
+            "var": "awkTipsBg",
+            "skin": "res_common/panel_text.png",
+            "centerX": 0
+          },
+          "compId": 256,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "var": "awkTitleTips",
+                "skin": "res_view/equipDetail/tips_tzslhdjxxg.png",
+                "centerY": 0,
+                "centerX": 0
+              },
+              "compId": 262
+            }
+          ]
+        },
+        {
+          "type": "Button",
+          "props": {
+            "x": 89.5,
+            "visible": false,
+            "var": "awakeBtn",
+            "stateNum": 1,
+            "skin": "res_common/btn_blue.png",
+            "height": 74,
+            "bottom": 41
+          },
+          "compId": 254,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 22,
+                "x": 18,
+                "visible": false,
+                "skin": "res_common/icon_ad2.png",
+                "name": "adicon"
+              },
+              "compId": 259,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 2,
+                    "x": 52,
+                    "skin": "res_view/equipDetail/text_jxtz.png"
+                  },
+                  "compId": 255
+                }
+              ]
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 15,
+                "visible": false,
+                "value": "(3)",
+                "spaceX": -10,
+                "skin": "res_common/number/num_33_jxzk_e0e8f5.png",
+                "sheet": "0123456789+-*/()<>",
+                "name": "freeNum",
+                "centerX": 55
+              },
+              "compId": 284,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "res_view/equipDetail/text_jxtz.png",
+                    "left": -113,
+                    "centerY": 1
+                  },
+                  "compId": 286
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "var": "aniBox",
+            "top": 0,
+            "left": 0
+          },
+          "compId": 275,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 9,
+                "x": -46,
+                "visible": false,
+                "var": "rankBtn",
+                "skin": "res_view/equipDetail/icon_phb.png"
+              },
+              "compId": 257,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 26,
+                    "x": 0,
+                    "skin": "res_view/equipDetail/icon_fx.png"
+                  },
+                  "compId": 276
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "res_view/equipDetail/icon_phb.png"
+                  },
+                  "compId": 277
+                },
+                {
+                  "type": "Rect",
+                  "props": {
+                    "y": 34,
+                    "x": 0,
+                    "width": 45,
+                    "renderType": "hit",
+                    "lineWidth": 1,
+                    "height": 131,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 260
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 172,
+                "x": -47,
+                "visible": false,
+                "var": "shareBtn",
+                "skin": "res_view/equipDetail/icon_fx.png"
+              },
+              "compId": 258,
+              "child": [
+                {
+                  "type": "Rect",
+                  "props": {
+                    "y": 10,
+                    "x": 0,
+                    "width": 44,
+                    "renderType": "hit",
+                    "lineWidth": 1,
+                    "height": 139,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 261
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Button",
+          "props": {
+            "x": 88.5,
+            "visible": false,
+            "var": "purifyBtn",
+            "stateNum": 1,
+            "skin": "res_common/btn_yellow.png",
+            "bottom": 31
+          },
+          "compId": 266,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "skin": "res_view/equipDetail/text_btn_zbxl.png",
+                "centerY": 3,
+                "centerX": 0
+              },
+              "compId": 268
+            }
+          ]
+        },
+        {
+          "type": "Button",
+          "props": {
+            "y": 0,
+            "x": 88,
+            "visible": false,
+            "var": "awkEffChooseBtn",
+            "stateNum": 1,
+            "skin": "res_common/btn_yellow.png",
+            "bottom": 31
+          },
+          "compId": 272,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "skin": "res_view/equipAwake/text_blyxg.png",
+                "centerY": 3,
+                "centerX": 0
+              },
+              "compId": 273
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "visible": false,
+            "var": "newTxt",
+            "top": -74,
+            "skin": "res_view/equipAwake/icon_xin.png",
+            "left": 6
+          },
+          "compId": 274
+        },
+        {
+          "type": "Image",
+          "props": {
+            "var": "closeTip",
+            "text": "text",
+            "skin": "res_common/text_djgb.png",
+            "mouseEnabled": false,
+            "centerX": -2,
+            "bottom": -44
+          },
+          "compId": 282
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 69,
+          "keyframes": {
+            "x": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 69,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 69,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 69,
+                "key": "alpha",
+                "index": 5
+              }
+            ]
+          }
+        },
+        {
+          "target": 275,
+          "keyframes": {
+            "rotation": [
+              {
+                "value": 12,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 275,
+                "key": "rotation",
+                "index": 0
+              },
+              {
+                "value": -2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 275,
+                "key": "rotation",
+                "index": 5
+              },
+              {
+                "value": 2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 275,
+                "key": "rotation",
+                "index": 8
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 275,
+                "key": "rotation",
+                "index": 13
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 275,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 275,
+                "key": "alpha",
+                "index": 5
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani1",
+      "id": 1,
+      "frameRate": 30,
+      "action": 1
+    }
+  ],
+  "loadList": ["res_main/panel_tips.png", "prefab/EquipItem.prefab"],
+  "loadList3D": []
+}

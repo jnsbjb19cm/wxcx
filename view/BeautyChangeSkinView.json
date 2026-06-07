@@ -1,0 +1,226 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 20,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "width": 1000,
+            "var": "maskBg",
+            "skin": "res_common/bg.png",
+            "height": 1650,
+            "centerY": 0,
+            "centerX": 0,
+            "alpha": 0.6
+          },
+          "compId": 19
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 860,
+            "x": 385,
+            "var": "beautyAni",
+            "scaleY": 0.6,
+            "scaleX": 0.6,
+            "name": "beautyAni"
+          },
+          "compId": 129
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 71,
+            "x": 64,
+            "width": 111,
+            "var": "closeBtn",
+            "skin": "res_view/beauty/btn_back.png",
+            "pivotY": 70,
+            "pivotX": 56,
+            "name": "closeBtn",
+            "height": 139
+          },
+          "compId": 36,
+          "child": [
+            {
+              "type": "Script",
+              "props": {
+                "runtime": "game/tools/BtnScale85.ts"
+              },
+              "compId": 128
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 1221,
+            "x": 383,
+            "width": 199,
+            "var": "btn_change",
+            "skin": "res_combat/specialStageView/biaoJu/btn_yellow.png",
+            "pivotY": 42,
+            "pivotX": 105,
+            "name": "btn_change",
+            "height": 66
+          },
+          "compId": 122,
+          "child": [
+            {
+              "type": "Script",
+              "props": {
+                "runtime": "game/tools/BtnScale85.ts"
+              },
+              "compId": 125
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 17,
+                "x": 57,
+                "skin": "res_view/beauty/text_shiyong.png",
+                "name": "txt_use"
+              },
+              "compId": 133
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 1123,
+            "x": 308,
+            "var": "img_using",
+            "skin": "res_view/beauty/btn_shiyongzhong.png",
+            "name": "img_using"
+          },
+          "compId": 135
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 133,
+            "x": 123,
+            "width": 50,
+            "var": "bg_name",
+            "skin": "res_view/beauty/name_bule.png",
+            "sizeGrid": "49,0,23,0",
+            "name": "bg_name",
+            "height": 420,
+            "alpha": 1
+          },
+          "compId": 132,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 380,
+                "x": 25,
+                "width": 58,
+                "var": "img_nameBar1",
+                "skin": "res_view/beauty/img_CP_flower.png",
+                "pivotX": 29,
+                "name": "img_nameBar1",
+                "height": 89
+              },
+              "compId": 136
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 573,
+            "x": 65,
+            "var": "btn_left",
+            "skin": "res_view/beauty/btn_prev.png",
+            "pivotY": 38,
+            "pivotX": 27,
+            "name": "btn_left"
+          },
+          "compId": 123,
+          "child": [
+            {
+              "type": "Script",
+              "props": {
+                "runtime": "game/tools/BtnScale85.ts"
+              },
+              "compId": 126
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 569,
+            "x": 692,
+            "width": 46,
+            "var": "btn_right",
+            "skin": "res_view/beauty/btn_next.png",
+            "pivotY": 34,
+            "pivotX": 23,
+            "name": "btn_right",
+            "height": 67
+          },
+          "compId": 124,
+          "child": [
+            {
+              "type": "Script",
+              "props": {
+                "runtime": "game/tools/BtnScale85.ts"
+              },
+              "compId": 127
+            }
+          ]
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 193,
+            "x": 132.5,
+            "wordWrap": true,
+            "width": 30,
+            "var": "txt_skinName",
+            "text": "1234",
+            "stroke": 1,
+            "name": "txt_skinName",
+            "leading": 4,
+            "height": 516,
+            "fontSize": 28,
+            "font": "Microsoft YaHei",
+            "color": "#ffffff",
+            "bold": true,
+            "align": "center"
+          },
+          "compId": 131
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 102.5,
+            "x": 129,
+            "skin": "res_view/beauty/img_CP_flower02.png",
+            "name": "img_nameBar2"
+          },
+          "compId": 137
+        }
+      ]
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

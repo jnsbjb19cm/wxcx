@@ -1,0 +1,1520 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": true,
+    "height": 1344,
+    "drawCallOptimize": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 813,
+        "x": 500,
+        "width": 1000,
+        "visible": true,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.5
+      },
+      "compId": 140
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "visible": true,
+        "name": "box",
+        "height": 1392,
+        "centerY": 24,
+        "centerX": 0
+      },
+      "compId": 149,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "width": 1437,
+            "var": "closeBtn2",
+            "height": 520,
+            "centerY": 717,
+            "centerX": 36
+          },
+          "compId": 205
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 95,
+            "x": 10,
+            "visible": true,
+            "skin": "res_view/sign/panel.png",
+            "name": "bg"
+          },
+          "compId": 18
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 31,
+            "x": 557,
+            "skin": "res_view/sign/img_butterfly_03.png",
+            "scaleY": 2,
+            "scaleX": 2
+          },
+          "compId": 255
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 542,
+            "x": 55,
+            "skin": "res_view/sign/pic_hua.png"
+          },
+          "compId": 250
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 14,
+            "x": 156.5,
+            "skin": "res_view/sign/text_mrqd.png",
+            "name": "mrqd"
+          },
+          "compId": 17,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "y": 15,
+                "var": "signLable",
+                "stroke": 2,
+                "fontSize": 30,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "centerX": 0,
+                "bold": true
+              },
+              "compId": 19
+            }
+          ]
+        },
+        {
+          "type": "List",
+          "props": {
+            "y": 318,
+            "x": 96,
+            "width": 566,
+            "var": "signList",
+            "spaceY": 20,
+            "spaceX": 38,
+            "repeatY": 3,
+            "repeatX": 3,
+            "mouseThrough": false,
+            "mouseEnabled": true,
+            "height": 828
+          },
+          "compId": 157,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 134,
+                "x": 93,
+                "width": 141,
+                "renderType": "render",
+                "height": 248,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 158,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -37,
+                    "x": -17.5,
+                    "width": 176,
+                    "skin": "res_view/sign/pic_dl_2.png",
+                    "name": "color",
+                    "height": 278
+                  },
+                  "compId": 159
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 282,
+                    "x": 212,
+                    "visible": false,
+                    "skin": "res_view/sign/img_qiandao_effects01.png",
+                    "pivotY": 220,
+                    "pivotX": 193,
+                    "name": "heroLight"
+                  },
+                  "compId": 152
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 63,
+                    "x": 21,
+                    "width": 99,
+                    "visible": false,
+                    "skin": "res_common/equip_slot_orange.png",
+                    "name": "icon_bg",
+                    "height": 99
+                  },
+                  "compId": 223
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 60,
+                    "x": 15.5,
+                    "scaleY": 0.55,
+                    "scaleX": 0.55,
+                    "name": "rwdIcon"
+                  },
+                  "compId": 153
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 59,
+                    "width": 93,
+                    "visible": false,
+                    "text": "钻石  500",
+                    "stroke": 2,
+                    "name": "rwdTips",
+                    "height": 25,
+                    "fontSize": 25,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "centerX": 0,
+                    "bold": true
+                  },
+                  "compId": 154
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 27.5,
+                    "x": 55,
+                    "visible": false,
+                    "value": "1",
+                    "text": "第 1 天",
+                    "stroke": 2,
+                    "skin": "res_common/number/num_33_jxzk_eb0000.png",
+                    "sheet": "0123456789",
+                    "name": "daysTip",
+                    "fontSize": 30,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "bold": true
+                  },
+                  "compId": 161,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 10.5,
+                        "x": -24,
+                        "skin": "res_view/sign/text_di.png"
+                      },
+                      "compId": 252
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 10.5,
+                        "x": 33,
+                        "skin": "res_view/sign/text_tian.png"
+                      },
+                      "compId": 253
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 17,
+                    "x": -11,
+                    "visible": false,
+                    "skin": "res_view/sign/img_butterfly_01.png",
+                    "name": "hudie_l"
+                  },
+                  "compId": 226
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -57,
+                    "x": -12,
+                    "visible": false,
+                    "skin": "res_view/sign/panel_ts.png",
+                    "name": "daystipbg"
+                  },
+                  "compId": 266
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": -13,
+                    "x": -10,
+                    "visible": false,
+                    "value": "1",
+                    "text": "第 1 天",
+                    "stroke": 2,
+                    "skin": "res_common/number/num_33_jxzk_eb0000.png",
+                    "sheet": "0123456789",
+                    "name": "daysTip_2",
+                    "fontSize": 30,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "bold": true
+                  },
+                  "compId": 263,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -23,
+                        "x": 3,
+                        "skin": "res_view/sign/text_di_white.png"
+                      },
+                      "compId": 264
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 44,
+                        "x": 3,
+                        "skin": "res_view/sign/text_tian_white.png"
+                      },
+                      "compId": 265
+                    }
+                  ]
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 4,
+                    "x": 5,
+                    "width": 95,
+                    "visible": false,
+                    "texture": "res_common/frame_gray.png",
+                    "name": "maskBg",
+                    "height": 95
+                  },
+                  "compId": 160
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 54.5,
+                    "x": 59,
+                    "width": 25,
+                    "texture": "res_view/sign/text_ylq.png",
+                    "name": "isGetIcon",
+                    "height": 95
+                  },
+                  "compId": 162
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": -33,
+                    "x": 122,
+                    "texture": "res_view/sign/text_qiandaolinghaoli.png",
+                    "name": "canGetK"
+                  },
+                  "compId": 165
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 137,
+                    "x": 47,
+                    "width": 68,
+                    "visible": false,
+                    "texture": "res_common/main_shuzi.png",
+                    "name": "num_bg",
+                    "height": 19
+                  },
+                  "compId": 218
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 149,
+                    "x": 109,
+                    "width": 46,
+                    "visible": false,
+                    "var": "numLab",
+                    "value": "60000",
+                    "spaceX": -13,
+                    "skin": "res_common/number/num_42_wryh_ffffff_stk_3.png",
+                    "sheet": "0123456789",
+                    "scaleY": 0.5,
+                    "scaleX": 0.5,
+                    "name": "rewardCount",
+                    "height": 36,
+                    "anchorY": 1,
+                    "anchorX": 1,
+                    "align": "right"
+                  },
+                  "compId": 251
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 149.5,
+                    "x": 139,
+                    "visible": false,
+                    "skin": "res_view/sign/img_butterfly_03.png",
+                    "name": "hudie_r"
+                  },
+                  "compId": 227
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": -40,
+                    "x": 5,
+                    "width": 137,
+                    "visible": false,
+                    "var": "halfbody",
+                    "name": "half",
+                    "height": 273
+                  },
+                  "compId": 235,
+                  "child": [
+                    {
+                      "type": "Sprite",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "visible": false,
+                        "renderType": "mask"
+                      },
+                      "compId": 243,
+                      "child": [
+                        {
+                          "type": "Rect",
+                          "props": {
+                            "y": 18,
+                            "x": -13,
+                            "width": 153,
+                            "lineWidth": 1,
+                            "height": 234,
+                            "fillColor": "#ffffff"
+                          },
+                          "compId": 244
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 52,
+                    "x": 100.5,
+                    "visible": false,
+                    "skin": "res_view/sign/fx_flash.png",
+                    "name": "star_r"
+                  },
+                  "compId": 245
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 143.5,
+                    "x": -15.5,
+                    "visible": false,
+                    "skin": "res_view/sign/fx_flash.png",
+                    "name": "start_l"
+                  },
+                  "compId": 247
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 184.5,
+                    "x": -36,
+                    "visible": false,
+                    "skin": "res_view/sign/panel_yx.png",
+                    "name": "yxname_bg"
+                  },
+                  "compId": 248
+                },
+                {
+                  "type": "Text",
+                  "props": {
+                    "y": 190,
+                    "x": -24,
+                    "visible": false,
+                    "text": "新英雄 勾魂鬼差",
+                    "strokeColor": "#251003",
+                    "stroke": 2,
+                    "scaleY": 0.9,
+                    "scaleX": 0.9,
+                    "name": "heroname",
+                    "fontSize": 30,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "bold": true,
+                    "runtime": "Laya.Text"
+                  },
+                  "compId": 254
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 2,
+            "x": -1,
+            "visible": false,
+            "skin": "res_view/sign/pic_hwc.png",
+            "name": "bg_persion"
+          },
+          "compId": 249
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 866.5,
+            "x": 559,
+            "visible": false,
+            "skin": "res_view/sign/pic_bwc.png"
+          },
+          "compId": 268
+        },
+        {
+          "type": "Button",
+          "props": {
+            "y": 1202,
+            "x": 101,
+            "width": 235,
+            "var": "singleBtn",
+            "stateNum": 1,
+            "skin": "res_common/btn_yellow.png",
+            "labelStroke": 2,
+            "labelSize": 33,
+            "labelFont": "Microsoft YaHei",
+            "labelColors": "#ffffff",
+            "labelBold": true,
+            "height": 79
+          },
+          "compId": 151,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 25.5,
+                "x": 46,
+                "skin": "res_view/sign/text_lingqujiangli.png"
+              },
+              "compId": 196
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 1211,
+            "x": 448,
+            "width": 203,
+            "var": "doubleBtn",
+            "presetID": 1,
+            "height": 61,
+            "isPresetRoot": true
+          },
+          "compId": 178,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -23,
+                "x": -38,
+                "width": 257,
+                "skin": "res_view/sign/btn_butterfly.png",
+                "presetID": 2,
+                "height": 112
+              },
+              "compId": 179
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 2,
+                "x": -9,
+                "width": 209,
+                "presetID": 3,
+                "height": 70,
+                "name": "onceBox"
+              },
+              "compId": 180,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 15,
+                    "x": 56,
+                    "width": 224,
+                    "skin": "res_view/sign/text_shuangbeijiangli.png",
+                    "scaleY": 0.6,
+                    "scaleX": 0.6,
+                    "height": 56
+                  },
+                  "compId": 181
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 18,
+                    "x": 67,
+                    "visible": false,
+                    "presetID": 5,
+                    "text": "多领一天",
+                    "stroke": 2,
+                    "name": "descLab",
+                    "fontSize": 33,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "bold": true
+                  },
+                  "compId": 182
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 15,
+                    "x": 11,
+                    "skin": "res_view/sign/icon_shuangbeijiangli.png"
+                  },
+                  "compId": 201
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "presetID": 6,
+                "name": "moreBox"
+              },
+              "compId": 183,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 7,
+                    "y": 6,
+                    "x": 30,
+                    "skin": "",
+                    "scaleY": 0.5,
+                    "scaleX": 0.5
+                  },
+                  "compId": 184
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "presetID": 8,
+                    "y": 20,
+                    "x": 86,
+                    "text": "(0/00)",
+                    "stroke": 2,
+                    "name": "numLab",
+                    "fontSize": 33,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "bold": true
+                  },
+                  "compId": 185
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "presetID": 9,
+                    "y": 60,
+                    "x": 112,
+                    "text": "今日剩余2次",
+                    "stroke": 2,
+                    "name": "descLab",
+                    "fontSize": 26,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "bold": true,
+                    "anchorX": 0.5
+                  },
+                  "compId": 186
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "presetID": 10,
+                "name": "freeBox"
+              },
+              "compId": 187,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "presetID": 11,
+                    "y": 33,
+                    "x": 11,
+                    "text": "免费",
+                    "stroke": 2,
+                    "fontSize": 33,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "bold": true
+                  },
+                  "compId": 188
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "presetID": 12,
+                    "y": 33,
+                    "x": 76,
+                    "text": "觉醒挑战",
+                    "stroke": 2,
+                    "name": "descLab",
+                    "fontSize": 33,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "bold": true
+                  },
+                  "compId": 189
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "presetID": 13,
+                "name": "ticketBox"
+              },
+              "compId": 190,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 14,
+                    "y": 16,
+                    "x": 25,
+                    "skin": "",
+                    "scaleY": 0.5,
+                    "scaleX": 0.5
+                  },
+                  "compId": 191
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "presetID": 15,
+                    "y": 64,
+                    "x": 58,
+                    "text": "00/00",
+                    "stroke": 2,
+                    "name": "numLab",
+                    "fontSize": 24,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "anchorX": 0.5
+                  },
+                  "compId": 192
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "presetID": 16,
+                    "y": 33,
+                    "x": 76,
+                    "text": "觉醒挑战",
+                    "stroke": 2,
+                    "name": "descLab",
+                    "fontSize": 33,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "bold": true
+                  },
+                  "compId": 193
+                }
+              ]
+            },
+            {
+              "type": "Script",
+              "props": {
+                "ticketBox": "@node:190",
+                "presetID": 17,
+                "onceBox": "@node:180",
+                "moreBox": "@node:183",
+                "freeBox": "@node:187",
+                "runtime": "game/view/component/AdBox.ts"
+              },
+              "compId": 194
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 1202,
+            "width": 235,
+            "var": "forwardBtn",
+            "presetID": 1,
+            "height": 80,
+            "centerX": -4,
+            "x": 0,
+            "isPresetRoot": true
+          },
+          "compId": 174,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -15,
+                "x": -12,
+                "width": 257,
+                "skin": "res_view/sign/btn_butterfly.png",
+                "height": 113
+              },
+              "compId": 3
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 1,
+                "x": 0,
+                "presetID": 3,
+                "name": "onceBox"
+              },
+              "compId": 4,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 27,
+                    "x": 27.5,
+                    "width": 67,
+                    "skin": "res_view/sign/icon_shuangbeijiangli.png",
+                    "scaleY": 0.6,
+                    "scaleX": 0.6,
+                    "height": 53
+                  },
+                  "compId": 5
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 18.5,
+                    "x": 56,
+                    "visible": false,
+                    "presetID": 5,
+                    "text": "多领一天",
+                    "stroke": 2,
+                    "name": "descLab",
+                    "fontSize": 33,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "bold": true
+                  },
+                  "compId": 6
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 26,
+                    "x": 74,
+                    "skin": "res_view/sign/text_duolingyitian.png"
+                  },
+                  "compId": 217
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "top": 0,
+                "right": 0,
+                "presetID": 6,
+                "left": 0,
+                "bottom": 0,
+                "name": "moreBox"
+              },
+              "compId": 7,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 7,
+                    "y": 6,
+                    "x": 30,
+                    "skin": "",
+                    "scaleY": 0.5,
+                    "scaleX": 0.5
+                  },
+                  "compId": 8
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "presetID": 8,
+                    "y": 20,
+                    "x": 86,
+                    "text": "(0/00)",
+                    "stroke": 2,
+                    "name": "numLab",
+                    "fontSize": 33,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "bold": true
+                  },
+                  "compId": 9
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "presetID": 9,
+                    "y": 60,
+                    "x": 112,
+                    "text": "今日剩余2次",
+                    "stroke": 2,
+                    "name": "descLab",
+                    "fontSize": 26,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "bold": true,
+                    "anchorX": 0.5
+                  },
+                  "compId": 11
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "top": 0,
+                "right": 0,
+                "presetID": 10,
+                "left": 0,
+                "bottom": 0,
+                "name": "freeBox"
+              },
+              "compId": 12,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "presetID": 11,
+                    "y": 33,
+                    "x": 11,
+                    "text": "免费",
+                    "stroke": 2,
+                    "fontSize": 33,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "bold": true
+                  },
+                  "compId": 13
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "presetID": 12,
+                    "y": 33,
+                    "x": 76,
+                    "text": "觉醒挑战",
+                    "stroke": 2,
+                    "name": "descLab",
+                    "fontSize": 33,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "bold": true
+                  },
+                  "compId": 14
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "top": 0,
+                "right": 0,
+                "presetID": 13,
+                "left": 0,
+                "bottom": 0,
+                "name": "ticketBox"
+              },
+              "compId": 15,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 14,
+                    "y": 16,
+                    "x": 25,
+                    "skin": "",
+                    "scaleY": 0.5,
+                    "scaleX": 0.5
+                  },
+                  "compId": 16
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "presetID": 15,
+                    "y": 64,
+                    "x": 58,
+                    "text": "00/00",
+                    "stroke": 2,
+                    "name": "numLab",
+                    "fontSize": 24,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "anchorX": 0.5
+                  },
+                  "compId": 175
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "presetID": 16,
+                    "y": 33,
+                    "x": 76,
+                    "text": "觉醒挑战",
+                    "stroke": 2,
+                    "name": "descLab",
+                    "fontSize": 33,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "bold": true
+                  },
+                  "compId": 176
+                }
+              ]
+            },
+            {
+              "type": "Script",
+              "props": {
+                "ticketBox": "@node:15",
+                "presetID": 17,
+                "onceBox": "@node:4",
+                "moreBox": "@node:7",
+                "freeBox": "@node:12",
+                "runtime": "game/view/component/AdBox.ts"
+              },
+              "compId": 177
+            }
+          ]
+        },
+        {
+          "type": "Button",
+          "props": {
+            "y": 950,
+            "visible": false,
+            "var": "kolNextBtn",
+            "stateNum": 1,
+            "skin": "",
+            "labelStroke": 2,
+            "labelSize": 33,
+            "labelFont": "Microsoft YaHei",
+            "labelColors": "#ffffff",
+            "labelBold": true,
+            "label": "下一天(KOL)",
+            "centerX": 0
+          },
+          "compId": 166
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 1125,
+            "x": 162.5,
+            "visible": false,
+            "var": "blessTips",
+            "skin": "res_view/sign/text_zfqd.png",
+            "name": "blessTips"
+          },
+          "compId": 269
+        },
+        {
+          "type": "Sprite",
+          "props": {
+            "y": -103,
+            "x": 41.5,
+            "visible": false,
+            "texture": ""
+          },
+          "compId": 172
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 209,
+            "x": 235.5,
+            "skin": "res_view/sign/panel_czhl.png",
+            "name": "img_qidaolinghaoli"
+          },
+          "compId": 197,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 11,
+                "x": 30,
+                "width": 229,
+                "skin": "res_view/sign/text_czhl.png",
+                "name": "img_txt_qiandaolinghaoli",
+                "height": 26
+              },
+              "compId": 198
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 0,
+            "x": 293,
+            "space": 9
+          },
+          "compId": 234,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 262,
+                "x": 0,
+                "skin": "res_view/sign/text_ljqd.png",
+                "name": "yljqd"
+              },
+              "compId": 230
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 260,
+                "x": 120,
+                "var": "txtSignDays",
+                "value": "8888",
+                "spaceX": -4,
+                "skin": "res_common/number/num_24_jxzk_ffcc76.png",
+                "sheet": "0123456789",
+                "presetID": 1,
+                "align": "center",
+                "isPresetRoot": true
+              },
+              "compId": 232
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 263,
+                "x": 187,
+                "var": "days",
+                "skin": "res_view/sign/rank_t.png"
+              },
+              "compId": 231
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 1280,
+            "x": 243,
+            "skin": "res_common/text_djgb.png"
+          },
+          "compId": 208
+        },
+        {
+          "type": "Image",
+          "props": {
+            "var": "closeBtn1",
+            "skin": "res_view/sign/icon_gb.png",
+            "centerY": -429,
+            "centerX": 302
+          },
+          "compId": 204,
+          "child": [
+            {
+              "type": "Rect",
+              "props": {
+                "y": 0,
+                "x": -7,
+                "width": 119,
+                "renderType": "hit",
+                "lineWidth": 1,
+                "height": 134,
+                "fillColor": "#ff0000"
+              },
+              "compId": 262
+            }
+          ]
+        },
+        {
+          "type": "Button",
+          "props": {
+            "y": 1255,
+            "x": 539,
+            "visible": false,
+            "var": "admin",
+            "stateNum": 1,
+            "skin": "res_common/btn_yellow.png",
+            "labelStroke": 1,
+            "labelSize": 20,
+            "labelPadding": "5",
+            "labelFont": "Microsoft YaHei",
+            "labelColors": "#ffffff",
+            "labelBold": false,
+            "labelAlign": "center",
+            "label": "Admin"
+          },
+          "compId": 229
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 641,
+            "x": 388,
+            "visible": false,
+            "var": "star_r",
+            "skin": "res_view/sign/fx_flash.png",
+            "scaleY": 1.3,
+            "scaleX": 1.3,
+            "name": "star_r"
+          },
+          "compId": 256
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 740,
+            "x": 281,
+            "visible": false,
+            "var": "start_l",
+            "skin": "res_view/sign/fx_flash.png",
+            "name": "start_l"
+          },
+          "compId": 257
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 632,
+            "x": 295,
+            "visible": false,
+            "var": "heroimg",
+            "skin": "res_view/sign/pic_hbwc.png",
+            "name": "heroimg"
+          },
+          "compId": 259
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 257,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 257,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 257,
+                "key": "alpha",
+                "index": 1
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 257,
+                "key": "alpha",
+                "index": 25
+              }
+            ]
+          }
+        }
+      ],
+      "name": "star_l_Ani",
+      "id": 1,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 256,
+          "keyframes": {
+            "scaleY": [
+              {
+                "value": 1.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 256,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 256,
+                "label": null,
+                "key": "scaleY",
+                "index": 8
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 256,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 256,
+                "label": null,
+                "key": "scaleX",
+                "index": 8
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 256,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 256,
+                "key": "alpha",
+                "index": 7
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 256,
+                "key": "alpha",
+                "index": 8
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 256,
+                "key": "alpha",
+                "index": 32
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 256,
+                "key": "alpha",
+                "index": 37
+              }
+            ]
+          }
+        }
+      ],
+      "name": "star_r_Ani",
+      "id": 2,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 259,
+          "keyframes": {
+            "y": [
+              {
+                "value": 632,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 259,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 586,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 259,
+                "key": "y",
+                "index": 20
+              },
+              {
+                "value": 1272,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 259,
+                "key": "y",
+                "index": 45
+              }
+            ],
+            "x": [
+              {
+                "value": 297,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 259,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 437,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 259,
+                "key": "x",
+                "index": 20
+              },
+              {
+                "value": 233,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 259,
+                "key": "x",
+                "index": 45
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 259,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 259,
+                "key": "scaleY",
+                "index": 20
+              },
+              {
+                "value": 0.1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 259,
+                "key": "scaleY",
+                "index": 45
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 259,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 259,
+                "key": "scaleX",
+                "index": 20
+              },
+              {
+                "value": 0.1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 259,
+                "key": "scaleX",
+                "index": 45
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 259,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 259,
+                "key": "alpha",
+                "index": 45
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 259,
+                "key": "alpha",
+                "index": 46
+              }
+            ]
+          }
+        }
+      ],
+      "name": "heroimg_ani",
+      "id": 3,
+      "frameRate": 30,
+      "action": 0
+    }
+  ],
+  "loadList": [
+    "res_view/sign/panel.png",
+    "res_common/frame_gray.png",
+    "res_view/sign/text_ylq.png",
+    "res_view/sign/text_qiandaolinghaoli.png",
+    "res_common/main_shuzi.png",
+    "prefab/AdButton.prefab",
+    "prefab/number/num_36_ss_fffff_stk.prefab"
+  ],
+  "loadList3D": []
+}

@@ -1,0 +1,160 @@
+{
+  "type": "View",
+  "props": {
+    "width": 1825,
+    "height": 142
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 54,
+        "x": 32,
+        "width": 1705,
+        "skin": "res_combat/boss/iconl_upgrade_1.png",
+        "sizeGrid": "0,40,0,40",
+        "height": 27
+      },
+      "compId": 9,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 3.5,
+            "x": 13,
+            "width": 0,
+            "var": "damageBar",
+            "skin": "res_combat/boss/iconl_upgrade_2.png",
+            "sizeGrid": "0,10,0,10",
+            "height": 16
+          },
+          "compId": 10
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -24.5,
+            "x": -19,
+            "skin": "res_combat/boss/icon_jian.png"
+          },
+          "compId": 14
+        }
+      ]
+    },
+    {
+      "type": "List",
+      "props": {
+        "y": 4,
+        "var": "rwdList",
+        "spaceX": 72,
+        "right": 0,
+        "repeatY": 1,
+        "repeatX": 10,
+        "left": 120,
+        "height": 142
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "y": 14,
+            "x": 31,
+            "width": 100,
+            "renderType": "render",
+            "height": 94
+          },
+          "compId": 4,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "visible": true,
+                "skin": "res_combat/boss/icon_panel_02.png",
+                "name": "img",
+                "centerY": 0,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 5
+            },
+            {
+              "type": "Image",
+              "props": {
+                "visible": false,
+                "skin": "res_combat/boss/case02_2.png",
+                "name": "img1",
+                "centerY": 2,
+                "centerX": 1
+              },
+              "compId": 12
+            },
+            {
+              "type": "Image",
+              "props": {
+                "visible": false,
+                "skin": "res_combat/boss/case02.png",
+                "name": "img2",
+                "centerY": -1,
+                "centerX": -2
+              },
+              "compId": 16
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -17,
+                "x": 5,
+                "visible": false,
+                "skin": "res_combat/boss/case_open02.png",
+                "name": "img3",
+                "anchorY": 0,
+                "anchorX": 0
+              },
+              "compId": 15
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 88,
+                "value": "5",
+                "spaceX": -5,
+                "skin": "res_common/number/num_19_jxzk_fed072_stk_2.png",
+                "sheet": "0123456789+-*;",
+                "name": "aimDamage",
+                "centerX": -10
+              },
+              "compId": 7,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 4,
+                    "skin": "res_combat/boss/text_wan.png",
+                    "right": -32
+                  },
+                  "compId": 6
+                }
+              ]
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 0,
+                "x": 64,
+                "visible": false,
+                "texture": "main/redpoint.png",
+                "name": "redPoint"
+              },
+              "compId": 11
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": ["main/redpoint.png"],
+  "loadList3D": []
+}

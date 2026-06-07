@@ -1,0 +1,354 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "var": "maskBg",
+        "top": 0,
+        "skin": "res_common/bg.png",
+        "right": 0,
+        "left": 0,
+        "bottom": 0,
+        "alpha": 0.5
+      },
+      "compId": 4
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 600,
+        "sizeGrid": "75,0,40,0",
+        "height": 410,
+        "centerY": -27,
+        "centerX": -3
+      },
+      "compId": 6,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -17,
+            "x": 0,
+            "width": 606,
+            "skin": "netRes/task/panel_rwxq.png",
+            "sizeGrid": "181,146,134,39",
+            "height": 429
+          },
+          "compId": 8
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -26,
+            "x": 516,
+            "var": "closeBtn",
+            "skin": "netRes/task/btn_close.png",
+            "label": "label"
+          },
+          "compId": 49
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 43,
+            "x": 165,
+            "skin": "netRes/task/bg_title01.png"
+          },
+          "compId": 50
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 53,
+            "x": 246,
+            "text": "text",
+            "skin": "netRes/task/text_rwxq.png"
+          },
+          "compId": 71
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 311,
+            "x": 196,
+            "width": 210,
+            "var": "taskBtn",
+            "stateNum": 1,
+            "height": 70
+          },
+          "compId": 9,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -3,
+                "x": 1,
+                "text": "text",
+                "skin": "res_common/btn_blue.png",
+                "name": "go"
+              },
+              "compId": 10,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 21,
+                    "x": 60,
+                    "text": "text",
+                    "skin": "netRes/task/text_qianwang.png"
+                  },
+                  "compId": 54
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -3,
+                "x": 1,
+                "skin": "res_common/btn_yellow.png",
+                "name": "receive"
+              },
+              "compId": 13,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 22,
+                    "x": 60,
+                    "text": "text",
+                    "skin": "netRes/task/text_lingqu.png"
+                  },
+                  "compId": 56
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -3,
+                "x": 1,
+                "skin": "res_common/btn_blue.png",
+                "name": "injection"
+              },
+              "compId": 14,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 21,
+                    "x": 61,
+                    "text": "text",
+                    "skin": "netRes/task/text_zhuru.png"
+                  },
+                  "compId": 55
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -3,
+                "x": 1,
+                "skin": "res_common/btn_yellow.png",
+                "name": "receiveAd"
+              },
+              "compId": 68,
+              "child": [
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 17,
+                    "x": 101,
+                    "var": "adCount",
+                    "value": "02",
+                    "spaceX": -1,
+                    "skin": "res_common/number/num_30_jxzk_674445.png",
+                    "sheet": "0123456789"
+                  },
+                  "compId": 75
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 26,
+                    "x": 155,
+                    "text": "text",
+                    "skin": "netRes/task/text_ykh.png",
+                    "height": 25
+                  },
+                  "compId": 74
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 26,
+                    "x": 97,
+                    "text": "text",
+                    "skin": "netRes/task/text_zkh.png",
+                    "height": 25
+                  },
+                  "compId": 69
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 30,
+                    "x": 128,
+                    "text": "text",
+                    "skin": "netRes/task/text_slashes.png"
+                  },
+                  "compId": 76
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 22,
+                    "x": 41,
+                    "skin": "netRes/task/icon_camera.png"
+                  },
+                  "compId": 70
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 120,
+            "x": 303,
+            "var": "summary",
+            "text": "逃出新手村",
+            "fontSize": 22,
+            "font": "SimHei",
+            "color": "#684546",
+            "bold": true,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 16
+        },
+        {
+          "type": "HBox",
+          "props": {
+            "y": 165,
+            "x": 296,
+            "var": "descBox",
+            "rotation": 0,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 18,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "var": "desc",
+                "text": "任务描述",
+                "fontSize": 22,
+                "font": "SimHei",
+                "color": "#8a6c6c",
+                "bold": true
+              },
+              "compId": 19
+            },
+            {
+              "type": "Label",
+              "props": {
+                "text": "（",
+                "fontSize": 22,
+                "font": "SimHei",
+                "color": "#8a6c6c",
+                "bold": true
+              },
+              "compId": 24
+            },
+            {
+              "type": "Label",
+              "props": {
+                "var": "proNum",
+                "text": "0/1",
+                "fontSize": 22,
+                "font": "Microsoft YaHei",
+                "color": "#00bd16",
+                "bold": true
+              },
+              "compId": 21
+            },
+            {
+              "type": "Label",
+              "props": {
+                "text": "）",
+                "fontSize": 22,
+                "font": "SimHei",
+                "color": "#8a6c6c",
+                "bold": true
+              },
+              "compId": 25
+            }
+          ]
+        },
+        {
+          "type": "HBox",
+          "props": {
+            "y": 246,
+            "x": 300,
+            "var": "itemBox",
+            "space": 10,
+            "height": 92,
+            "anchorY": 0.5,
+            "anchorX": 0.5,
+            "align": "middle"
+          },
+          "compId": 26
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 408,
+            "x": 167,
+            "text": "text",
+            "skin": "res_common/text_djgb_wphd.png"
+          },
+          "compId": 59
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 469,
+            "x": 196,
+            "visible": false,
+            "var": "completeBtn",
+            "text": "text",
+            "skin": "res_common/btn_blue.png"
+          },
+          "compId": 61,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "y": 21,
+                "x": 64,
+                "text": "完 成",
+                "fontSize": 32,
+                "font": "SimHei",
+                "color": "#ffffff",
+                "bold": true
+              },
+              "compId": 62
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": ["netRes/task/panel_rwxq.png"],
+  "loadList3D": []
+}

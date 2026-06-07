@@ -1,0 +1,32 @@
+{
+  "type": "View",
+  "props": {
+    "width": 320,
+    "height": 110
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Panel",
+      "props": {
+        "width": 320,
+        "name": "panel",
+        "height": 110,
+        "hScrollBarSkin": "comp/hscroll.png",
+        "centerX": 0
+      },
+      "compId": 3
+    },
+    {
+      "type": "Script",
+      "props": {
+        "panel": "@node:3",
+        "equipPrefab": "@Prefab:prefab/EquipItem.prefab",
+        "runtime": "game/script/combat/CTBagEquipList.ts"
+      },
+      "compId": 7
+    }
+  ],
+  "loadList": ["comp/hscroll.png", "prefab/EquipItem.prefab"],
+  "loadList3D": []
+}

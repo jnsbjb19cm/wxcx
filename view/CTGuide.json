@@ -1,0 +1,1238 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": true,
+    "height": 1334,
+    "drawCallOptimize": true,
+    "autoDestroyAtClosed": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "width": 750,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "sizeGrid": "26,34,34,26",
+        "height": 1334,
+        "alpha": 0.01
+      },
+      "compId": 58
+    },
+    {
+      "type": "Sprite",
+      "props": {
+        "y": 136,
+        "x": 607,
+        "width": 700,
+        "visible": false,
+        "var": "maskBg1",
+        "texture": "res_common/mask.png",
+        "pivotY": 350,
+        "pivotX": 350,
+        "height": 700,
+        "alpha": 0.7
+      },
+      "compId": 131
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "var": "fightGuideBox",
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Sprite",
+          "props": {
+            "y": 1139,
+            "x": 159,
+            "texture": "res_view/guide/yindao_shouzhi.png",
+            "pivotY": 40,
+            "pivotX": 43
+          },
+          "compId": 144
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 197,
+            "x": 119,
+            "width": 519,
+            "height": 157
+          },
+          "compId": 147,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 80.5,
+                "x": -115.5,
+                "visible": true,
+                "skin": "res_view/guide/plist_body.png",
+                "scaleY": -1,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 116
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": -20,
+                "x": 236,
+                "texture": "res_view/guide/jiao_up.png"
+              },
+              "compId": 149
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 5,
+                "x": 81,
+                "width": 350,
+                "valign": "middle",
+                "text": "拖动下方单位上场!",
+                "height": 152,
+                "fontSize": 41,
+                "font": "Microsoft YaHei",
+                "color": "#4a3d2e",
+                "bold": true,
+                "align": "left"
+              },
+              "compId": 212
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 750,
+        "var": "composeBox",
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 119,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 884,
+            "x": 283,
+            "visible": true,
+            "skin": "res_view/guide/plist_body.png",
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 120,
+          "child": [
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 146,
+                "x": 80,
+                "texture": "res_view/guide/jiao_down.png"
+              },
+              "compId": 146
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 1,
+                "x": 81,
+                "width": 344,
+                "valign": "middle",
+                "text": "三合一成高级单位!",
+                "height": 151,
+                "fontSize": 41,
+                "font": "Microsoft YaHei",
+                "color": "#4a3d2e",
+                "bold": true,
+                "align": "left"
+              },
+              "compId": 206
+            }
+          ]
+        },
+        {
+          "type": "Sprite",
+          "props": {
+            "y": 1139,
+            "x": 159,
+            "texture": "res_view/guide/yindao_shouzhi.png",
+            "pivotY": 40,
+            "pivotX": 43
+          },
+          "compId": 122
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 750,
+        "var": "chapterBox1",
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 123,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "visible": true,
+            "skin": "res_combat/public/panel_guide2.png",
+            "centerX": 0,
+            "bottom": 350,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 124,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "y": 73.5,
+                "text": "点击攻打据点",
+                "fontSize": 40,
+                "font": "SimHei",
+                "color": "#4c3425",
+                "centerX": 0,
+                "bold": true
+              },
+              "compId": 125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 750,
+        "var": "chapterBox2",
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 127,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "visible": true,
+            "skin": "res_view/guide/plist_zydjgq.png",
+            "centerY": -190,
+            "centerX": 9,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 128,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 105,
+                "x": 70,
+                "text": "text",
+                "skin": "res_view/guide/text_lxbt.png"
+              },
+              "compId": 156
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 750,
+        "var": "wearEquipBox",
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 135,
+      "child": [
+        {
+          "type": "Sprite",
+          "props": {
+            "y": 1139,
+            "x": 159,
+            "texture": "res_view/guide/yindao_shouzhi.png",
+            "pivotY": 40,
+            "pivotX": 43,
+            "name": "hand"
+          },
+          "compId": 145
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 195,
+            "width": 519,
+            "height": 158,
+            "centerX": 0
+          },
+          "compId": 151,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 81,
+                "width": 507,
+                "visible": true,
+                "skin": "res_view/guide/plist_body.png",
+                "scaleY": -1,
+                "height": 154,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 152
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": -19,
+                "x": 241,
+                "texture": "res_view/guide/jiao_up.png"
+              },
+              "compId": 154
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 8,
+                "x": 53,
+                "width": 429,
+                "valign": "middle",
+                "text": "拖动【装备】给角色穿上",
+                "height": 148,
+                "fontSize": 38,
+                "font": "Microsoft YaHei",
+                "color": "#4a3d2e",
+                "bold": true,
+                "align": "left"
+              },
+              "compId": 207
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "var": "contentBox",
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 141,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 316,
+            "x": 368,
+            "visible": false,
+            "var": "heroTip"
+          },
+          "compId": 139,
+          "child": [
+            {
+              "type": "Panel",
+              "props": {
+                "y": -318,
+                "x": -226,
+                "width": 453,
+                "var": "spineBox",
+                "name": "spineBox",
+                "height": 321
+              },
+              "compId": 8
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "width": 401,
+                "skin": "res_view/guide/panel_text.png",
+                "height": 143,
+                "centerX": 0
+              },
+              "compId": 5,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 61,
+                    "text": "text",
+                    "name": "tips",
+                    "centerX": 0
+                  },
+                  "compId": 217
+                }
+              ]
+            },
+            {
+              "type": "Script",
+              "props": {
+                "tips": "@node:217",
+                "spineBox": "@node:8",
+                "label": "@node:209",
+                "runtime": "game/script/common/GuideHeroTips.ts"
+              },
+              "compId": 140
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 2,
+                "x": -146,
+                "width": 328,
+                "valign": "middle",
+                "height": 141,
+                "fontSize": 28,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "bold": true,
+                "align": "left"
+              },
+              "compId": 209
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "var": "heroUpLvBox",
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 164,
+      "child": [
+        {
+          "type": "Sprite",
+          "props": {
+            "y": 184,
+            "x": 361,
+            "width": 372,
+            "texture": "res_view/guide/plist_body.png",
+            "name": "guideUpLvTip",
+            "height": 112
+          },
+          "compId": 165,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -24,
+                "x": 231,
+                "skin": "res_view/guide/jiao_up.png"
+              },
+              "compId": 197
+            },
+            {
+              "type": "Text",
+              "props": {
+                "y": 2,
+                "x": 61,
+                "width": 268,
+                "valign": "middle",
+                "text": "英雄升级，上阵数+1",
+                "height": 109,
+                "fontSize": 29,
+                "font": "Microsoft YaHei",
+                "color": "#4a3d2e",
+                "bold": true,
+                "align": "left",
+                "runtime": "Laya.Text"
+              },
+              "compId": 198
+            }
+          ]
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 314,
+            "x": 34,
+            "width": 253,
+            "valign": "middle",
+            "text": "英雄升级还会增加上阵人数哦",
+            "name": "txt",
+            "height": 140,
+            "fontSize": 26,
+            "font": "Microsoft YaHei",
+            "color": "#ffffff",
+            "bold": true,
+            "align": "left"
+          },
+          "compId": 203
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 307,
+            "x": 219,
+            "scaleY": 1.3,
+            "scaleX": 1.3,
+            "name": "left"
+          },
+          "compId": 199,
+          "child": [
+            {
+              "type": "Panel",
+              "props": {
+                "y": -318,
+                "x": -226,
+                "width": 453,
+                "name": "spineBox",
+                "height": 321
+              },
+              "compId": 200
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 4,
+                "width": 350,
+                "skin": "res_view/guide/panel_text.png",
+                "name": "tips",
+                "height": 109,
+                "centerX": 0
+              },
+              "compId": 201
+            },
+            {
+              "type": "Script",
+              "props": {
+                "tips": "@node:201",
+                "spineBox": "@node:200",
+                "aniName": "bow_single1",
+                "runtime": "game/script/common/GuideHeroTips.ts"
+              },
+              "compId": 202
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "var": "guide12",
+        "height": 1334
+      },
+      "compId": 167,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 862,
+            "x": 160,
+            "name": "left"
+          },
+          "compId": 169,
+          "child": [
+            {
+              "type": "Panel",
+              "props": {
+                "y": -318,
+                "x": -226,
+                "width": 453,
+                "name": "spineBox",
+                "height": 321
+              },
+              "compId": 170
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "width": 350,
+                "skin": "res_common/panel_text.png",
+                "name": "tips",
+                "height": 127,
+                "centerX": 0
+              },
+              "compId": 171
+            },
+            {
+              "type": "Script",
+              "props": {
+                "tips": "@node:171",
+                "spineBox": "@node:170",
+                "aniName": "idle_stand_yawn",
+                "runtime": "game/script/common/GuideHeroTips.ts"
+              },
+              "compId": 11
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 3,
+                "x": -110,
+                "width": 253,
+                "valign": "middle",
+                "text": "点击三合一成高级单位",
+                "name": "txt",
+                "height": 124,
+                "fontSize": 28,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "bold": true,
+                "align": "left"
+              },
+              "compId": 178
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 866,
+            "x": 575,
+            "name": "right"
+          },
+          "compId": 173,
+          "child": [
+            {
+              "type": "Panel",
+              "props": {
+                "y": -318,
+                "x": -223,
+                "width": 453,
+                "scaleX": -1,
+                "pivotY": 0,
+                "pivotX": 453,
+                "name": "spineBox",
+                "height": 321
+              },
+              "compId": 174
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "width": 350,
+                "skin": "res_common/panel_text.png",
+                "name": "tips",
+                "height": 127,
+                "centerX": 0
+              },
+              "compId": 175
+            },
+            {
+              "type": "Script",
+              "props": {
+                "tips": "@node:175",
+                "spineBox": "@node:174",
+                "aniName": "idle_stand_yawn",
+                "runtime": "game/script/common/GuideHeroTips.ts"
+              },
+              "compId": 177
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 3,
+                "x": -134,
+                "width": 253,
+                "valign": "middle",
+                "text": "点击三合一成高级单位",
+                "name": "txt",
+                "height": 124,
+                "fontSize": 28,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "bold": true,
+                "align": "left"
+              },
+              "compId": 179
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "var": "guide14",
+        "height": 1334
+      },
+      "compId": 180,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 1089,
+            "x": 160,
+            "name": "left"
+          },
+          "compId": 182,
+          "child": [
+            {
+              "type": "Panel",
+              "props": {
+                "y": -320,
+                "x": -226,
+                "width": 453,
+                "name": "spineBox",
+                "height": 321
+              },
+              "compId": 183
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": -187,
+                "width": 401,
+                "skin": "res_common/panel_text.png",
+                "name": "tips",
+                "height": 143,
+                "centerX": 0
+              },
+              "compId": 184
+            },
+            {
+              "type": "Script",
+              "props": {
+                "tips": "@node:184",
+                "spineBox": "@node:183",
+                "aniName": "idle_stand_yawn",
+                "runtime": "game/script/common/GuideHeroTips.ts"
+              },
+              "compId": 185
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 50,
+                "x": -133,
+                "width": 253,
+                "valign": "bottom",
+                "text": "战斗吧，英雄",
+                "name": "txt",
+                "height": 33,
+                "fontSize": 28,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "bold": true,
+                "align": "center"
+              },
+              "compId": 186
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "var": "guide9",
+        "height": 1334
+      },
+      "compId": 188,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 1193,
+            "x": 198,
+            "name": "left"
+          },
+          "compId": 189,
+          "child": [
+            {
+              "type": "Panel",
+              "props": {
+                "y": -318,
+                "x": -226,
+                "width": 453,
+                "name": "spineBox",
+                "height": 321
+              },
+              "compId": 190
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": -187,
+                "width": 401,
+                "skin": "res_common/panel_text.png",
+                "name": "tips",
+                "height": 143,
+                "centerX": 0
+              },
+              "compId": 191
+            },
+            {
+              "type": "Script",
+              "props": {
+                "tips": "@node:191",
+                "spineBox": "@node:190",
+                "aniName": "idle_stand_yawn",
+                "runtime": "game/script/common/GuideHeroTips.ts"
+              },
+              "compId": 192
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 2,
+                "x": -148,
+                "width": 253,
+                "valign": "middle",
+                "text": "获取功德，能够重获神力",
+                "name": "txt",
+                "height": 138,
+                "fontSize": 26,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "bold": true,
+                "align": "left"
+              },
+              "compId": 193
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 58,
+          "keyframes": {
+            "sizeGrid": [
+              {
+                "value": "26,34,34,26",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 58,
+                "key": "sizeGrid",
+                "index": 0
+              }
+            ]
+          }
+        },
+        {
+          "target": 144,
+          "keyframes": {
+            "y": [
+              {
+                "value": 1139,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 144,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 1139,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 144,
+                "key": "y",
+                "index": 10
+              },
+              {
+                "value": 817,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 144,
+                "key": "y",
+                "index": 30
+              }
+            ],
+            "x": [
+              {
+                "value": 159,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 144,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 159,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 144,
+                "key": "x",
+                "index": 10
+              },
+              {
+                "value": 317,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 144,
+                "key": "x",
+                "index": 30
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 144,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 0.75,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 144,
+                "key": "scaleY",
+                "index": 7
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 144,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 0.75,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 144,
+                "key": "scaleX",
+                "index": 7
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 144,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 144,
+                "key": "alpha",
+                "index": 3
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 144,
+                "key": "alpha",
+                "index": 10
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 144,
+                "key": "alpha",
+                "index": 30
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 144,
+                "key": "alpha",
+                "index": 38
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 144,
+                "key": "alpha",
+                "index": 55
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani1",
+      "id": 1,
+      "frameRate": 30,
+      "action": 2
+    },
+    {
+      "nodes": [
+        {
+          "target": 122,
+          "keyframes": {
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "scaleY",
+                "index": 2
+              },
+              {
+                "value": 0.75,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "scaleY",
+                "index": 5
+              },
+              {
+                "value": 0.75,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "label": null,
+                "key": "scaleY",
+                "index": 12
+              },
+              {
+                "value": 0.75,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "label": null,
+                "key": "scaleY",
+                "index": 15
+              },
+              {
+                "value": 0.75,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "label": null,
+                "key": "scaleY",
+                "index": 34
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "label": null,
+                "key": "scaleY",
+                "index": 36
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "scaleX",
+                "index": 2
+              },
+              {
+                "value": 0.75,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "scaleX",
+                "index": 5
+              },
+              {
+                "value": 0.75,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "label": null,
+                "key": "scaleX",
+                "index": 12
+              },
+              {
+                "value": 0.75,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "label": null,
+                "key": "scaleX",
+                "index": 15
+              },
+              {
+                "value": 0.75,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "label": null,
+                "key": "scaleX",
+                "index": 34
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "label": null,
+                "key": "scaleX",
+                "index": 36
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "alpha",
+                "index": 12
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "alpha",
+                "index": 15
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "label": null,
+                "key": "alpha",
+                "index": 34
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "label": null,
+                "key": "alpha",
+                "index": 36
+              }
+            ]
+          }
+        },
+        {
+          "target": 120,
+          "keyframes": {
+            "y": [
+              {
+                "value": 884,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 120,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 867,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 120,
+                "key": "y",
+                "index": 17
+              },
+              {
+                "value": 884,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 120,
+                "key": "y",
+                "index": 35
+              }
+            ],
+            "x": [
+              {
+                "value": 283,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 120,
+                "key": "x",
+                "index": 0
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani2",
+      "id": 1,
+      "frameRate": 30,
+      "action": 2
+    }
+  ],
+  "loadList": [
+    "res_common/bg.png",
+    "res_common/mask.png",
+    "res_view/guide/yindao_shouzhi.png",
+    "res_view/guide/plist_body.png",
+    "res_view/guide/jiao_up.png",
+    "res_view/guide/jiao_down.png",
+    "res_combat/public/panel_guide2.png",
+    "res_view/guide/plist_zydjgq.png",
+    "res_view/guide/text_lxbt.png",
+    "res_view/guide/panel_text.png",
+    "res_common/panel_text.png"
+  ],
+  "loadList3D": []
+}

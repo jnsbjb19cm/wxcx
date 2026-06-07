@@ -1,0 +1,32 @@
+{
+  "type": "View",
+  "props": {
+    "width": 320,
+    "height": 140
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Panel",
+      "props": {
+        "width": 320,
+        "name": "panel",
+        "height": 140,
+        "hScrollBarSkin": "comp/hscroll.png",
+        "centerX": 0
+      },
+      "compId": 3
+    },
+    {
+      "type": "Script",
+      "props": {
+        "panel": "@node:3",
+        "equipPrefab": "@Prefab:prefab/EquipItem.prefab",
+        "runtime": "game/script/arena/ACBagEquipList.ts"
+      },
+      "compId": 10
+    }
+  ],
+  "loadList": ["comp/hscroll.png", "prefab/EquipItem.prefab"],
+  "loadList3D": []
+}

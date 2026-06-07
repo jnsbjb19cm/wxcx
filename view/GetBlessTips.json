@@ -1,0 +1,206 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 813,
+        "x": 500,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 3
+    },
+    {
+      "type": "Box",
+      "props": {
+        "x": 375,
+        "width": 750,
+        "height": 600,
+        "centerY": -43,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "skin": "res_combat/arena/text_jhzf.png",
+            "centerX": 0
+          },
+          "compId": 5
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 465,
+            "skin": "res_combat/arena/panel_jhzf.png",
+            "centerX": 0
+          },
+          "compId": 6,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "wordWrap": true,
+                "width": 495,
+                "var": "contextLab",
+                "valign": "middle",
+                "text": "开战斗开战斗开战斗开战斗开战斗开战斗开战斗开战斗开战斗开战斗开战斗开战斗",
+                "leading": 14,
+                "height": 140,
+                "fontSize": 26,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "centerY": 6,
+                "centerX": 0,
+                "bold": true,
+                "align": "center"
+              },
+              "compId": 19
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 119,
+            "width": 200,
+            "scaleY": 1.2,
+            "scaleX": 1.2,
+            "height": 239,
+            "centerX": 0
+          },
+          "compId": 18,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 145,
+                "x": 100,
+                "var": "blessIcon",
+                "skin": "netRes/icon/blessIcon/S0_1.png",
+                "name": "blessIcon",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 14
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "texture": "netRes/arena/panel_zhufu.png"
+              },
+              "compId": 15
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 60,
+                "x": 29,
+                "width": 141,
+                "visible": false,
+                "var": "blessName",
+                "text": "加速祝福",
+                "stroke": 2,
+                "fontSize": 18,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "bold": true,
+                "align": "center"
+              },
+              "compId": 16
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 14,
+                "x": 73,
+                "var": "isGetIcon",
+                "skin": "netRes/arena/tag_received.png"
+              },
+              "compId": 17
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 4,
+          "keyframes": {
+            "x": [
+              {
+                "value": 375,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 4,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 4,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 4,
+                "key": "scaleY",
+                "index": 5
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 4,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 4,
+                "key": "scaleX",
+                "index": 5
+              }
+            ]
+          }
+        }
+      ],
+      "name": "openAni",
+      "id": 1,
+      "frameRate": 24,
+      "action": 0
+    }
+  ],
+  "loadList": ["netRes/arena/panel_zhufu.png"],
+  "loadList3D": []
+}

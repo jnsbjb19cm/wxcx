@@ -1,0 +1,241 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "x": -2,
+        "width": 755,
+        "var": "maskBg",
+        "top": 0,
+        "skin": "res_common/bg.png",
+        "height": 1334,
+        "alpha": 0.4
+      },
+      "compId": 17
+    },
+    {
+      "type": "Sprite",
+      "props": {
+        "y": 403,
+        "x": 428,
+        "width": 700,
+        "var": "maskBg1",
+        "texture": "res_common/mask.png",
+        "pivotY": 350,
+        "pivotX": 350,
+        "height": 700,
+        "alpha": 0.7
+      },
+      "compId": 20
+    },
+    {
+      "type": "SkeletonPlayer",
+      "props": {
+        "y": 1468,
+        "x": 441,
+        "url": "netRes/spine/halfBody/GW-QDJZ.gz",
+        "scaleY": 1,
+        "scaleX": 1,
+        "name": "halfBody",
+        "runtime": "Laya.Skeleton"
+      },
+      "compId": 4
+    },
+    {
+      "type": "Image",
+      "props": {
+        "var": "npcChat",
+        "skin": "res_view/plot/bg_plot_frame_2.png",
+        "centerY": 293,
+        "centerX": 3,
+        "alpha": 1
+      },
+      "compId": 5,
+      "child": [
+        {
+          "type": "Label",
+          "props": {
+            "y": 29,
+            "x": 35,
+            "width": 419,
+            "valign": "bottom",
+            "text": "给我站信！想要过去留下买路钱",
+            "height": 37,
+            "fontSize": 25,
+            "font": "Microsoft YaHei",
+            "color": "#65462f",
+            "alpha": 1
+          },
+          "compId": 14
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -34,
+            "x": 340,
+            "width": 328,
+            "skin": "res_view/plot/bg_plot_name.png",
+            "sizeGrid": "0,82,0,82",
+            "height": 51
+          },
+          "compId": 15
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": -24,
+            "x": 486,
+            "width": 96,
+            "valign": "bottom",
+            "text": "山贼",
+            "height": 30,
+            "fontSize": 28,
+            "font": "Microsoft YaHei",
+            "color": "#f1dcbd"
+          },
+          "compId": 16
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "var": "playerChat",
+        "skin": "res_view/plot/bg_plot_frame_1.png",
+        "centerY": 293,
+        "centerX": 3,
+        "alpha": 1
+      },
+      "compId": 7,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -29.5,
+            "x": 63,
+            "width": 323,
+            "skin": "res_view/plot/bg_plot_name.png",
+            "sizeGrid": "0,83,0,82",
+            "height": 51,
+            "alpha": 1
+          },
+          "compId": 11
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -84,
+            "x": -21,
+            "skin": "netRes/plotRes/avatar/YX_XL_happy.png"
+          },
+          "compId": 8
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": -24,
+            "x": 265,
+            "width": 96,
+            "valign": "bottom",
+            "text": "谢怜",
+            "height": 30,
+            "fontSize": 28,
+            "font": "Microsoft YaHei",
+            "color": "#f1dcbd"
+          },
+          "compId": 12
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 54,
+            "x": 205,
+            "width": 340,
+            "var": "playerChatText",
+            "valign": "bottom",
+            "height": 28,
+            "fontSize": 25,
+            "font": "Microsoft YaHei",
+            "color": "#cbba97"
+          },
+          "compId": 13
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "var": "guide",
+        "centerY": -91,
+        "centerX": -152
+      },
+      "compId": 25,
+      "child": [
+        {
+          "type": "Panel",
+          "props": {
+            "y": -318,
+            "x": -226,
+            "width": 453,
+            "var": "spineBox",
+            "name": "spineBox",
+            "height": 321
+          },
+          "compId": 26
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": -187,
+            "width": 401,
+            "skin": "res_common/panel_text.png",
+            "name": "tips",
+            "height": 143,
+            "centerX": 0
+          },
+          "compId": 27
+        },
+        {
+          "type": "Script",
+          "props": {
+            "tips": "@node:27",
+            "spineBox": "@node:26",
+            "scale": 3.6,
+            "aniName": "bow_single1",
+            "runtime": "game/script/common/GuideHeroTips.ts"
+          },
+          "compId": 28
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 54,
+            "x": -154,
+            "width": 287,
+            "var": "guideLabel",
+            "valign": "bottom",
+            "text": "打败这些拦路的山贼",
+            "height": 35,
+            "fontSize": 28,
+            "font": "Microsoft YaHei",
+            "color": "#ffffff",
+            "bold": true,
+            "align": "left"
+          },
+          "compId": 19
+        }
+      ]
+    }
+  ],
+  "loadList": ["res_common/mask.png"],
+  "loadList3D": []
+}

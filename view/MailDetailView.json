@@ -1,0 +1,532 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 677,
+        "x": 369,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "mouseThrough": false,
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.5
+      },
+      "compId": 3
+    },
+    {
+      "type": "Image",
+      "props": {
+        "x": 45,
+        "skin": "netRes/mail/panel_xfzk.png",
+        "centerY": 10,
+        "alpha": 1
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Label",
+          "props": {
+            "y": 216,
+            "x": 102,
+            "width": 230,
+            "visible": true,
+            "var": "dearPlayer",
+            "text": "亲爱的仙友",
+            "name": "dearPlayer",
+            "height": 48,
+            "fontSize": 30,
+            "font": "Microsoft YaHei",
+            "color": "#8d5a4e",
+            "bold": false
+          },
+          "compId": 36
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 85,
+            "width": 317,
+            "var": "titleLab",
+            "valign": "middle",
+            "text": "节日豪侠令奖励发放",
+            "height": 72,
+            "fontSize": 34,
+            "font": "Microsoft YaHei",
+            "color": "#55333e",
+            "centerX": 32,
+            "bold": true,
+            "anchorX": 0.5,
+            "alpha": 1,
+            "align": "center"
+          },
+          "compId": 6
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 150,
+            "x": 409,
+            "var": "timeLab",
+            "text": "2022/09/99",
+            "fontSize": 18,
+            "font": "Microsoft YaHei",
+            "color": "#8d5a4e",
+            "bold": true,
+            "anchorX": 1,
+            "alpha": 1
+          },
+          "compId": 8
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 223,
+            "x": 536,
+            "width": 131,
+            "var": "leaveTime",
+            "text": "剩余:x天",
+            "height": 25,
+            "fontSize": 19,
+            "font": "SimHei",
+            "color": "#ad2525"
+          },
+          "compId": 35
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 693,
+            "x": 244,
+            "width": 209,
+            "var": "delImg",
+            "skin": "res_common/btn_blue.png",
+            "height": 74,
+            "alpha": 1
+          },
+          "compId": 9,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 20.5,
+                "x": 61,
+                "skin": "res_view/mail/text_sc.png"
+              },
+              "compId": 30
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 693,
+            "x": 244,
+            "width": 210,
+            "var": "getImg",
+            "skin": "res_common/btn_yellow.png",
+            "height": 74,
+            "alpha": 1
+          },
+          "compId": 10,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 22,
+                "x": 62,
+                "skin": "res_view/mail/text_lq.png"
+              },
+              "compId": 27
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 492,
+            "x": 78,
+            "width": 556,
+            "var": "rewardImg",
+            "skin": "res_view/mail/panel_mail.png",
+            "sizeGrid": "16,20,21,19",
+            "height": 170,
+            "alpha": 1
+          },
+          "compId": 5
+        },
+        {
+          "type": "Panel",
+          "props": {
+            "y": 261,
+            "x": 80,
+            "width": 551,
+            "var": "contentPanel",
+            "vScrollBarSkin": " ",
+            "height": 233,
+            "alpha": 1
+          },
+          "compId": 23,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "y": 8,
+                "x": 33,
+                "wordWrap": true,
+                "width": 497,
+                "var": "contentLab",
+                "text": "噫吁嚱，危乎高哉！蜀道之难，难于上青天！蚕丛及鱼凫，开国何茫然！尔来四万八千岁，不与秦塞通人烟。西当太白有鸟道，可以横绝峨眉巅。地崩山摧壮士死，然后天梯石栈相钩连。上有六龙回日之高标，下有冲波逆折之回川。黄鹤之飞尚不得过，猿猱欲度愁攀援。青泥何盘盘，百步九折萦岩峦。扪参历井仰胁息，以手抚膺坐长叹。问君西游何时还？畏途巉岩不可攀。但见悲鸟号古木，雄飞雌从绕林间。又闻子规啼夜月，愁空山。蜀道之难，难于上青天，使人听此凋朱颜！连峰去天不盈尺，枯松倒挂倚绝壁。飞湍瀑流争喧豗，砯崖转石万壑雷。其险也如此，嗟尔远道之人胡为乎来哉！(也如此 一作：也若此)剑阁峥嵘而崔嵬，一夫当关，万夫莫开。所守或匪亲，化为狼与豺。朝避猛虎，夕避长蛇，磨牙吮血，杀人如麻。锦城虽云乐，不如早还家。蜀道之难，难于上青天，侧身西望长咨嗟！",
+                "leading": 10,
+                "fontSize": 27,
+                "font": "SimHei",
+                "color": "#2c1e1e",
+                "bold": false
+              },
+              "compId": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "x": 610,
+        "var": "btnClose",
+        "skin": "res_common/btn_close.png",
+        "centerY": -329
+      },
+      "compId": 31,
+      "child": [
+        {
+          "type": "Rect",
+          "props": {
+            "y": -16,
+            "x": -2,
+            "width": 102,
+            "renderType": "hit",
+            "lineWidth": 1,
+            "height": 106,
+            "fillColor": "#ff0000"
+          },
+          "compId": 89
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "skin": "res_common/text_djgb.png",
+        "centerY": 458,
+        "centerX": 0
+      },
+      "compId": 32
+    },
+    {
+      "type": "Image",
+      "props": {
+        "skin": "res_view/mail/img_mail_tea.png",
+        "centerY": 415,
+        "centerX": 285
+      },
+      "compId": 33
+    },
+    {
+      "type": "List",
+      "props": {
+        "width": 95,
+        "var": "mailitemList",
+        "spaceX": 5,
+        "repeatX": 5,
+        "renderType": "render",
+        "hScrollBarSkin": " ",
+        "centerY": 180,
+        "centerX": 26,
+        "alpha": 1
+      },
+      "compId": 43,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "y": 3,
+            "x": -3,
+            "width": 98,
+            "renderType": "render",
+            "name": "MailItemBox",
+            "height": 101,
+            "alpha": 1
+          },
+          "compId": 46,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "visible": false,
+                "top": 0,
+                "skin": "res_common/equip_slot_red.png",
+                "right": 0,
+                "name": "Img_color",
+                "left": 0,
+                "bottom": 0
+              },
+              "compId": 56
+            },
+            {
+              "type": "Image",
+              "props": {
+                "top": 0,
+                "right": 0,
+                "name": "Img_itemIcon",
+                "left": 0,
+                "bottom": 0
+              },
+              "compId": 57
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 76,
+                "x": 43,
+                "width": 54,
+                "texture": "res_common/main_shuzi.png",
+                "height": 17,
+                "alpha": 0.9
+              },
+              "compId": 71
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 74,
+                "x": 32,
+                "width": 98,
+                "value": "60",
+                "spaceX": -12,
+                "skin": "res_common/number/num_37_ht_ffffff_stk_2.png",
+                "sheet": "0123456789",
+                "scaleY": 0.5,
+                "scaleX": 0.5,
+                "name": "countItem",
+                "height": 35,
+                "direction": "horizontal",
+                "alpha": 1,
+                "align": "right"
+              },
+              "compId": 79
+            },
+            {
+              "type": "Script",
+              "props": {
+                "runtime": "gameplay/mail/MailItemBox.ts"
+              },
+              "compId": 59
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": -1,
+                "x": 0,
+                "width": 98,
+                "name": "touch",
+                "height": 101
+              },
+              "compId": 60
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 31,
+                "x": 7,
+                "width": 86,
+                "skin": "res_common/tag_received1.png",
+                "name": "Img_got",
+                "height": 34,
+                "alpha": 1
+              },
+              "compId": 63
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 33,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0.4,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "key": "alpha",
+                "index": 1
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "key": "alpha",
+                "index": 3
+              }
+            ]
+          }
+        },
+        {
+          "target": 32,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0.4,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "key": "alpha",
+                "index": 1
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "key": "alpha",
+                "index": 3
+              }
+            ]
+          }
+        },
+        {
+          "target": 31,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 31,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0.4,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 31,
+                "key": "alpha",
+                "index": 1
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 31,
+                "key": "alpha",
+                "index": 3
+              }
+            ]
+          }
+        },
+        {
+          "target": 4,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 4,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0.4,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 4,
+                "key": "alpha",
+                "index": 1
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 4,
+                "key": "alpha",
+                "index": 3
+              }
+            ]
+          }
+        },
+        {
+          "target": 43,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 43,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 43,
+                "key": "alpha",
+                "index": 1
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 43,
+                "key": "alpha",
+                "index": 3
+              }
+            ]
+          }
+        }
+      ],
+      "name": "onAppear",
+      "id": 1,
+      "frameRate": 24,
+      "action": 0
+    }
+  ],
+  "loadList": ["netRes/mail/panel_xfzk.png", "res_common/main_shuzi.png"],
+  "loadList3D": []
+}

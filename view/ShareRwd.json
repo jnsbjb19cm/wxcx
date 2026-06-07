@@ -1,0 +1,417 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 813,
+        "x": 500,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 3
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 600,
+        "var": "context",
+        "height": 656,
+        "centerY": 12,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -77,
+            "x": 164,
+            "width": 173,
+            "skin": "res_view/platformFeatures/share/icon_qqdfs.png",
+            "height": 99
+          },
+          "compId": 53
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -124,
+            "x": -34,
+            "var": "npcImg",
+            "skin": "res_view/platformFeatures/share/img_fxyl_wyql.png"
+          },
+          "compId": 6
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 63,
+            "x": -3,
+            "width": 606,
+            "skin": "res_view/platformFeatures/img house title_2.png",
+            "sizeGrid": "155,0,162,0",
+            "height": 549
+          },
+          "compId": 5
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 44,
+            "x": 518,
+            "skin": "res_view/platformFeatures/img_common_02.png"
+          },
+          "compId": 46
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 33,
+            "x": 513,
+            "var": "closeBtn",
+            "skin": "res_view/platformFeatures/btn_close.png",
+            "label": "label"
+          },
+          "compId": 47
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -33,
+            "x": 184,
+            "skin": "res_view/platformFeatures/share/text_qqdfs.png"
+          },
+          "compId": 8
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -31,
+            "x": 197,
+            "skin": "res_view/platformFeatures/share/text_fxyl.png"
+          },
+          "compId": 19
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -68,
+            "x": 518,
+            "skin": "res_view/platformFeatures/share/img_fxyl_hudie.png"
+          },
+          "compId": 44
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 9,
+            "x": 493,
+            "var": "infoBtn",
+            "skin": "res_view/platformFeatures/share/icon_fxyl_i.png"
+          },
+          "compId": 24
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 103,
+            "var": "bgImg",
+            "skin": "res_view/platformFeatures/share/img_kuangkuang.png",
+            "centerX": -1
+          },
+          "compId": 23,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 8,
+                "x": 8,
+                "skin": "res_view/platformFeatures/share/img_bjt.png"
+              },
+              "compId": 38
+            },
+            {
+              "type": "Panel",
+              "props": {
+                "y": 8,
+                "x": 8,
+                "width": 481,
+                "height": 358
+              },
+              "compId": 39,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 266,
+                    "x": 240,
+                    "width": 408,
+                    "var": "guang",
+                    "skin": "res_view/platformFeatures/share/img_common_decorationHalo.png",
+                    "height": 408,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 22
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 540,
+            "x": 300,
+            "var": "confirmBtn",
+            "stateNum": 1,
+            "skin": "res_common/btn_yellow.png",
+            "label": "label",
+            "centerX": 0,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 10,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 18,
+                "x": 14,
+                "skin": "res_view/platformFeatures/share/icon_share.png"
+              },
+              "compId": 36
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 23.5,
+                "x": 65,
+                "text": "text",
+                "skin": "res_view/platformFeatures/share/text_fxyl_.png"
+              },
+              "compId": 37
+            },
+            {
+              "type": "Script",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "runtime": "game/tools/BtnScale90.ts"
+              },
+              "compId": 12
+            }
+          ]
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 144,
+            "width": 301,
+            "text": "每日首次通过不同群链接\\n进入游戏可获得丰厚奖励",
+            "leading": 12,
+            "fontSize": 28,
+            "font": "Microsoft YaHei",
+            "color": "#684546",
+            "centerX": 0,
+            "bold": true,
+            "align": "center"
+          },
+          "compId": 9
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 242,
+            "text": "完成可获得",
+            "strokeColor": "#aa7449",
+            "stroke": 4,
+            "fontSize": 42,
+            "font": "SimHei",
+            "color": "#fefff5",
+            "centerX": -4
+          },
+          "compId": 20
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 316,
+            "x": 239,
+            "width": 121,
+            "var": "propBox",
+            "height": 121
+          },
+          "compId": 21
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 605,
+            "x": 164,
+            "text": "text",
+            "skin": "res_view/platformFeatures/text_djgb.png"
+          },
+          "compId": 40
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 435,
+        "visible": false,
+        "var": "infoBox",
+        "height": 330,
+        "centerY": -32,
+        "centerX": 0
+      },
+      "compId": 25,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 165,
+            "x": 218,
+            "width": 1000,
+            "var": "infoMask",
+            "skin": "res_common/bg.png",
+            "height": 1625,
+            "centerY": 0,
+            "centerX": 0,
+            "anchorY": 0.5,
+            "anchorX": 0.5,
+            "alpha": 0.2
+          },
+          "compId": 29
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 26,
+            "x": -89,
+            "width": 606,
+            "skin": "res_view/platformFeatures/img house title_2.png",
+            "sizeGrid": "173,0,168,0",
+            "height": 354
+          },
+          "compId": 26
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 7,
+            "x": 435,
+            "skin": "res_view/platformFeatures/img_common_02.png"
+          },
+          "compId": 33
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -2,
+            "x": 430,
+            "var": "closeInfoBtn",
+            "skin": "res_view/platformFeatures/btn_close.png",
+            "label": "label"
+          },
+          "compId": 32
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 371,
+            "x": 81,
+            "text": "text",
+            "skin": "res_view/platformFeatures/text_djgb.png"
+          },
+          "compId": 42
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 68,
+            "x": 81,
+            "skin": "res_view/platformFeatures/bg_title01.png"
+          },
+          "compId": 31
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 193,
+            "wordWrap": true,
+            "width": 395,
+            "text": "在群聊中点击自己的分享链接进入游戏，即可获得奖励",
+            "leading": 18,
+            "height": 72,
+            "fontSize": 26,
+            "font": "Microsoft YaHei",
+            "color": "#684546",
+            "centerX": 0,
+            "bold": true,
+            "align": "center"
+          },
+          "compId": 27
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 77,
+            "skin": "res_view/platformFeatures/share/text_shuoming.png",
+            "centerX": -2
+          },
+          "compId": 28
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 22,
+          "keyframes": {
+            "rotation": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 22,
+                "key": "rotation",
+                "index": 0
+              },
+              {
+                "value": 360,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 22,
+                "key": "rotation",
+                "index": 60
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani1",
+      "id": 1,
+      "frameRate": 30,
+      "action": 2
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

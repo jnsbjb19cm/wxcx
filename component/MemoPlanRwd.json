@@ -1,0 +1,176 @@
+{
+  "type": "View",
+  "props": {
+    "y": 35,
+    "x": 0,
+    "width": 579,
+    "centerX": -3
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 35,
+        "x": 0,
+        "width": 579,
+        "var": "planRwd",
+        "centerX": -3
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "List",
+          "props": {
+            "y": 35,
+            "x": 0,
+            "width": 579,
+            "var": "planList",
+            "spaceY": -12,
+            "repeatY": 2
+          },
+          "compId": 4,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "x": 0,
+                "width": 579,
+                "renderType": "render",
+                "height": 162
+              },
+              "compId": 5,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 7,
+                    "x": 9,
+                    "skin": "res_view/beauty/bg_house_name.png"
+                  },
+                  "compId": 6
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 18,
+                    "x": 30,
+                    "width": 69,
+                    "skin": "res_view/beauty/text_sjd.png",
+                    "height": 22
+                  },
+                  "compId": 7
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 9,
+                    "x": 105,
+                    "value": "4",
+                    "spaceX": -5,
+                    "skin": "res_common/number/num_22_jxzk_50ac2c.png",
+                    "sheet": "0123456789",
+                    "name": "num"
+                  },
+                  "compId": 8,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 12,
+                        "skin": "res_view/beauty/text_pzh_red.png",
+                        "right": -9
+                      },
+                      "compId": 9,
+                      "child": [
+                        {
+                          "type": "FontClip",
+                          "props": {
+                            "y": -12,
+                            "value": "4",
+                            "spaceX": -5,
+                            "skin": "res_common/number/num_22_jxzk_d15559.png",
+                            "sheet": "0123456789",
+                            "right": -14,
+                            "left": 4
+                          },
+                          "compId": 10
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "HBox",
+                  "props": {
+                    "y": 41,
+                    "x": 25,
+                    "space": -2,
+                    "name": "rwdBox"
+                  },
+                  "compId": 11
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 39,
+                    "x": 395,
+                    "width": 160,
+                    "skin": "res_common/btn_yellow.png",
+                    "name": "getBtn",
+                    "height": 73
+                  },
+                  "compId": 14,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "skin": "res_view/beauty/text_lq.png",
+                        "centerY": 2,
+                        "centerX": 0
+                      },
+                      "compId": 15
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -2,
+                        "x": 138.5,
+                        "skin": "res_common/redpoint.png",
+                        "scaleY": 0.8,
+                        "scaleX": 0.8
+                      },
+                      "compId": 18
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 61,
+                    "x": 431,
+                    "skin": "res_view/beauty/text_wwc.png",
+                    "name": "wwc"
+                  },
+                  "compId": 16
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 61,
+                    "x": 433,
+                    "skin": "res_view/beauty/text_ywc.png",
+                    "name": "ylq"
+                  },
+                  "compId": 17
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

@@ -1,0 +1,330 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 300
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Label",
+      "props": {
+        "y": 10,
+        "width": 173,
+        "var": "timeLab",
+        "text": "23:40",
+        "overflow": "hidden",
+        "height": 24,
+        "fontSize": 24,
+        "font": "SimHei",
+        "color": "#6f5c52",
+        "centerX": -7,
+        "align": "center"
+      },
+      "compId": 22
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 49,
+        "x": 0,
+        "width": 750,
+        "var": "normalOther",
+        "height": 150
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "width": 74,
+            "var": "otherHeadFrame",
+            "skin": "res_common/pro_mask.png",
+            "left": 25,
+            "height": 74
+          },
+          "compId": 4,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "width": 80,
+                "var": "otherHead",
+                "skin": "res_common/headImg_default.png",
+                "height": 80,
+                "centerY": 0,
+                "centerX": 0
+              },
+              "compId": 29,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 4,
+                    "x": 4,
+                    "width": 72,
+                    "skin": "res_common/pro_mask.png",
+                    "renderType": "mask",
+                    "name": "mask",
+                    "height": 72
+                  },
+                  "compId": 39
+                }
+              ]
+            },
+            {
+              "type": "Label",
+              "props": {
+                "var": "otherPassLab",
+                "stroke": 3,
+                "right": 4,
+                "fontSize": 18,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "bottom": 3,
+                "bold": true,
+                "align": "right"
+              },
+              "compId": 7
+            }
+          ]
+        },
+        {
+          "type": "HBox",
+          "props": {
+            "y": 0,
+            "x": 119,
+            "height": 24
+          },
+          "compId": 44,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "var": "otherName",
+                "text": "玩家",
+                "overflow": "hidden",
+                "fontSize": 24,
+                "font": "SimHei",
+                "color": "#8d5a4e"
+              },
+              "compId": 8
+            },
+            {
+              "type": "Label",
+              "props": {
+                "x": 48,
+                "var": "otherServer",
+                "fontSize": 22,
+                "font": "SimHei",
+                "color": "#ff0000",
+                "centerY": 0
+              },
+              "compId": 43
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 41,
+            "x": 115,
+            "skin": "netRes/chat/plist_chat_dis.png"
+          },
+          "compId": 40
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 30,
+            "x": 122,
+            "width": 239,
+            "var": "otherCTBg",
+            "skin": "netRes/chat/plist_chat.png",
+            "sizeGrid": "10,10,10,10",
+            "height": 44
+          },
+          "compId": 11,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "y": 9,
+                "x": 10,
+                "var": "otherCTLab",
+                "text": "我给大家讲个事情",
+                "leading": 7,
+                "fontSize": 24,
+                "font": "SimHei",
+                "color": "#55333e"
+              },
+              "compId": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 49,
+        "x": 0,
+        "width": 750,
+        "var": "normalSelf",
+        "height": 150
+      },
+      "compId": 13,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "width": 74,
+            "var": "selfHeadFrame",
+            "skin": "res_common/pro_mask.png",
+            "right": 25,
+            "height": 74
+          },
+          "compId": 14,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "width": 80,
+                "var": "selfHead",
+                "skin": "res_common/headImg_default.png",
+                "height": 80,
+                "centerY": 0,
+                "centerX": 0
+              },
+              "compId": 26,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 4,
+                    "x": 4,
+                    "width": 72,
+                    "skin": "res_common/pro_mask.png",
+                    "renderType": "mask",
+                    "name": "mask",
+                    "height": 72
+                  },
+                  "compId": 41
+                }
+              ]
+            },
+            {
+              "type": "Label",
+              "props": {
+                "var": "selfPassLab",
+                "valign": "bottom",
+                "stroke": 3,
+                "right": 7,
+                "fontSize": 18,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "bottom": 7,
+                "bold": true,
+                "align": "right"
+              },
+              "compId": 16
+            }
+          ]
+        },
+        {
+          "type": "HBox",
+          "props": {
+            "y": 0,
+            "right": 113,
+            "height": 27
+          },
+          "compId": 46,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "y": 0,
+                "var": "selfName",
+                "text": "我的名字七个字",
+                "overflow": "hidden",
+                "height": 27,
+                "fontSize": 24,
+                "font": "SimHei",
+                "color": "#8d5a4e",
+                "align": "right"
+              },
+              "compId": 18
+            },
+            {
+              "type": "Label",
+              "props": {
+                "x": 469,
+                "var": "selfServer",
+                "fontSize": 22,
+                "font": "SimHei",
+                "color": "#ff0000",
+                "centerY": 0
+              },
+              "compId": 45
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 41,
+            "x": 637,
+            "skin": "netRes/chat/plist_chat_dis.png",
+            "scaleX": -1
+          },
+          "compId": 42
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 30,
+            "width": 405,
+            "var": "selfCTBg",
+            "skin": "netRes/chat/plist_chat.png",
+            "sizeGrid": "10,10,10,10",
+            "right": 120,
+            "height": 72
+          },
+          "compId": 20,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "y": 9,
+                "x": 10,
+                "wordWrap": true,
+                "width": 384,
+                "var": "selfCTLab",
+                "text": "这个游戏应该花钱买什么，完全没有玩懂的感觉。",
+                "leading": 4,
+                "height": 62,
+                "fontSize": 24,
+                "font": "SimHei",
+                "color": "#55333e"
+              },
+              "compId": 21
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 10,
+        "width": 750,
+        "var": "systemBox"
+      },
+      "compId": 23
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

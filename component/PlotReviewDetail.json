@@ -1,0 +1,87 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 5,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -145.5,
+            "x": -125,
+            "width": 1000,
+            "var": "maskBg",
+            "skin": "res_common/bg.png",
+            "height": 1625,
+            "alpha": 0.5
+          },
+          "compId": 6
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 308,
+            "x": 34,
+            "width": 682,
+            "var": "Bg",
+            "skin": "res_view/plot/bg_explore_tips.png",
+            "sizeGrid": "46,46,47,46",
+            "height": 727
+          },
+          "compId": 7,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "y": 36,
+                "x": 275,
+                "text": "剧情回顾",
+                "name": "title",
+                "fontSize": 30,
+                "font": "Microsoft YaHei",
+                "color": "#d7c195"
+              },
+              "compId": 10
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 76,
+                "x": 50,
+                "texture": "res_view/plot/icon_line.png",
+                "name": "line"
+              },
+              "compId": 38
+            },
+            {
+              "type": "Panel",
+              "props": {
+                "y": 114,
+                "x": 27,
+                "width": 630,
+                "var": "viewPanel",
+                "vScrollBarSkin": " ",
+                "height": 588
+              },
+              "compId": 37
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": ["res_view/plot/icon_line.png"],
+  "loadList3D": []
+}

@@ -1,0 +1,337 @@
+{
+  "type": "View",
+  "props": {
+    "width": 118,
+    "height": 118
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 118,
+        "visible": false,
+        "var": "bg",
+        "skin": "res_common/solt_rank_empty.png",
+        "name": "bg",
+        "height": 118
+      },
+      "compId": 3
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 118,
+        "visible": false,
+        "var": "qualityImg",
+        "skin": "res_common/equip_slot_orange.png",
+        "name": "qualityImg",
+        "height": 118
+      },
+      "compId": 4
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 118,
+        "var": "img",
+        "name": "img",
+        "height": 118,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 5
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 4.5,
+        "x": -5,
+        "visible": false,
+        "var": "overSign",
+        "skin": "res_common/label_fq.png",
+        "name": "overSign"
+      },
+      "compId": 6
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 70,
+        "x": 64,
+        "width": 200,
+        "visible": false,
+        "var": "fx2",
+        "skin": "res_view/getItems/fx2/1-1.png",
+        "name": "fx2",
+        "height": 200,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 1
+      },
+      "compId": 7
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "var": "light",
+        "top": 0,
+        "skin": "res_view/getItems/light.png",
+        "right": 0,
+        "name": "light",
+        "left": 0,
+        "bottom": 0,
+        "alpha": 0
+      },
+      "compId": 8,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 60,
+            "x": 60,
+            "width": 120,
+            "renderType": "mask",
+            "height": 120,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 10
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 5,
+        "x": 5,
+        "visible": false,
+        "skin": "res_common/lable_guoqing.png",
+        "name": "activitySign"
+      },
+      "compId": 11
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 106,
+        "x": 106,
+        "width": 35,
+        "visible": true,
+        "var": "numBg",
+        "skin": "res_common/main_shuzi.png",
+        "scaleY": 0.9,
+        "scaleX": 1,
+        "name": "numBg",
+        "height": 22,
+        "anchorY": 1,
+        "anchorX": 0.88
+      },
+      "compId": 12
+    },
+    {
+      "type": "FontClip",
+      "props": {
+        "y": 98,
+        "width": 46,
+        "visible": false,
+        "var": "numLab",
+        "value": "5",
+        "spaceX": -13,
+        "skin": "res_common/number/num_42_wryh_ffffff_stk_3.png",
+        "sheet": "0123456789",
+        "scaleY": 0.6,
+        "scaleX": 0.6,
+        "right": 19,
+        "name": "numLab",
+        "height": 36,
+        "anchorY": 1,
+        "anchorX": 1,
+        "align": "right"
+      },
+      "compId": 9
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": -2.3,
+        "x": -10.5,
+        "visible": false,
+        "var": "loveSign",
+        "skin": "res_view/beauty/img_xh.png",
+        "scaleY": 1.16,
+        "scaleX": 1.16,
+        "name": "loveSign"
+      },
+      "compId": 19
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 7,
+          "keyframes": {
+            "skin": [
+              {
+                "value": "res_view/getItems/fx2/2-2.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 7,
+                "label": null,
+                "key": "skin",
+                "index": 0
+              },
+              {
+                "value": "res_view/getItems/fx2/3-3.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 7,
+                "label": null,
+                "key": "skin",
+                "index": 1
+              },
+              {
+                "value": "res_view/getItems/fx2/4-4.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 7,
+                "label": null,
+                "key": "skin",
+                "index": 2
+              },
+              {
+                "value": "res_view/getItems/fx2/5-5.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 7,
+                "label": null,
+                "key": "skin",
+                "index": 3
+              },
+              {
+                "value": "res_view/getItems/fx2/6-6.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 7,
+                "label": null,
+                "key": "skin",
+                "index": 4
+              },
+              {
+                "value": "res_view/getItems/fx2/6-6.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 7,
+                "label": null,
+                "key": "skin",
+                "index": 5
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 7,
+                "label": null,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 7,
+                "label": null,
+                "key": "alpha",
+                "index": 4
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 7,
+                "label": null,
+                "key": "alpha",
+                "index": 5
+              }
+            ]
+          }
+        },
+        {
+          "target": 8,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 8,
+                "label": null,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0.6,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 8,
+                "label": null,
+                "key": "alpha",
+                "index": 1
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 8,
+                "label": null,
+                "key": "alpha",
+                "index": 3
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 8,
+                "label": null,
+                "key": "alpha",
+                "index": 5
+              }
+            ]
+          }
+        }
+      ],
+      "name": "addAni",
+      "id": 1,
+      "frameRate": 30,
+      "action": 0
+    }
+  ],
+  "loadList": [
+    "res_common/solt_rank_empty.png",
+    "res_common/equip_slot_orange.png",
+    "res_common/label_fq.png",
+    "res_view/getItems/fx2/1-1.png",
+    "res_view/getItems/light.png",
+    "res_common/lable_guoqing.png",
+    "res_common/main_shuzi.png",
+    "res_common/number/num_42_wryh_ffffff_stk_3.png",
+    "res_view/beauty/img_xh.png",
+    "res_view/getItems/fx2/2-2.png",
+    "res_view/getItems/fx2/3-3.png",
+    "res_view/getItems/fx2/4-4.png",
+    "res_view/getItems/fx2/5-5.png",
+    "res_view/getItems/fx2/6-6.png"
+  ],
+  "loadList3D": []
+}

@@ -1,0 +1,263 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": true,
+    "mouseEnabled": true,
+    "height": 1344,
+    "drawCallOptimize": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 672,
+        "x": 375,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 58
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "var": "contentBox",
+        "mouseThrough": true,
+        "height": 554,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Sprite",
+          "props": {
+            "y": 4,
+            "x": 168,
+            "texture": "res_view/night/text_qxzczdyx.png"
+          },
+          "compId": 94
+        },
+        {
+          "type": "List",
+          "props": {
+            "y": 139,
+            "width": 570,
+            "var": "list",
+            "spaceX": 56,
+            "repeatX": 3,
+            "height": 282,
+            "centerX": 0
+          },
+          "compId": 95,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 150,
+                "renderType": "render",
+                "height": 300
+              },
+              "compId": 99,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "res_common/solt_profile_blue.png",
+                    "name": "iconBg"
+                  },
+                  "compId": 96
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 156,
+                    "x": 71,
+                    "skin": "",
+                    "name": "heroIcon",
+                    "anchorY": 1,
+                    "anchorX": 0.5
+                  },
+                  "compId": 97
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 144,
+                    "wordWrap": true,
+                    "width": 193,
+                    "text": "江东父老",
+                    "strokeColor": "#000000",
+                    "stroke": 2,
+                    "name": "heroName",
+                    "leading": 5,
+                    "height": 23,
+                    "fontSize": 24,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "centerX": 0,
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 100
+                },
+                {
+                  "type": "Button",
+                  "props": {
+                    "y": 197,
+                    "x": -19,
+                    "width": 180,
+                    "stateNum": 1,
+                    "skin": "res_common/btn_hua_yellow (2).png",
+                    "name": "chooseBtn",
+                    "height": 83
+                  },
+                  "compId": 101,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 18,
+                        "x": 57,
+                        "skin": "res_view/night/text_xuanze.png"
+                      },
+                      "compId": 103
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 94,
+          "keyframes": {
+            "y": [
+              {
+                "value": -30,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 94,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 4,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 94,
+                "key": "y",
+                "index": 11
+              }
+            ],
+            "x": [
+              {
+                "value": 168,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 94,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 94,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 94,
+                "key": "alpha",
+                "index": 11
+              }
+            ]
+          }
+        },
+        {
+          "target": 95,
+          "keyframes": {
+            "y": [
+              {
+                "value": 162,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 95,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 139,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 95,
+                "key": "y",
+                "index": 7
+              }
+            ],
+            "x": [
+              {
+                "value": 90,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 95,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 95,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 95,
+                "key": "alpha",
+                "index": 7
+              }
+            ]
+          }
+        }
+      ],
+      "name": "openAni",
+      "id": 1,
+      "frameRate": 30,
+      "action": 1
+    }
+  ],
+  "loadList": [
+    "res_view/night/text_qxzczdyx.png",
+    "res_common/solt_profile_blue.png"
+  ],
+  "loadList3D": []
+}

@@ -1,0 +1,77 @@
+{
+  "type": "View",
+  "props": {
+    "width": 500,
+    "height": 82
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "var": "bgTexturBox"
+      },
+      "compId": 20
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "top": 0,
+        "right": 0,
+        "name": "panel",
+        "left": 0,
+        "bottom": 0
+      },
+      "compId": 21
+    },
+    {
+      "type": "Image",
+      "props": {
+        "zOrder": 100,
+        "y": 0,
+        "x": 0,
+        "width": 46,
+        "var": "chgBtn",
+        "skin": "res_combat/public/aura_slot.png",
+        "right": 0,
+        "height": 46,
+        "centerY": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5
+      },
+      "compId": 22,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "var": "chgIcon",
+            "skin": "res_combat/public/aura_arrow_close.png",
+            "centerY": 0,
+            "centerX": 0,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 23
+        }
+      ]
+    },
+    {
+      "type": "Script",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "panel": "@node:21",
+        "chgBtn": "@node:23",
+        "bgTexturBox": "@node:20",
+        "runtime": "game/script/arena/ACRingList.ts"
+      },
+      "compId": 19
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

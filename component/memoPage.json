@@ -1,0 +1,279 @@
+{
+  "type": "View",
+  "props": {
+    "y": 409,
+    "x": 0,
+    "width": 750,
+    "height": 663
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Panel",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 750,
+        "var": "memoPanel",
+        "vScrollBarSkin": " ",
+        "height": 663
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "List",
+          "props": {
+            "y": 0,
+            "x": 85,
+            "width": 580,
+            "var": "memoList",
+            "spaceY": -13,
+            "repeatY": 1,
+            "centerX": 0
+          },
+          "compId": 4,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 580,
+                "renderType": "render",
+                "height": 130
+              },
+              "compId": 5,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 10,
+                    "x": 5,
+                    "visible": false,
+                    "skin": "res_view/beauty/panel_xj_1.png",
+                    "name": "panel",
+                    "centerX": 0
+                  },
+                  "compId": 6
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -17,
+                    "x": -22,
+                    "visible": false,
+                    "skin": "res_view/beauty/panel_kjs.png",
+                    "name": "unlockPanel"
+                  },
+                  "compId": 7
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 10,
+                    "visible": false,
+                    "skin": "res_view/beauty/panel_xj_1.png",
+                    "name": "lockpanel",
+                    "centerX": 0
+                  },
+                  "compId": 8,
+                  "child": [
+                    {
+                      "type": "Script",
+                      "props": {
+                        "saturation": "-40",
+                        "hue": "0",
+                        "contrast": "-40",
+                        "color": "#000000",
+                        "brightness": "-60",
+                        "alpha": "0",
+                        "runtime": "laya.effect.ColorFilterSetter"
+                      },
+                      "compId": 9
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 13,
+                    "x": 20,
+                    "visible": false,
+                    "skin": "res_view/beauty/icon_cw.png",
+                    "name": "type"
+                  },
+                  "compId": 10
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "wordWrap": true,
+                    "width": 440,
+                    "visible": false,
+                    "text": "一句点击半身像会播放的语音，一句点击半",
+                    "name": "content",
+                    "left": 64,
+                    "leading": 5,
+                    "fontSize": 20,
+                    "font": "SimHei",
+                    "color": "#494039",
+                    "centerY": 3
+                  },
+                  "compId": 11
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 8,
+                    "x": 11,
+                    "name": "btn"
+                  },
+                  "compId": 12,
+                  "child": [
+                    {
+                      "type": "Rect",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "width": 553,
+                        "renderType": "hit",
+                        "lineWidth": 1,
+                        "height": 114,
+                        "fillColor": "#ff0000"
+                      },
+                      "compId": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 71,
+                    "x": 535,
+                    "visible": false,
+                    "skin": "res_view/beauty/btn_yy.png",
+                    "name": "audioBtn",
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 14,
+                  "child": [
+                    {
+                      "type": "Script",
+                      "props": {
+                        "runtime": "game/tools/BtnScale85.ts"
+                      },
+                      "compId": 15
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 68,
+                    "x": 534,
+                    "width": 47,
+                    "visible": false,
+                    "name": "award",
+                    "height": 55
+                  },
+                  "compId": 16,
+                  "child": [
+                    {
+                      "type": "Animation",
+                      "props": {
+                        "source": "ani/albumAward.ani"
+                      },
+                      "compId": 17
+                    },
+                    {
+                      "type": "Rect",
+                      "props": {
+                        "y": -38,
+                        "x": -37.5,
+                        "width": 61,
+                        "renderType": "hit",
+                        "lineWidth": 1,
+                        "height": 76,
+                        "fillColor": "#ff0000"
+                      },
+                      "compId": 18
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 17,
+                    "x": 252,
+                    "visible": false,
+                    "skin": "res_view/sg/icon_lock_02.png",
+                    "scaleY": 0.6,
+                    "scaleX": 0.6,
+                    "name": "lock"
+                  },
+                  "compId": 19,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 97,
+                        "visible": false,
+                        "text": "好感度达到（30/150）解锁",
+                        "name": "lockTip",
+                        "fontSize": 32,
+                        "font": "Microsoft YaHei",
+                        "color": "#673636",
+                        "centerX": 0
+                      },
+                      "compId": 20
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "visible": false,
+                    "skin": "res_view/beauty/text_djjs.png",
+                    "scaleY": 1,
+                    "scaleX": 1,
+                    "name": "unlock",
+                    "centerY": 7,
+                    "centerX": -2
+                  },
+                  "compId": 21
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 2,
+                    "x": 552,
+                    "visible": false,
+                    "skin": "res_common/redpoint.png",
+                    "scaleY": 0.8,
+                    "scaleX": 0.8,
+                    "name": "redPoint"
+                  },
+                  "compId": 22
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "visible": false,
+                    "skin": "res_view/beauty/text_jqqd.png",
+                    "name": "bin",
+                    "centerY": 3,
+                    "centerX": 0
+                  },
+                  "compId": 23
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": ["ani/albumAward.ani"],
+  "loadList3D": []
+}

@@ -1,0 +1,37 @@
+{
+  "type": "View",
+  "props": {
+    "width": 620,
+    "height": 446
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Label",
+      "props": {
+        "y": 83,
+        "width": 486,
+        "var": "heroName",
+        "text": "新 五 级 兵 种",
+        "stroke": 2,
+        "height": 36,
+        "fontSize": 36,
+        "font": "Microsoft YaHei",
+        "color": "#ffffff",
+        "centerX": 0,
+        "bold": true,
+        "align": "center"
+      },
+      "compId": 12
+    },
+    {
+      "type": "Script",
+      "props": {
+        "runtime": "game/view/component/UnlockLv5.ts"
+      },
+      "compId": 21
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

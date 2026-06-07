@@ -1,0 +1,1077 @@
+{
+  "type": "Scene",
+  "props": {
+    "width": 750,
+    "runtime": "game/scene/ArenaScene.ts",
+    "height": 1334,
+    "autoDestroyAtClosed": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": -145,
+        "x": -125,
+        "width": 1000,
+        "sizeGrid": "156,10,12,0",
+        "name": "bigBg",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 165
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "var": "contentBox",
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 7,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 244,
+            "x": -1,
+            "width": 753,
+            "var": "mapBg",
+            "skin": "netRes/combat/map/1.jpg",
+            "centerY": -30,
+            "centerX": 0
+          },
+          "compId": 78,
+          "child": [
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 18,
+                "x": 7,
+                "texture": "res_combat/public/cell.png"
+              },
+              "compId": 106
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "width": 738,
+            "var": "mapBox",
+            "height": 738,
+            "centerY": -36,
+            "centerX": 0
+          },
+          "compId": 26,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "var": "mapBotBox",
+                "top": 0,
+                "right": 0,
+                "left": 0,
+                "bottom": 0
+              },
+              "compId": 47,
+              "child": [
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "name": "skillAniBox"
+                  },
+                  "compId": 61
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "name": "publicAniBox"
+                  },
+                  "compId": 150
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "var": "mapCenterBox",
+                "top": 0,
+                "right": 0,
+                "left": 0,
+                "bottom": 0
+              },
+              "compId": 48
+            },
+            {
+              "type": "Box",
+              "props": {
+                "top": 0,
+                "right": 0,
+                "left": 0,
+                "bottom": 0
+              },
+              "compId": 49,
+              "child": [
+                {
+                  "type": "Box",
+                  "props": {
+                    "top": 0,
+                    "right": 0,
+                    "left": 0,
+                    "bottom": 0
+                  },
+                  "compId": 52
+                },
+                {
+                  "type": "Box",
+                  "props": {},
+                  "compId": 53
+                },
+                {
+                  "type": "Box",
+                  "props": {},
+                  "compId": 54
+                },
+                {
+                  "type": "Box",
+                  "props": {},
+                  "compId": 55
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 0
+                  },
+                  "compId": 62
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "var": "uiBox",
+            "top": 0,
+            "right": 0,
+            "mouseThrough": true,
+            "left": 0,
+            "bottom": 0
+          },
+          "compId": 74,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 240,
+                "x": 0,
+                "width": 750,
+                "var": "battleTime",
+                "sizeGrid": "2,14,2,8"
+              },
+              "compId": 148
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 768,
+                "var": "ImageTopBkg",
+                "skin": "res_combat/public/panel_1.png",
+                "height": 256
+              },
+              "compId": 130
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 1112,
+                "x": 0,
+                "width": 751,
+                "var": "ImageBottonBkg",
+                "skin": "res_combat/public/panel_1.png",
+                "sizeGrid": "119,0,94,0",
+                "height": 236
+              },
+              "compId": 154
+            },
+            {
+              "type": "Panel",
+              "props": {
+                "y": -130,
+                "x": -2,
+                "width": 447,
+                "height": 361
+              },
+              "compId": 174,
+              "child": [
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 361,
+                    "x": 98,
+                    "width": 100,
+                    "visible": true,
+                    "var": "enemySpineBox",
+                    "name": "enemySpineBox",
+                    "height": 100
+                  },
+                  "compId": 169
+                }
+              ]
+            },
+            {
+              "type": "Panel",
+              "props": {
+                "x": 351,
+                "width": 400,
+                "height": 300,
+                "bottom": 5
+              },
+              "compId": 175,
+              "child": [
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 291,
+                    "x": 308,
+                    "width": 100,
+                    "visible": true,
+                    "var": "heroSpineBox",
+                    "name": "heroSpineBox",
+                    "height": 100
+                  },
+                  "compId": 168
+                }
+              ]
+            },
+            {
+              "type": "CTArenaEnemyInfo",
+              "props": {
+                "y": 23,
+                "x": 0,
+                "var": "enemyInfoPanel",
+                "runtime": "ui.component.CTArenaEnemyInfoUI"
+              },
+              "compId": 152
+            },
+            {
+              "type": "CTArenaSelfInfo",
+              "props": {
+                "y": 1121,
+                "x": 0,
+                "var": "selfInfoPanel",
+                "runtime": "ui.component.CTArenaSelfInfoUI"
+              },
+              "compId": 153
+            },
+            {
+              "type": "CTRingList",
+              "props": {
+                "y": 135.5,
+                "var": "enemyRingPanel",
+                "scaleY": 0.8,
+                "scaleX": 0.8,
+                "centerX": 43,
+                "runtime": "ui.component.CTRingListUI"
+              },
+              "compId": 124
+            },
+            {
+              "type": "CTRingList",
+              "props": {
+                "y": 1233,
+                "x": 91,
+                "var": "selfRingPanel",
+                "scaleY": 0.8,
+                "scaleX": 0.8,
+                "runtime": "ui.component.CTRingListUI"
+              },
+              "compId": 156
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 150,
+                "x": 358,
+                "visible": false,
+                "name": "guideUpLvTip"
+              },
+              "compId": 149
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -151,
+                "x": -121,
+                "skin": "loading/panel_top.png",
+                "centerX": 0
+              },
+              "compId": 166
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 667,
+                "x": 375,
+                "visible": false,
+                "var": "startTimer",
+                "skin": "res_combat/arena/text_3.png",
+                "centerY": 0,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 159
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 364,
+                "x": 307,
+                "width": 288,
+                "visible": false,
+                "var": "dialogEnemy",
+                "texture": "netRes/arenaN/panel_chat.png",
+                "rotation": 180,
+                "pivotY": 33,
+                "pivotX": 30,
+                "height": 163
+              },
+              "compId": 160,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 112.5,
+                    "x": 257,
+                    "wordWrap": true,
+                    "width": 237,
+                    "var": "overTipsEnemy",
+                    "valign": "middle",
+                    "text": "你赢了",
+                    "rotation": 180,
+                    "leading": 9,
+                    "height": 101,
+                    "fontSize": 26,
+                    "font": "Microsoft YaHei",
+                    "color": "#4c3425",
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 161
+                }
+              ]
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 970,
+                "x": 430,
+                "width": 288,
+                "visible": false,
+                "var": "dialogSelf",
+                "texture": "netRes/arenaN/panel_chat.png",
+                "scaleY": -1,
+                "scaleX": -1,
+                "rotation": 180,
+                "pivotY": 26,
+                "pivotX": 90,
+                "height": 163
+              },
+              "compId": 162,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 21,
+                    "x": 37,
+                    "wordWrap": true,
+                    "width": 223,
+                    "var": "overTips",
+                    "valign": "middle",
+                    "text": "你输了",
+                    "leading": 9,
+                    "height": 86,
+                    "fontSize": 26,
+                    "font": "Microsoft YaHei",
+                    "color": "#4c3425",
+                    "bold": true,
+                    "alpha": 1,
+                    "align": "center"
+                  },
+                  "compId": 163
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 195,
+                "x": 1,
+                "var": "traitBoxEn",
+                "height": 45
+              },
+              "compId": 184,
+              "child": [
+                {
+                  "type": "List",
+                  "props": {
+                    "y": -10,
+                    "x": 175,
+                    "width": 650,
+                    "var": "entraitLists",
+                    "spaceX": 13,
+                    "repeatY": 1,
+                    "repeatX": 10,
+                    "renderType": "render",
+                    "name": "entraitLists",
+                    "height": 45
+                  },
+                  "compId": 185,
+                  "child": [
+                    {
+                      "type": "Box",
+                      "props": {
+                        "width": 45,
+                        "renderType": "render",
+                        "height": 45
+                      },
+                      "compId": 186,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "width": 45,
+                            "name": "icon",
+                            "height": 45
+                          },
+                          "compId": 187
+                        },
+                        {
+                          "type": "Label",
+                          "props": {
+                            "text": "3",
+                            "strokeColor": "#000000",
+                            "stroke": 3,
+                            "right": 0,
+                            "name": "num",
+                            "fontSize": 23,
+                            "font": "SimHei",
+                            "color": "#ffffff",
+                            "bottom": 1
+                          },
+                          "compId": 188
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 1284,
+                "x": -93,
+                "var": "traitBox",
+                "height": 45
+              },
+              "compId": 176,
+              "child": [
+                {
+                  "type": "List",
+                  "props": {
+                    "y": 0,
+                    "x": 98,
+                    "width": 650,
+                    "var": "traitLists",
+                    "spaceX": 13,
+                    "repeatY": 1,
+                    "repeatX": 10,
+                    "renderType": "render",
+                    "name": "traitLists",
+                    "height": 45
+                  },
+                  "compId": 179,
+                  "child": [
+                    {
+                      "type": "Box",
+                      "props": {
+                        "width": 45,
+                        "renderType": "render",
+                        "height": 45
+                      },
+                      "compId": 180,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "width": 45,
+                            "name": "icon",
+                            "height": 45
+                          },
+                          "compId": 181
+                        },
+                        {
+                          "type": "Label",
+                          "props": {
+                            "text": "3",
+                            "strokeColor": "#000000",
+                            "stroke": 3,
+                            "right": 0,
+                            "name": "num",
+                            "fontSize": 23,
+                            "font": "SimHei",
+                            "color": "#ffffff",
+                            "bottom": 1
+                          },
+                          "compId": 182
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "width": 738,
+            "var": "mapTopAniBox",
+            "height": 738,
+            "centerY": -36,
+            "centerX": 0
+          },
+          "compId": 139,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "var": "mapTopBox",
+                "top": 0,
+                "right": 0,
+                "left": 0,
+                "bottom": 0
+              },
+              "compId": 140,
+              "child": [
+                {
+                  "type": "Box",
+                  "props": {
+                    "var": "hpBox",
+                    "top": 0,
+                    "right": 0,
+                    "left": 0,
+                    "bottom": 0
+                  },
+                  "compId": 141
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "var": "atkAniBox"
+                  },
+                  "compId": 142
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "name": "skillAniBox"
+                  },
+                  "compId": 143
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "var": "txtBox"
+                  },
+                  "compId": 144
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "name": "publicAniBox"
+                  },
+                  "compId": 145
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "x": -3,
+            "skin": "loading/panel_buttom.png",
+            "bottom": -138
+          },
+          "compId": 167
+        }
+      ]
+    },
+    {
+      "type": "Script",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "uiBox": "@node:74",
+        "txtBox": "@node:144",
+        "subHpPrefab": "@Prefab:prefab/MonsterDieTip.prefab",
+        "skillAniTopBox": "@node:143",
+        "skillAniBotBox": "@node:61",
+        "rolePrefab": "@Prefab:prefab/Monster.prefab",
+        "publicAniTopBox": "@node:145",
+        "publicAniBotBox": "@node:150",
+        "playerPanel": "@node:70",
+        "mapTopBox": "@node:140",
+        "mapCenterBox": "@node:48",
+        "mapBox": "@node:26",
+        "mapBotBox": "@node:47",
+        "hpBox": "@node:141",
+        "hpBarPrefab": "@Prefab:prefab/HpBar.prefab",
+        "heroPrefab": "@Prefab:prefab/Hero.prefab",
+        "fontClipRec": "@Prefab:prefab/FontClipRec.prefab",
+        "fontClipRealDmg": "@Prefab:prefab/FontClipRealDmg.prefab",
+        "fontClipDmg": "@Prefab:prefab/FontClipDmg.prefab",
+        "fontClipCri": "@Prefab:prefab/FontClipCri.prefab",
+        "equipPrefab": "@Prefab:prefab/EquipItem.prefab",
+        "confirmTxt": "@node:39",
+        "confirmBtn": "@node:38",
+        "battleTimePro": "@node:148",
+        "atkAniBox": "@node:142",
+        "runtime": "game/script/combat/CTMainArena.ts"
+      },
+      "compId": 151
+    },
+    {
+      "type": "Script",
+      "props": {
+        "uiBox": "@node:74",
+        "mapBg": "@node:78",
+        "contentBox": "@node:7",
+        "bgSign": "@node:106",
+        "runtime": "game/script/combat/CTMap.ts"
+      },
+      "compId": 98
+    },
+    {
+      "type": "Sprite",
+      "props": {
+        "visible": false,
+        "texture": "combat/frameAni/public/cri.png"
+      },
+      "compId": 147
+    },
+    {
+      "type": "Sprite",
+      "props": {
+        "visible": false,
+        "texture": "combat/frameAni/attack/1-hit_0.png"
+      },
+      "compId": 146
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 159,
+          "keyframes": {
+            "x": [
+              {
+                "value": 375,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 159,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 159,
+                "key": "visible",
+                "index": 0
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 159,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 0.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 159,
+                "label": null,
+                "key": "scaleY",
+                "index": 7
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 159,
+                "key": "scaleY",
+                "index": 9
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 159,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 0.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 159,
+                "label": null,
+                "key": "scaleX",
+                "index": 7
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 159,
+                "key": "scaleX",
+                "index": 9
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 159,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 159,
+                "label": null,
+                "key": "alpha",
+                "index": 7
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 159,
+                "key": "alpha",
+                "index": 60
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 159,
+                "key": "alpha",
+                "index": 65
+              }
+            ]
+          }
+        }
+      ],
+      "name": "startTimerAni",
+      "id": 1,
+      "frameRate": 60,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 160,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 160,
+                "label": null,
+                "key": "visible",
+                "index": 0
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 0,
+                "tweenMethod": "backOut",
+                "tween": true,
+                "target": 160,
+                "label": null,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 160,
+                "label": null,
+                "key": "scaleY",
+                "index": 10
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 0,
+                "tweenMethod": "backOut",
+                "tween": true,
+                "target": 160,
+                "label": null,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 160,
+                "label": null,
+                "key": "scaleX",
+                "index": 10
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 160,
+                "label": null,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 160,
+                "label": null,
+                "key": "alpha",
+                "index": 10
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 160,
+                "key": "alpha",
+                "index": 41
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 160,
+                "key": "alpha",
+                "index": 44
+              }
+            ]
+          }
+        },
+        {
+          "target": 161,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 161,
+                "label": null,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 161,
+                "label": null,
+                "key": "alpha",
+                "index": 9
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 161,
+                "label": null,
+                "key": "alpha",
+                "index": 13
+              }
+            ]
+          }
+        }
+      ],
+      "name": "dialogEnemyAni",
+      "id": 2,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 162,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 162,
+                "label": null,
+                "key": "visible",
+                "index": 0
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 0,
+                "tweenMethod": "backOut",
+                "tween": true,
+                "target": 162,
+                "label": null,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": -1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 162,
+                "label": null,
+                "key": "scaleY",
+                "index": 10
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 162,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 162,
+                "label": null,
+                "key": "alpha",
+                "index": 41
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 162,
+                "label": null,
+                "key": "alpha",
+                "index": 44
+              }
+            ]
+          }
+        },
+        {
+          "target": 163,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 163,
+                "label": null,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 163,
+                "label": null,
+                "key": "alpha",
+                "index": 9
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 163,
+                "label": null,
+                "key": "alpha",
+                "index": 13
+              }
+            ]
+          }
+        }
+      ],
+      "name": "dialogSelfAni",
+      "id": 3,
+      "frameRate": 30,
+      "action": 0
+    }
+  ],
+  "loadList": [
+    "netRes/combat/map/1.jpg",
+    "res_combat/public/cell.png",
+    "component/CTArenaEnemyInfo.scene",
+    "component/CTArenaSelfInfo.scene",
+    "component/CTRingList.scene",
+    "netRes/arenaN/panel_chat.png",
+    "prefab/MonsterDieTip.prefab",
+    "prefab/Monster.prefab",
+    "prefab/HpBar.prefab",
+    "prefab/Hero.prefab",
+    "prefab/FontClipRec.prefab",
+    "prefab/FontClipRealDmg.prefab",
+    "prefab/FontClipDmg.prefab",
+    "prefab/FontClipCri.prefab",
+    "prefab/EquipItem.prefab",
+    "combat/frameAni/public/cri.png",
+    "combat/frameAni/attack/1-hit_0.png"
+  ],
+  "loadList3D": []
+}

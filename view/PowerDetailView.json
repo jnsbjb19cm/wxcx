@@ -1,0 +1,337 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "width": 750,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0,
+        "alpha": 0.6
+      },
+      "compId": 87
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "mouseThrough": true,
+        "mouseEnabled": true,
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "skin": "res_view/sg/panel_dj_yz.png",
+            "sizeGrid": "645,0,123,0",
+            "centerY": 25,
+            "centerX": -29
+          },
+          "compId": 7,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 23,
+                "skin": "res_view/sg/panel_dj.jpg",
+                "centerX": 23
+              },
+              "compId": 92,
+              "child": [
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": -28,
+                    "x": 335,
+                    "texture": "res_view/sg/pic_niao_1.png"
+                  },
+                  "compId": 93
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 620,
+                    "x": -46,
+                    "texture": "res_view/sg/pic_niao_2.png"
+                  },
+                  "compId": 94
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 713,
+                    "wordWrap": true,
+                    "width": 396,
+                    "var": "desc",
+                    "text": "由上古之神锻造的传说战锤，他",
+                    "leading": 5,
+                    "fontSize": 22,
+                    "font": "SimHei",
+                    "color": "#817969",
+                    "centerX": 0,
+                    "anchorY": 1,
+                    "align": "center"
+                  },
+                  "compId": 82
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 268,
+                "width": 236,
+                "visible": true,
+                "var": "power",
+                "height": 236,
+                "centerX": 22,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 8,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "visible": true,
+                    "skin": "res_view/sg/panel_slxq_2.png",
+                    "name": "unLockPanel",
+                    "centerY": 2,
+                    "centerX": 5,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 67
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "width": 266,
+                    "visible": false,
+                    "skin": "res_view/sg/panel_slwjs_2.png",
+                    "name": "lockPanel",
+                    "height": 266,
+                    "centerY": -2,
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 70
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "width": 223,
+                    "name": "powerIcon",
+                    "height": 224,
+                    "centerY": -4,
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 65
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "visible": false,
+                    "skin": "res_view/sg/icon_lock_02.png",
+                    "name": "lock",
+                    "centerY": 0,
+                    "centerX": 0
+                  },
+                  "compId": 83
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 411,
+                "x": 186,
+                "var": "levelbg",
+                "skin": "res_view/sg/panel_slgy.png",
+                "centerX": 20
+              },
+              "compId": 86
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 439,
+                "x": 295,
+                "var": "nameImg",
+                "scaleY": 1,
+                "scaleX": 1,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 71
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 482,
+                "visible": false,
+                "var": "lockTip",
+                "skin": "res_view/sg/text_hfflhq.png",
+                "centerX": 20
+              },
+              "compId": 84
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 476,
+                "x": 240,
+                "visible": false,
+                "var": "maxLevel",
+                "skin": "res_view/sg/text_slmj.png",
+                "scaleY": 1.8,
+                "scaleX": 1.8
+              },
+              "compId": 78
+            },
+            {
+              "type": "HBox",
+              "props": {
+                "y": 476,
+                "var": "level",
+                "space": 3,
+                "scaleY": 1,
+                "scaleX": 1,
+                "centerX": 21
+              },
+              "compId": 72,
+              "child": [
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": -8,
+                    "x": 0
+                  },
+                  "compId": 74,
+                  "child": [
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "var": "levelNum",
+                        "value": "15",
+                        "spaceX": -15,
+                        "skin": "res_common/number/num_40_jxzk_ffffff_stk_2.png",
+                        "sheet": "0123456789",
+                        "pivotX": 8
+                      },
+                      "compId": 73
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "skin": "res_view/sg/text_j_3.png",
+                    "scaleY": 1,
+                    "scaleX": 1
+                  },
+                  "compId": 75
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 537,
+                "x": 65,
+                "width": 466,
+                "skin": "res_view/sg/frame_artifact_skill.png",
+                "sizeGrid": "15,17,15,15",
+                "name": "panel",
+                "height": 139
+              },
+              "compId": 77,
+              "child": [
+                {
+                  "type": "HBox",
+                  "props": {
+                    "var": "attrDesc",
+                    "centerY": 4,
+                    "centerX": 0
+                  },
+                  "compId": 79,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "text": "物理伤害减免",
+                        "fontSize": 27,
+                        "font": "Microsoft YaHei",
+                        "color": "#826562",
+                        "bold": true
+                      },
+                      "compId": 80
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "text": "+94%",
+                        "fontSize": 27,
+                        "font": "Microsoft YaHei",
+                        "color": "#0b8235",
+                        "bold": true
+                      },
+                      "compId": 81
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "skin": "res_common/text_djgb.png",
+                "centerX": 17,
+                "bottom": -41
+              },
+              "compId": 90
+            }
+          ]
+        },
+        {
+          "type": "Rect",
+          "props": {
+            "y": 334,
+            "x": 118,
+            "width": 504,
+            "renderType": "hit",
+            "lineWidth": 1,
+            "height": 720,
+            "fillColor": "#ff0000"
+          },
+          "compId": 88
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "res_view/sg/panel_dj.jpg",
+    "res_view/sg/pic_niao_1.png",
+    "res_view/sg/pic_niao_2.png"
+  ],
+  "loadList3D": []
+}

@@ -1,0 +1,112 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "x": 750,
+        "width": 2348,
+        "var": "maskBox",
+        "top": 0,
+        "height": 1334,
+        "bottom": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "x": 0,
+            "top": 0,
+            "skin": "netRes/arena/pic_zhuanchang.png",
+            "bottom": 0
+          },
+          "compId": 3
+        },
+        {
+          "type": "Image",
+          "props": {
+            "x": 680,
+            "width": 1000,
+            "top": 0,
+            "skin": "res_common/bg.png",
+            "height": 1334,
+            "bottom": 0
+          },
+          "compId": 6
+        },
+        {
+          "type": "Image",
+          "props": {
+            "x": 2348,
+            "top": 0,
+            "skin": "netRes/arena/pic_zhuanchang.png",
+            "scaleX": -1,
+            "bottom": 0
+          },
+          "compId": 5
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 4,
+          "keyframes": {
+            "x": [
+              {
+                "value": 750,
+                "tweenMethod": "circOut",
+                "tween": true,
+                "target": 4,
+                "label": "prepare",
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": -786,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 4,
+                "label": "ready",
+                "key": "x",
+                "index": 9
+              },
+              {
+                "value": -812,
+                "tweenMethod": "circIn",
+                "tween": true,
+                "target": 4,
+                "label": "done",
+                "key": "x",
+                "index": 11
+              },
+              {
+                "value": -2348,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 4,
+                "label": "over",
+                "key": "x",
+                "index": 20
+              }
+            ]
+          }
+        }
+      ],
+      "name": "transAni",
+      "id": 1,
+      "frameRate": 30,
+      "action": 0
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

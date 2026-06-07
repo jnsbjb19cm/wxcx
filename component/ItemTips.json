@@ -1,0 +1,179 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334,
+    "centerY": 0,
+    "centerX": 0
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 672,
+        "x": 375,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 5
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 679,
+        "width": 412,
+        "var": "contentBox",
+        "height": 300,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5
+      },
+      "compId": 6,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "top": 0,
+            "skin": "res_main/panel_tips.png",
+            "sizeGrid": "200,0,136,0",
+            "right": 0,
+            "name": "bg",
+            "left": 0,
+            "bottom": 0
+          },
+          "compId": 3,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "var": "bgImg",
+                "skin": "res_main/panel_p.png",
+                "scaleY": 0.655,
+                "scaleX": 0.655,
+                "anchorY": 0.165,
+                "anchorX": 0.06
+              },
+              "compId": 19
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 10,
+            "x": 17,
+            "width": 130,
+            "name": "icon",
+            "height": 130
+          },
+          "compId": 17,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "width": 130,
+                "var": "quaImg",
+                "skin": "res_common/equip_slot_purple.png",
+                "scaleY": 1,
+                "scaleX": 1,
+                "height": 130,
+                "centerY": 0,
+                "centerX": 0
+              },
+              "compId": 15
+            },
+            {
+              "type": "Image",
+              "props": {
+                "width": 120,
+                "var": "iconImg",
+                "height": 120,
+                "centerY": 0,
+                "centerX": 0
+              },
+              "compId": 16
+            }
+          ]
+        },
+        {
+          "type": "VBox",
+          "props": {
+            "y": 216,
+            "width": 350,
+            "var": "descBox",
+            "spaceY": 15,
+            "space": 20,
+            "centerX": 0
+          },
+          "compId": 12
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 58,
+            "x": 154,
+            "width": 252,
+            "var": "itemLab",
+            "valign": "middle",
+            "text": "我是名称",
+            "strokeColor": "#3e0f0f",
+            "height": 39,
+            "fontSize": 34,
+            "font": "Microsoft YaHei",
+            "color": "#9a7fef",
+            "bold": true,
+            "align": "left"
+          },
+          "compId": 4
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 163,
+            "wordWrap": true,
+            "width": 385,
+            "var": "desc1",
+            "text": "用于获得元宝，得到元宝后美滋滋滋滋啊啊啊滋。",
+            "leading": 10,
+            "height": 96,
+            "fontSize": 22,
+            "font": "SimHei",
+            "color": "#f8f0e0",
+            "centerX": 3,
+            "bold": true,
+            "align": "left"
+          },
+          "compId": 8
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 256,
+            "width": 360,
+            "var": "desc2",
+            "text": "充值，主线任务中产出",
+            "height": 22,
+            "fontSize": 22,
+            "font": "SimHei",
+            "color": "#928e8b",
+            "centerX": -8,
+            "align": "center"
+          },
+          "compId": 10
+        }
+      ]
+    }
+  ],
+  "loadList": ["res_main/panel_tips.png"],
+  "loadList3D": []
+}

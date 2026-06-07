@@ -1,0 +1,213 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": true,
+    "height": 1334,
+    "drawCallOptimize": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 813,
+        "x": 500,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 140
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 488,
+        "x": 115,
+        "var": "exchangePanel",
+        "skin": "res_view/personalInfo/bg_common_Panel.png",
+        "centerX": 0
+      },
+      "compId": 163,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "top": 32,
+            "skin": "res_view/personalInfo/text_duihuanma.png",
+            "centerX": 1
+          },
+          "compId": 164
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 116,
+            "x": 226.5,
+            "skin": "res_view/personalInfo/text_shuruduihuanma.png",
+            "name": "qsrdm"
+          },
+          "compId": 184
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 171.5,
+            "x": 100.5,
+            "skin": "res_view/personalInfo/plist_type.png",
+            "sizeGrid": "14,14,14,14"
+          },
+          "compId": 182
+        },
+        {
+          "type": "TextInput",
+          "props": {
+            "y": 174.5,
+            "x": 111.5,
+            "width": 383,
+            "var": "codeInput",
+            "valign": "middle",
+            "promptColor": "#9d887a",
+            "prompt": "点击输入内容",
+            "height": 49,
+            "fontSize": 24,
+            "font": "Microsoft YaHei",
+            "color": "#796751",
+            "bold": false,
+            "align": "left"
+          },
+          "compId": 178
+        },
+        {
+          "type": "Button",
+          "props": {
+            "y": 255,
+            "x": 199,
+            "width": 210,
+            "var": "confirmBtn",
+            "stateNum": 1,
+            "skin": "res_common/btn_yellow.png",
+            "labelStroke": 2,
+            "labelSize": 30,
+            "labelFont": "Microsoft YaHei",
+            "labelColors": "#ffffff",
+            "labelBold": true,
+            "height": 71
+          },
+          "compId": 179,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 18,
+                "x": 53,
+                "skin": "res_view/personalInfo/text_queding.png"
+              },
+              "compId": 180
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 365.5,
+            "x": 169,
+            "skin": "res_view/personalInfo/text_djgb.png"
+          },
+          "compId": 185
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 122,
+          "keyframes": {
+            "x": [
+              {
+                "value": 150,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 150,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "x",
+                "index": 50
+              }
+            ],
+            "text": [
+              {
+                "value": "5",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 0
+              },
+              {
+                "value": "4",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 10
+              },
+              {
+                "value": "3",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 20
+              },
+              {
+                "value": "2",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 30
+              },
+              {
+                "value": "1",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 40
+              },
+              {
+                "value": "0",
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "text",
+                "index": 50
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani",
+      "id": 1,
+      "frameRate": 10,
+      "action": 0
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

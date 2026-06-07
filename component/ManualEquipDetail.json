@@ -1,0 +1,532 @@
+{
+  "type": "View",
+  "props": {
+    "y": 193,
+    "x": 25,
+    "width": 563,
+    "visible": true,
+    "runtime": "game/view/component/ManualEquipDetail.ts",
+    "height": 973,
+    "autoDestroyAtClosed": false
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 253,
+        "x": 83,
+        "var": "decoration",
+        "skin": "res_view/manual/img_anwen.png"
+      },
+      "compId": 116
+    },
+    {
+      "type": "Panel",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 563,
+        "var": "equipPanel",
+        "vScrollBarSkin": " ",
+        "height": 973
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "VBox",
+          "props": {
+            "y": 9,
+            "x": 0,
+            "width": 593,
+            "space": 20
+          },
+          "compId": 75,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "x": -6,
+                "width": 593,
+                "var": "adBox"
+              },
+              "compId": 5,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 22,
+                    "x": 152,
+                    "skin": "res_common/bg_title01.png"
+                  },
+                  "compId": 3,
+                  "child": [
+                    {
+                      "type": "Sprite",
+                      "props": {
+                        "y": 6.25,
+                        "x": 105.25,
+                        "texture": "res_view/manual/text_gongji.png"
+                      },
+                      "compId": 40
+                    }
+                  ]
+                },
+                {
+                  "type": "List",
+                  "props": {
+                    "y": 95,
+                    "x": 13,
+                    "width": 558,
+                    "var": "adList",
+                    "spaceY": 18,
+                    "spaceX": 17
+                  },
+                  "compId": 18,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "width": 77,
+                        "renderType": "render",
+                        "height": 77,
+                        "cacheAs": "bitmap"
+                      },
+                      "compId": 22,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 37,
+                            "x": 37,
+                            "width": 77,
+                            "skin": "res_common/equip_slot_blue.png",
+                            "name": "iconK",
+                            "height": 77,
+                            "centerY": 0,
+                            "centerX": 0,
+                            "anchorY": 0.5,
+                            "anchorX": 0.5
+                          },
+                          "compId": 24
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "width": 70,
+                            "top": 2,
+                            "skin": "res_view/manual/slot_locked.png",
+                            "name": "icon",
+                            "left": 2,
+                            "height": 70,
+                            "centerY": 0,
+                            "centerX": 0,
+                            "anchorY": 0.5,
+                            "anchorX": 0.5
+                          },
+                          "compId": 23
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "skin": "res_common/frame_common_icon02.png",
+                            "name": "iconK2",
+                            "centerY": 0,
+                            "centerX": 0
+                          },
+                          "compId": 58
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "width": 188,
+                            "visible": false,
+                            "skin": "res_common/equip_b.png",
+                            "sizeGrid": "34,42,35,29",
+                            "scaleY": 0.43,
+                            "scaleX": 0.43,
+                            "name": "iconAwkPoint",
+                            "height": 183,
+                            "centerY": -1,
+                            "centerX": -1,
+                            "anchorY": 0.5,
+                            "anchorX": 0.5
+                          },
+                          "compId": 33
+                        },
+                        {
+                          "type": "Sprite",
+                          "props": {
+                            "y": -16,
+                            "x": 55.5,
+                            "visible": false,
+                            "texture": "main/redpoint.png",
+                            "name": "redPoint"
+                          },
+                          "compId": 36
+                        },
+                        {
+                          "type": "Box",
+                          "props": {
+                            "y": 37,
+                            "x": 37,
+                            "visible": false,
+                            "name": "award"
+                          },
+                          "compId": 46,
+                          "child": [
+                            {
+                              "type": "Animation",
+                              "props": {
+                                "source": "ani/albumAward.ani"
+                              },
+                              "compId": 47
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "x": -6,
+                "width": 593,
+                "var": "apBox"
+              },
+              "compId": 10,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 29,
+                    "x": 152,
+                    "skin": "res_common/bg_title01.png"
+                  },
+                  "compId": 11,
+                  "child": [
+                    {
+                      "type": "Sprite",
+                      "props": {
+                        "y": 8,
+                        "x": 105,
+                        "texture": "res_view/manual/text_fashu.png"
+                      },
+                      "compId": 41
+                    }
+                  ]
+                },
+                {
+                  "type": "List",
+                  "props": {
+                    "y": 107,
+                    "x": 13,
+                    "width": 558,
+                    "var": "apList",
+                    "spaceY": 14,
+                    "spaceX": 17
+                  },
+                  "compId": 25,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "width": 77,
+                        "renderType": "render",
+                        "height": 77,
+                        "cacheAs": "bitmap"
+                      },
+                      "compId": 59,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 37,
+                            "x": 37,
+                            "width": 77,
+                            "skin": "res_common/equip_slot_blue.png",
+                            "name": "iconK",
+                            "height": 77,
+                            "centerY": 0,
+                            "centerX": 0,
+                            "anchorY": 0.5,
+                            "anchorX": 0.5
+                          },
+                          "compId": 60
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "width": 70,
+                            "top": 2,
+                            "skin": "",
+                            "name": "icon",
+                            "left": 2,
+                            "height": 70,
+                            "centerY": 0,
+                            "centerX": 0,
+                            "anchorY": 0.5,
+                            "anchorX": 0.5
+                          },
+                          "compId": 61
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "skin": "res_common/frame_common_icon1.png",
+                            "name": "iconK2",
+                            "centerY": 0,
+                            "centerX": 0
+                          },
+                          "compId": 62
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 92,
+                            "x": 92,
+                            "width": 188,
+                            "visible": false,
+                            "skin": "res_common/equip_b.png",
+                            "sizeGrid": "34,42,35,29",
+                            "scaleY": 0.43,
+                            "scaleX": 0.43,
+                            "name": "iconAwkPoint",
+                            "height": 183,
+                            "centerY": 0,
+                            "centerX": 0,
+                            "anchorY": 0.5,
+                            "anchorX": 0.5
+                          },
+                          "compId": 63
+                        },
+                        {
+                          "type": "Sprite",
+                          "props": {
+                            "y": -16,
+                            "x": 55.5,
+                            "visible": false,
+                            "texture": "main/redpoint.png",
+                            "name": "redPoint"
+                          },
+                          "compId": 64
+                        },
+                        {
+                          "type": "Box",
+                          "props": {
+                            "y": 37,
+                            "x": 37,
+                            "visible": false,
+                            "name": "award"
+                          },
+                          "compId": 65,
+                          "child": [
+                            {
+                              "type": "Animation",
+                              "props": {
+                                "source": "ani/albumAward.ani"
+                              },
+                              "compId": 66
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "x": -6,
+                "width": 593,
+                "var": "hpBox"
+              },
+              "compId": 14,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 31,
+                    "x": 151,
+                    "skin": "res_common/bg_title01.png"
+                  },
+                  "compId": 15,
+                  "child": [
+                    {
+                      "type": "Sprite",
+                      "props": {
+                        "y": 7,
+                        "x": 123,
+                        "texture": "res_view/manual/text_fangju.png"
+                      },
+                      "compId": 42
+                    }
+                  ]
+                },
+                {
+                  "type": "List",
+                  "props": {
+                    "y": 107,
+                    "x": 13,
+                    "width": 539,
+                    "var": "hpList",
+                    "spaceY": 18,
+                    "spaceX": 17
+                  },
+                  "compId": 29,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "width": 77,
+                        "renderType": "render",
+                        "height": 77,
+                        "cacheAs": "bitmap"
+                      },
+                      "compId": 67,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 37,
+                            "x": 37,
+                            "width": 77,
+                            "skin": "res_common/equip_slot_blue.png",
+                            "name": "iconK",
+                            "height": 77,
+                            "centerY": 0,
+                            "centerX": 0,
+                            "anchorY": 0.5,
+                            "anchorX": 0.5
+                          },
+                          "compId": 68
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "width": 70,
+                            "top": 2,
+                            "skin": "",
+                            "name": "icon",
+                            "left": 2,
+                            "height": 70,
+                            "centerY": 0,
+                            "centerX": 0,
+                            "anchorY": 0.5,
+                            "anchorX": 0.5
+                          },
+                          "compId": 69
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "skin": "res_common/frame_common_icon1.png",
+                            "name": "iconK2",
+                            "centerY": 0,
+                            "centerX": 0
+                          },
+                          "compId": 70
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 92,
+                            "x": 92,
+                            "width": 188,
+                            "visible": false,
+                            "skin": "res_common/equip_b.png",
+                            "sizeGrid": "34,42,35,29",
+                            "scaleY": 0.43,
+                            "scaleX": 0.43,
+                            "name": "iconAwkPoint",
+                            "height": 183,
+                            "centerY": 0,
+                            "centerX": 0,
+                            "anchorY": 0.5,
+                            "anchorX": 0.5
+                          },
+                          "compId": 71
+                        },
+                        {
+                          "type": "Sprite",
+                          "props": {
+                            "y": -16,
+                            "x": 55.5,
+                            "visible": false,
+                            "texture": "main/redpoint.png",
+                            "name": "redPoint"
+                          },
+                          "compId": 72
+                        },
+                        {
+                          "type": "Box",
+                          "props": {
+                            "y": 37,
+                            "x": 37,
+                            "visible": false,
+                            "name": "award"
+                          },
+                          "compId": 73,
+                          "child": [
+                            {
+                              "type": "Animation",
+                              "props": {
+                                "source": "ani/albumAward.ani"
+                              },
+                              "compId": 74
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": -19,
+        "x": -60,
+        "visible": false,
+        "var": "Img_zhaopai",
+        "skin": "res_view/manual/btn_zhongzupai.png"
+      },
+      "compId": 44,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 67,
+            "x": 7,
+            "skin": "res_view/manual/text_zhuangbei_1.png"
+          },
+          "compId": 45
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "res_view/manual/text_gongji.png",
+    "main/redpoint.png",
+    "ani/albumAward.ani",
+    "res_view/manual/text_fashu.png",
+    "res_view/manual/text_fangju.png"
+  ],
+  "loadList3D": []
+}

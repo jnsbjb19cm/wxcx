@@ -1,0 +1,652 @@
+{
+  "type": "View",
+  "props": {
+    "y": 0,
+    "x": 0,
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0,
+        "anchorX": 0,
+        "alpha": 0.6
+      },
+      "compId": 3
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 651,
+        "var": "showBox",
+        "height": 751,
+        "centerY": 0,
+        "centerX": 1
+      },
+      "compId": 16,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "x": 57,
+            "top": -116,
+            "skin": "res_view/guaji/img_ylshan.png"
+          },
+          "compId": 19
+        },
+        {
+          "type": "Image",
+          "props": {
+            "x": -19,
+            "width": 689,
+            "var": "bg",
+            "top": 0,
+            "skin": "res_view/guaji/main_house_2.png",
+            "sizeGrid": "52,0,61,0",
+            "name": "bg",
+            "height": 751,
+            "bottom": 0
+          },
+          "compId": 18,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -22,
+                "x": -8,
+                "skin": "res_view/guaji/icon_shuye.png"
+              },
+              "compId": 93
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -16,
+                "x": 65,
+                "skin": "res_view/guaji/text_yl_view.png"
+              },
+              "compId": 80
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -13,
+                "x": 539,
+                "skin": "res_view/guaji/icon_pangniao.png"
+              },
+              "compId": 94
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 440,
+                "x": 42,
+                "var": "fangzi",
+                "skin": "res_view/guaji/img_bjshanshui.png",
+                "height": 284,
+                "bottom": 27
+              },
+              "compId": 75
+            },
+            {
+              "type": "Box",
+              "props": {
+                "width": 607,
+                "visible": true,
+                "var": "contentBox",
+                "top": 79,
+                "centerX": 0,
+                "bottom": 69
+              },
+              "compId": 54,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 167,
+                    "skin": "res_view/guaji/text_zjygjlyg.png"
+                  },
+                  "compId": 27
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 316,
+                    "x": 229.5,
+                    "var": "noImg",
+                    "skin": "res_view/guaji/text_zwsy.png"
+                  },
+                  "compId": 74,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -103,
+                        "x": 4,
+                        "skin": "res_view/guaji/plist_tx.png"
+                      },
+                      "compId": 103
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -180,
+                        "x": -48,
+                        "var": "heroIcon",
+                        "skin": "netRes/icon/travelIcon/YX_XL.png"
+                      },
+                      "compId": 73
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 70,
+                    "x": 192,
+                    "width": 245,
+                    "var": "speedBox1",
+                    "height": 35
+                  },
+                  "compId": 26,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 2,
+                        "x": 39,
+                        "width": 200,
+                        "height": 33
+                      },
+                      "compId": 29,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 0,
+                            "x": 0,
+                            "skin": "res_view/guaji/main_bg.png"
+                          },
+                          "compId": 95
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -1,
+                            "x": 13,
+                            "skin": "res_view/guaji/text_mxs.png"
+                          },
+                          "compId": 30
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 3,
+                        "x": 165,
+                        "width": 99,
+                        "valign": "bottom",
+                        "text": "5800",
+                        "name": "speedLab",
+                        "height": 27,
+                        "fontSize": 24,
+                        "font": "Microsoft YaHei",
+                        "color": "#22a441",
+                        "bold": true,
+                        "align": "left"
+                      },
+                      "compId": 31
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -79,
+                        "x": -90,
+                        "skin": "res_view/guaji/icon_gongde.png"
+                      },
+                      "compId": 91
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 11,
+                        "x": 148,
+                        "skin": "res_view/guaji/text_jiahao.png"
+                      },
+                      "compId": 120
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 118,
+                    "x": 173,
+                    "width": 282,
+                    "visible": false,
+                    "var": "speedBox2",
+                    "height": 54
+                  },
+                  "compId": 113,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 9.5,
+                        "x": 58,
+                        "width": 200,
+                        "height": 33
+                      },
+                      "compId": 115,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 0,
+                            "x": 0,
+                            "skin": "res_view/guaji/main_bg.png"
+                          },
+                          "compId": 116
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 1.5,
+                            "x": 13,
+                            "skin": "res_view/guaji/text_mxs.png"
+                          },
+                          "compId": 117
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 15,
+                        "x": 184,
+                        "width": 99,
+                        "valign": "bottom",
+                        "text": "2200",
+                        "name": "speedLab",
+                        "height": 27,
+                        "fontSize": 24,
+                        "font": "Microsoft YaHei",
+                        "color": "#22a441",
+                        "bold": true,
+                        "align": "left"
+                      },
+                      "compId": 118
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -3,
+                        "x": -2,
+                        "width": 67,
+                        "skin": "netRes/icon/itemIcon/icon_yuanbao.png",
+                        "height": 67
+                      },
+                      "compId": 114
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 23,
+                        "x": 168,
+                        "skin": "res_view/guaji/text_jiahao.png"
+                      },
+                      "compId": 121
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 126,
+                    "x": 154.5,
+                    "visible": false,
+                    "var": "preBox1"
+                  },
+                  "compId": 41,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 7,
+                        "x": 13,
+                        "skin": "res_view/guaji/text_wcss.png",
+                        "name": "tgsj"
+                      },
+                      "compId": 38
+                    },
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": 4,
+                        "x": 126,
+                        "var": "zone",
+                        "value": "2",
+                        "skin": "res_common/number/num_24_jxzk_ff4343_stk.png",
+                        "sheet": "0123456789+-*/"
+                      },
+                      "compId": 107
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 7,
+                        "x": 154,
+                        "var": "zkcc",
+                        "skin": "res_view/guaji/text_kcc.png",
+                        "name": "coinImg"
+                      },
+                      "compId": 40
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -12,
+                        "x": 230,
+                        "width": 64,
+                        "var": "icon",
+                        "skin": "netRes/icon/itemIcon/icon_yuanbao.png",
+                        "height": 64
+                      },
+                      "compId": 108
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 198,
+                    "width": 128,
+                    "var": "rewardBox",
+                    "height": 128,
+                    "centerX": 0
+                  },
+                  "compId": 42
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 342,
+                    "x": 0,
+                    "width": 607,
+                    "height": 120,
+                    "bottom": 141
+                  },
+                  "compId": 141,
+                  "child": [
+                    {
+                      "type": "Box",
+                      "props": {
+                        "y": 80,
+                        "x": 172,
+                        "visible": false,
+                        "var": "preBox2"
+                      },
+                      "compId": 46,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 7,
+                            "x": 0,
+                            "skin": "res_view/guaji/text_tgdzkcc.png",
+                            "name": "preImg"
+                          },
+                          "compId": 47,
+                          "child": [
+                            {
+                              "type": "Label",
+                              "props": {
+                                "y": 3,
+                                "x": 97,
+                                "text": "85",
+                                "name": "preLab",
+                                "fontSize": 24,
+                                "font": "Microsoft YaHei",
+                                "color": "#ff4343",
+                                "anchorX": 0.5
+                              },
+                              "compId": 48
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -5,
+                            "x": 225,
+                            "width": 40,
+                            "skin": "",
+                            "name": "coinImg",
+                            "height": 44
+                          },
+                          "compId": 49
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Box",
+                      "props": {
+                        "y": 13,
+                        "x": 153,
+                        "width": 300,
+                        "visible": false,
+                        "var": "preBox3",
+                        "height": 52
+                      },
+                      "compId": 134,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 12,
+                            "x": 15,
+                            "skin": "res_view/guaji/text_wcss.png",
+                            "name": "tgsj"
+                          },
+                          "compId": 135
+                        },
+                        {
+                          "type": "FontClip",
+                          "props": {
+                            "y": 10,
+                            "x": 127,
+                            "var": "zone3",
+                            "value": "2",
+                            "skin": "res_common/number/num_24_jxzk_ff4343_stk.png",
+                            "sheet": "0123456789+-*/"
+                          },
+                          "compId": 136
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 13,
+                            "x": 155,
+                            "skin": "res_view/guaji/text_kcc.png",
+                            "name": "coinImg"
+                          },
+                          "compId": 137
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -39,
+                            "x": 216,
+                            "width": 100,
+                            "var": "icon3",
+                            "skin": "netRes/icon/itemIcon/icon_sjhgdj_3.png",
+                            "height": 100
+                          },
+                          "compId": 138
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Box",
+                      "props": {
+                        "y": -12,
+                        "x": 187,
+                        "visible": false,
+                        "var": "fshtipBox"
+                      },
+                      "compId": 109,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 39,
+                            "x": 4,
+                            "skin": "res_view/guaji/text_fsh.png"
+                          },
+                          "compId": 110
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 39,
+                            "x": 89,
+                            "skin": "res_view/guaji/text_kcc.png"
+                          },
+                          "compId": 111
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 22,
+                            "x": 172,
+                            "skin": "res_view/guaji/icon_miji_suiji.png",
+                            "name": "Iconimg"
+                          },
+                          "compId": 112
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Box",
+                      "props": {
+                        "y": 63,
+                        "x": 195,
+                        "var": "timeBox"
+                      },
+                      "compId": 50,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -1,
+                            "x": -9,
+                            "skin": "res_view/guaji/text_ylsj.png"
+                          },
+                          "compId": 51
+                        },
+                        {
+                          "type": "Label",
+                          "props": {
+                            "y": -1,
+                            "x": -10,
+                            "width": 231,
+                            "valign": "bottom",
+                            "text": "00:00:00",
+                            "name": "timeLab",
+                            "height": 23,
+                            "fontSize": 26,
+                            "font": "Microsoft YaHei",
+                            "color": "#22a441",
+                            "bold": true,
+                            "align": "right"
+                          },
+                          "compId": 52
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "x": 197,
+                    "width": 210,
+                    "var": "getBox",
+                    "height": 73,
+                    "bottom": 60
+                  },
+                  "compId": 56,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 2,
+                        "x": 0,
+                        "width": 262.5,
+                        "skin": "res_common/btn_yellow.png",
+                        "scaleY": 0.8,
+                        "scaleX": 0.8,
+                        "height": 90
+                      },
+                      "compId": 57
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 23,
+                        "x": 51,
+                        "skin": "res_view/guaji/text_lingqu.png"
+                      },
+                      "compId": 65
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "x": 212,
+                    "var": "maxtime",
+                    "skin": "res_view/guaji/text_ylsjzg10xs.png",
+                    "bottom": 0
+                  },
+                  "compId": 53
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": -150,
+                "x": 291,
+                "var": "lv"
+              },
+              "compId": 105
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "skin": "res_common/text_djgb.png",
+            "centerX": -1,
+            "bottom": -66
+          },
+          "compId": 71
+        }
+      ]
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

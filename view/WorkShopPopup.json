@@ -1,0 +1,615 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 813,
+        "x": 500,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 3
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 608,
+        "name": "context",
+        "height": 870,
+        "centerY": -25,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 38,
+            "x": 1,
+            "width": 608,
+            "skin": "res_common/bg_1.png",
+            "sizeGrid": "213,0,154,0",
+            "name": "popupBg",
+            "height": 830
+          },
+          "compId": 63,
+          "child": [
+            {
+              "type": "Sprite",
+              "props": {
+                "y": -42,
+                "x": 5,
+                "texture": "res_common/icon_head.png"
+              },
+              "compId": 64
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -9,
+                "x": 518,
+                "var": "closeBtn",
+                "skin": "res_common/btn_close.png"
+              },
+              "compId": 65,
+              "child": [
+                {
+                  "type": "Rect",
+                  "props": {
+                    "y": -10,
+                    "x": -2,
+                    "width": 100,
+                    "renderType": "hit",
+                    "lineWidth": 1,
+                    "height": 100,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 66
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -25,
+                "var": "titleImg",
+                "skin": "res_view/workshop/text_title_liangongfang.png",
+                "centerX": -132,
+                "anchorX": 0.5
+              },
+              "compId": 67
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "var": "buildImg",
+            "top": 147,
+            "skin": "netRes/workShop/building_jg_a.png",
+            "scaleY": 1.2,
+            "scaleX": 1.2,
+            "centerX": 3,
+            "anchorY": 1,
+            "anchorX": 0.5
+          },
+          "compId": 5
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 98,
+            "x": 166,
+            "width": 271,
+            "skin": "res_common/bg_title01.png",
+            "name": "level"
+          },
+          "compId": 68,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": -2,
+                "width": 80,
+                "centerX": -1
+              },
+              "compId": 75,
+              "child": [
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 0,
+                    "visible": false,
+                    "var": "lvLab",
+                    "value": "0",
+                    "spaceX": -7,
+                    "skin": "res_common/number/num_36_jxzk_23b60b.png",
+                    "sheet": "0123456789+-*/()<>",
+                    "direction": "horizontal",
+                    "centerX": -25,
+                    "align": "right"
+                  },
+                  "compId": 11,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 9,
+                        "var": "lvUnit",
+                        "skin": "res_view/workshop/text_j.png",
+                        "right": -40
+                      },
+                      "compId": 9
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 8,
+                    "x": 2.5,
+                    "visible": false,
+                    "var": "maxImg",
+                    "skin": "res_view/workshop/title_m.png"
+                  },
+                  "compId": 10,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "skin": "res_view/workshop/text_j.png",
+                        "left": 46
+                      },
+                      "compId": 78
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 251,
+            "width": 144,
+            "visible": false,
+            "var": "upBtn",
+            "height": 144,
+            "centerX": 1
+          },
+          "compId": 47,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 2,
+                "x": 0,
+                "skin": "res_view/workshop/img_keshengji.png"
+              },
+              "compId": 48
+            },
+            {
+              "type": "Rect",
+              "props": {
+                "y": -113,
+                "x": -78,
+                "width": 300,
+                "renderType": "hit",
+                "lineWidth": 1,
+                "height": 300,
+                "fillColor": "#ff0000"
+              },
+              "compId": 61
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 530,
+            "width": 430,
+            "var": "cellBox",
+            "height": 210,
+            "centerX": 0
+          },
+          "compId": 19
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 359,
+            "width": 268,
+            "visible": false,
+            "var": "upCD",
+            "height": 67,
+            "centerX": 4
+          },
+          "compId": 43,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 16,
+                "x": -6,
+                "width": 274,
+                "skin": "res_view/workshop/panel_res.png",
+                "sizeGrid": "0,49,0,76",
+                "height": 51
+              },
+              "compId": 44
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 42,
+                "x": 15,
+                "width": 250,
+                "var": "upCDBar",
+                "skin": "res_main/bar_vip_exp_2.png",
+                "sizeGrid": "0,12,0,7",
+                "scaleY": 1,
+                "scaleX": 1,
+                "height": 25,
+                "anchorY": 0.5
+              },
+              "compId": 45
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": -5.5,
+                "x": 39,
+                "width": 196,
+                "var": "upCDLab",
+                "value": "02:11:45",
+                "spaceX": -6,
+                "skin": "res_common/number/num_24_jxzk_ffffff.png",
+                "sheet": "0123456789+-*/:.",
+                "name": "upCDLab",
+                "height": 29,
+                "align": "center"
+              },
+              "compId": 56
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 14,
+                "x": -6,
+                "skin": "res_view/workshop/solt_bg_jianzao.png",
+                "scaleY": 1.2,
+                "scaleX": 1.2
+              },
+              "compId": 57,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 3,
+                    "x": 1,
+                    "skin": "res_view/workshop/img_bg_hammer.png"
+                  },
+                  "compId": 58
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 444,
+            "x": 433,
+            "width": 100,
+            "visible": false,
+            "var": "sjyl",
+            "skin": "res_common/btn_yellow.png",
+            "height": 49
+          },
+          "compId": 83,
+          "child": [
+            {
+              "type": "Script",
+              "props": {
+                "saturation": -100,
+                "hue": 1,
+                "contrast": -1,
+                "color": "#000000",
+                "brightness": "-30",
+                "alpha": 0,
+                "runtime": "laya.effect.ColorFilterSetter"
+              },
+              "compId": 85
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 13,
+                "x": 21,
+                "skin": "res_view/workshop/text_sj_s.png"
+              },
+              "compId": 84,
+              "child": [
+                {
+                  "type": "Script",
+                  "props": {
+                    "saturation": "100",
+                    "hue": "-1",
+                    "contrast": "1",
+                    "color": "#000000",
+                    "brightness": "30",
+                    "alpha": "0",
+                    "runtime": "laya.effect.ColorFilterSetter"
+                  },
+                  "compId": 87
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 438,
+            "visible": false,
+            "var": "upPro",
+            "centerX": -2
+          },
+          "compId": 29,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 8,
+                "skin": "res_view/workshop/bar_level_empty.png"
+              },
+              "compId": 30
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 5,
+                "x": 12,
+                "width": 166,
+                "skin": "res_view/workshop/bar_level.png",
+                "sizeGrid": "0,8,0,7",
+                "scaleX": 1,
+                "name": "proBar",
+                "height": 20
+              },
+              "compId": 31
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 36,
+                "value": "18",
+                "skin": "res_common/number/num_24_jxzk_ff4343_stk.png",
+                "sheet": "0123456789+-*/",
+                "presetID": 1,
+                "name": "zoneLab",
+                "centerX": 26,
+                "x": 0,
+                "spaceX": -4,
+                "isPresetRoot": true
+              },
+              "compId": 52,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 1,
+                    "x": 41,
+                    "width": 53,
+                    "skin": "res_view/workshop/text_des_zhangshengji.png",
+                    "sizeGrid": "0,53,0,0"
+                  },
+                  "compId": 34
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 2,
+                    "x": -108,
+                    "skin": "res_view/workshop/text_des_wancheng.png"
+                  },
+                  "compId": 33
+                }
+              ]
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": -4,
+                "presetID": 1,
+                "name": "proLab",
+                "centerX": 0,
+                "x": 0,
+                "value": "16/18",
+                "spaceX": -8,
+                "skin": "res_common/number/num_16_rhrc_ffffff_stk.png",
+                "sheet": "0123456789-+/",
+                "isPresetRoot": true
+              },
+              "compId": 53
+            }
+          ]
+        },
+        {
+          "type": "Button",
+          "props": {
+            "y": 795,
+            "width": 211,
+            "visible": false,
+            "var": "getBtn",
+            "stateNum": 1,
+            "skin": "res_common/btn_yellow.png",
+            "labelSize": 24,
+            "labelFont": "Microsoft YaHei",
+            "labelColors": "#ffffff",
+            "labelBold": true,
+            "height": 73,
+            "centerX": -130,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 23,
+          "child": [
+            {
+              "type": "Sprite",
+              "props": {
+                "y": -7,
+                "x": 184,
+                "visible": false,
+                "texture": "main/redpoint.png",
+                "scaleY": 1,
+                "scaleX": 1
+              },
+              "compId": 24
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 23,
+                "x": 61,
+                "skin": "res_view/workshop/text_lq.png"
+              },
+              "compId": 55
+            },
+            {
+              "type": "Script",
+              "props": {
+                "runtime": "game/tools/BtnScale85.ts"
+              },
+              "compId": 59
+            }
+          ]
+        },
+        {
+          "type": "Button",
+          "props": {
+            "y": 798,
+            "width": 211,
+            "visible": false,
+            "var": "speedBtn",
+            "stateNum": 1,
+            "skin": "res_common/btn_common_label01.png",
+            "pivotY": 39,
+            "pivotX": 108,
+            "labelSize": 24,
+            "labelFont": "Microsoft YaHei",
+            "labelColors": "#ffffff",
+            "labelBold": true,
+            "height": 73,
+            "centerX": 130
+          },
+          "compId": 20,
+          "child": [
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 23,
+                "x": 35,
+                "texture": "res_common/icon_shuangbeijiangli.png"
+              },
+              "compId": 21
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 22,
+                "x": 99,
+                "skin": "res_common/text_js_1.png"
+              },
+              "compId": 54
+            },
+            {
+              "type": "Script",
+              "props": {
+                "runtime": "game/tools/BtnScale85.ts"
+              },
+              "compId": 60
+            }
+          ]
+        },
+        {
+          "type": "Sprite",
+          "props": {
+            "y": 864,
+            "x": 164,
+            "texture": "res_common/text_djgb.png"
+          },
+          "compId": 76
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 47,
+          "keyframes": {
+            "y": [
+              {
+                "value": 251,
+                "tweenMethod": "cubicIn",
+                "tween": true,
+                "target": 47,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 221,
+                "tweenMethod": "cubicOut",
+                "tween": true,
+                "target": 47,
+                "key": "y",
+                "index": 15
+              },
+              {
+                "value": 251,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 47,
+                "key": "y",
+                "index": 25
+              }
+            ]
+          }
+        }
+      ],
+      "name": "canUpAni",
+      "id": 1,
+      "frameRate": 30,
+      "action": 0
+    }
+  ],
+  "loadList": [
+    "res_common/bg_1.png",
+    "res_common/icon_head.png",
+    "prefab/number/num_24_jxzk_ff4343_stk.prefab",
+    "prefab/number/num_16_rhrc_ffffff_stk.prefab",
+    "main/redpoint.png",
+    "res_common/icon_shuangbeijiangli.png",
+    "res_common/text_djgb.png"
+  ],
+  "loadList3D": []
+}

@@ -1,0 +1,210 @@
+{
+  "type": "View",
+  "props": {
+    "y": 0,
+    "x": 0,
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "mouseThrough": true,
+        "mouseEnabled": true,
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 20,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 667,
+            "x": 375,
+            "width": 1000,
+            "skin": "res_common/bg.png",
+            "height": 1625,
+            "centerY": 0,
+            "centerX": 0,
+            "anchorY": 0.5,
+            "anchorX": 0.5,
+            "alpha": 0
+          },
+          "compId": 29
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "width": 750,
+            "var": "maskBgRed",
+            "skin": "res_main/bg_xxtjs_hm.png",
+            "height": 1336,
+            "alpha": 1
+          },
+          "compId": 30
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "width": 750,
+            "var": "spineBox",
+            "vScrollBarSkin": " ",
+            "mouseEnabled": false,
+            "height": 1334,
+            "hScrollBarSkin": " "
+          },
+          "compId": 19,
+          "child": [
+            {
+              "type": "Panel",
+              "props": {
+                "y": -300,
+                "x": 0,
+                "width": 750,
+                "vScrollBarSkin": " ",
+                "height": 1481,
+                "hScrollBarSkin": " "
+              },
+              "compId": 28,
+              "child": [
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 300,
+                    "x": 0,
+                    "width": 377,
+                    "vScrollBarSkin": " ",
+                    "mouseEnabled": false,
+                    "left": 0,
+                    "height": 1181,
+                    "hScrollBarSkin": " "
+                  },
+                  "compId": 17
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 300,
+                    "x": 373,
+                    "width": 377,
+                    "right": 0,
+                    "mouseEnabled": false,
+                    "height": 1181
+                  },
+                  "compId": 18
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 518,
+            "x": -125,
+            "var": "maskPro",
+            "skin": "res_view/monsterDetail/img_CP_new05.png",
+            "centerX": 0
+          },
+          "compId": 300
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "width": 750,
+            "var": "contentBox",
+            "mouseThrough": true,
+            "mouseEnabled": true,
+            "height": 1334
+          },
+          "compId": 5
+        },
+        {
+          "type": "Sprite",
+          "props": {
+            "y": -5,
+            "x": 0,
+            "texture": "res_view/monsterDetail/fx_guang.png",
+            "mouseEnabled": false
+          },
+          "compId": 12
+        },
+        {
+          "type": "Sprite",
+          "props": {
+            "y": 1283,
+            "x": 243,
+            "var": "closeTip",
+            "texture": "res_view/monsterDetail/text_djgb.png",
+            "mouseEnabled": true
+          },
+          "compId": 13,
+          "child": [
+            {
+              "type": "Rect",
+              "props": {
+                "y": 0,
+                "x": -575,
+                "width": 1376,
+                "renderType": "hit",
+                "lineWidth": 1,
+                "height": 200,
+                "fillColor": "#ff0000"
+              },
+              "compId": 301
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 1282,
+            "x": -16,
+            "width": 750,
+            "var": "botClose",
+            "height": 300
+          },
+          "compId": 302
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": -266,
+            "x": 0,
+            "width": 750,
+            "var": "topClose",
+            "height": 300
+          },
+          "compId": 303
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 7,
+            "x": 642.5,
+            "var": "closeBtn",
+            "skin": "res_common/btn_close.png",
+            "scaleY": 1.3,
+            "scaleX": 1.3
+          },
+          "compId": 305
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "res_view/monsterDetail/fx_guang.png",
+    "res_view/monsterDetail/text_djgb.png"
+  ],
+  "loadList3D": []
+}

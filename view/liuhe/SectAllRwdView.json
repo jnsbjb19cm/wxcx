@@ -1,0 +1,208 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": -44,
+        "x": -89,
+        "width": 968,
+        "var": "mask_bg",
+        "skin": "res_common/bg.png",
+        "height": 1637,
+        "alpha": 0.45
+      },
+      "compId": 3
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 344.5,
+        "x": 80,
+        "width": 590,
+        "height": 860
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 1,
+            "x": -4,
+            "width": 605,
+            "var": "node_bg",
+            "skin": "res_common/bg_1.png",
+            "sizeGrid": "54,0,0,0",
+            "height": 928
+          },
+          "compId": 5
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -46,
+            "x": 0,
+            "var": "zmrw_bg",
+            "skin": "res_common/icon_head.png",
+            "scaleY": 1,
+            "scaleX": 1
+          },
+          "compId": 17,
+          "child": [
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 20.5,
+                "x": 115,
+                "width": 196,
+                "texture": "netRes/liuhe/viewUI/text_zmrw_bt.png",
+                "scaleY": 0.9,
+                "scaleX": 0.9,
+                "name": "sectRwd",
+                "height": 53
+              },
+              "compId": 9
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 833,
+            "x": 163,
+            "skin": "res_view/rank/text_djgb.png"
+          },
+          "compId": 8
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 48,
+            "x": 18,
+            "width": 555,
+            "var": "cnlist",
+            "selectedIndex": 0,
+            "name": "cnlist",
+            "height": 803
+          },
+          "compId": 16
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -22,
+            "x": 538,
+            "var": "node_close",
+            "skin": "res_common/btn_close.png",
+            "name": "node_close"
+          },
+          "compId": 6
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 833,
+            "x": 1.5,
+            "width": 587,
+            "skin": "netRes/liuhe/viewUI/panel_mask_zmrw.png",
+            "height": 86
+          },
+          "compId": 18
+        },
+        {
+          "type": "List",
+          "props": {
+            "y": 820,
+            "x": 108,
+            "width": 583,
+            "var": "tabList",
+            "spaceX": 70,
+            "selectedIndex": 0,
+            "selectEnable": true,
+            "repeatY": 1,
+            "repeatX": 2,
+            "mouseThrough": true,
+            "mouseEnabled": true,
+            "height": 99
+          },
+          "compId": 10,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 12,
+                "x": 33,
+                "width": 124,
+                "renderType": "render",
+                "mouseThrough": true,
+                "mouseEnabled": true,
+                "height": 75
+              },
+              "compId": 11,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 1,
+                    "x": 61,
+                    "skin": "netRes/liuhe/viewUI/btn_yq2.png",
+                    "name": "tabBg",
+                    "anchorY": 0,
+                    "anchorX": 0.5
+                  },
+                  "compId": 12
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 14,
+                    "x": 10,
+                    "skin": "netRes/liuhe/viewUI/text_bs_2.png",
+                    "name": "img_txtType"
+                  },
+                  "compId": 13
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": -12,
+                    "x": 100,
+                    "visible": false,
+                    "texture": "main/redpoint.png",
+                    "name": "redPoint"
+                  },
+                  "compId": 14
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 919,
+            "x": -185.5,
+            "width": 968,
+            "var": "botton_close",
+            "skin": "res_common/bg.png",
+            "name": "botton_close",
+            "height": 188,
+            "alpha": 0
+          },
+          "compId": 19
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "res_common/bg_1.png",
+    "netRes/liuhe/viewUI/text_zmrw_bt.png",
+    "main/redpoint.png"
+  ],
+  "loadList3D": []
+}

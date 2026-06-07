@@ -1,0 +1,217 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "height": 1334,
+        "centerY": 0
+      },
+      "compId": 28,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -1,
+            "x": -58,
+            "width": 879,
+            "var": "zh_makbg",
+            "skin": "res_common/bg.png",
+            "height": 1334,
+            "alpha": 0.5
+          },
+          "compId": 6
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 359,
+            "x": 76,
+            "width": 608,
+            "height": 370
+          },
+          "compId": 7,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 15,
+                "x": 0,
+                "width": 606,
+                "skin": "res_common/bg_1.png",
+                "height": 355
+              },
+              "compId": 9
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 70,
+                "x": 164,
+                "skin": "res_common/bg_title01.png"
+              },
+              "compId": 10,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 5.5,
+                    "x": 71,
+                    "var": "titlename",
+                    "skin": "res_view/lianyin/text_lyyq.png"
+                  },
+                  "compId": 11
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 138,
+                "x": 194,
+                "skin": "res_view/lianyin/text_dfzdgds.png"
+              },
+              "compId": 12
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 136,
+                "x": 155,
+                "width": 31,
+                "var": "chosebtn",
+                "skin": "res_common/bg2.png",
+                "height": 31
+              },
+              "compId": 13,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -4,
+                    "x": 0,
+                    "width": 37,
+                    "var": "gou",
+                    "skin": "res_view/lianyin/img_xz.png",
+                    "height": 35
+                  },
+                  "compId": 14
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 197,
+                "x": 134,
+                "var": "gongde",
+                "skin": "res_view/lianyin/text_gds_2.png"
+              },
+              "compId": 15,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -1,
+                    "x": 99,
+                    "var": "reduce",
+                    "skin": "res_view/lianyin/btn_jian.png"
+                  },
+                  "compId": 16
+                },
+                {
+                  "type": "TextInput",
+                  "props": {
+                    "y": -1,
+                    "x": 141,
+                    "var": "gdnum",
+                    "type": "number",
+                    "text": "6789",
+                    "skin": "res_view/lianyin/panel_gds.png",
+                    "fontSize": 20,
+                    "color": "#dbc7c6",
+                    "align": "center"
+                  },
+                  "compId": 17
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -1,
+                    "x": 287,
+                    "var": "add",
+                    "skin": "res_view/lianyin/btn_jia.png"
+                  },
+                  "compId": 18
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 268,
+                "x": 195,
+                "var": "fbzh_btn",
+                "skin": "res_common/btn_blue.png"
+              },
+              "compId": 19,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 19.5,
+                    "x": 28,
+                    "skin": "res_view/lianyin/text_fbzh.png"
+                  },
+                  "compId": 20
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 369,
+                "x": 169,
+                "skin": "res_view/rank/text_djgb.png"
+              },
+              "compId": 22
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 515,
+                "var": "zh_close",
+                "skin": "netRes/task/btn_close.png"
+              },
+              "compId": 23
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 181,
+                "x": 224,
+                "width": 241,
+                "var": "gdsmaskbg",
+                "skin": "res_common/bg.png",
+                "mouseThrough": false,
+                "mouseEnabled": true,
+                "height": 60,
+                "alpha": 0
+              },
+              "compId": 24
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": ["res_common/bg_1.png"],
+  "loadList3D": []
+}

@@ -1,0 +1,370 @@
+{
+  "type": "View",
+  "props": {
+    "zOrder": 0,
+    "width": 750,
+    "height": 150
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": -28,
+        "x": 0,
+        "skin": "res_combat/public/img_langan.png"
+      },
+      "compId": 19
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 615,
+        "name": "panelBox",
+        "height": 210,
+        "centerX": 0,
+        "bottom": 0
+      },
+      "compId": 20,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "name": "contentBox",
+            "height": 210
+          },
+          "compId": 23
+        },
+        {
+          "type": "HBox",
+          "props": {
+            "y": 18,
+            "x": 38.5,
+            "space": 80,
+            "name": "lvBox"
+          },
+          "compId": 24,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 62,
+                "scaleY": 0.7,
+                "scaleX": 0.7,
+                "height": 52
+              },
+              "compId": 37,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "width": 62,
+                    "visible": false,
+                    "presetID": 1,
+                    "height": 62,
+                    "centerY": 0,
+                    "centerX": 0,
+                    "y": 0,
+                    "x": 0,
+                    "skin": "res_icon/monsterLvIcon/style_1/icon_sss.png",
+                    "isPresetRoot": true
+                  },
+                  "compId": 38,
+                  "child": [
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "presetID": 2,
+                        "y": -4,
+                        "x": 38,
+                        "value": "2",
+                        "spaceX": -10,
+                        "skin": "res_common/number/num_12_jxzk_7e7ee1.png",
+                        "sheet": "0123456789",
+                        "isPresetRoot": true,
+                        "visible": false,
+                        "scaleY": 0.8,
+                        "scaleX": 0.8,
+                        "name": "num",
+                        "align": "center"
+                      },
+                      "compId": 39
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 62,
+                "scaleY": 0.7,
+                "scaleX": 0.7,
+                "height": 52
+              },
+              "compId": 64,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "width": 62,
+                    "visible": false,
+                    "presetID": 1,
+                    "height": 62,
+                    "centerY": 0,
+                    "centerX": 0,
+                    "y": 0,
+                    "x": 0,
+                    "skin": "res_icon/monsterLvIcon/style_1/icon_sss.png",
+                    "isPresetRoot": true
+                  },
+                  "compId": 65,
+                  "child": [
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "presetID": 2,
+                        "y": -4,
+                        "x": 38,
+                        "value": "2",
+                        "spaceX": -10,
+                        "skin": "res_common/number/num_12_jxzk_7e7ee1.png",
+                        "sheet": "0123456789",
+                        "isPresetRoot": true,
+                        "visible": false,
+                        "scaleY": 0.8,
+                        "scaleX": 0.8,
+                        "name": "num",
+                        "align": "center"
+                      },
+                      "compId": 66
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 123,
+                "width": 62,
+                "scaleY": 0.7,
+                "scaleX": 0.7,
+                "height": 52
+              },
+              "compId": 67,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "width": 62,
+                    "visible": false,
+                    "presetID": 1,
+                    "height": 62,
+                    "centerY": 0,
+                    "centerX": 0,
+                    "y": 0,
+                    "x": 0,
+                    "skin": "res_icon/monsterLvIcon/style_1/icon_sss.png",
+                    "isPresetRoot": true
+                  },
+                  "compId": 68,
+                  "child": [
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "presetID": 2,
+                        "y": -4,
+                        "x": 38,
+                        "value": "2",
+                        "spaceX": -10,
+                        "skin": "res_common/number/num_12_jxzk_7e7ee1.png",
+                        "sheet": "0123456789",
+                        "isPresetRoot": true,
+                        "visible": false,
+                        "scaleY": 0.8,
+                        "scaleX": 0.8,
+                        "name": "num",
+                        "align": "center"
+                      },
+                      "compId": 69
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 247,
+                "width": 62,
+                "scaleY": 0.7,
+                "scaleX": 0.7,
+                "height": 52
+              },
+              "compId": 70,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "width": 62,
+                    "visible": false,
+                    "presetID": 1,
+                    "height": 62,
+                    "centerY": 0,
+                    "centerX": 0,
+                    "y": 0,
+                    "x": 0,
+                    "skin": "res_icon/monsterLvIcon/style_1/icon_sss.png",
+                    "isPresetRoot": true
+                  },
+                  "compId": 71,
+                  "child": [
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "presetID": 2,
+                        "y": -4,
+                        "x": 38,
+                        "value": "2",
+                        "spaceX": -10,
+                        "skin": "res_common/number/num_12_jxzk_7e7ee1.png",
+                        "sheet": "0123456789",
+                        "isPresetRoot": true,
+                        "visible": false,
+                        "scaleY": 0.8,
+                        "scaleX": 0.8,
+                        "name": "num",
+                        "align": "center"
+                      },
+                      "compId": 72
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 370,
+                "width": 62,
+                "scaleY": 0.7,
+                "scaleX": 0.7,
+                "height": 52
+              },
+              "compId": 73,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "width": 62,
+                    "visible": false,
+                    "presetID": 1,
+                    "height": 62,
+                    "centerY": 0,
+                    "centerX": 0,
+                    "y": 0,
+                    "x": 0,
+                    "skin": "res_icon/monsterLvIcon/style_1/icon_sss.png",
+                    "isPresetRoot": true
+                  },
+                  "compId": 74,
+                  "child": [
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "presetID": 2,
+                        "y": -4,
+                        "x": 38,
+                        "value": "2",
+                        "spaceX": -10,
+                        "skin": "res_common/number/num_12_jxzk_7e7ee1.png",
+                        "sheet": "0123456789",
+                        "isPresetRoot": true,
+                        "visible": false,
+                        "scaleY": 0.8,
+                        "scaleX": 0.8,
+                        "name": "num",
+                        "align": "center"
+                      },
+                      "compId": 75
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 75,
+        "x": 37,
+        "skin": "res_combat/public/btn_prevchap.png",
+        "name": "btnLeft",
+        "centerY": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5
+      },
+      "compId": 21,
+      "child": [
+        {
+          "type": "Script",
+          "props": {
+            "runtime": "game/tools/BtnScale85.ts"
+          },
+          "compId": 35
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 75,
+        "x": 717,
+        "skin": "res_combat/public/btn_nextchap.png",
+        "name": "btnRight",
+        "centerY": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5
+      },
+      "compId": 22,
+      "child": [
+        {
+          "type": "Script",
+          "props": {
+            "runtime": "game/tools/BtnScale85.ts"
+          },
+          "compId": 36
+        }
+      ]
+    },
+    {
+      "type": "Script",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "turnBtnRight": "@node:22",
+        "turnBtnLeft": "@node:21",
+        "panel": "@node:20",
+        "lvBox": "@node:24",
+        "contentBox": "@node:23",
+        "runtime": "game/script/arena/ACMonsterList.ts"
+      },
+      "compId": 18
+    }
+  ],
+  "loadList": ["prefab/monsterLvIcon.prefab"],
+  "loadList3D": []
+}

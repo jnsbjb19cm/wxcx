@@ -1,0 +1,91 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "top": 0,
+        "skin": "loading/bg.png",
+        "right": 0,
+        "name": "bg",
+        "left": 0,
+        "bottom": 0,
+        "alpha": 0.5
+      },
+      "compId": 25
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 750,
+        "var": "dialogueNodeBox",
+        "mouseThrough": true,
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Panel",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "width": 750,
+            "var": "spineBox",
+            "height": 1334
+          },
+          "compId": 5
+        },
+        {
+          "type": "Image",
+          "props": {
+            "var": "dialogueBox",
+            "skin": "res_view/verbalStruggle/bg_plot_frame_2.png",
+            "centerY": 294,
+            "centerX": -2
+          },
+          "compId": 6,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "y": 41,
+                "x": 41,
+                "wordWrap": true,
+                "width": 647,
+                "name": "content",
+                "leading": 11,
+                "fontSize": 25,
+                "font": "Microsoft YaHei",
+                "color": "#65462f"
+              },
+              "compId": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "var": "closeBtn",
+        "top": 0,
+        "right": 0,
+        "name": "closeBtn",
+        "left": 0,
+        "bottom": 0
+      },
+      "compId": 24
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

@@ -1,0 +1,39 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "var": "bg",
+        "top": 0,
+        "skin": "res_common/bg.png",
+        "right": 0,
+        "mouseThrough": false,
+        "mouseEnabled": false,
+        "left": 0,
+        "bottom": 0,
+        "alpha": 0
+      },
+      "compId": 3
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 182,
+        "var": "handBox",
+        "mouseEnabled": false,
+        "height": 138,
+        "centerY": 515,
+        "centerX": 210
+      },
+      "compId": 13
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

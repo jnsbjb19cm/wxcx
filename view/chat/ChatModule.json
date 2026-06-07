@@ -1,0 +1,50 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "runtime": "gameplay/chat/view/ChatModule.ts",
+    "height": 40
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "visible": false,
+        "top": 0,
+        "right": 0,
+        "left": 0,
+        "bottom": 0
+      },
+      "compId": 4
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 1,
+        "x": 7,
+        "visible": false
+      },
+      "compId": 3
+    },
+    {
+      "type": "Label",
+      "props": {
+        "y": 5,
+        "x": 58,
+        "width": 650,
+        "var": "chatLab",
+        "valign": "middle",
+        "text": "[系统]",
+        "stroke": 2,
+        "height": 30,
+        "fontSize": 24,
+        "font": "SimHei",
+        "color": "#f7f5da"
+      },
+      "compId": 6
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

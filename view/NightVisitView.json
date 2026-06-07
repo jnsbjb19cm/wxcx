@@ -1,0 +1,6787 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseEnabled": true,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": -85,
+        "x": -209,
+        "width": 1128,
+        "skin": "res_view/plot/bg_black.png",
+        "name": "cantClick",
+        "mouseEnabled": true,
+        "height": 1529,
+        "alpha": 0
+      },
+      "compId": 72
+    },
+    {
+      "type": "Box",
+      "props": {
+        "name": "contentBox",
+        "mouseEnabled": true,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 51,
+      "child": [
+        {
+          "type": "Panel",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "width": 750,
+            "var": "showPannel",
+            "name": "showPannel",
+            "height": 1365
+          },
+          "compId": 40,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": -123,
+                "x": 0,
+                "width": 1241.8,
+                "height": 2049.75
+              },
+              "compId": 39,
+              "child": [
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 129,
+                    "x": 0,
+                    "width": 750,
+                    "scaleY": 1,
+                    "scaleX": 1,
+                    "name": "BeautySceneBox",
+                    "height": 1334
+                  },
+                  "compId": 60,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -6,
+                        "x": 0,
+                        "width": 750,
+                        "visible": false,
+                        "var": "SceneBg",
+                        "skin": "netRes/haream/scene_2.png",
+                        "name": "SceneBg",
+                        "height": 1365,
+                        "alpha": 1
+                      },
+                      "compId": 50
+                    },
+                    {
+                      "type": "Box",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "visible": false,
+                        "var": "beautyHalfBody",
+                        "scaleY": 0.4,
+                        "scaleX": 0.4,
+                        "name": "beautyHalfBody"
+                      },
+                      "compId": 49
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 826,
+                        "x": -8,
+                        "visible": false,
+                        "var": "sceneObject",
+                        "skin": "res_view/nightVisit/changjing-1-2.png",
+                        "name": "sceneObject"
+                      },
+                      "compId": 76
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -284.5,
+                    "x": -200,
+                    "width": 1087,
+                    "visible": false,
+                    "var": "BgMask",
+                    "skin": "netRes/haream/scene_main.png",
+                    "name": "BgMask",
+                    "height": 1939,
+                    "alpha": 0
+                  },
+                  "compId": 61
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "width": 899,
+                    "visible": true,
+                    "skin": "res_view/plot/bg_black.png",
+                    "name": "BlackPannel",
+                    "height": 1615,
+                    "alpha": 1
+                  },
+                  "compId": 29
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 794,
+                    "x": 562,
+                    "width": 369,
+                    "visible": true,
+                    "skin": "res_view/nightVisit/txt_dtyl.png",
+                    "pivotY": 93,
+                    "pivotX": 369,
+                    "name": "txt_start",
+                    "height": 93,
+                    "alpha": 0
+                  },
+                  "compId": 30
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "width": 1136,
+                    "visible": false,
+                    "name": "Door",
+                    "height": 1351
+                  },
+                  "compId": 31,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 1633.9,
+                        "x": 373.45,
+                        "width": 451,
+                        "skin": "res_view/nightVisit/men-zuo.png",
+                        "skewY": 0,
+                        "scaleX": 1,
+                        "pivotY": 1613,
+                        "pivotX": 451,
+                        "name": "left",
+                        "height": 1613,
+                        "alpha": 1
+                      },
+                      "compId": 32
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 1633.9,
+                        "x": 824.5,
+                        "width": 451,
+                        "skin": "res_view/nightVisit/men-zuo.png",
+                        "skewY": 180,
+                        "scaleX": 1,
+                        "pivotY": 1613,
+                        "name": "right",
+                        "height": 1613,
+                        "alpha": 1
+                      },
+                      "compId": 33
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 1344.75,
+                    "x": 864,
+                    "width": 416,
+                    "visible": false,
+                    "skin": "res_view/nightVisit/shou-1.png",
+                    "scaleY": 1,
+                    "scaleX": 1,
+                    "rotation": 30,
+                    "pivotY": 705,
+                    "pivotX": 416,
+                    "name": "img_hand",
+                    "height": 705
+                  },
+                  "compId": 36
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 695,
+                    "x": 542,
+                    "width": 132,
+                    "visible": false,
+                    "skin": "res_view/nightVisit/shou-2.png",
+                    "rotation": -7,
+                    "pivotY": 113,
+                    "pivotX": 132,
+                    "name": "knock",
+                    "height": 113
+                  },
+                  "compId": 41
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 1500,
+                    "x": 370,
+                    "visible": false,
+                    "var": "beautyHalfBody2",
+                    "name": "beautyHalfBody2"
+                  },
+                  "compId": 62
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 1035.9286821705424,
+                    "x": 377,
+                    "width": 724,
+                    "visible": false,
+                    "var": "avatarDialog",
+                    "scaleY": 0.3,
+                    "pivotY": 99,
+                    "pivotX": 362,
+                    "name": "avatarDialog",
+                    "height": 198,
+                    "alpha": 0.4
+                  },
+                  "compId": 42,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "skin": "res_view/plot/bg_plot_frame_1.png",
+                        "name": "frame",
+                        "innerHTML": "没想这个美娇娘竟然是个三，她叫"
+                      },
+                      "compId": 43
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -29,
+                        "x": 80,
+                        "width": 304,
+                        "skin": "res_view/plot/bg_plot_name.png",
+                        "sizeGrid": "0,81,0,82",
+                        "name": "name_bg"
+                      },
+                      "compId": 44
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 191,
+                        "x": -19,
+                        "var": "avatar",
+                        "skin": "netRes/plotRes/avatar/YX-QXKR/YX-QXKR-idle.png",
+                        "scaleX": 1,
+                        "name": "avatar",
+                        "anchorY": 1,
+                        "anchorX": 0,
+                        "alpha": 0
+                      },
+                      "compId": 45
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": -19.5,
+                        "visible": true,
+                        "valign": "bottom",
+                        "text": "我",
+                        "strokeColor": "#734230",
+                        "stroke": 2,
+                        "name": "name",
+                        "height": 28,
+                        "fontSize": 28,
+                        "font": "Microsoft YaHei",
+                        "color": "#f1dcbd",
+                        "centerX": -84
+                      },
+                      "compId": 46
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 56,
+                        "x": 215,
+                        "wordWrap": true,
+                        "width": 497,
+                        "visible": false,
+                        "var": "content",
+                        "text": "xxx，你在里面嘛？",
+                        "name": "content",
+                        "leading": 11,
+                        "height": 128,
+                        "fontSize": 25,
+                        "font": "Microsoft YaHei",
+                        "color": "#cbba97",
+                        "bold": false,
+                        "alpha": 1
+                      },
+                      "compId": 47
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 1082,
+                    "x": 377,
+                    "width": 724,
+                    "visible": false,
+                    "var": "halfBodyDialog",
+                    "pivotY": 99,
+                    "pivotX": 362,
+                    "name": "halfBodyDialog",
+                    "height": 198
+                  },
+                  "compId": 63,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "skin": "res_view/plot/bg_plot_frame_2.png",
+                        "name": "frame",
+                        "innerHTML": "没想这个美娇娘竟然是个三，她叫"
+                      },
+                      "compId": 64
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -32,
+                        "x": 340,
+                        "width": 332,
+                        "skin": "res_view/plot/bg_plot_name.png",
+                        "sizeGrid": "0,81,0,82",
+                        "name": "name_bg",
+                        "height": 50
+                      },
+                      "compId": 65
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": -9.5,
+                        "x": 510.5,
+                        "var": "beautyName",
+                        "text": "test",
+                        "strokeColor": "#734230",
+                        "stroke": 2,
+                        "name": "beautyName",
+                        "height": 28,
+                        "fontSize": 28,
+                        "font": "Microsoft YaHei",
+                        "color": "#f1dcbd",
+                        "anchorY": 0.5,
+                        "anchorX": 0.5
+                      },
+                      "compId": 66
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 44,
+                        "x": 39,
+                        "wordWrap": true,
+                        "width": 647,
+                        "var": "halfBodyTxt",
+                        "text": "test",
+                        "name": "halfBodyTxt",
+                        "leading": 11,
+                        "height": 102,
+                        "fontSize": 25,
+                        "font": "Microsoft YaHei",
+                        "color": "#65462f"
+                      },
+                      "compId": 67
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "visible": false,
+                    "var": "FinBox",
+                    "name": "FinBox"
+                  },
+                  "compId": 73,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 126,
+                        "x": 1,
+                        "width": 752,
+                        "skin": "res_view/nightVisit/langan-2.png",
+                        "name": "finbg",
+                        "height": 1365
+                      },
+                      "compId": 74
+                    },
+                    {
+                      "type": "Box",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "var": "FinishAni",
+                        "name": "FinishAni"
+                      },
+                      "compId": 71
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 126,
+                        "x": 1,
+                        "width": 752,
+                        "skin": "res_view/nightVisit/langan-1.png",
+                        "name": "finwindow",
+                        "height": 1367
+                      },
+                      "compId": 75
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 1124,
+                    "x": 377,
+                    "width": 724,
+                    "visible": false,
+                    "var": "EventDialog",
+                    "pivotY": 99,
+                    "pivotX": 362,
+                    "name": "EventDialog",
+                    "height": 198
+                  },
+                  "compId": 68,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "skin": "res_view/plot/bg_plot_frame_1.png",
+                        "name": "frame",
+                        "innerHTML": "没想这个美娇娘竟然是个三，她叫"
+                      },
+                      "compId": 69
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 47,
+                        "x": 40,
+                        "wordWrap": true,
+                        "width": 647,
+                        "var": "eventContent",
+                        "text": "text",
+                        "name": "eventContent",
+                        "leading": 11,
+                        "height": 103,
+                        "fontSize": 25,
+                        "font": "Microsoft YaHei",
+                        "color": "#cbba97"
+                      },
+                      "compId": 70
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 1082,
+                    "x": 377,
+                    "width": 724,
+                    "visible": false,
+                    "var": "NarDialog",
+                    "pivotY": 99,
+                    "pivotX": 362,
+                    "name": "NarDialog",
+                    "height": 198
+                  },
+                  "compId": 78,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "skin": "res_view/plot/bg_plot_frame_2.png",
+                        "name": "frame",
+                        "innerHTML": "没想这个美娇娘竟然是个三，她叫"
+                      },
+                      "compId": 79
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 44,
+                        "x": 39,
+                        "wordWrap": true,
+                        "width": 647,
+                        "var": "NarrationTxt",
+                        "text": "test",
+                        "name": "NarrationTxt",
+                        "leading": 11,
+                        "height": 102,
+                        "fontSize": 25,
+                        "font": "Microsoft YaHei",
+                        "color": "#65462f"
+                      },
+                      "compId": 82
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 1438,
+                    "x": 215,
+                    "skin": "res_view/nightVisit/icon_qmtx.png",
+                    "name": "Tips"
+                  },
+                  "compId": 83
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -123,
+                "x": -125,
+                "visible": false,
+                "skin": "res_view/plot/bg_black.png",
+                "name": "loading"
+              },
+              "compId": 53
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 29,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 29,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 29,
+                "key": "visible",
+                "index": 64
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 29,
+                "key": "alpha",
+                "index": 0
+              }
+            ]
+          }
+        },
+        {
+          "target": 30,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 30,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 30,
+                "key": "visible",
+                "index": 64
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 30,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 30,
+                "key": "alpha",
+                "index": 27
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 30,
+                "key": "alpha",
+                "index": 33
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 30,
+                "label": null,
+                "key": "alpha",
+                "index": 60
+              }
+            ]
+          }
+        },
+        {
+          "target": 31,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 31,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 31,
+                "key": "visible",
+                "index": 60
+              }
+            ]
+          }
+        },
+        {
+          "target": 36,
+          "keyframes": {
+            "y": [
+              {
+                "value": 1344.75,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 1346.9,
+                "tweenMethod": "quadIn",
+                "tween": true,
+                "target": 36,
+                "key": "y",
+                "index": 81
+              },
+              {
+                "value": 1346.85,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "y",
+                "index": 84
+              },
+              {
+                "value": 1346.85,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "y",
+                "index": 85
+              },
+              {
+                "value": 1346.9,
+                "tweenMethod": "quadIn",
+                "tween": true,
+                "target": 36,
+                "key": "y",
+                "index": 86
+              },
+              {
+                "value": 1341.2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "y",
+                "index": 89
+              },
+              {
+                "value": 1346.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "y",
+                "index": 93
+              },
+              {
+                "value": 1346.9,
+                "tweenMethod": "quadIn",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "y",
+                "index": 98
+              },
+              {
+                "value": 1341.2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "y",
+                "index": 101
+              },
+              {
+                "value": 1346.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "y",
+                "index": 104
+              },
+              {
+                "value": 1346.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "y",
+                "index": 191
+              },
+              {
+                "value": 1786.7,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "y",
+                "index": 206
+              }
+            ],
+            "x": [
+              {
+                "value": 864,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 859.5555555555555,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "x",
+                "index": 60
+              },
+              {
+                "value": 872.85,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "x",
+                "index": 81
+              },
+              {
+                "value": 868.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "x",
+                "index": 84
+              },
+              {
+                "value": 868.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "x",
+                "index": 85
+              },
+              {
+                "value": 868.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "x",
+                "index": 86
+              },
+              {
+                "value": 874.2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "x",
+                "index": 89
+              },
+              {
+                "value": 868.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "x",
+                "index": 93
+              },
+              {
+                "value": 868.9,
+                "tweenMethod": "quadIn",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "x",
+                "index": 98
+              },
+              {
+                "value": 874.2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "x",
+                "index": 101
+              },
+              {
+                "value": 868.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "x",
+                "index": 104
+              },
+              {
+                "value": 868.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "x",
+                "index": 191
+              },
+              {
+                "value": 1315.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "x",
+                "index": 206
+              }
+            ],
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 36,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 36,
+                "key": "visible",
+                "index": 60
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "scaleY",
+                "index": 86
+              },
+              {
+                "value": 0.95,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "scaleY",
+                "index": 89
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "scaleY",
+                "index": 93
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "scaleY",
+                "index": 98
+              },
+              {
+                "value": 0.95,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "scaleY",
+                "index": 101
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "scaleY",
+                "index": 104
+              },
+              {
+                "value": 1,
+                "tweenMethod": "quadInOut",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "scaleY",
+                "index": 191
+              },
+              {
+                "value": 1.2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "scaleY",
+                "index": 206
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "scaleX",
+                "index": 86
+              },
+              {
+                "value": 0.95,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "scaleX",
+                "index": 89
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "scaleX",
+                "index": 93
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "scaleX",
+                "index": 98
+              },
+              {
+                "value": 0.95,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "scaleX",
+                "index": 101
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "scaleX",
+                "index": 104
+              },
+              {
+                "value": 1,
+                "tweenMethod": "quadInOut",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "scaleX",
+                "index": 191
+              },
+              {
+                "value": 1.2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "scaleX",
+                "index": 206
+              }
+            ],
+            "rotation": [
+              {
+                "value": 30,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "rotation",
+                "index": 0
+              },
+              {
+                "value": 30,
+                "tweenMethod": "quadIn",
+                "tween": true,
+                "target": 36,
+                "key": "rotation",
+                "index": 60
+              },
+              {
+                "value": 0,
+                "tweenMethod": "quartInOut",
+                "tween": true,
+                "target": 36,
+                "key": "rotation",
+                "index": 81
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "rotation",
+                "index": 84
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "rotation",
+                "index": 85
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "rotation",
+                "index": 86
+              },
+              {
+                "value": -4.6,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "rotation",
+                "index": 89
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "rotation",
+                "index": 93
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "rotation",
+                "index": 98
+              },
+              {
+                "value": -4.6,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "rotation",
+                "index": 101
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "rotation",
+                "index": 104
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "rotation",
+                "index": 191
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "rotation",
+                "index": 206
+              }
+            ]
+          }
+        },
+        {
+          "target": 41,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 41,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 41,
+                "key": "visible",
+                "index": 88
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 41,
+                "key": "visible",
+                "index": 90
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 41,
+                "label": null,
+                "key": "visible",
+                "index": 100
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 41,
+                "label": null,
+                "key": "visible",
+                "index": 102
+              }
+            ]
+          }
+        },
+        {
+          "target": 42,
+          "keyframes": {
+            "y": [
+              {
+                "value": 1035.9286821705424,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 42,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 1043.1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 42,
+                "key": "y",
+                "index": 129
+              }
+            ],
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 42,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 42,
+                "key": "visible",
+                "index": 118
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 0.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 42,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 0.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 42,
+                "key": "scaleY",
+                "index": 118
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 42,
+                "key": "scaleY",
+                "index": 121
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0.4,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 42,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0.4,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 42,
+                "key": "alpha",
+                "index": 118
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 42,
+                "key": "alpha",
+                "index": 121
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 42,
+                "key": "alpha",
+                "index": 180
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 42,
+                "key": "alpha",
+                "index": 183
+              }
+            ]
+          }
+        },
+        {
+          "target": 45,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 45,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 45,
+                "key": "alpha",
+                "index": 122
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 45,
+                "key": "alpha",
+                "index": 127
+              }
+            ]
+          }
+        },
+        {
+          "target": 47,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 47,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 47,
+                "key": "visible",
+                "index": 125
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 47,
+                "key": "visible",
+                "index": 129
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 47,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 47,
+                "key": "alpha",
+                "index": 125
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 47,
+                "key": "alpha",
+                "index": 129
+              }
+            ]
+          }
+        },
+        {
+          "target": 32,
+          "keyframes": {
+            "y": [
+              {
+                "value": 1633.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 1633.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "label": null,
+                "key": "y",
+                "index": 200
+              },
+              {
+                "value": 828,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "key": "y",
+                "index": 201
+              }
+            ],
+            "x": [
+              {
+                "value": 373.45,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 373.45,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "label": null,
+                "key": "x",
+                "index": 200
+              },
+              {
+                "value": -77,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "key": "x",
+                "index": 201
+              }
+            ],
+            "skewY": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "key": "skewY",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "label": null,
+                "key": "skewY",
+                "index": 200
+              },
+              {
+                "value": -2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "key": "skewY",
+                "index": 221
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "label": null,
+                "key": "scaleX",
+                "index": 200
+              },
+              {
+                "value": 0.2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "key": "scaleX",
+                "index": 221
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "key": "scaleX",
+                "index": 225
+              }
+            ],
+            "pivotY": [
+              {
+                "value": 1613,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "key": "pivotY",
+                "index": 0
+              },
+              {
+                "value": 1613,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "label": null,
+                "key": "pivotY",
+                "index": 200
+              },
+              {
+                "value": 807,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "key": "pivotY",
+                "index": 201
+              }
+            ],
+            "pivotX": [
+              {
+                "value": 451,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "key": "pivotX",
+                "index": 0
+              },
+              {
+                "value": 451,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "label": null,
+                "key": "pivotX",
+                "index": 200
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "key": "pivotX",
+                "index": 201
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "label": null,
+                "key": "alpha",
+                "index": 200
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "key": "alpha",
+                "index": 201
+              }
+            ]
+          }
+        },
+        {
+          "target": 33,
+          "keyframes": {
+            "y": [
+              {
+                "value": 1633.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 1633.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "label": null,
+                "key": "y",
+                "index": 200
+              },
+              {
+                "value": 827,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "key": "y",
+                "index": 201
+              }
+            ],
+            "skewY": [
+              {
+                "value": 180,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "key": "skewY",
+                "index": 0
+              },
+              {
+                "value": 180,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "label": null,
+                "key": "skewY",
+                "index": 200
+              },
+              {
+                "value": 182,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "key": "skewY",
+                "index": 221
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "label": null,
+                "key": "scaleX",
+                "index": 200
+              },
+              {
+                "value": 0.2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "key": "scaleX",
+                "index": 221
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "key": "scaleX",
+                "index": 225
+              }
+            ],
+            "pivotY": [
+              {
+                "value": 1613,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "key": "pivotY",
+                "index": 0
+              },
+              {
+                "value": 1613,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "label": null,
+                "key": "pivotY",
+                "index": 200
+              },
+              {
+                "value": 807,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "key": "pivotY",
+                "index": 201
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "label": null,
+                "key": "alpha",
+                "index": 200
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "key": "alpha",
+                "index": 201
+              }
+            ]
+          }
+        },
+        {
+          "target": 50,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 50,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 50,
+                "key": "visible",
+                "index": 64
+              }
+            ]
+          }
+        },
+        {
+          "target": 53,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 53,
+                "key": "visible",
+                "index": 0
+              }
+            ]
+          }
+        },
+        {
+          "target": 49,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 49,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 49,
+                "key": "visible",
+                "index": 64
+              }
+            ]
+          }
+        },
+        {
+          "target": 61,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 61,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 61,
+                "key": "visible",
+                "index": 1
+              }
+            ]
+          }
+        }
+      ],
+      "name": "start",
+      "id": 1,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 60,
+          "keyframes": {
+            "y": [
+              {
+                "value": 129,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 99,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "y",
+                "index": 2
+              },
+              {
+                "value": 86,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "y",
+                "index": 5
+              },
+              {
+                "value": 28,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "y",
+                "index": 10
+              },
+              {
+                "value": 30,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "y",
+                "index": 18
+              },
+              {
+                "value": 30,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "label": null,
+                "key": "y",
+                "index": 36
+              }
+            ],
+            "x": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": -15,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "x",
+                "index": 2
+              },
+              {
+                "value": -29,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "x",
+                "index": 5
+              },
+              {
+                "value": -40,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "x",
+                "index": 10
+              },
+              {
+                "value": -50,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "x",
+                "index": 18
+              },
+              {
+                "value": -50,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "label": null,
+                "key": "x",
+                "index": 36
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1.02,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleY",
+                "index": 2
+              },
+              {
+                "value": 1.04,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleY",
+                "index": 5
+              },
+              {
+                "value": 1.12,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleY",
+                "index": 10
+              },
+              {
+                "value": 1.17,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleY",
+                "index": 18
+              },
+              {
+                "value": 1.17,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "label": null,
+                "key": "scaleY",
+                "index": 36
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1.02,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleX",
+                "index": 2
+              },
+              {
+                "value": 1.04,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleX",
+                "index": 5
+              },
+              {
+                "value": 1.12,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleX",
+                "index": 10
+              },
+              {
+                "value": 1.17,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleX",
+                "index": 18
+              },
+              {
+                "value": 1.17,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "label": null,
+                "key": "scaleX",
+                "index": 36
+              }
+            ]
+          }
+        },
+        {
+          "target": 31,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 31,
+                "key": "visible",
+                "index": 0
+              }
+            ]
+          }
+        },
+        {
+          "target": 36,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 36,
+                "key": "visible",
+                "index": 0
+              }
+            ]
+          }
+        },
+        {
+          "target": 61,
+          "keyframes": {
+            "y": [
+              {
+                "value": -688,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "label": null,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": -688,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "key": "y",
+                "index": 36
+              }
+            ],
+            "x": [
+              {
+                "value": -298,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "label": null,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": -298,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "key": "x",
+                "index": 36
+              }
+            ],
+            "width": [
+              {
+                "value": 1592,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "label": null,
+                "key": "width",
+                "index": 0
+              },
+              {
+                "value": 1592,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "key": "width",
+                "index": 36
+              }
+            ],
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 61,
+                "label": null,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 61,
+                "key": "visible",
+                "index": 36
+              }
+            ],
+            "height": [
+              {
+                "value": 2841,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "label": null,
+                "key": "height",
+                "index": 0
+              },
+              {
+                "value": 2841,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "key": "height",
+                "index": 36
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "label": null,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "key": "alpha",
+                "index": 36
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "key": "alpha",
+                "index": 44
+              }
+            ]
+          }
+        }
+      ],
+      "name": "beautyani1",
+      "id": 2,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 62,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 62,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 62,
+                "label": null,
+                "key": "visible",
+                "index": 1
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 62,
+                "label": null,
+                "key": "visible",
+                "index": 6
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 62,
+                "label": null,
+                "key": "visible",
+                "index": 85
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 62,
+                "label": null,
+                "key": "visible",
+                "index": 90
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 62,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 62,
+                "label": null,
+                "key": "alpha",
+                "index": 1
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 62,
+                "label": null,
+                "key": "alpha",
+                "index": 6
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 62,
+                "key": "alpha",
+                "index": 85
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 62,
+                "key": "alpha",
+                "index": 90
+              }
+            ]
+          }
+        },
+        {
+          "target": 63,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 63,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 63,
+                "key": "visible",
+                "index": 89
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 0.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 63,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 63,
+                "key": "scaleY",
+                "index": 5
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 63,
+                "label": null,
+                "key": "scaleY",
+                "index": 85
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 63,
+                "label": null,
+                "key": "scaleY",
+                "index": 89
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0.4,
+                "tweenMethod": "quadIn",
+                "tween": true,
+                "target": 63,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 63,
+                "key": "alpha",
+                "index": 5
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 63,
+                "label": null,
+                "key": "alpha",
+                "index": 85
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 63,
+                "label": null,
+                "key": "alpha",
+                "index": 89
+              }
+            ]
+          }
+        },
+        {
+          "target": 29,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 29,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 29,
+                "key": "visible",
+                "index": 85
+              }
+            ]
+          }
+        },
+        {
+          "target": 61,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "key": "alpha",
+                "index": 85
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "key": "alpha",
+                "index": 90
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "label": null,
+                "key": "alpha",
+                "index": 95
+              }
+            ]
+          }
+        }
+      ],
+      "name": "talkAni",
+      "id": 3,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 68,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 68,
+                "key": "visible",
+                "index": 0
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 0.4,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 68,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 68,
+                "key": "scaleY",
+                "index": 5
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 68,
+                "label": null,
+                "key": "scaleY",
+                "index": 90
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 68,
+                "key": "scaleY",
+                "index": 95
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0.4,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 68,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 68,
+                "key": "alpha",
+                "index": 5
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 68,
+                "label": null,
+                "key": "alpha",
+                "index": 90
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 68,
+                "label": null,
+                "key": "alpha",
+                "index": 95
+              }
+            ]
+          }
+        },
+        {
+          "target": 73,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 73,
+                "key": "visible",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 73,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 73,
+                "key": "alpha",
+                "index": 1
+              }
+            ]
+          }
+        }
+      ],
+      "name": "FinAni",
+      "id": 4,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 60,
+          "keyframes": {
+            "y": [
+              {
+                "value": 129,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 99,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "y",
+                "index": 2
+              },
+              {
+                "value": 86,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "y",
+                "index": 5
+              },
+              {
+                "value": 28,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "y",
+                "index": 10
+              },
+              {
+                "value": 45,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "y",
+                "index": 18
+              },
+              {
+                "value": 45,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "label": null,
+                "key": "y",
+                "index": 36
+              }
+            ],
+            "x": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": -15,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "x",
+                "index": 2
+              },
+              {
+                "value": -29,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "x",
+                "index": 5
+              },
+              {
+                "value": -64,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "x",
+                "index": 10
+              },
+              {
+                "value": -98,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "x",
+                "index": 18
+              },
+              {
+                "value": -98,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "label": null,
+                "key": "x",
+                "index": 36
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1.02,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleY",
+                "index": 2
+              },
+              {
+                "value": 1.04,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleY",
+                "index": 5
+              },
+              {
+                "value": 1.12,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleY",
+                "index": 10
+              },
+              {
+                "value": 1.17,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleY",
+                "index": 18
+              },
+              {
+                "value": 1.17,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "label": null,
+                "key": "scaleY",
+                "index": 36
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1.02,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleX",
+                "index": 2
+              },
+              {
+                "value": 1.04,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleX",
+                "index": 5
+              },
+              {
+                "value": 1.12,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleX",
+                "index": 10
+              },
+              {
+                "value": 1.17,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleX",
+                "index": 18
+              },
+              {
+                "value": 1.17,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "label": null,
+                "key": "scaleX",
+                "index": 36
+              }
+            ]
+          }
+        },
+        {
+          "target": 31,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 31,
+                "key": "visible",
+                "index": 0
+              }
+            ]
+          }
+        },
+        {
+          "target": 36,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 36,
+                "key": "visible",
+                "index": 0
+              }
+            ]
+          }
+        },
+        {
+          "target": 61,
+          "keyframes": {
+            "y": [
+              {
+                "value": -688,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "label": null,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": -688,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "key": "y",
+                "index": 36
+              }
+            ],
+            "x": [
+              {
+                "value": -298,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "label": null,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": -298,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "key": "x",
+                "index": 36
+              }
+            ],
+            "width": [
+              {
+                "value": 1592,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "label": null,
+                "key": "width",
+                "index": 0
+              },
+              {
+                "value": 1592,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "key": "width",
+                "index": 36
+              }
+            ],
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 61,
+                "label": null,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 61,
+                "key": "visible",
+                "index": 36
+              }
+            ],
+            "height": [
+              {
+                "value": 2841,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "label": null,
+                "key": "height",
+                "index": 0
+              },
+              {
+                "value": 2841,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "key": "height",
+                "index": 36
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "label": null,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "key": "alpha",
+                "index": 36
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "key": "alpha",
+                "index": 44
+              }
+            ]
+          }
+        }
+      ],
+      "name": "beautyani0",
+      "id": 2,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 60,
+          "keyframes": {
+            "y": [
+              {
+                "value": 129,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 99,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "y",
+                "index": 2
+              },
+              {
+                "value": 86,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "y",
+                "index": 5
+              },
+              {
+                "value": 28,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "y",
+                "index": 10
+              },
+              {
+                "value": 33,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "y",
+                "index": 18
+              },
+              {
+                "value": 33,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "label": null,
+                "key": "y",
+                "index": 36
+              }
+            ],
+            "x": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": -15,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "x",
+                "index": 2
+              },
+              {
+                "value": -29,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "x",
+                "index": 5
+              },
+              {
+                "value": -64,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "x",
+                "index": 10
+              },
+              {
+                "value": -87,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "x",
+                "index": 18
+              },
+              {
+                "value": -87,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "label": null,
+                "key": "x",
+                "index": 36
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1.02,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleY",
+                "index": 2
+              },
+              {
+                "value": 1.04,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleY",
+                "index": 5
+              },
+              {
+                "value": 1.12,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleY",
+                "index": 10
+              },
+              {
+                "value": 1.17,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleY",
+                "index": 18
+              },
+              {
+                "value": 1.17,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "label": null,
+                "key": "scaleY",
+                "index": 36
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1.02,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleX",
+                "index": 2
+              },
+              {
+                "value": 1.04,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleX",
+                "index": 5
+              },
+              {
+                "value": 1.12,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleX",
+                "index": 10
+              },
+              {
+                "value": 1.17,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleX",
+                "index": 18
+              },
+              {
+                "value": 1.17,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "label": null,
+                "key": "scaleX",
+                "index": 36
+              }
+            ]
+          }
+        },
+        {
+          "target": 31,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 31,
+                "key": "visible",
+                "index": 0
+              }
+            ]
+          }
+        },
+        {
+          "target": 36,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 36,
+                "key": "visible",
+                "index": 0
+              }
+            ]
+          }
+        },
+        {
+          "target": 61,
+          "keyframes": {
+            "y": [
+              {
+                "value": -688,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "label": null,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": -688,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "key": "y",
+                "index": 36
+              }
+            ],
+            "x": [
+              {
+                "value": -298,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "label": null,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": -298,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "key": "x",
+                "index": 36
+              }
+            ],
+            "width": [
+              {
+                "value": 1592,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "label": null,
+                "key": "width",
+                "index": 0
+              },
+              {
+                "value": 1592,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "key": "width",
+                "index": 36
+              }
+            ],
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 61,
+                "label": null,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 61,
+                "key": "visible",
+                "index": 36
+              }
+            ],
+            "height": [
+              {
+                "value": 2841,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "label": null,
+                "key": "height",
+                "index": 0
+              },
+              {
+                "value": 2841,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "key": "height",
+                "index": 36
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "label": null,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "key": "alpha",
+                "index": 36
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "key": "alpha",
+                "index": 44
+              }
+            ]
+          }
+        }
+      ],
+      "name": "beautyani2",
+      "id": 2,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 60,
+          "keyframes": {
+            "y": [
+              {
+                "value": 129,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 99,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "y",
+                "index": 2
+              },
+              {
+                "value": 86,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "y",
+                "index": 5
+              },
+              {
+                "value": 28,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "y",
+                "index": 10
+              },
+              {
+                "value": 45,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "y",
+                "index": 18
+              },
+              {
+                "value": 45,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "label": null,
+                "key": "y",
+                "index": 36
+              }
+            ],
+            "x": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": -15,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "x",
+                "index": 2
+              },
+              {
+                "value": -29,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "x",
+                "index": 5
+              },
+              {
+                "value": -64,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "x",
+                "index": 10
+              },
+              {
+                "value": -86,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "x",
+                "index": 18
+              },
+              {
+                "value": -86,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "label": null,
+                "key": "x",
+                "index": 36
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1.02,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleY",
+                "index": 2
+              },
+              {
+                "value": 1.04,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleY",
+                "index": 5
+              },
+              {
+                "value": 1.12,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleY",
+                "index": 10
+              },
+              {
+                "value": 1.17,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleY",
+                "index": 18
+              },
+              {
+                "value": 1.17,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "label": null,
+                "key": "scaleY",
+                "index": 36
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1.02,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleX",
+                "index": 2
+              },
+              {
+                "value": 1.04,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleX",
+                "index": 5
+              },
+              {
+                "value": 1.12,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleX",
+                "index": 10
+              },
+              {
+                "value": 1.17,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "key": "scaleX",
+                "index": 18
+              },
+              {
+                "value": 1.17,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 60,
+                "label": null,
+                "key": "scaleX",
+                "index": 36
+              }
+            ]
+          }
+        },
+        {
+          "target": 31,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 31,
+                "key": "visible",
+                "index": 0
+              }
+            ]
+          }
+        },
+        {
+          "target": 36,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 36,
+                "key": "visible",
+                "index": 0
+              }
+            ]
+          }
+        },
+        {
+          "target": 61,
+          "keyframes": {
+            "y": [
+              {
+                "value": -688,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "label": null,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": -688,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "key": "y",
+                "index": 36
+              }
+            ],
+            "x": [
+              {
+                "value": -298,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "label": null,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": -298,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "key": "x",
+                "index": 36
+              }
+            ],
+            "width": [
+              {
+                "value": 1592,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "label": null,
+                "key": "width",
+                "index": 0
+              },
+              {
+                "value": 1592,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "key": "width",
+                "index": 36
+              }
+            ],
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 61,
+                "label": null,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 61,
+                "key": "visible",
+                "index": 36
+              }
+            ],
+            "height": [
+              {
+                "value": 2841,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "label": null,
+                "key": "height",
+                "index": 0
+              },
+              {
+                "value": 2841,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "key": "height",
+                "index": 36
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "label": null,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "key": "alpha",
+                "index": 36
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "key": "alpha",
+                "index": 44
+              }
+            ]
+          }
+        }
+      ],
+      "name": "beautyani3",
+      "id": 2,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 36,
+          "keyframes": {
+            "y": [
+              {
+                "value": 1346.9,
+                "tweenMethod": "quadIn",
+                "tween": true,
+                "target": 36,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 1341.2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "y",
+                "index": 3
+              },
+              {
+                "value": 1346.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "y",
+                "index": 7
+              },
+              {
+                "value": 1346.9,
+                "tweenMethod": "quadIn",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "y",
+                "index": 12
+              },
+              {
+                "value": 1341.2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "y",
+                "index": 15
+              },
+              {
+                "value": 1346.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "y",
+                "index": 18
+              },
+              {
+                "value": 1346.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "y",
+                "index": 32
+              }
+            ],
+            "x": [
+              {
+                "value": 868.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 874.2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "x",
+                "index": 3
+              },
+              {
+                "value": 868.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "x",
+                "index": 7
+              },
+              {
+                "value": 868.9,
+                "tweenMethod": "quadIn",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "x",
+                "index": 12
+              },
+              {
+                "value": 874.2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "x",
+                "index": 15
+              },
+              {
+                "value": 868.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "x",
+                "index": 18
+              },
+              {
+                "value": 868.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "x",
+                "index": 32
+              }
+            ],
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 36,
+                "key": "visible",
+                "index": 0
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 0.95,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "scaleY",
+                "index": 3
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "scaleY",
+                "index": 7
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "scaleY",
+                "index": 12
+              },
+              {
+                "value": 0.95,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "scaleY",
+                "index": 15
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "scaleY",
+                "index": 18
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "scaleY",
+                "index": 32
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 0.95,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "scaleX",
+                "index": 3
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "scaleX",
+                "index": 7
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "scaleX",
+                "index": 12
+              },
+              {
+                "value": 0.95,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "scaleX",
+                "index": 15
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "scaleX",
+                "index": 18
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "scaleX",
+                "index": 32
+              }
+            ],
+            "rotation": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "rotation",
+                "index": 0
+              },
+              {
+                "value": -4.6,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "rotation",
+                "index": 3
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "rotation",
+                "index": 7
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "rotation",
+                "index": 12
+              },
+              {
+                "value": -4.6,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "rotation",
+                "index": 15
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "rotation",
+                "index": 18
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "rotation",
+                "index": 32
+              }
+            ]
+          }
+        },
+        {
+          "target": 41,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 41,
+                "label": null,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 41,
+                "key": "visible",
+                "index": 2
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 41,
+                "key": "visible",
+                "index": 4
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 41,
+                "label": null,
+                "key": "visible",
+                "index": 14
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 41,
+                "label": null,
+                "key": "visible",
+                "index": 16
+              }
+            ]
+          }
+        },
+        {
+          "target": 42,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 42,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 42,
+                "key": "visible",
+                "index": 32
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 0.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 42,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 0.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 42,
+                "key": "scaleY",
+                "index": 32
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 42,
+                "key": "scaleY",
+                "index": 35
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0.4,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 42,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 42,
+                "key": "alpha",
+                "index": 32
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 42,
+                "key": "alpha",
+                "index": 35
+              }
+            ]
+          }
+        },
+        {
+          "target": 45,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 45,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 45,
+                "key": "alpha",
+                "index": 36
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 45,
+                "key": "alpha",
+                "index": 39
+              }
+            ]
+          }
+        },
+        {
+          "target": 47,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 47,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 47,
+                "key": "visible",
+                "index": 38
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 47,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 47,
+                "key": "alpha",
+                "index": 38
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 47,
+                "key": "alpha",
+                "index": 42
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 47,
+                "label": null,
+                "key": "alpha",
+                "index": 50
+              }
+            ]
+          }
+        },
+        {
+          "target": 46,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 46,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 46,
+                "key": "visible",
+                "index": 32
+              }
+            ],
+            "text": [
+              {
+                "value": "我",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 46,
+                "key": "text",
+                "index": 0
+              },
+              {
+                "value": "我",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 46,
+                "key": "text",
+                "index": 32
+              }
+            ]
+          }
+        }
+      ],
+      "name": "knock",
+      "id": 1,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 29,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 29,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 29,
+                "key": "visible",
+                "index": 69
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 29,
+                "key": "alpha",
+                "index": 0
+              }
+            ]
+          }
+        },
+        {
+          "target": 30,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 30,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 30,
+                "key": "visible",
+                "index": 69
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 30,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 30,
+                "key": "alpha",
+                "index": 27
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 30,
+                "key": "alpha",
+                "index": 33
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 30,
+                "label": null,
+                "key": "alpha",
+                "index": 59
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 30,
+                "label": null,
+                "key": "alpha",
+                "index": 65
+              }
+            ]
+          }
+        },
+        {
+          "target": 31,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 31,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 31,
+                "key": "visible",
+                "index": 65
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 31,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 31,
+                "key": "alpha",
+                "index": 65
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 31,
+                "key": "alpha",
+                "index": 69
+              }
+            ]
+          }
+        },
+        {
+          "target": 36,
+          "keyframes": {
+            "y": [
+              {
+                "value": 1344.75,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "y",
+                "index": 0
+              }
+            ],
+            "x": [
+              {
+                "value": 864,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 859.5555555555555,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "x",
+                "index": 65
+              }
+            ],
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 36,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 36,
+                "key": "visible",
+                "index": 65
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "scaleY",
+                "index": 0
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "scaleX",
+                "index": 0
+              }
+            ],
+            "rotation": [
+              {
+                "value": 30,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "key": "rotation",
+                "index": 0
+              },
+              {
+                "value": 30,
+                "tweenMethod": "quadIn",
+                "tween": true,
+                "target": 36,
+                "key": "rotation",
+                "index": 65
+              }
+            ]
+          }
+        },
+        {
+          "target": 41,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 41,
+                "key": "visible",
+                "index": 0
+              }
+            ]
+          }
+        },
+        {
+          "target": 42,
+          "keyframes": {
+            "y": [
+              {
+                "value": 1035.9286821705424,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 42,
+                "key": "y",
+                "index": 0
+              }
+            ],
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 42,
+                "key": "visible",
+                "index": 0
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 0.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 42,
+                "key": "scaleY",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0.4,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 42,
+                "key": "alpha",
+                "index": 0
+              }
+            ]
+          }
+        },
+        {
+          "target": 45,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 45,
+                "key": "alpha",
+                "index": 0
+              }
+            ]
+          }
+        },
+        {
+          "target": 46,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 46,
+                "key": "visible",
+                "index": 0
+              }
+            ],
+            "text": [
+              {
+                "value": "",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 46,
+                "key": "text",
+                "index": 0
+              }
+            ]
+          }
+        },
+        {
+          "target": 47,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 47,
+                "key": "visible",
+                "index": 0
+              }
+            ]
+          }
+        },
+        {
+          "target": 32,
+          "keyframes": {
+            "y": [
+              {
+                "value": 1633.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "key": "y",
+                "index": 0
+              }
+            ],
+            "x": [
+              {
+                "value": 373.45,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "skewY": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "key": "skewY",
+                "index": 0
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "key": "scaleX",
+                "index": 0
+              }
+            ],
+            "pivotY": [
+              {
+                "value": 1613,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "key": "pivotY",
+                "index": 0
+              }
+            ],
+            "pivotX": [
+              {
+                "value": 451,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "key": "pivotX",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "key": "alpha",
+                "index": 0
+              }
+            ]
+          }
+        },
+        {
+          "target": 33,
+          "keyframes": {
+            "y": [
+              {
+                "value": 1633.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "key": "y",
+                "index": 0
+              }
+            ],
+            "skewY": [
+              {
+                "value": 180,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "key": "skewY",
+                "index": 0
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "key": "scaleX",
+                "index": 0
+              }
+            ],
+            "pivotY": [
+              {
+                "value": 1613,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "key": "pivotY",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "key": "alpha",
+                "index": 0
+              }
+            ]
+          }
+        },
+        {
+          "target": 50,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 50,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 50,
+                "key": "visible",
+                "index": 69
+              }
+            ]
+          }
+        },
+        {
+          "target": 53,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 53,
+                "key": "visible",
+                "index": 0
+              }
+            ]
+          }
+        },
+        {
+          "target": 49,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 49,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 49,
+                "key": "visible",
+                "index": 69
+              }
+            ]
+          }
+        },
+        {
+          "target": 61,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 61,
+                "key": "visible",
+                "index": 0
+              }
+            ]
+          }
+        },
+        {
+          "target": 83,
+          "keyframes": {
+            "y": [
+              {
+                "value": 1438,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 83,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 1414,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 83,
+                "key": "y",
+                "index": 65
+              },
+              {
+                "value": 1384,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 83,
+                "key": "y",
+                "index": 69
+              }
+            ],
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 83,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 83,
+                "key": "visible",
+                "index": 65
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 83,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 83,
+                "key": "alpha",
+                "index": 65
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 83,
+                "key": "alpha",
+                "index": 69
+              }
+            ]
+          }
+        }
+      ],
+      "name": "Start",
+      "id": 1,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 31,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 31,
+                "label": null,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 31,
+                "label": null,
+                "key": "visible",
+                "index": 11
+              }
+            ]
+          }
+        },
+        {
+          "target": 36,
+          "keyframes": {
+            "y": [
+              {
+                "value": 1346.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 1346.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "y",
+                "index": 11
+              },
+              {
+                "value": 1346.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "y",
+                "index": 19
+              },
+              {
+                "value": 1786.7,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "y",
+                "index": 34
+              }
+            ],
+            "x": [
+              {
+                "value": 868.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 868.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "x",
+                "index": 11
+              },
+              {
+                "value": 868.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "x",
+                "index": 19
+              },
+              {
+                "value": 1315.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "x",
+                "index": 34
+              }
+            ],
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 36,
+                "label": null,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 36,
+                "label": null,
+                "key": "visible",
+                "index": 11
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "scaleY",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "quadInOut",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "scaleY",
+                "index": 19
+              },
+              {
+                "value": 1.2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "scaleY",
+                "index": 34
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "scaleX",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "quadInOut",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "scaleX",
+                "index": 19
+              },
+              {
+                "value": 1.2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "scaleX",
+                "index": 34
+              }
+            ],
+            "rotation": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "rotation",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "rotation",
+                "index": 11
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "rotation",
+                "index": 19
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "rotation",
+                "index": 34
+              }
+            ]
+          }
+        },
+        {
+          "target": 32,
+          "keyframes": {
+            "y": [
+              {
+                "value": 1633.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "label": null,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 1633.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "label": null,
+                "key": "y",
+                "index": 11
+              },
+              {
+                "value": 1633.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "label": null,
+                "key": "y",
+                "index": 28
+              },
+              {
+                "value": 828,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "label": null,
+                "key": "y",
+                "index": 29
+              }
+            ],
+            "x": [
+              {
+                "value": 373.45,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "label": null,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 373.45,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "label": null,
+                "key": "x",
+                "index": 11
+              },
+              {
+                "value": 373.45,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "label": null,
+                "key": "x",
+                "index": 28
+              },
+              {
+                "value": -77,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "label": null,
+                "key": "x",
+                "index": 29
+              }
+            ],
+            "skewY": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "label": null,
+                "key": "skewY",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "label": null,
+                "key": "skewY",
+                "index": 11
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "label": null,
+                "key": "skewY",
+                "index": 28
+              },
+              {
+                "value": -2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "label": null,
+                "key": "skewY",
+                "index": 49
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "label": null,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "label": null,
+                "key": "scaleX",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "label": null,
+                "key": "scaleX",
+                "index": 28
+              },
+              {
+                "value": 0.2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "label": null,
+                "key": "scaleX",
+                "index": 49
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "label": null,
+                "key": "scaleX",
+                "index": 53
+              }
+            ],
+            "pivotY": [
+              {
+                "value": 1613,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "label": null,
+                "key": "pivotY",
+                "index": 0
+              },
+              {
+                "value": 1613,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "label": null,
+                "key": "pivotY",
+                "index": 11
+              },
+              {
+                "value": 1613,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "label": null,
+                "key": "pivotY",
+                "index": 28
+              },
+              {
+                "value": 807,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "label": null,
+                "key": "pivotY",
+                "index": 29
+              }
+            ],
+            "pivotX": [
+              {
+                "value": 451,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "label": null,
+                "key": "pivotX",
+                "index": 0
+              },
+              {
+                "value": 451,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "label": null,
+                "key": "pivotX",
+                "index": 11
+              },
+              {
+                "value": 451,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "label": null,
+                "key": "pivotX",
+                "index": 28
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "label": null,
+                "key": "pivotX",
+                "index": 29
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "label": null,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "label": null,
+                "key": "alpha",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "label": null,
+                "key": "alpha",
+                "index": 28
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "label": null,
+                "key": "alpha",
+                "index": 29
+              }
+            ]
+          }
+        },
+        {
+          "target": 33,
+          "keyframes": {
+            "y": [
+              {
+                "value": 1633.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "label": null,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 1633.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "label": null,
+                "key": "y",
+                "index": 11
+              },
+              {
+                "value": 1633.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "label": null,
+                "key": "y",
+                "index": 28
+              },
+              {
+                "value": 827,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "label": null,
+                "key": "y",
+                "index": 29
+              }
+            ],
+            "skewY": [
+              {
+                "value": 180,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "label": null,
+                "key": "skewY",
+                "index": 0
+              },
+              {
+                "value": 180,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "label": null,
+                "key": "skewY",
+                "index": 11
+              },
+              {
+                "value": 180,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "label": null,
+                "key": "skewY",
+                "index": 28
+              },
+              {
+                "value": 182,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "label": null,
+                "key": "skewY",
+                "index": 49
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "label": null,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "label": null,
+                "key": "scaleX",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "label": null,
+                "key": "scaleX",
+                "index": 28
+              },
+              {
+                "value": 0.2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "label": null,
+                "key": "scaleX",
+                "index": 49
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "label": null,
+                "key": "scaleX",
+                "index": 53
+              }
+            ],
+            "pivotY": [
+              {
+                "value": 1613,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "label": null,
+                "key": "pivotY",
+                "index": 0
+              },
+              {
+                "value": 1613,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "label": null,
+                "key": "pivotY",
+                "index": 11
+              },
+              {
+                "value": 1613,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "label": null,
+                "key": "pivotY",
+                "index": 28
+              },
+              {
+                "value": 807,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "label": null,
+                "key": "pivotY",
+                "index": 29
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "label": null,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "label": null,
+                "key": "alpha",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "label": null,
+                "key": "alpha",
+                "index": 28
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "label": null,
+                "key": "alpha",
+                "index": 29
+              }
+            ]
+          }
+        },
+        {
+          "target": 50,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 50,
+                "label": null,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 50,
+                "label": null,
+                "key": "visible",
+                "index": 11
+              }
+            ]
+          }
+        },
+        {
+          "target": 49,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 49,
+                "label": null,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 49,
+                "label": null,
+                "key": "visible",
+                "index": 11
+              }
+            ]
+          }
+        },
+        {
+          "target": 42,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 42,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 42,
+                "key": "visible",
+                "index": 3
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 42,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 42,
+                "key": "scaleY",
+                "index": 3
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 42,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 42,
+                "key": "alpha",
+                "index": 3
+              }
+            ]
+          }
+        }
+      ],
+      "name": "DoorOpen",
+      "id": 1,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 42,
+          "keyframes": {
+            "y": [
+              {
+                "value": 1035.9286821705424,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 42,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 1043.1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 42,
+                "key": "y",
+                "index": 11
+              }
+            ],
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 42,
+                "key": "visible",
+                "index": 0
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 0.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 42,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 42,
+                "key": "scaleY",
+                "index": 3
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0.4,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 42,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 42,
+                "key": "alpha",
+                "index": 3
+              }
+            ]
+          }
+        },
+        {
+          "target": 45,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 45,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 45,
+                "key": "alpha",
+                "index": 4
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 45,
+                "key": "alpha",
+                "index": 9
+              }
+            ]
+          }
+        },
+        {
+          "target": 46,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 46,
+                "key": "visible",
+                "index": 0
+              }
+            ],
+            "text": [
+              {
+                "value": "我",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 46,
+                "key": "text",
+                "index": 0
+              }
+            ]
+          }
+        },
+        {
+          "target": 47,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 47,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 47,
+                "key": "visible",
+                "index": 10
+              }
+            ]
+          }
+        }
+      ],
+      "name": "showPlayerDialog",
+      "id": 1,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 42,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 42,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 42,
+                "key": "visible",
+                "index": 3
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 42,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 42,
+                "key": "scaleY",
+                "index": 3
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 42,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 42,
+                "key": "alpha",
+                "index": 3
+              }
+            ]
+          }
+        }
+      ],
+      "name": "closePlayerDialog",
+      "id": 1,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 63,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 63,
+                "key": "visible",
+                "index": 0
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 0.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 63,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 63,
+                "key": "scaleY",
+                "index": 5
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0.4,
+                "tweenMethod": "quadIn",
+                "tween": true,
+                "target": 63,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 63,
+                "key": "alpha",
+                "index": 5
+              }
+            ]
+          }
+        }
+      ],
+      "name": "showBeautyDialog",
+      "id": 3,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 63,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 63,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 63,
+                "key": "visible",
+                "index": 4
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 63,
+                "label": null,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 63,
+                "label": null,
+                "key": "scaleY",
+                "index": 4
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 63,
+                "label": null,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 63,
+                "label": null,
+                "key": "alpha",
+                "index": 4
+              }
+            ]
+          }
+        }
+      ],
+      "name": "closeBeautyDialog",
+      "id": 3,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 62,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 62,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 62,
+                "label": null,
+                "key": "visible",
+                "index": 6
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 62,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 62,
+                "label": null,
+                "key": "alpha",
+                "index": 6
+              }
+            ]
+          }
+        },
+        {
+          "target": 29,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 29,
+                "key": "visible",
+                "index": 0
+              }
+            ]
+          }
+        },
+        {
+          "target": 61,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "key": "alpha",
+                "index": 0
+              }
+            ]
+          }
+        }
+      ],
+      "name": "talkStartAni",
+      "id": 3,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 62,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 62,
+                "label": null,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 62,
+                "label": null,
+                "key": "visible",
+                "index": 5
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 62,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 62,
+                "key": "alpha",
+                "index": 5
+              }
+            ]
+          }
+        },
+        {
+          "target": 29,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 29,
+                "key": "visible",
+                "index": 0
+              }
+            ]
+          }
+        },
+        {
+          "target": 61,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "key": "alpha",
+                "index": 5
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 61,
+                "label": null,
+                "key": "alpha",
+                "index": 10
+              }
+            ]
+          }
+        }
+      ],
+      "name": "talkEndAni",
+      "id": 3,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 78,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 78,
+                "key": "visible",
+                "index": 0
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 0.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 78,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 78,
+                "key": "scaleY",
+                "index": 5
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0.4,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 78,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 78,
+                "key": "alpha",
+                "index": 5
+              }
+            ]
+          }
+        }
+      ],
+      "name": "showNarDialog",
+      "id": 5,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 78,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 78,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 78,
+                "key": "visible",
+                "index": 5
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 78,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 78,
+                "key": "scaleY",
+                "index": 5
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 78,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 78,
+                "key": "alpha",
+                "index": 5
+              }
+            ]
+          }
+        }
+      ],
+      "name": "closeNarDialog",
+      "id": 5,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 29,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 29,
+                "label": null,
+                "key": "visible",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 29,
+                "key": "alpha",
+                "index": 0
+              }
+            ]
+          }
+        },
+        {
+          "target": 30,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 30,
+                "label": null,
+                "key": "visible",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 30,
+                "key": "alpha",
+                "index": 0
+              }
+            ]
+          }
+        },
+        {
+          "target": 36,
+          "keyframes": {
+            "y": [
+              {
+                "value": 1346.4487654320988,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 1346.9,
+                "tweenMethod": "quadIn",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "y",
+                "index": 17
+              },
+              {
+                "value": 1346.85,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "y",
+                "index": 20
+              },
+              {
+                "value": 1346.85,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "y",
+                "index": 21
+              },
+              {
+                "value": 1346.9,
+                "tweenMethod": "quadIn",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "y",
+                "index": 22
+              }
+            ],
+            "x": [
+              {
+                "value": 862.0878306878307,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 872.85,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "x",
+                "index": 17
+              },
+              {
+                "value": 868.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "x",
+                "index": 20
+              },
+              {
+                "value": 868.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "x",
+                "index": 21
+              },
+              {
+                "value": 868.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "x",
+                "index": 22
+              }
+            ],
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 36,
+                "label": null,
+                "key": "visible",
+                "index": 0
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "scaleY",
+                "index": 22
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "scaleX",
+                "index": 22
+              }
+            ],
+            "rotation": [
+              {
+                "value": 28.91156462585034,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "rotation",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "quartInOut",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "rotation",
+                "index": 17
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "rotation",
+                "index": 20
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "rotation",
+                "index": 21
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 36,
+                "label": null,
+                "key": "rotation",
+                "index": 22
+              }
+            ]
+          }
+        },
+        {
+          "target": 50,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 50,
+                "label": null,
+                "key": "visible",
+                "index": 0
+              }
+            ]
+          }
+        },
+        {
+          "target": 83,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 83,
+                "key": "visible",
+                "index": 0
+              }
+            ]
+          }
+        }
+      ],
+      "name": "HandsAppear",
+      "id": 1,
+      "frameRate": 30,
+      "action": 0
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

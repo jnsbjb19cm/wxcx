@@ -1,0 +1,160 @@
+{
+  "type": "View",
+  "props": {
+    "width": 120,
+    "height": 120
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 120,
+        "visible": false,
+        "var": "bg",
+        "skin": "res_common/equip_slot_empty.png",
+        "height": 120
+      },
+      "compId": 7
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 120,
+        "var": "qualityImg",
+        "skin": "res_common/equip_slot_blue.png",
+        "height": 120
+      },
+      "compId": 5
+    },
+    {
+      "type": "Image",
+      "props": {
+        "width": 120,
+        "var": "img",
+        "height": 120,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 3
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 5,
+        "x": 4,
+        "visible": false,
+        "var": "firstIcon",
+        "text": "label",
+        "skin": "res_view/workshop/label_xin.png"
+      },
+      "compId": 9
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 110,
+        "visible": false,
+        "var": "isGetIcon",
+        "height": 110,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 13,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "top": 0,
+            "skin": "res_common/bg.png",
+            "right": 0,
+            "left": 0,
+            "bottom": 0,
+            "alpha": 0.3
+          },
+          "compId": 12
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 12,
+            "x": 10,
+            "width": 89.6,
+            "skin": "res_common/btn_common_check.png",
+            "height": 85.4
+          },
+          "compId": 8
+        }
+      ]
+    },
+    {
+      "type": "Sprite",
+      "props": {
+        "y": 0,
+        "x": 87,
+        "visible": false,
+        "var": "redPoint",
+        "texture": "main/redpoint.png"
+      },
+      "compId": 10
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 91,
+        "x": 54,
+        "width": 58,
+        "skin": "res_common/main_shuzi.png",
+        "sizeGrid": "4,0,4,0",
+        "height": 20
+      },
+      "compId": 16
+    },
+    {
+      "type": "FontClip",
+      "props": {
+        "y": 82,
+        "var": "numLab",
+        "value": "1000",
+        "text": "5",
+        "strokeColor": "#000000",
+        "stroke": 1,
+        "spaceX": -13,
+        "skin": "res_common/number/num_42_wryh_ffffff_stk_3.png",
+        "sheet": "0123456789",
+        "scaleY": 0.57,
+        "scaleX": 0.57,
+        "right": 18,
+        "fontSize": 24,
+        "font": "SimHei",
+        "color": "#ffffff"
+      },
+      "compId": 17
+    },
+    {
+      "type": "FontClip",
+      "props": {
+        "y": 86,
+        "x": 37,
+        "width": 68,
+        "visible": false,
+        "value": "5",
+        "presetID": 1,
+        "name": "numLab",
+        "height": 23,
+        "align": "right",
+        "spaceX": -5,
+        "skin": "res_common/number/num_24_rhrc_f1efe0.png",
+        "sheet": "0123456789+-*/:.",
+        "isPresetRoot": true
+      },
+      "compId": 11
+    }
+  ],
+  "loadList": ["main/redpoint.png", "prefab/num24_rhrc.prefab"],
+  "loadList3D": []
+}
