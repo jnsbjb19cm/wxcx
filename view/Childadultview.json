@@ -1,0 +1,1545 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "var": "contentBox",
+        "centerY": -29,
+        "centerX": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "x": 0,
+            "width": 755,
+            "visible": true,
+            "var": "chengnian",
+            "height": 1283,
+            "centerY": 3
+          },
+          "compId": 4,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "width": 752,
+                "skin": "res_view/children/bg.png",
+                "sizeGrid": "1233,0,22,0",
+                "name": "bg",
+                "height": 1335,
+                "centerX": -4
+              },
+              "compId": 24
+            },
+            {
+              "type": "Image",
+              "props": {
+                "x": -17,
+                "width": 786,
+                "skin": "res_common/bg.png",
+                "height": 1576,
+                "centerY": 140,
+                "alpha": 0.6
+              },
+              "compId": 27
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": -91,
+                "x": -2,
+                "var": "cn_spine"
+              },
+              "compId": 5
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 985,
+                "x": 68,
+                "width": 615,
+                "var": "cn_bg",
+                "skin": "res_view/children/bg_cncg.png",
+                "height": 135
+              },
+              "compId": 6
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 10,
+                "x": 123.5,
+                "var": "gycg",
+                "skin": "res_view/children/title_gycg.png"
+              },
+              "compId": 7
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 993,
+                "x": 237,
+                "var": "child_name",
+                "skin": "res_view/children/line_character_srectangle01.png"
+              },
+              "compId": 8,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 9,
+                    "x": 55,
+                    "width": 151,
+                    "var": "cn_name",
+                    "valign": "middle",
+                    "text": "名字最多六字",
+                    "height": 25,
+                    "fontSize": 24,
+                    "font": "Microsoft YaHei",
+                    "color": "#d1bea6",
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 9
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 183,
+                "x": 91,
+                "visible": false,
+                "var": "cn_quality",
+                "skin": "res_view/children/icon_jimin.png"
+              },
+              "compId": 21
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 984,
+                "x": 100,
+                "var": "type_1"
+              },
+              "compId": 30,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "width": 49,
+                    "visible": false,
+                    "var": "cn_fc",
+                    "text": "父承：",
+                    "height": 30,
+                    "fontSize": 23,
+                    "font": "Microsoft YaHei",
+                    "color": "#d1bea6",
+                    "bold": true
+                  },
+                  "compId": 10,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 0,
+                        "x": 66,
+                        "width": 49,
+                        "var": "cun_fc_name",
+                        "text": "最多五个字",
+                        "height": 30,
+                        "fontSize": 23,
+                        "font": "Microsoft YaHei",
+                        "color": "#d1bea6",
+                        "bold": true
+                      },
+                      "compId": 11
+                    }
+                  ]
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "x": 282,
+                    "width": 49,
+                    "visible": false,
+                    "var": "cn_age",
+                    "text": "年龄:",
+                    "height": 30,
+                    "fontSize": 23,
+                    "font": "Microsoft YaHei",
+                    "color": "#d1bea6",
+                    "bold": true
+                  },
+                  "compId": 12,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 0,
+                        "x": 66,
+                        "width": 49,
+                        "var": "cn_age_text",
+                        "text": "16",
+                        "height": 30,
+                        "fontSize": 23,
+                        "font": "Microsoft YaHei",
+                        "color": "#d1bea6",
+                        "bold": true
+                      },
+                      "compId": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 82,
+                    "x": 59,
+                    "width": 49,
+                    "var": "cn_gdjc",
+                    "height": 30,
+                    "fontSize": 23,
+                    "font": "Microsoft YaHei",
+                    "color": "#d1bea6",
+                    "bold": true
+                  },
+                  "compId": 14,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -17,
+                        "x": -46,
+                        "width": 52,
+                        "skin": "res_view/platformFeatures/concern/icon_gongde.png",
+                        "height": 52
+                      },
+                      "compId": 15
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 0,
+                        "x": 11,
+                        "width": 49,
+                        "var": "cn_gdjc_num",
+                        "text": "+1785",
+                        "height": 30,
+                        "fontSize": 23,
+                        "font": "Microsoft YaHei",
+                        "color": "#d1bea6",
+                        "bold": true
+                      },
+                      "compId": 16
+                    }
+                  ]
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 81,
+                    "x": 337,
+                    "width": 49,
+                    "var": "cn_work",
+                    "height": 30,
+                    "fontSize": 23,
+                    "font": "Microsoft YaHei",
+                    "color": "#d1bea6",
+                    "bold": true
+                  },
+                  "compId": 17,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 0,
+                        "x": 4,
+                        "width": 49,
+                        "var": "cn_wor_text",
+                        "text": "xx属性: +5",
+                        "height": 30,
+                        "fontSize": 23,
+                        "font": "Microsoft YaHei",
+                        "color": "#d1bea6",
+                        "bold": true
+                      },
+                      "compId": 18
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -6,
+                        "x": -38,
+                        "width": 34,
+                        "var": "cn_wor_img",
+                        "skin": "netRes/icon/traitIcon/icon_jb_ck.png",
+                        "height": 34
+                      },
+                      "compId": 20
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 1050,
+                "x": 91,
+                "var": "type_2"
+              },
+              "compId": 31,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "width": 49,
+                    "visible": false,
+                    "var": "playername",
+                    "text": "玩家姓名：",
+                    "height": 30,
+                    "fontSize": 23,
+                    "font": "Microsoft YaHei",
+                    "color": "#d1bea6",
+                    "bold": true
+                  },
+                  "compId": 34,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 0,
+                        "x": 108,
+                        "width": 49,
+                        "var": "p_n_text",
+                        "text": "玩家名",
+                        "height": 30,
+                        "fontSize": 23,
+                        "font": "Microsoft YaHei",
+                        "color": "#d1bea6",
+                        "bold": true
+                      },
+                      "compId": 35
+                    }
+                  ]
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "x": 282,
+                    "width": 49,
+                    "visible": false,
+                    "var": "fucheng",
+                    "text": "父承：",
+                    "height": 30,
+                    "fontSize": 23,
+                    "font": "Microsoft YaHei",
+                    "color": "#d1bea6",
+                    "bold": true
+                  },
+                  "compId": 32,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 0,
+                        "x": 66,
+                        "width": 49,
+                        "var": "fucheng_text",
+                        "text": "最多五个字",
+                        "height": 30,
+                        "fontSize": 23,
+                        "font": "Microsoft YaHei",
+                        "color": "#d1bea6",
+                        "bold": true
+                      },
+                      "compId": 33
+                    }
+                  ]
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 15,
+                    "x": 68,
+                    "width": 49,
+                    "var": "gdadd",
+                    "height": 30,
+                    "fontSize": 23,
+                    "font": "Microsoft YaHei",
+                    "color": "#d1bea6",
+                    "bold": true
+                  },
+                  "compId": 36,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -17,
+                        "x": -46,
+                        "width": 52,
+                        "skin": "res_view/platformFeatures/concern/icon_gongde.png",
+                        "height": 52
+                      },
+                      "compId": 37
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 0,
+                        "x": 8,
+                        "width": 49,
+                        "var": "gdaddnum",
+                        "text": "+1785",
+                        "height": 30,
+                        "fontSize": 23,
+                        "font": "Microsoft YaHei",
+                        "color": "#d1bea6",
+                        "bold": true
+                      },
+                      "compId": 38
+                    }
+                  ]
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 15,
+                    "x": 347,
+                    "width": 49,
+                    "var": "work",
+                    "height": 30,
+                    "fontSize": 23,
+                    "font": "Microsoft YaHei",
+                    "color": "#d1bea6",
+                    "bold": true
+                  },
+                  "compId": 39,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 0,
+                        "x": 4,
+                        "width": 49,
+                        "var": "work_text",
+                        "text": "xx属性: +5",
+                        "height": 30,
+                        "fontSize": 23,
+                        "font": "Microsoft YaHei",
+                        "color": "#d1bea6",
+                        "bold": true
+                      },
+                      "compId": 40
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -6,
+                        "x": -38,
+                        "width": 34,
+                        "var": "work_img",
+                        "skin": "netRes/icon/traitIcon/icon_jb_ck.png",
+                        "height": 34
+                      },
+                      "compId": 41
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -112,
+                    "x": -28,
+                    "skin": "res_view/children/bg_travel_title.png"
+                  },
+                  "compId": 143,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 8,
+                        "x": 103,
+                        "text": "玩家：我是你的亲家",
+                        "skin": "res_view/children/text_mrhgdyxznjc.png",
+                        "fontSize": 24,
+                        "font": "Microsoft YaHei",
+                        "color": "#d1bea6",
+                        "align": "center"
+                      },
+                      "compId": 145
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 984,
+                "x": 103,
+                "visible": false,
+                "var": "type_3"
+              },
+              "compId": 46,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "width": 49,
+                    "visible": false,
+                    "var": "beauty",
+                    "text": "美人：",
+                    "height": 30,
+                    "fontSize": 23,
+                    "font": "Microsoft YaHei",
+                    "color": "#d1bea6",
+                    "bold": true
+                  },
+                  "compId": 47,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 0,
+                        "x": 63,
+                        "width": 49,
+                        "var": "beautyname",
+                        "text": "玩家名",
+                        "height": 30,
+                        "fontSize": 23,
+                        "font": "Microsoft YaHei",
+                        "color": "#d1bea6",
+                        "bold": true
+                      },
+                      "compId": 48
+                    }
+                  ]
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "x": 282,
+                    "width": 49,
+                    "visible": false,
+                    "var": "beautylove",
+                    "text": "美人好感度：",
+                    "height": 30,
+                    "fontSize": 23,
+                    "font": "Microsoft YaHei",
+                    "color": "#d1bea6",
+                    "bold": true
+                  },
+                  "compId": 49,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 0,
+                        "x": 131,
+                        "width": 49,
+                        "var": "lovenum",
+                        "text": "100",
+                        "height": 30,
+                        "fontSize": 23,
+                        "font": "Microsoft YaHei",
+                        "color": "#d1bea6",
+                        "bold": true
+                      },
+                      "compId": 50
+                    }
+                  ]
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 80,
+                    "x": 49,
+                    "width": 49,
+                    "var": "gd_3",
+                    "height": 30,
+                    "fontSize": 23,
+                    "font": "Microsoft YaHei",
+                    "color": "#d1bea6",
+                    "bold": true
+                  },
+                  "compId": 51,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -17,
+                        "x": -46,
+                        "width": 52,
+                        "skin": "res_view/platformFeatures/concern/icon_gongde.png",
+                        "height": 52
+                      },
+                      "compId": 52
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 0,
+                        "x": 8,
+                        "width": 49,
+                        "var": "gd_num_3",
+                        "text": "+1785",
+                        "height": 30,
+                        "fontSize": 23,
+                        "font": "Microsoft YaHei",
+                        "color": "#d1bea6",
+                        "bold": true
+                      },
+                      "compId": 53
+                    }
+                  ]
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 80,
+                    "x": 348,
+                    "width": 49,
+                    "var": "work_3",
+                    "height": 30,
+                    "fontSize": 23,
+                    "font": "Microsoft YaHei",
+                    "color": "#d1bea6",
+                    "bold": true
+                  },
+                  "compId": 54,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 0,
+                        "x": 4,
+                        "width": 49,
+                        "var": "work_text_3",
+                        "text": "xx属性: +5",
+                        "height": 30,
+                        "fontSize": 23,
+                        "font": "Microsoft YaHei",
+                        "color": "#d1bea6",
+                        "bold": true
+                      },
+                      "compId": 55
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -6,
+                        "x": -38,
+                        "width": 34,
+                        "var": "work_img_3",
+                        "skin": "netRes/icon/traitIcon/icon_jb_ck.png",
+                        "height": 34
+                      },
+                      "compId": 56
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -48,
+                    "x": -41,
+                    "skin": "res_view/children/bg_travel_title.png"
+                  },
+                  "compId": 57,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 8,
+                        "x": 97.5,
+                        "skin": "res_view/children/text_mrhgdyxznjc.png"
+                      },
+                      "compId": 58
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 734,
+                "x": 14,
+                "width": 715,
+                "visible": false,
+                "var": "type_4",
+                "height": 418
+              },
+              "compId": 83,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 3,
+                    "x": 13,
+                    "skin": "res_view/lianyin/tips_jfxxqltsxx.png"
+                  },
+                  "compId": 84
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 227,
+                    "x": 126,
+                    "width": 49,
+                    "var": "t_4_gd",
+                    "height": 30,
+                    "fontSize": 23,
+                    "font": "Microsoft YaHei",
+                    "color": "#d1bea6",
+                    "bold": true
+                  },
+                  "compId": 85,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -17,
+                        "x": -46,
+                        "width": 52,
+                        "skin": "res_view/platformFeatures/concern/icon_gongde.png",
+                        "height": 52
+                      },
+                      "compId": 87
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 0,
+                        "x": 8,
+                        "width": 49,
+                        "var": "t_4_gdnum",
+                        "text": "+1785",
+                        "height": 30,
+                        "fontSize": 23,
+                        "font": "Microsoft YaHei",
+                        "color": "#d1bea6",
+                        "bold": true
+                      },
+                      "compId": 88
+                    }
+                  ]
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 227,
+                    "x": 405,
+                    "width": 49,
+                    "var": "t_4_work",
+                    "height": 30,
+                    "fontSize": 23,
+                    "font": "Microsoft YaHei",
+                    "color": "#d1bea6",
+                    "bold": true
+                  },
+                  "compId": 86,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 0,
+                        "x": 4,
+                        "width": 49,
+                        "var": "t_4_worknum",
+                        "text": "xx属性: +5",
+                        "height": 30,
+                        "fontSize": 23,
+                        "font": "Microsoft YaHei",
+                        "color": "#d1bea6",
+                        "bold": true
+                      },
+                      "compId": 89
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -6,
+                        "x": -38,
+                        "width": 34,
+                        "var": "t_4_work_img",
+                        "skin": "netRes/icon/traitIcon/icon_jb_ck.png",
+                        "height": 34
+                      },
+                      "compId": 90
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 305,
+                    "x": 88,
+                    "skin": "res_view/lianyin/text_eyts.png"
+                  },
+                  "compId": 97
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 360,
+                    "x": 126,
+                    "width": 49,
+                    "var": "t_4_gd_ey",
+                    "height": 30,
+                    "fontSize": 23,
+                    "font": "Microsoft YaHei",
+                    "color": "#d1bea6",
+                    "bold": true
+                  },
+                  "compId": 91,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -17,
+                        "x": -46,
+                        "width": 52,
+                        "skin": "res_view/platformFeatures/concern/icon_gongde.png",
+                        "height": 52
+                      },
+                      "compId": 93
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 0,
+                        "x": 8,
+                        "width": 49,
+                        "var": "t_4_gd_ey_num",
+                        "text": "+1785",
+                        "height": 30,
+                        "fontSize": 23,
+                        "font": "Microsoft YaHei",
+                        "color": "#d1bea6",
+                        "bold": true
+                      },
+                      "compId": 94
+                    }
+                  ]
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 360,
+                    "x": 406,
+                    "width": 49,
+                    "var": "t_4_work_ey",
+                    "height": 30,
+                    "fontSize": 23,
+                    "font": "Microsoft YaHei",
+                    "color": "#d1bea6",
+                    "bold": true
+                  },
+                  "compId": 92,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 0,
+                        "x": 4,
+                        "width": 49,
+                        "var": "t_4_work_ey_num",
+                        "text": "xx属性: +5",
+                        "height": 30,
+                        "fontSize": 23,
+                        "font": "Microsoft YaHei",
+                        "color": "#d1bea6",
+                        "bold": true
+                      },
+                      "compId": 95
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -6,
+                        "x": -38,
+                        "width": 34,
+                        "var": "t_4_work_ey_img",
+                        "skin": "netRes/icon/traitIcon/icon_jb_ck.png",
+                        "height": 34
+                      },
+                      "compId": 96
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 1050,
+                "x": 91,
+                "visible": false,
+                "var": "type_5"
+              },
+              "compId": 98,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": -44,
+                    "x": 0,
+                    "width": 49,
+                    "visible": false,
+                    "var": "t_5p_n",
+                    "text": "玩家姓名：",
+                    "height": 30,
+                    "fontSize": 23,
+                    "font": "Microsoft YaHei",
+                    "color": "#d1bea6",
+                    "bold": true
+                  },
+                  "compId": 99,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 0,
+                        "x": 108,
+                        "width": 49,
+                        "var": "t_5p_name",
+                        "text": "玩家名",
+                        "height": 30,
+                        "fontSize": 23,
+                        "font": "Microsoft YaHei",
+                        "color": "#d1bea6",
+                        "bold": true
+                      },
+                      "compId": 100
+                    }
+                  ]
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": -44,
+                    "x": 281,
+                    "width": 49,
+                    "visible": false,
+                    "var": "t_5fc",
+                    "text": "父承：",
+                    "height": 30,
+                    "fontSize": 23,
+                    "font": "Microsoft YaHei",
+                    "color": "#d1bea6",
+                    "bold": true
+                  },
+                  "compId": 101,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 0,
+                        "x": 66,
+                        "width": 49,
+                        "var": "t_5fcname",
+                        "text": "最多五个字",
+                        "height": 30,
+                        "fontSize": 23,
+                        "font": "Microsoft YaHei",
+                        "color": "#d1bea6",
+                        "bold": true
+                      },
+                      "compId": 102
+                    }
+                  ]
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": -5,
+                    "x": 39,
+                    "width": 49,
+                    "var": "t_5gd",
+                    "height": 30,
+                    "fontSize": 23,
+                    "font": "Microsoft YaHei",
+                    "color": "#d1bea6",
+                    "bold": true
+                  },
+                  "compId": 103,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -17,
+                        "x": -46,
+                        "width": 52,
+                        "skin": "res_view/platformFeatures/concern/icon_gongde.png",
+                        "height": 52
+                      },
+                      "compId": 104
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 0,
+                        "x": 8,
+                        "width": 49,
+                        "var": "t_5gdnum",
+                        "text": "+1785",
+                        "height": 30,
+                        "fontSize": 23,
+                        "font": "Microsoft YaHei",
+                        "color": "#d1bea6",
+                        "bold": true
+                      },
+                      "compId": 105
+                    }
+                  ]
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": -5,
+                    "x": 317,
+                    "width": 49,
+                    "var": "t_5work",
+                    "height": 30,
+                    "fontSize": 23,
+                    "font": "Microsoft YaHei",
+                    "color": "#d1bea6",
+                    "bold": true
+                  },
+                  "compId": 106,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 0,
+                        "x": 4,
+                        "width": 49,
+                        "var": "t_5work_attr",
+                        "text": "xx属性: +5",
+                        "height": 30,
+                        "fontSize": 23,
+                        "font": "Microsoft YaHei",
+                        "color": "#d1bea6",
+                        "bold": true
+                      },
+                      "compId": 107
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -6,
+                        "x": -38,
+                        "width": 34,
+                        "var": "t_5work_img",
+                        "skin": "netRes/icon/traitIcon/icon_jb_ck.png",
+                        "height": 34
+                      },
+                      "compId": 108
+                    }
+                  ]
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 36,
+                    "x": 285,
+                    "width": 49,
+                    "var": "t_5mingd",
+                    "text": "最低功德：",
+                    "height": 30,
+                    "fontSize": 23,
+                    "font": "Microsoft YaHei",
+                    "color": "#d1bea6",
+                    "bold": true
+                  },
+                  "compId": 112
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -107.5,
+                    "x": 55,
+                    "skin": "res_view/lianyin/panel_name.png"
+                  },
+                  "compId": 140,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 5,
+                        "x": 108,
+                        "width": 234,
+                        "var": "wanjai_name",
+                        "text": "玩家：我是你的亲家",
+                        "height": 24,
+                        "fontSize": 24,
+                        "font": "Microsoft YaHei",
+                        "color": "#d1bea6",
+                        "align": "center"
+                      },
+                      "compId": 142
+                    }
+                  ]
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": -101,
+                    "x": 396,
+                    "visible": false,
+                    "var": "fu",
+                    "text": "[A2]服",
+                    "fontSize": 20,
+                    "font": "Microsoft YaHei",
+                    "color": "#ff0900"
+                  },
+                  "compId": 141
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 1050,
+                "x": 91,
+                "var": "type_6"
+              },
+              "compId": 128,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 15,
+                    "x": 68,
+                    "width": 49,
+                    "var": "t_6_gd",
+                    "height": 30,
+                    "fontSize": 23,
+                    "font": "Microsoft YaHei",
+                    "color": "#d1bea6",
+                    "bold": true
+                  },
+                  "compId": 129,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -17,
+                        "x": -46,
+                        "width": 52,
+                        "skin": "res_view/platformFeatures/concern/icon_gongde.png",
+                        "height": 52
+                      },
+                      "compId": 130
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 0,
+                        "x": 8,
+                        "width": 49,
+                        "var": "t_6_gdnum",
+                        "text": "+1785",
+                        "height": 30,
+                        "fontSize": 23,
+                        "font": "Microsoft YaHei",
+                        "color": "#d1bea6",
+                        "bold": true
+                      },
+                      "compId": 131
+                    }
+                  ]
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 15,
+                    "x": 347,
+                    "width": 49,
+                    "var": "t_6_work",
+                    "height": 30,
+                    "fontSize": 23,
+                    "font": "Microsoft YaHei",
+                    "color": "#d1bea6",
+                    "bold": true
+                  },
+                  "compId": 132,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 0,
+                        "x": 4,
+                        "width": 49,
+                        "var": "t_6_worktext",
+                        "text": "xx属性: +5",
+                        "height": 30,
+                        "fontSize": 23,
+                        "font": "Microsoft YaHei",
+                        "color": "#d1bea6",
+                        "bold": true
+                      },
+                      "compId": 133
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -6,
+                        "x": -38,
+                        "width": 34,
+                        "var": "t_6_work_img",
+                        "skin": "netRes/icon/traitIcon/icon_jb_ck.png",
+                        "height": 34
+                      },
+                      "compId": 134
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 1050,
+                "x": 91,
+                "var": "type_7"
+              },
+              "compId": 115,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 15,
+                    "x": 68,
+                    "width": 49,
+                    "var": "t_7_gd",
+                    "height": 30,
+                    "fontSize": 23,
+                    "font": "Microsoft YaHei",
+                    "color": "#d1bea6",
+                    "bold": true
+                  },
+                  "compId": 120,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -17,
+                        "x": -46,
+                        "width": 52,
+                        "skin": "res_view/platformFeatures/concern/icon_gongde.png",
+                        "height": 52
+                      },
+                      "compId": 121
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 0,
+                        "x": 8,
+                        "width": 49,
+                        "var": "t_7_gdnum",
+                        "text": "+1785",
+                        "height": 30,
+                        "fontSize": 23,
+                        "font": "Microsoft YaHei",
+                        "color": "#d1bea6",
+                        "bold": true
+                      },
+                      "compId": 122
+                    }
+                  ]
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 15,
+                    "x": 347,
+                    "width": 49,
+                    "var": "t_7_work",
+                    "height": 30,
+                    "fontSize": 23,
+                    "font": "Microsoft YaHei",
+                    "color": "#d1bea6",
+                    "bold": true
+                  },
+                  "compId": 123,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 0,
+                        "x": 4,
+                        "width": 49,
+                        "var": "t_7_worktext",
+                        "text": "xx属性: +5",
+                        "height": 30,
+                        "fontSize": 23,
+                        "font": "Microsoft YaHei",
+                        "color": "#d1bea6",
+                        "bold": true
+                      },
+                      "compId": 124
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -6,
+                        "x": -38,
+                        "width": 34,
+                        "var": "t_7_work_img",
+                        "skin": "netRes/icon/traitIcon/icon_jb_ck.png",
+                        "height": 34
+                      },
+                      "compId": 125
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -112,
+                    "x": -28,
+                    "skin": "res_view/children/bg_travel_title.png"
+                  },
+                  "compId": 135,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 10,
+                        "x": 211,
+                        "width": 182,
+                        "visible": true,
+                        "var": "target_n",
+                        "text": "玩家姓名：",
+                        "height": 30,
+                        "fontSize": 23,
+                        "font": "Microsoft YaHei",
+                        "color": "#ffffff",
+                        "bold": true
+                      },
+                      "compId": 137,
+                      "child": [
+                        {
+                          "type": "Label",
+                          "props": {
+                            "y": 0,
+                            "x": 108,
+                            "width": 49,
+                            "var": "target_name",
+                            "text": "玩家名",
+                            "height": 30,
+                            "fontSize": 23,
+                            "font": "Microsoft YaHei",
+                            "color": "#ffffff",
+                            "bold": true
+                          },
+                          "compId": 138
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 1196,
+                "x": 262.5,
+                "width": 211,
+                "var": "cn_qd_btn",
+                "skin": "res_common/btn_yellow.png",
+                "pivotY": 57,
+                "pivotX": 146,
+                "height": 72,
+                "alpha": 1
+              },
+              "compId": 22,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 21,
+                    "x": 53,
+                    "width": 92,
+                    "skin": "netRes/user/text_queding.png",
+                    "scaleY": 1.1,
+                    "scaleX": 1.1,
+                    "height": 31
+                  },
+                  "compId": 23
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 1136,
+                "x": 437,
+                "width": 213,
+                "visible": false,
+                "var": "sharingBtn",
+                "skin": "res_common/btn_blue.png",
+                "height": 74,
+                "alpha": 1
+              },
+              "compId": 42,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "width": 92,
+                    "skin": "res_view/sg/text_fx.png",
+                    "height": 31,
+                    "centerY": 2,
+                    "centerX": -5
+                  },
+                  "compId": 43
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 1196,
+                "x": 417,
+                "width": 211,
+                "var": "fx_qd_btn",
+                "skin": "res_common/btn_yellow.png",
+                "pivotY": 57,
+                "pivotX": 146,
+                "height": 72,
+                "alpha": 1
+              },
+              "compId": 44,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 21,
+                    "x": 53,
+                    "width": 92,
+                    "skin": "netRes/user/text_queding.png",
+                    "scaleY": 1.1,
+                    "scaleX": 1.1,
+                    "height": 31
+                  },
+                  "compId": 45
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 314,
+                "x": 33,
+                "var": "dou_fc",
+                "skin": "res_view/children/text_fq.png"
+              },
+              "compId": 72,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 0,
+                    "x": 74,
+                    "var": "dou_fq_text",
+                    "underlineColor": "#ffffff",
+                    "underline": true,
+                    "text": "凌",
+                    "stroke": 2,
+                    "fontSize": 29,
+                    "font": "SimHei",
+                    "color": "#ffffff",
+                    "bold": true
+                  },
+                  "compId": 74
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 269.5,
+                "x": 33,
+                "var": "dou_quality",
+                "skin": "res_view/children/text_zz.png"
+              },
+              "compId": 73,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 72,
+                    "var": "dou_quality_image",
+                    "skin": "res_view/children/text_py.png"
+                  },
+                  "compId": 75
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "zOrder": 10,
+                "y": 1320,
+                "x": 0,
+                "width": 753,
+                "skin": "loading/panel_buttom.png",
+                "height": 175,
+                "centerX": -1
+              },
+              "compId": 82
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 1136,
+                "x": 437,
+                "width": 213,
+                "visible": false,
+                "var": "sqmayyr_btn",
+                "skin": "res_common/btn_blue.png",
+                "height": 74,
+                "alpha": 1
+              },
+              "compId": 113,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "res_view/lianyin/text_sqly_2.png",
+                    "centerY": 2,
+                    "centerX": -5
+                  },
+                  "compId": 114
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": ["res_view/children/bg.png"],
+  "loadList3D": []
+}

@@ -1,0 +1,82 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": -68,
+        "x": -112,
+        "width": 953,
+        "visible": false,
+        "var": "daoguan",
+        "height": 975
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "y": 424,
+            "x": 427,
+            "width": 200,
+            "var": "handBox",
+            "height": 200
+          },
+          "compId": 4,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 137,
+                "skin": "res_view/guide/text_xiujian.png",
+                "centerX": -1
+              },
+              "compId": 5
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 27,
+                "x": 45,
+                "var": "hand",
+                "skin": "res_view/openPlot/yindao_shouzhi.png"
+              },
+              "compId": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "var": "repairBtnBox",
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 9,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "y": 197,
+            "x": 75,
+            "width": 600,
+            "var": "repairBtn",
+            "height": 400
+          },
+          "compId": 8
+        }
+      ]
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

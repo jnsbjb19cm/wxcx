@@ -1,0 +1,610 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": true,
+    "height": 1344,
+    "drawCallOptimize": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0
+      },
+      "compId": 58
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "var": "contentBox",
+        "mouseThrough": true,
+        "mouseEnabled": true,
+        "height": 961,
+        "centerY": 5,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "List",
+          "props": {
+            "y": 28,
+            "width": 696,
+            "var": "itemList",
+            "spaceY": 13,
+            "spaceX": -8,
+            "repeatY": 3,
+            "repeatX": 4,
+            "height": 593,
+            "drawCallOptimize": true,
+            "centerX": 0
+          },
+          "compId": 117,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "renderType": "render"
+              },
+              "compId": 118,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -22,
+                    "x": 20,
+                    "skin": "res_combat/specialStageView/heiShi/panel_shangpin.png"
+                  },
+                  "compId": 119
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -1,
+                    "x": 20,
+                    "width": 56,
+                    "skin": "res_icon/monsterLvIcon/char_lv1.png",
+                    "scaleY": 0.73,
+                    "scaleX": 0.73,
+                    "name": "lvIcon",
+                    "height": 56
+                  },
+                  "compId": 121
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 138.5,
+                    "x": 31,
+                    "texture": "res_combat/public/icon_gold.png",
+                    "name": "gold"
+                  },
+                  "compId": 166
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 136,
+                    "x": 21,
+                    "visible": false,
+                    "skin": "res_combat/specialStageView/heiShi/img_wcdydjs.png",
+                    "name": "lockTip"
+                  },
+                  "compId": 213
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 140.5,
+                    "x": 57,
+                    "width": 87,
+                    "value": "200",
+                    "spaceX": -5,
+                    "skin": "res_common/number/num_24_ss_fff3df.png",
+                    "sheet": "0123456789",
+                    "name": "price",
+                    "height": 29,
+                    "align": "center"
+                  },
+                  "compId": 133
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "zOrder": 100,
+                    "y": 38,
+                    "x": 19,
+                    "visible": false,
+                    "texture": "res_combat/public/tag_soldout.png",
+                    "name": "beSell"
+                  },
+                  "compId": 129
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 105,
+                    "x": 34,
+                    "visible": false,
+                    "skin": "res_combat/specialStageView/heiShi/text_khc.png",
+                    "name": "upLv"
+                  },
+                  "compId": 217
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 185,
+                    "x": 97,
+                    "visible": false,
+                    "name": "haveNum",
+                    "height": 13,
+                    "anchorY": 1,
+                    "anchorX": 0.5
+                  },
+                  "compId": 218,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "skin": "res_combat/specialStageView/heiShi/text_yy.png"
+                      },
+                      "compId": 219
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": -2,
+                        "x": 32.5,
+                        "valign": "top",
+                        "text": "0",
+                        "name": "haveNum",
+                        "fontSize": 13,
+                        "font": "SimHei",
+                        "color": "#4c3425",
+                        "bold": true,
+                        "align": "center"
+                      },
+                      "compId": 220
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -4,
+                    "x": 138.25390625,
+                    "width": 40,
+                    "visible": false,
+                    "var": "discount",
+                    "skin": "res_combat/specialStageView/heiShi/label_zk.png",
+                    "scaleY": 0.8,
+                    "scaleX": 0.8,
+                    "name": "discount",
+                    "height": 74
+                  },
+                  "compId": 304,
+                  "child": [
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": 4,
+                        "width": 31,
+                        "var": "discount_num",
+                        "value": "5",
+                        "spaceX": -12,
+                        "skin": "res_common/number/num_26_jxzk_ffffff.png",
+                        "sheet": "0123456789/",
+                        "scaleY": 1,
+                        "scaleX": 1,
+                        "name": "discount_num",
+                        "left": 5,
+                        "height": 33,
+                        "align": "left"
+                      },
+                      "compId": 308
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 37,
+                        "x": 8.5,
+                        "skin": "res_combat/specialStageView/heiShi/text_zhe.png",
+                        "name": "img_text"
+                      },
+                      "compId": 306
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 557,
+                "x": 528,
+                "texture": "res_common/solt_price.png"
+              },
+              "compId": 130,
+              "child": [
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 2,
+                    "x": -8,
+                    "texture": "res_common/icon_ad.png"
+                  },
+                  "compId": 205
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 5,
+                    "x": 34,
+                    "texture": "res_combat/specialStageView/heiShi/text_de.png"
+                  },
+                  "compId": 134
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 1,
+                    "x": 56,
+                    "var": "goldLabel",
+                    "value": "500",
+                    "spaceX": -5,
+                    "skin": "res_common/number/num_24_ss_fff3df.png",
+                    "sheet": "0123456789"
+                  },
+                  "compId": 136,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 4,
+                        "skin": "res_combat/specialStageView/heiShi/text_tongqian.png",
+                        "right": -50
+                      },
+                      "compId": 135
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Animation",
+              "props": {
+                "y": 506,
+                "x": 592,
+                "visible": false,
+                "var": "goldAni",
+                "source": "ani/goldFlash.ani"
+              },
+              "compId": 149
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 637,
+            "var": "sellPanel",
+            "skin": "res_combat/specialStageView/heiShi/panel_chushou_2.png",
+            "mouseThrough": true,
+            "centerX": -52,
+            "alpha": 1
+          },
+          "compId": 120,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 14,
+                "x": 559,
+                "var": "BeautyBoxItem",
+                "name": "BeautyBoxItem"
+              },
+              "compId": 253,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -30.10000000000001,
+                    "x": 1,
+                    "width": 153,
+                    "var": "BeautyProfileImg",
+                    "skin": "netRes/beautyProfile/MR-HS-Z.png",
+                    "scaleY": 1,
+                    "scaleX": 1,
+                    "name": "BeautyProfileImg",
+                    "height": 129,
+                    "alpha": 1
+                  },
+                  "compId": 252
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 84.39999999999999,
+                    "x": 36,
+                    "width": 161,
+                    "visible": true,
+                    "var": "lovePro",
+                    "scaleY": 0.5,
+                    "scaleX": 0.5,
+                    "pivotX": 0,
+                    "name": "lovePro",
+                    "height": 29
+                  },
+                  "compId": 293,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -2,
+                        "x": -11,
+                        "width": 228,
+                        "var": "loveBar_empty",
+                        "skin": "res_view/beauty/frame_card_blood02.png",
+                        "name": "loveBar_empty",
+                        "height": 35
+                      },
+                      "compId": 294
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 2,
+                        "x": -7,
+                        "width": 219,
+                        "var": "loveBar",
+                        "skin": "res_view/beauty/frame_card_hgd.png",
+                        "sizeGrid": "0,13,0,8",
+                        "name": "loveBar",
+                        "height": 27
+                      },
+                      "compId": 295
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 6,
+                        "x": 8,
+                        "name": "loveNum"
+                      },
+                      "compId": 296,
+                      "child": [
+                        {
+                          "type": "FontClip",
+                          "props": {
+                            "y": -11,
+                            "x": -38,
+                            "width": 183,
+                            "visible": true,
+                            "var": "FullTxt",
+                            "value": "12",
+                            "spaceY": 0,
+                            "spaceX": -12,
+                            "skin": "res_common/number/num_27_jxzk_ffffff_stk_1_gt.png",
+                            "sheet": "0123456789",
+                            "scaleY": 1.2,
+                            "scaleX": 1.2,
+                            "name": "FullTxt",
+                            "height": 33,
+                            "direction": "horizontal",
+                            "align": "center"
+                          },
+                          "compId": 297
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 0,
+                            "x": 0,
+                            "var": "UnFullTxt",
+                            "name": "UnFullTxt"
+                          },
+                          "compId": 298,
+                          "child": [
+                            {
+                              "type": "FontClip",
+                              "props": {
+                                "y": -12,
+                                "x": -154,
+                                "width": 183,
+                                "visible": true,
+                                "var": "loveTxt",
+                                "value": "12",
+                                "spaceY": 0,
+                                "spaceX": -12,
+                                "skin": "res_common/number/num_27_jxzk_ffffff_stk_1_gt.png",
+                                "sheet": "0123456789",
+                                "scaleY": 1.2,
+                                "scaleX": 1.2,
+                                "name": "loveTxt",
+                                "height": 33,
+                                "direction": "horizontal",
+                                "align": "right"
+                              },
+                              "compId": 299
+                            },
+                            {
+                              "type": "FontClip",
+                              "props": {
+                                "y": -11,
+                                "x": 78,
+                                "var": "loveMax",
+                                "value": "40",
+                                "spaceX": -12,
+                                "skin": "res_common/number/num_27_jxzk_ffffff_stk_1_gt.png",
+                                "sheet": "0123456789",
+                                "scaleY": 1.2,
+                                "scaleX": 1.2,
+                                "name": "loveMax",
+                                "left": 78,
+                                "align": "left"
+                              },
+                              "compId": 300
+                            },
+                            {
+                              "type": "Image",
+                              "props": {
+                                "y": -1,
+                                "x": 76,
+                                "text": "text",
+                                "skin": "res_view/beauty/text_pzh.png",
+                                "scaleY": 1.2,
+                                "scaleX": 1.2,
+                                "name": "img_cut",
+                                "centerX": 83
+                              },
+                              "compId": 301
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Sprite",
+                      "props": {
+                        "y": -25,
+                        "x": -73,
+                        "width": 88,
+                        "texture": "res_common/icon_hgd.png",
+                        "name": "img_heart",
+                        "height": 82
+                      },
+                      "compId": 302
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -187,
+                        "x": 184,
+                        "var": "img_status",
+                        "skin": "netRes/beautyStatus/status_1.png",
+                        "scaleY": 1,
+                        "scaleX": 1,
+                        "name": "img_status"
+                      },
+                      "compId": 303
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": -101,
+                "x": 284,
+                "visible": false,
+                "var": "sellTips",
+                "texture": "res_combat/specialStageView/heiShi/shop_dialog.png"
+              },
+              "compId": 126,
+              "child": [
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 44,
+                    "x": 71,
+                    "var": "sellIcon",
+                    "texture": "res_combat/public/icon_gold.png"
+                  },
+                  "compId": 127
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 45,
+                    "x": 111,
+                    "width": 87,
+                    "var": "sellPrice",
+                    "value": "200",
+                    "spaceX": -8,
+                    "skin": "res_common/number/num_30_ss_000000.png",
+                    "sheet": "0123456789-+",
+                    "height": 29,
+                    "align": "center"
+                  },
+                  "compId": 138
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 52,
+                    "x": 43,
+                    "visible": false,
+                    "var": "noCanSellTips",
+                    "text": "text",
+                    "skin": "res_combat/specialStageView/heiShi/text_unable_2.png"
+                  },
+                  "compId": 153
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 52,
+                "x": 175,
+                "skin": "res_combat/specialStageView/heiShi/text_sell.png"
+              },
+              "compId": 137
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 204,
+        "x": 490,
+        "width": 302,
+        "skin": "res_view/beauty/panel_kggtshgd.png",
+        "name": "tipsbarbg",
+        "height": 23
+      },
+      "compId": 288,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": 7,
+            "width": 250,
+            "skin": "res_view/beauty/text_kggtshgd.png",
+            "name": "tipsbarbg",
+            "height": 21
+          },
+          "compId": 289
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "res_combat/specialStageView/heiShi/panel_shangpin.png",
+    "res_combat/public/icon_gold.png",
+    "res_combat/public/tag_soldout.png",
+    "res_common/solt_price.png",
+    "res_common/icon_ad.png",
+    "res_combat/specialStageView/heiShi/text_de.png",
+    "ani/goldFlash.ani",
+    "res_common/icon_hgd.png",
+    "res_combat/specialStageView/heiShi/shop_dialog.png"
+  ],
+  "loadList3D": []
+}

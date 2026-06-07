@@ -1,0 +1,147 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -133,
+            "x": -125,
+            "width": 1000,
+            "var": "maskBg",
+            "skin": "res_common/bg.png",
+            "height": 1600,
+            "alpha": 0.6
+          },
+          "compId": 14
+        },
+        {
+          "type": "Image",
+          "props": {
+            "skin": "res_view/equipDetail/panel_2.png",
+            "centerY": -80,
+            "centerX": 0
+          },
+          "compId": 5,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 3,
+                "x": 503,
+                "var": "closeBtn",
+                "skin": "res_common/btn_close.png"
+              },
+              "compId": 6
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 89,
+                "x": 176.5,
+                "var": "title",
+                "skin": "res_view/equipDetail/text_jiesuo.png"
+              },
+              "compId": 7
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 168.5,
+                "var": "desc",
+                "skin": "res_view/equipDetail/text_kyjsxg.png",
+                "centerX": 2
+              },
+              "compId": 8
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 228,
+                "skin": "res_view/equipDetail/bg_house_Information.png",
+                "centerX": 0
+              },
+              "compId": 9,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -19,
+                    "x": -22,
+                    "var": "itemIcon",
+                    "skin": "netRes/icon/itemIcon/icon_yuanbao.png",
+                    "scaleY": 0.36,
+                    "scaleX": 0.36,
+                    "rotation": -5
+                  },
+                  "compId": 10
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 0,
+                    "x": 55,
+                    "var": "itemCount",
+                    "value": "4000",
+                    "spaceX": -3,
+                    "skin": "res_common/number/num_23_jxzk_f2ece1.png",
+                    "sheet": "0123456789"
+                  },
+                  "compId": 11
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 319,
+                "x": 311,
+                "width": 210,
+                "var": "confineBtn",
+                "skin": "res_common/btn_yellow.png",
+                "height": 61,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 12,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "res_view/equipDetail/txt_liaotian.png",
+                    "centerY": 2,
+                    "centerX": 0
+                  },
+                  "compId": 13
+                },
+                {
+                  "type": "Script",
+                  "props": {
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 15
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

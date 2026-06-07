@@ -1,0 +1,537 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334,
+    "autoDestroyAtClosed": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 672,
+        "x": 375,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.01
+      },
+      "compId": 3
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "var": "contentBox",
+        "height": 740,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -39,
+            "skin": "netRes/combat/heroSkill/yz_zzr/title_xzndlx.png",
+            "centerX": 0,
+            "alpha": 1
+          },
+          "compId": 38
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 414,
+            "x": 191,
+            "visible": false,
+            "var": "leftBtn",
+            "skin": "res_combat/public/panel_option_blue.png",
+            "centerX": -184,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 12,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -7,
+                "x": 101.5,
+                "var": "iconBg_1",
+                "skin": "res_common/solt_hero_blue.png"
+              },
+              "compId": 15,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 132,
+                    "x": 70,
+                    "var": "option_heroIcon_1",
+                    "skin": "netRes/icon/heroSelectIcon/img_yzs.png",
+                    "scaleX": 1,
+                    "anchorY": 1,
+                    "anchorX": 0.5
+                  },
+                  "compId": 14
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 138,
+                "var": "option_name_1",
+                "skin": "netRes/combat/heroSkill/yz_zzr/text_option_HC_W.png",
+                "centerX": 0
+              },
+              "compId": 27
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 334,
+                "x": 180,
+                "wordWrap": true,
+                "width": 260,
+                "var": "option_buff_1",
+                "valign": "middle",
+                "leading": 16,
+                "height": 150,
+                "fontSize": 24,
+                "font": "SimHei",
+                "color": "#ad2525",
+                "centerX": 0,
+                "bold": true,
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "align": "center"
+              },
+              "compId": 29
+            },
+            {
+              "type": "Script",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "runtime": "game/tools/BtnScale90.ts"
+              },
+              "compId": 16
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 414,
+            "x": 559,
+            "visible": false,
+            "var": "rightBtn",
+            "skin": "res_combat/public/panel_option_purple.png",
+            "centerX": 184,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 30,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -8,
+                "x": 104.5,
+                "var": "iconBg_2",
+                "skin": "res_common/solt_hero_purple.png"
+              },
+              "compId": 31,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 141,
+                    "x": 77,
+                    "var": "option_heroIcon_2",
+                    "skin": "netRes/icon/heroSelectIcon/img_emwd.png",
+                    "anchorY": 1,
+                    "anchorX": 0.5
+                  },
+                  "compId": 32
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 138,
+                "var": "option_name_2",
+                "skin": "netRes/combat/heroSkill/yz_zzr/text_option_HC_B.png",
+                "centerX": 0
+              },
+              "compId": 34
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 334,
+                "x": 180,
+                "wordWrap": true,
+                "width": 260,
+                "var": "option_buff_2",
+                "valign": "middle",
+                "leading": 16,
+                "height": 150,
+                "fontSize": 24,
+                "font": "SimHei",
+                "color": "#2f934e",
+                "centerX": 0,
+                "bold": true,
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "align": "center"
+              },
+              "compId": 36
+            },
+            {
+              "type": "Script",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "runtime": "game/tools/BtnScale90.ts"
+              },
+              "compId": 37
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 3,
+          "keyframes": {
+            "x": [
+              {
+                "value": 375,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 3,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 375,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 3,
+                "key": "x",
+                "index": 1
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0.01,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 3,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0.01,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 3,
+                "key": "alpha",
+                "index": 1
+              },
+              {
+                "value": 0.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 3,
+                "key": "alpha",
+                "index": 7
+              }
+            ]
+          }
+        },
+        {
+          "target": 38,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 38,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 38,
+                "key": "alpha",
+                "index": 6
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 38,
+                "key": "alpha",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 38,
+                "label": null,
+                "key": "alpha",
+                "index": 18
+              }
+            ]
+          }
+        },
+        {
+          "target": 12,
+          "keyframes": {
+            "y": [
+              {
+                "value": 418,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 12,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 434,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 12,
+                "key": "y",
+                "index": 18
+              },
+              {
+                "value": 414,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 12,
+                "key": "y",
+                "index": 26
+              }
+            ],
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 12,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 12,
+                "key": "visible",
+                "index": 18
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 12,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 12,
+                "key": "alpha",
+                "index": 18
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 12,
+                "key": "alpha",
+                "index": 26
+              }
+            ]
+          }
+        },
+        {
+          "target": 30,
+          "keyframes": {
+            "y": [
+              {
+                "value": 418,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 30,
+                "label": null,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 434,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 30,
+                "label": null,
+                "key": "y",
+                "index": 18
+              },
+              {
+                "value": 414,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 30,
+                "label": null,
+                "key": "y",
+                "index": 26
+              }
+            ],
+            "x": [
+              {
+                "value": 560,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 30,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 560,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 30,
+                "key": "x",
+                "index": 18
+              }
+            ],
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 30,
+                "label": null,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 30,
+                "label": null,
+                "key": "visible",
+                "index": 18
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 30,
+                "label": null,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 30,
+                "label": null,
+                "key": "alpha",
+                "index": 18
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 30,
+                "label": null,
+                "key": "alpha",
+                "index": 26
+              }
+            ]
+          }
+        }
+      ],
+      "name": "startAni",
+      "id": 1,
+      "frameRate": 30,
+      "action": 1
+    },
+    {
+      "nodes": [
+        {
+          "target": 2,
+          "keyframes": {
+            "x": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 2,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 2,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 2,
+                "key": "alpha",
+                "index": 13
+              }
+            ]
+          }
+        }
+      ],
+      "name": "leaveAni",
+      "id": 2,
+      "frameRate": 30,
+      "action": 0
+    }
+  ],
+  "loadList": [
+    "res_combat/public/panel_option_blue.png",
+    "res_common/solt_hero_blue.png",
+    "res_combat/public/panel_option_purple.png",
+    "res_common/solt_hero_purple.png"
+  ],
+  "loadList3D": []
+}

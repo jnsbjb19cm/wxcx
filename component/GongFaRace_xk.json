@@ -1,0 +1,1676 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1220
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 148,
+        "x": 375,
+        "presetID": 1,
+        "name": "101",
+        "alpha": 1,
+        "isPresetRoot": true
+      },
+      "compId": 236,
+      "child": [
+        {
+          "type": "Sprite",
+          "props": {
+            "presetID": 2,
+            "y": 0,
+            "x": 0,
+            "width": 188,
+            "texture": "res_view/gongFa/solt_talent.png",
+            "pivotY": 93,
+            "pivotX": 94,
+            "name": "bg",
+            "height": 186
+          },
+          "compId": 252,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 3,
+                "y": 93,
+                "x": 94,
+                "name": "icon",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 253
+            },
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 4,
+                "y": 93,
+                "x": 94,
+                "skin": "res_view/gongFa/solt_talent_green.png",
+                "name": "stateRing",
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 1
+              },
+              "compId": 254
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "presetID": 5,
+            "y": 82,
+            "x": 0,
+            "width": 100,
+            "name": "proBox",
+            "height": 30,
+            "anchorX": 0.5
+          },
+          "compId": 255,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 6,
+                "skin": "res_view/gongFa/panel_talent_level.png",
+                "centerY": 0,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 1
+              },
+              "compId": 256
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "presetID": 7,
+                "y": 0,
+                "x": 0,
+                "value": "1/2",
+                "spaceX": -11,
+                "skin": "res_common/number/num_18_jxzk_2aff00.png",
+                "sheet": "0123456789+-x/%:()>？",
+                "isPresetRoot": true,
+                "width": 38,
+                "name": "proVal",
+                "height": 29,
+                "centerY": 0,
+                "centerX": 0
+              },
+              "compId": 257
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 328,
+        "x": 375,
+        "presetID": 1,
+        "name": "102",
+        "alpha": 1,
+        "isPresetRoot": true
+      },
+      "compId": 237,
+      "child": [
+        {
+          "type": "Sprite",
+          "props": {
+            "presetID": 2,
+            "y": 0,
+            "x": 0,
+            "width": 188,
+            "texture": "res_view/gongFa/solt_talent.png",
+            "pivotY": 93,
+            "pivotX": 94,
+            "name": "bg",
+            "height": 186
+          },
+          "compId": 258,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 3,
+                "y": 93,
+                "x": 94,
+                "name": "icon",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 259
+            },
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 4,
+                "y": 93,
+                "x": 94,
+                "skin": "res_view/gongFa/solt_talent_green.png",
+                "name": "stateRing",
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 1
+              },
+              "compId": 260
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "presetID": 5,
+            "y": 82,
+            "x": 0,
+            "width": 100,
+            "name": "proBox",
+            "height": 30,
+            "anchorX": 0.5
+          },
+          "compId": 261,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 6,
+                "skin": "res_view/gongFa/panel_talent_level.png",
+                "centerY": 0,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 1
+              },
+              "compId": 262
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "presetID": 7,
+                "y": 0,
+                "x": 0,
+                "value": "1/2",
+                "spaceX": -11,
+                "skin": "res_common/number/num_18_jxzk_2aff00.png",
+                "sheet": "0123456789+-x/%:()>？",
+                "isPresetRoot": true,
+                "width": 38,
+                "name": "proVal",
+                "height": 29,
+                "centerY": 0,
+                "centerX": 0
+              },
+              "compId": 263
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 448,
+        "x": 273,
+        "presetID": 1,
+        "name": "103",
+        "alpha": 1,
+        "isPresetRoot": true
+      },
+      "compId": 238,
+      "child": [
+        {
+          "type": "Sprite",
+          "props": {
+            "presetID": 2,
+            "y": 0,
+            "x": 0,
+            "width": 188,
+            "texture": "res_view/gongFa/solt_talent.png",
+            "pivotY": 93,
+            "pivotX": 94,
+            "name": "bg",
+            "height": 186
+          },
+          "compId": 264,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 3,
+                "y": 93,
+                "x": 94,
+                "name": "icon",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 265
+            },
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 4,
+                "y": 93,
+                "x": 94,
+                "skin": "res_view/gongFa/solt_talent_green.png",
+                "name": "stateRing",
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 1
+              },
+              "compId": 266
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "presetID": 5,
+            "y": 82,
+            "x": 0,
+            "width": 100,
+            "name": "proBox",
+            "height": 30,
+            "anchorX": 0.5
+          },
+          "compId": 267,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 6,
+                "skin": "res_view/gongFa/panel_talent_level.png",
+                "centerY": 0,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 1
+              },
+              "compId": 268
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "presetID": 7,
+                "y": 0,
+                "x": 0,
+                "value": "1/2",
+                "spaceX": -11,
+                "skin": "res_common/number/num_18_jxzk_2aff00.png",
+                "sheet": "0123456789+-x/%:()>？",
+                "isPresetRoot": true,
+                "width": 38,
+                "name": "proVal",
+                "height": 29,
+                "centerY": 0,
+                "centerX": 0
+              },
+              "compId": 269
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 448,
+        "x": 481,
+        "presetID": 1,
+        "name": "104",
+        "alpha": 1,
+        "isPresetRoot": true
+      },
+      "compId": 239,
+      "child": [
+        {
+          "type": "Sprite",
+          "props": {
+            "presetID": 2,
+            "y": 0,
+            "x": 0,
+            "width": 188,
+            "texture": "res_view/gongFa/solt_talent.png",
+            "pivotY": 93,
+            "pivotX": 94,
+            "name": "bg",
+            "height": 186
+          },
+          "compId": 270,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 3,
+                "y": 93,
+                "x": 94,
+                "name": "icon",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 271
+            },
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 4,
+                "y": 93,
+                "x": 94,
+                "skin": "res_view/gongFa/solt_talent_green.png",
+                "name": "stateRing",
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 1
+              },
+              "compId": 272
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "presetID": 5,
+            "y": 82,
+            "x": 0,
+            "width": 100,
+            "name": "proBox",
+            "height": 30,
+            "anchorX": 0.5
+          },
+          "compId": 273,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 6,
+                "skin": "res_view/gongFa/panel_talent_level.png",
+                "centerY": 0,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 1
+              },
+              "compId": 274
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "presetID": 7,
+                "y": 0,
+                "x": 0,
+                "value": "1/2",
+                "spaceX": -11,
+                "skin": "res_common/number/num_18_jxzk_2aff00.png",
+                "sheet": "0123456789+-x/%:()>？",
+                "isPresetRoot": true,
+                "width": 38,
+                "name": "proVal",
+                "height": 29,
+                "centerY": 0,
+                "centerX": 0
+              },
+              "compId": 275
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 576,
+        "x": 168,
+        "presetID": 1,
+        "name": "105",
+        "alpha": 1,
+        "isPresetRoot": true
+      },
+      "compId": 240,
+      "child": [
+        {
+          "type": "Sprite",
+          "props": {
+            "presetID": 2,
+            "y": 0,
+            "x": 0,
+            "width": 188,
+            "texture": "res_view/gongFa/solt_talent.png",
+            "pivotY": 93,
+            "pivotX": 94,
+            "name": "bg",
+            "height": 186
+          },
+          "compId": 276,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 3,
+                "y": 93,
+                "x": 94,
+                "name": "icon",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 277
+            },
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 4,
+                "y": 93,
+                "x": 94,
+                "skin": "res_view/gongFa/solt_talent_green.png",
+                "name": "stateRing",
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 1
+              },
+              "compId": 278
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "presetID": 5,
+            "y": 82,
+            "x": 0,
+            "width": 100,
+            "name": "proBox",
+            "height": 30,
+            "anchorX": 0.5
+          },
+          "compId": 279,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 6,
+                "skin": "res_view/gongFa/panel_talent_level.png",
+                "centerY": 0,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 1
+              },
+              "compId": 280
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "presetID": 7,
+                "y": 0,
+                "x": 0,
+                "value": "1/2",
+                "spaceX": -11,
+                "skin": "res_common/number/num_18_jxzk_2aff00.png",
+                "sheet": "0123456789+-x/%:()>？",
+                "isPresetRoot": true,
+                "width": 38,
+                "name": "proVal",
+                "height": 29,
+                "centerY": 0,
+                "centerX": 0
+              },
+              "compId": 281
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 576,
+        "x": 375,
+        "presetID": 1,
+        "name": "106",
+        "alpha": 1,
+        "isPresetRoot": true
+      },
+      "compId": 241,
+      "child": [
+        {
+          "type": "Sprite",
+          "props": {
+            "presetID": 2,
+            "y": 0,
+            "x": 0,
+            "width": 188,
+            "texture": "res_view/gongFa/solt_talent.png",
+            "pivotY": 93,
+            "pivotX": 94,
+            "name": "bg",
+            "height": 186
+          },
+          "compId": 282,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 3,
+                "y": 93,
+                "x": 94,
+                "name": "icon",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 283
+            },
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 4,
+                "y": 93,
+                "x": 94,
+                "skin": "res_view/gongFa/solt_talent_green.png",
+                "name": "stateRing",
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 1
+              },
+              "compId": 284
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "presetID": 5,
+            "y": 82,
+            "x": 0,
+            "width": 100,
+            "name": "proBox",
+            "height": 30,
+            "anchorX": 0.5
+          },
+          "compId": 285,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 6,
+                "skin": "res_view/gongFa/panel_talent_level.png",
+                "centerY": 0,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 1
+              },
+              "compId": 286
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "presetID": 7,
+                "y": 0,
+                "x": 0,
+                "value": "1/2",
+                "spaceX": -11,
+                "skin": "res_common/number/num_18_jxzk_2aff00.png",
+                "sheet": "0123456789+-x/%:()>？",
+                "isPresetRoot": true,
+                "width": 38,
+                "name": "proVal",
+                "height": 29,
+                "centerY": 0,
+                "centerX": 0
+              },
+              "compId": 287
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 576,
+        "x": 582,
+        "presetID": 1,
+        "name": "107",
+        "alpha": 1,
+        "isPresetRoot": true
+      },
+      "compId": 242,
+      "child": [
+        {
+          "type": "Sprite",
+          "props": {
+            "presetID": 2,
+            "y": 0,
+            "x": 0,
+            "width": 188,
+            "texture": "res_view/gongFa/solt_talent.png",
+            "pivotY": 93,
+            "pivotX": 94,
+            "name": "bg",
+            "height": 186
+          },
+          "compId": 288,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 3,
+                "y": 93,
+                "x": 94,
+                "name": "icon",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 289
+            },
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 4,
+                "y": 93,
+                "x": 94,
+                "skin": "res_view/gongFa/solt_talent_green.png",
+                "name": "stateRing",
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 1
+              },
+              "compId": 290
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "presetID": 5,
+            "y": 82,
+            "x": 0,
+            "width": 100,
+            "name": "proBox",
+            "height": 30,
+            "anchorX": 0.5
+          },
+          "compId": 291,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 6,
+                "skin": "res_view/gongFa/panel_talent_level.png",
+                "centerY": 0,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 1
+              },
+              "compId": 292
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "presetID": 7,
+                "y": 0,
+                "x": 0,
+                "value": "1/2",
+                "spaceX": -11,
+                "skin": "res_common/number/num_18_jxzk_2aff00.png",
+                "sheet": "0123456789+-x/%:()>？",
+                "isPresetRoot": true,
+                "width": 38,
+                "name": "proVal",
+                "height": 29,
+                "centerY": 0,
+                "centerX": 0
+              },
+              "compId": 293
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 703,
+        "x": 63,
+        "presetID": 1,
+        "name": "108",
+        "alpha": 1,
+        "isPresetRoot": true
+      },
+      "compId": 243,
+      "child": [
+        {
+          "type": "Sprite",
+          "props": {
+            "presetID": 2,
+            "y": 0,
+            "x": 0,
+            "width": 188,
+            "texture": "res_view/gongFa/solt_talent.png",
+            "pivotY": 93,
+            "pivotX": 94,
+            "name": "bg",
+            "height": 186
+          },
+          "compId": 294,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 3,
+                "y": 93,
+                "x": 94,
+                "name": "icon",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 295
+            },
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 4,
+                "y": 93,
+                "x": 94,
+                "skin": "res_view/gongFa/solt_talent_green.png",
+                "name": "stateRing",
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 1
+              },
+              "compId": 296
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "presetID": 5,
+            "y": 82,
+            "x": 0,
+            "width": 100,
+            "name": "proBox",
+            "height": 30,
+            "anchorX": 0.5
+          },
+          "compId": 297,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 6,
+                "skin": "res_view/gongFa/panel_talent_level.png",
+                "centerY": 0,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 1
+              },
+              "compId": 298
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "presetID": 7,
+                "y": 0,
+                "x": 0,
+                "value": "1/2",
+                "spaceX": -11,
+                "skin": "res_common/number/num_18_jxzk_2aff00.png",
+                "sheet": "0123456789+-x/%:()>？",
+                "isPresetRoot": true,
+                "width": 38,
+                "name": "proVal",
+                "height": 29,
+                "centerY": 0,
+                "centerX": 0
+              },
+              "compId": 299
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 703,
+        "x": 271,
+        "presetID": 1,
+        "name": "109",
+        "alpha": 1,
+        "isPresetRoot": true
+      },
+      "compId": 244,
+      "child": [
+        {
+          "type": "Sprite",
+          "props": {
+            "presetID": 2,
+            "y": 0,
+            "x": 0,
+            "width": 188,
+            "texture": "res_view/gongFa/solt_talent.png",
+            "pivotY": 93,
+            "pivotX": 94,
+            "name": "bg",
+            "height": 186
+          },
+          "compId": 300,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 3,
+                "y": 93,
+                "x": 94,
+                "name": "icon",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 301
+            },
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 4,
+                "y": 93,
+                "x": 94,
+                "skin": "res_view/gongFa/solt_talent_green.png",
+                "name": "stateRing",
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 1
+              },
+              "compId": 302
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "presetID": 5,
+            "y": 82,
+            "x": 0,
+            "width": 100,
+            "name": "proBox",
+            "height": 30,
+            "anchorX": 0.5
+          },
+          "compId": 303,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 6,
+                "skin": "res_view/gongFa/panel_talent_level.png",
+                "centerY": 0,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 1
+              },
+              "compId": 304
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "presetID": 7,
+                "y": 0,
+                "x": 0,
+                "value": "1/2",
+                "spaceX": -11,
+                "skin": "res_common/number/num_18_jxzk_2aff00.png",
+                "sheet": "0123456789+-x/%:()>？",
+                "isPresetRoot": true,
+                "width": 38,
+                "name": "proVal",
+                "height": 29,
+                "centerY": 0,
+                "centerX": 0
+              },
+              "compId": 305
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 703,
+        "x": 474,
+        "presetID": 1,
+        "name": "110",
+        "alpha": 1,
+        "isPresetRoot": true
+      },
+      "compId": 245,
+      "child": [
+        {
+          "type": "Sprite",
+          "props": {
+            "presetID": 2,
+            "y": 0,
+            "x": 0,
+            "width": 188,
+            "texture": "res_view/gongFa/solt_talent.png",
+            "pivotY": 93,
+            "pivotX": 94,
+            "name": "bg",
+            "height": 186
+          },
+          "compId": 306,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 3,
+                "y": 93,
+                "x": 94,
+                "name": "icon",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 307
+            },
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 4,
+                "y": 93,
+                "x": 94,
+                "skin": "res_view/gongFa/solt_talent_green.png",
+                "name": "stateRing",
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 1
+              },
+              "compId": 308
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "presetID": 5,
+            "y": 82,
+            "x": 0,
+            "width": 100,
+            "name": "proBox",
+            "height": 30,
+            "anchorX": 0.5
+          },
+          "compId": 309,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 6,
+                "skin": "res_view/gongFa/panel_talent_level.png",
+                "centerY": 0,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 1
+              },
+              "compId": 310
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "presetID": 7,
+                "y": 0,
+                "x": 0,
+                "value": "1/2",
+                "spaceX": -11,
+                "skin": "res_common/number/num_18_jxzk_2aff00.png",
+                "sheet": "0123456789+-x/%:()>？",
+                "isPresetRoot": true,
+                "width": 38,
+                "name": "proVal",
+                "height": 29,
+                "centerY": 0,
+                "centerX": 0
+              },
+              "compId": 311
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 703,
+        "x": 687,
+        "presetID": 1,
+        "name": "111",
+        "alpha": 1,
+        "isPresetRoot": true
+      },
+      "compId": 246,
+      "child": [
+        {
+          "type": "Sprite",
+          "props": {
+            "presetID": 2,
+            "y": 0,
+            "x": 0,
+            "width": 188,
+            "texture": "res_view/gongFa/solt_talent.png",
+            "pivotY": 93,
+            "pivotX": 94,
+            "name": "bg",
+            "height": 186
+          },
+          "compId": 312,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 3,
+                "y": 93,
+                "x": 94,
+                "name": "icon",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 313
+            },
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 4,
+                "y": 93,
+                "x": 94,
+                "skin": "res_view/gongFa/solt_talent_green.png",
+                "name": "stateRing",
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 1
+              },
+              "compId": 314
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "presetID": 5,
+            "y": 82,
+            "x": 0,
+            "width": 100,
+            "name": "proBox",
+            "height": 30,
+            "anchorX": 0.5
+          },
+          "compId": 315,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 6,
+                "skin": "res_view/gongFa/panel_talent_level.png",
+                "centerY": 0,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 1
+              },
+              "compId": 316
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "presetID": 7,
+                "y": 0,
+                "x": 0,
+                "value": "1/2",
+                "spaceX": -11,
+                "skin": "res_common/number/num_18_jxzk_2aff00.png",
+                "sheet": "0123456789+-x/%:()>？",
+                "isPresetRoot": true,
+                "width": 38,
+                "name": "proVal",
+                "height": 29,
+                "centerY": 0,
+                "centerX": 0
+              },
+              "compId": 317
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 827,
+        "x": 167,
+        "presetID": 1,
+        "name": "112",
+        "alpha": 1,
+        "isPresetRoot": true
+      },
+      "compId": 247,
+      "child": [
+        {
+          "type": "Sprite",
+          "props": {
+            "presetID": 2,
+            "y": 0,
+            "x": 0,
+            "width": 188,
+            "texture": "res_view/gongFa/solt_talent.png",
+            "pivotY": 93,
+            "pivotX": 94,
+            "name": "bg",
+            "height": 186
+          },
+          "compId": 318,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 3,
+                "y": 93,
+                "x": 94,
+                "name": "icon",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 319
+            },
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 4,
+                "y": 93,
+                "x": 94,
+                "skin": "res_view/gongFa/solt_talent_green.png",
+                "name": "stateRing",
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 1
+              },
+              "compId": 320
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "presetID": 5,
+            "y": 82,
+            "x": 0,
+            "width": 100,
+            "name": "proBox",
+            "height": 30,
+            "anchorX": 0.5
+          },
+          "compId": 321,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 6,
+                "skin": "res_view/gongFa/panel_talent_level.png",
+                "centerY": 0,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 1
+              },
+              "compId": 322
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "presetID": 7,
+                "y": 0,
+                "x": 0,
+                "value": "1/2",
+                "spaceX": -11,
+                "skin": "res_common/number/num_18_jxzk_2aff00.png",
+                "sheet": "0123456789+-x/%:()>？",
+                "isPresetRoot": true,
+                "width": 38,
+                "name": "proVal",
+                "height": 29,
+                "centerY": 0,
+                "centerX": 0
+              },
+              "compId": 323
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 827,
+        "x": 375,
+        "presetID": 1,
+        "name": "113",
+        "alpha": 1,
+        "isPresetRoot": true
+      },
+      "compId": 248,
+      "child": [
+        {
+          "type": "Sprite",
+          "props": {
+            "presetID": 2,
+            "y": 0,
+            "x": 0,
+            "width": 188,
+            "texture": "res_view/gongFa/solt_talent.png",
+            "pivotY": 93,
+            "pivotX": 94,
+            "name": "bg",
+            "height": 186
+          },
+          "compId": 324,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 3,
+                "y": 93,
+                "x": 94,
+                "name": "icon",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 325
+            },
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 4,
+                "y": 93,
+                "x": 94,
+                "skin": "res_view/gongFa/solt_talent_green.png",
+                "name": "stateRing",
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 1
+              },
+              "compId": 326
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "presetID": 5,
+            "y": 82,
+            "x": 0,
+            "width": 100,
+            "name": "proBox",
+            "height": 30,
+            "anchorX": 0.5
+          },
+          "compId": 327,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 6,
+                "skin": "res_view/gongFa/panel_talent_level.png",
+                "centerY": 0,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 1
+              },
+              "compId": 328
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "presetID": 7,
+                "y": 0,
+                "x": 0,
+                "value": "1/2",
+                "spaceX": -11,
+                "skin": "res_common/number/num_18_jxzk_2aff00.png",
+                "sheet": "0123456789+-x/%:()>？",
+                "isPresetRoot": true,
+                "width": 38,
+                "name": "proVal",
+                "height": 29,
+                "centerY": 0,
+                "centerX": 0
+              },
+              "compId": 329
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 827,
+        "x": 582,
+        "presetID": 1,
+        "name": "114",
+        "alpha": 1,
+        "isPresetRoot": true
+      },
+      "compId": 249,
+      "child": [
+        {
+          "type": "Sprite",
+          "props": {
+            "presetID": 2,
+            "y": 0,
+            "x": 0,
+            "width": 188,
+            "texture": "res_view/gongFa/solt_talent.png",
+            "pivotY": 93,
+            "pivotX": 94,
+            "name": "bg",
+            "height": 186
+          },
+          "compId": 330,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 3,
+                "y": 93,
+                "x": 94,
+                "name": "icon",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 331
+            },
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 4,
+                "y": 93,
+                "x": 94,
+                "skin": "res_view/gongFa/solt_talent_green.png",
+                "name": "stateRing",
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 1
+              },
+              "compId": 332
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "presetID": 5,
+            "y": 82,
+            "x": 0,
+            "width": 100,
+            "name": "proBox",
+            "height": 30,
+            "anchorX": 0.5
+          },
+          "compId": 333,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 6,
+                "skin": "res_view/gongFa/panel_talent_level.png",
+                "centerY": 0,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 1
+              },
+              "compId": 334
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "presetID": 7,
+                "y": 0,
+                "x": 0,
+                "value": "1/2",
+                "spaceX": -11,
+                "skin": "res_common/number/num_18_jxzk_2aff00.png",
+                "sheet": "0123456789+-x/%:()>？",
+                "isPresetRoot": true,
+                "width": 38,
+                "name": "proVal",
+                "height": 29,
+                "centerY": 0,
+                "centerX": 0
+              },
+              "compId": 335
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 972,
+        "x": 167,
+        "presetID": 1,
+        "name": "115",
+        "alpha": 1,
+        "isPresetRoot": true
+      },
+      "compId": 250,
+      "child": [
+        {
+          "type": "Sprite",
+          "props": {
+            "presetID": 2,
+            "y": 0,
+            "x": 0,
+            "width": 188,
+            "texture": "res_view/gongFa/solt_talent.png",
+            "pivotY": 93,
+            "pivotX": 94,
+            "name": "bg",
+            "height": 186
+          },
+          "compId": 336,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 3,
+                "y": 93,
+                "x": 94,
+                "name": "icon",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 337
+            },
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 4,
+                "y": 93,
+                "x": 94,
+                "skin": "res_view/gongFa/solt_talent_green.png",
+                "name": "stateRing",
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 1
+              },
+              "compId": 338
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "presetID": 5,
+            "y": 82,
+            "x": 0,
+            "width": 100,
+            "name": "proBox",
+            "height": 30,
+            "anchorX": 0.5
+          },
+          "compId": 339,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 6,
+                "skin": "res_view/gongFa/panel_talent_level.png",
+                "centerY": 0,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 1
+              },
+              "compId": 340
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "presetID": 7,
+                "y": 0,
+                "x": 0,
+                "value": "1/2",
+                "spaceX": -11,
+                "skin": "res_common/number/num_18_jxzk_2aff00.png",
+                "sheet": "0123456789+-x/%:()>？",
+                "isPresetRoot": true,
+                "width": 38,
+                "name": "proVal",
+                "height": 29,
+                "centerY": 0,
+                "centerX": 0
+              },
+              "compId": 341
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 972,
+        "x": 581,
+        "presetID": 1,
+        "name": "116",
+        "alpha": 1,
+        "isPresetRoot": true
+      },
+      "compId": 251,
+      "child": [
+        {
+          "type": "Sprite",
+          "props": {
+            "presetID": 2,
+            "y": 0,
+            "x": 0,
+            "width": 188,
+            "texture": "res_view/gongFa/solt_talent.png",
+            "pivotY": 93,
+            "pivotX": 94,
+            "name": "bg",
+            "height": 186
+          },
+          "compId": 342,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 3,
+                "y": 93,
+                "x": 94,
+                "name": "icon",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 343
+            },
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 4,
+                "y": 93,
+                "x": 94,
+                "skin": "res_view/gongFa/solt_talent_green.png",
+                "name": "stateRing",
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 1
+              },
+              "compId": 344
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "presetID": 5,
+            "y": 82,
+            "x": 0,
+            "width": 100,
+            "name": "proBox",
+            "height": 30,
+            "anchorX": 0.5
+          },
+          "compId": 345,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 6,
+                "skin": "res_view/gongFa/panel_talent_level.png",
+                "centerY": 0,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 1
+              },
+              "compId": 346
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "presetID": 7,
+                "y": 0,
+                "x": 0,
+                "value": "1/2",
+                "spaceX": -11,
+                "skin": "res_common/number/num_18_jxzk_2aff00.png",
+                "sheet": "0123456789+-x/%:()>？",
+                "isPresetRoot": true,
+                "width": 38,
+                "name": "proVal",
+                "height": 29,
+                "centerY": 0,
+                "centerX": 0
+              },
+              "compId": 347
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": ["prefab/GongFaItem.prefab"],
+  "loadList3D": []
+}

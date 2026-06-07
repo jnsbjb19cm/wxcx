@@ -1,0 +1,44 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": true,
+    "mouseEnabled": true,
+    "height": 1344,
+    "drawCallOptimize": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 672,
+        "x": 375,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 58
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "var": "contentBox",
+        "mouseThrough": true,
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 4
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

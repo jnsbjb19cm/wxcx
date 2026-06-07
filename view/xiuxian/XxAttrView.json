@@ -1,0 +1,379 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "var": "contentBox",
+        "height": 1334,
+        "centerY": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "width": 750,
+            "var": "mask_bg",
+            "skin": "res_common/bg.png",
+            "height": 1334,
+            "alpha": 0.6
+          },
+          "compId": 37
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 214,
+            "width": 526,
+            "var": "bg",
+            "skin": "res_view/lianyin/panel_tips.png",
+            "sizeGrid": "217,0,253,0",
+            "height": 753,
+            "centerX": 6
+          },
+          "compId": 4
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 255,
+            "x": 159,
+            "text": "属性加成",
+            "skin": "res_view/xiuxin/title_sxjc.png",
+            "fontSize": 30,
+            "color": "#f1d9d9"
+          },
+          "compId": 7
+        },
+        {
+          "type": "List",
+          "props": {
+            "y": 287,
+            "x": 129,
+            "width": 493,
+            "var": "attrlist",
+            "vScrollBarSkin": " ",
+            "height": 632
+          },
+          "compId": 5,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 458,
+                "renderType": "render",
+                "height": 234
+              },
+              "compId": 6,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 33.5,
+                    "x": -2,
+                    "skin": "netRes/icon/traitIcon/icon_jb_tk.png",
+                    "name": "attr_img"
+                  },
+                  "compId": 8
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 46,
+                    "x": 57,
+                    "text": "暴击",
+                    "name": "bj",
+                    "fontSize": 20,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffeee0"
+                  },
+                  "compId": 9,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": -1,
+                        "x": 47,
+                        "text": "+20%",
+                        "name": "bjnum",
+                        "fontSize": 20,
+                        "font": "Helvetica",
+                        "color": "#00e626"
+                      },
+                      "compId": 27
+                    }
+                  ]
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 77,
+                    "x": 57,
+                    "text": "命中",
+                    "name": "mz",
+                    "fontSize": 20,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffeee0"
+                  },
+                  "compId": 10,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 1,
+                        "x": 44,
+                        "text": "+20%",
+                        "name": "mznum",
+                        "fontSize": 20,
+                        "color": "#27b00c"
+                      },
+                      "compId": 28
+                    }
+                  ]
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 107,
+                    "x": 57,
+                    "text": "暴击伤害",
+                    "name": "bjsh",
+                    "fontSize": 20,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffeee0"
+                  },
+                  "compId": 19,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 1,
+                        "x": 87,
+                        "text": "+20%",
+                        "name": "bjshnum",
+                        "fontSize": 20,
+                        "color": "#27b00c"
+                      },
+                      "compId": 29
+                    }
+                  ]
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 137,
+                    "x": 57,
+                    "text": "物理伤害加深",
+                    "name": "wlshjs",
+                    "fontSize": 20,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffeee0"
+                  },
+                  "compId": 20,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 1,
+                        "x": 124,
+                        "text": "+20%",
+                        "name": "wlshjsnum",
+                        "fontSize": 20,
+                        "color": "#27b00c"
+                      },
+                      "compId": 30
+                    }
+                  ]
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 167,
+                    "x": 57,
+                    "text": "物理伤害减免",
+                    "name": "wlshjm",
+                    "fontSize": 20,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffeee0"
+                  },
+                  "compId": 21,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 1,
+                        "x": 124,
+                        "text": "+20%",
+                        "name": "wlshjmnum",
+                        "fontSize": 20,
+                        "color": "#27b00c"
+                      },
+                      "compId": 31
+                    }
+                  ]
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 47,
+                    "x": 280,
+                    "text": "闪避",
+                    "name": "sb",
+                    "fontSize": 20,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffeee0"
+                  },
+                  "compId": 22,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 1,
+                        "x": 44,
+                        "text": "+20%",
+                        "name": "sbnum",
+                        "fontSize": 20,
+                        "color": "#27b00c"
+                      },
+                      "compId": 32
+                    }
+                  ]
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 77,
+                    "x": 280,
+                    "text": "抗暴",
+                    "name": "kb",
+                    "fontSize": 20,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffeee0"
+                  },
+                  "compId": 23,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 1,
+                        "x": 44,
+                        "text": "+20%",
+                        "name": "kbnum",
+                        "fontSize": 20,
+                        "color": "#27b00c"
+                      },
+                      "compId": 33
+                    }
+                  ]
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 107,
+                    "x": 280,
+                    "text": "暴伤抵抗",
+                    "name": "bsdk",
+                    "fontSize": 20,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffeee0"
+                  },
+                  "compId": 24,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 1,
+                        "x": 87,
+                        "text": "+20%",
+                        "name": "bsdknum",
+                        "fontSize": 20,
+                        "color": "#27b00c"
+                      },
+                      "compId": 34
+                    }
+                  ]
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 137,
+                    "x": 280,
+                    "text": "法术伤害加深",
+                    "name": "fsshjs",
+                    "fontSize": 20,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffeee0"
+                  },
+                  "compId": 25,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 1,
+                        "x": 124,
+                        "text": "+20%",
+                        "name": "fssjjsnum",
+                        "fontSize": 20,
+                        "color": "#27b00c"
+                      },
+                      "compId": 35
+                    }
+                  ]
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 167,
+                    "x": 280,
+                    "text": "法术伤害减免",
+                    "name": "fsshjm",
+                    "fontSize": 20,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffeee0"
+                  },
+                  "compId": 26,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 1,
+                        "x": 124,
+                        "text": "+20%",
+                        "name": "fsshjmnum",
+                        "fontSize": 20,
+                        "color": "#27b00c"
+                      },
+                      "compId": 36
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 959,
+            "x": 241,
+            "skin": "res_view/rank/text_djgb.png"
+          },
+          "compId": 38
+        }
+      ]
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

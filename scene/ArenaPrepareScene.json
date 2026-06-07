@@ -1,0 +1,2939 @@
+{
+  "type": "Scene",
+  "props": {
+    "width": 750,
+    "runtime": "game/scene/ArenaPrepareScene.ts",
+    "height": 1334,
+    "autoDestroyAtClosed": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": -145,
+        "x": -125,
+        "width": 1000,
+        "name": "bigBg",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 193
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 750,
+        "var": "contentBox",
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 208,
+            "width": 753,
+            "var": "mapBg",
+            "skin": "netRes/combat/map/1.jpg",
+            "height": 976,
+            "centerX": 0
+          },
+          "compId": 197,
+          "child": [
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 18,
+                "x": 7,
+                "visible": false,
+                "texture": "res_combat/public/cell.png"
+              },
+              "compId": 198
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": -35,
+                "x": -88,
+                "var": "mist"
+              },
+              "compId": 296
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 84,
+                "x": 83,
+                "visible": false,
+                "var": "enemyInfo"
+              },
+              "compId": 253,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "zOrder": -1,
+                    "y": -117,
+                    "x": -92,
+                    "width": 764,
+                    "skin": "res_common/bg.png",
+                    "height": 912,
+                    "alpha": 0.5
+                  },
+                  "compId": 344
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -118.5,
+                    "x": -103,
+                    "width": 799,
+                    "skin": "netRes/arenaN/pic_mask.png",
+                    "height": 496
+                  },
+                  "compId": 343
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "width": 586,
+                    "var": "enemyBox",
+                    "height": 196
+                  },
+                  "compId": 254,
+                  "child": [
+                    {
+                      "type": "Box",
+                      "props": {
+                        "y": -9,
+                        "width": 150,
+                        "var": "headBox",
+                        "height": 150
+                      },
+                      "compId": 297,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 144,
+                            "x": 62,
+                            "scaleY": 0.86,
+                            "scaleX": 0.86,
+                            "presetID": 1,
+                            "name": "head",
+                            "skin": "res_common/solt_profile_blue.png",
+                            "isPresetRoot": true,
+                            "anchorY": 1,
+                            "anchorX": 0.5
+                          },
+                          "compId": 298,
+                          "child": [
+                            {
+                              "type": "Image",
+                              "props": {
+                                "var": "enemyIcon",
+                                "presetID": 3,
+                                "y": 160,
+                                "x": 70,
+                                "anchorY": 1,
+                                "anchorX": 0.5
+                              },
+                              "compId": 299
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 80,
+                            "x": 80,
+                            "width": 74,
+                            "skin": "res_common/solt_profile_blue.png",
+                            "name": "userIcon",
+                            "height": 74
+                          },
+                          "compId": 300,
+                          "child": [
+                            {
+                              "type": "Image",
+                              "props": {
+                                "y": 40,
+                                "x": 39.5,
+                                "width": 60,
+                                "var": "enemyHead",
+                                "skin": "res_common/pro_default.png",
+                                "height": 60,
+                                "anchorY": 0.5,
+                                "anchorX": 0.5
+                              },
+                              "compId": 301,
+                              "child": [
+                                {
+                                  "type": "Image",
+                                  "props": {
+                                    "top": 0,
+                                    "skin": "res_main/mask_profile.png",
+                                    "right": 0,
+                                    "renderType": "mask",
+                                    "left": 0,
+                                    "bottom": 0
+                                  },
+                                  "compId": 302
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 52,
+                        "x": 190,
+                        "width": 278,
+                        "var": "enemyName",
+                        "text": "玩家名字七个字",
+                        "stroke": 2,
+                        "overflow": "hidden",
+                        "height": 32,
+                        "fontSize": 32,
+                        "font": "Microsoft YaHei",
+                        "color": "#ffffff",
+                        "bold": true,
+                        "align": "left"
+                      },
+                      "compId": 261
+                    },
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": 103,
+                        "x": 252,
+                        "var": "enemyWinLab",
+                        "value": "10",
+                        "spaceX": -16,
+                        "skin": "res_common/number/num_28_jxzk_ffde80_stk_3.png",
+                        "sheet": "0123456789",
+                        "align": "center"
+                      },
+                      "compId": 303,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "x": -38,
+                            "skin": "netRes/arenaN/text_sheng_purple.png"
+                          },
+                          "compId": 305
+                        }
+                      ]
+                    },
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": 103,
+                        "x": 357,
+                        "var": "enemyLoseLab",
+                        "value": "3",
+                        "skin": "res_common/number/num_28_jxzk_a1b9ff_stk_3.png",
+                        "sheet": "0123456789"
+                      },
+                      "compId": 304,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 0,
+                            "x": -38,
+                            "skin": "netRes/arenaN/text_bai.png"
+                          },
+                          "compId": 306
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": -24,
+                    "x": 420,
+                    "width": 238,
+                    "var": "enemyDivBox",
+                    "scaleY": 0.8,
+                    "scaleX": 0.8,
+                    "height": 236
+                  },
+                  "compId": 307,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 96,
+                        "x": 145,
+                        "var": "divisionImg",
+                        "skin": "netRes/icon/divisionIcon/icon_rank_2.png",
+                        "scaleY": 1.6,
+                        "scaleX": 1.6,
+                        "centerX": 0
+                      },
+                      "compId": 309
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 195,
+                        "var": "divisionName",
+                        "skin": "netRes/icon/divisionIcon/division2_1.png",
+                        "centerX": 0
+                      },
+                      "compId": 311
+                    },
+                    {
+                      "type": "Box",
+                      "props": {
+                        "y": -4,
+                        "width": 360,
+                        "var": "star",
+                        "height": 217,
+                        "centerX": 0
+                      },
+                      "compId": 312,
+                      "child": [
+                        {
+                          "type": "Box",
+                          "props": {
+                            "y": 0,
+                            "x": 0,
+                            "width": 375,
+                            "visible": false,
+                            "var": "star5Box",
+                            "height": 177
+                          },
+                          "compId": 313,
+                          "child": [
+                            {
+                              "type": "Image",
+                              "props": {
+                                "y": 76,
+                                "x": 50,
+                                "skin": "netRes/arenaN/icon_common_card_star04.png",
+                                "scaleY": 1.5,
+                                "scaleX": 1.5
+                              },
+                              "compId": 314,
+                              "child": [
+                                {
+                                  "type": "Image",
+                                  "props": {
+                                    "y": 0,
+                                    "x": 1,
+                                    "skin": "netRes/arenaN/icon_common_card_star07.png"
+                                  },
+                                  "compId": 315
+                                }
+                              ]
+                            },
+                            {
+                              "type": "Image",
+                              "props": {
+                                "y": 40,
+                                "x": 96,
+                                "skin": "netRes/arenaN/icon_common_card_star07.png",
+                                "scaleY": 1.5,
+                                "scaleX": 1.5
+                              },
+                              "compId": 316,
+                              "child": [
+                                {
+                                  "type": "Image",
+                                  "props": {
+                                    "x": 1
+                                  },
+                                  "compId": 317
+                                }
+                              ]
+                            },
+                            {
+                              "type": "Image",
+                              "props": {
+                                "y": 25,
+                                "x": 150,
+                                "skin": "netRes/arenaN/icon_common_card_star04.png",
+                                "scaleY": 1.5,
+                                "scaleX": 1.5
+                              },
+                              "compId": 318,
+                              "child": [
+                                {
+                                  "type": "Image",
+                                  "props": {
+                                    "x": 1,
+                                    "skin": "netRes/arenaN/icon_common_card_star07.png"
+                                  },
+                                  "compId": 319
+                                }
+                              ]
+                            },
+                            {
+                              "type": "Image",
+                              "props": {
+                                "y": 40,
+                                "x": 204,
+                                "skin": "netRes/arenaN/icon_common_card_star04.png",
+                                "scaleY": 1.5,
+                                "scaleX": 1.5
+                              },
+                              "compId": 320,
+                              "child": [
+                                {
+                                  "type": "Image",
+                                  "props": {
+                                    "x": 1,
+                                    "skin": "netRes/arenaN/icon_common_card_star07.png"
+                                  },
+                                  "compId": 321
+                                }
+                              ]
+                            },
+                            {
+                              "type": "Image",
+                              "props": {
+                                "y": 76,
+                                "x": 245,
+                                "skin": "netRes/arenaN/icon_common_card_star04.png",
+                                "scaleY": 1.5,
+                                "scaleX": 1.5
+                              },
+                              "compId": 322,
+                              "child": [
+                                {
+                                  "type": "Image",
+                                  "props": {
+                                    "x": 1,
+                                    "skin": "netRes/arenaN/icon_common_card_star07.png"
+                                  },
+                                  "compId": 323
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Box",
+                          "props": {
+                            "y": 0,
+                            "x": 0,
+                            "width": 375,
+                            "visible": false,
+                            "var": "star4Box",
+                            "height": 177
+                          },
+                          "compId": 324,
+                          "child": [
+                            {
+                              "type": "Image",
+                              "props": {
+                                "y": 68,
+                                "x": 70,
+                                "skin": "netRes/arenaN/icon_common_card_star04.png",
+                                "scaleY": 1.5,
+                                "scaleX": 1.5
+                              },
+                              "compId": 325,
+                              "child": [
+                                {
+                                  "type": "Image",
+                                  "props": {
+                                    "x": 1,
+                                    "skin": "netRes/arenaN/icon_common_card_star07.png"
+                                  },
+                                  "compId": 326
+                                }
+                              ]
+                            },
+                            {
+                              "type": "Image",
+                              "props": {
+                                "y": 32,
+                                "x": 118,
+                                "skin": "netRes/arenaN/icon_common_card_star04.png",
+                                "scaleY": 1.5,
+                                "scaleX": 1.5
+                              },
+                              "compId": 327,
+                              "child": [
+                                {
+                                  "type": "Image",
+                                  "props": {
+                                    "x": 1,
+                                    "skin": "netRes/arenaN/icon_common_card_star07.png"
+                                  },
+                                  "compId": 328
+                                }
+                              ]
+                            },
+                            {
+                              "type": "Image",
+                              "props": {
+                                "y": 32,
+                                "x": 180,
+                                "skin": "netRes/arenaN/icon_common_card_star04.png",
+                                "scaleY": 1.5,
+                                "scaleX": 1.5
+                              },
+                              "compId": 329,
+                              "child": [
+                                {
+                                  "type": "Image",
+                                  "props": {
+                                    "x": 1,
+                                    "skin": "netRes/arenaN/icon_common_card_star07.png"
+                                  },
+                                  "compId": 330
+                                }
+                              ]
+                            },
+                            {
+                              "type": "Image",
+                              "props": {
+                                "y": 68,
+                                "x": 230,
+                                "skin": "netRes/arenaN/icon_common_card_star04.png",
+                                "scaleY": 1.5,
+                                "scaleX": 1.5
+                              },
+                              "compId": 331,
+                              "child": [
+                                {
+                                  "type": "Image",
+                                  "props": {
+                                    "x": 1,
+                                    "skin": "netRes/arenaN/icon_common_card_star07.png"
+                                  },
+                                  "compId": 332
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Box",
+                          "props": {
+                            "y": 0,
+                            "x": 0,
+                            "width": 375,
+                            "visible": false,
+                            "var": "star3Box",
+                            "height": 177
+                          },
+                          "compId": 333,
+                          "child": [
+                            {
+                              "type": "Image",
+                              "props": {
+                                "y": 39,
+                                "x": 96,
+                                "skin": "netRes/arenaN/icon_common_card_star04.png",
+                                "scaleY": 1.5,
+                                "scaleX": 1.5
+                              },
+                              "compId": 334,
+                              "child": [
+                                {
+                                  "type": "Image",
+                                  "props": {
+                                    "x": 1,
+                                    "skin": "netRes/arenaN/icon_common_card_star07.png"
+                                  },
+                                  "compId": 335
+                                }
+                              ]
+                            },
+                            {
+                              "type": "Image",
+                              "props": {
+                                "y": 25,
+                                "x": 150,
+                                "skin": "netRes/arenaN/icon_common_card_star04.png",
+                                "scaleY": 1.5,
+                                "scaleX": 1.5
+                              },
+                              "compId": 336,
+                              "child": [
+                                {
+                                  "type": "Image",
+                                  "props": {
+                                    "x": 1,
+                                    "skin": "netRes/arenaN/icon_common_card_star07.png"
+                                  },
+                                  "compId": 337
+                                }
+                              ]
+                            },
+                            {
+                              "type": "Image",
+                              "props": {
+                                "y": 39,
+                                "x": 205,
+                                "skin": "netRes/arenaN/icon_common_card_star04.png",
+                                "scaleY": 1.5,
+                                "scaleX": 1.5
+                              },
+                              "compId": 338,
+                              "child": [
+                                {
+                                  "type": "Image",
+                                  "props": {
+                                    "x": 1,
+                                    "skin": "netRes/arenaN/icon_common_card_star07.png"
+                                  },
+                                  "compId": 339
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "FontClip",
+                          "props": {
+                            "y": 39,
+                            "width": 172,
+                            "visible": false,
+                            "var": "scoreFont",
+                            "value": "1",
+                            "spaceX": -10,
+                            "skin": "res_common/number/num_62_jxzk_f1784c_faffef_stk_2.png",
+                            "sheet": "0123456789",
+                            "scaleY": 0.7,
+                            "scaleX": 0.7,
+                            "height": 46,
+                            "centerX": -8,
+                            "align": "center"
+                          },
+                          "compId": 340
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "visible": false,
+            "var": "selectBg",
+            "skin": "netRes/arenaN/bg_zd.png",
+            "centerY": -10,
+            "centerX": 0
+          },
+          "compId": 5
+        },
+        {
+          "type": "Box",
+          "props": {
+            "width": 738,
+            "var": "mapBox",
+            "height": 738,
+            "centerY": -74,
+            "centerX": 0
+          },
+          "compId": 7,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "var": "mapBotBox",
+                "top": 0,
+                "right": 0,
+                "left": 0,
+                "bottom": 0
+              },
+              "compId": 8,
+              "child": [
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "name": "skillAniBox"
+                  },
+                  "compId": 9
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "name": "publicAniBox"
+                  },
+                  "compId": 10
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "var": "mapCenterBox",
+                "top": 0,
+                "right": 0,
+                "left": 0,
+                "bottom": 0
+              },
+              "compId": 11
+            },
+            {
+              "type": "Box",
+              "props": {
+                "top": 0,
+                "right": 0,
+                "left": 0,
+                "bottom": 0
+              },
+              "compId": 12,
+              "child": [
+                {
+                  "type": "Box",
+                  "props": {
+                    "top": 0,
+                    "right": 0,
+                    "left": 0,
+                    "bottom": 0
+                  },
+                  "compId": 13
+                },
+                {
+                  "type": "Box",
+                  "props": {},
+                  "compId": 14
+                },
+                {
+                  "type": "Box",
+                  "props": {},
+                  "compId": 15
+                },
+                {
+                  "type": "Box",
+                  "props": {},
+                  "compId": 16
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 0
+                  },
+                  "compId": 17
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "var": "uiBox",
+            "top": 0,
+            "right": 0,
+            "mouseThrough": true,
+            "left": 0,
+            "bottom": 0
+          },
+          "compId": 18,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 240,
+                "width": 750,
+                "visible": false,
+                "var": "battleTime",
+                "skin": "res_combat/public/bar_process_default.png",
+                "sizeGrid": "2,14,2,8",
+                "height": 6
+              },
+              "compId": 19
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -151,
+                "skin": "loading/panel_top.png",
+                "name": "bgTop",
+                "centerX": 0
+              },
+              "compId": 21,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 1483,
+                    "skin": "loading/panel_top.png",
+                    "name": "bgTop",
+                    "centerX": -19
+                  },
+                  "compId": 353
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 768,
+                "skin": "res_combat/public/panel_1.png",
+                "name": "topBg",
+                "height": 213
+              },
+              "compId": 251
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 288,
+                "var": "progress",
+                "centerX": 0
+              },
+              "compId": 43,
+              "child": [
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": -55,
+                    "var": "proLab",
+                    "value": "1/10",
+                    "spaceX": -6,
+                    "skin": "res_common/number/num_36_ss_fffff_stk.png",
+                    "sheet": "0123456789+-*/()<>",
+                    "scaleY": 1.2,
+                    "scaleX": 1.2,
+                    "centerX": -5
+                  },
+                  "compId": 252
+                }
+              ]
+            },
+            {
+              "type": "ACTopInfo",
+              "props": {
+                "y": -20,
+                "x": 0,
+                "var": "topInfoPanel",
+                "runtime": "ui.component.ACTopInfoUI"
+              },
+              "compId": 36
+            },
+            {
+              "type": "ACRingList",
+              "props": {
+                "y": 131,
+                "var": "ringPanel",
+                "centerX": 0,
+                "runtime": "ui.component.ACRingListUI"
+              },
+              "compId": 37
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 204,
+                "x": 1,
+                "visible": false,
+                "var": "shopBg",
+                "skin": "netRes/arenaN/bg_food_cabinet01.png",
+                "sizeGrid": "211,0,402,0"
+              },
+              "compId": 341
+            },
+            {
+              "type": "ACMonsterList",
+              "props": {
+                "y": 988,
+                "x": 0,
+                "var": "playerPanel",
+                "runtime": "ui.component.ACMonsterListUI"
+              },
+              "compId": 38
+            },
+            {
+              "type": "Image",
+              "props": {
+                "x": -20,
+                "width": 783,
+                "skin": "res_combat/public/panel_2.png",
+                "height": 155,
+                "bottom": 0
+              },
+              "compId": 194,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -34,
+                    "x": -17,
+                    "skin": "res_combat/public/panel_jb.png"
+                  },
+                  "compId": 345
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": -29,
+                    "x": 22,
+                    "var": "traitBox",
+                    "height": 45
+                  },
+                  "compId": 346,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 10,
+                        "x": 19,
+                        "text": "text",
+                        "skin": "res_combat/public/text_jb.png"
+                      },
+                      "compId": 348
+                    },
+                    {
+                      "type": "List",
+                      "props": {
+                        "y": 0,
+                        "x": 98,
+                        "width": 650,
+                        "var": "traitLists",
+                        "spaceX": 13,
+                        "repeatY": 1,
+                        "repeatX": 10,
+                        "renderType": "render",
+                        "name": "traitLists",
+                        "height": 45
+                      },
+                      "compId": 349,
+                      "child": [
+                        {
+                          "type": "Box",
+                          "props": {
+                            "width": 45,
+                            "renderType": "render",
+                            "height": 45
+                          },
+                          "compId": 350,
+                          "child": [
+                            {
+                              "type": "Image",
+                              "props": {
+                                "width": 45,
+                                "name": "icon",
+                                "height": 45
+                              },
+                              "compId": 351
+                            },
+                            {
+                              "type": "Label",
+                              "props": {
+                                "text": "3",
+                                "strokeColor": "#000000",
+                                "stroke": 3,
+                                "right": 0,
+                                "name": "num",
+                                "fontSize": 23,
+                                "font": "SimHei",
+                                "color": "#ffffff",
+                                "bottom": 1
+                              },
+                              "compId": 352
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": -34,
+                    "x": 22,
+                    "width": 100,
+                    "var": "traitBtn",
+                    "height": 50
+                  },
+                  "compId": 347
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "var": "specialStageBox",
+                "top": 0,
+                "right": 0,
+                "mouseThrough": true,
+                "mouseEnabled": true,
+                "left": 0,
+                "bottom": 0
+              },
+              "compId": 342
+            },
+            {
+              "type": "Button",
+              "props": {
+                "y": 1186,
+                "x": 477,
+                "var": "confirmBtn",
+                "stateNum": 2,
+                "skin": "res_combat/public/btn_tiaozhan_poly.png",
+                "cacheAs": "bitmap"
+              },
+              "compId": 195,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "text": "text",
+                    "skin": "res_combat/public/text_tiaozhan_default.png",
+                    "centerY": 0,
+                    "centerX": 0
+                  },
+                  "compId": 196
+                }
+              ]
+            },
+            {
+              "type": "ACEquipList",
+              "props": {
+                "y": 1184,
+                "x": 95,
+                "var": "equipPanel",
+                "runtime": "ui.component.ACEquipListUI"
+              },
+              "compId": 39
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 150,
+                "x": 358,
+                "visible": false,
+                "texture": "res_combat/public/plist_zmsjszs+1.png",
+                "name": "guideUpLvTip"
+              },
+              "compId": 28,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 70,
+                    "x": 0,
+                    "text": "text",
+                    "skin": "res_combat/public/text_zmsj,szsj1.png",
+                    "centerX": 11
+                  },
+                  "compId": 250
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "width": 738,
+            "var": "mapTopAniBox",
+            "height": 738,
+            "centerY": -74,
+            "centerX": 0
+          },
+          "compId": 29,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "var": "mapTopBox",
+                "top": 0,
+                "right": 0,
+                "left": 0,
+                "bottom": 0
+              },
+              "compId": 30,
+              "child": [
+                {
+                  "type": "Box",
+                  "props": {
+                    "var": "hpBox",
+                    "top": 0,
+                    "right": 0,
+                    "left": 221,
+                    "bottom": 0
+                  },
+                  "compId": 31
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "var": "atkAniBox"
+                  },
+                  "compId": 32
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "name": "skillAniBox"
+                  },
+                  "compId": 33
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "var": "txtBox"
+                  },
+                  "compId": 34
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "name": "publicAniBox"
+                  },
+                  "compId": 35
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "x": 0,
+        "width": 570,
+        "visible": false,
+        "var": "tipPanel",
+        "height": 343,
+        "centerY": -93,
+        "centerX": 0
+      },
+      "compId": 47,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 264,
+            "x": 285,
+            "width": 1000,
+            "visible": false,
+            "var": "tipMask",
+            "skin": "res_common/bg.png",
+            "height": 1625,
+            "centerY": 0,
+            "centerX": 0,
+            "anchorY": 0.5,
+            "anchorX": 0.5,
+            "alpha": 0.6
+          },
+          "compId": 46
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "width": 568,
+            "skin": "res_common/bg_1.png",
+            "height": 340
+          },
+          "compId": 368
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 71,
+            "x": 150,
+            "skin": "res_common/bg_title01.png",
+            "centerX": 0,
+            "alpha": 1
+          },
+          "compId": 354
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 77,
+            "x": 252.5,
+            "skin": "res_view/chapterDetail/title_fanhui.png",
+            "alpha": 1
+          },
+          "compId": 355
+        },
+        {
+          "type": "Image",
+          "props": {
+            "top": 9,
+            "centerX": 0
+          },
+          "compId": 48
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 343,
+            "var": "blankClose",
+            "skin": "res_common/text_djgb.png",
+            "centerX": 12
+          },
+          "compId": 356
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -8,
+            "x": 0,
+            "var": "imgClose",
+            "skin": "res_common/btn_close.png",
+            "centerX": 257
+          },
+          "compId": 357
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 151,
+            "x": 138.5,
+            "text": "可以保存进度，下次接着玩",
+            "strokeColor": "#8a6c6c",
+            "stroke": 0.2,
+            "fontSize": 24,
+            "font": "Microsoft YaHei",
+            "color": "#8a6c6c",
+            "bold": true
+          },
+          "compId": 358
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 238.5,
+            "x": 327.5,
+            "var": "saveBtn",
+            "skin": "res_common/btn_yellow.png",
+            "name": "saveBtn"
+          },
+          "compId": 366,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 21,
+                "x": 37,
+                "skin": "res_view/chapterDetail/btn_text_baocuntuichu.png",
+                "alpha": 1
+              },
+              "compId": 363
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 238.5,
+            "x": 49.5,
+            "var": "fialBtn",
+            "skin": "res_common/btn_blue.png"
+          },
+          "compId": 365,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 22,
+                "x": 41,
+                "skin": "res_view/chapterDetail/btn_text_touxiangrenshu.png",
+                "alpha": 1
+              },
+              "compId": 361
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "var": "matchBox",
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 61,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 672,
+            "x": 375,
+            "width": 1000,
+            "skin": "res_common/bg.png",
+            "height": 1625,
+            "anchorY": 0.5,
+            "anchorX": 0.5,
+            "alpha": 0.6
+          },
+          "compId": 62
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 633,
+            "x": 375,
+            "var": "vsImg",
+            "skin": "netRes/arenaN/icon_dj.png",
+            "scaleY": 1,
+            "scaleX": 1,
+            "anchorY": 0.5,
+            "anchorX": 0.5,
+            "alpha": 0.25
+          },
+          "compId": 71
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 816,
+            "x": 173.25,
+            "var": "selfBox",
+            "alpha": 0.25
+          },
+          "compId": 63,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "skin": "netRes/arenaN/frame_battle_bubble.png"
+              },
+              "compId": 200
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 21,
+                "x": 14,
+                "width": 80,
+                "var": "seflHead",
+                "skin": "res_common/pro_default.png",
+                "height": 80
+              },
+              "compId": 64,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "width": 80,
+                    "skin": "res_common/pro_mask.png",
+                    "renderType": "mask",
+                    "height": 80
+                  },
+                  "compId": 66
+                }
+              ]
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 22,
+                "x": 103,
+                "width": 216,
+                "var": "selfName",
+                "text": "玩家名字七个字",
+                "stroke": 2,
+                "overflow": "hidden",
+                "fontSize": 30,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "bold": true,
+                "align": "center"
+              },
+              "compId": 65
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 71,
+                "x": 145,
+                "var": "winLab",
+                "value": "10",
+                "spaceX": -16,
+                "skin": "res_common/number/num_28_jxzk_ffde80_stk_3.png",
+                "sheet": "0123456789",
+                "align": "center"
+              },
+              "compId": 201,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "x": -38,
+                    "skin": "netRes/arenaN/text_sheng_purple.png"
+                  },
+                  "compId": 203
+                }
+              ]
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 71,
+                "x": 250,
+                "var": "loseLab",
+                "value": "3",
+                "skin": "res_common/number/num_28_jxzk_a1b9ff_stk_3.png",
+                "sheet": "0123456789"
+              },
+              "compId": 202,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": -38,
+                    "skin": "netRes/arenaN/text_bai.png"
+                  },
+                  "compId": 204
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 376,
+            "x": 400,
+            "visible": false,
+            "var": "enemy1"
+          },
+          "compId": 73,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -18,
+                "x": -15,
+                "skin": "netRes/arenaN/frame_battle_bubble.png",
+                "name": "bg"
+              },
+              "compId": 205
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 80,
+                "skin": "res_common/headImg_default.png",
+                "name": "icon",
+                "height": 80
+              },
+              "compId": 74,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "width": 80,
+                    "skin": "res_common/pro_mask.png",
+                    "renderType": "mask",
+                    "height": 80
+                  },
+                  "compId": 75
+                }
+              ]
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 7,
+                "x": 90,
+                "width": 216,
+                "text": "玩家名字七个字",
+                "stroke": 2,
+                "overflow": "hidden",
+                "name": "name",
+                "fontSize": 30,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "bold": true,
+                "align": "center"
+              },
+              "compId": 77
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 50,
+                "x": 145,
+                "value": "10",
+                "spaceX": -16,
+                "skin": "res_common/number/num_28_jxzk_ffde80_stk_3.png",
+                "sheet": "0123456789",
+                "name": "win",
+                "align": "center"
+              },
+              "compId": 206,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "x": -38,
+                    "skin": "netRes/arenaN/text_sheng_purple.png"
+                  },
+                  "compId": 208
+                }
+              ]
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 50,
+                "x": 250,
+                "value": "3",
+                "skin": "res_common/number/num_28_jxzk_a1b9ff_stk_3.png",
+                "sheet": "0123456789",
+                "name": "lose"
+              },
+              "compId": 207,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": -38,
+                    "skin": "netRes/arenaN/text_bai.png"
+                  },
+                  "compId": 209
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 376,
+            "x": 400,
+            "visible": false,
+            "var": "enemy2",
+            "alpha": 1
+          },
+          "compId": 80,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -19,
+                "x": -16,
+                "skin": "netRes/arenaN/frame_battle_bubble.png",
+                "name": "bg"
+              },
+              "compId": 210
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 80,
+                "skin": "res_common/headImg_default.png",
+                "name": "icon",
+                "height": 80
+              },
+              "compId": 211,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "width": 80,
+                    "skin": "res_common/pro_mask.png",
+                    "renderType": "mask",
+                    "height": 80
+                  },
+                  "compId": 215
+                }
+              ]
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 7,
+                "x": 90,
+                "width": 216,
+                "text": "玩家名字七个字",
+                "stroke": 2,
+                "overflow": "hidden",
+                "name": "name",
+                "fontSize": 30,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "bold": true,
+                "align": "center"
+              },
+              "compId": 212
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 50,
+                "x": 145,
+                "value": "10",
+                "spaceX": -16,
+                "skin": "res_common/number/num_28_jxzk_ffde80_stk_3.png",
+                "sheet": "0123456789",
+                "name": "win",
+                "align": "center"
+              },
+              "compId": 213,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "x": -38,
+                    "skin": "netRes/arenaN/text_sheng_purple.png"
+                  },
+                  "compId": 216
+                }
+              ]
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 50,
+                "x": 250,
+                "value": "3",
+                "skin": "res_common/number/num_28_jxzk_a1b9ff_stk_3.png",
+                "sheet": "0123456789",
+                "name": "lose"
+              },
+              "compId": 214,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": -38,
+                    "skin": "netRes/arenaN/text_bai.png"
+                  },
+                  "compId": 217
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 376,
+            "x": 400,
+            "visible": false,
+            "var": "enemy3"
+          },
+          "compId": 87,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -21,
+                "x": -14,
+                "skin": "netRes/arenaN/frame_battle_bubble.png",
+                "name": "bg"
+              },
+              "compId": 218
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 80,
+                "skin": "res_common/headImg_default.png",
+                "name": "icon",
+                "height": 80
+              },
+              "compId": 219,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "width": 80,
+                    "skin": "res_common/pro_mask.png",
+                    "renderType": "mask",
+                    "height": 80
+                  },
+                  "compId": 223
+                }
+              ]
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 7,
+                "x": 90,
+                "width": 216,
+                "text": "玩家名字七个字",
+                "stroke": 2,
+                "overflow": "hidden",
+                "name": "name",
+                "fontSize": 30,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "bold": true,
+                "align": "center"
+              },
+              "compId": 220
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 50,
+                "x": 145,
+                "value": "10",
+                "spaceX": -16,
+                "skin": "res_common/number/num_28_jxzk_ffde80_stk_3.png",
+                "sheet": "0123456789",
+                "name": "win",
+                "align": "center"
+              },
+              "compId": 221,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "x": -38,
+                    "skin": "netRes/arenaN/text_sheng_purple.png"
+                  },
+                  "compId": 224
+                }
+              ]
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 50,
+                "x": 250,
+                "value": "3",
+                "skin": "res_common/number/num_28_jxzk_a1b9ff_stk_3.png",
+                "sheet": "0123456789",
+                "name": "lose"
+              },
+              "compId": 222,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": -38,
+                    "skin": "netRes/arenaN/text_bai.png"
+                  },
+                  "compId": 225
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 376,
+            "x": 400,
+            "visible": false,
+            "var": "enemy4"
+          },
+          "compId": 94,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -21,
+                "x": -15,
+                "skin": "netRes/arenaN/frame_battle_bubble.png",
+                "name": "bg"
+              },
+              "compId": 226
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 80,
+                "skin": "res_common/headImg_default.png",
+                "name": "icon",
+                "height": 80
+              },
+              "compId": 227,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "width": 80,
+                    "skin": "res_common/pro_mask.png",
+                    "renderType": "mask",
+                    "height": 80
+                  },
+                  "compId": 231
+                }
+              ]
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 7,
+                "x": 90,
+                "width": 216,
+                "text": "玩家名字七个字",
+                "stroke": 2,
+                "overflow": "hidden",
+                "name": "name",
+                "fontSize": 30,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "bold": true,
+                "align": "center"
+              },
+              "compId": 228
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 50,
+                "x": 145,
+                "value": "10",
+                "spaceX": -16,
+                "skin": "res_common/number/num_28_jxzk_ffde80_stk_3.png",
+                "sheet": "0123456789",
+                "name": "win",
+                "align": "center"
+              },
+              "compId": 229,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "x": -38,
+                    "skin": "netRes/arenaN/text_sheng_purple.png"
+                  },
+                  "compId": 232
+                }
+              ]
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 50,
+                "x": 250,
+                "value": "3",
+                "skin": "res_common/number/num_28_jxzk_a1b9ff_stk_3.png",
+                "sheet": "0123456789",
+                "name": "lose"
+              },
+              "compId": 230,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": -38,
+                    "skin": "netRes/arenaN/text_bai.png"
+                  },
+                  "compId": 233
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 376,
+            "x": 400,
+            "visible": false,
+            "var": "enemy5"
+          },
+          "compId": 101,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -21,
+                "x": -14,
+                "skin": "netRes/arenaN/frame_battle_bubble.png",
+                "name": "bg"
+              },
+              "compId": 234
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 80,
+                "skin": "res_common/headImg_default.png",
+                "name": "icon",
+                "height": 80
+              },
+              "compId": 235,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "width": 80,
+                    "skin": "res_common/pro_mask.png",
+                    "renderType": "mask",
+                    "height": 80
+                  },
+                  "compId": 239
+                }
+              ]
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 7,
+                "x": 90,
+                "width": 216,
+                "text": "玩家名字七个字",
+                "stroke": 2,
+                "overflow": "hidden",
+                "name": "name",
+                "fontSize": 30,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "bold": true,
+                "align": "center"
+              },
+              "compId": 236
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 50,
+                "x": 145,
+                "value": "10",
+                "spaceX": -16,
+                "skin": "res_common/number/num_28_jxzk_ffde80_stk_3.png",
+                "sheet": "0123456789",
+                "name": "win",
+                "align": "center"
+              },
+              "compId": 237,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "x": -38,
+                    "skin": "netRes/arenaN/text_sheng_purple.png"
+                  },
+                  "compId": 240
+                }
+              ]
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 50,
+                "x": 250,
+                "value": "3",
+                "skin": "res_common/number/num_28_jxzk_a1b9ff_stk_3.png",
+                "sheet": "0123456789",
+                "name": "lose"
+              },
+              "compId": 238,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": -38,
+                    "skin": "netRes/arenaN/text_bai.png"
+                  },
+                  "compId": 241
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 376,
+            "x": 296.5,
+            "visible": true,
+            "var": "enemy6",
+            "alpha": 0.25
+          },
+          "compId": 108,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -22,
+                "x": -13,
+                "skin": "netRes/arenaN/frame_battle_bubble.png",
+                "name": "bg"
+              },
+              "compId": 242
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 80,
+                "skin": "res_common/headImg_default.png",
+                "name": "icon",
+                "height": 80
+              },
+              "compId": 243,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "width": 80,
+                    "skin": "res_common/pro_mask.png",
+                    "renderType": "mask",
+                    "height": 80
+                  },
+                  "compId": 247
+                }
+              ]
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 7,
+                "x": 90,
+                "width": 216,
+                "text": "玩家名字七个字",
+                "stroke": 2,
+                "overflow": "hidden",
+                "name": "name",
+                "fontSize": 30,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "bold": true,
+                "align": "center"
+              },
+              "compId": 244
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 50,
+                "x": 145,
+                "value": "10",
+                "spaceX": -16,
+                "skin": "res_common/number/num_28_jxzk_ffde80_stk_3.png",
+                "sheet": "0123456789",
+                "name": "win",
+                "align": "center"
+              },
+              "compId": 245,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "x": -38,
+                    "skin": "netRes/arenaN/text_sheng_purple.png"
+                  },
+                  "compId": 248
+                }
+              ]
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 50,
+                "x": 250,
+                "value": "3",
+                "skin": "res_common/number/num_28_jxzk_a1b9ff_stk_3.png",
+                "sheet": "0123456789",
+                "name": "lose"
+              },
+              "compId": 246,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": -38,
+                    "skin": "netRes/arenaN/text_bai.png"
+                  },
+                  "compId": 249
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "var": "rwdBox",
+        "mouseThrough": false,
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 126,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 672,
+            "x": 375,
+            "width": 1000,
+            "var": "shadowImg",
+            "skin": "res_common/bg.png",
+            "height": 1625,
+            "anchorY": 0.5,
+            "anchorX": 0.5,
+            "alpha": 0.6
+          },
+          "compId": 127
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 254,
+            "x": 0,
+            "width": 750,
+            "name": "posBox",
+            "height": 750
+          },
+          "compId": 129,
+          "child": [
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 170,
+                "x": 160,
+                "var": "pos5_5"
+              },
+              "compId": 132
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 126,
+                "x": 500,
+                "var": "pos5_4"
+              },
+              "compId": 133
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 431,
+                "x": 623,
+                "var": "pos5_3"
+              },
+              "compId": 134
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 681,
+                "x": 410,
+                "var": "pos5_2"
+              },
+              "compId": 135
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 501,
+                "x": 125,
+                "var": "pos5_1"
+              },
+              "compId": 136
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 140,
+                "x": 187,
+                "var": "pos4_4"
+              },
+              "compId": 137
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 139,
+                "x": 589,
+                "var": "pos4_3"
+              },
+              "compId": 138
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 535,
+                "x": 580,
+                "var": "pos4_2"
+              },
+              "compId": 139
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 551,
+                "x": 187,
+                "var": "pos4_1"
+              },
+              "compId": 141
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 132,
+                "x": 389,
+                "var": "pos3_3"
+              },
+              "compId": 142
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 551,
+                "x": 613,
+                "var": "pos3_2"
+              },
+              "compId": 143
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 559,
+                "x": 153,
+                "var": "pos3_1"
+              },
+              "compId": 144
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 235,
+                "x": 167,
+                "var": "pos2_1"
+              },
+              "compId": 145
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 509,
+                "x": 590,
+                "var": "pos2_2"
+              },
+              "compId": 146
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 369,
+                "x": 375,
+                "var": "pos1_1"
+              },
+              "compId": 147
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 254,
+            "x": 0,
+            "width": 750,
+            "var": "box",
+            "height": 750
+          },
+          "compId": 128,
+          "child": [
+            {
+              "type": "RwdBoxItem",
+              "props": {
+                "y": 369,
+                "x": 375,
+                "scaleY": 0,
+                "scaleX": 0,
+                "runtime": "ui.component.RwdBoxItemUI"
+              },
+              "compId": 153
+            }
+          ]
+        },
+        {
+          "type": "Button",
+          "props": {
+            "y": 1112,
+            "width": 173,
+            "visible": false,
+            "var": "okBtn",
+            "stateNum": 1,
+            "skin": "res_common/common_btn_big_yellow.png",
+            "labelStroke": 2,
+            "labelSize": 30,
+            "labelFont": "Microsoft YaHei",
+            "labelColors": "#ffffff",
+            "labelBold": true,
+            "label": "确  定",
+            "height": 69,
+            "centerX": 0
+          },
+          "compId": 149
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 586,
+            "width": 750,
+            "visible": false,
+            "var": "nextBox",
+            "height": 902,
+            "centerX": 0
+          },
+          "compId": 159,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "y": 598,
+                "x": 270,
+                "text": "点 击 空 白 处 继 续",
+                "stroke": 2,
+                "fontSize": 24,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "centerX": 0,
+                "bold": true
+              },
+              "compId": 158
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "visible": false,
+        "var": "divisionBox",
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 156
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "visible": false,
+        "var": "recordBox",
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 154
+    },
+    {
+      "type": "Script",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "uiBox": "@node:18",
+        "tipsPanel": "@node:47",
+        "tipsMask": "@node:46",
+        "subHpPrefab": "@Prefab:prefab/MonsterDieTip.prefab",
+        "specialStageBox": "@node:342",
+        "shopBg": "@node:341",
+        "selectBg": "@node:5",
+        "saveBtn": "@node:366",
+        "rolePrefab": "@Prefab:prefab/Monster.prefab",
+        "recordBox": "@node:154",
+        "progress": "@node:43",
+        "proLab": "@node:252",
+        "mapTopBox": "@node:30",
+        "mapCenterBox": "@node:11",
+        "mapBox": "@node:7",
+        "mapBotBox": "@node:8",
+        "mapBg": "@node:197",
+        "hpBox": "@node:31",
+        "hpBarPrefab": "@Prefab:prefab/HpBar.prefab",
+        "heroPrefab": "@Prefab:prefab/Hero.prefab",
+        "failBtn": "@node:365",
+        "equipPrefab": "@Prefab:prefab/EquipItem.prefab",
+        "divisionBox": "@node:156",
+        "confirmBtn": "@node:195",
+        "runtime": "game/script/arena/ACMain.ts"
+      },
+      "compId": 40
+    },
+    {
+      "type": "Script",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "uiBox": "@node:18",
+        "mapBg": "@node:197",
+        "contentBox": "@node:4",
+        "bgSign": "@node:198",
+        "runtime": "game/script/arena/ACMap.ts"
+      },
+      "compId": 60
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 63,
+          "keyframes": {
+            "x": [
+              {
+                "value": 63,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 63,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 63,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 63,
+                "key": "x",
+                "index": 60
+              },
+              {
+                "value": 210,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 63,
+                "key": "x",
+                "index": 72
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 63,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 63,
+                "key": "alpha",
+                "index": 3
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 63,
+                "key": "alpha",
+                "index": 60
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 63,
+                "key": "alpha",
+                "index": 72
+              }
+            ]
+          }
+        },
+        {
+          "target": 71,
+          "keyframes": {
+            "x": [
+              {
+                "value": 375,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 71,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 375,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 71,
+                "key": "x",
+                "index": 7
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 71,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 71,
+                "key": "scaleY",
+                "index": 7
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 71,
+                "key": "scaleY",
+                "index": 12
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 71,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 71,
+                "key": "scaleX",
+                "index": 7
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 71,
+                "key": "scaleX",
+                "index": 12
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 71,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 71,
+                "label": "vsShow",
+                "key": "alpha",
+                "index": 7
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 71,
+                "key": "alpha",
+                "index": 12
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 71,
+                "key": "alpha",
+                "index": 60
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 71,
+                "key": "alpha",
+                "index": 72
+              }
+            ]
+          }
+        },
+        {
+          "target": 73,
+          "keyframes": {
+            "x": [
+              {
+                "value": 400,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 73,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 73,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 73,
+                "label": "headRoll",
+                "key": "visible",
+                "index": 15
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 73,
+                "key": "visible",
+                "index": 16
+              }
+            ]
+          }
+        },
+        {
+          "target": 80,
+          "keyframes": {
+            "x": [
+              {
+                "value": 400,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 80,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 80,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 80,
+                "label": "headRoll",
+                "key": "visible",
+                "index": 16
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 80,
+                "key": "visible",
+                "index": 18
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 80,
+                "key": "alpha",
+                "index": 0
+              }
+            ]
+          }
+        },
+        {
+          "target": 87,
+          "keyframes": {
+            "x": [
+              {
+                "value": 400,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 87,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 87,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 87,
+                "label": "headRoll",
+                "key": "visible",
+                "index": 18
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 87,
+                "key": "visible",
+                "index": 21
+              }
+            ]
+          }
+        },
+        {
+          "target": 94,
+          "keyframes": {
+            "x": [
+              {
+                "value": 400,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 94,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 94,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 94,
+                "label": "headRoll",
+                "key": "visible",
+                "index": 21
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 94,
+                "key": "visible",
+                "index": 25
+              }
+            ]
+          }
+        },
+        {
+          "target": 101,
+          "keyframes": {
+            "x": [
+              {
+                "value": 400,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 101,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 101,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 101,
+                "label": "headRoll",
+                "key": "visible",
+                "index": 25
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 101,
+                "key": "visible",
+                "index": 30
+              }
+            ]
+          }
+        },
+        {
+          "target": 108,
+          "keyframes": {
+            "x": [
+              {
+                "value": 400,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 108,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 400,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 108,
+                "key": "x",
+                "index": 60
+              },
+              {
+                "value": 262,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 108,
+                "key": "x",
+                "index": 72
+              }
+            ],
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 108,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 108,
+                "label": "headRoll",
+                "key": "visible",
+                "index": 30
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 108,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 108,
+                "key": "alpha",
+                "index": 60
+              },
+              {
+                "value": 0.25,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 108,
+                "label": "enemyShow",
+                "key": "alpha",
+                "index": 69
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 108,
+                "key": "alpha",
+                "index": 72
+              }
+            ]
+          }
+        }
+      ],
+      "name": "matchAni",
+      "id": 1,
+      "frameRate": 30,
+      "action": 0
+    }
+  ],
+  "loadList": [
+    "netRes/combat/map/1.jpg",
+    "res_combat/public/cell.png",
+    "prefab/HeroIcon2.prefab",
+    "res_common/solt_profile_blue.png",
+    "component/ACTopInfo.scene",
+    "component/ACRingList.scene",
+    "component/ACMonsterList.scene",
+    "component/ACEquipList.scene",
+    "res_combat/public/plist_zmsjszs+1.png",
+    "res_common/bg_1.png",
+    "component/RwdBoxItem.scene",
+    "prefab/MonsterDieTip.prefab",
+    "prefab/Monster.prefab",
+    "prefab/HpBar.prefab",
+    "prefab/Hero.prefab",
+    "prefab/EquipItem.prefab"
+  ],
+  "loadList3D": []
+}

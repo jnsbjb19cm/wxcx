@@ -1,0 +1,35 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "runtime": "game/view/component/MainBattleDetail.ts",
+    "height": 1150
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "var": "viewStack",
+        "top": 0,
+        "right": 0,
+        "left": 0,
+        "height": 1150,
+        "bottom": 0
+      },
+      "compId": 44,
+      "child": [
+        {
+          "type": "MainZoneDetail",
+          "props": {
+            "runtime": "game/view/component/MainZoneDetail.ts"
+          },
+          "compId": 45
+        }
+      ]
+    }
+  ],
+  "loadList": ["component/MainZoneDetail.scene"],
+  "loadList3D": []
+}

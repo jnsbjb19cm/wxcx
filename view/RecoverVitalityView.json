@@ -1,0 +1,276 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "x": -84,
+        "width": 874,
+        "visible": true,
+        "var": "recovery_vitality",
+        "height": 1358,
+        "centerY": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": 56,
+            "width": 810,
+            "var": "r_vmaskbg",
+            "skin": "res_common/bg.png",
+            "height": 1558,
+            "alpha": 0.45
+          },
+          "compId": 4
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 439,
+            "x": 154
+          },
+          "compId": 5,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 14,
+                "width": 606,
+                "var": "r_bg",
+                "skin": "res_common/bg_1.png",
+                "height": 425
+              },
+              "compId": 6
+            },
+            {
+              "type": "Image",
+              "props": {
+                "x": 516,
+                "var": "r_close",
+                "skin": "res_common/btn_close.png"
+              },
+              "compId": 7
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 69,
+                "x": 165,
+                "skin": "netRes/task/bg_title01.png"
+              },
+              "compId": 8,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 10.5,
+                    "x": 79.5,
+                    "skin": "res_view/children/title_hfhl.png"
+                  },
+                  "compId": 9
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 122,
+                "x": 110,
+                "skin": "res_view/children/icon_huolidan.png"
+              },
+              "compId": 10
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 299,
+                "x": 357,
+                "width": 158,
+                "var": "free_btn",
+                "skin": "res_common/btn_yellow.png",
+                "height": 72
+              },
+              "compId": 11,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 20.5,
+                    "x": 17,
+                    "skin": "res_common/icon_camera.png"
+                  },
+                  "compId": 12
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 19.5,
+                    "x": 71,
+                    "skin": "res_view/children/btn_mf.png"
+                  },
+                  "compId": 13
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 299,
+                "x": 89,
+                "width": 158,
+                "var": "use_btn",
+                "skin": "res_common/btn_blue.png",
+                "height": 72
+              },
+              "compId": 14,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 19.5,
+                    "x": 41.5,
+                    "skin": "res_view/children/btn_sy.png"
+                  },
+                  "compId": 15
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 276,
+                "x": 366,
+                "skin": "res_view/children/texe_hfdhl.png"
+              },
+              "compId": 16,
+              "child": [
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": -7,
+                    "x": 37.5,
+                    "var": "ad_recovery",
+                    "value": "10",
+                    "spaceX": -4,
+                    "skin": "res_common/number/num_24_jxzk_008f10.png",
+                    "sheet": "0123456789"
+                  },
+                  "compId": 17
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 276,
+                "x": 98,
+                "skin": "res_view/children/texe_hfdhl.png"
+              },
+              "compId": 18,
+              "child": [
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": -5,
+                    "x": 48.5,
+                    "var": "prop_recovery",
+                    "value": "5",
+                    "skin": "res_common/number/num_24_jxzk_008f10.png",
+                    "sheet": "0123456789"
+                  },
+                  "compId": 19
+                }
+              ]
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 376,
+                "x": 366,
+                "width": 151,
+                "var": "daycount",
+                "text": "今日限次(3/3)",
+                "height": 23,
+                "fontSize": 22,
+                "font": "SimHei",
+                "color": "#8a6c6c"
+              },
+              "compId": 20
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 371,
+                "x": 82,
+                "width": 28,
+                "height": 33
+              },
+              "compId": 21,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 7,
+                    "x": 35,
+                    "width": 53,
+                    "text": "拥有：",
+                    "height": 23,
+                    "fontSize": 22,
+                    "font": "SimHei",
+                    "color": "#8a6c6c"
+                  },
+                  "compId": 22
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 7,
+                    "x": 95,
+                    "width": 40,
+                    "var": "have_num",
+                    "text": "0",
+                    "height": 23,
+                    "fontSize": 22,
+                    "font": "SimHei",
+                    "color": "#e05252"
+                  },
+                  "compId": 23
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 433,
+                "x": 167,
+                "skin": "res_view/rank/text_djgb.png"
+              },
+              "compId": 24
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 131,
+                "x": 359,
+                "width": 158,
+                "skin": "res_view/children/icon_huolidan2.png",
+                "height": 125
+              },
+              "compId": 25
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": ["res_common/bg_1.png"],
+  "loadList3D": []
+}

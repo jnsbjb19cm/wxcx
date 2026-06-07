@@ -1,0 +1,233 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1650,
+        "centerY": 0,
+        "centerX": 0,
+        "alpha": 0.6
+      },
+      "compId": 5
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "var": "content",
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Panel",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "width": 750,
+            "var": "halfbodyPanel",
+            "height": 1185
+          },
+          "compId": 20
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 515,
+            "x": -125,
+            "var": "maskPro",
+            "skin": "res_view/monsterDetail/img_CP_new05.png",
+            "mouseEnabled": false,
+            "centerX": 0
+          },
+          "compId": 19
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 194,
+            "x": 62,
+            "skin": "res_view/voteActivity/img_yx_name.png",
+            "sizeGrid": "118,0,207,0",
+            "height": 342
+          },
+          "compId": 7,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "x": 21,
+                "wordWrap": true,
+                "width": 35,
+                "var": "beautyName",
+                "text": "凌无忧",
+                "leading": 10,
+                "fontSize": 35,
+                "font": "Microsoft YaHei",
+                "color": "#eaddbb",
+                "centerY": -15,
+                "align": "center"
+              },
+              "compId": 8
+            },
+            {
+              "type": "Image",
+              "props": {
+                "x": 82,
+                "width": 32,
+                "visible": false,
+                "skin": "res_view/voteActivity/label_hero_purple.png",
+                "sizeGrid": "28,0,40,0",
+                "height": 175,
+                "bottom": 30
+              },
+              "compId": 9,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "wordWrap": true,
+                    "width": 22,
+                    "var": "skinName",
+                    "text": "这这这这",
+                    "fontSize": 22,
+                    "font": "SimHei",
+                    "color": "#ffffff",
+                    "centerY": 0,
+                    "centerX": 0
+                  },
+                  "compId": 16
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 990,
+            "x": 17,
+            "skin": "res_view/voteActivity/panel_mexq.png"
+          },
+          "compId": 10,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "x": 37.5,
+                "wordWrap": true,
+                "width": 641,
+                "var": "desc",
+                "valign": "middle",
+                "text": "凌凌无忧解锁新下【强森】好感度可解锁\\n预计与仙师会面时间:2025.9.25",
+                "leading": 22,
+                "height": 140,
+                "fontSize": 32,
+                "font": "SimHei",
+                "color": "#d0c7bc",
+                "centerY": 6,
+                "align": "center"
+              },
+              "compId": 18
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 1194,
+            "x": 239.5,
+            "text": "text",
+            "skin": "res_common/text_djgb.png"
+          },
+          "compId": 11
+        },
+        {
+          "type": "Sprite",
+          "props": {
+            "y": 15,
+            "x": -15,
+            "texture": "res_view/voteActivity/title_mrhgdpxjg.png"
+          },
+          "compId": 12
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 154,
+            "width": 501,
+            "skin": "res_view/invite/panel_mz_2.png",
+            "height": 40,
+            "centerX": 0
+          },
+          "compId": 13,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "y": 5,
+                "var": "activityTime",
+                "text": "9月9日~9月23日",
+                "fontSize": 30,
+                "font": "Microsoft YaHei",
+                "color": "#fffaed",
+                "centerX": 0
+              },
+              "compId": 15
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 1188,
+            "x": 0,
+            "width": 750,
+            "var": "botClose",
+            "height": 300
+          },
+          "compId": 21,
+          "child": [
+            {
+              "type": "Rect",
+              "props": {
+                "width": 750,
+                "renderType": "hit",
+                "lineWidth": 1,
+                "height": 300,
+                "fillColor": "#ff0000"
+              },
+              "compId": 23
+            },
+            {
+              "type": "Rect",
+              "props": {
+                "y": -1279,
+                "x": 0,
+                "width": 750,
+                "renderType": "hit",
+                "lineWidth": 1,
+                "height": 138,
+                "fillColor": "#ff0000"
+              },
+              "compId": 24
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": ["res_view/voteActivity/title_mrhgdpxjg.png"],
+  "loadList3D": []
+}

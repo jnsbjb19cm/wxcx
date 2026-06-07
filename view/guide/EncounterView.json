@@ -1,0 +1,73 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "var": "maskBg",
+        "top": 0,
+        "skin": "res_common/bg.png",
+        "right": 0,
+        "left": 0,
+        "bottom": 0,
+        "alpha": 0.5
+      },
+      "compId": 12
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "y": 565,
+            "x": 375,
+            "width": 750,
+            "var": "showBox",
+            "height": 850,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 5,
+          "child": [
+            {
+              "type": "SkeletonPlayer",
+              "props": {
+                "y": 1181,
+                "x": 424,
+                "url": "res_view/guide/spine/SMXH.sk",
+                "runtime": "Laya.Skeleton"
+              },
+              "compId": 26
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 1138,
+            "x": 239,
+            "var": "tips",
+            "text": "text",
+            "skin": "res_common/text_djgb.png"
+          },
+          "compId": 10
+        }
+      ]
+    }
+  ],
+  "loadList": ["res_view/guide/spine/SMXH.sk"],
+  "loadList3D": []
+}

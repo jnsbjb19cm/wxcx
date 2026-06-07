@@ -1,0 +1,341 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 750,
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 26,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 668,
+            "x": 375,
+            "width": 1000,
+            "var": "maskbg",
+            "skin": "res_common/bg.png",
+            "height": 1650,
+            "centerY": 0,
+            "centerX": 0,
+            "anchorY": 0.5,
+            "anchorX": 0.5,
+            "alpha": 0.6
+          },
+          "compId": 27
+        },
+        {
+          "type": "Image",
+          "props": {
+            "visible": true,
+            "skin": "res_view/equipDetail/panel_2.png",
+            "centerY": -82,
+            "centerX": 0
+          },
+          "compId": 28,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 5,
+                "x": 522,
+                "var": "closebtn",
+                "skin": "res_common/btn_close.png"
+              },
+              "compId": 29
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 102,
+                "skin": "res_common/bg_title01.png",
+                "centerX": 0
+              },
+              "compId": 30,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "res_common/text_fenxiang.png",
+                    "centerY": -4,
+                    "centerX": 0
+                  },
+                  "compId": 31
+                }
+              ]
+            },
+            {
+              "type": "HBox",
+              "props": {
+                "y": 200,
+                "centerX": 0
+              },
+              "compId": 32,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": -1,
+                    "x": 0,
+                    "text": "你要将",
+                    "stroke": 0,
+                    "fontSize": 26,
+                    "font": "Microsoft YaHei",
+                    "color": "#684546",
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 33
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": -1,
+                    "x": 1,
+                    "var": "content",
+                    "text": "[装备最多七个字]",
+                    "stroke": 0,
+                    "fontSize": 26,
+                    "font": "Microsoft YaHei",
+                    "color": "#e238d0",
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 34
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": -1,
+                    "x": 2,
+                    "text": "分享到",
+                    "stroke": 0,
+                    "fontSize": 26,
+                    "font": "Microsoft YaHei",
+                    "color": "#684546",
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 35
+                }
+              ]
+            },
+            {
+              "type": "HBox",
+              "props": {
+                "y": 270,
+                "space": 50,
+                "name": "btnBox",
+                "centerX": 6
+              },
+              "compId": 36,
+              "child": [
+                {
+                  "type": "Button",
+                  "props": {
+                    "y": 0,
+                    "width": 211,
+                    "var": "platformShare",
+                    "stateNum": 1,
+                    "skin": "res_common/btn_blue.png",
+                    "labelStroke": 2,
+                    "labelSize": 30,
+                    "labelFont": "Microsoft YaHei",
+                    "labelColors": "#ffffff",
+                    "labelBold": true,
+                    "height": 73
+                  },
+                  "compId": 37,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 21,
+                        "x": 61,
+                        "skin": "res_common/text_haoyou.png"
+                      },
+                      "compId": 38
+                    }
+                  ]
+                },
+                {
+                  "type": "Button",
+                  "props": {
+                    "y": 0,
+                    "width": 211,
+                    "var": "chatShare",
+                    "stateNum": 1,
+                    "skin": "res_common/btn_yellow.png",
+                    "labelStroke": 2,
+                    "labelSize": 30,
+                    "labelFont": "Microsoft YaHei",
+                    "labelColors": "#ffffff",
+                    "labelBold": true,
+                    "height": 72
+                  },
+                  "compId": 39,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 21,
+                        "x": 53,
+                        "skin": "res_common/text_liaotian.png"
+                      },
+                      "compId": 40
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 342,
+                "x": 348,
+                "width": 200,
+                "visible": false,
+                "var": "choseBox",
+                "height": 100
+              },
+              "compId": 53,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 11,
+                    "x": -12,
+                    "text": "text",
+                    "skin": "res_view/lianyin/text_pd.png"
+                  },
+                  "compId": 54
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 6,
+                    "x": 54,
+                    "var": "chosebtn",
+                    "skin": "res_view/lianyin/panel_gd.png"
+                  },
+                  "compId": 43,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 4.5,
+                        "x": 116,
+                        "var": "openchose",
+                        "skin": "res_view/lianyin/btn_team_extension (2).png"
+                      },
+                      "compId": 45
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 5.5,
+                        "x": 29,
+                        "var": "curchose",
+                        "skin": "res_view/lianyin/text_shijie.png"
+                      },
+                      "compId": 46
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 31,
+                    "x": 54,
+                    "width": 115,
+                    "visible": false,
+                    "var": "chose_box",
+                    "height": 109
+                  },
+                  "compId": 44,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 8,
+                        "x": 0,
+                        "var": "chose_1",
+                        "skin": "res_view/lianyin/panel_gd (2).png"
+                      },
+                      "compId": 47,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 5,
+                            "x": 30,
+                            "skin": "res_view/lianyin/text_benfu.png"
+                          },
+                          "compId": 48
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 41,
+                        "x": 0,
+                        "var": "chose_2",
+                        "skin": "res_view/lianyin/panel_gd (2).png"
+                      },
+                      "compId": 49,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 5.5,
+                            "x": 30.5,
+                            "skin": "res_view/lianyin/text_shijie.png"
+                          },
+                          "compId": 50
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "visible": false,
+                "skin": "res_common/text_djgb.png",
+                "centerY": 190,
+                "centerX": 0
+              },
+              "compId": 41
+            },
+            {
+              "type": "Image",
+              "props": {
+                "text": "text",
+                "skin": "res_common/text_djgb.png",
+                "centerX": 0,
+                "bottom": -75
+              },
+              "compId": 42
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

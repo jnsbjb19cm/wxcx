@@ -1,0 +1,532 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": true,
+    "height": 1344,
+    "drawCallOptimize": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 672,
+        "x": 375,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 58
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "var": "contentBox",
+        "mouseThrough": true,
+        "height": 1140,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Sprite",
+          "props": {
+            "y": 0,
+            "x": 36,
+            "width": 679,
+            "texture": "res_common/bg_1.png",
+            "height": 1044
+          },
+          "compId": 133
+        },
+        {
+          "type": "List",
+          "props": {
+            "y": 1014,
+            "width": 575,
+            "var": "tabList",
+            "spaceX": 50,
+            "selectedIndex": 1,
+            "selectEnable": true,
+            "repeatY": 1,
+            "repeatX": 2,
+            "mouseThrough": true,
+            "mouseEnabled": true,
+            "height": 123,
+            "centerX": 0
+          },
+          "compId": 122,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "x": 0,
+                "width": 265,
+                "renderType": "render",
+                "mouseThrough": true,
+                "mouseEnabled": true,
+                "height": 122,
+                "centerY": 0
+              },
+              "compId": 124,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "width": 215,
+                    "skin": "res_common/btn_big_green.png",
+                    "name": "tabBg",
+                    "height": 96,
+                    "centerY": 0,
+                    "centerX": 0
+                  },
+                  "compId": 125
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "text": "兵  种",
+                    "stroke": 2,
+                    "name": "tabName",
+                    "fontSize": 35,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "centerY": 0,
+                    "centerX": 0,
+                    "bold": true
+                  },
+                  "compId": 132
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ViewStack",
+          "props": {
+            "y": 56,
+            "x": 69,
+            "width": 618,
+            "var": "viewStack",
+            "selectedIndex": 0,
+            "height": 916
+          },
+          "compId": 123,
+          "child": [
+            {
+              "type": "List",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 617,
+                "var": "monsterList",
+                "vScrollBarSkin": "comp/vscroll.png",
+                "name": "item0",
+                "height": 926
+              },
+              "compId": 139,
+              "child": [
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "width": 100,
+                    "renderType": "render",
+                    "mouseThrough": true,
+                    "height": 191
+                  },
+                  "compId": 148,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 150,
+                        "width": 46,
+                        "skin": "res_common/btn_hua_blue_s.png",
+                        "name": "getBtn1",
+                        "mouseThrough": false,
+                        "left": 3,
+                        "label": "label",
+                        "height": 40
+                      },
+                      "compId": 149,
+                      "child": [
+                        {
+                          "type": "Label",
+                          "props": {
+                            "text": "敌",
+                            "stroke": 2,
+                            "fontSize": 25,
+                            "font": "Microsoft YaHei",
+                            "color": "#ffffff",
+                            "centerY": 0,
+                            "centerX": 0,
+                            "bold": true
+                          },
+                          "compId": 150
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 150,
+                        "width": 46,
+                        "skin": "res_common/btn_hua_green_m.png",
+                        "right": 3,
+                        "name": "getBtn2",
+                        "mouseThrough": false,
+                        "label": "label",
+                        "height": 40
+                      },
+                      "compId": 151,
+                      "child": [
+                        {
+                          "type": "Label",
+                          "props": {
+                            "text": "我",
+                            "stroke": 2,
+                            "fontSize": 25,
+                            "font": "Microsoft YaHei",
+                            "color": "#ffffff",
+                            "centerY": 0,
+                            "centerX": 0,
+                            "bold": true
+                          },
+                          "compId": 152
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 24,
+                        "text": "Label",
+                        "name": "desc",
+                        "fontSize": 20,
+                        "font": "Microsoft YaHei",
+                        "color": "#000000",
+                        "centerX": 0,
+                        "bold": true
+                      },
+                      "compId": 167
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "List",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 620,
+                "var": "equipList",
+                "vScrollBarSkin": "comp/vscroll.png",
+                "spaceY": 20,
+                "spaceX": 36,
+                "name": "item1",
+                "height": 868
+              },
+              "compId": 140,
+              "child": [
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "width": 97,
+                    "renderType": "render",
+                    "height": 140
+                  },
+                  "compId": 147,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "width": 74,
+                        "scaleY": 1.2,
+                        "scaleX": 1.2,
+                        "presetID": 1,
+                        "name": "equipItem",
+                        "mouseEnabled": true,
+                        "height": 74,
+                        "isPresetRoot": true,
+                        "cacheAs": "bitmap"
+                      },
+                      "compId": 142,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "width": 70,
+                            "top": 2,
+                            "presetID": 6,
+                            "left": 2,
+                            "height": 70,
+                            "name": "icon",
+                            "centerY": 0,
+                            "centerX": 0,
+                            "anchorY": 0.5,
+                            "anchorX": 0.5
+                          },
+                          "compId": 143
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "scaleY": 0.43,
+                            "scaleX": 0.43,
+                            "presetID": 4,
+                            "y": 92,
+                            "x": 92,
+                            "width": 188,
+                            "skin": "res_common/equip_rank_blue.png",
+                            "sizeGrid": "34,42,35,29",
+                            "name": "iconK",
+                            "height": 183,
+                            "centerY": 0,
+                            "centerX": 0,
+                            "anchorY": 0.5,
+                            "anchorX": 0.5
+                          },
+                          "compId": 144
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "presetID": 7,
+                            "width": 188,
+                            "visible": false,
+                            "skin": "res_common/equip_b.png",
+                            "name": "iconAwkPoint",
+                            "height": 183,
+                            "centerY": 0,
+                            "centerX": 0,
+                            "anchorY": 0.5,
+                            "anchorX": 0.5,
+                            "y": 92,
+                            "x": 92,
+                            "sizeGrid": "34,42,35,29"
+                          },
+                          "compId": 158
+                        },
+                        {
+                          "type": "Box",
+                          "props": {
+                            "presetID": 8,
+                            "y": 82,
+                            "x": 91,
+                            "visible": false,
+                            "name": "award"
+                          },
+                          "compId": 163,
+                          "child": [
+                            {
+                              "type": "Animation",
+                              "props": {
+                                "presetID": 9,
+                                "source": "ani/albumAward.ani"
+                              },
+                              "compId": 164
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 100,
+                        "x": 10,
+                        "width": 76,
+                        "skin": "res_common/btn_big_green.png",
+                        "name": "getBtn",
+                        "label": "label",
+                        "height": 40
+                      },
+                      "compId": 146,
+                      "child": [
+                        {
+                          "type": "Label",
+                          "props": {
+                            "text": "获取",
+                            "stroke": 2,
+                            "fontSize": 25,
+                            "font": "Microsoft YaHei",
+                            "color": "#ffffff",
+                            "centerY": 0,
+                            "centerX": 0,
+                            "bold": true
+                          },
+                          "compId": 145
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "width": 159,
+            "var": "addExp",
+            "skin": "res_common/btn_big_green.png",
+            "height": 96,
+            "centerY": 613,
+            "centerX": -156
+          },
+          "compId": 154,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "text": "exp+",
+                "stroke": 2,
+                "name": "tabName",
+                "fontSize": 35,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "centerY": 0,
+                "centerX": 0,
+                "bold": true
+              },
+              "compId": 155
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "width": 151,
+            "var": "passZoneBtn",
+            "skin": "res_common/btn_big_green.png",
+            "height": 96,
+            "centerY": 613,
+            "centerX": 156
+          },
+          "compId": 156,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "text": "直通副本",
+                "stroke": 2,
+                "name": "tabName",
+                "fontSize": 35,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "centerY": 0,
+                "centerX": 0,
+                "bold": true
+              },
+              "compId": 157
+            },
+            {
+              "type": "Rect",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 154,
+                "renderType": "hit",
+                "lineWidth": 1,
+                "height": 100,
+                "fillColor": "#ff0000"
+              },
+              "compId": 166
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "width": 151,
+            "visible": false,
+            "var": "allPassBtn",
+            "skin": "res_common/btn_big_green.png",
+            "height": 96,
+            "centerY": 613,
+            "centerX": -101
+          },
+          "compId": 159,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "width": 105,
+                "text": "全通关",
+                "stroke": 2,
+                "name": "tabName",
+                "height": 35,
+                "fontSize": 35,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "centerY": 0,
+                "centerX": 0,
+                "bold": true
+              },
+              "compId": 160
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "width": 151,
+            "visible": false,
+            "var": "addChip",
+            "skin": "res_common/btn_big_green.png",
+            "height": 96,
+            "centerY": 613,
+            "centerX": 0
+          },
+          "compId": 161,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "width": 105,
+                "text": "碎片+",
+                "stroke": 2,
+                "name": "tabName",
+                "height": 35,
+                "fontSize": 35,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "centerY": 0,
+                "centerX": 0,
+                "bold": true
+              },
+              "compId": 162
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "res_common/bg_1.png",
+    "comp/vscroll.png",
+    "prefab/EquipItem1.prefab"
+  ],
+  "loadList3D": []
+}

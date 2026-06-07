@@ -1,0 +1,176 @@
+{
+  "type": "View",
+  "props": {
+    "width": 120,
+    "height": 120
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 120,
+        "visible": false,
+        "var": "bg",
+        "skin": "res_common/equip_slot_empty.png",
+        "height": 120
+      },
+      "compId": 3
+    },
+    {
+      "type": "Image",
+      "props": {
+        "width": 120,
+        "visible": false,
+        "var": "qualityImg",
+        "skin": "res_common/equip_slot_orange.png",
+        "height": 120
+      },
+      "compId": 5
+    },
+    {
+      "type": "Image",
+      "props": {
+        "width": 120,
+        "var": "img",
+        "height": 120,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 4
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 60,
+        "x": 60,
+        "width": 100,
+        "visible": false,
+        "var": "cdImg",
+        "skin": "res_common/bg.png",
+        "height": 100,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.5
+      },
+      "compId": 11,
+      "child": [
+        {
+          "type": "Sprite",
+          "props": {
+            "var": "cdMask"
+          },
+          "compId": 15
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 110,
+        "x": 106,
+        "width": 35,
+        "visible": false,
+        "var": "numBg",
+        "skin": "res_common/main_shuzi.png",
+        "scaleY": 0.9,
+        "scaleX": 1,
+        "name": "numBg",
+        "height": 22,
+        "anchorY": 1,
+        "anchorX": 0.88
+      },
+      "compId": 19
+    },
+    {
+      "type": "FontClip",
+      "props": {
+        "y": 102,
+        "x": 101,
+        "width": 46,
+        "visible": false,
+        "var": "numLab",
+        "value": "5",
+        "spaceX": -13,
+        "skin": "res_common/number/num_42_wryh_ffffff_stk_3.png",
+        "sheet": "0123456789",
+        "scaleY": 0.6,
+        "scaleX": 0.6,
+        "right": 19,
+        "name": "numLab",
+        "height": 36,
+        "anchorY": 1,
+        "anchorX": 1,
+        "align": "right"
+      },
+      "compId": 20
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 4,
+        "x": 5,
+        "visible": false,
+        "var": "firstIcon",
+        "text": "label",
+        "skin": "res_view/workshop/label_xin.png"
+      },
+      "compId": 7
+    },
+    {
+      "type": "Sprite",
+      "props": {
+        "y": 22,
+        "x": 18,
+        "visible": false,
+        "var": "isGetIcon",
+        "texture": "res_view/workshop/tag_received.png"
+      },
+      "compId": 8
+    },
+    {
+      "type": "Sprite",
+      "props": {
+        "y": 0,
+        "x": 87,
+        "visible": false,
+        "var": "redPoint",
+        "texture": "main/redpoint.png"
+      },
+      "compId": 9
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 31,
+        "x": 15,
+        "visible": false,
+        "var": "lockImg",
+        "skin": "res_view/workshop/img_lock.png"
+      },
+      "compId": 10
+    },
+    {
+      "type": "FontClip",
+      "props": {
+        "y": 45,
+        "x": -3,
+        "width": 116,
+        "visible": false,
+        "var": "cdLab",
+        "value": "12:34:99",
+        "spaceX": -6,
+        "skin": "res_common/number/num_24_jxzk_f1efe0_stk_1.png",
+        "sheet": "0123456789+-*/:.",
+        "name": "cdLab",
+        "height": 29,
+        "align": "center"
+      },
+      "compId": 17
+    }
+  ],
+  "loadList": ["res_view/workshop/tag_received.png", "main/redpoint.png"],
+  "loadList3D": []
+}

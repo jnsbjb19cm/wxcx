@@ -1,0 +1,146 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": true,
+    "height": 1344,
+    "drawCallOptimize": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 672,
+        "x": 375,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0
+      },
+      "compId": 58
+    },
+    {
+      "type": "Box",
+      "props": {
+        "x": 0,
+        "width": 750,
+        "var": "contentBox",
+        "height": 687,
+        "centerY": -18,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 68,
+            "var": "pic",
+            "skin": "netRes/combat/heroSkill/yx_az/plist_luzi.png",
+            "centerX": 4
+          },
+          "compId": 138
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 248,
+            "width": 446,
+            "var": "equipBox",
+            "height": 314,
+            "centerX": 0
+          },
+          "compId": 145,
+          "child": [
+            {
+              "type": "Sprite",
+              "props": {
+                "y": -4,
+                "x": 0,
+                "var": "iconBg0",
+                "texture": "netRes/combat/heroSkill/yx_az/plist_tub.png"
+              },
+              "compId": 134
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 63.5,
+                "x": 143,
+                "var": "iconBg1",
+                "texture": "netRes/combat/heroSkill/yx_az/plist_tub.png"
+              },
+              "compId": 135
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": -4,
+                "x": 286,
+                "var": "iconBg2",
+                "texture": "netRes/combat/heroSkill/yx_az/plist_tub.png"
+              },
+              "compId": 136
+            }
+          ]
+        },
+        {
+          "type": "Button",
+          "props": {
+            "y": 568,
+            "x": 399,
+            "width": 273,
+            "var": "confirmBtn",
+            "stateNum": 1,
+            "skin": "res_common/btn_yellow.png",
+            "height": 109
+          },
+          "compId": 139,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 31,
+                "x": 61,
+                "skin": "netRes/combat/heroSkill/yx_az/text_btn_liandan.png"
+              },
+              "compId": 147
+            }
+          ]
+        },
+        {
+          "type": "Button",
+          "props": {
+            "y": 568,
+            "x": 82,
+            "width": 275,
+            "var": "closeBtn",
+            "stateNum": 1,
+            "skin": "res_common/btn_blue.png",
+            "height": 108
+          },
+          "compId": 142,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 30.5,
+                "x": 65.5,
+                "skin": "netRes/combat/heroSkill/yx_az/text_btn_quxiao.png"
+              },
+              "compId": 148
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": ["netRes/combat/heroSkill/yx_az/plist_tub.png"],
+  "loadList3D": []
+}

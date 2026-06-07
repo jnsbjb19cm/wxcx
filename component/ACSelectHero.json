@@ -1,0 +1,281 @@
+{
+  "type": "View",
+  "props": {
+    "y": -70,
+    "width": 750,
+    "mouseThrough": true,
+    "height": 1334,
+    "drawCallOptimize": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 375,
+        "width": 750,
+        "var": "contentBox",
+        "mouseThrough": true,
+        "height": 554,
+        "centerX": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -31.5,
+            "var": "title",
+            "skin": "netRes/arenaN/text_xzyx.png",
+            "centerX": 0
+          },
+          "compId": 4
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": -31,
+            "x": -41,
+            "width": 884,
+            "var": "comBox",
+            "height": 642
+          },
+          "compId": 13,
+          "child": [
+            {
+              "type": "List",
+              "props": {
+                "y": 0,
+                "var": "list",
+                "spaceX": 0,
+                "repeatX": 3,
+                "centerX": -29
+              },
+              "compId": 6,
+              "child": [
+                {
+                  "type": "Box",
+                  "props": {
+                    "width": 201,
+                    "renderType": "render",
+                    "height": 670
+                  },
+                  "compId": 7,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 85,
+                        "x": 0,
+                        "skin": "netRes/arenaN/frame_bg.png",
+                        "name": "kuang"
+                      },
+                      "compId": 8
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 446,
+                        "x": 175,
+                        "name": "herobox"
+                      },
+                      "compId": 18,
+                      "child": [
+                        {
+                          "type": "Panel",
+                          "props": {
+                            "y": -333,
+                            "x": -152,
+                            "width": 152,
+                            "name": "imgPanel",
+                            "height": 404
+                          },
+                          "compId": 20,
+                          "child": [
+                            {
+                              "type": "Image",
+                              "props": {
+                                "y": -27.5,
+                                "x": -24,
+                                "visible": true,
+                                "var": "skmask",
+                                "skin": "netRes/arenaN/frame_bg.png",
+                                "name": "skmask"
+                              },
+                              "compId": 24
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 87,
+                        "x": 0,
+                        "skin": "netRes/arenaN/slot_blue.png",
+                        "name": "botton"
+                      },
+                      "compId": 17
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 496,
+                        "x": 100,
+                        "name": "heroboxQ",
+                        "anchorY": 1,
+                        "anchorX": 0.5
+                      },
+                      "compId": 9
+                    },
+                    {
+                      "type": "Sprite",
+                      "props": {
+                        "y": 191,
+                        "x": 59,
+                        "visible": false,
+                        "texture": "res_common/lock.png",
+                        "scaleY": 0.4,
+                        "scaleX": 0.4,
+                        "name": "lockIcon"
+                      },
+                      "compId": 10
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 537,
+                        "x": -12,
+                        "wordWrap": true,
+                        "width": 220,
+                        "text": "江东父老",
+                        "strokeColor": "#000000",
+                        "stroke": 2,
+                        "name": "heroName",
+                        "leading": 5,
+                        "height": 23,
+                        "fontSize": 24,
+                        "font": "Microsoft YaHei",
+                        "color": "#ffffff",
+                        "bold": true,
+                        "align": "center"
+                      },
+                      "compId": 11
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 618,
+                        "x": 101,
+                        "width": 180,
+                        "skin": "netRes/arenaN/btn_gg.png",
+                        "name": "chooseBtn",
+                        "height": 90,
+                        "anchorY": 0.5,
+                        "anchorX": 0.5
+                      },
+                      "compId": 15,
+                      "child": [
+                        {
+                          "type": "Sprite",
+                          "props": {
+                            "y": 18,
+                            "x": 55,
+                            "texture": "netRes/arenaN/text_xz.png"
+                          },
+                          "compId": 16
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 242.5,
+                        "x": 24,
+                        "visible": false,
+                        "var": "ban",
+                        "skin": "netRes/arenaN/icon_common_lock03.png",
+                        "name": "ban"
+                      },
+                      "compId": 25
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 4,
+          "keyframes": {
+            "y": [
+              {
+                "value": 10,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 4,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 10,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 4,
+                "key": "y",
+                "index": 10
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 4,
+                "key": "y",
+                "index": 15
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 4,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 4,
+                "key": "alpha",
+                "index": 10
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 4,
+                "key": "alpha",
+                "index": 15
+              }
+            ]
+          }
+        }
+      ],
+      "name": "titleAni",
+      "id": 1,
+      "frameRate": 30,
+      "action": 0
+    }
+  ],
+  "loadList": ["res_common/lock.png", "netRes/arenaN/text_xz.png"],
+  "loadList3D": []
+}

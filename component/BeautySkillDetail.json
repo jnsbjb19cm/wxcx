@@ -1,0 +1,152 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 49,
+        "x": 0,
+        "width": 750,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "name": "maskBg",
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0,
+        "alpha": 0.6
+      },
+      "compId": 3
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 412,
+        "var": "skillBox",
+        "height": 320,
+        "centerY": 49,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -21.5,
+            "x": -41,
+            "width": 498,
+            "skin": "res_main/panel_tips.png",
+            "name": "bg",
+            "height": 223
+          },
+          "compId": 19
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 222,
+            "x": 71,
+            "skin": "res_view/rank/text_djgb.png"
+          },
+          "compId": 18
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 72,
+            "x": -25,
+            "width": 106,
+            "skin": "res_view/monsterDetail/panel_jineng.png",
+            "name": "skillBg",
+            "height": 106
+          },
+          "compId": 7,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "var": "skillIcon",
+                "top": 4,
+                "skin": "netRes/icon/skillsIcon/xx_xtg.png",
+                "right": 5,
+                "left": 6,
+                "bottom": 6
+              },
+              "compId": 8
+            },
+            {
+              "type": "Image",
+              "props": {
+                "x": 0,
+                "visible": false,
+                "var": "lockCom",
+                "skin": "res_view/monsterDetail/text_xjls_2.png",
+                "scaleY": 1.5,
+                "scaleX": 1.5,
+                "centerY": 0,
+                "centerX": 0
+              },
+              "compId": 9
+            }
+          ]
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 56,
+            "x": 93,
+            "width": 242,
+            "var": "skillName",
+            "text": "陨石术",
+            "height": 32,
+            "fontSize": 29,
+            "font": "Microsoft YaHei",
+            "color": "#ffffff"
+          },
+          "compId": 10
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 95,
+            "x": 93,
+            "var": "skillDescBox",
+            "fontSize": 18,
+            "font": "Microsoft YaHei",
+            "color": "#ffd56c"
+          },
+          "compId": 15
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -4,
+            "x": 120,
+            "skin": "netRes/arenaN/bg_house_Information.png",
+            "name": "title"
+          },
+          "compId": 20,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 3.5,
+                "x": 38,
+                "skin": "netRes/arenaN/text_mrtf_2.png"
+              },
+              "compId": 21
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": ["res_main/panel_tips.png"],
+  "loadList3D": []
+}

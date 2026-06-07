@@ -1,0 +1,361 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": true,
+    "height": 1344
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 813,
+        "x": 500,
+        "width": 1000,
+        "var": "maskBg1",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 140
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 219,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "width": 605,
+            "skin": "res_common/bg_common.png",
+            "sizeGrid": "37,0,35,0",
+            "scaleY": 1,
+            "scaleX": 1,
+            "height": 448,
+            "centerY": -5,
+            "centerX": 0
+          },
+          "compId": 149,
+          "child": [
+            {
+              "type": "Sprite",
+              "props": {
+                "y": -20.5,
+                "x": 520,
+                "texture": "res_common/img_common_02.png"
+              },
+              "compId": 239
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": -29,
+                "x": 516,
+                "var": "btn_close",
+                "texture": "res_common/btn_close.png"
+              },
+              "compId": 238
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 44,
+                "skin": "res_common/bg_title01.png",
+                "centerX": 0
+              },
+              "compId": 244,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 8,
+                    "text": "提 示",
+                    "fontSize": 28,
+                    "font": "SimHei",
+                    "color": "#684546",
+                    "centerX": -1,
+                    "bold": false
+                  },
+                  "compId": 245
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 556,
+            "x": 207,
+            "var": "icon",
+            "text": "text",
+            "skin": "res_combat/public/text_hscg.png"
+          },
+          "compId": 221
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 659.5,
+            "width": 260,
+            "text": "text",
+            "centerX": 0
+          },
+          "compId": 222,
+          "child": [
+            {
+              "type": "Sprite",
+              "props": {
+                "y": -1,
+                "x": 1,
+                "texture": "res_combat/public/text_ghs.png"
+              },
+              "compId": 240
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 0,
+                "x": 85,
+                "texture": "res_combat/public/panel_qqjs.png"
+              },
+              "compId": 243
+            },
+            {
+              "type": "HBox",
+              "props": {
+                "y": 0,
+                "space": 5,
+                "height": 30,
+                "centerX": 28
+              },
+              "compId": 230,
+              "child": [
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "var": "curStageNum",
+                    "value": "1",
+                    "spaceX": -10,
+                    "skin": "res_common/number/num_30_jxzk_da3610_stk.png",
+                    "sheet": "0123456789",
+                    "centerY": 0
+                  },
+                  "compId": 234
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "x": 21,
+                    "var": "aimStageNum",
+                    "value": "20",
+                    "spaceX": -5,
+                    "skin": "res_common/number/num_30_jxzk_fffff_stk.png",
+                    "sheet": "0123456789/",
+                    "centerY": -1
+                  },
+                  "compId": 235
+                }
+              ]
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 0,
+                "x": 231,
+                "texture": "res_combat/public/text_g.png"
+              },
+              "compId": 241
+            }
+          ]
+        },
+        {
+          "type": "HBox",
+          "props": {
+            "y": 708,
+            "space": 11,
+            "height": 50,
+            "centerX": -2
+          },
+          "compId": 223,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "text": "text",
+                "skin": "res_combat/public/text_hd.png",
+                "centerY": 0
+              },
+              "compId": 224
+            },
+            {
+              "type": "Image",
+              "props": {
+                "skin": "res_combat/public/icon_gold.png",
+                "scaleY": 1.2,
+                "scaleX": 1.2,
+                "centerY": -1
+              },
+              "compId": 225
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "x": 139,
+                "var": "goldNum",
+                "value": "2000",
+                "spaceX": -3,
+                "presetID": 1,
+                "centerY": 0,
+                "y": 0,
+                "skin": "res_common/number/num_36_jxzk_ffffff.png",
+                "sheet": "0123456789+-x/()<>",
+                "isPresetRoot": true
+              },
+              "compId": 229
+            }
+          ]
+        },
+        {
+          "type": "Button",
+          "props": {
+            "y": 776,
+            "width": 212,
+            "var": "confirmBtn",
+            "stateNum": 1,
+            "skin": "res_common/btn_yellow.png",
+            "height": 73,
+            "centerX": 0
+          },
+          "compId": 227,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "text": "text",
+                "skin": "res_combat/public/text_queding1.png",
+                "centerY": 2,
+                "centerX": -1
+              },
+              "compId": 228
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "skin": "res_common/text_djgb.png",
+            "centerY": 241,
+            "centerX": 0
+          },
+          "compId": 247
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 122,
+          "keyframes": {
+            "x": [
+              {
+                "value": 150,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 150,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "x",
+                "index": 50
+              }
+            ],
+            "text": [
+              {
+                "value": "5",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 0
+              },
+              {
+                "value": "4",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 10
+              },
+              {
+                "value": "3",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 20
+              },
+              {
+                "value": "2",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 30
+              },
+              {
+                "value": "1",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 40
+              },
+              {
+                "value": "0",
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "text",
+                "index": 50
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani",
+      "id": 1,
+      "frameRate": 10,
+      "action": 0
+    }
+  ],
+  "loadList": [
+    "res_common/img_common_02.png",
+    "res_common/btn_close.png",
+    "res_combat/public/text_ghs.png",
+    "res_combat/public/panel_qqjs.png",
+    "res_combat/public/text_g.png",
+    "prefab/number/num_36_jxzk_ffffff.prefab"
+  ],
+  "loadList3D": []
+}

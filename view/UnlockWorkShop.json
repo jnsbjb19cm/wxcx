@@ -1,0 +1,267 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 813,
+        "x": 500,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 3
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 608,
+        "name": "context",
+        "height": 930,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 38,
+            "x": 1,
+            "width": 608,
+            "skin": "res_common/bg_1.png",
+            "sizeGrid": "213,0,154,0",
+            "name": "popupBg",
+            "height": 881
+          },
+          "compId": 26,
+          "child": [
+            {
+              "type": "Sprite",
+              "props": {
+                "y": -42,
+                "x": 5,
+                "texture": "res_common/icon_head.png"
+              },
+              "compId": 38
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 523,
+                "skin": "res_common/img_common_02.png"
+              },
+              "compId": 44
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -9,
+                "x": 518,
+                "var": "closeBtn",
+                "skin": "res_common/btn_close.png"
+              },
+              "compId": 37,
+              "child": [
+                {
+                  "type": "Rect",
+                  "props": {
+                    "y": -10,
+                    "x": -2,
+                    "width": 100,
+                    "renderType": "hit",
+                    "lineWidth": 1,
+                    "height": 100,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 40
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -25,
+                "var": "titleImg",
+                "skin": "res_view/workshop/text_title_liangongfang.png",
+                "centerX": -132,
+                "anchorX": 0.5
+              },
+              "compId": 27
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "var": "buildImg",
+            "top": 130,
+            "skin": "netRes/workShop/building_jg_a.png",
+            "scaleY": 1.2,
+            "scaleX": 1.2,
+            "centerX": 1,
+            "anchorY": 1,
+            "anchorX": 0.5
+          },
+          "compId": 35
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 484,
+            "skin": "res_view/workshop/text_des_jshjcxcc.png",
+            "centerX": -3
+          },
+          "compId": 9
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 539,
+            "var": "rwdBox",
+            "centerX": 0
+          },
+          "compId": 10
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 730,
+            "skin": "res_view/workshop/bg_array_view.png",
+            "centerX": 16
+          },
+          "compId": 19,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 22,
+                "width": 200,
+                "skin": "netRes/icon/itemIcon/icon_yuanbao.png",
+                "scaleY": 0.32,
+                "scaleX": 0.32,
+                "left": -27,
+                "height": 200,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 21
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 6,
+                "x": 18,
+                "var": "costLab",
+                "value": "120",
+                "presetID": 1,
+                "name": "costLab",
+                "width": 116,
+                "spaceX": -5,
+                "skin": "res_common/number/num_24_rhrc_f1efe0.png",
+                "sheet": "0123456789+-*/:.",
+                "isPresetRoot": true,
+                "height": 29,
+                "align": "center"
+              },
+              "compId": 31
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 681,
+            "x": 184,
+            "skin": "res_view/workshop/text_sj_jshs.png"
+          },
+          "compId": 22,
+          "child": [
+            {
+              "type": "FontClip",
+              "props": {
+                "y": -2,
+                "x": 120,
+                "var": "unlockLab",
+                "value": "10:34:10",
+                "presetID": 1,
+                "spaceX": -5,
+                "skin": "res_common/number/num_24_jxzk_22a441.png",
+                "sheet": "0123456789+-*/%:()~?.",
+                "isPresetRoot": true
+              },
+              "compId": 32
+            }
+          ]
+        },
+        {
+          "type": "Button",
+          "props": {
+            "y": 831,
+            "width": 210,
+            "var": "confirmBtn",
+            "stateNum": 1,
+            "skin": "res_common/btn_yellow.png",
+            "pivotY": 39,
+            "pivotX": 108,
+            "labelStroke": 2,
+            "labelSize": 30,
+            "labelFont": "Microsoft YaHei",
+            "labelColors": "#ffffff",
+            "labelBold": true,
+            "height": 71,
+            "centerX": 5
+          },
+          "compId": 8,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 19,
+                "x": 53,
+                "skin": "res_view/workshop/text_js.png"
+              },
+              "compId": 33
+            },
+            {
+              "type": "Script",
+              "props": {
+                "runtime": "game/tools/BtnScale85.ts"
+              },
+              "compId": 34
+            }
+          ]
+        },
+        {
+          "type": "Sprite",
+          "props": {
+            "y": 918,
+            "x": 164,
+            "texture": "res_common/text_djgb.png"
+          },
+          "compId": 43
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "res_common/bg_1.png",
+    "res_common/icon_head.png",
+    "prefab/num24_rhrc.prefab",
+    "prefab/number/num_24_jxzk_22a441.prefab",
+    "res_common/text_djgb.png"
+  ],
+  "loadList3D": []
+}

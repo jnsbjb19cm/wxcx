@@ -1,0 +1,50 @@
+{
+  "type": "View",
+  "props": {
+    "width": 66,
+    "height": 66
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "top": 0,
+        "skin": "viewPanel/rank/pro_solt.png",
+        "right": 0,
+        "left": 0,
+        "bottom": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "width": 65,
+            "var": "headImg",
+            "skin": "res_view/rank/img_mrtx.png",
+            "height": 65,
+            "centerY": 0,
+            "centerX": 0
+          },
+          "compId": 4,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "width": 66,
+                "var": "headSd",
+                "skin": "viewPanel/rank/pro_mask.png",
+                "renderType": "mask",
+                "height": 66
+              },
+              "compId": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

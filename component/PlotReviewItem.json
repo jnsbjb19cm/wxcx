@@ -1,0 +1,141 @@
+{
+  "type": "View",
+  "props": {
+    "y": 0,
+    "x": 0,
+    "width": 630,
+    "right": 0,
+    "left": 0,
+    "height": 114
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "visible": false,
+        "var": "dialog",
+        "top": 0,
+        "right": 0,
+        "renderType": "render",
+        "left": 0,
+        "height": 114
+      },
+      "compId": 36,
+      "child": [
+        {
+          "type": "Label",
+          "props": {
+            "y": 3,
+            "x": 27,
+            "text": "村民男",
+            "name": "name",
+            "fontSize": 28,
+            "font": "Microsoft YaHei",
+            "color": "#d7c195"
+          },
+          "compId": 38
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 44,
+            "x": 28,
+            "wordWrap": true,
+            "width": 576,
+            "text": "我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我",
+            "name": "content",
+            "leading": 11,
+            "fontSize": 24,
+            "font": "Microsoft YaHei",
+            "color": "#fdf1da"
+          },
+          "compId": 39
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "visible": false,
+        "var": "option",
+        "top": 0,
+        "right": 0,
+        "renderType": "render",
+        "left": 0,
+        "height": 113
+      },
+      "compId": 37,
+      "child": [
+        {
+          "type": "Label",
+          "props": {
+            "y": 3,
+            "x": 28,
+            "wordWrap": true,
+            "width": 576,
+            "text": "西门官人望着你，眼里满是怜爱。你转过头，又看了看卧床的大朗，回想起过往的点滴。你决定",
+            "name": "optionTips",
+            "leading": 11,
+            "fontSize": 25,
+            "font": "Microsoft YaHei",
+            "color": "#9f9f9f"
+          },
+          "compId": 40
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 78,
+            "x": 27,
+            "text": "与西门官人断绝来往与西门官人断绝来往",
+            "name": "option",
+            "leading": 11,
+            "fontSize": 24,
+            "font": "Microsoft YaHei",
+            "color": "#ffbc3b"
+          },
+          "compId": 41
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "visible": false,
+        "var": "tip",
+        "top": 0,
+        "right": 0,
+        "left": 0,
+        "height": 38
+      },
+      "compId": 43,
+      "child": [
+        {
+          "type": "Label",
+          "props": {
+            "y": 3,
+            "x": 28,
+            "wordWrap": true,
+            "width": 576,
+            "text": "我我我我我我我我我我我我我我",
+            "name": "tip",
+            "leading": 11,
+            "fontSize": 25,
+            "font": "Microsoft YaHei",
+            "color": "#9f9f9f"
+          },
+          "compId": 45
+        }
+      ]
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

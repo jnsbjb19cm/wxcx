@@ -1,0 +1,587 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": true,
+    "height": 1344,
+    "drawCallOptimize": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 672,
+        "x": 375,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.1
+      },
+      "compId": 58
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 400,
+        "var": "contentBox",
+        "height": 400,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "y": 73,
+            "x": 9,
+            "width": 400,
+            "var": "equipBox",
+            "height": 400
+          },
+          "compId": 110,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 201,
+                "width": 557,
+                "skin": "res_common/panel_text.png",
+                "scaleY": 1,
+                "height": 141,
+                "centerX": -18,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 137
+            },
+            {
+              "type": "Image",
+              "props": {
+                "scaleY": 0.56,
+                "scaleX": 0.56,
+                "presetID": 1,
+                "centerY": 2,
+                "centerX": -10,
+                "y": 0,
+                "x": 0,
+                "width": 183,
+                "isPresetRoot": true,
+                "height": 183,
+                "cacheAs": "bitmap"
+              },
+              "compId": 135,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "var": "equipIcon",
+                    "presetID": 6,
+                    "width": 160,
+                    "name": "icon",
+                    "height": 160,
+                    "centerY": 0,
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 9
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "var": "equipIconK",
+                    "presetID": 4,
+                    "width": 188,
+                    "visible": true,
+                    "skin": "res_common/equip_rank_blue.png",
+                    "sizeGrid": "34,42,35,42",
+                    "name": "iconK",
+                    "height": 188,
+                    "centerY": 0,
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 5
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 8,
+                    "width": 190,
+                    "visible": false,
+                    "skin": "res_common/equip_b.png",
+                    "name": "iconAwkPoint",
+                    "height": 190,
+                    "centerY": 0,
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 14
+                },
+                {
+                  "type": "Script",
+                  "props": {
+                    "presetID": 5,
+                    "enabled": false,
+                    "runtime": "game/script/common/CMEquipItem.ts"
+                  },
+                  "compId": 8
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "presetID": 9,
+                    "visible": false,
+                    "value": "1",
+                    "spaceX": -7,
+                    "skin": "res_common/number/num_18_jxzk_ffffff_stk.png",
+                    "sheet": "0123456789+-*/",
+                    "scaleY": 2,
+                    "scaleX": 2,
+                    "right": 15,
+                    "name": "layer",
+                    "bottom": -7,
+                    "anchorX": 1,
+                    "align": "right"
+                  },
+                  "compId": 138
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -32,
+                "x": -13,
+                "skin": "res_combat/public/text_gx.png"
+              },
+              "compId": 112
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": -122,
+            "width": 500,
+            "var": "monsterBox",
+            "height": 723,
+            "centerX": 0
+          },
+          "compId": 115,
+          "child": [
+            {
+              "type": "Panel",
+              "props": {
+                "y": -348,
+                "x": -122,
+                "width": 750,
+                "height": 1059
+              },
+              "compId": 146,
+              "child": [
+                {
+                  "type": "Box",
+                  "props": {
+                    "x": 372,
+                    "width": 1,
+                    "var": "skeletonBox",
+                    "height": 100,
+                    "centerY": 414,
+                    "centerX": 0
+                  },
+                  "compId": 125
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 32,
+                "x": -141,
+                "width": 782,
+                "var": "bg_mask",
+                "skin": "res_combat/specialStageView/wuLinDaHui/bg_mask.png",
+                "height": 1091,
+                "alpha": 1
+              },
+              "compId": 155
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 282,
+                "x": 186,
+                "var": "QskeletonBox"
+              },
+              "compId": 154
+            },
+            {
+              "type": "Image",
+              "props": {
+                "zOrder": 10,
+                "y": 527,
+                "width": 594,
+                "skin": "res_common/bg_common_tips02.png",
+                "height": 183,
+                "centerX": 0
+              },
+              "compId": 117,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "var": "monsterTip",
+                    "text": "text",
+                    "skin": "",
+                    "centerY": 0,
+                    "centerX": 0
+                  },
+                  "compId": 123
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "visible": false,
+                    "var": "monsterTip2",
+                    "fontSize": 35,
+                    "font": "Microsoft YaHei",
+                    "color": "#000000",
+                    "centerY": 0,
+                    "centerX": 0
+                  },
+                  "compId": 158
+                }
+              ]
+            },
+            {
+              "type": "HBox",
+              "props": {
+                "zOrder": 10,
+                "y": -50,
+                "width": 0,
+                "var": "nameTipBox",
+                "space": 25,
+                "height": 60,
+                "centerX": 0
+              },
+              "compId": 116,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "var": "evoTipTxt",
+                    "skin": "res_combat/specialStageView/wuLinDaHui/text_xindizi_stk.png",
+                    "centerY": 0,
+                    "centerX": 0
+                  },
+                  "compId": 122
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": -238,
+                "x": -127,
+                "width": 754,
+                "height": 92
+              },
+              "compId": 151,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 10,
+                    "x": 233,
+                    "width": 83,
+                    "var": "monsterLv",
+                    "height": 82
+                  },
+                  "compId": 153
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 16,
+                    "x": 325,
+                    "var": "monsterName"
+                  },
+                  "compId": 152
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 649,
+            "width": 211,
+            "visible": false,
+            "var": "comfirmBtn",
+            "skin": "res_common/btn_yellow.png",
+            "height": 71,
+            "centerX": 0
+          },
+          "compId": 113,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "var": "btnImg",
+                "skin": "netRes/user/text_queding.png",
+                "centerY": 1,
+                "centerX": -1
+              },
+              "compId": 114
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 849,
+            "x": -177,
+            "width": 753,
+            "skin": "loading/panel_buttom.png",
+            "height": 169
+          },
+          "compId": 156
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -472,
+            "x": -175,
+            "visible": false,
+            "skin": "",
+            "name": "123456789",
+            "alpha": 0.5
+          },
+          "compId": 149
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 117,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 117,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0.01,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 117,
+                "key": "alpha",
+                "index": 8
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 117,
+                "key": "alpha",
+                "index": 13
+              }
+            ]
+          }
+        },
+        {
+          "target": 58,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0.01,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 58,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0.6,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 58,
+                "key": "alpha",
+                "index": 5
+              }
+            ]
+          }
+        },
+        {
+          "target": 125,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 125,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0.01,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 125,
+                "key": "alpha",
+                "index": 12
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 125,
+                "key": "alpha",
+                "index": 17
+              }
+            ]
+          }
+        },
+        {
+          "target": 116,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 116,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0.01,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 116,
+                "key": "alpha",
+                "index": 20
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 116,
+                "key": "alpha",
+                "index": 25
+              }
+            ]
+          }
+        },
+        {
+          "target": 113,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 113,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 113,
+                "key": "visible",
+                "index": 25
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 113,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0.01,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 113,
+                "key": "alpha",
+                "index": 25
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 113,
+                "key": "alpha",
+                "index": 29
+              }
+            ]
+          }
+        },
+        {
+          "target": 154,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 154,
+                "label": null,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0.01,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 154,
+                "label": null,
+                "key": "alpha",
+                "index": 12
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 154,
+                "label": null,
+                "key": "alpha",
+                "index": 17
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani1",
+      "id": 1,
+      "frameRate": 30,
+      "action": 1
+    }
+  ],
+  "loadList": ["prefab/EquipItem.prefab"],
+  "loadList3D": []
+}

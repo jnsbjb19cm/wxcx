@@ -1,0 +1,136 @@
+{
+  "type": "View",
+  "props": {
+    "x": 18,
+    "width": 564,
+    "height": 155
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 563,
+        "var": "bg",
+        "skin": "res_view/children/bg_family_organization_01.png",
+        "height": 155
+      },
+      "compId": 3
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 10,
+        "x": 22,
+        "skin": "res_view/children/text_ycnzn.png"
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "FontClip",
+          "props": {
+            "y": -7,
+            "x": 117,
+            "var": "selfadultnum",
+            "value": "44",
+            "spaceX": -4,
+            "skin": "res_common/number/num_22_jxzk_50ac2c.png",
+            "sheet": "0123456789"
+          },
+          "compId": 10
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 4.5,
+            "x": 154,
+            "var": "fh_img",
+            "skin": "res_view/beauty/text_pzh_green.png"
+          },
+          "compId": 11
+        },
+        {
+          "type": "FontClip",
+          "props": {
+            "y": -7,
+            "x": 158,
+            "var": "needadultnum",
+            "value": "4",
+            "spaceX": -4,
+            "skin": "res_common/number/num_22_jxzk_50ac2c.png",
+            "sheet": "0123456789"
+          },
+          "compId": 12
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 34,
+        "x": 386,
+        "width": 160,
+        "var": "getBtn",
+        "skin": "res_common/btn_yellow.png",
+        "height": 73
+      },
+      "compId": 5,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "skin": "res_view/beauty/text_lq.png",
+            "centerY": 2,
+            "centerX": 0
+          },
+          "compId": 13
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -2,
+            "x": 138.5,
+            "visible": true,
+            "skin": "res_common/redpoint.png",
+            "scaleY": 0.8,
+            "scaleX": 0.8
+          },
+          "compId": 14
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 56,
+        "x": 421,
+        "var": "wwc",
+        "skin": "res_view/beauty/text_wwc.png"
+      },
+      "compId": 6
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 56,
+        "x": 423,
+        "var": "ylq",
+        "skin": "res_view/beauty/text_ywc.png"
+      },
+      "compId": 7
+    },
+    {
+      "type": "HBox",
+      "props": {
+        "y": 32,
+        "x": 19,
+        "var": "rwdbox"
+      },
+      "compId": 9
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

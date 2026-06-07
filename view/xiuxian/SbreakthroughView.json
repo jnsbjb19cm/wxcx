@@ -1,0 +1,187 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 750,
+        "var": "contentBox",
+        "height": 1334,
+        "centerY": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "width": 750,
+            "var": "mask_bg",
+            "skin": "res_common/bg.png",
+            "height": 1334,
+            "alpha": 0.6
+          },
+          "compId": 4
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 24,
+            "x": 31,
+            "width": 649,
+            "var": "winBox",
+            "name": "winBox",
+            "height": 839
+          },
+          "compId": 31,
+          "child": [
+            {
+              "type": "List",
+              "props": {
+                "y": 399,
+                "x": 28,
+                "width": 621,
+                "var": "attrlist",
+                "vScrollBarSkin": " ",
+                "spaceY": 20,
+                "name": "attrlist",
+                "height": 677
+              },
+              "compId": 34,
+              "child": [
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 82,
+                    "width": 495,
+                    "renderType": "render",
+                    "height": 49
+                  },
+                  "compId": 35,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 1,
+                        "x": 202,
+                        "skin": "res_view/xiuxin/img_jiantou.png"
+                      },
+                      "compId": 43
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 25,
+                        "x": 364,
+                        "var": "bjnum",
+                        "text": "+20%",
+                        "name": "bjnum",
+                        "fontSize": 24,
+                        "font": "Microsoft YaHei",
+                        "color": "#48ff00"
+                      },
+                      "compId": 37
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 19,
+                        "x": -136,
+                        "width": 272,
+                        "var": "attribute",
+                        "text": "全体暴击率",
+                        "name": "attribute",
+                        "height": 30,
+                        "fontSize": 30,
+                        "font": "Microsoft YaHei",
+                        "color": "#ffffff",
+                        "align": "right"
+                      },
+                      "compId": 36
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 1115,
+                "x": 219,
+                "skin": "res_view/rank/text_djgb.png"
+              },
+              "compId": 38
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 92,
+                "x": 54.5,
+                "var": "title",
+                "skin": "res_view/xiuxin/title_pjcg.png",
+                "name": "title"
+              },
+              "compId": 39
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 300,
+                "x": 443,
+                "var": "nowImg",
+                "skin": "res_view/xiuxin/text_htq_2.png",
+                "name": "nowImg"
+              },
+              "compId": 40
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 293,
+                "x": 286,
+                "skin": "res_view/xiuxin/img_jiantou_2.png"
+              },
+              "compId": 41
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 306,
+                "x": 136,
+                "var": "preImg",
+                "skin": "res_view/xiuxin/text_lxq_1.png",
+                "name": "preImg"
+              },
+              "compId": 42
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 1101,
+            "x": 0,
+            "width": 750,
+            "var": "bottonmk",
+            "skin": "res_common/bg.png",
+            "name": "bottonmk",
+            "height": 246,
+            "alpha": 0
+          },
+          "compId": 71
+        }
+      ]
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

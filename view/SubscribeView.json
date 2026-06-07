@@ -1,0 +1,1208 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseEnabled": true,
+    "height": 1344,
+    "drawCallOptimize": true,
+    "centerY": 70
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": -132.5,
+        "x": -156,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "alpha": 0.6
+      },
+      "compId": 140
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 156,
+        "x": 103,
+        "var": "bgPannel",
+        "scaleY": 1,
+        "scaleX": 1,
+        "name": "bgPannel"
+      },
+      "compId": 163,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 944,
+            "width": 271,
+            "skin": "res_common/text_djgb.png",
+            "name": "img_blankClose",
+            "height": 47,
+            "centerX": 286
+          },
+          "compId": 251
+        },
+        {
+          "type": "Image",
+          "props": {
+            "width": 3000,
+            "visible": true,
+            "var": "topClose",
+            "name": "topClose",
+            "height": 988,
+            "centerY": -508,
+            "centerX": 169
+          },
+          "compId": 252
+        },
+        {
+          "type": "Image",
+          "props": {
+            "width": 1505,
+            "visible": true,
+            "var": "leftClose",
+            "name": "leftClose",
+            "height": 1483,
+            "centerY": 414,
+            "centerX": 1328
+          },
+          "compId": 253
+        },
+        {
+          "type": "Image",
+          "props": {
+            "width": 1535,
+            "visible": true,
+            "var": "rightClose",
+            "name": "rightClose",
+            "height": 1483,
+            "centerY": 539,
+            "centerX": -783
+          },
+          "compId": 254
+        },
+        {
+          "type": "Image",
+          "props": {
+            "width": 3000,
+            "visible": true,
+            "var": "bottomClose",
+            "name": "bottomClose",
+            "height": 834,
+            "centerY": 1365,
+            "centerX": 314
+          },
+          "compId": 255
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -26,
+            "x": -15,
+            "width": 606,
+            "skin": "res_view/platformFeatures/panel_1.png",
+            "sizeGrid": "135,95,109,93",
+            "name": "bg",
+            "height": 974
+          },
+          "compId": 231
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 33,
+            "x": 150,
+            "width": 271,
+            "skin": "res_view/haream/bg_common_title06.png",
+            "name": "bg_title",
+            "height": 51,
+            "alpha": 1
+          },
+          "compId": 232,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 8,
+                "x": 48,
+                "skin": "res_view/subscribe/text_dyxxsz.png",
+                "name": "txt_title"
+              },
+              "compId": 233
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 97,
+            "x": 21,
+            "skin": "res_view/subscribe/bg_scyl.png",
+            "name": "img_title"
+          },
+          "compId": 230
+        },
+        {
+          "type": "Box",
+          "props": {
+            "name": "Btns_describe"
+          },
+          "compId": 234,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 317,
+                "x": 23,
+                "skin": "res_view/subscribe/text_bbgx.png",
+                "name": "txt_btn1"
+              },
+              "compId": 235
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 393,
+                "x": 22,
+                "skin": "res_view/subscribe/text_yljlsxtx.png",
+                "name": "txt_btn2"
+              },
+              "compId": 236
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 469,
+                "x": 20,
+                "skin": "res_view/subscribe/text_tlhftx.png",
+                "name": "txt_btn3"
+              },
+              "compId": 237
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 545,
+                "x": 22,
+                "skin": "res_view/subscribe/text_znhlhftx.png",
+                "name": "txt_btn4"
+              },
+              "compId": 238
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 621,
+                "x": 23,
+                "skin": "res_view/subscribe/text_cxxdyfsj.png",
+                "name": "txt_btn5"
+              },
+              "compId": 239
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 697,
+                "x": 21,
+                "skin": "res_view/subscribe/text_gfjlsxtx.png",
+                "name": "txt_btn6"
+              },
+              "compId": 240
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "var": "btns",
+            "name": "btns"
+          },
+          "compId": 243,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 331,
+                "x": 475,
+                "width": 118,
+                "var": "btn0",
+                "skin": "res_view/subscribe/btn_close.png",
+                "pivotY": 24,
+                "pivotX": 59,
+                "name": "btn0",
+                "height": 48
+              },
+              "compId": 244,
+              "child": [
+                {
+                  "type": "Script",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 333
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 409,
+                "x": 475,
+                "width": 118,
+                "var": "btn1",
+                "skin": "res_view/subscribe/btn_close.png",
+                "pivotY": 24,
+                "pivotX": 59,
+                "name": "btn1",
+                "height": 48
+              },
+              "compId": 245,
+              "child": [
+                {
+                  "type": "Script",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 334
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 486,
+                "x": 475,
+                "width": 118,
+                "var": "btn2",
+                "skin": "res_view/subscribe/btn_close.png",
+                "pivotY": 24,
+                "pivotX": 59,
+                "name": "btn2",
+                "height": 48
+              },
+              "compId": 246,
+              "child": [
+                {
+                  "type": "Script",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 335
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 561,
+                "x": 475,
+                "width": 118,
+                "var": "btn3",
+                "skin": "res_view/subscribe/btn_close.png",
+                "pivotY": 24,
+                "pivotX": 59,
+                "name": "btn3",
+                "height": 48
+              },
+              "compId": 247,
+              "child": [
+                {
+                  "type": "Script",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 336
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 639,
+                "x": 475,
+                "width": 118,
+                "var": "btn4",
+                "skin": "res_view/subscribe/btn_close.png",
+                "pivotY": 24,
+                "pivotX": 59,
+                "name": "btn4",
+                "height": 48
+              },
+              "compId": 248,
+              "child": [
+                {
+                  "type": "Script",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 337
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 713,
+                "x": 476,
+                "width": 118,
+                "var": "btn5",
+                "skin": "res_view/subscribe/btn_close.png",
+                "pivotY": 24,
+                "pivotX": 59,
+                "name": "btn5",
+                "height": 48
+              },
+              "compId": 249,
+              "child": [
+                {
+                  "type": "Script",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 338
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 2,
+                "x": 545,
+                "width": 82,
+                "var": "btn_close",
+                "skin": "netRes/chat/btn_close.png",
+                "pivotY": 33,
+                "pivotX": 45,
+                "name": "btn_close",
+                "label": "label",
+                "height": 82,
+                "alpha": 1
+              },
+              "compId": 256,
+              "child": [
+                {
+                  "type": "Script",
+                  "props": {
+                    "y": 41,
+                    "x": 93,
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 257
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 156,
+        "x": 103,
+        "visible": false,
+        "var": "TipsPannel",
+        "scaleY": 1,
+        "scaleX": 1,
+        "name": "TipsPannel"
+      },
+      "compId": 258,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -1002,
+            "x": -1331,
+            "width": 3000,
+            "visible": true,
+            "var": "topTipClose",
+            "name": "topTipClose",
+            "height": 988,
+            "centerY": -508,
+            "centerX": 169
+          },
+          "compId": 328
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -222,
+            "x": 591,
+            "width": 1505,
+            "visible": true,
+            "var": "leftTipClose",
+            "name": "leftTipClose",
+            "height": 1483,
+            "centerY": 519,
+            "centerX": 1343
+          },
+          "compId": 329
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -202,
+            "x": -1550,
+            "width": 1535,
+            "visible": true,
+            "var": "rightTipClose",
+            "name": "rightTipClose",
+            "height": 1483,
+            "centerY": 539,
+            "centerX": -783
+          },
+          "compId": 330
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 948,
+            "x": -1186,
+            "width": 3000,
+            "visible": true,
+            "var": "bottomTipClose",
+            "name": "bottomTipClose",
+            "height": 834,
+            "centerY": 1365,
+            "centerX": 314
+          },
+          "compId": 331
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -26,
+            "x": -15,
+            "width": 606,
+            "skin": "res_view/platformFeatures/panel_1.png",
+            "sizeGrid": "135,95,109,93",
+            "name": "bg",
+            "height": 974
+          },
+          "compId": 264
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 33,
+            "x": 150,
+            "width": 271,
+            "skin": "res_view/haream/bg_common_title06.png",
+            "name": "bg_title",
+            "height": 51,
+            "alpha": 1
+          },
+          "compId": 265,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 7,
+                "x": 79,
+                "skin": "res_view/subscribe/text_dyzy.png",
+                "name": "txt_title"
+              },
+              "compId": 266
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 8,
+            "x": 552,
+            "width": 83,
+            "var": "btn_Tip_close",
+            "skin": "netRes/chat/btn_close.png",
+            "pivotY": 39,
+            "pivotX": 52,
+            "name": "btn_Tip_close",
+            "label": "label",
+            "height": 83,
+            "alpha": 1
+          },
+          "compId": 282,
+          "child": [
+            {
+              "type": "Script",
+              "props": {
+                "y": 41,
+                "x": 93,
+                "runtime": "game/tools/BtnScale90.ts"
+              },
+              "compId": 283
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "name": "texts"
+          },
+          "compId": 285,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "y": 120,
+                "x": 25,
+                "text": "1.点击顶部",
+                "name": "txt_1",
+                "fontSize": 33,
+                "font": "SimHei",
+                "color": "#4c2b2a"
+              },
+              "compId": 287
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 121,
+                "x": 257,
+                "text": "图标",
+                "name": "txt_2",
+                "fontSize": 33,
+                "font": "SimHei",
+                "color": "#4c2b2a"
+              },
+              "compId": 314
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 237,
+                "x": 27,
+                "text": "2.点击下方“设置”",
+                "name": "txt_3",
+                "fontSize": 33,
+                "font": "SimHei",
+                "color": "#4c2b2a"
+              },
+              "compId": 324
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 502,
+                "x": 26,
+                "text": "3.开启接收通知，并允许发送通知",
+                "name": "txt_4",
+                "fontSize": 33,
+                "font": "SimHei",
+                "color": "#4c2b2a"
+              },
+              "compId": 325
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "name": "imgs"
+          },
+          "compId": 315,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 127,
+                "x": 201,
+                "width": 46,
+                "skin": "res_view/subscribe/pic_fx_1.png",
+                "name": "img_1",
+                "height": 25
+              },
+              "compId": 316
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 109,
+                "x": 384,
+                "skin": "res_view/subscribe/pic_fx_2.png",
+                "name": "img_2"
+              },
+              "compId": 318
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 295,
+                "x": 47,
+                "skin": "res_view/subscribe/img_shezhi.png",
+                "name": "img_3"
+              },
+              "compId": 319
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 351,
+                "x": 104,
+                "width": 118,
+                "skin": "res_combat/public/efx_equip_available.png",
+                "pivotY": 62,
+                "pivotX": 63,
+                "name": "img_tips1",
+                "height": 116,
+                "alpha": 0.8
+              },
+              "compId": 339
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 369,
+                "x": 111,
+                "skin": "res_view/subscribe/icon_shou.png",
+                "name": "img_hand1"
+              },
+              "compId": 321
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 563,
+                "x": 48,
+                "skin": "res_view/subscribe/img_tzgl.png",
+                "name": "img_6",
+                "alpha": 1
+              },
+              "compId": 322
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 802,
+                "x": 384,
+                "width": 99,
+                "skin": "res_view/subscribe/img_dianji.png",
+                "pivotY": 51,
+                "pivotX": 50,
+                "name": "img_tips2",
+                "height": 102
+              },
+              "compId": 326
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 802,
+                "x": 367,
+                "skin": "res_view/subscribe/icon_shou.png",
+                "name": "img_hand2"
+              },
+              "compId": 327
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 327,
+          "keyframes": {
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 327,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 327,
+                "key": "scaleY",
+                "index": 55
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 327,
+                "key": "scaleY",
+                "index": 58
+              },
+              {
+                "value": 0.6,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 327,
+                "key": "scaleY",
+                "index": 78
+              },
+              {
+                "value": 0.6,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 327,
+                "label": null,
+                "key": "scaleY",
+                "index": 80
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 327,
+                "label": null,
+                "key": "scaleY",
+                "index": 100
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 327,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 327,
+                "key": "scaleX",
+                "index": 55
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 327,
+                "key": "scaleX",
+                "index": 58
+              },
+              {
+                "value": 0.6,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 327,
+                "key": "scaleX",
+                "index": 78
+              },
+              {
+                "value": 0.6,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 327,
+                "label": null,
+                "key": "scaleX",
+                "index": 80
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 327,
+                "label": null,
+                "key": "scaleX",
+                "index": 100
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 327,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 327,
+                "key": "alpha",
+                "index": 55
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 327,
+                "key": "alpha",
+                "index": 58
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 327,
+                "key": "alpha",
+                "index": 59
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 327,
+                "key": "alpha",
+                "index": 78
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 327,
+                "label": null,
+                "key": "alpha",
+                "index": 80
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 327,
+                "label": null,
+                "key": "alpha",
+                "index": 100
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 327,
+                "key": "alpha",
+                "index": 105
+              }
+            ]
+          }
+        },
+        {
+          "target": 326,
+          "keyframes": {
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 326,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 0.6,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 326,
+                "key": "scaleY",
+                "index": 55
+              },
+              {
+                "value": 0.6,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 326,
+                "key": "scaleY",
+                "index": 70
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 326,
+                "key": "scaleY",
+                "index": 78
+              },
+              {
+                "value": 0.6,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 326,
+                "key": "scaleY",
+                "index": 90
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 326,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 0.6,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 326,
+                "key": "scaleX",
+                "index": 55
+              },
+              {
+                "value": 0.6,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 326,
+                "key": "scaleX",
+                "index": 70
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 326,
+                "key": "scaleX",
+                "index": 78
+              },
+              {
+                "value": 0.6,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 326,
+                "key": "scaleX",
+                "index": 90
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 326,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 326,
+                "key": "alpha",
+                "index": 55
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 326,
+                "key": "alpha",
+                "index": 70
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 326,
+                "key": "alpha",
+                "index": 78
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 326,
+                "key": "alpha",
+                "index": 80
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 326,
+                "key": "alpha",
+                "index": 90
+              }
+            ]
+          }
+        },
+        {
+          "target": 321,
+          "keyframes": {
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 321,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 0.6,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 321,
+                "key": "scaleY",
+                "index": 23
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 321,
+                "key": "scaleY",
+                "index": 45
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 321,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 0.6,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 321,
+                "key": "scaleX",
+                "index": 23
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 321,
+                "key": "scaleX",
+                "index": 45
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 321,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 321,
+                "key": "alpha",
+                "index": 3
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 321,
+                "label": null,
+                "key": "alpha",
+                "index": 4
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 321,
+                "key": "alpha",
+                "index": 23
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 321,
+                "label": null,
+                "key": "alpha",
+                "index": 25
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 321,
+                "label": null,
+                "key": "alpha",
+                "index": 45
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 321,
+                "label": null,
+                "key": "alpha",
+                "index": 50
+              }
+            ]
+          }
+        },
+        {
+          "target": 339,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 339,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 339,
+                "key": "alpha",
+                "index": 15
+              },
+              {
+                "value": 0.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 339,
+                "key": "alpha",
+                "index": 23
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 339,
+                "key": "alpha",
+                "index": 35
+              }
+            ]
+          }
+        }
+      ],
+      "name": "TipsAni",
+      "id": 1,
+      "frameRate": 30,
+      "action": 0
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

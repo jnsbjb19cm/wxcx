@@ -1,0 +1,552 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 813,
+        "x": 500,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.7
+      },
+      "compId": 29
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "var": "context",
+        "height": 772,
+        "centerY": 15,
+        "centerX": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "width": 604,
+            "top": 63,
+            "skin": "res_common/bg_common.png",
+            "sizeGrid": "214,0,173,0",
+            "centerX": -1,
+            "bottom": 11
+          },
+          "compId": 4,
+          "child": [
+            {
+              "type": "Sprite",
+              "props": {
+                "y": -61,
+                "x": 5,
+                "texture": "res_common/icon_head.png"
+              },
+              "compId": 62
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -18,
+                "x": 525,
+                "skin": "res_common/img_common_02.png"
+              },
+              "compId": 66
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -27,
+                "x": 518,
+                "var": "closeBtn",
+                "skin": "res_common/btn_close.png"
+              },
+              "compId": 63,
+              "child": [
+                {
+                  "type": "Rect",
+                  "props": {
+                    "y": -10,
+                    "x": -2,
+                    "width": 100,
+                    "renderType": "hit",
+                    "lineWidth": 1,
+                    "height": 100,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 65
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -49,
+                "var": "titleImg",
+                "skin": "res_view/workshop/title_smbk.png",
+                "centerX": -107,
+                "anchorX": 0.5
+              },
+              "compId": 64
+            }
+          ]
+        },
+        {
+          "type": "FontClip",
+          "props": {
+            "visible": false,
+            "var": "refreshTimeLab",
+            "value": "20:20:34",
+            "top": 103,
+            "presetID": 1,
+            "name": "refreshTimeLab",
+            "centerX": -47,
+            "y": 0,
+            "x": 0,
+            "spaceX": -5,
+            "skin": "res_common/number/num_24_rhrc_22a441.png",
+            "sheet": "0123456789+-*/:",
+            "isPresetRoot": true
+          },
+          "compId": 31,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "skin": "res_view/workshop/text_des_hsx.png",
+                "right": -99
+              },
+              "compId": 32
+            }
+          ]
+        },
+        {
+          "type": "List",
+          "props": {
+            "width": 575,
+            "var": "shopList",
+            "top": 142,
+            "spaceY": 40,
+            "repeatY": 2,
+            "repeatX": 3,
+            "height": 696,
+            "centerX": 0
+          },
+          "compId": 6,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 25,
+                "x": 0,
+                "width": 191,
+                "renderType": "render",
+                "height": 194
+              },
+              "compId": 7,
+              "child": [
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": -17,
+                    "x": 0,
+                    "texture": "res_view/workshop/panel_commodity.png"
+                  },
+                  "compId": 8
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 78,
+                    "x": 96,
+                    "width": 130,
+                    "skin": "res_common/equip_slot_empty.png",
+                    "name": "quality",
+                    "height": 130,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 33
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 78,
+                    "x": 96,
+                    "width": 130,
+                    "skin": "netRes/icon/itemIcon/icon_gongde.png",
+                    "name": "icon",
+                    "height": 130,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 12
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 132,
+                    "x": 146,
+                    "width": 35,
+                    "visible": false,
+                    "skin": "res_common/main_shuzi.png",
+                    "scaleY": 0.9,
+                    "scaleX": 1,
+                    "name": "countBg",
+                    "height": 22,
+                    "anchorY": 1,
+                    "anchorX": 0.88
+                  },
+                  "compId": 67
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 124,
+                    "x": 141,
+                    "width": 46,
+                    "visible": false,
+                    "value": "5",
+                    "spaceX": -13,
+                    "skin": "res_common/number/num_42_wryh_ffffff_stk_3.png",
+                    "sheet": "0123456789",
+                    "scaleY": 0.6,
+                    "scaleX": 0.6,
+                    "name": "count",
+                    "height": 36,
+                    "anchorY": 1,
+                    "anchorX": 1,
+                    "align": "right"
+                  },
+                  "compId": 68
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -4,
+                    "x": 124,
+                    "visible": false,
+                    "skin": "res_view/workshop/tag_discount.png",
+                    "name": "discountImg"
+                  },
+                  "compId": 13,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 35,
+                        "x": 7,
+                        "skin": "res_view/workshop/text_tag_zhe.png",
+                        "scaleY": 1.1,
+                        "scaleX": 1.1
+                      },
+                      "compId": 35
+                    },
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": 5,
+                        "x": 3,
+                        "value": "0",
+                        "spaceX": 0,
+                        "skin": "res_common/number/num_26_jxzk_ffffff.png",
+                        "sheet": "0123456789/",
+                        "name": "discount"
+                      },
+                      "compId": 34
+                    }
+                  ]
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 146,
+                    "x": 18,
+                    "width": 158,
+                    "visible": false,
+                    "texture": "res_view/workshop/bg_array_view.png",
+                    "name": "price"
+                  },
+                  "compId": 14,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 21,
+                        "x": 22,
+                        "width": 60,
+                        "skin": "netRes/icon/itemIcon/icon_yuanbao.png",
+                        "scaleY": 1,
+                        "scaleX": 1,
+                        "height": 60,
+                        "anchorY": 0.5,
+                        "anchorX": 0.5
+                      },
+                      "compId": 15
+                    },
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": 7,
+                        "x": 20,
+                        "value": "100",
+                        "presetID": 1,
+                        "name": "priceLab",
+                        "width": 116,
+                        "spaceX": -5,
+                        "skin": "res_common/number/num_24_rhrc_f1efe0.png",
+                        "sheet": "0123456789+-*/:.",
+                        "isPresetRoot": true,
+                        "height": 29,
+                        "align": "center"
+                      },
+                      "compId": 36
+                    }
+                  ]
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 147,
+                    "x": 22,
+                    "width": 158,
+                    "visible": false,
+                    "texture": "res_view/workshop/bg_array_view.png",
+                    "name": "free"
+                  },
+                  "compId": 37,
+                  "child": [
+                    {
+                      "type": "Sprite",
+                      "props": {
+                        "y": 7,
+                        "x": 20.5,
+                        "texture": "res_common/icon_ad.png",
+                        "scaleY": 0.9,
+                        "scaleX": 0.9
+                      },
+                      "compId": 72
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 5,
+                        "x": 58,
+                        "skin": "res_view/workshop/text_mf_1.png"
+                      },
+                      "compId": 40
+                    }
+                  ]
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 146,
+                    "x": 16,
+                    "width": 158,
+                    "visible": false,
+                    "texture": "res_view/workshop/bg_array_view.png",
+                    "name": "locked"
+                  },
+                  "compId": 42,
+                  "child": [
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": 1,
+                        "value": "5",
+                        "spaceX": -5,
+                        "skin": "res_common/number/num_22_jxzk_ff2222_stk.png",
+                        "sheet": "0123456789",
+                        "name": "target",
+                        "centerX": 0
+                      },
+                      "compId": 45,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 7,
+                            "skin": "res_view/workshop/text_js_2.png",
+                            "right": -50
+                          },
+                          "compId": 44
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 7,
+                            "skin": "res_view/workshop/text_ss_smbk.png",
+                            "left": -40
+                          },
+                          "compId": 43
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 8,
+                        "x": 13,
+                        "visible": false,
+                        "skin": "res_view/workshop/text_fshjs.png",
+                        "name": "flyUnlock"
+                      },
+                      "compId": 69
+                    }
+                  ]
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 146,
+                    "x": 16,
+                    "width": 158,
+                    "visible": false,
+                    "texture": "res_view/workshop/bg_array_view.png",
+                    "name": "unlock"
+                  },
+                  "compId": 46,
+                  "child": [
+                    {
+                      "type": "Sprite",
+                      "props": {
+                        "y": 7,
+                        "x": 30,
+                        "texture": "res_view/workshop/text_price_djjs.png"
+                      },
+                      "compId": 47
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 50,
+                    "x": 51,
+                    "visible": false,
+                    "skin": "res_view/workshop/img_lock.png",
+                    "name": "lockImg"
+                  },
+                  "compId": 58
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 32,
+                    "x": 20,
+                    "visible": false,
+                    "skin": "res_view/workshop/tag_soldout.png",
+                    "name": "sellout"
+                  },
+                  "compId": 59
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "var": "refreshBtn",
+            "skin": "res_common/anniu.png",
+            "scaleY": 1,
+            "scaleX": 1,
+            "centerX": 0,
+            "bottom": 47
+          },
+          "compId": 24,
+          "child": [
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 15.5,
+                "x": 22,
+                "texture": "res_common/icon_ad_10086.png"
+              },
+              "compId": 73
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 14.5,
+                "x": 64,
+                "skin": "res_view/workshop/text_ljsx.png"
+              },
+              "compId": 74
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 41,
+                "var": "freeRemainNum",
+                "value": "3",
+                "spaceX": -8,
+                "skin": "res_common/number/num_14_jxzk_ffffff_stk.png",
+                "sheet": "0123456789",
+                "name": "freeRemainNum",
+                "height": 29,
+                "centerX": 25
+              },
+              "compId": 75,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 11,
+                    "skin": "res_view/workshop/text_jrsy.png",
+                    "left": -64
+                  },
+                  "compId": 76
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 11,
+                    "skin": "res_view/workshop/text_c.png",
+                    "right": -21
+                  },
+                  "compId": 77
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "text": "text",
+            "skin": "res_common/text_djgb.png",
+            "mouseThrough": true,
+            "centerX": -5,
+            "bottom": -35
+          },
+          "compId": 60
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "res_common/icon_head.png",
+    "prefab/number/num _24_rhrc_ 22a441.prefab",
+    "res_view/workshop/panel_commodity.png",
+    "res_view/workshop/bg_array_view.png",
+    "prefab/num24_rhrc.prefab",
+    "res_common/icon_ad.png",
+    "res_view/workshop/text_price_djjs.png",
+    "res_common/icon_ad_10086.png"
+  ],
+  "loadList3D": []
+}

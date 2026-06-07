@@ -1,0 +1,12 @@
+{
+  "type": "View",
+  "props": {
+    "width": 50,
+    "pivotY": 25,
+    "pivotX": 25,
+    "height": 50
+  },
+  "compId": 2,
+  "loadList": [],
+  "loadList3D": []
+}

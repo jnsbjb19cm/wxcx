@@ -1,0 +1,1270 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334,
+    "autoDestroyAtClosed": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "width": 798,
+        "var": "contentBox",
+        "height": 1219,
+        "centerY": 21,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 589,
+            "x": 399,
+            "width": 1000,
+            "var": "maskBg",
+            "skin": "res_common/bg.png",
+            "height": 1625,
+            "centerX": 0,
+            "anchorY": 0.5,
+            "anchorX": 0.5,
+            "alpha": 0.6
+          },
+          "compId": 58
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -49,
+            "x": -1,
+            "width": 786,
+            "skin": "netRes/liuhe/viewUI/panrl_1.png",
+            "sizeGrid": "155,255,221,101",
+            "name": "Bg",
+            "height": 1159
+          },
+          "compId": 133,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 16,
+                "x": 677,
+                "width": 65,
+                "var": "closeBtn",
+                "skin": "res_common/bg_common_close.png",
+                "label": "label",
+                "height": 65
+              },
+              "compId": 139,
+              "child": [
+                {
+                  "type": "Rect",
+                  "props": {
+                    "y": -2.5,
+                    "x": -6,
+                    "width": 77,
+                    "renderType": "hit",
+                    "lineWidth": 1,
+                    "height": 70,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 172
+                },
+                {
+                  "type": "Script",
+                  "props": {
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 636
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 1157,
+                "width": 271,
+                "skin": "res_common/text_djgb.png",
+                "name": "img_blankClose",
+                "height": 47,
+                "centerX": 0
+              },
+              "compId": 156
+            },
+            {
+              "type": "Image",
+              "props": {
+                "width": 3000,
+                "visible": true,
+                "var": "topClose",
+                "height": 830,
+                "centerY": -952,
+                "centerX": 31
+              },
+              "compId": 158
+            },
+            {
+              "type": "Image",
+              "props": {
+                "width": 3000,
+                "visible": true,
+                "var": "bottomClose",
+                "height": 648,
+                "centerY": 878,
+                "centerX": -22
+              },
+              "compId": 160
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 61,
+            "x": 59,
+            "width": 700,
+            "name": "basicBox",
+            "height": 1040
+          },
+          "compId": 189,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": -34,
+                "x": -10,
+                "name": "BasicMsg"
+              },
+              "compId": 191,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 22,
+                    "x": 171,
+                    "width": 365,
+                    "skin": "res_view/haream/bg_common_title06.png",
+                    "name": "NameBg",
+                    "height": 58
+                  },
+                  "compId": 562
+                },
+                {
+                  "type": "Text",
+                  "props": {
+                    "y": 18,
+                    "x": 169,
+                    "width": 364,
+                    "var": "Name",
+                    "valign": "middle",
+                    "text": "青云宗分宗",
+                    "name": "Name",
+                    "height": 47,
+                    "fontSize": 33,
+                    "font": "SimHei",
+                    "color": "#50342c",
+                    "align": "center",
+                    "runtime": "Laya.Text"
+                  },
+                  "compId": 190
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 71,
+                    "x": 233,
+                    "width": 112,
+                    "var": "Lv",
+                    "value": "123",
+                    "spaceX": -12,
+                    "skin": "res_common/number/num_26_jxzk_5b393a.png",
+                    "sheet": "0123456789",
+                    "name": "Lv",
+                    "height": 33,
+                    "align": "right"
+                  },
+                  "compId": 563
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 88,
+                    "x": 288,
+                    "skin": "res_view/haream/text_line.png",
+                    "name": "imgLv1"
+                  },
+                  "compId": 564
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 76,
+                    "x": 350,
+                    "skin": "res_view/haream/text_ji_brown.png",
+                    "name": "imgLv2"
+                  },
+                  "compId": 575
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 11,
+                "x": 50,
+                "width": 62,
+                "var": "btn_share",
+                "skin": "netRes/liuhe/viewUI/btn_fx.png",
+                "pivotY": 35,
+                "pivotX": 35,
+                "name": "btn_share",
+                "height": 62
+              },
+              "compId": 193,
+              "child": [
+                {
+                  "type": "Script",
+                  "props": {
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 637
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 273,
+                "x": 64.5,
+                "skin": "res_view/haream/pic_line2.png",
+                "name": "LineMain"
+              },
+              "compId": 576
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 584,
+                "x": 65.5,
+                "skin": "res_view/haream/pic_line1.png",
+                "name": "LineSec1"
+              },
+              "compId": 577
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 794,
+                "x": 66.5,
+                "skin": "res_view/haream/pic_line1.png",
+                "name": "LineSec2"
+              },
+              "compId": 580
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 440,
+            "x": 60,
+            "width": 677,
+            "var": "SecBuildings",
+            "name": "SecBuildings",
+            "height": 100
+          },
+          "compId": 453,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "name": "pos1"
+              },
+              "compId": 454
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 110,
+                "name": "pos2"
+              },
+              "compId": 455
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 220,
+                "name": "pos3"
+              },
+              "compId": 456
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 330,
+                "name": "pos4"
+              },
+              "compId": 457
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 440,
+                "name": "pos5"
+              },
+              "compId": 458
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 550,
+                "name": "pos6"
+              },
+              "compId": 459
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 203,
+            "x": 318,
+            "var": "PlayerBox",
+            "scaleY": 1.3,
+            "scaleX": 1.3,
+            "presetID": 1,
+            "name": "PlayerBox",
+            "width": 100,
+            "pivotY": 50,
+            "pivotX": 50,
+            "isPresetRoot": true,
+            "height": 100
+          },
+          "compId": 603,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "var": "HeroQuality",
+                "presetID": 2,
+                "name": "HeroQuality",
+                "width": 100,
+                "skin": "res_common/solt_hero_purple.png",
+                "height": 100
+              },
+              "compId": 195
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -34,
+                "x": -79,
+                "width": 256,
+                "var": "HeroImg",
+                "presetID": 3,
+                "name": "HeroImg",
+                "height": 173
+              },
+              "compId": 196
+            },
+            {
+              "type": "Box",
+              "props": {
+                "presetID": 4,
+                "y": 100,
+                "x": 0,
+                "width": 100,
+                "name": "msgBox",
+                "height": 50
+              },
+              "compId": 197,
+              "child": [
+                {
+                  "type": "Text",
+                  "props": {
+                    "var": "playerCareer",
+                    "presetID": 6,
+                    "name": "playerCareer",
+                    "fontSize": 20,
+                    "font": "Microsoft YaHei",
+                    "bold": true,
+                    "y": 1,
+                    "x": 0,
+                    "width": 100,
+                    "valign": "middle",
+                    "text": "text",
+                    "height": 24,
+                    "color": "#501919",
+                    "align": "center",
+                    "runtime": "Laya.Text"
+                  },
+                  "compId": 200
+                },
+                {
+                  "type": "Text",
+                  "props": {
+                    "var": "txtPlayer",
+                    "presetID": 8,
+                    "name": "txtPlayer",
+                    "fontSize": 20,
+                    "font": "Microsoft YaHei",
+                    "y": 22,
+                    "x": 0,
+                    "width": 100,
+                    "valign": "middle",
+                    "text": "暂无美人",
+                    "height": 24,
+                    "align": "center",
+                    "runtime": "Laya.Text"
+                  },
+                  "compId": 201
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "visible": false,
+                "presetID": 9,
+                "y": 57,
+                "x": 52,
+                "width": 93,
+                "skin": "res_view/haream/bg_equipment_lock02.png",
+                "pivotY": 53,
+                "pivotX": 49,
+                "name": "Lock",
+                "height": 93
+              },
+              "compId": 202,
+              "child": [
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "presetID": 14,
+                    "name": "txt_tips",
+                    "y": 19.5,
+                    "x": 12,
+                    "width": 104,
+                    "value": "20",
+                    "spaceX": -5,
+                    "skin": "res_common/number/num_22_jxzk_ff2222_stk.png",
+                    "sheet": "0123456789",
+                    "scaleY": 0.8,
+                    "scaleX": 0.8,
+                    "height": 33,
+                    "align": "center"
+                  },
+                  "compId": 215
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "presetID": 15,
+                    "visible": false,
+                    "name": "tipsTxt"
+                  },
+                  "compId": 216,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "presetID": 11,
+                        "y": 24,
+                        "x": 7,
+                        "width": 38,
+                        "skin": "res_view/haream/text_zp3.png",
+                        "name": "txtTip1",
+                        "height": 20
+                      },
+                      "compId": 204
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "presetID": 12,
+                        "y": 24,
+                        "x": 67,
+                        "skin": "netRes/liuhe/viewUI/text_zp1.png",
+                        "name": "txtTip2"
+                      },
+                      "compId": 213
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "presetID": 13,
+                        "y": 49,
+                        "x": 27,
+                        "width": 39,
+                        "skin": "netRes/liuhe/viewUI/text_zp2.png",
+                        "name": "txtTip3",
+                        "height": 21
+                      },
+                      "compId": 214
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 203,
+            "x": 493,
+            "width": 100,
+            "var": "MainBox",
+            "scaleY": 1.3,
+            "scaleX": 1.3,
+            "presetID": 1,
+            "pivotY": 50,
+            "pivotX": 50,
+            "name": "MainBox",
+            "height": 100,
+            "isPresetRoot": true
+          },
+          "compId": 622,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "var": "MainQuality",
+                "presetID": 2,
+                "name": "MainQuality",
+                "width": 100,
+                "skin": "res_common/solt_hero_purple.png",
+                "height": 100
+              },
+              "compId": 623
+            },
+            {
+              "type": "Image",
+              "props": {
+                "var": "MainBeauty",
+                "presetID": 3,
+                "name": "MainBeauty",
+                "y": -6,
+                "x": -4,
+                "width": 110,
+                "height": 110
+              },
+              "compId": 624
+            },
+            {
+              "type": "Box",
+              "props": {
+                "presetID": 4,
+                "y": 100,
+                "x": 0,
+                "width": 100,
+                "name": "msgBox",
+                "height": 50
+              },
+              "compId": 625,
+              "child": [
+                {
+                  "type": "Text",
+                  "props": {
+                    "var": "txt_main_career",
+                    "presetID": 6,
+                    "name": "txt_main_career",
+                    "fontSize": 20,
+                    "font": "Microsoft YaHei",
+                    "bold": true,
+                    "y": 1,
+                    "x": 0,
+                    "width": 100,
+                    "valign": "middle",
+                    "text": "text",
+                    "height": 24,
+                    "color": "#501919",
+                    "align": "center",
+                    "runtime": "Laya.Text"
+                  },
+                  "compId": 626
+                },
+                {
+                  "type": "Text",
+                  "props": {
+                    "var": "txt_main_name",
+                    "presetID": 8,
+                    "name": "txt_main_name",
+                    "fontSize": 20,
+                    "font": "Microsoft YaHei",
+                    "y": 22,
+                    "x": 0,
+                    "width": 100,
+                    "valign": "middle",
+                    "text": "暂无美人",
+                    "height": 24,
+                    "align": "center",
+                    "runtime": "Laya.Text"
+                  },
+                  "compId": 627
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "visible": false,
+                "var": "mainLock",
+                "presetID": 9,
+                "name": "mainLock",
+                "y": 57,
+                "x": 52,
+                "width": 93,
+                "skin": "res_view/haream/bg_equipment_lock02.png",
+                "pivotY": 53,
+                "pivotX": 49,
+                "height": 93
+              },
+              "compId": 628,
+              "child": [
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "var": "MainTips",
+                    "presetID": 14,
+                    "name": "MainTips",
+                    "y": 19.5,
+                    "x": 12,
+                    "width": 104,
+                    "value": "20",
+                    "spaceX": -5,
+                    "skin": "res_common/number/num_22_jxzk_ff2222_stk.png",
+                    "sheet": "0123456789",
+                    "scaleY": 0.8,
+                    "scaleX": 0.8,
+                    "height": 33,
+                    "align": "center"
+                  },
+                  "compId": 629
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "var": "mian_tipsTxt",
+                    "presetID": 15,
+                    "name": "mian_tipsTxt",
+                    "visible": false
+                  },
+                  "compId": 630,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "presetID": 11,
+                        "y": 24,
+                        "x": 7,
+                        "width": 38,
+                        "skin": "res_view/haream/text_zp3.png",
+                        "name": "txtTip1",
+                        "height": 20
+                      },
+                      "compId": 631
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "presetID": 12,
+                        "y": 24,
+                        "x": 67,
+                        "skin": "netRes/liuhe/viewUI/text_zp1.png",
+                        "name": "txtTip2"
+                      },
+                      "compId": 632
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "presetID": 13,
+                        "y": 49,
+                        "x": 27,
+                        "width": 39,
+                        "skin": "netRes/liuhe/viewUI/text_zp2.png",
+                        "name": "txtTip3",
+                        "height": 21
+                      },
+                      "compId": 633
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 71,
+            "x": 508,
+            "width": 32,
+            "visible": false,
+            "var": "btn_describeOpen",
+            "skin": "res_view/haream/btn_smfh.png",
+            "pivotY": 17,
+            "pivotX": 16,
+            "name": "btn_describeOpen",
+            "height": 33
+          },
+          "compId": 682,
+          "child": [
+            {
+              "type": "Script",
+              "props": {
+                "runtime": "game/tools/BtnScale85.ts"
+              },
+              "compId": 683
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 130,
+        "x": 9,
+        "visible": false,
+        "var": "describeBox",
+        "name": "describeBox",
+        "mouseEnabled": true
+      },
+      "compId": 666,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -144,
+            "width": 1000,
+            "skin": "res_common/bg.png",
+            "name": "maskBg",
+            "height": 1625,
+            "centerX": -68,
+            "alpha": 0.6
+          },
+          "compId": 667
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 182,
+            "x": 65,
+            "width": 606,
+            "skin": "res_common/bg_1.png",
+            "sizeGrid": "237,0,148,0",
+            "name": "Bg",
+            "height": 775
+          },
+          "compId": 668
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 240,
+            "x": 229.5,
+            "width": 273,
+            "skin": "res_common/bg_title01.png",
+            "name": "titleBg"
+          },
+          "compId": 669
+        },
+        {
+          "type": "Image",
+          "props": {
+            "width": 58,
+            "var": "title",
+            "text": "text",
+            "skin": "res_view/beauty/text_sm.png",
+            "height": 30,
+            "centerY": -482,
+            "centerX": -76
+          },
+          "compId": 670
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 198,
+            "x": 629,
+            "width": 85,
+            "var": "closeDesBtn",
+            "skin": "res_common/btn_close.png",
+            "pivotY": 32,
+            "pivotX": 52,
+            "name": "closeDesBtn",
+            "height": 86
+          },
+          "compId": 671,
+          "child": [
+            {
+              "type": "Script",
+              "props": {
+                "runtime": "game/tools/BtnScale85.ts"
+              },
+              "compId": 684
+            }
+          ]
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 306,
+            "x": 102,
+            "wordWrap": true,
+            "width": 494,
+            "valign": "top",
+            "text": "一、宗门建设：\n",
+            "name": "title1",
+            "leading": 11,
+            "height": 607,
+            "fontSize": 24,
+            "font": "Microsoft YaHei",
+            "editable": false,
+            "color": "#863939"
+          },
+          "compId": 676
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 341,
+            "x": 102,
+            "wordWrap": false,
+            "width": 494,
+            "valign": "top",
+            "text": "1. 宗门：由宗门主峰和6个次峰组成。\\n2. 宗门升级：需要达到规定的木材数量。\\n3. 次峰升级：需要达到规定的宗门等级。\\n4. 宗门改名：每周只能修改一次\\n（自改名起7天）；次峰无限制。",
+            "name": "content1",
+            "leading": 11,
+            "height": 572,
+            "fontSize": 24,
+            "font": "Microsoft YaHei",
+            "editable": false,
+            "color": "#684546"
+          },
+          "compId": 674
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 516,
+            "x": 102,
+            "wordWrap": true,
+            "width": 494,
+            "valign": "top",
+            "text": "二、宗门职位： ",
+            "name": "title2",
+            "leading": 11,
+            "height": 607,
+            "fontSize": 24,
+            "font": "Microsoft YaHei",
+            "editable": false,
+            "color": "#863939"
+          },
+          "compId": 678
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 551,
+            "x": 102,
+            "wordWrap": false,
+            "width": 494,
+            "valign": "top",
+            "text": "1. 职位数：宗门主峰（副宗主）；\\n次峰（峰主、副峰主、供奉）\\n2. 任命要求：好感度达到结缘及以上的美人。\\n3. 首次任命美人，可触发特殊交谈。\\n4. 美人在任命期间获得徒弟，徒弟的出生功德\\n享有职位加成。",
+            "name": "content2",
+            "leading": 11,
+            "height": 572,
+            "fontSize": 24,
+            "font": "Microsoft YaHei",
+            "editable": false,
+            "color": "#684546"
+          },
+          "compId": 679
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 760.5,
+            "x": 102,
+            "wordWrap": true,
+            "width": 494,
+            "valign": "top",
+            "text": "三、美人互动:",
+            "name": "title3",
+            "leading": 11,
+            "height": 607,
+            "fontSize": 24,
+            "font": "Microsoft YaHei",
+            "editable": false,
+            "color": "#863939"
+          },
+          "compId": 680
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 795.5,
+            "x": 102,
+            "wordWrap": false,
+            "width": 494,
+            "valign": "top",
+            "text": "1. 每日0点/12点/18点可随机触发美人互动事件\\n（夜访/收礼）\\n2. 夜访事件：可获得徒弟和美人好感度。\\n3. 收礼：可获得美人送出的随机礼物。",
+            "name": "content3",
+            "leading": 11,
+            "height": 572,
+            "fontSize": 24,
+            "font": "Microsoft YaHei",
+            "editable": false,
+            "color": "#684546"
+          },
+          "compId": 681
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "visible": false,
+        "name": "prefabBox"
+      },
+      "compId": 525,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "visible": false,
+            "presetID": 1,
+            "y": 50,
+            "x": 50,
+            "width": 100,
+            "pivotY": 50,
+            "pivotX": 50,
+            "name": "NodeBox",
+            "isPresetRoot": true,
+            "height": 100
+          },
+          "compId": 526,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 2,
+                "width": 100,
+                "skin": "res_common/solt_hero_purple.png",
+                "name": "qualityImg",
+                "height": 100
+              },
+              "compId": 584
+            },
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 3,
+                "y": -6,
+                "x": -4,
+                "width": 110,
+                "name": "beautyImg",
+                "height": 110
+              },
+              "compId": 585
+            },
+            {
+              "type": "Box",
+              "props": {
+                "presetID": 4,
+                "y": 100,
+                "x": 0,
+                "width": 100,
+                "name": "msgBox",
+                "height": 50
+              },
+              "compId": 586,
+              "child": [
+                {
+                  "type": "Text",
+                  "props": {
+                    "presetID": 6,
+                    "y": 1,
+                    "x": 0,
+                    "width": 100,
+                    "valign": "middle",
+                    "text": "text",
+                    "name": "txtCareer",
+                    "height": 24,
+                    "fontSize": 20,
+                    "font": "Microsoft YaHei",
+                    "color": "#501919",
+                    "align": "center",
+                    "runtime": "Laya.Text"
+                  },
+                  "compId": 581
+                },
+                {
+                  "type": "Text",
+                  "props": {
+                    "presetID": 8,
+                    "y": 22,
+                    "x": 0,
+                    "width": 100,
+                    "valign": "middle",
+                    "text": "暂无美人",
+                    "name": "txtName",
+                    "height": 24,
+                    "fontSize": 18,
+                    "font": "Microsoft YaHei",
+                    "align": "center",
+                    "runtime": "Laya.Text"
+                  },
+                  "compId": 582
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "presetID": 9,
+                "y": 57,
+                "x": 52,
+                "width": 93,
+                "visible": false,
+                "skin": "res_view/haream/bg_equipment_lock02.png",
+                "pivotY": 53,
+                "pivotX": 49,
+                "name": "Lock",
+                "height": 93
+              },
+              "compId": 587,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 11,
+                    "y": 24,
+                    "x": 7,
+                    "width": 38,
+                    "skin": "res_view/haream/text_zp3.png",
+                    "name": "txtTip1",
+                    "height": 20
+                  },
+                  "compId": 595
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 12,
+                    "y": 24,
+                    "x": 67,
+                    "skin": "netRes/liuhe/viewUI/text_zp1.png",
+                    "name": "txtTip2"
+                  },
+                  "compId": 596
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 13,
+                    "y": 49,
+                    "x": 27,
+                    "width": 39,
+                    "skin": "netRes/liuhe/viewUI/text_zp2.png",
+                    "name": "txtTip3",
+                    "height": 21
+                  },
+                  "compId": 597
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "presetID": 14,
+                    "name": "txt_tips2",
+                    "y": 19.5,
+                    "x": 12,
+                    "width": 104,
+                    "value": "20",
+                    "spaceX": -5,
+                    "skin": "res_common/number/num_22_jxzk_ff2222_stk.png",
+                    "sheet": "0123456789",
+                    "scaleY": 0.8,
+                    "scaleX": 0.8,
+                    "height": 33,
+                    "align": "center"
+                  },
+                  "compId": 598
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "presetID": 15,
+                    "visible": false,
+                    "name": "tipsTxt"
+                  },
+                  "compId": 599,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "presetID": 11,
+                        "y": 24,
+                        "x": 7,
+                        "width": 38,
+                        "skin": "res_view/haream/text_zp3.png",
+                        "name": "txtTip1",
+                        "height": 20
+                      },
+                      "compId": 600
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "presetID": 12,
+                        "y": 24,
+                        "x": 67,
+                        "skin": "netRes/liuhe/viewUI/text_zp1.png",
+                        "name": "txtTip2"
+                      },
+                      "compId": 601
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "presetID": 13,
+                        "y": 49,
+                        "x": 27,
+                        "width": 39,
+                        "skin": "netRes/liuhe/viewUI/text_zp2.png",
+                        "name": "txtTip3",
+                        "height": 21
+                      },
+                      "compId": 602
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "visible": false,
+            "presetID": 1,
+            "y": 0,
+            "x": 0,
+            "width": 136,
+            "name": "BuildBox",
+            "isPresetRoot": true,
+            "height": 796
+          },
+          "compId": 527,
+          "child": [
+            {
+              "type": "Text",
+              "props": {
+                "presetID": 2,
+                "y": 7,
+                "x": 1,
+                "width": 122,
+                "valign": "top",
+                "text": "第1峰",
+                "name": "buildName",
+                "height": 60,
+                "fontSize": 20,
+                "font": "Microsoft YaHei",
+                "color": "#464343",
+                "align": "center",
+                "runtime": "Laya.Text"
+              },
+              "compId": 205
+            },
+            {
+              "type": "Box",
+              "props": {
+                "presetID": 3,
+                "y": 32,
+                "x": 0,
+                "width": 139,
+                "name": "Nodes",
+                "height": 764
+              },
+              "compId": 206,
+              "child": [
+                {
+                  "type": "Box",
+                  "props": {
+                    "presetID": 4,
+                    "y": 65,
+                    "x": 65,
+                    "scaleY": 1,
+                    "scaleX": 1,
+                    "name": "pos1"
+                  },
+                  "compId": 217
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "presetID": 5,
+                    "y": 285,
+                    "x": 65,
+                    "scaleY": 0.9,
+                    "scaleX": 0.9,
+                    "name": "pos2"
+                  },
+                  "compId": 218
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "presetID": 6,
+                    "y": 485,
+                    "x": 69.5,
+                    "scaleY": 0.8,
+                    "scaleX": 0.8,
+                    "name": "pos3"
+                  },
+                  "compId": 219
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "props": {
+                "presetID": 7,
+                "y": 29,
+                "x": 1,
+                "width": 122,
+                "valign": "top",
+                "text": "1级",
+                "name": "buildLv",
+                "height": 60,
+                "fontSize": 18,
+                "font": "Microsoft YaHei",
+                "color": "#464343",
+                "align": "center",
+                "runtime": "Laya.Text"
+              },
+              "compId": 638
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "prefab/ZmSystem/NodeBox.prefab",
+    "res_common/bg_1.png",
+    "prefab/ZmSystem/BuildBox.prefab"
+  ],
+  "loadList3D": []
+}

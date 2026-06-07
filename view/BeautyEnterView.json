@@ -1,0 +1,286 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 667,
+        "x": 375,
+        "width": 1000,
+        "var": "displayBox",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 1
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "var": "maskBg",
+            "top": 0,
+            "skin": "res_common/bg.png",
+            "right": 0,
+            "left": 0,
+            "bottom": 0,
+            "alpha": 0
+          },
+          "compId": 4
+        },
+        {
+          "type": "Panel",
+          "props": {
+            "width": 750,
+            "top": 131,
+            "mouseThrough": false,
+            "mouseEnabled": true,
+            "height": 2000,
+            "centerX": 0
+          },
+          "compId": 11,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 1480,
+                "x": 375,
+                "var": "BeautyAni",
+                "name": "BeautyAni",
+                "alpha": 0
+              },
+              "compId": 28
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -1,
+                "x": -5,
+                "width": 758,
+                "visible": true,
+                "var": "Beauty",
+                "scaleY": 1,
+                "scaleX": 1,
+                "name": "Beauty",
+                "height": 968
+              },
+              "compId": 12
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 884,
+                "x": 77,
+                "skin": "res_view/beauty/bg_enter_dialog.png",
+                "name": "txt_bg",
+                "alpha": 0
+              },
+              "compId": 14,
+              "child": [
+                {
+                  "type": "Text",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "wordWrap": true,
+                    "width": 589,
+                    "var": "Dialog",
+                    "valign": "middle",
+                    "text": "text",
+                    "name": "Dialog",
+                    "height": 180,
+                    "fontSize": 40,
+                    "font": "Microsoft YaHei",
+                    "color": "#000000",
+                    "bold": false,
+                    "align": "center",
+                    "runtime": "Laya.Text"
+                  },
+                  "compId": 21
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 144,
+            "x": 96,
+            "width": 779,
+            "var": "btn_close",
+            "skin": "loading/btn_close.png",
+            "name": "btn_close",
+            "height": 1350,
+            "alpha": 0
+          },
+          "compId": 24
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 14,
+          "keyframes": {
+            "name": [
+              {
+                "value": "",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 14,
+                "key": "name",
+                "index": 0
+              },
+              {
+                "value": "Dialogbg",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 14,
+                "key": "name",
+                "index": 16
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 14,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 14,
+                "key": "alpha",
+                "index": 5
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 14,
+                "key": "alpha",
+                "index": 10
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 14,
+                "key": "alpha",
+                "index": 65
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 14,
+                "key": "alpha",
+                "index": 70
+              }
+            ]
+          }
+        },
+        {
+          "target": 4,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 4,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0.2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 4,
+                "key": "alpha",
+                "index": 5
+              },
+              {
+                "value": 0.2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 4,
+                "key": "alpha",
+                "index": 65
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 4,
+                "key": "alpha",
+                "index": 70
+              }
+            ]
+          }
+        },
+        {
+          "target": 28,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 28,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 28,
+                "key": "alpha",
+                "index": 5
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 28,
+                "key": "alpha",
+                "index": 65
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 28,
+                "key": "alpha",
+                "index": 70
+              }
+            ]
+          }
+        }
+      ],
+      "name": "BeautyEnter",
+      "id": 1,
+      "frameRate": 30,
+      "action": 0
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

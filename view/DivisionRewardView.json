@@ -1,0 +1,438 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 813,
+        "x": 500,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 3
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 1199,
+        "x": 258,
+        "skin": "res_view/rank/text_djgb.png"
+      },
+      "compId": 74
+    },
+    {
+      "type": "Image",
+      "props": {
+        "width": 610,
+        "var": "bgPanel",
+        "height": 1063,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "y": -101,
+            "width": 360,
+            "var": "remainTips",
+            "height": 26,
+            "centerX": 0
+          },
+          "compId": 40,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 9,
+                "var": "tip1",
+                "text": "text",
+                "skin": "netRes/arena/text_sysj_2.png",
+                "centerX": -48,
+                "anchorX": 1
+              },
+              "compId": 41,
+              "child": [
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "width": 123,
+                    "right": -125,
+                    "height": 35
+                  },
+                  "compId": 42,
+                  "child": [
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": -4,
+                        "var": "unit1Txt",
+                        "value": "12",
+                        "spaceX": -8,
+                        "skin": "res_common/number/num_20_jxzk_ffffff_stk_2.png",
+                        "sheet": "0123456789"
+                      },
+                      "compId": 43
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "x": 37,
+                        "var": "unit1Icon",
+                        "text": "text",
+                        "skin": "netRes/arena/text_tian_2.png",
+                        "centerY": -6,
+                        "anchorY": 0.5,
+                        "anchorX": 0.5
+                      },
+                      "compId": 44
+                    },
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": -4,
+                        "x": 45,
+                        "var": "unit2Txt",
+                        "value": "00",
+                        "spaceX": -8,
+                        "skin": "res_common/number/num_20_jxzk_ffffff_stk_2.png",
+                        "sheet": "0123456789"
+                      },
+                      "compId": 45
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "x": 84,
+                        "var": "unit2Icon",
+                        "text": "text",
+                        "skin": "netRes/arena/text_shi_2.png",
+                        "centerY": -6,
+                        "anchorY": 0.5,
+                        "anchorX": 0.5
+                      },
+                      "compId": 46
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 6.5,
+                    "x": 91,
+                    "skin": "netRes/arena/text_colon.png"
+                  },
+                  "compId": 67
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -101,
+            "x": -96,
+            "skin": "netRes/arenaN/panel_zfxg_l.png",
+            "scaleY": 1.1,
+            "scaleX": 1.1,
+            "name": "maskKuang",
+            "mouseEnabled": false
+          },
+          "compId": 66
+        },
+        {
+          "type": "Panel",
+          "props": {
+            "y": 87,
+            "width": 590,
+            "var": "gradePanel",
+            "vScrollBarSkin": "comp/vscroll.png",
+            "height": 838,
+            "centerX": 0
+          },
+          "compId": 48
+        },
+        {
+          "type": "List",
+          "props": {
+            "y": 90,
+            "width": 590,
+            "visible": false,
+            "var": "blessList",
+            "vScrollBarSkin": "comp/vscroll.png",
+            "spaceY": 15,
+            "height": 839,
+            "centerX": 10
+          },
+          "compId": 50,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "width": 590,
+                "renderType": "render",
+                "height": 220
+              },
+              "compId": 52,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 41,
+                    "x": 25,
+                    "width": 570,
+                    "skin": "netRes/arenaN/panel_zfxg.png"
+                  },
+                  "compId": 53
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 125,
+                    "x": 83,
+                    "skin": "netRes/icon/blessIcon/S1_3.png",
+                    "scaleY": 1.1,
+                    "name": "blessIcon",
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 54
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "width": 164,
+                    "texture": "netRes/arenaN/panel_zhufu.png",
+                    "height": 204
+                  },
+                  "compId": 55
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 34,
+                    "x": 20,
+                    "width": 141,
+                    "visible": false,
+                    "stroke": 2,
+                    "name": "blessName1",
+                    "fontSize": 18,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 56
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -5,
+                    "x": 60,
+                    "skin": "netRes/arena/tag_received.png",
+                    "scaleY": 0.9,
+                    "scaleX": 0.9,
+                    "name": "isGetIcon"
+                  },
+                  "compId": 58
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 24,
+                    "x": 241,
+                    "width": 213,
+                    "texture": "netRes/arenaN/frame_main_name.png",
+                    "height": 46
+                  },
+                  "compId": 57
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 21.5,
+                    "x": 330.5,
+                    "visible": false,
+                    "skin": "netRes/arena/text_qd.png",
+                    "anchorX": 0.5
+                  },
+                  "compId": 69
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 38,
+                    "x": 247,
+                    "width": 200,
+                    "text": "签到特别礼",
+                    "stroke": 4,
+                    "name": "blessName",
+                    "fontSize": 23,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 72
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 74,
+                    "x": 347.5,
+                    "skin": "netRes/arena/text_yjh.png",
+                    "scaleY": 0.9,
+                    "scaleX": 0.9,
+                    "name": "blessState",
+                    "anchorX": 0.5
+                  },
+                  "compId": 62
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "x": 174,
+                    "wordWrap": true,
+                    "width": 361,
+                    "valign": "middle",
+                    "text": "111111",
+                    "name": "blessDesc",
+                    "leading": 5,
+                    "height": 81,
+                    "fontSize": 18,
+                    "font": "SimHei",
+                    "color": "#ffcaa3",
+                    "centerY": 25,
+                    "align": "center"
+                  },
+                  "compId": 61
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 54,
+            "x": 126,
+            "skin": "netRes/arenaN/bg_favorability01.png"
+          },
+          "compId": 73,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 9,
+                "x": 67.5,
+                "skin": "netRes/arenaN/text_gxtxzhdjshsx.png"
+              },
+              "compId": 70
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -48,
+            "x": 304.5,
+            "var": "titleImg",
+            "skin": "netRes/arenaN/text_dwjl.png",
+            "anchorX": 0.5
+          },
+          "compId": 5
+        },
+        {
+          "type": "List",
+          "props": {
+            "y": 930,
+            "width": 525,
+            "var": "tabList",
+            "spaceX": -80,
+            "selectedIndex": 1,
+            "selectEnable": true,
+            "repeatY": 1,
+            "repeatX": 2,
+            "mouseThrough": true,
+            "mouseEnabled": true,
+            "height": 134,
+            "centerX": 58
+          },
+          "compId": 36,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "x": 0,
+                "width": 261,
+                "renderType": "render",
+                "mouseThrough": true,
+                "mouseEnabled": true,
+                "height": 118,
+                "centerY": 0
+              },
+              "compId": 37,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "res_common/btn_common_label02.png",
+                    "name": "tabBg",
+                    "centerY": 0,
+                    "centerX": 0
+                  },
+                  "compId": 38
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 43.5,
+                    "x": 63,
+                    "skin": "netRes/arenaN/text_dwjl_yellow.png",
+                    "name": "tabName"
+                  },
+                  "compId": 68
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 13,
+                    "x": 198,
+                    "visible": false,
+                    "texture": "main/redpoint.png",
+                    "name": "redPoint"
+                  },
+                  "compId": 63
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "comp/vscroll.png",
+    "netRes/arenaN/panel_zhufu.png",
+    "netRes/arenaN/frame_main_name.png",
+    "main/redpoint.png"
+  ],
+  "loadList3D": []
+}

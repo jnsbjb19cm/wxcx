@@ -1,0 +1,152 @@
+{
+  "type": "View",
+  "props": {
+    "width": 247,
+    "height": 44
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "x": 3,
+        "width": 236,
+        "var": "workShopPv",
+        "skin": "res_view/workshop/panel_yugao.png",
+        "height": 45
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 22,
+            "x": 23,
+            "width": 45,
+            "var": "img",
+            "skin": "netRes/icon/itemIcon/icon_gongde.png",
+            "height": 45,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 5
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 12,
+            "x": 40,
+            "visible": false,
+            "text": "43",
+            "stroke": 1,
+            "fontSize": 20,
+            "font": "SimHei",
+            "color": "#ffffff",
+            "bold": true
+          },
+          "compId": 10
+        },
+        {
+          "type": "FontClip",
+          "props": {
+            "y": 4,
+            "x": 78,
+            "var": "openZone",
+            "presetID": 1,
+            "value": "43",
+            "spaceX": -8,
+            "skin": "res_common/number/num_18_kt_ffffff.png",
+            "sheet": "0123456789-+*",
+            "isPresetRoot": true
+          },
+          "compId": 12,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 10,
+                "skin": "res_view/workshop/text_ss_kjz.png",
+                "left": -31
+              },
+              "compId": 9
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 10,
+                "width": 62,
+                "skin": "res_view/workshop/text_yugao_zhangkeshengji.png",
+                "sizeGrid": "0,62,0,0",
+                "right": -64
+              },
+              "compId": 13,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 65,
+                    "var": "wsImg",
+                    "skin": "res_view/workshop/text_yugao_jitiantai.png"
+                  },
+                  "compId": 11
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 10,
+        "x": 7,
+        "width": 231,
+        "visible": false,
+        "var": "hareamPv",
+        "skin": "res_view/workshop/panel_123.png",
+        "sizeGrid": "0,16,0,19",
+        "height": 25
+      },
+      "compId": 14,
+      "child": [
+        {
+          "type": "Label",
+          "props": {
+            "y": 4,
+            "visible": true,
+            "text": "宗门122级可升级：",
+            "stroke": 0,
+            "name": "desc",
+            "left": 9,
+            "fontSize": 16,
+            "font": "SimHei",
+            "color": "#ffffff",
+            "bold": true
+          },
+          "compId": 16
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 4,
+            "x": 141,
+            "visible": true,
+            "text": "桃花桃花峰",
+            "stroke": 0,
+            "name": "subpeakName",
+            "fontSize": 16,
+            "font": "SimHei",
+            "color": "#30ff00",
+            "bold": true
+          },
+          "compId": 28
+        }
+      ]
+    }
+  ],
+  "loadList": ["prefab/number/num_18_kt_ffffff.prefab"],
+  "loadList3D": []
+}

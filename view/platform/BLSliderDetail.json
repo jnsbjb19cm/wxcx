@@ -1,0 +1,247 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "var": "maskBg",
+        "top": 0,
+        "skin": "res_common/bg.png",
+        "right": 0,
+        "left": 0,
+        "bottom": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 3
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 610,
+        "height": 1014,
+        "centerY": -18,
+        "centerX": -2
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -14,
+            "x": 5,
+            "width": 606,
+            "skin": "res_view/platformFeatures/panel_1.png",
+            "sizeGrid": "74,0,101,0",
+            "height": 1030
+          },
+          "compId": 5
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -22,
+            "x": 520,
+            "var": "closeBtn",
+            "skin": "res_view/platformFeatures/btn_close.png",
+            "label": "label"
+          },
+          "compId": 6
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 48,
+            "x": 171,
+            "skin": "res_view/platformFeatures/bg_title01.png"
+          },
+          "compId": 7
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 56,
+            "x": 241,
+            "text": "text",
+            "skin": "res_view/platformFeatures/ttSlider/text_xianshijiangli.png"
+          },
+          "compId": 8
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 132,
+            "x": 46,
+            "text": "1.点击进入侧边栏图标",
+            "fontSize": 30,
+            "font": "SimHei",
+            "color": "#4c2a2b"
+          },
+          "compId": 10
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 377,
+            "x": 47,
+            "text": "2.点击小游戏名进入",
+            "fontSize": 30,
+            "font": "SimHei",
+            "color": "#4c2a2b"
+          },
+          "compId": 14
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 786,
+            "x": 56,
+            "text": "3.领取奖励",
+            "leading": 6,
+            "fontSize": 30,
+            "font": "SimHei",
+            "color": "#4c2a2b"
+          },
+          "compId": 17
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 188,
+            "x": 76,
+            "skin": "res_view/platformFeatures/blSlider/img_djjrcbltb.png"
+          },
+          "compId": 9
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 434,
+            "x": 79,
+            "skin": "res_view/platformFeatures/blSlider/img_djxyxjr.png"
+          },
+          "compId": 15,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 237,
+                "x": 47,
+                "width": 51,
+                "var": "gameIcon",
+                "height": 51
+              },
+              "compId": 26,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 61,
+                    "var": "gameName",
+                    "text": "修仙自走棋",
+                    "fontSize": 15,
+                    "font": "SimHei",
+                    "color": "#48494c",
+                    "centerX": 0,
+                    "bold": true
+                  },
+                  "compId": 27
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 800,
+            "x": 257,
+            "width": 101,
+            "var": "itemBox",
+            "height": 101
+          },
+          "compId": 18
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 948,
+            "x": 309,
+            "width": 208,
+            "var": "enterBtn",
+            "skin": "res_common/btn_yellow.png",
+            "label": "label",
+            "height": 73,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 23,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 21,
+                "x": 19,
+                "text": "text",
+                "skin": "res_view/platformFeatures/blSlider/text_jrcbl.png"
+              },
+              "compId": 24
+            },
+            {
+              "type": "Script",
+              "props": {
+                "runtime": "game/tools/BtnScale90.ts"
+              },
+              "compId": 25
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 948,
+            "x": 305,
+            "width": 157,
+            "visible": false,
+            "var": "getBtn",
+            "skin": "res_common/btn_yellow.png",
+            "label": "label",
+            "height": 73,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 19,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 21,
+                "x": 39,
+                "text": "text",
+                "skin": "res_view/platformFeatures/addDesktop/text_lq.png"
+              },
+              "compId": 20
+            },
+            {
+              "type": "Script",
+              "props": {
+                "runtime": "game/tools/BtnScale90.ts"
+              },
+              "compId": 21
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

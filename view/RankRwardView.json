@@ -1,0 +1,300 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 813,
+        "x": 500,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 52
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 660,
+        "var": "bgPanel",
+        "skin": "res_view/rank/panel_house_title03.png",
+        "sizeGrid": "167,0,188,0",
+        "height": 1080,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 53,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 5,
+            "x": 43,
+            "skin": "res_common/icon_head.png"
+          },
+          "compId": 73,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "skin": "netRes/arenaN/text_pmjl.png",
+                "name": "title",
+                "centerX": 60
+              },
+              "compId": 54
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 86,
+            "x": 135,
+            "width": 360,
+            "var": "remainTips",
+            "height": 26,
+            "centerX": 0
+          },
+          "compId": 55,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "var": "remainLab",
+                "text": "剩余领奖时间：11天11时",
+                "stroke": 3,
+                "fontSize": 18,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "centerX": 0,
+                "bold": true
+              },
+              "compId": 56
+            }
+          ]
+        },
+        {
+          "type": "List",
+          "props": {
+            "y": 112,
+            "width": 608,
+            "var": "rwdList",
+            "vScrollBarSkin": "comp/vscroll.png",
+            "spaceY": 6,
+            "height": 825,
+            "centerX": 26
+          },
+          "compId": 57,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "width": 608,
+                "renderType": "render",
+                "height": 122
+              },
+              "compId": 58,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "width": 550,
+                    "top": 0,
+                    "skin": "res_view/children/bg_family_organization_01.png",
+                    "name": "bg",
+                    "left": 0,
+                    "height": 122,
+                    "bottom": 0
+                  },
+                  "compId": 59
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 15,
+                    "x": 24,
+                    "skin": "netRes/arenaN/frame_jianglidikuang.png",
+                    "scaleY": 0.9,
+                    "scaleX": 0.9,
+                    "name": "blackBg"
+                  },
+                  "compId": 60
+                },
+                {
+                  "type": "HBox",
+                  "props": {
+                    "y": 27,
+                    "x": 225,
+                    "width": 457,
+                    "space": 15,
+                    "scaleY": 0.6,
+                    "scaleX": 0.6,
+                    "name": "propBox"
+                  },
+                  "compId": 62,
+                  "child": [
+                    {
+                      "type": "PropItem",
+                      "props": {
+                        "y": 0,
+                        "x": 9,
+                        "runtime": "ui.component.PropItemUI"
+                      },
+                      "compId": 63
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 43,
+                    "x": 13,
+                    "visible": false,
+                    "skin": "netRes/arenaN/text_wsb.png",
+                    "scaleY": 1,
+                    "scaleX": 1,
+                    "name": "noGrade"
+                  },
+                  "compId": 64
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 43,
+                    "x": 38,
+                    "visible": false,
+                    "skin": "netRes/arenaN/text_wsb.png",
+                    "name": "gradeImg"
+                  },
+                  "compId": 72
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 954,
+            "width": 540,
+            "var": "selfBox",
+            "height": 80,
+            "centerX": 0
+          },
+          "compId": 65,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 23.5,
+                "x": -10,
+                "skin": "netRes/arenaN/text_wdpm.png"
+              },
+              "compId": 66,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 9,
+                    "x": 119,
+                    "skin": "res_combat/boss/text_colon_.png"
+                  },
+                  "compId": 67
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 12,
+                "x": 380,
+                "width": 150,
+                "var": "btnGetReward",
+                "skin": "res_common/btn_yellow.png",
+                "height": 60
+              },
+              "compId": 68,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 17.5,
+                    "x": 39.5,
+                    "skin": "netRes/arenaN/text_yjlq.png",
+                    "scaleY": 0.8,
+                    "scaleX": 0.8
+                  },
+                  "compId": 74
+                }
+              ]
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 4,
+                "x": 507,
+                "visible": true,
+                "var": "redPoint",
+                "texture": "main/redpoint.png",
+                "name": "redPoint"
+              },
+              "compId": 76
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 20,
+                "x": 143,
+                "var": "noRank",
+                "skin": "netRes/arenaN/text_wsb.png",
+                "scaleY": 1,
+                "scaleX": 1
+              },
+              "compId": 70
+            },
+            {
+              "type": "Text",
+              "props": {
+                "y": 7.5,
+                "x": 143,
+                "width": 82,
+                "var": "rankLab",
+                "text": "5",
+                "stroke": 2,
+                "name": "rankLab",
+                "height": 46,
+                "fontSize": 70,
+                "color": "#ffffff",
+                "bold": true,
+                "align": "center",
+                "runtime": "Laya.Text"
+              },
+              "compId": 75
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "res_view/rank/panel_house_title03.png",
+    "comp/vscroll.png",
+    "component/PropItem.scene",
+    "main/redpoint.png"
+  ],
+  "loadList3D": []
+}

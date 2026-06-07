@@ -1,0 +1,501 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": false,
+    "height": 1334,
+    "drawCallOptimize": true,
+    "autoDestroyAtClosed": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 798,
+        "var": "UnLockBox",
+        "name": "UnLockBox",
+        "height": 1211,
+        "centerY": 21,
+        "centerX": 0
+      },
+      "compId": 686,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 589,
+            "x": 399,
+            "width": 1000,
+            "skin": "res_common/bg.png",
+            "height": 1625,
+            "centerX": 0,
+            "anchorY": 0.5,
+            "anchorX": 0.5,
+            "alpha": 0.6
+          },
+          "compId": 687
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 118,
+            "x": 70,
+            "width": 650,
+            "skin": "res_view/haream/panrl_1.png",
+            "sizeGrid": "162,0,218,0",
+            "name": "Bg",
+            "height": 868,
+            "alpha": 1
+          },
+          "compId": 688,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 82,
+                "x": 72,
+                "width": 513,
+                "skin": "res_view/haream/panel_2.png",
+                "sizeGrid": "105,0,87,0",
+                "name": "img_bg",
+                "height": 695
+              },
+              "compId": 689
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 176,
+                "x": 70,
+                "skin": "res_view/haream/line_house_punctuation.png",
+                "name": "img_bg_2"
+              },
+              "compId": 690,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 281,
+                    "x": 196,
+                    "skin": "res_view/haream/text_sjxg.png",
+                    "name": "text_bg"
+                  },
+                  "compId": 691
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 209,
+                "x": 252,
+                "var": "img_build",
+                "skin": "netRes/haream/buildings/peak2_4.png",
+                "scaleY": 0.5,
+                "scaleX": 0.5,
+                "pivotY": 138,
+                "pivotX": 148,
+                "name": "img_build"
+              },
+              "compId": 692
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 48,
+                "x": 571.5,
+                "width": 55,
+                "var": "btn_close",
+                "skin": "res_common/bg_common_close.png",
+                "pivotY": 28,
+                "pivotX": 28,
+                "name": "btn_close",
+                "label": "label",
+                "height": 55
+              },
+              "compId": 693,
+              "child": [
+                {
+                  "type": "Rect",
+                  "props": {
+                    "y": -15,
+                    "x": -11,
+                    "width": 77,
+                    "renderType": "hit",
+                    "lineWidth": 1,
+                    "height": 70,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 694
+                },
+                {
+                  "type": "Script",
+                  "props": {
+                    "y": 41,
+                    "x": 93,
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 695
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 883.5,
+                "skin": "res_common/text_djgb.png",
+                "name": "img_blankClose",
+                "centerX": 5
+              },
+              "compId": 696
+            },
+            {
+              "type": "Image",
+              "props": {
+                "width": 3000,
+                "visible": true,
+                "var": "topClose",
+                "name": "topClose",
+                "height": 830,
+                "centerY": -814,
+                "centerX": -10
+              },
+              "compId": 697
+            },
+            {
+              "type": "Image",
+              "props": {
+                "width": 1535,
+                "visible": true,
+                "var": "leftClose",
+                "name": "leftClose",
+                "height": 1483,
+                "centerY": 41,
+                "centerX": -1048
+              },
+              "compId": 698
+            },
+            {
+              "type": "Image",
+              "props": {
+                "width": 1535,
+                "visible": true,
+                "var": "rightClose",
+                "name": "rightClose",
+                "height": 1483,
+                "centerY": 41,
+                "centerX": 1050
+              },
+              "compId": 699
+            },
+            {
+              "type": "Image",
+              "props": {
+                "width": 3000,
+                "visible": true,
+                "var": "bottomClose",
+                "name": "bottomClose",
+                "height": 648,
+                "centerY": 758,
+                "centerX": -31
+              },
+              "compId": 700
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 122,
+            "x": -1,
+            "name": "BasicMesBox"
+          },
+          "compId": 701,
+          "child": [
+            {
+              "type": "Text",
+              "props": {
+                "y": 105,
+                "x": 288,
+                "width": 224,
+                "var": "Name",
+                "valign": "middle",
+                "text": "青云宗分布",
+                "name": "Name",
+                "height": 50,
+                "fontSize": 33,
+                "font": "SimHei",
+                "color": "#50342c",
+                "align": "center",
+                "runtime": "Laya.Text"
+              },
+              "compId": 702
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 923,
+            "x": 402,
+            "width": 230,
+            "var": "btn_lvUp",
+            "skin": "res_combat/specialStageView/biaoJu/btn_yellow.png",
+            "pivotY": 41,
+            "pivotX": 115,
+            "name": "btn_lvUp",
+            "height": 82,
+            "alpha": 1
+          },
+          "compId": 747,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 25.5,
+                "x": 59.5,
+                "skin": "res_view/workshop/text_js.png",
+                "name": "txt_unlock"
+              },
+              "compId": 748
+            },
+            {
+              "type": "Script",
+              "props": {
+                "y": 41,
+                "x": 93,
+                "runtime": "game/tools/BtnScale90.ts"
+              },
+              "compId": 749
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 820,
+            "x": 305,
+            "var": "cost_box",
+            "name": "cost_box"
+          },
+          "compId": 751,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "skin": "res_view/haream/solt_ccy.png",
+                "name": "bg"
+              },
+              "compId": 752
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 14.5,
+                "x": 9,
+                "width": 34,
+                "skin": "res_view/children/icon_yuanbao.png",
+                "name": "icon",
+                "height": 27
+              },
+              "compId": 753
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 10,
+                "x": -3,
+                "width": 219,
+                "var": "MonNum",
+                "value": "120",
+                "spaceX": -11,
+                "skin": "res_common/number/num_26_rhrc_f1efe0.png",
+                "sheet": "0123456789",
+                "name": "MonNum",
+                "height": 64,
+                "align": "center"
+              },
+              "compId": 773
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 753,
+            "x": 232,
+            "var": "LvupTimeBox",
+            "name": "LvupTimeBox"
+          },
+          "compId": 755,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "skin": "res_view/haream/text_des_jshs.png",
+                "name": "txt"
+              },
+              "compId": 756
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": -4,
+                "x": 96,
+                "width": 196,
+                "var": "upCDLab",
+                "value": "12:34:56",
+                "spaceX": -11,
+                "skin": "res_common/number/num_26_jxzk_22a441.png",
+                "sheet": "0123456789:.",
+                "presetID": 1,
+                "name": "upCDLab",
+                "height": 29,
+                "isPresetRoot": true,
+                "align": "center"
+              },
+              "compId": 770
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 687,
+            "x": 237,
+            "skin": "res_view/haream/text_jshkycazmr.png",
+            "name": "tips"
+          },
+          "compId": 758
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 769,
+            "x": 232,
+            "width": 322,
+            "visible": false,
+            "var": "peopleTips",
+            "name": "peopleTips",
+            "height": 58
+          },
+          "compId": 759,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 16,
+                "x": 226,
+                "skin": "res_view/haream/text_kjs.png",
+                "name": "img_tips"
+              },
+              "compId": 760
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 16,
+                "x": 0,
+                "skin": "res_view/haream/text_dzsdd_red.png",
+                "name": "img_tips"
+              },
+              "compId": 765
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 12,
+                "x": 122,
+                "width": 112,
+                "var": "peopleNum",
+                "value": "120",
+                "spaceX": -12,
+                "skin": "res_common/number/num_26_jxzk_d60006.png",
+                "sheet": "0123456789",
+                "name": "peopleNum",
+                "height": 33,
+                "align": "center"
+              },
+              "compId": 774
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 769,
+            "x": 303,
+            "width": 322,
+            "visible": false,
+            "var": "lvTips",
+            "name": "lvTips",
+            "height": 58
+          },
+          "compId": 763,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 15.5,
+                "x": 75,
+                "skin": "res_view/haream/text_jksj.png",
+                "name": "img_tips"
+              },
+              "compId": 767
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 15.5,
+                "x": -35,
+                "width": 53,
+                "skin": "res_view/haream/text_zm_red.png",
+                "name": "img_tips",
+                "height": 26
+              },
+              "compId": 768
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 10.5,
+                "x": -22,
+                "width": 124,
+                "var": "lvNum",
+                "value": "120",
+                "spaceX": -12,
+                "skin": "res_common/number/num_26_jxzk_d60006.png",
+                "sheet": "0123456789",
+                "name": "lvNum",
+                "height": 33,
+                "align": "center"
+              },
+              "compId": 775
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 749,
+            "x": 344,
+            "visible": false,
+            "var": "UpLvTips",
+            "skin": "res_view/haream/text_sjz.png",
+            "name": "UpLvTips"
+          },
+          "compId": 771
+        }
+      ]
+    }
+  ],
+  "loadList": ["prefab/num24_rhrc.prefab"],
+  "loadList3D": []
+}

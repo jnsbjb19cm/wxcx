@@ -1,0 +1,127 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "var": "closeBtn",
+        "top": 0,
+        "right": 0,
+        "left": 0,
+        "bottom": 0
+      },
+      "compId": 3
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 410,
+        "var": "showBox",
+        "height": 280,
+        "centerY": 2,
+        "centerX": -7
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "width": 410,
+            "skin": "res_main/panel_tips.png",
+            "sizeGrid": "58,56,119,53",
+            "name": "bg",
+            "height": 270
+          },
+          "compId": 5
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -52,
+            "x": -48,
+            "width": 557,
+            "skin": "res_main/panel_rank_empty_1.png",
+            "sizeGrid": "71,122,67,78",
+            "height": 246
+          },
+          "compId": 11
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 43,
+            "x": 36,
+            "width": 80,
+            "var": "icon",
+            "height": 80
+          },
+          "compId": 6
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 65,
+            "x": 136,
+            "var": "nameAndType",
+            "text": "法师（类型）",
+            "fontSize": 32,
+            "font": "Microsoft YaHei",
+            "color": "#ffffff"
+          },
+          "compId": 7
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 151,
+            "x": 0,
+            "width": 410,
+            "height": 115
+          },
+          "compId": 12,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "y": 26,
+                "x": 22,
+                "wordWrap": true,
+                "width": 370,
+                "var": "effect1",
+                "text": "[2]羁绊效果",
+                "fontSize": 18,
+                "font": "SimHei",
+                "color": "#0fd700"
+              },
+              "compId": 8
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 71,
+                "x": 22,
+                "wordWrap": true,
+                "width": 370,
+                "var": "effect2",
+                "text": "[4]羁绊效果",
+                "fontSize": 18,
+                "font": "SimHei",
+                "color": "#a29b8e"
+              },
+              "compId": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": ["res_main/panel_tips.png"],
+  "loadList3D": []
+}

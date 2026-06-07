@@ -1,0 +1,26 @@
+{
+  "deviceOrientation": "portrait",
+  "iOSHighPerformance": true,
+  "iOSHighPerformance+": true,
+  "subPackages": [
+    {
+      "name": "view",
+      "root": "/view/"
+    },
+    {
+      "name": "ani",
+      "root": "/ani/"
+    },
+    {
+      "name": "component",
+      "root": "/component/"
+    },
+    {
+      "name": "js",
+      "root": "/js/"
+    }
+  ],
+  "openDataContext": "openDataContextWX/",
+  "__warning__": "无效的 game.json [\"iOSHighPerformance\"]、game.json [\"iOSHighPerformance+\"]",
+  "subContext": "openDataContextWX/"
+}

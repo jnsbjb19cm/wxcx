@@ -1,0 +1,1196 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 813,
+        "x": 500,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.5
+      },
+      "compId": 3
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 750,
+        "var": "context",
+        "height": 1000,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -167,
+            "x": 0,
+            "width": 750,
+            "var": "hero_bg",
+            "skin": "res_main/bg_sj.png",
+            "name": "hero_bg",
+            "height": 1334,
+            "alpha": 1
+          },
+          "compId": 48
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": 0
+          },
+          "compId": 86
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 367,
+            "visible": false,
+            "var": "guang",
+            "skin": "res_main/b_guang.png",
+            "scaleY": 3,
+            "scaleX": 3,
+            "centerX": 0,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 19
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 650,
+            "x": 375,
+            "var": "half_body",
+            "scaleX": -1,
+            "centerX": 0
+          },
+          "compId": 61
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -35,
+            "x": -108,
+            "var": "blackmask",
+            "skin": "res_main/img_rwhm.png",
+            "alpha": 0.5
+          },
+          "compId": 53
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 120,
+            "x": 49,
+            "visible": false,
+            "var": "sys_bg",
+            "skin": "res_main/plist_juese.png"
+          },
+          "compId": 22
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 648,
+            "x": 375,
+            "var": "roleBox",
+            "scaleX": -1,
+            "centerX": 0
+          },
+          "compId": 28
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 63,
+            "x": -31,
+            "visible": false,
+            "var": "vip_bg",
+            "skin": "res_main/pic_tqdb.png"
+          },
+          "compId": 90
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 240,
+            "x": 304,
+            "visible": false,
+            "var": "hbwc_halfbox"
+          },
+          "compId": 91
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 240,
+            "x": -6,
+            "visible": false,
+            "var": "vip_yun",
+            "skin": "res_main/pic_yun.png",
+            "scaleX": 1
+          },
+          "compId": 89,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 95,
+                "x": 182,
+                "skin": "netRes/newSystem/text_xtjl.png"
+              },
+              "compId": 93
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "visible": false,
+            "var": "vipbox",
+            "name": "vipbox"
+          },
+          "compId": 92,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 580,
+                "x": 10,
+                "skin": "res_main/panel_tq.png"
+              },
+              "compId": 95
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 620,
+                "var": "vip_name",
+                "centerX": 8
+              },
+              "compId": 94
+            },
+            {
+              "type": "Image",
+              "props": {
+                "var": "vip_text",
+                "skin": "netRes/viptext/text_tqrd_xq.png",
+                "centerY": 328,
+                "centerX": 10
+              },
+              "compId": 97
+            },
+            {
+              "type": "Image",
+              "props": {
+                "var": "vippic",
+                "centerY": 117,
+                "centerX": 16
+              },
+              "compId": 98
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 29,
+            "x": 43,
+            "var": "yx",
+            "skin": "res_main/bg_tingxiong.png",
+            "name": "yx"
+          },
+          "compId": 49,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 20,
+                "x": 6,
+                "visible": true,
+                "skin": "res_main/txt_yingxiong.png"
+              },
+              "compId": 52
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 66,
+            "x": 87,
+            "var": "namebox",
+            "skin": "res_main/img_xtyg_name.png",
+            "name": "name"
+          },
+          "compId": 50,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 6,
+                "x": 0,
+                "visible": false,
+                "var": "hero_name",
+                "skin": "netRes/heroName/YX-YH-Q.png"
+              },
+              "compId": 51
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 242,
+            "width": 368,
+            "visible": false,
+            "var": "equipBox",
+            "height": 158,
+            "centerX": 0
+          },
+          "compId": 34,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 17,
+                "x": -2,
+                "width": 183,
+                "var": "normalEquip",
+                "scaleY": 0.65,
+                "scaleX": 0.65,
+                "height": 183,
+                "cacheAs": "bitmap"
+              },
+              "compId": 35,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "width": 160,
+                    "name": "icon",
+                    "height": 160,
+                    "centerY": 0,
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 9
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 92,
+                    "x": 92,
+                    "width": 188,
+                    "skin": "res_common/equip_rank_blue.png",
+                    "sizeGrid": "34,42,35,29",
+                    "name": "iconK",
+                    "height": 183,
+                    "centerY": 0,
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 5
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 92,
+                    "x": 92,
+                    "width": 188,
+                    "visible": false,
+                    "skin": "res_common/equip_b.png",
+                    "sizeGrid": "34,42,35,29",
+                    "name": "iconAwkPoint",
+                    "height": 183,
+                    "centerY": 0,
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 12
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 82,
+                    "x": 91,
+                    "visible": false,
+                    "name": "award"
+                  },
+                  "compId": 17,
+                  "child": [
+                    {
+                      "type": "Animation",
+                      "props": {
+                        "source": "ani/albumAward.ani"
+                      },
+                      "compId": 20
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -4,
+                "x": 209,
+                "width": 183,
+                "var": "awakeEquip",
+                "scaleY": 0.87,
+                "scaleX": 0.87,
+                "height": 183,
+                "cacheAs": "bitmap"
+              },
+              "compId": 36,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "width": 160,
+                    "name": "icon",
+                    "height": 160,
+                    "centerY": 0,
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 37
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 92,
+                    "x": 92,
+                    "width": 188,
+                    "skin": "res_common/equip_rank_blue.png",
+                    "sizeGrid": "34,42,35,29",
+                    "name": "iconK",
+                    "height": 183,
+                    "centerY": 0,
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 38
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 92,
+                    "x": 93,
+                    "width": 188,
+                    "visible": false,
+                    "skin": "res_common/equip_b.png",
+                    "sizeGrid": "34,42,35,29",
+                    "scaleY": 0.91,
+                    "scaleX": 0.91,
+                    "name": "iconAwkPoint",
+                    "height": 183,
+                    "centerY": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 39
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 82,
+                    "x": 91,
+                    "visible": false,
+                    "name": "award"
+                  },
+                  "compId": 40,
+                  "child": [
+                    {
+                      "type": "Animation",
+                      "props": {
+                        "source": "ani/albumAward.ani"
+                      },
+                      "compId": 41
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 58.5,
+            "x": -11,
+            "var": "newSoldier"
+          },
+          "compId": 76,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "var": "soldier_bg",
+                "skin": "res_main/panel_bz.png"
+              },
+              "compId": 77
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 33.5,
+                "x": 135,
+                "var": "soldier_name",
+                "skin": "netRes/monsterName/style_1_md/FZ-ZZ.png",
+                "scaleY": 0.6,
+                "scaleX": 0.6
+              },
+              "compId": 78
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 18.5,
+                "x": 47,
+                "width": 70.2,
+                "var": "soldier_lv",
+                "skin": "res_icon/monsterLvIcon/icon_ss.png",
+                "height": 68.9
+              },
+              "compId": 79
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "visible": false,
+            "var": "nameImg",
+            "skin": "netRes/newSystem/text_hskq.png",
+            "scaleY": 1,
+            "scaleX": 1,
+            "centerY": 117,
+            "centerX": 3,
+            "alpha": 1
+          },
+          "compId": 21
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 794,
+            "x": 75,
+            "var": "tarZone_bg",
+            "skin": "res_main/img_tgdb.png",
+            "name": "tarZone_bg"
+          },
+          "compId": 44
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 888,
+            "x": 0,
+            "width": 538,
+            "var": "yxNum",
+            "height": 77
+          },
+          "compId": 75,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 13,
+                "x": 185,
+                "visible": true,
+                "var": "yx_wc",
+                "skin": "res_main/text_wc.png"
+              },
+              "compId": 24,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -2,
+                    "x": 99,
+                    "var": "yx_ss",
+                    "skin": "res_main/text_ss (2).png"
+                  },
+                  "compId": 74
+                }
+              ]
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 1,
+                "x": 373,
+                "var": "tarZone",
+                "value": "888",
+                "spaceX": -28,
+                "skin": "res_common/number/num_48_jxzk_ff4747_stk2.png",
+                "sheet": "0123456789",
+                "centerX": 144,
+                "align": "center"
+              },
+              "compId": 23
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 11.5,
+                "x": 469,
+                "var": "yx_js",
+                "skin": "res_main/text_js (2).png"
+              },
+              "compId": 64
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 900,
+            "x": 149,
+            "var": "SoldierNum",
+            "name": "SoldierNum"
+          },
+          "compId": 80,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 1,
+                "x": 14,
+                "var": "s_wc",
+                "skin": "res_main/text_wc.png"
+              },
+              "compId": 81,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 100,
+                    "var": "s_sj",
+                    "skin": "res_main/text_ss (2).png"
+                  },
+                  "compId": 82
+                }
+              ]
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": -10,
+                "var": "s_num",
+                "value": "3",
+                "spaceX": -28,
+                "skin": "res_common/number/num_48_jxzk_ff4747_stk2.png",
+                "sheet": "0123456789",
+                "centerX": 35,
+                "align": "center"
+              },
+              "compId": 85
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 1,
+                "x": 245,
+                "var": "s_js",
+                "skin": "res_main/text_js (2).png"
+              },
+              "compId": 83,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -2,
+                    "x": 92,
+                    "var": "s_xhb",
+                    "skin": "res_main/text_xhb.png"
+                  },
+                  "compId": 84
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 1049,
+            "width": 211,
+            "var": "confrimBtn",
+            "skin": "res_common/btn_yellow.png",
+            "pivotY": 57,
+            "pivotX": 146,
+            "height": 72,
+            "centerX": 0
+          },
+          "compId": 26,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 21,
+                "x": 52.5,
+                "skin": "res_view/personalInfo/text_queding.png"
+              },
+              "compId": 27
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 460,
+            "x": 11,
+            "var": "preBtn",
+            "skin": "res_view/manual/btn_prev.png",
+            "left": 11,
+            "alpha": 1
+          },
+          "compId": 29,
+          "child": [
+            {
+              "type": "Rect",
+              "props": {
+                "y": -42,
+                "x": -29,
+                "width": 108,
+                "renderType": "hit",
+                "lineWidth": 1,
+                "height": 168,
+                "fillColor": "#ff0000"
+              },
+              "compId": 30
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 460,
+            "x": 695,
+            "var": "nextBtn",
+            "skin": "res_view/manual/btn_next.png",
+            "right": 9,
+            "alpha": 1
+          },
+          "compId": 31,
+          "child": [
+            {
+              "type": "Rect",
+              "props": {
+                "y": -42,
+                "x": -29,
+                "width": 108,
+                "renderType": "hit",
+                "lineWidth": 1,
+                "height": 168,
+                "fillColor": "#ff0000"
+              },
+              "compId": 32
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "zOrder": 10,
+            "y": 1154,
+            "var": "bottomMask",
+            "skin": "loading/panel_buttom.png",
+            "height": 158,
+            "centerX": 1
+          },
+          "compId": 60
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 786,
+            "x": 204,
+            "width": 330,
+            "var": "systemNum",
+            "height": 82,
+            "alpha": 0.8833333333333333
+          },
+          "compId": 67,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 21,
+                "x": 16,
+                "var": "system_wc",
+                "skin": "res_main/text_wc.png",
+                "name": "system_wc"
+              },
+              "compId": 68,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -1,
+                    "x": 98,
+                    "var": "system_ss",
+                    "skin": "res_main/text_ss (2).png"
+                  },
+                  "compId": 69
+                }
+              ]
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 11,
+                "var": "system_zone",
+                "value": "3",
+                "spaceX": -28,
+                "skin": "res_common/number/num_48_jxzk_ff4747_stk2.png",
+                "sheet": "0123456789",
+                "centerX": 41,
+                "align": "center"
+              },
+              "compId": 70
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 22.5,
+                "x": 238,
+                "var": "system_js",
+                "skin": "res_main/text_js (2).png"
+              },
+              "compId": 71
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 965,
+            "x": 416,
+            "width": 211,
+            "var": "system_btn",
+            "skin": "res_common/btn_yellow.png",
+            "pivotY": 57,
+            "pivotX": 146,
+            "height": 72,
+            "alpha": 1
+          },
+          "compId": 72,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 21,
+                "x": 52.5,
+                "skin": "res_view/personalInfo/text_queding.png"
+              },
+              "compId": 73
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 19,
+          "keyframes": {
+            "rotation": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 19,
+                "key": "rotation",
+                "index": 0
+              },
+              {
+                "value": 360,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 19,
+                "key": "rotation",
+                "index": 90
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani1",
+      "id": 1,
+      "frameRate": 30,
+      "action": 2
+    },
+    {
+      "nodes": [
+        {
+          "target": 29,
+          "keyframes": {
+            "x": [
+              {
+                "value": 11,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 29,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 29,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 29,
+                "key": "alpha",
+                "index": 14
+              }
+            ]
+          }
+        },
+        {
+          "target": 31,
+          "keyframes": {
+            "x": [
+              {
+                "value": 695,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 31,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 31,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 31,
+                "key": "alpha",
+                "index": 14
+              }
+            ]
+          }
+        },
+        {
+          "target": 67,
+          "keyframes": {
+            "x": [
+              {
+                "value": 204,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 67,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 204,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 67,
+                "key": "x",
+                "index": 16
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "circIn",
+                "tween": true,
+                "target": 67,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 67,
+                "key": "alpha",
+                "index": 15
+              },
+              {
+                "value": 0.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 67,
+                "key": "alpha",
+                "index": 16
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 67,
+                "key": "alpha",
+                "index": 22
+              }
+            ]
+          }
+        },
+        {
+          "target": 72,
+          "keyframes": {
+            "x": [
+              {
+                "value": 416,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 72,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 416,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 72,
+                "key": "x",
+                "index": 20
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 72,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 72,
+                "key": "alpha",
+                "index": 19
+              },
+              {
+                "value": 0.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 72,
+                "key": "alpha",
+                "index": 20
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 72,
+                "key": "alpha",
+                "index": 26
+              }
+            ]
+          }
+        },
+        {
+          "target": 21,
+          "keyframes": {
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 21,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 3.6,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 21,
+                "key": "scaleY",
+                "index": 8
+              },
+              {
+                "value": 0.98,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 21,
+                "key": "scaleY",
+                "index": 14
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 21,
+                "key": "scaleY",
+                "index": 17
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 21,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 3.6,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 21,
+                "key": "scaleX",
+                "index": 8
+              },
+              {
+                "value": 0.98,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 21,
+                "key": "scaleX",
+                "index": 14
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 21,
+                "key": "scaleX",
+                "index": 17
+              }
+            ],
+            "centerY": [
+              {
+                "value": 114,
+                "tweenMethod": "backIn",
+                "tween": true,
+                "target": 21,
+                "key": "centerY",
+                "index": 8
+              },
+              {
+                "value": 117,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 21,
+                "key": "centerY",
+                "index": 14
+              },
+              {
+                "value": 117,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 21,
+                "key": "centerY",
+                "index": 17
+              }
+            ],
+            "centerX": [
+              {
+                "value": -375,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 21,
+                "key": "centerX",
+                "index": 8
+              },
+              {
+                "value": 3,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 21,
+                "key": "centerX",
+                "index": 14
+              },
+              {
+                "value": 3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 21,
+                "key": "centerX",
+                "index": 17
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 21,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 21,
+                "key": "alpha",
+                "index": 9
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 21,
+                "key": "alpha",
+                "index": 10
+              }
+            ]
+          }
+        }
+      ],
+      "name": "show_ani",
+      "id": 2,
+      "frameRate": 24,
+      "action": 0
+    }
+  ],
+  "loadList": ["prefab/EquipItem.prefab", "ani/albumAward.ani"],
+  "loadList3D": []
+}

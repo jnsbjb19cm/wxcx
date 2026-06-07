@@ -1,0 +1,1669 @@
+{
+  "type": "View",
+  "props": {
+    "y": 0,
+    "x": 0,
+    "width": 750,
+    "mouseThrough": true,
+    "mouseEnabled": true,
+    "height": 1334,
+    "cacheAs": "bitmap"
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 208,
+        "x": 31,
+        "width": 692,
+        "height": 1022
+      },
+      "compId": 856,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "var": "panel_mask",
+            "skin": "res_common/panel_mask.png"
+          },
+          "compId": 857,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 266,
+                "x": 148,
+                "var": "decoration",
+                "skin": "res_view/manual/img_anwen.png"
+              },
+              "compId": 951
+            }
+          ]
+        },
+        {
+          "type": "VBox",
+          "props": {
+            "y": 16,
+            "x": 12,
+            "var": "lvSlot",
+            "space": 6,
+            "height": 999
+          },
+          "compId": 858,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "var": "slot_lvb",
+                "presetID": 1,
+                "name": "slot_1",
+                "y": 0,
+                "x": 0,
+                "width": 668,
+                "isPresetRoot": true,
+                "height": 195
+              },
+              "compId": 859,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 2,
+                    "y": 0,
+                    "x": 0,
+                    "skin": "res_common/panel_bz.png"
+                  },
+                  "compId": 860
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 3,
+                    "y": 92,
+                    "x": 45,
+                    "width": 56,
+                    "skin": "res_icon/monsterLvIcon/style_1/icon_b.png",
+                    "height": 56,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 861
+                },
+                {
+                  "type": "Panel",
+                  "props": {
+                    "presetID": 4,
+                    "y": -15,
+                    "x": 74,
+                    "width": 590,
+                    "vScrollBarSkin": " ",
+                    "name": "monsterPanel",
+                    "height": 200,
+                    "hScrollBarSkin": " ",
+                    "anchorX": 0
+                  },
+                  "compId": 862,
+                  "child": [
+                    {
+                      "type": "List",
+                      "props": {
+                        "var": "list_lvb",
+                        "presetID": 5,
+                        "y": 0,
+                        "x": 0,
+                        "spaceX": 30,
+                        "height": 200,
+                        "hScrollBarSkin": " "
+                      },
+                      "compId": 863,
+                      "child": [
+                        {
+                          "type": "Box",
+                          "props": {
+                            "presetID": 17,
+                            "source": "ani/albumAward.ani"
+                          },
+                          "compId": 864,
+                          "child": [
+                            {
+                              "type": "Box",
+                              "props": {
+                                "presetID": 18,
+                                "y": 15,
+                                "x": 90,
+                                "skin": "res_common/redpoint.png",
+                                "name": "redPoint"
+                              },
+                              "compId": 865
+                            },
+                            {
+                              "type": "Image",
+                              "props": {
+                                "presetID": 19,
+                                "y": 15,
+                                "x": 20,
+                                "width": 100,
+                                "renderType": "hit",
+                                "lineWidth": 1,
+                                "height": 130,
+                                "fillColor": "#ff0000"
+                              },
+                              "compId": 866
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Box",
+                          "props": {
+                            "presetID": 6,
+                            "y": 205,
+                            "x": 70,
+                            "width": 140,
+                            "renderType": "render",
+                            "name": "Item",
+                            "isPresetRoot": true,
+                            "height": 190,
+                            "anchorY": 1,
+                            "anchorX": 0.5
+                          },
+                          "compId": 962,
+                          "child": [
+                            {
+                              "type": "Box",
+                              "props": {
+                                "presetID": 7,
+                                "name": "spineBox",
+                                "centerX": 0,
+                                "bottom": 45
+                              },
+                              "compId": 963
+                            },
+                            {
+                              "type": "Image",
+                              "props": {
+                                "presetID": 8,
+                                "y": 164,
+                                "skin": "netRes/monsterName/style_3_md/CK-SWK.png",
+                                "scaleY": 1,
+                                "scaleX": 1,
+                                "name": "nameRes",
+                                "centerX": 0,
+                                "anchorY": 0.5,
+                                "anchorX": 0.5
+                              },
+                              "compId": 964
+                            },
+                            {
+                              "type": "Box",
+                              "props": {
+                                "presetID": 9,
+                                "y": 151,
+                                "width": 106,
+                                "visible": false,
+                                "name": "lockTip",
+                                "centerX": 0
+                              },
+                              "compId": 965,
+                              "child": [
+                                {
+                                  "type": "Image",
+                                  "props": {
+                                    "presetID": 10,
+                                    "x": 5,
+                                    "skin": "res_view/manual/text_fsjs.png"
+                                  },
+                                  "compId": 966
+                                },
+                                {
+                                  "type": "FontClip",
+                                  "props": {
+                                    "presetID": 11,
+                                    "y": -2,
+                                    "value": "1",
+                                    "spaceX": -5,
+                                    "skin": "res_common/number/num_23_jxzk_ffffff_stk_2.png",
+                                    "sheet": "0123456789",
+                                    "centerX": 20
+                                  },
+                                  "compId": 967,
+                                  "child": [
+                                    {
+                                      "type": "Image",
+                                      "props": {
+                                        "presetID": 12,
+                                        "y": 2,
+                                        "skin": "res_view/manual/text_ss.png",
+                                        "left": -46
+                                      },
+                                      "compId": 968
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "FontClip",
+                                  "props": {
+                                    "presetID": 13,
+                                    "y": -2,
+                                    "visible": false,
+                                    "value": "15",
+                                    "spaceX": -5,
+                                    "skin": "res_common/number/num_23_jxzk_ffffff_stk_2.png",
+                                    "sheet": "0123456789",
+                                    "centerX": 8
+                                  },
+                                  "compId": 969,
+                                  "child": [
+                                    {
+                                      "type": "Image",
+                                      "props": {
+                                        "presetID": 14,
+                                        "y": 2,
+                                        "skin": "res_view/manual/text_sj.png",
+                                        "left": -46
+                                      },
+                                      "compId": 970
+                                    },
+                                    {
+                                      "type": "Image",
+                                      "props": {
+                                        "presetID": 15,
+                                        "y": 2,
+                                        "skin": "res_view/manual/text_z.png",
+                                        "right": -30
+                                      },
+                                      "compId": 971
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "Box",
+                              "props": {
+                                "presetID": 16,
+                                "y": 85,
+                                "x": 76,
+                                "visible": false,
+                                "name": "award",
+                                "centerX": 0
+                              },
+                              "compId": 972,
+                              "child": [
+                                {
+                                  "type": "Animation",
+                                  "props": {
+                                    "presetID": 17,
+                                    "source": "ani/albumAward.ani"
+                                  },
+                                  "compId": 973
+                                }
+                              ]
+                            },
+                            {
+                              "type": "Image",
+                              "props": {
+                                "presetID": 18,
+                                "y": 15,
+                                "x": 90,
+                                "skin": "res_common/redpoint.png",
+                                "name": "redPoint"
+                              },
+                              "compId": 974
+                            },
+                            {
+                              "type": "Rect",
+                              "props": {
+                                "presetID": 19,
+                                "y": 15,
+                                "x": 20,
+                                "width": 100,
+                                "renderType": "hit",
+                                "lineWidth": 1,
+                                "height": 130,
+                                "fillColor": "#ff0000"
+                              },
+                              "compId": 975
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "var": "slot_a",
+                "presetID": 1,
+                "name": "slot_2",
+                "y": 0,
+                "x": 0,
+                "width": 668,
+                "isPresetRoot": true,
+                "height": 195
+              },
+              "compId": 876,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 2,
+                    "y": 0,
+                    "x": 0,
+                    "skin": "res_common/panel_bz.png"
+                  },
+                  "compId": 877
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "res_icon/monsterLvIcon/icon_a.png",
+                    "presetID": 3,
+                    "y": 92,
+                    "x": 45,
+                    "width": 56,
+                    "height": 56,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 878
+                },
+                {
+                  "type": "Panel",
+                  "props": {
+                    "y": -15,
+                    "width": 500,
+                    "height": 200,
+                    "centerX": 0
+                  },
+                  "compId": 958,
+                  "child": [
+                    {
+                      "type": "Box",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "height": 200
+                      },
+                      "compId": 957,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 64,
+                            "x": 52,
+                            "skin": "res_view/manual/img_anwen.png"
+                          },
+                          "compId": 952
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Panel",
+                  "props": {
+                    "presetID": 4,
+                    "y": -15,
+                    "x": 74,
+                    "width": 590,
+                    "vScrollBarSkin": " ",
+                    "name": "monsterPanel",
+                    "height": 200,
+                    "hScrollBarSkin": " ",
+                    "anchorX": 0
+                  },
+                  "compId": 879,
+                  "child": [
+                    {
+                      "type": "List",
+                      "props": {
+                        "var": "list_lva",
+                        "presetID": 5,
+                        "y": 0,
+                        "x": 0,
+                        "spaceX": 30,
+                        "height": 200,
+                        "hScrollBarSkin": " "
+                      },
+                      "compId": 880,
+                      "child": [
+                        {
+                          "type": "Box",
+                          "props": {
+                            "presetID": 17,
+                            "source": "ani/albumAward.ani"
+                          },
+                          "compId": 881,
+                          "child": [
+                            {
+                              "type": "Box",
+                              "props": {
+                                "presetID": 18,
+                                "y": 15,
+                                "x": 90,
+                                "skin": "res_common/redpoint.png",
+                                "name": "redPoint"
+                              },
+                              "compId": 882
+                            },
+                            {
+                              "type": "Image",
+                              "props": {
+                                "presetID": 19,
+                                "y": 15,
+                                "x": 20,
+                                "width": 100,
+                                "renderType": "hit",
+                                "lineWidth": 1,
+                                "height": 130,
+                                "fillColor": "#ff0000"
+                              },
+                              "compId": 883
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Box",
+                          "props": {
+                            "presetID": 6,
+                            "y": 205,
+                            "x": 70,
+                            "width": 140,
+                            "renderType": "render",
+                            "name": "Item",
+                            "isPresetRoot": true,
+                            "height": 190,
+                            "anchorY": 1,
+                            "anchorX": 0.5
+                          },
+                          "compId": 976,
+                          "child": [
+                            {
+                              "type": "Box",
+                              "props": {
+                                "presetID": 7,
+                                "name": "spineBox",
+                                "centerX": 0,
+                                "bottom": 45
+                              },
+                              "compId": 977
+                            },
+                            {
+                              "type": "Image",
+                              "props": {
+                                "presetID": 8,
+                                "y": 164,
+                                "skin": "netRes/monsterName/style_3_md/CK-SWK.png",
+                                "scaleY": 1,
+                                "scaleX": 1,
+                                "name": "nameRes",
+                                "centerX": 0,
+                                "anchorY": 0.5,
+                                "anchorX": 0.5
+                              },
+                              "compId": 978
+                            },
+                            {
+                              "type": "Box",
+                              "props": {
+                                "presetID": 9,
+                                "y": 151,
+                                "width": 106,
+                                "visible": false,
+                                "name": "lockTip",
+                                "centerX": 0
+                              },
+                              "compId": 979,
+                              "child": [
+                                {
+                                  "type": "Image",
+                                  "props": {
+                                    "presetID": 10,
+                                    "x": 5,
+                                    "skin": "res_view/manual/text_fsjs.png"
+                                  },
+                                  "compId": 980
+                                },
+                                {
+                                  "type": "FontClip",
+                                  "props": {
+                                    "presetID": 11,
+                                    "y": -2,
+                                    "value": "1",
+                                    "spaceX": -5,
+                                    "skin": "res_common/number/num_23_jxzk_ffffff_stk_2.png",
+                                    "sheet": "0123456789",
+                                    "centerX": 20
+                                  },
+                                  "compId": 981,
+                                  "child": [
+                                    {
+                                      "type": "Image",
+                                      "props": {
+                                        "presetID": 12,
+                                        "y": 2,
+                                        "skin": "res_view/manual/text_ss.png",
+                                        "left": -46
+                                      },
+                                      "compId": 982
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "FontClip",
+                                  "props": {
+                                    "presetID": 13,
+                                    "y": -2,
+                                    "visible": false,
+                                    "value": "15",
+                                    "spaceX": -5,
+                                    "skin": "res_common/number/num_23_jxzk_ffffff_stk_2.png",
+                                    "sheet": "0123456789",
+                                    "centerX": 8
+                                  },
+                                  "compId": 983,
+                                  "child": [
+                                    {
+                                      "type": "Image",
+                                      "props": {
+                                        "presetID": 14,
+                                        "y": 2,
+                                        "skin": "res_view/manual/text_sj.png",
+                                        "left": -46
+                                      },
+                                      "compId": 984
+                                    },
+                                    {
+                                      "type": "Image",
+                                      "props": {
+                                        "presetID": 15,
+                                        "y": 2,
+                                        "skin": "res_view/manual/text_z.png",
+                                        "right": -30
+                                      },
+                                      "compId": 985
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "Box",
+                              "props": {
+                                "presetID": 16,
+                                "y": 85,
+                                "x": 76,
+                                "visible": false,
+                                "name": "award",
+                                "centerX": 0
+                              },
+                              "compId": 986,
+                              "child": [
+                                {
+                                  "type": "Animation",
+                                  "props": {
+                                    "presetID": 17,
+                                    "source": "ani/albumAward.ani"
+                                  },
+                                  "compId": 987
+                                }
+                              ]
+                            },
+                            {
+                              "type": "Image",
+                              "props": {
+                                "presetID": 18,
+                                "y": 15,
+                                "x": 90,
+                                "skin": "res_common/redpoint.png",
+                                "name": "redPoint"
+                              },
+                              "compId": 988
+                            },
+                            {
+                              "type": "Rect",
+                              "props": {
+                                "presetID": 19,
+                                "y": 15,
+                                "x": 20,
+                                "width": 100,
+                                "renderType": "hit",
+                                "lineWidth": 1,
+                                "height": 130,
+                                "fillColor": "#ff0000"
+                              },
+                              "compId": 989
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "var": "slot_s",
+                "presetID": 1,
+                "name": "slot_3",
+                "y": 0,
+                "x": 0,
+                "width": 668,
+                "isPresetRoot": true,
+                "height": 195
+              },
+              "compId": 893,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 2,
+                    "y": 0,
+                    "x": 0,
+                    "skin": "res_common/panel_bz.png"
+                  },
+                  "compId": 894
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "res_icon/monsterLvIcon/icon_s.png",
+                    "presetID": 3,
+                    "y": 92,
+                    "x": 45,
+                    "width": 56,
+                    "height": 56,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 895
+                },
+                {
+                  "type": "Panel",
+                  "props": {
+                    "y": -15,
+                    "width": 500,
+                    "height": 200,
+                    "centerX": 0
+                  },
+                  "compId": 960,
+                  "child": [
+                    {
+                      "type": "Box",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "height": 200
+                      },
+                      "compId": 956,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -137,
+                            "x": 52,
+                            "skin": "res_view/manual/img_anwen.png"
+                          },
+                          "compId": 953
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Panel",
+                  "props": {
+                    "presetID": 4,
+                    "y": -15,
+                    "x": 74,
+                    "width": 590,
+                    "vScrollBarSkin": " ",
+                    "name": "monsterPanel",
+                    "height": 200,
+                    "hScrollBarSkin": " ",
+                    "anchorX": 0
+                  },
+                  "compId": 896,
+                  "child": [
+                    {
+                      "type": "List",
+                      "props": {
+                        "var": "list_lvs",
+                        "presetID": 5,
+                        "y": 0,
+                        "x": 0,
+                        "spaceX": 30,
+                        "height": 200,
+                        "hScrollBarSkin": " "
+                      },
+                      "compId": 897,
+                      "child": [
+                        {
+                          "type": "Box",
+                          "props": {
+                            "presetID": 17,
+                            "source": "ani/albumAward.ani"
+                          },
+                          "compId": 898,
+                          "child": [
+                            {
+                              "type": "Box",
+                              "props": {
+                                "presetID": 18,
+                                "y": 15,
+                                "x": 90,
+                                "skin": "res_common/redpoint.png",
+                                "name": "redPoint"
+                              },
+                              "compId": 899
+                            },
+                            {
+                              "type": "Image",
+                              "props": {
+                                "presetID": 19,
+                                "y": 15,
+                                "x": 20,
+                                "width": 100,
+                                "renderType": "hit",
+                                "lineWidth": 1,
+                                "height": 130,
+                                "fillColor": "#ff0000"
+                              },
+                              "compId": 900
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Box",
+                          "props": {
+                            "presetID": 6,
+                            "y": 205,
+                            "x": 70,
+                            "width": 140,
+                            "renderType": "render",
+                            "name": "Item",
+                            "isPresetRoot": true,
+                            "height": 190,
+                            "anchorY": 1,
+                            "anchorX": 0.5
+                          },
+                          "compId": 990,
+                          "child": [
+                            {
+                              "type": "Box",
+                              "props": {
+                                "presetID": 7,
+                                "name": "spineBox",
+                                "centerX": 0,
+                                "bottom": 45
+                              },
+                              "compId": 991
+                            },
+                            {
+                              "type": "Image",
+                              "props": {
+                                "presetID": 8,
+                                "y": 164,
+                                "skin": "netRes/monsterName/style_3_md/CK-SWK.png",
+                                "scaleY": 1,
+                                "scaleX": 1,
+                                "name": "nameRes",
+                                "centerX": 0,
+                                "anchorY": 0.5,
+                                "anchorX": 0.5
+                              },
+                              "compId": 992
+                            },
+                            {
+                              "type": "Box",
+                              "props": {
+                                "presetID": 9,
+                                "y": 151,
+                                "width": 106,
+                                "visible": false,
+                                "name": "lockTip",
+                                "centerX": 0
+                              },
+                              "compId": 993,
+                              "child": [
+                                {
+                                  "type": "Image",
+                                  "props": {
+                                    "presetID": 10,
+                                    "x": 5,
+                                    "skin": "res_view/manual/text_fsjs.png"
+                                  },
+                                  "compId": 994
+                                },
+                                {
+                                  "type": "FontClip",
+                                  "props": {
+                                    "presetID": 11,
+                                    "y": -2,
+                                    "value": "1",
+                                    "spaceX": -5,
+                                    "skin": "res_common/number/num_23_jxzk_ffffff_stk_2.png",
+                                    "sheet": "0123456789",
+                                    "centerX": 20
+                                  },
+                                  "compId": 995,
+                                  "child": [
+                                    {
+                                      "type": "Image",
+                                      "props": {
+                                        "presetID": 12,
+                                        "y": 2,
+                                        "skin": "res_view/manual/text_ss.png",
+                                        "left": -46
+                                      },
+                                      "compId": 996
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "FontClip",
+                                  "props": {
+                                    "presetID": 13,
+                                    "y": -2,
+                                    "visible": false,
+                                    "value": "15",
+                                    "spaceX": -5,
+                                    "skin": "res_common/number/num_23_jxzk_ffffff_stk_2.png",
+                                    "sheet": "0123456789",
+                                    "centerX": 8
+                                  },
+                                  "compId": 997,
+                                  "child": [
+                                    {
+                                      "type": "Image",
+                                      "props": {
+                                        "presetID": 14,
+                                        "y": 2,
+                                        "skin": "res_view/manual/text_sj.png",
+                                        "left": -46
+                                      },
+                                      "compId": 998
+                                    },
+                                    {
+                                      "type": "Image",
+                                      "props": {
+                                        "presetID": 15,
+                                        "y": 2,
+                                        "skin": "res_view/manual/text_z.png",
+                                        "right": -30
+                                      },
+                                      "compId": 999
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "Box",
+                              "props": {
+                                "presetID": 16,
+                                "y": 85,
+                                "x": 76,
+                                "visible": false,
+                                "name": "award",
+                                "centerX": 0
+                              },
+                              "compId": 1000,
+                              "child": [
+                                {
+                                  "type": "Animation",
+                                  "props": {
+                                    "presetID": 17,
+                                    "source": "ani/albumAward.ani"
+                                  },
+                                  "compId": 1001
+                                }
+                              ]
+                            },
+                            {
+                              "type": "Image",
+                              "props": {
+                                "presetID": 18,
+                                "y": 15,
+                                "x": 90,
+                                "skin": "res_common/redpoint.png",
+                                "name": "redPoint"
+                              },
+                              "compId": 1002
+                            },
+                            {
+                              "type": "Rect",
+                              "props": {
+                                "presetID": 19,
+                                "y": 15,
+                                "x": 20,
+                                "width": 100,
+                                "renderType": "hit",
+                                "lineWidth": 1,
+                                "height": 130,
+                                "fillColor": "#ff0000"
+                              },
+                              "compId": 1003
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "var": "slot_ss",
+                "presetID": 1,
+                "name": "slot_4",
+                "y": 0,
+                "x": 0,
+                "width": 668,
+                "isPresetRoot": true,
+                "height": 195
+              },
+              "compId": 910,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 2,
+                    "y": 0,
+                    "x": 0,
+                    "skin": "res_common/panel_bz.png"
+                  },
+                  "compId": 911
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "res_icon/monsterLvIcon/icon_ss.png",
+                    "presetID": 3,
+                    "y": 92,
+                    "x": 45,
+                    "width": 56,
+                    "height": 56,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 912
+                },
+                {
+                  "type": "Panel",
+                  "props": {
+                    "y": -15,
+                    "width": 500,
+                    "height": 200,
+                    "centerX": 0
+                  },
+                  "compId": 961,
+                  "child": [
+                    {
+                      "type": "Box",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "height": 200
+                      },
+                      "compId": 955,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -338,
+                            "x": 52,
+                            "skin": "res_view/manual/img_anwen.png"
+                          },
+                          "compId": 954
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Panel",
+                  "props": {
+                    "presetID": 4,
+                    "y": -15,
+                    "x": 74,
+                    "width": 590,
+                    "vScrollBarSkin": " ",
+                    "name": "monsterPanel",
+                    "height": 200,
+                    "hScrollBarSkin": " ",
+                    "anchorX": 0
+                  },
+                  "compId": 913,
+                  "child": [
+                    {
+                      "type": "List",
+                      "props": {
+                        "var": "list_lvss",
+                        "presetID": 5,
+                        "y": 0,
+                        "x": 0,
+                        "spaceX": 30,
+                        "height": 200,
+                        "hScrollBarSkin": " "
+                      },
+                      "compId": 914,
+                      "child": [
+                        {
+                          "type": "Box",
+                          "props": {
+                            "presetID": 17,
+                            "source": "ani/albumAward.ani"
+                          },
+                          "compId": 915,
+                          "child": [
+                            {
+                              "type": "Box",
+                              "props": {
+                                "presetID": 18,
+                                "y": 15,
+                                "x": 90,
+                                "skin": "res_common/redpoint.png",
+                                "name": "redPoint"
+                              },
+                              "compId": 916
+                            },
+                            {
+                              "type": "Image",
+                              "props": {
+                                "presetID": 19,
+                                "y": 15,
+                                "x": 20,
+                                "width": 100,
+                                "renderType": "hit",
+                                "lineWidth": 1,
+                                "height": 130,
+                                "fillColor": "#ff0000"
+                              },
+                              "compId": 917
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Box",
+                          "props": {
+                            "presetID": 6,
+                            "y": 205,
+                            "x": 70,
+                            "width": 140,
+                            "renderType": "render",
+                            "name": "Item",
+                            "isPresetRoot": true,
+                            "height": 190,
+                            "anchorY": 1,
+                            "anchorX": 0.5
+                          },
+                          "compId": 1004,
+                          "child": [
+                            {
+                              "type": "Box",
+                              "props": {
+                                "presetID": 7,
+                                "name": "spineBox",
+                                "centerX": 0,
+                                "bottom": 45
+                              },
+                              "compId": 1005
+                            },
+                            {
+                              "type": "Image",
+                              "props": {
+                                "presetID": 8,
+                                "y": 164,
+                                "skin": "netRes/monsterName/style_3_md/CK-SWK.png",
+                                "scaleY": 1,
+                                "scaleX": 1,
+                                "name": "nameRes",
+                                "centerX": 0,
+                                "anchorY": 0.5,
+                                "anchorX": 0.5
+                              },
+                              "compId": 1006
+                            },
+                            {
+                              "type": "Box",
+                              "props": {
+                                "presetID": 9,
+                                "y": 151,
+                                "width": 106,
+                                "visible": false,
+                                "name": "lockTip",
+                                "centerX": 0
+                              },
+                              "compId": 1007,
+                              "child": [
+                                {
+                                  "type": "Image",
+                                  "props": {
+                                    "presetID": 10,
+                                    "x": 5,
+                                    "skin": "res_view/manual/text_fsjs.png"
+                                  },
+                                  "compId": 1008
+                                },
+                                {
+                                  "type": "FontClip",
+                                  "props": {
+                                    "presetID": 11,
+                                    "y": -2,
+                                    "value": "1",
+                                    "spaceX": -5,
+                                    "skin": "res_common/number/num_23_jxzk_ffffff_stk_2.png",
+                                    "sheet": "0123456789",
+                                    "centerX": 20
+                                  },
+                                  "compId": 1009,
+                                  "child": [
+                                    {
+                                      "type": "Image",
+                                      "props": {
+                                        "presetID": 12,
+                                        "y": 2,
+                                        "skin": "res_view/manual/text_ss.png",
+                                        "left": -46
+                                      },
+                                      "compId": 1010
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "FontClip",
+                                  "props": {
+                                    "presetID": 13,
+                                    "y": -2,
+                                    "visible": false,
+                                    "value": "15",
+                                    "spaceX": -5,
+                                    "skin": "res_common/number/num_23_jxzk_ffffff_stk_2.png",
+                                    "sheet": "0123456789",
+                                    "centerX": 8
+                                  },
+                                  "compId": 1011,
+                                  "child": [
+                                    {
+                                      "type": "Image",
+                                      "props": {
+                                        "presetID": 14,
+                                        "y": 2,
+                                        "skin": "res_view/manual/text_sj.png",
+                                        "left": -46
+                                      },
+                                      "compId": 1012
+                                    },
+                                    {
+                                      "type": "Image",
+                                      "props": {
+                                        "presetID": 15,
+                                        "y": 2,
+                                        "skin": "res_view/manual/text_z.png",
+                                        "right": -30
+                                      },
+                                      "compId": 1013
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "Box",
+                              "props": {
+                                "presetID": 16,
+                                "y": 85,
+                                "x": 76,
+                                "visible": false,
+                                "name": "award",
+                                "centerX": 0
+                              },
+                              "compId": 1014,
+                              "child": [
+                                {
+                                  "type": "Animation",
+                                  "props": {
+                                    "presetID": 17,
+                                    "source": "ani/albumAward.ani"
+                                  },
+                                  "compId": 1015
+                                }
+                              ]
+                            },
+                            {
+                              "type": "Image",
+                              "props": {
+                                "presetID": 18,
+                                "y": 15,
+                                "x": 90,
+                                "skin": "res_common/redpoint.png",
+                                "name": "redPoint"
+                              },
+                              "compId": 1016
+                            },
+                            {
+                              "type": "Rect",
+                              "props": {
+                                "presetID": 19,
+                                "y": 15,
+                                "x": 20,
+                                "width": 100,
+                                "renderType": "hit",
+                                "lineWidth": 1,
+                                "height": 130,
+                                "fillColor": "#ff0000"
+                              },
+                              "compId": 1017
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "var": "slot_sss",
+                "presetID": 1,
+                "name": "slot_5",
+                "y": 0,
+                "x": 0,
+                "width": 668,
+                "isPresetRoot": true,
+                "height": 195
+              },
+              "compId": 927,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 2,
+                    "y": 0,
+                    "x": 0,
+                    "skin": "res_common/panel_bz.png"
+                  },
+                  "compId": 928
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "visible": false,
+                    "skin": "res_view/manual/pic_yz.png",
+                    "centerY": -16,
+                    "centerX": -192,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5,
+                    "alpha": 1
+                  },
+                  "compId": 929
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "res_icon/monsterLvIcon/icon_sss.png",
+                    "presetID": 3,
+                    "y": 92,
+                    "x": 45,
+                    "width": 56,
+                    "height": 56,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 930
+                },
+                {
+                  "type": "Panel",
+                  "props": {
+                    "presetID": 4,
+                    "y": -15,
+                    "x": 74,
+                    "width": 590,
+                    "vScrollBarSkin": " ",
+                    "name": "monsterPanel",
+                    "height": 200,
+                    "hScrollBarSkin": " ",
+                    "anchorX": 0
+                  },
+                  "compId": 931,
+                  "child": [
+                    {
+                      "type": "List",
+                      "props": {
+                        "var": "list_lvsss",
+                        "presetID": 5,
+                        "y": 0,
+                        "x": 0,
+                        "spaceX": 30,
+                        "height": 200,
+                        "hScrollBarSkin": " "
+                      },
+                      "compId": 932,
+                      "child": [
+                        {
+                          "type": "Box",
+                          "props": {
+                            "presetID": 17,
+                            "source": "ani/albumAward.ani"
+                          },
+                          "compId": 933,
+                          "child": [
+                            {
+                              "type": "Box",
+                              "props": {
+                                "presetID": 18,
+                                "y": 15,
+                                "x": 90,
+                                "skin": "res_common/redpoint.png",
+                                "name": "redPoint"
+                              },
+                              "compId": 934
+                            },
+                            {
+                              "type": "Image",
+                              "props": {
+                                "presetID": 19,
+                                "y": 15,
+                                "x": 20,
+                                "width": 100,
+                                "renderType": "hit",
+                                "lineWidth": 1,
+                                "height": 130,
+                                "fillColor": "#ff0000"
+                              },
+                              "compId": 935
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Box",
+                          "props": {
+                            "presetID": 6,
+                            "y": 205,
+                            "x": 70,
+                            "width": 140,
+                            "renderType": "render",
+                            "name": "Item",
+                            "isPresetRoot": true,
+                            "height": 190,
+                            "anchorY": 1,
+                            "anchorX": 0.5
+                          },
+                          "compId": 1018,
+                          "child": [
+                            {
+                              "type": "Box",
+                              "props": {
+                                "presetID": 7,
+                                "name": "spineBox",
+                                "centerX": 0,
+                                "bottom": 45
+                              },
+                              "compId": 1019
+                            },
+                            {
+                              "type": "Image",
+                              "props": {
+                                "presetID": 8,
+                                "y": 164,
+                                "skin": "netRes/monsterName/style_3_md/CK-SWK.png",
+                                "scaleY": 1,
+                                "scaleX": 1,
+                                "name": "nameRes",
+                                "centerX": 0,
+                                "anchorY": 0.5,
+                                "anchorX": 0.5
+                              },
+                              "compId": 1020
+                            },
+                            {
+                              "type": "Box",
+                              "props": {
+                                "presetID": 9,
+                                "y": 151,
+                                "width": 106,
+                                "visible": false,
+                                "name": "lockTip",
+                                "centerX": 0
+                              },
+                              "compId": 1021,
+                              "child": [
+                                {
+                                  "type": "Image",
+                                  "props": {
+                                    "presetID": 10,
+                                    "x": 5,
+                                    "skin": "res_view/manual/text_fsjs.png"
+                                  },
+                                  "compId": 1022
+                                },
+                                {
+                                  "type": "FontClip",
+                                  "props": {
+                                    "presetID": 11,
+                                    "y": -2,
+                                    "value": "1",
+                                    "spaceX": -5,
+                                    "skin": "res_common/number/num_23_jxzk_ffffff_stk_2.png",
+                                    "sheet": "0123456789",
+                                    "centerX": 20
+                                  },
+                                  "compId": 1023,
+                                  "child": [
+                                    {
+                                      "type": "Image",
+                                      "props": {
+                                        "presetID": 12,
+                                        "y": 2,
+                                        "skin": "res_view/manual/text_ss.png",
+                                        "left": -46
+                                      },
+                                      "compId": 1024
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "FontClip",
+                                  "props": {
+                                    "presetID": 13,
+                                    "y": -2,
+                                    "visible": false,
+                                    "value": "15",
+                                    "spaceX": -5,
+                                    "skin": "res_common/number/num_23_jxzk_ffffff_stk_2.png",
+                                    "sheet": "0123456789",
+                                    "centerX": 8
+                                  },
+                                  "compId": 1025,
+                                  "child": [
+                                    {
+                                      "type": "Image",
+                                      "props": {
+                                        "presetID": 14,
+                                        "y": 2,
+                                        "skin": "res_view/manual/text_sj.png",
+                                        "left": -46
+                                      },
+                                      "compId": 1026
+                                    },
+                                    {
+                                      "type": "Image",
+                                      "props": {
+                                        "presetID": 15,
+                                        "y": 2,
+                                        "skin": "res_view/manual/text_z.png",
+                                        "right": -30
+                                      },
+                                      "compId": 1027
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "Box",
+                              "props": {
+                                "presetID": 16,
+                                "y": 85,
+                                "x": 76,
+                                "visible": false,
+                                "name": "award",
+                                "centerX": 0
+                              },
+                              "compId": 1028,
+                              "child": [
+                                {
+                                  "type": "Animation",
+                                  "props": {
+                                    "presetID": 17,
+                                    "source": "ani/albumAward.ani"
+                                  },
+                                  "compId": 1029
+                                }
+                              ]
+                            },
+                            {
+                              "type": "Image",
+                              "props": {
+                                "presetID": 18,
+                                "y": 15,
+                                "x": 90,
+                                "skin": "res_common/redpoint.png",
+                                "name": "redPoint"
+                              },
+                              "compId": 1030
+                            },
+                            {
+                              "type": "Rect",
+                              "props": {
+                                "presetID": 19,
+                                "y": 15,
+                                "x": 20,
+                                "width": 100,
+                                "renderType": "hit",
+                                "lineWidth": 1,
+                                "height": 130,
+                                "fillColor": "#ff0000"
+                              },
+                              "compId": 1031
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "HBox",
+                  "props": {
+                    "y": 81,
+                    "x": 160,
+                    "width": 289,
+                    "visible": false,
+                    "var": "fiveMonsterTipBox",
+                    "space": 0
+                  },
+                  "compId": 1032,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "skin": "res_view/manual/text_wcss.png"
+                      },
+                      "compId": 1033
+                    },
+                    {
+                      "type": "Box",
+                      "props": {
+                        "x": 1
+                      },
+                      "compId": 1034,
+                      "child": [
+                        {
+                          "type": "FontClip",
+                          "props": {
+                            "y": -5,
+                            "x": 0,
+                            "var": "fiveMonsterTip",
+                            "value": "12",
+                            "valign": "middle",
+                            "text": "通关20章解锁【5级兵种】",
+                            "stroke": 2,
+                            "spaceX": -17,
+                            "skin": "res_common/number/num_27_jxzk_ec0000.png",
+                            "sheet": "0123456789",
+                            "pivotY": 0,
+                            "pivotX": 8,
+                            "fontSize": 30,
+                            "font": "Microsoft YaHei",
+                            "color": "#ffffff",
+                            "bold": true,
+                            "align": "center"
+                          },
+                          "compId": 1035
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Box",
+                      "props": {
+                        "y": 0,
+                        "x": 2,
+                        "width": 162
+                      },
+                      "compId": 1036,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 0,
+                            "x": 5,
+                            "skin": "res_view/manual/text_kqssb.png"
+                          },
+                          "compId": 1037
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 79,
+                    "x": 261,
+                    "visible": false,
+                    "var": "unopen",
+                    "text": "text",
+                    "skin": "netRes/liuhe/viewUI/text_jjkf.png"
+                  },
+                  "compId": 1038
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "prefab/manualMonsterSlot.prefab",
+    "res_view/manual/text_wcss.png",
+    "res_common/number/num_27_jxzk_ec0000.png"
+  ],
+  "loadList3D": []
+}

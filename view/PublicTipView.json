@@ -1,0 +1,232 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": true,
+    "height": 1344,
+    "drawCallOptimize": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 813,
+        "x": 500,
+        "width": 1000,
+        "var": "maskBg1",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 140
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 391,
+        "x": 75,
+        "width": 600,
+        "height": 410,
+        "centerY": -76,
+        "centerX": 0
+      },
+      "compId": 166,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "width": 610,
+            "skin": "res_common/bg_common.png",
+            "height": 339,
+            "centerX": 0,
+            "alpha": 1
+          },
+          "compId": 149,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -19,
+                "x": 526,
+                "skin": "res_common/img_common_02.png"
+              },
+              "compId": 171
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -28,
+                "x": 520,
+                "var": "closeBtn",
+                "skin": "res_common/btn_close.png"
+              },
+              "compId": 170
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 36,
+            "x": 300,
+            "skin": "res_common/bg_title01.png",
+            "centerX": 0,
+            "alpha": 1
+          },
+          "compId": 18,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 9,
+                "x": 104,
+                "skin": "res_view/chapterDetail/title_tishi.png"
+              },
+              "compId": 169
+            }
+          ]
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 153,
+            "x": 174,
+            "var": "tipDesc",
+            "text": "投降将被视为游戏失败",
+            "fontSize": 26,
+            "font": "Microsoft YaHei",
+            "color": "#684546",
+            "centerX": 0,
+            "bold": true
+          },
+          "compId": 163
+        },
+        {
+          "type": "Button",
+          "props": {
+            "y": 235,
+            "x": 192,
+            "var": "confirmBtn",
+            "stateNum": 1,
+            "skin": "res_common/btn_blue.png",
+            "centerX": 0
+          },
+          "compId": 164,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 21.5,
+                "x": 58.5,
+                "skin": "res_view/chapterDetail/btn_text_queren.png",
+                "alpha": 1
+              },
+              "compId": 167
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 337,
+            "x": 168,
+            "text": "text",
+            "skin": "res_common/text_djgb.png"
+          },
+          "compId": 174
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 122,
+          "keyframes": {
+            "x": [
+              {
+                "value": 150,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 150,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "x",
+                "index": 50
+              }
+            ],
+            "text": [
+              {
+                "value": "5",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 0
+              },
+              {
+                "value": "4",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 10
+              },
+              {
+                "value": "3",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 20
+              },
+              {
+                "value": "2",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 30
+              },
+              {
+                "value": "1",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 40
+              },
+              {
+                "value": "0",
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "text",
+                "index": 50
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani",
+      "id": 1,
+      "frameRate": 10,
+      "action": 0
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

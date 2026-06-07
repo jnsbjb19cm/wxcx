@@ -1,0 +1,5528 @@
+{
+  "type": "BaseDynamicUI",
+  "props": {
+    "width": 750,
+    "runtime": "game/view/component/MainSgDetail.ts",
+    "name": "dialogBox",
+    "height": 1220,
+    "alpha": 1
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 140,
+        "width": 750,
+        "var": "contentBox",
+        "height": 1023,
+        "centerX": 0
+      },
+      "compId": 93,
+      "child": [
+        {
+          "type": "Panel",
+          "props": {
+            "y": -141,
+            "width": 752,
+            "var": "bgBox",
+            "left": -1,
+            "height": 1221
+          },
+          "compId": 438,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -204,
+                "x": -125,
+                "width": 1000,
+                "skin": "res_view/sg/bg.jpg",
+                "name": "bg",
+                "height": 1625,
+                "alpha": 1
+              },
+              "compId": 632
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 550,
+                "x": -124,
+                "texture": "res_view/sg/pic_gongdianzuo.png",
+                "scaleY": 0.995,
+                "scaleX": 0.995,
+                "pivotY": 699,
+                "name": "gongdianzuo"
+              },
+              "compId": 599
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 550,
+                "x": 875,
+                "texture": "res_view/sg/pic_gongdianzuo.png",
+                "scaleY": 0.995,
+                "scaleX": -0.995,
+                "pivotY": 699,
+                "name": "gongdianyou"
+              },
+              "compId": 600
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": -13,
+                "x": 375,
+                "width": 477,
+                "texture": "res_view/sg/pic_gongdian2.png",
+                "scaleY": 0.995,
+                "scaleX": 0.995,
+                "pivotY": 0,
+                "pivotX": 239,
+                "name": "gongdianxiao",
+                "height": 577,
+                "alpha": 1
+              },
+              "compId": 598
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 111,
+                "x": 374,
+                "width": 1000,
+                "texture": "res_view/sg/pic_gongdian1.png",
+                "scaleY": 0.996,
+                "scaleX": 0.996,
+                "pivotX": 500,
+                "name": "gongdianda",
+                "height": 1366,
+                "alpha": 1
+              },
+              "compId": 597
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 576,
+                "x": -126.15,
+                "texture": "res_view/sg/pic_menzuo.png",
+                "scaleY": 0.98,
+                "scaleX": 0.98,
+                "name": "menzuo",
+                "alpha": 0.9
+              },
+              "compId": 591
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 575,
+                "x": 885.3,
+                "texture": "res_view/sg/pic_menyou.png",
+                "scaleY": 0.98,
+                "scaleX": 0.98,
+                "pivotY": 0,
+                "pivotX": 248,
+                "name": "menyou",
+                "alpha": 0.9
+              },
+              "compId": 590
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 1321,
+                "x": 415,
+                "width": 100,
+                "var": "heroSpineQ",
+                "scaleY": 0.99,
+                "scaleX": 0.99,
+                "pivotY": 100,
+                "pivotX": 50,
+                "height": 100,
+                "alpha": 0.734
+              },
+              "compId": 606
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 519,
+                "x": 81,
+                "width": 592,
+                "name": "liuguang"
+              },
+              "compId": 639,
+              "child": [
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "texture": "res_view/sg/pic-liuguang1.png",
+                    "name": "liuguang1"
+                  },
+                  "compId": 633
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 96,
+                    "x": 35,
+                    "texture": "res_view/sg/pic-liuguang2.png",
+                    "name": "liuguang2"
+                  },
+                  "compId": 634
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 0,
+                    "x": 592,
+                    "texture": "res_view/sg/pic-liuguang1.png",
+                    "scaleX": -1,
+                    "name": "liuguang-1"
+                  },
+                  "compId": 635
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 94,
+                    "x": 549,
+                    "texture": "res_view/sg/pic-liuguang2.png",
+                    "scaleX": -1,
+                    "name": "liuguang-2"
+                  },
+                  "compId": 636
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 2,
+                    "width": 592,
+                    "name": "liuguangRot"
+                  },
+                  "compId": 774,
+                  "child": [
+                    {
+                      "type": "Box",
+                      "props": {
+                        "y": 140,
+                        "x": 237.5,
+                        "width": 85,
+                        "styleSkin": "res_view/sg/pic-liuguang3.png",
+                        "name": "1",
+                        "alpha": 1
+                      },
+                      "compId": 637,
+                      "child": [
+                        {
+                          "type": "Sprite",
+                          "props": {
+                            "y": 0,
+                            "x": 0,
+                            "texture": "res_view/sg/pic-liuguang3.png",
+                            "name": "1",
+                            "alpha": 1
+                          },
+                          "compId": 760
+                        },
+                        {
+                          "type": "Sprite",
+                          "props": {
+                            "y": 0,
+                            "x": 0,
+                            "width": 85,
+                            "texture": "res_view/sg/pic-liuguang3.png",
+                            "scaleX": -1,
+                            "pivotX": 85,
+                            "name": "-1",
+                            "height": 579,
+                            "alpha": 0
+                          },
+                          "compId": 645
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Box",
+                      "props": {
+                        "y": 140,
+                        "x": 275,
+                        "width": 83,
+                        "styleSkin": "res_view/sg/pic-liuguang4.png",
+                        "name": "2",
+                        "alpha": 1
+                      },
+                      "compId": 640,
+                      "child": [
+                        {
+                          "type": "Sprite",
+                          "props": {
+                            "y": 0,
+                            "x": 0,
+                            "visible": true,
+                            "texture": "res_view/sg/pic-liuguang4.png",
+                            "name": "2",
+                            "alpha": 0
+                          },
+                          "compId": 762
+                        },
+                        {
+                          "type": "Sprite",
+                          "props": {
+                            "y": 0,
+                            "x": 0,
+                            "width": 83,
+                            "texture": "res_view/sg/pic-liuguang4.png",
+                            "scaleX": -1,
+                            "pivotX": 83,
+                            "name": "-2",
+                            "height": 574,
+                            "alpha": 1
+                          },
+                          "compId": 644
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Box",
+                      "props": {
+                        "y": 140,
+                        "x": 312.1111111111111,
+                        "width": 97,
+                        "styleSkin": "res_view/sg/pic-liuguang5.png",
+                        "scaleX": 1,
+                        "pivotX": 0,
+                        "name": "3",
+                        "alpha": 1
+                      },
+                      "compId": 641,
+                      "child": [
+                        {
+                          "type": "Sprite",
+                          "props": {
+                            "y": 0,
+                            "x": 0,
+                            "visible": true,
+                            "texture": "res_view/sg/pic-liuguang5.png",
+                            "scaleX": 1,
+                            "pivotX": 0,
+                            "name": "3",
+                            "alpha": 0
+                          },
+                          "compId": 764
+                        },
+                        {
+                          "type": "Sprite",
+                          "props": {
+                            "y": 0,
+                            "x": 0,
+                            "width": 97,
+                            "texture": "res_view/sg/pic-liuguang5.png",
+                            "scaleX": -1,
+                            "pivotX": 97,
+                            "name": "-3",
+                            "height": 664,
+                            "alpha": 1
+                          },
+                          "compId": 643
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Box",
+                      "props": {
+                        "y": 140,
+                        "x": 331.6666666666667,
+                        "width": 97,
+                        "styleSkin": "res_view/sg/pic-liuguang6.png",
+                        "scaleX": 1,
+                        "pivotX": 0,
+                        "name": "4",
+                        "alpha": 0.33333333333333339
+                      },
+                      "compId": 642,
+                      "child": [
+                        {
+                          "type": "Sprite",
+                          "props": {
+                            "y": 0,
+                            "x": 0,
+                            "visible": true,
+                            "texture": "res_view/sg/pic-liuguang6.png",
+                            "scaleX": 1,
+                            "pivotX": 0,
+                            "name": "4",
+                            "alpha": 0
+                          },
+                          "compId": 766
+                        },
+                        {
+                          "type": "Sprite",
+                          "props": {
+                            "y": 0,
+                            "x": 0,
+                            "texture": "res_view/sg/pic-liuguang6.png",
+                            "scaleX": -1,
+                            "pivotX": 97,
+                            "name": "-4",
+                            "alpha": 1
+                          },
+                          "compId": 754
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Box",
+                      "props": {
+                        "y": 140,
+                        "x": 171.55172413793106,
+                        "width": 97,
+                        "scaleX": 1,
+                        "pivotX": 0,
+                        "name": "5",
+                        "alpha": 0.6551724137931034
+                      },
+                      "compId": 755,
+                      "child": [
+                        {
+                          "type": "Sprite",
+                          "props": {
+                            "y": 0,
+                            "x": 0,
+                            "texture": "res_view/sg/pic-liuguang5.png",
+                            "scaleX": 1,
+                            "pivotX": 0,
+                            "name": "5",
+                            "alpha": 1
+                          },
+                          "compId": 757
+                        },
+                        {
+                          "type": "Sprite",
+                          "props": {
+                            "y": 0,
+                            "x": 0,
+                            "width": 97,
+                            "visible": true,
+                            "texture": "res_view/sg/pic-liuguang5.png",
+                            "scaleX": -1,
+                            "pivotX": 97,
+                            "name": "-5",
+                            "height": 664,
+                            "alpha": 0
+                          },
+                          "compId": 756
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Box",
+                      "props": {
+                        "y": 140,
+                        "x": 200,
+                        "width": 83,
+                        "styleSkin": "res_view/sg/pic-liuguang4.png",
+                        "name": "6",
+                        "alpha": 1
+                      },
+                      "compId": 768,
+                      "child": [
+                        {
+                          "type": "Sprite",
+                          "props": {
+                            "y": 0,
+                            "x": 0,
+                            "texture": "res_view/sg/pic-liuguang4.png",
+                            "name": "6",
+                            "alpha": 1
+                          },
+                          "compId": 769
+                        },
+                        {
+                          "type": "Sprite",
+                          "props": {
+                            "y": 0,
+                            "x": 0,
+                            "width": 83,
+                            "visible": true,
+                            "texture": "res_view/sg/pic-liuguang4.png",
+                            "scaleX": -1,
+                            "pivotX": 83,
+                            "name": "-6",
+                            "height": 574,
+                            "alpha": 0
+                          },
+                          "compId": 770
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Box",
+                      "props": {
+                        "y": 140,
+                        "x": 235.41666666666664,
+                        "width": 85,
+                        "styleSkin": "res_view/sg/pic-liuguang3.png",
+                        "name": "7",
+                        "alpha": 1
+                      },
+                      "compId": 771,
+                      "child": [
+                        {
+                          "type": "Sprite",
+                          "props": {
+                            "y": 0,
+                            "x": 0,
+                            "texture": "res_view/sg/pic-liuguang3.png",
+                            "name": "7",
+                            "alpha": 1
+                          },
+                          "compId": 772
+                        },
+                        {
+                          "type": "Sprite",
+                          "props": {
+                            "y": 0,
+                            "x": 0,
+                            "width": 85,
+                            "visible": true,
+                            "texture": "res_view/sg/pic-liuguang3.png",
+                            "scaleX": -1,
+                            "pivotX": 85,
+                            "name": "-7",
+                            "height": 579,
+                            "alpha": 0
+                          },
+                          "compId": 773
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 357.255,
+                "x": -296.05,
+                "width": 572,
+                "texture": "res_view/sg/pic-yun1.png",
+                "scaleY": 0.996,
+                "scaleX": 0.996,
+                "pivotY": 189,
+                "name": "yunzuo",
+                "height": 378,
+                "alpha": 0.9
+              },
+              "compId": 594
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 658.2,
+                "x": 554.2049999999999,
+                "width": 623,
+                "texture": "res_view/sg/pic-yun2.png",
+                "scaleY": 0.996,
+                "scaleX": 0.996,
+                "pivotY": 140,
+                "pivotX": 0,
+                "name": "yunyou",
+                "height": 281,
+                "alpha": 0.9
+              },
+              "compId": 595
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 1078.75,
+                "x": -165.7357142857143,
+                "width": 2500,
+                "texture": "res_view/sg/pic-yun3.png",
+                "scaleY": 0.996,
+                "scaleX": 0.996,
+                "pivotY": 237,
+                "name": "yunxia",
+                "height": 473,
+                "alpha": 0.9
+              },
+              "compId": 596
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": -389,
+                "x": 375,
+                "width": 4283,
+                "texture": "res_view/sg/pic_tianguang.png",
+                "scaleY": 1,
+                "scaleX": 1,
+                "rotation": 0,
+                "pivotY": 2019,
+                "pivotX": 2142,
+                "name": "light",
+                "height": 4038,
+                "alpha": 0.75
+              },
+              "compId": 622
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 1197.5,
+                "x": 62,
+                "texture": "res_view/sg/pic_shentai.png"
+              },
+              "compId": 739
+            }
+          ]
+        },
+        {
+          "type": "Panel",
+          "props": {
+            "y": -137,
+            "x": 0,
+            "width": 750,
+            "var": "laotou",
+            "height": 875,
+            "anchorY": 0,
+            "alpha": 0
+          },
+          "compId": 777,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "x": 0,
+                "skin": "res_view/sg/pic_fsts.png",
+                "centerX": -3,
+                "bottom": -43
+              },
+              "compId": 776
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 117,
+                "skin": "res_view/sg/text_jqfs.png",
+                "centerX": 0
+              },
+              "compId": 778
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 5,
+            "visible": true,
+            "var": "title",
+            "skin": "res_view/sg/text_bt.png",
+            "name": "title",
+            "centerX": -1,
+            "alpha": 0
+          },
+          "compId": 490
+        },
+        {
+          "type": "FontClip",
+          "props": {
+            "y": 84,
+            "var": "topTipNum",
+            "value": "1",
+            "spaceX": -15,
+            "skin": "res_common/number/num_40_jxzk_b50b0b_stk_3.png",
+            "sheet": "0123456789",
+            "centerX": -128
+          },
+          "compId": 745,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 5,
+                "skin": "res_view/sg/text_zc.png",
+                "left": -97
+              },
+              "compId": 743
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 5,
+                "skin": "res_view/sg/text_ci.png",
+                "right": -70
+              },
+              "compId": 746
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 5,
+                "skin": "res_view/sg/text_bdsj.png",
+                "right": -253
+              },
+              "compId": 747
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 5,
+                "var": "itemTip",
+                "skin": "res_view/sg/text_pifu.png",
+                "right": -350
+              },
+              "compId": 748
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 291,
+            "x": 32,
+            "width": 687,
+            "visible": true,
+            "var": "itemBox",
+            "height": 238,
+            "centerX": 0,
+            "alpha": 0.5833333333333334
+          },
+          "compId": 166,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 119,
+                "x": 114,
+                "width": 226,
+                "var": "fqBtn",
+                "name": "item_1",
+                "height": 238,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 58,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "visible": false,
+                    "skin": "res_view/sg/fx_box_light_purple.png",
+                    "name": "light",
+                    "centerX": 0,
+                    "bottom": 0,
+                    "anchorY": 1,
+                    "anchorX": 0.5
+                  },
+                  "compId": 716
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "skin": "res_view/sg/panel_sg.png"
+                  },
+                  "compId": 143,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 100,
+                        "x": 118,
+                        "visible": true,
+                        "skin": "res_view/sg/icon_fq.png",
+                        "name": "icon",
+                        "centerY": -24,
+                        "centerX": 0,
+                        "anchorY": 0.5,
+                        "anchorX": 0.5,
+                        "alpha": 1
+                      },
+                      "compId": 85
+                    }
+                  ]
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 142,
+                    "var": "progress_fq_text",
+                    "value": "3/123",
+                    "spaceX": -16,
+                    "skin": "res_common/number/num_37_jxzk_ffffff_stk_2.png",
+                    "sheet": "0123456789/",
+                    "name": "lv",
+                    "centerX": -8
+                  },
+                  "compId": 144
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 203,
+                    "skin": "res_view/sg/bar_fra_empty.png",
+                    "centerX": -5
+                  },
+                  "compId": 473,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 4,
+                        "x": 4,
+                        "width": 175,
+                        "var": "progress_fq_bar",
+                        "skin": "res_view/sg/bar_vip_exp_purple.png",
+                        "sizeGrid": "0,0,0,11",
+                        "scaleY": 1,
+                        "height": 28
+                      },
+                      "compId": 475
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "visible": false,
+                    "top": 34,
+                    "skin": "res_common/redpoint.png",
+                    "right": 12,
+                    "name": "redPoint"
+                  },
+                  "compId": 550
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 119,
+                "x": 339,
+                "width": 226,
+                "var": "slBtn",
+                "name": "item_2",
+                "height": 238,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 476,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 238,
+                    "x": 113,
+                    "visible": false,
+                    "skin": "res_view/sg/fx_box_light_blue.png",
+                    "name": "light",
+                    "centerX": 0,
+                    "bottom": 0,
+                    "anchorY": 1,
+                    "anchorX": 0.5
+                  },
+                  "compId": 717
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "skin": "res_view/sg/panel_sg.png"
+                  },
+                  "compId": 477,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 100,
+                        "x": 118,
+                        "visible": true,
+                        "skin": "res_view/sg/icon_sl.png",
+                        "name": "icon",
+                        "centerY": -24,
+                        "centerX": 0,
+                        "anchorY": 0.5,
+                        "anchorX": 0.5,
+                        "alpha": 1
+                      },
+                      "compId": 478
+                    }
+                  ]
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 142,
+                    "var": "progress_sl_text",
+                    "value": "11/500",
+                    "spaceX": -16,
+                    "skin": "res_common/number/num_37_jxzk_ffffff_stk_2.png",
+                    "sheet": "0123456789/",
+                    "name": "lv",
+                    "centerX": -8
+                  },
+                  "compId": 509
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 203,
+                    "skin": "res_view/sg/bar_fra_empty.png",
+                    "centerX": 3
+                  },
+                  "compId": 481,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 4,
+                        "x": 4,
+                        "var": "progress_sl_bar",
+                        "skin": "res_view/sg/bar_vip_exp_blue.png",
+                        "sizeGrid": "0,0,0,11"
+                      },
+                      "compId": 482
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "visible": false,
+                    "top": 34,
+                    "skin": "res_common/redpoint.png",
+                    "right": 12,
+                    "name": "redPoint"
+                  },
+                  "compId": 551
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 119,
+                "x": 575,
+                "width": 226,
+                "var": "djBtn",
+                "name": "item_3",
+                "height": 238,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 483,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 238,
+                    "x": 113,
+                    "visible": false,
+                    "skin": "res_view/sg/fx_box_light_red.png",
+                    "name": "light",
+                    "centerX": 0,
+                    "bottom": 0,
+                    "anchorY": 1,
+                    "anchorX": 0.5
+                  },
+                  "compId": 718
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "skin": "res_view/sg/panel_sg.png"
+                  },
+                  "compId": 484,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 100,
+                        "x": 118,
+                        "visible": true,
+                        "skin": "res_view/sg/icon_dj.png",
+                        "name": "icon",
+                        "centerY": -24,
+                        "centerX": 0,
+                        "anchorY": 0.5,
+                        "anchorX": 0.5,
+                        "alpha": 1
+                      },
+                      "compId": 485
+                    }
+                  ]
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 142,
+                    "var": "progress_dj_text",
+                    "value": "0/27",
+                    "spaceX": -16,
+                    "skin": "res_common/number/num_37_jxzk_ffffff_stk_2.png",
+                    "sheet": "0123456789/",
+                    "name": "lv",
+                    "centerX": -8
+                  },
+                  "compId": 510
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 205,
+                    "skin": "res_view/sg/bar_fra_empty.png",
+                    "centerX": 0
+                  },
+                  "compId": 488,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 4,
+                        "x": 4,
+                        "width": 175,
+                        "var": "progress_dj_bar",
+                        "skin": "res_view/sg/bar_vip_exp_red.png",
+                        "sizeGrid": "0,0,0,11"
+                      },
+                      "compId": 489
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "visible": false,
+                    "top": 34,
+                    "skin": "res_common/redpoint.png",
+                    "right": 12,
+                    "name": "redPoint"
+                  },
+                  "compId": 552
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 662,
+            "width": 750,
+            "var": "gdGetProgress",
+            "centerX": 0
+          },
+          "compId": 491,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "width": 403,
+                "visible": true,
+                "space": 9,
+                "centerX": -10,
+                "alpha": 1
+              },
+              "compId": 522,
+              "child": [
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": -7,
+                    "var": "missGdNum",
+                    "value": "10000",
+                    "spaceX": -10,
+                    "skin": "res_common/number/num_30_jxzk_18ff00_stk.png",
+                    "sheet": "0123456789+",
+                    "centerX": -45
+                  },
+                  "compId": 529,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 7,
+                        "skin": "res_view/sg/text_4.png",
+                        "left": -94
+                      },
+                      "compId": 523
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 7,
+                        "skin": "res_view/sg/text_3.png",
+                        "right": -72
+                      },
+                      "compId": 524,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 21,
+                            "x": 62,
+                            "skin": "res_view/sg/text_2.png"
+                          },
+                          "compId": 525
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 0,
+                            "x": 72,
+                            "skin": "res_view/sg/text_1.png"
+                          },
+                          "compId": 526
+                        },
+                        {
+                          "type": "FontClip",
+                          "props": {
+                            "y": -7,
+                            "var": "addNum_g",
+                            "value": "+1",
+                            "spaceX": -12,
+                            "skin": "res_common/number/num_30_jxzk_18ff00_stk.png",
+                            "sheet": "0123456789+",
+                            "right": -106
+                          },
+                          "compId": 531
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "visible": false,
+                "var": "upText",
+                "skin": "res_view/sg/text_hfsl.png",
+                "centerX": -10,
+                "alpha": 1
+              },
+              "compId": 648
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "visible": false,
+                "var": "gdFull",
+                "skin": "res_view/sg/text_zjcqcs.png",
+                "centerX": -10,
+                "alpha": 1
+              },
+              "compId": 649
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 46,
+                "x": 120,
+                "width": 480,
+                "visible": true,
+                "var": "gdCom",
+                "skin": "res_main/panel_ccy1.png",
+                "sizeGrid": "0,16,0,16",
+                "height": 34,
+                "alpha": 0.3
+              },
+              "compId": 514,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 4,
+                    "x": 9,
+                    "width": 460,
+                    "var": "progress_gd_bar",
+                    "skin": "res_main/bar_vip_exp_2.png",
+                    "sizeGrid": "0,11,0,0",
+                    "height": 26
+                  },
+                  "compId": 515
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "width": 480,
+                    "var": "progress_gd_text",
+                    "value": "9008888/8888888",
+                    "spaceX": -5,
+                    "skin": "res_common/number/num_24_rhrc_f1efe0.png",
+                    "sheet": "0123456789+-*/:.",
+                    "height": 26,
+                    "centerY": -2,
+                    "centerX": -2,
+                    "align": "center"
+                  },
+                  "compId": 518
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 20,
+                    "x": -10,
+                    "skin": "res_main/logo_gongde.png",
+                    "scaleY": 1.4,
+                    "scaleX": 1.4,
+                    "name": "Icon",
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 497
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 20,
+                    "x": 489,
+                    "width": 78,
+                    "var": "vipIcon",
+                    "skin": "res_view/sg/panel_sg.png",
+                    "scaleY": 1,
+                    "scaleX": 1,
+                    "height": 80,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 501,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 8,
+                        "x": 9.5,
+                        "skin": "res_view/sg/text_CS.png"
+                      },
+                      "compId": 502
+                    },
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "var": "addNum_y",
+                        "value": "+1",
+                        "spaceX": -5,
+                        "skin": "res_common/number/num_30_ryst_ffbf5b_fff600_stk.png",
+                        "sheet": "0123456789+",
+                        "centerY": 14,
+                        "centerX": 0
+                      },
+                      "compId": 511
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 754,
+            "x": 143,
+            "width": 464,
+            "visible": false,
+            "var": "weaponEffect",
+            "height": 104,
+            "alpha": 0
+          },
+          "compId": 544,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "skin": "res_view/sg/panel_fq.png"
+              },
+              "compId": 534,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "res_view/sg/text_fq.png",
+                    "centerY": -1,
+                    "centerX": 2
+                  },
+                  "compId": 535
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 24,
+                "x": 80
+              },
+              "compId": 538,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "skin": "res_view/sg/text_5.png"
+                  },
+                  "compId": 536
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": -3,
+                    "x": 226,
+                    "var": "extraGetGdNum",
+                    "value": "+2000",
+                    "spaceX": -5,
+                    "skin": "res_common/number/num_22_jxzk_18ff00.png",
+                    "sheet": "0123456789+/%"
+                  },
+                  "compId": 539
+                }
+              ]
+            },
+            {
+              "type": "HBox",
+              "props": {
+                "y": 59,
+                "centerX": -4
+              },
+              "compId": 540,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "skin": "res_view/sg/text_7.png"
+                  },
+                  "compId": 537
+                },
+                {
+                  "type": "Box",
+                  "props": {},
+                  "compId": 541,
+                  "child": [
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": -2,
+                        "x": -1,
+                        "width": 75,
+                        "var": "usedVideoNum",
+                        "value": "50/60",
+                        "spaceX": -6,
+                        "skin": "res_common/number/num_22_jxzk_18ff00.png",
+                        "sheet": "0123456789+/%",
+                        "height": 29
+                      },
+                      "compId": 542
+                    },
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": -2,
+                        "x": -1,
+                        "width": 75,
+                        "visible": false,
+                        "var": "usedVideoNum_1",
+                        "value": "50/60",
+                        "spaceX": -6,
+                        "skin": "res_common/number/num_22_jxzk_ffffff.png",
+                        "sheet": "0123456789/",
+                        "height": 29
+                      },
+                      "compId": 725
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "x": 210,
+                    "visible": false,
+                    "var": "usedOutTip",
+                    "skin": "res_view/sg/text_6.png",
+                    "pivotX": -8
+                  },
+                  "compId": 543
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 852,
+            "width": 598,
+            "visible": true,
+            "var": "btnBox",
+            "height": 136,
+            "centerX": 0,
+            "alpha": 0
+          },
+          "compId": 420,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 75,
+                "x": 123,
+                "width": 281,
+                "var": "recoveryBtn",
+                "stateNum": 1,
+                "skin": "res_common/btn_hua_yellow.png",
+                "label": "label",
+                "height": 140,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 69,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 24,
+                    "text": "text",
+                    "skin": "res_view/sg/text_hfsl_2.png",
+                    "centerX": 1
+                  },
+                  "compId": 148
+                },
+                {
+                  "type": "HBox",
+                  "props": {
+                    "y": 78,
+                    "space": 5,
+                    "centerX": 0
+                  },
+                  "compId": 546,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "skin": "res_view/sg/text_sy.png"
+                      },
+                      "compId": 545
+                    },
+                    {
+                      "type": "Box",
+                      "props": {},
+                      "compId": 547,
+                      "child": [
+                        {
+                          "type": "FontClip",
+                          "props": {
+                            "var": "recoveryNum",
+                            "value": "5",
+                            "spaceX": -5,
+                            "skin": "res_common/number/num_24_jxzk_ffffff_stk.png",
+                            "sheet": "0123456789"
+                          },
+                          "compId": 548
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "skin": "res_view/sg/text_c_.png"
+                      },
+                      "compId": 549
+                    }
+                  ]
+                },
+                {
+                  "type": "Script",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 160
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 75,
+                "x": 462,
+                "width": 281,
+                "var": "getRecoveryNum",
+                "stateNum": 1,
+                "skin": "res_common/btn_hua_green.png",
+                "label": "label",
+                "height": 140,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 73,
+              "child": [
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 31,
+                    "x": 58,
+                    "texture": "res_common/icon_ad1.png"
+                  },
+                  "compId": 752
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 24,
+                    "text": "text",
+                    "skin": "res_view/sg/text_mf_2.png",
+                    "centerX": 33
+                  },
+                  "compId": 151
+                },
+                {
+                  "type": "HBox",
+                  "props": {
+                    "y": 78,
+                    "space": 5,
+                    "centerX": 0
+                  },
+                  "compId": 727,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "skin": "res_view/sg/text_sy.png"
+                      },
+                      "compId": 728
+                    },
+                    {
+                      "type": "Box",
+                      "props": {},
+                      "compId": 729,
+                      "child": [
+                        {
+                          "type": "FontClip",
+                          "props": {
+                            "var": "canAdNum",
+                            "value": "33",
+                            "spaceX": -5,
+                            "skin": "res_common/number/num_24_jxzk_ffffff_stk.png",
+                            "sheet": "0123456789"
+                          },
+                          "compId": 730
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "skin": "res_view/sg/text_c_.png"
+                      },
+                      "compId": 731
+                    }
+                  ]
+                },
+                {
+                  "type": "Script",
+                  "props": {
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 159
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 75,
+                "width": 314,
+                "visible": false,
+                "var": "flyUpBtn",
+                "stateNum": 1,
+                "skin": "res_common/btn_hua_red.png",
+                "label": "label",
+                "height": 156,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 86,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 37,
+                    "text": "text",
+                    "skin": "res_view/sg/text_feisheng.png",
+                    "centerX": -1
+                  },
+                  "compId": 161
+                },
+                {
+                  "type": "Script",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 732
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "zOrder": 100,
+            "y": 0,
+            "x": 0,
+            "width": 1000,
+            "visible": false,
+            "var": "lightImg",
+            "height": 1625,
+            "centerY": 0,
+            "centerX": 0
+          },
+          "compId": 421,
+          "child": [
+            {
+              "type": "Rect",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 1000,
+                "lineWidth": 1,
+                "height": 1625,
+                "fillColor": "#ffffff"
+              },
+              "compId": 422
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "width": 750,
+            "visible": false,
+            "var": "afGuide",
+            "height": 1334,
+            "centerY": 0,
+            "centerX": 0
+          },
+          "compId": 424,
+          "child": [
+            {
+              "type": "Animation",
+              "props": {
+                "y": 1126,
+                "x": 267,
+                "source": "ani/handsPoint.ani"
+              },
+              "compId": 733
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 590,
+          "keyframes": {
+            "x": [
+              {
+                "value": 877.55,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 590,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 955.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 590,
+                "key": "x",
+                "index": 11
+              },
+              {
+                "value": 877.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 590,
+                "key": "x",
+                "index": 21
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 590,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 0.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 590,
+                "key": "scaleY",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 590,
+                "key": "scaleY",
+                "index": 21
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 590,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 0.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 590,
+                "key": "scaleX",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 590,
+                "key": "scaleX",
+                "index": 21
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 590,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 590,
+                "key": "alpha",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 590,
+                "key": "alpha",
+                "index": 21
+              }
+            ]
+          }
+        },
+        {
+          "target": 591,
+          "keyframes": {
+            "x": [
+              {
+                "value": -121,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 591,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": -163.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 591,
+                "key": "x",
+                "index": 11
+              },
+              {
+                "value": -122,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 591,
+                "key": "x",
+                "index": 21
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 591,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 0.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 591,
+                "key": "scaleY",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 591,
+                "key": "scaleY",
+                "index": 21
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 591,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 0.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 591,
+                "key": "scaleX",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 591,
+                "key": "scaleX",
+                "index": 21
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 591,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 591,
+                "key": "alpha",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 591,
+                "key": "alpha",
+                "index": 21
+              }
+            ]
+          }
+        },
+        {
+          "target": 594,
+          "keyframes": {
+            "y": [
+              {
+                "value": 358.95,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 594,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 342,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 594,
+                "label": null,
+                "key": "y",
+                "index": 11
+              },
+              {
+                "value": 358.95,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 594,
+                "key": "y",
+                "index": 21
+              }
+            ],
+            "x": [
+              {
+                "value": -294.7,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 594,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": -308.2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 594,
+                "label": null,
+                "key": "x",
+                "index": 11
+              },
+              {
+                "value": -294.7,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 594,
+                "key": "x",
+                "index": 21
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 0.96,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 594,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 0.96,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 594,
+                "key": "scaleY",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 594,
+                "key": "scaleY",
+                "index": 21
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 0.96,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 594,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 0.96,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 594,
+                "key": "scaleX",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 594,
+                "key": "scaleX",
+                "index": 21
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 594,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 594,
+                "key": "alpha",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 594,
+                "key": "alpha",
+                "index": 21
+              }
+            ]
+          }
+        },
+        {
+          "target": 595,
+          "keyframes": {
+            "y": [
+              {
+                "value": 669,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 595,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 669,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 595,
+                "key": "y",
+                "index": 11
+              },
+              {
+                "value": 657,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 595,
+                "key": "y",
+                "index": 21
+              }
+            ],
+            "x": [
+              {
+                "value": 579.45,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 595,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 579.45,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 595,
+                "key": "x",
+                "index": 11
+              },
+              {
+                "value": 551.4,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 595,
+                "key": "x",
+                "index": 21
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 0.96,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 595,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 0.96,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 595,
+                "key": "scaleY",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 595,
+                "key": "scaleY",
+                "index": 21
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 0.96,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 595,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 0.96,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 595,
+                "key": "scaleX",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 595,
+                "key": "scaleX",
+                "index": 21
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 595,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 595,
+                "key": "alpha",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 595,
+                "key": "alpha",
+                "index": 21
+              }
+            ]
+          }
+        },
+        {
+          "target": 596,
+          "keyframes": {
+            "y": [
+              {
+                "value": 1111.75,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 596,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 1077.1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 596,
+                "key": "y",
+                "index": 21
+              }
+            ],
+            "x": [
+              {
+                "value": -124.45,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 596,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": -167.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 596,
+                "key": "x",
+                "index": 21
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 596,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 0.96,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 596,
+                "key": "scaleY",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 596,
+                "key": "scaleY",
+                "index": 21
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 596,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 0.96,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 596,
+                "key": "scaleX",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 596,
+                "key": "scaleX",
+                "index": 21
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 596,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 596,
+                "key": "alpha",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 596,
+                "key": "alpha",
+                "index": 21
+              }
+            ]
+          }
+        },
+        {
+          "target": 598,
+          "keyframes": {
+            "scaleY": [
+              {
+                "value": 0.95,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 598,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 0.95,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 598,
+                "key": "scaleY",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 598,
+                "key": "scaleY",
+                "index": 21
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 0.95,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 598,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 0.95,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 598,
+                "key": "scaleX",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 598,
+                "key": "scaleX",
+                "index": 21
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 598,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 598,
+                "key": "alpha",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 598,
+                "key": "alpha",
+                "index": 21
+              }
+            ]
+          }
+        },
+        {
+          "target": 597,
+          "keyframes": {
+            "scaleY": [
+              {
+                "value": 0.96,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 597,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 0.96,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 597,
+                "key": "scaleY",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 597,
+                "key": "scaleY",
+                "index": 21
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 0.96,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 597,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 0.96,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 597,
+                "key": "scaleX",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 597,
+                "key": "scaleX",
+                "index": 21
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 597,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 597,
+                "key": "alpha",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 597,
+                "key": "alpha",
+                "index": 21
+              }
+            ]
+          }
+        },
+        {
+          "target": 599,
+          "keyframes": {
+            "scaleY": [
+              {
+                "value": 0.95,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 599,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 0.95,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 599,
+                "key": "scaleY",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 599,
+                "key": "scaleY",
+                "index": 21
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 0.95,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 599,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 0.95,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 599,
+                "key": "scaleX",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 599,
+                "key": "scaleX",
+                "index": 21
+              }
+            ]
+          }
+        },
+        {
+          "target": 600,
+          "keyframes": {
+            "scaleY": [
+              {
+                "value": 0.95,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 600,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 0.95,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 600,
+                "key": "scaleY",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 600,
+                "key": "scaleY",
+                "index": 21
+              }
+            ],
+            "scaleX": [
+              {
+                "value": -0.95,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 600,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": -0.95,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 600,
+                "key": "scaleX",
+                "index": 11
+              },
+              {
+                "value": -1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 600,
+                "key": "scaleX",
+                "index": 21
+              }
+            ]
+          }
+        },
+        {
+          "target": 606,
+          "keyframes": {
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 606,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1.04,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 606,
+                "key": "scaleY",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 606,
+                "key": "scaleY",
+                "index": 14
+              },
+              {
+                "value": 0.99,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 606,
+                "key": "scaleY",
+                "index": 17
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 606,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1.04,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 606,
+                "key": "scaleX",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 606,
+                "key": "scaleX",
+                "index": 14
+              },
+              {
+                "value": 0.99,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 606,
+                "key": "scaleX",
+                "index": 17
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 606,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 606,
+                "key": "alpha",
+                "index": 11
+              },
+              {
+                "value": 0.78,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 606,
+                "key": "alpha",
+                "index": 17
+              },
+              {
+                "value": 0.32,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 606,
+                "key": "alpha",
+                "index": 47
+              }
+            ]
+          }
+        },
+        {
+          "target": 166,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 166,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 166,
+                "key": "visible",
+                "index": 13
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 166,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 166,
+                "key": "alpha",
+                "index": 13
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 166,
+                "key": "alpha",
+                "index": 25
+              }
+            ]
+          }
+        },
+        {
+          "target": 522,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 522,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 522,
+                "key": "alpha",
+                "index": 15
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 522,
+                "key": "alpha",
+                "index": 33
+              }
+            ]
+          }
+        },
+        {
+          "target": 514,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 514,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 514,
+                "key": "visible",
+                "index": 17
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 514,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 514,
+                "key": "alpha",
+                "index": 17
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 514,
+                "key": "alpha",
+                "index": 27
+              }
+            ]
+          }
+        },
+        {
+          "target": 544,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 544,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 544,
+                "key": "alpha",
+                "index": 20
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 544,
+                "key": "alpha",
+                "index": 28
+              }
+            ]
+          }
+        },
+        {
+          "target": 420,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 420,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 420,
+                "key": "visible",
+                "index": 20
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 420,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 420,
+                "key": "alpha",
+                "index": 20
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 420,
+                "key": "alpha",
+                "index": 34
+              }
+            ]
+          }
+        },
+        {
+          "target": 490,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 490,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 490,
+                "key": "alpha",
+                "index": 20
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 490,
+                "key": "alpha",
+                "index": 34
+              }
+            ]
+          }
+        },
+        {
+          "target": 632,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 632,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 632,
+                "label": "startLoopAni",
+                "key": "alpha",
+                "index": 18
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 632,
+                "key": "alpha",
+                "index": 21
+              }
+            ]
+          }
+        },
+        {
+          "target": 622,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 622,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 622,
+                "key": "alpha",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 622,
+                "key": "alpha",
+                "index": 23
+              }
+            ]
+          }
+        },
+        {
+          "target": 648,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 648,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 648,
+                "key": "alpha",
+                "index": 15
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 648,
+                "key": "alpha",
+                "index": 33
+              }
+            ]
+          }
+        },
+        {
+          "target": 649,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 649,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 649,
+                "key": "alpha",
+                "index": 15
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 649,
+                "key": "alpha",
+                "index": 33
+              }
+            ]
+          }
+        },
+        {
+          "target": 777,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 777,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 777,
+                "key": "alpha",
+                "index": 20
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 777,
+                "key": "alpha",
+                "index": 34
+              }
+            ]
+          }
+        },
+        {
+          "target": 745,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 745,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 745,
+                "key": "alpha",
+                "index": 20
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 745,
+                "key": "alpha",
+                "index": 34
+              }
+            ]
+          }
+        }
+      ],
+      "name": "onShowAni",
+      "id": 1,
+      "frameRate": 30,
+      "action": 1
+    },
+    {
+      "nodes": [
+        {
+          "target": 594,
+          "keyframes": {
+            "y": [
+              {
+                "value": 358.95,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 594,
+                "key": "y",
+                "index": 0
+              }
+            ],
+            "x": [
+              {
+                "value": -294.7,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 594,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 750,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 594,
+                "key": "x",
+                "index": 3000
+              }
+            ]
+          }
+        },
+        {
+          "target": 595,
+          "keyframes": {
+            "y": [
+              {
+                "value": 657,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 595,
+                "key": "y",
+                "index": 0
+              }
+            ],
+            "x": [
+              {
+                "value": 551.4,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 595,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": -500,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 595,
+                "key": "x",
+                "index": 3000
+              }
+            ]
+          }
+        },
+        {
+          "target": 596,
+          "keyframes": {
+            "y": [
+              {
+                "value": 1077.1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 596,
+                "key": "y",
+                "index": 0
+              }
+            ],
+            "x": [
+              {
+                "value": -167.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 596,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": -2500,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 596,
+                "key": "x",
+                "index": 3000
+              }
+            ]
+          }
+        }
+      ],
+      "name": "cloudMoveLoop",
+      "id": 2,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 622,
+          "keyframes": {
+            "rotation": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 622,
+                "key": "rotation",
+                "index": 0
+              },
+              {
+                "value": -360,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 622,
+                "key": "rotation",
+                "index": 1500
+              }
+            ]
+          }
+        }
+      ],
+      "name": "lightRotLoopAni",
+      "id": 3,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 716,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 716,
+                "label": "sound",
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 716,
+                "key": "visible",
+                "index": 3
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 716,
+                "label": "sound",
+                "key": "visible",
+                "index": 17
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 716,
+                "key": "visible",
+                "index": 21
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 716,
+                "label": "sound",
+                "key": "visible",
+                "index": 39
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 716,
+                "key": "visible",
+                "index": 45
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 716,
+                "label": "sound",
+                "key": "visible",
+                "index": 73
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 716,
+                "key": "visible",
+                "index": 88
+              }
+            ]
+          }
+        },
+        {
+          "target": 717,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "label": "sound",
+                "key": "visible",
+                "index": 4
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "key": "visible",
+                "index": 7
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "label": "sound",
+                "key": "visible",
+                "index": 12
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "key": "visible",
+                "index": 16
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "label": "sound",
+                "key": "visible",
+                "index": 22
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "key": "visible",
+                "index": 26
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "label": "sound",
+                "key": "visible",
+                "index": 32
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "key": "visible",
+                "index": 38
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "label": "sound",
+                "key": "visible",
+                "index": 46
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "key": "visible",
+                "index": 54
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "label": "sound",
+                "key": "visible",
+                "index": 64
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "key": "visible",
+                "index": 72
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "label": "sound",
+                "key": "visible",
+                "index": 89
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "label": null,
+                "key": "visible",
+                "index": 104
+              }
+            ]
+          }
+        },
+        {
+          "target": 718,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 718,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 718,
+                "label": "sound",
+                "key": "visible",
+                "index": 8
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 718,
+                "key": "visible",
+                "index": 11
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 718,
+                "label": "sound",
+                "key": "visible",
+                "index": 27
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 718,
+                "key": "visible",
+                "index": 31
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 718,
+                "label": "sound",
+                "key": "visible",
+                "index": 55
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 718,
+                "key": "visible",
+                "index": 63
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 718,
+                "label": "sound",
+                "key": "visible",
+                "index": 105
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 718,
+                "label": "getAni",
+                "key": "visible",
+                "index": 125
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 718,
+                "key": "visible",
+                "index": 137
+              }
+            ]
+          }
+        }
+      ],
+      "name": "getSkinAni",
+      "id": 5,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 716,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 716,
+                "label": "sound",
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 716,
+                "key": "visible",
+                "index": 3
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 716,
+                "label": "sound",
+                "key": "visible",
+                "index": 17
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 716,
+                "key": "visible",
+                "index": 21
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 716,
+                "label": "sound",
+                "key": "visible",
+                "index": 39
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 716,
+                "key": "visible",
+                "index": 45
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 716,
+                "label": "sound",
+                "key": "visible",
+                "index": 73
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 716,
+                "key": "visible",
+                "index": 88
+              }
+            ]
+          }
+        },
+        {
+          "target": 717,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "label": "sound",
+                "key": "visible",
+                "index": 4
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "key": "visible",
+                "index": 7
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "label": "sound",
+                "key": "visible",
+                "index": 12
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "key": "visible",
+                "index": 16
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "label": "sound",
+                "key": "visible",
+                "index": 22
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "key": "visible",
+                "index": 26
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "label": "sound",
+                "key": "visible",
+                "index": 32
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "key": "visible",
+                "index": 38
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "label": "sound",
+                "key": "visible",
+                "index": 46
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "key": "visible",
+                "index": 54
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "label": "sound",
+                "key": "visible",
+                "index": 64
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "key": "visible",
+                "index": 72
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "label": "sound",
+                "key": "visible",
+                "index": 89
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "label": "getAni",
+                "key": "visible",
+                "index": 109
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "label": null,
+                "key": "visible",
+                "index": 125
+              }
+            ]
+          }
+        },
+        {
+          "target": 718,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 718,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 718,
+                "label": "sound",
+                "key": "visible",
+                "index": 8
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 718,
+                "key": "visible",
+                "index": 11
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 718,
+                "label": "sound",
+                "key": "visible",
+                "index": 27
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 718,
+                "key": "visible",
+                "index": 31
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 718,
+                "label": "sound",
+                "key": "visible",
+                "index": 55
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 718,
+                "key": "visible",
+                "index": 63
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 718,
+                "key": "visible",
+                "index": 137
+              }
+            ]
+          }
+        }
+      ],
+      "name": "getPowerAni",
+      "id": 5,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 716,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 716,
+                "label": "sound",
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 716,
+                "key": "visible",
+                "index": 3
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 716,
+                "label": "sound",
+                "key": "visible",
+                "index": 17
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 716,
+                "key": "visible",
+                "index": 21
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 716,
+                "label": "sound",
+                "key": "visible",
+                "index": 39
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 716,
+                "key": "visible",
+                "index": 45
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 716,
+                "label": "sound",
+                "key": "visible",
+                "index": 73
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 716,
+                "label": "getAni",
+                "key": "visible",
+                "index": 93
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 716,
+                "key": "visible",
+                "index": 104
+              }
+            ]
+          }
+        },
+        {
+          "target": 717,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "label": "sound",
+                "key": "visible",
+                "index": 4
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "key": "visible",
+                "index": 7
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "label": "sound",
+                "key": "visible",
+                "index": 12
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "key": "visible",
+                "index": 16
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "label": "sound",
+                "key": "visible",
+                "index": 22
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "key": "visible",
+                "index": 26
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "label": "sound",
+                "key": "visible",
+                "index": 32
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "key": "visible",
+                "index": 38
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "label": "sound",
+                "key": "visible",
+                "index": 46
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "key": "visible",
+                "index": 54
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "label": "sound",
+                "key": "visible",
+                "index": 64
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 717,
+                "key": "visible",
+                "index": 72
+              }
+            ]
+          }
+        },
+        {
+          "target": 718,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 718,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 718,
+                "label": "sound",
+                "key": "visible",
+                "index": 8
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 718,
+                "key": "visible",
+                "index": 11
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 718,
+                "label": "sound",
+                "key": "visible",
+                "index": 27
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 718,
+                "key": "visible",
+                "index": 31
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 718,
+                "label": "sound",
+                "key": "visible",
+                "index": 55
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 718,
+                "key": "visible",
+                "index": 63
+              }
+            ]
+          }
+        }
+      ],
+      "name": "getWeaponAni",
+      "id": 5,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 637,
+          "keyframes": {
+            "x": [
+              {
+                "value": 165,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 637,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 175,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 637,
+                "key": "x",
+                "index": 30
+              },
+              {
+                "value": 325,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 637,
+                "key": "x",
+                "index": 150
+              },
+              {
+                "value": 335,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 637,
+                "key": "x",
+                "index": 180
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 637,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 637,
+                "key": "alpha",
+                "index": 30
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 637,
+                "key": "alpha",
+                "index": 150
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 637,
+                "key": "alpha",
+                "index": 180
+              }
+            ]
+          }
+        },
+        {
+          "target": 640,
+          "keyframes": {
+            "x": [
+              {
+                "value": 175,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 640,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 325,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 640,
+                "key": "x",
+                "index": 120
+              },
+              {
+                "value": 335,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 640,
+                "key": "x",
+                "index": 150
+              },
+              {
+                "value": 165,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 640,
+                "key": "x",
+                "index": 151
+              },
+              {
+                "value": 175,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 640,
+                "key": "x",
+                "index": 180
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 640,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 640,
+                "key": "alpha",
+                "index": 120
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 640,
+                "key": "alpha",
+                "index": 150
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 640,
+                "key": "alpha",
+                "index": 151
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 640,
+                "key": "alpha",
+                "index": 180
+              }
+            ]
+          }
+        },
+        {
+          "target": 641,
+          "keyframes": {
+            "x": [
+              {
+                "value": 209,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 641,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 325,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 641,
+                "key": "x",
+                "index": 90
+              },
+              {
+                "value": 335,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 641,
+                "key": "x",
+                "index": 120
+              },
+              {
+                "value": 165,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 641,
+                "key": "x",
+                "index": 121
+              },
+              {
+                "value": 175,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 641,
+                "key": "x",
+                "index": 150
+              },
+              {
+                "value": 209,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 641,
+                "key": "x",
+                "index": 180
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 641,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 641,
+                "key": "alpha",
+                "index": 90
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 641,
+                "key": "alpha",
+                "index": 120
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 641,
+                "key": "alpha",
+                "index": 121
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 641,
+                "key": "alpha",
+                "index": 150
+              }
+            ]
+          }
+        },
+        {
+          "target": 642,
+          "keyframes": {
+            "x": [
+              {
+                "value": 250,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 642,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 325,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 642,
+                "key": "x",
+                "index": 60
+              },
+              {
+                "value": 335,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 642,
+                "key": "x",
+                "index": 90
+              },
+              {
+                "value": 165,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 642,
+                "key": "x",
+                "index": 91
+              },
+              {
+                "value": 175,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 642,
+                "key": "x",
+                "index": 120
+              },
+              {
+                "value": 250,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 642,
+                "key": "x",
+                "index": 180
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 642,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 642,
+                "key": "alpha",
+                "index": 60
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 642,
+                "key": "alpha",
+                "index": 90
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 642,
+                "key": "alpha",
+                "index": 91
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 642,
+                "key": "alpha",
+                "index": 120
+              }
+            ]
+          }
+        },
+        {
+          "target": 755,
+          "keyframes": {
+            "x": [
+              {
+                "value": 270,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 755,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 325,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 755,
+                "key": "x",
+                "index": 30
+              },
+              {
+                "value": 335,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 755,
+                "key": "x",
+                "index": 60
+              },
+              {
+                "value": 165,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 755,
+                "key": "x",
+                "index": 61
+              },
+              {
+                "value": 175,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 755,
+                "key": "x",
+                "index": 90
+              },
+              {
+                "value": 270,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 755,
+                "key": "x",
+                "index": 180
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 755,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 755,
+                "key": "alpha",
+                "index": 30
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 755,
+                "key": "alpha",
+                "index": 60
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 755,
+                "key": "alpha",
+                "index": 61
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 755,
+                "key": "alpha",
+                "index": 90
+              }
+            ]
+          }
+        },
+        {
+          "target": 768,
+          "keyframes": {
+            "x": [
+              {
+                "value": 325,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 768,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 335,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 768,
+                "key": "x",
+                "index": 30
+              },
+              {
+                "value": 165,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 768,
+                "key": "x",
+                "index": 31
+              },
+              {
+                "value": 175,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 768,
+                "key": "x",
+                "index": 60
+              },
+              {
+                "value": 325,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 768,
+                "key": "x",
+                "index": 180
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 768,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 768,
+                "key": "alpha",
+                "index": 30
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 768,
+                "key": "alpha",
+                "index": 31
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 768,
+                "key": "alpha",
+                "index": 60
+              }
+            ]
+          }
+        },
+        {
+          "target": 771,
+          "keyframes": {
+            "x": [
+              {
+                "value": 335,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 771,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 165,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 771,
+                "key": "x",
+                "index": 1
+              },
+              {
+                "value": 175,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 771,
+                "key": "x",
+                "index": 30
+              },
+              {
+                "value": 320,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 771,
+                "key": "x",
+                "index": 150
+              },
+              {
+                "value": 335,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 771,
+                "key": "x",
+                "index": 180
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 771,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 771,
+                "key": "alpha",
+                "index": 1
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 771,
+                "key": "alpha",
+                "index": 30
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 771,
+                "key": "alpha",
+                "index": 150
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 771,
+                "key": "alpha",
+                "index": 180
+              }
+            ]
+          }
+        },
+        {
+          "target": 760,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 760,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 760,
+                "key": "alpha",
+                "index": 80
+              },
+              {
+                "value": 0.7,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 760,
+                "key": "alpha",
+                "index": 90
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 760,
+                "key": "alpha",
+                "index": 100
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 760,
+                "key": "alpha",
+                "index": 180
+              }
+            ]
+          }
+        },
+        {
+          "target": 645,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 645,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 645,
+                "key": "alpha",
+                "index": 80
+              },
+              {
+                "value": 0.7,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 645,
+                "key": "alpha",
+                "index": 90
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 645,
+                "key": "alpha",
+                "index": 100
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 645,
+                "key": "alpha",
+                "index": 180
+              }
+            ]
+          }
+        },
+        {
+          "target": 762,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 762,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 762,
+                "key": "alpha",
+                "index": 45
+              },
+              {
+                "value": 0.7,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 762,
+                "key": "alpha",
+                "index": 55
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 762,
+                "key": "alpha",
+                "index": 65
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 762,
+                "key": "alpha",
+                "index": 150
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 762,
+                "key": "alpha",
+                "index": 151
+              }
+            ]
+          }
+        },
+        {
+          "target": 644,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 644,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 644,
+                "key": "alpha",
+                "index": 45
+              },
+              {
+                "value": 0.7,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 644,
+                "key": "alpha",
+                "index": 55
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 644,
+                "key": "alpha",
+                "index": 65
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 644,
+                "key": "alpha",
+                "index": 150
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 644,
+                "key": "alpha",
+                "index": 151
+              }
+            ]
+          }
+        },
+        {
+          "target": 764,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 764,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 764,
+                "key": "alpha",
+                "index": 25
+              },
+              {
+                "value": 0.7,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 764,
+                "key": "alpha",
+                "index": 35
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 764,
+                "key": "alpha",
+                "index": 45
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 764,
+                "key": "alpha",
+                "index": 120
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 764,
+                "key": "alpha",
+                "index": 121
+              }
+            ]
+          }
+        },
+        {
+          "target": 643,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 643,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 643,
+                "key": "alpha",
+                "index": 25
+              },
+              {
+                "value": 0.7,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 643,
+                "key": "alpha",
+                "index": 35
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 643,
+                "key": "alpha",
+                "index": 45
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 643,
+                "key": "alpha",
+                "index": 120
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 643,
+                "key": "alpha",
+                "index": 121
+              }
+            ]
+          }
+        },
+        {
+          "target": 766,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0.7,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 766,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 766,
+                "key": "alpha",
+                "index": 10
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 766,
+                "key": "alpha",
+                "index": 90
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 766,
+                "key": "alpha",
+                "index": 91
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 766,
+                "key": "alpha",
+                "index": 170
+              },
+              {
+                "value": 0.7,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 766,
+                "key": "alpha",
+                "index": 180
+              }
+            ]
+          }
+        },
+        {
+          "target": 754,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0.7,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 754,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 754,
+                "key": "alpha",
+                "index": 10
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 754,
+                "key": "alpha",
+                "index": 90
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 754,
+                "key": "alpha",
+                "index": 91
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 754,
+                "key": "alpha",
+                "index": 170
+              },
+              {
+                "value": 0.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 754,
+                "key": "alpha",
+                "index": 180
+              }
+            ]
+          }
+        },
+        {
+          "target": 757,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 757,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 757,
+                "key": "alpha",
+                "index": 60
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 757,
+                "key": "alpha",
+                "index": 61
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 757,
+                "key": "alpha",
+                "index": 140
+              },
+              {
+                "value": 0.7,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 757,
+                "key": "alpha",
+                "index": 150
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 757,
+                "key": "alpha",
+                "index": 160
+              }
+            ]
+          }
+        },
+        {
+          "target": 756,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 756,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 756,
+                "key": "alpha",
+                "index": 60
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 756,
+                "key": "alpha",
+                "index": 61
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 756,
+                "key": "alpha",
+                "index": 140
+              },
+              {
+                "value": 0.7,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 756,
+                "key": "alpha",
+                "index": 150
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 756,
+                "key": "alpha",
+                "index": 160
+              }
+            ]
+          }
+        },
+        {
+          "target": 769,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 769,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 769,
+                "key": "alpha",
+                "index": 30
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 769,
+                "key": "alpha",
+                "index": 31
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 769,
+                "key": "alpha",
+                "index": 110
+              },
+              {
+                "value": 0.7,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 769,
+                "key": "alpha",
+                "index": 120
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 769,
+                "key": "alpha",
+                "index": 130
+              }
+            ]
+          }
+        },
+        {
+          "target": 770,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 770,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 770,
+                "key": "alpha",
+                "index": 30
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 770,
+                "key": "alpha",
+                "index": 31
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 770,
+                "key": "alpha",
+                "index": 110
+              },
+              {
+                "value": 0.7,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 770,
+                "key": "alpha",
+                "index": 120
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 770,
+                "key": "alpha",
+                "index": 130
+              }
+            ]
+          }
+        },
+        {
+          "target": 772,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 772,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 772,
+                "key": "alpha",
+                "index": 1
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 772,
+                "key": "alpha",
+                "index": 80
+              },
+              {
+                "value": 0.7,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 772,
+                "key": "alpha",
+                "index": 90
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 772,
+                "key": "alpha",
+                "index": 100
+              }
+            ]
+          }
+        },
+        {
+          "target": 773,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 773,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 773,
+                "key": "alpha",
+                "index": 1
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 773,
+                "key": "alpha",
+                "index": 80
+              },
+              {
+                "value": 0.7,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 773,
+                "key": "alpha",
+                "index": 90
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 773,
+                "key": "alpha",
+                "index": 100
+              }
+            ]
+          }
+        },
+        {
+          "target": 639,
+          "keyframes": {
+            "name": [
+              {
+                "value": "liuguang",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 639,
+                "key": "name",
+                "index": 0
+              },
+              {
+                "value": "liuguang",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 639,
+                "key": "name",
+                "index": 180
+              }
+            ]
+          }
+        }
+      ],
+      "name": "luguangloopAni",
+      "id": 6,
+      "frameRate": 24,
+      "action": 0
+    }
+  ],
+  "loadList": [
+    "res_view/sg/bg.jpg",
+    "res_view/sg/pic_gongdianzuo.png",
+    "res_view/sg/pic_gongdian2.png",
+    "res_view/sg/pic_gongdian1.png",
+    "res_view/sg/pic_menzuo.png",
+    "res_view/sg/pic_menyou.png",
+    "res_view/sg/pic-liuguang1.png",
+    "res_view/sg/pic-liuguang2.png",
+    "res_view/sg/pic-liuguang3.png",
+    "res_view/sg/pic-liuguang4.png",
+    "res_view/sg/pic-liuguang5.png",
+    "res_view/sg/pic-liuguang6.png",
+    "res_view/sg/pic-yun1.png",
+    "res_view/sg/pic-yun2.png",
+    "res_view/sg/pic-yun3.png",
+    "res_view/sg/pic_tianguang.png",
+    "res_view/sg/pic_shentai.png",
+    "res_common/icon_ad1.png",
+    "ani/handsPoint.ani"
+  ],
+  "loadList3D": []
+}

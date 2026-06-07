@@ -1,0 +1,100 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 813,
+        "x": 500,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 3
+    },
+    {
+      "type": "Box",
+      "props": {
+        "renderType": "render",
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -91.5,
+            "x": -22,
+            "skin": "netRes/arenaN/panel_zjdjtc.png"
+          },
+          "compId": 5
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -23,
+            "skin": "netRes/arenaN/frame_main_name.png",
+            "centerX": 8
+          },
+          "compId": 10,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 8.5,
+                "x": 42,
+                "skin": "netRes/arenaN/text_zjdj_bt.png"
+              },
+              "compId": 17
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 28,
+            "x": 175.5,
+            "skin": "netRes/arena/text_zjdj_3.png"
+          },
+          "compId": 18
+        },
+        {
+          "type": "Panel",
+          "props": {
+            "y": 54,
+            "x": 42,
+            "width": 480,
+            "var": "rwdList",
+            "height": 182
+          },
+          "compId": 14,
+          "child": [
+            {
+              "type": "PropItem",
+              "props": {
+                "scaleY": 0.63,
+                "scaleX": 0.63,
+                "runtime": "ui.component.PropItemUI"
+              },
+              "compId": 22
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": ["component/PropItem.scene"],
+  "loadList3D": []
+}

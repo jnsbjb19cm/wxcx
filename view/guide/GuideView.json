@@ -1,0 +1,1272 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": true,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "var": "notClickBox",
+        "top": 0,
+        "right": 0,
+        "left": 0,
+        "bottom": 0
+      },
+      "compId": 100
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 750,
+        "visible": false,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "sizeGrid": "26,34,34,26",
+        "height": 1334,
+        "alpha": 0.01
+      },
+      "compId": 44
+    },
+    {
+      "type": "Image",
+      "props": {
+        "width": 700,
+        "visible": false,
+        "var": "maskBg1",
+        "skin": "res_common/mask.png",
+        "pivotY": 350,
+        "pivotX": 350,
+        "height": 700,
+        "alpha": 0.7
+      },
+      "compId": 45
+    },
+    {
+      "type": "Image",
+      "props": {
+        "x": 0,
+        "width": 750,
+        "visible": false,
+        "var": "maskBg2",
+        "skin": "res_common/bg.png",
+        "sizeGrid": "26,34,34,26",
+        "height": 3000,
+        "centerY": 0,
+        "alpha": 0.6
+      },
+      "compId": 109
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "visible": false,
+        "var": "dialogueNodeBox",
+        "mouseThrough": true,
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 18,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 137,
+            "x": 83.5,
+            "visible": false,
+            "var": "dialogueImg"
+          },
+          "compId": 107
+        },
+        {
+          "type": "Panel",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "width": 750,
+            "var": "spineBox",
+            "height": 1334
+          },
+          "compId": 41
+        },
+        {
+          "type": "Image",
+          "props": {
+            "var": "dialogueBox1",
+            "skin": "res_view/verbalStruggle/bg_plot_frame_2.png",
+            "centerY": 294,
+            "centerX": -2
+          },
+          "compId": 27,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "y": 41,
+                "x": 41,
+                "wordWrap": true,
+                "width": 647,
+                "name": "content",
+                "leading": 11,
+                "fontSize": 25,
+                "font": "Microsoft YaHei",
+                "color": "#65462f"
+              },
+              "compId": 28
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "var": "dialogueBox2",
+            "skin": "res_view/verbalStruggle/bg_plot_frame_1.png",
+            "centerY": 294,
+            "centerX": -3
+          },
+          "compId": 19,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -31,
+                "x": 55,
+                "width": 329,
+                "skin": "res_view/verbalStruggle/bg_plot_name.png",
+                "sizeGrid": "0,82,0,82",
+                "name": "nameBox",
+                "height": 51
+              },
+              "compId": 20,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "text": "我",
+                    "strokeColor": "#734030",
+                    "stroke": 3,
+                    "name": "name",
+                    "fontSize": 28,
+                    "font": "Microsoft YaHei",
+                    "color": "#f1dcbd",
+                    "centerY": 0,
+                    "centerX": 52
+                  },
+                  "compId": 21
+                }
+              ]
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 51,
+                "x": 217,
+                "wordWrap": true,
+                "width": 480,
+                "name": "content",
+                "leading": 20,
+                "fontSize": 25,
+                "font": "Microsoft YaHei",
+                "color": "#cbba97"
+              },
+              "compId": 22
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 191,
+                "x": -19,
+                "name": "roleIcon",
+                "anchorY": 1
+              },
+              "compId": 42
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "var": "dialogueBox3",
+            "skin": "res_view/verbalStruggle/bg_plot_frame_1.png",
+            "centerY": 294,
+            "centerX": -3
+          },
+          "compId": 23,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -32,
+                "x": 328,
+                "width": 329,
+                "skin": "res_view/verbalStruggle/bg_plot_name.png",
+                "sizeGrid": "0,82,0,82",
+                "name": "nameBox",
+                "height": 51
+              },
+              "compId": 24,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "text": "师傅",
+                    "strokeColor": "#734030",
+                    "stroke": 3,
+                    "name": "name",
+                    "fontSize": 28,
+                    "font": "Microsoft YaHei",
+                    "color": "#f1dcbd",
+                    "centerY": 1,
+                    "centerX": -55
+                  },
+                  "compId": 25
+                }
+              ]
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 44,
+                "x": 44,
+                "wordWrap": true,
+                "width": 450,
+                "name": "content",
+                "leading": 20,
+                "fontSize": 25,
+                "font": "Microsoft YaHei",
+                "color": "#cbba97"
+              },
+              "compId": 26
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 192,
+                "x": 743,
+                "scaleX": -1,
+                "name": "roleIcon",
+                "anchorY": 1
+              },
+              "compId": 43
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "var": "dialogueBox4",
+            "skin": "res_view/verbalStruggle/bg_plot_frame_1.png",
+            "centerY": 294,
+            "centerX": -3
+          },
+          "compId": 79,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "y": 44,
+                "x": 44,
+                "wordWrap": true,
+                "width": 630,
+                "name": "content",
+                "leading": 20,
+                "fontSize": 25,
+                "font": "Microsoft YaHei",
+                "color": "#cbba97"
+              },
+              "compId": 82
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "var": "dialogueBox5",
+            "skin": "res_view/verbalStruggle/bg_plot_frame_2.png",
+            "centerY": 294,
+            "centerX": -2
+          },
+          "compId": 89,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -32,
+                "x": 328,
+                "width": 329,
+                "skin": "res_view/verbalStruggle/bg_plot_name.png",
+                "sizeGrid": "0,82,0,82",
+                "name": "nameBox",
+                "height": 51
+              },
+              "compId": 91,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "strokeColor": "#734030",
+                    "stroke": 3,
+                    "name": "name",
+                    "fontSize": 28,
+                    "font": "Microsoft YaHei",
+                    "color": "#f1dcbd",
+                    "centerY": -1,
+                    "centerX": 0
+                  },
+                  "compId": 92
+                }
+              ]
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 41,
+                "x": 41,
+                "wordWrap": true,
+                "width": 647,
+                "name": "content",
+                "leading": 11,
+                "fontSize": 25,
+                "font": "Microsoft YaHei",
+                "color": "#65462f"
+              },
+              "compId": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "visible": false,
+        "var": "zhirenBox",
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 48,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 321,
+            "x": 307,
+            "skin": "res_view/guide/z3.png",
+            "scaleY": 1,
+            "scaleX": 1,
+            "name": "z3"
+          },
+          "compId": 51
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 322,
+            "x": 278,
+            "skin": "res_view/guide/z2.png",
+            "scaleY": 1,
+            "scaleX": 1,
+            "name": "z2"
+          },
+          "compId": 50
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 323,
+            "x": 204,
+            "skin": "res_view/guide/z1.png",
+            "scaleY": 1,
+            "scaleX": 1,
+            "name": "z1"
+          },
+          "compId": 49
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 965,
+            "x": 19,
+            "name": "huohua1"
+          },
+          "compId": 61
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 965,
+            "x": 155,
+            "name": "huohua2"
+          },
+          "compId": 62
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 965,
+            "x": 289,
+            "name": "huohua3"
+          },
+          "compId": 63
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 881,
+            "x": 175,
+            "text": "使用纸人帮助战斗",
+            "name": "tips",
+            "fontSize": 50,
+            "font": "Microsoft YaHei",
+            "color": "#ffffff"
+          },
+          "compId": 104
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "var": "otherBox",
+        "mouseThrough": true,
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 56,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "y": 795,
+            "x": 565,
+            "width": 200,
+            "visible": false,
+            "var": "handBox",
+            "height": 200
+          },
+          "compId": 58,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 27,
+                "x": 45,
+                "var": "hand",
+                "skin": "res_view/openPlot/yindao_shouzhi.png"
+              },
+              "compId": 60
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 967,
+            "x": 223,
+            "visible": false,
+            "var": "bubbleBox",
+            "skin": "res_view/guide/panle_hua.png"
+          },
+          "compId": 72,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 55,
+                "x": 102,
+                "visible": false,
+                "text": "text",
+                "skin": "res_view/guide/text_zn.png",
+                "name": "1"
+              },
+              "compId": 73
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 55,
+                "x": 125,
+                "visible": false,
+                "text": "text",
+                "skin": "res_view/guide/text_jjrlj.png",
+                "name": "2"
+              },
+              "compId": 74
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 820,
+            "x": 490,
+            "width": 150,
+            "visible": false,
+            "var": "bubbleBox2",
+            "pivotY": 150,
+            "pivotX": 40,
+            "height": 150
+          },
+          "compId": 93,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 137,
+                "x": 37,
+                "width": 151,
+                "skin": "res_view/guide/img_jiuming.png",
+                "pivotY": 125,
+                "pivotX": 38,
+                "name": "img",
+                "height": 125
+              },
+              "compId": 101
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 505,
+            "x": 393,
+            "visible": false,
+            "var": "heroTip"
+          },
+          "compId": 94,
+          "child": [
+            {
+              "type": "Panel",
+              "props": {
+                "y": -318,
+                "x": -226,
+                "width": 453,
+                "name": "spineBox",
+                "height": 321
+              },
+              "compId": 95
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": -200,
+                "width": 401,
+                "skin": "res_view/guide/panel_text.png",
+                "height": 143,
+                "centerX": 0
+              },
+              "compId": 96,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 61,
+                    "text": "text",
+                    "name": "tips",
+                    "centerX": 0
+                  },
+                  "compId": 97
+                }
+              ]
+            },
+            {
+              "type": "Label",
+              "props": {
+                "wordWrap": true,
+                "width": 360,
+                "valign": "middle",
+                "leading": 10,
+                "fontSize": 28,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "centerY": 71,
+                "centerX": 0,
+                "bold": true,
+                "align": "center"
+              },
+              "compId": 99
+            },
+            {
+              "type": "Script",
+              "props": {
+                "tips": "@node:97",
+                "spineBox": "@node:95",
+                "label": "@node:99",
+                "runtime": "game/script/common/GuideHeroTips.ts"
+              },
+              "compId": 98
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "visible": false,
+        "var": "transitionBox",
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0,
+        "bgColor": "#000000"
+      },
+      "compId": 78,
+      "child": [
+        {
+          "type": "Label",
+          "props": {
+            "width": 700,
+            "name": "content",
+            "fontSize": 40,
+            "font": "SimHei",
+            "color": "#ffffff",
+            "centerY": -70,
+            "centerX": 0,
+            "align": "center"
+          },
+          "compId": 85
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "width": 750,
+        "visible": false,
+        "var": "eyeAni",
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 86
+    },
+    {
+      "type": "Image",
+      "props": {
+        "visible": false,
+        "skin": "loading/panel_top.png",
+        "name": "top",
+        "centerY": -745,
+        "centerX": 0
+      },
+      "compId": 14
+    },
+    {
+      "type": "Image",
+      "props": {
+        "visible": false,
+        "skin": "loading/panel_buttom.png",
+        "name": "bottom",
+        "centerY": 730,
+        "centerX": 0
+      },
+      "compId": 15
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 49,
+          "keyframes": {
+            "y": [
+              {
+                "value": 323,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 49,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 323,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "y",
+                "index": 11
+              },
+              {
+                "value": 915,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "y",
+                "index": 14
+              }
+            ],
+            "x": [
+              {
+                "value": 204,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 111,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 49,
+                "key": "x",
+                "index": 2
+              },
+              {
+                "value": 142,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "x",
+                "index": 11
+              },
+              {
+                "value": 71,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "x",
+                "index": 14
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 49,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "scaleY",
+                "index": 11
+              },
+              {
+                "value": 0.34,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "scaleY",
+                "index": 14
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 49,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "scaleX",
+                "index": 11
+              },
+              {
+                "value": 0.34,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "scaleX",
+                "index": 14
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 49,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "alpha",
+                "index": 14
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 49,
+                "key": "alpha",
+                "index": 18
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 49,
+                "label": "showMonster",
+                "key": "alpha",
+                "index": 19
+              }
+            ]
+          }
+        },
+        {
+          "target": 50,
+          "keyframes": {
+            "y": [
+              {
+                "value": 322,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 50,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 322,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 50,
+                "key": "y",
+                "index": 14
+              },
+              {
+                "value": 927,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 50,
+                "key": "y",
+                "index": 17
+              }
+            ],
+            "x": [
+              {
+                "value": 278,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 50,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 263,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 50,
+                "key": "x",
+                "index": 2
+              },
+              {
+                "value": 263,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 50,
+                "key": "x",
+                "index": 14
+              },
+              {
+                "value": 211,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 50,
+                "key": "x",
+                "index": 17
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 50,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 50,
+                "key": "scaleY",
+                "index": 14
+              },
+              {
+                "value": 0.34,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 50,
+                "key": "scaleY",
+                "index": 17
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 50,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 50,
+                "key": "scaleX",
+                "index": 14
+              },
+              {
+                "value": 0.34,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 50,
+                "key": "scaleX",
+                "index": 17
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 50,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 50,
+                "key": "alpha",
+                "index": 17
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 50,
+                "label": "showMonster",
+                "key": "alpha",
+                "index": 21
+              }
+            ]
+          }
+        },
+        {
+          "target": 51,
+          "keyframes": {
+            "y": [
+              {
+                "value": 321,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 51,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 321,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 51,
+                "key": "y",
+                "index": 17
+              },
+              {
+                "value": 924,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 51,
+                "key": "y",
+                "index": 20
+              }
+            ],
+            "x": [
+              {
+                "value": 307,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 51,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 378,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 51,
+                "key": "x",
+                "index": 2
+              },
+              {
+                "value": 378,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 51,
+                "key": "x",
+                "index": 17
+              },
+              {
+                "value": 342,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 51,
+                "key": "x",
+                "index": 20
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 51,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 51,
+                "key": "scaleY",
+                "index": 17
+              },
+              {
+                "value": 0.34,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 51,
+                "key": "scaleY",
+                "index": 20
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 51,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 51,
+                "key": "scaleX",
+                "index": 17
+              },
+              {
+                "value": 0.34,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 51,
+                "key": "scaleX",
+                "index": 20
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 51,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 51,
+                "key": "alpha",
+                "index": 20
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 51,
+                "label": "showMonster",
+                "key": "alpha",
+                "index": 24
+              }
+            ]
+          }
+        },
+        {
+          "target": 61,
+          "keyframes": {
+            "skin": [
+              {
+                "value": "res_view/guide/huohua/huohua0001.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 61,
+                "key": "skin",
+                "index": 17
+              },
+              {
+                "value": "res_view/guide/huohua/huohua0003.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 61,
+                "key": "skin",
+                "index": 20
+              },
+              {
+                "value": "res_view/guide/huohua/huohua0005.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 61,
+                "key": "skin",
+                "index": 21
+              },
+              {
+                "value": "",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 61,
+                "key": "skin",
+                "index": 22
+              }
+            ]
+          }
+        },
+        {
+          "target": 62,
+          "keyframes": {
+            "skin": [
+              {
+                "value": "res_view/guide/huohua/huohua0001.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 62,
+                "key": "skin",
+                "index": 19
+              },
+              {
+                "value": "res_view/guide/huohua/huohua0003.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 62,
+                "key": "skin",
+                "index": 22
+              },
+              {
+                "value": "res_view/guide/huohua/huohua0005.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 62,
+                "key": "skin",
+                "index": 23
+              },
+              {
+                "value": "",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 62,
+                "key": "skin",
+                "index": 24
+              }
+            ]
+          }
+        },
+        {
+          "target": 63,
+          "keyframes": {
+            "skin": [
+              {
+                "value": "res_view/guide/huohua/huohua0001.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 63,
+                "key": "skin",
+                "index": 22
+              },
+              {
+                "value": "res_view/guide/huohua/huohua0003.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 63,
+                "key": "skin",
+                "index": 25
+              },
+              {
+                "value": "res_view/guide/huohua/huohua0005.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 63,
+                "key": "skin",
+                "index": 26
+              },
+              {
+                "value": "",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 63,
+                "key": "skin",
+                "index": 27
+              }
+            ]
+          }
+        }
+      ],
+      "name": "zhirenAni",
+      "id": 1,
+      "frameRate": 30,
+      "action": 0
+    }
+  ],
+  "loadList": [
+    "res_common/bg.png",
+    "res_common/mask.png",
+    "res_view/verbalStruggle/bg_plot_frame_2.png",
+    "res_view/verbalStruggle/bg_plot_frame_1.png",
+    "res_view/verbalStruggle/bg_plot_name.png",
+    "res_view/guide/z3.png",
+    "res_view/guide/z2.png",
+    "res_view/guide/z1.png",
+    "res_view/openPlot/yindao_shouzhi.png",
+    "res_view/guide/panle_hua.png",
+    "res_view/guide/text_zn.png",
+    "res_view/guide/text_jjrlj.png",
+    "res_view/guide/img_jiuming.png",
+    "res_view/guide/panel_text.png",
+    "loading/panel_top.png",
+    "loading/panel_buttom.png",
+    "res_view/guide/huohua/huohua0001.png",
+    "res_view/guide/huohua/huohua0003.png",
+    "res_view/guide/huohua/huohua0005.png"
+  ],
+  "loadList3D": []
+}

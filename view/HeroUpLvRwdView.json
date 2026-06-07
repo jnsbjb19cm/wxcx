@@ -1,0 +1,877 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334,
+    "autoDestroyAtClosed": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 672,
+        "x": 375,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.01
+      },
+      "compId": 3
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "var": "contentBox",
+        "height": 740,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -38,
+            "var": "yx_sjjl",
+            "skin": "res_combat/public/title_herolevelup.png",
+            "centerX": 0,
+            "alpha": 1
+          },
+          "compId": 38
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 392,
+            "visible": false,
+            "var": "leftBtn",
+            "skin": "res_combat/public/panel_option_blue.png",
+            "centerX": -181,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 12,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -8,
+                "x": 100.5,
+                "var": "iconBg_1",
+                "skin": "res_common/solt_hero_purple.png"
+              },
+              "compId": 15,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 152,
+                    "x": 71,
+                    "var": "option_heroIcon_1",
+                    "skin": "netRes/icon/heroSelectIcon/expression_XL_1.png",
+                    "anchorY": 1,
+                    "anchorX": 0.5
+                  },
+                  "compId": 14
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 158,
+                "var": "option_name_1",
+                "skin": "netRes/combat/heroEvent/eventOption/text_option_ybq_1.png",
+                "centerX": 0
+              },
+              "compId": 27
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 400,
+                "wordWrap": true,
+                "width": 260,
+                "var": "option_buff_1",
+                "valign": "middle",
+                "leading": 16,
+                "height": 150,
+                "fontSize": 24,
+                "font": "SimHei",
+                "color": "#ad2525",
+                "centerX": 0,
+                "bold": true,
+                "anchorY": 1,
+                "anchorX": 0.5,
+                "align": "center"
+              },
+              "compId": 29
+            },
+            {
+              "type": "Script",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "runtime": "game/tools/BtnScale90.ts"
+              },
+              "compId": 16
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 392,
+            "visible": false,
+            "var": "rightBtn",
+            "skin": "res_combat/public/panel_option_purple.png",
+            "centerX": 184,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 30,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 158,
+                "var": "option_name_2",
+                "skin": "netRes/combat/heroEvent/eventOption/text_option_ybq_2.png",
+                "centerX": 0
+              },
+              "compId": 34
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 400,
+                "x": 180,
+                "wordWrap": true,
+                "width": 260,
+                "var": "option_buff_2",
+                "valign": "middle",
+                "leading": 16,
+                "height": 150,
+                "fontSize": 24,
+                "font": "SimHei",
+                "color": "#2f934e",
+                "centerX": 0,
+                "bold": true,
+                "anchorY": 1,
+                "anchorX": 0.5,
+                "align": "center"
+              },
+              "compId": 36
+            },
+            {
+              "type": "Script",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "runtime": "game/tools/BtnScale90.ts"
+              },
+              "compId": 37
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -8,
+                "x": 100,
+                "var": "iconBg_2",
+                "skin": "res_common/solt_hero_blue.png"
+              },
+              "compId": 31,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 150,
+                    "x": 75,
+                    "var": "option_heroIcon_2",
+                    "skin": "netRes/icon/heroSelectIcon/expression_WWX_1.png",
+                    "anchorY": 1,
+                    "anchorX": 0.5
+                  },
+                  "compId": 32
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "width": 283,
+            "var": "videoBtn",
+            "skin": "res_common/btn_yellow.png",
+            "sizeGrid": "8,7,6,2",
+            "scaleY": 1,
+            "scaleX": 1,
+            "label": "label",
+            "height": 124,
+            "centerX": -1,
+            "bottom": -56
+          },
+          "compId": 46,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 28,
+                "x": 49.21484375,
+                "var": "videoText"
+              },
+              "compId": 76,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 66,
+                    "text": "换 一 批",
+                    "stroke": 1,
+                    "skin": "res_common/text_hyp.png",
+                    "name": "text",
+                    "fontSize": 37,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "centerX": 33,
+                    "bold": true
+                  },
+                  "compId": 47
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "skin": "res_common/icon_ad2.png",
+                    "name": "icon",
+                    "anchorY": 0,
+                    "anchorX": 0
+                  },
+                  "compId": 49
+                }
+              ]
+            },
+            {
+              "type": "HBox",
+              "props": {
+                "y": 65,
+                "space": 3,
+                "centerX": 1
+              },
+              "compId": 51,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 11,
+                    "x": 0,
+                    "text": "剩 余 刷 新",
+                    "stroke": 2,
+                    "skin": "res_common/text_sysx.png",
+                    "fontSize": 14,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "bold": true
+                  },
+                  "compId": 50
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 7,
+                    "x": 85,
+                    "var": "remainNum",
+                    "text": "2",
+                    "stroke": 2,
+                    "fontSize": 22,
+                    "font": "SimHei",
+                    "color": "#31e067",
+                    "bold": true
+                  },
+                  "compId": 52
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 11,
+                    "x": 91,
+                    "text": "次",
+                    "stroke": 2,
+                    "skin": "res_common/text_ci.png",
+                    "fontSize": 14,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "bold": true
+                  },
+                  "compId": 53
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 26,
+                "x": 33,
+                "var": "refreshnum",
+                "space": -7,
+                "scaleX": 1,
+                "height": 57
+              },
+              "compId": 79,
+              "child": [
+                {
+                  "type": "HBox",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "pivotY": 0,
+                    "pivotX": 0,
+                    "align": "middle"
+                  },
+                  "compId": 85,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 1,
+                        "x": 0,
+                        "skin": "res_combat/public/text_hyp.png"
+                      },
+                      "compId": 80
+                    },
+                    {
+                      "type": "Box",
+                      "props": {
+                        "x": 112,
+                        "height": 40
+                      },
+                      "compId": 81,
+                      "child": [
+                        {
+                          "type": "FontClip",
+                          "props": {
+                            "y": -2,
+                            "x": 0,
+                            "var": "chgLabel",
+                            "value": "(14)",
+                            "spaceX": -6,
+                            "skin": "res_common/number/num_36_jxzk_ffffff_stk1.png",
+                            "sheet": "0123456789+-*/()<>"
+                          },
+                          "compId": 82
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 671,
+            "x": 143,
+            "visible": false,
+            "var": "vip_text"
+          },
+          "compId": 87,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "skin": "res_view/sg/panel_fq.png"
+              },
+              "compId": 88,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 22,
+                    "x": 15,
+                    "skin": "res_view/sg/text_fq.png"
+                  },
+                  "compId": 89
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 24,
+                "x": 106,
+                "skin": "res_view/sg/text_sxcyjy.png"
+              },
+              "compId": 90
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 61,
+                "x": 169,
+                "width": 122,
+                "var": "rwdNum",
+                "text": "(善事1获得)",
+                "strokeColor": "#000000",
+                "stroke": 1,
+                "height": 21,
+                "fontSize": 20,
+                "font": "Microsoft YaHei",
+                "color": "#e1e1e1",
+                "bold": true
+              },
+              "compId": 91
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "visible": false,
+            "var": "vip_kjyj"
+          },
+          "compId": 92,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -46,
+                "x": 136,
+                "skin": "res_view/sg/panel_fq.png"
+              },
+              "compId": 94,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 22,
+                    "x": 15,
+                    "skin": "res_view/sg/text_fq.png"
+                  },
+                  "compId": 95
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -36,
+                "x": 205,
+                "skin": "res_view/sg/title_kjyj.png"
+              },
+              "compId": 96
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 3,
+          "keyframes": {
+            "x": [
+              {
+                "value": 375,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 3,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 375,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 3,
+                "key": "x",
+                "index": 1
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0.01,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 3,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0.01,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 3,
+                "key": "alpha",
+                "index": 1
+              },
+              {
+                "value": 0.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 3,
+                "key": "alpha",
+                "index": 7
+              }
+            ]
+          }
+        },
+        {
+          "target": 38,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 38,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 38,
+                "key": "alpha",
+                "index": 6
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 38,
+                "key": "alpha",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 38,
+                "label": null,
+                "key": "alpha",
+                "index": 18
+              }
+            ]
+          }
+        },
+        {
+          "target": 12,
+          "keyframes": {
+            "y": [
+              {
+                "value": 412,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 12,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 412,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 12,
+                "key": "y",
+                "index": 18
+              },
+              {
+                "value": 392,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 12,
+                "key": "y",
+                "index": 26
+              }
+            ],
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 12,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 12,
+                "key": "visible",
+                "index": 18
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 12,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 12,
+                "key": "alpha",
+                "index": 18
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 12,
+                "key": "alpha",
+                "index": 26
+              }
+            ]
+          }
+        },
+        {
+          "target": 30,
+          "keyframes": {
+            "y": [
+              {
+                "value": 412,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 30,
+                "label": null,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 412,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 30,
+                "label": null,
+                "key": "y",
+                "index": 18
+              },
+              {
+                "value": 392,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 30,
+                "label": null,
+                "key": "y",
+                "index": 26
+              }
+            ],
+            "x": [
+              {
+                "value": 560,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 30,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 560,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 30,
+                "key": "x",
+                "index": 18
+              }
+            ],
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 30,
+                "label": null,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 30,
+                "label": null,
+                "key": "visible",
+                "index": 18
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 30,
+                "label": null,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 30,
+                "label": null,
+                "key": "alpha",
+                "index": 18
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 30,
+                "label": null,
+                "key": "alpha",
+                "index": 26
+              }
+            ]
+          }
+        },
+        {
+          "target": 46,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 46,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 46,
+                "key": "alpha",
+                "index": 24
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 46,
+                "key": "alpha",
+                "index": 29
+              }
+            ]
+          }
+        },
+        {
+          "target": 92,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 92,
+                "label": null,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 92,
+                "label": null,
+                "key": "alpha",
+                "index": 6
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 92,
+                "label": null,
+                "key": "alpha",
+                "index": 11
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 92,
+                "label": null,
+                "key": "alpha",
+                "index": 18
+              }
+            ]
+          }
+        }
+      ],
+      "name": "startAni",
+      "id": 1,
+      "frameRate": 30,
+      "action": 1
+    },
+    {
+      "nodes": [
+        {
+          "target": 2,
+          "keyframes": {
+            "x": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 2,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 2,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 2,
+                "key": "alpha",
+                "index": 13
+              }
+            ]
+          }
+        }
+      ],
+      "name": "leaveAni",
+      "id": 2,
+      "frameRate": 30,
+      "action": 0
+    }
+  ],
+  "loadList": [
+    "res_combat/public/panel_option_blue.png",
+    "res_common/solt_hero_purple.png",
+    "res_combat/public/panel_option_purple.png",
+    "res_common/solt_hero_blue.png"
+  ],
+  "loadList3D": []
+}

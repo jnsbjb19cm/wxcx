@@ -1,0 +1,50 @@
+{
+  "type": "Scene",
+  "props": {
+    "width": 750,
+    "runtime": "game/scene/NewPlotScene.ts",
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 750,
+        "var": "contentBox",
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -153,
+            "x": 0,
+            "width": 752,
+            "skin": "loading/panel_top.png",
+            "centerX": 0
+          },
+          "compId": 43
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "skin": "loading/panel_buttom.png",
+            "centerX": 0,
+            "bottom": -137
+          },
+          "compId": 44
+        }
+      ]
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

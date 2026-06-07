@@ -1,0 +1,277 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "visible": true,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 813,
+        "x": 500,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 3
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 750,
+        "var": "sixBox",
+        "name": "sixBox",
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 55,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "var": "sixGiftBox",
+            "top": 0,
+            "right": 0,
+            "name": "sixGiftBox",
+            "left": 0,
+            "bottom": 0
+          },
+          "compId": 56
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 655,
+            "var": "preSixBtn",
+            "skin": "res_view/workshop/battle_1.png",
+            "name": "preSixBtn",
+            "left": 27
+          },
+          "compId": 57,
+          "child": [
+            {
+              "type": "Rect",
+              "props": {
+                "y": -33,
+                "x": -19,
+                "width": 69,
+                "renderType": "hit",
+                "lineWidth": 1,
+                "height": 150,
+                "fillColor": "#ff0000"
+              },
+              "compId": 58
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 655,
+            "var": "nextSixBtn",
+            "skin": "res_view/workshop/battle_2.png",
+            "right": 29,
+            "name": "nextSixBtn"
+          },
+          "compId": 59,
+          "child": [
+            {
+              "type": "Rect",
+              "props": {
+                "y": -33.5,
+                "x": 0,
+                "width": 70,
+                "renderType": "hit",
+                "lineWidth": 1,
+                "height": 151,
+                "fillColor": "#ff0000"
+              },
+              "compId": 60
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "var": "zoneBox",
+        "name": "zoneBox",
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "var": "giftBox",
+            "top": 0,
+            "right": 0,
+            "left": 0,
+            "bottom": 0
+          },
+          "compId": 17
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 655,
+            "var": "preBtn",
+            "skin": "res_view/workshop/battle_1.png",
+            "left": 27
+          },
+          "compId": 18,
+          "child": [
+            {
+              "type": "Rect",
+              "props": {
+                "y": -33,
+                "x": -19,
+                "width": 69,
+                "renderType": "hit",
+                "lineWidth": 1,
+                "height": 150,
+                "fillColor": "#ff0000"
+              },
+              "compId": 31
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 655,
+            "var": "nextBtn",
+            "skin": "res_view/workshop/battle_2.png",
+            "right": 29
+          },
+          "compId": 19,
+          "child": [
+            {
+              "type": "Rect",
+              "props": {
+                "y": -33.5,
+                "x": 0,
+                "width": 70,
+                "renderType": "hit",
+                "lineWidth": 1,
+                "height": 151,
+                "fillColor": "#ff0000"
+              },
+              "compId": 32
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 352,
+        "x": 75,
+        "width": 600,
+        "visible": false,
+        "var": "nigthBox",
+        "height": 630,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 20,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "width": 750,
+            "mouseEnabled": true,
+            "height": 630,
+            "centerX": 0
+          },
+          "compId": 47
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 13,
+            "x": 0,
+            "width": 600,
+            "var": "nightGiftBox",
+            "height": 630
+          },
+          "compId": 21
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 285,
+            "var": "preNightBtn",
+            "skin": "res_view/workshop/battle_1.png",
+            "scaleY": 1.2,
+            "scaleX": 1.2,
+            "left": -58
+          },
+          "compId": 33,
+          "child": [
+            {
+              "type": "Rect",
+              "props": {
+                "y": -70,
+                "x": -19,
+                "width": 69,
+                "renderType": "hit",
+                "lineWidth": 1,
+                "height": 221,
+                "fillColor": "#ff0000"
+              },
+              "compId": 35
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 285,
+            "var": "nextNightBtn",
+            "skin": "res_view/workshop/battle_2.png",
+            "scaleY": 1.2,
+            "scaleX": 1.2,
+            "right": -58
+          },
+          "compId": 34,
+          "child": [
+            {
+              "type": "Rect",
+              "props": {
+                "y": -49,
+                "x": 0,
+                "width": 70,
+                "renderType": "hit",
+                "lineWidth": 1,
+                "height": 180,
+                "fillColor": "#ff0000"
+              },
+              "compId": 36
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

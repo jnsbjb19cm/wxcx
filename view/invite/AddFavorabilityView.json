@@ -1,0 +1,188 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "top": 0,
+        "skin": "res_common/bg.png",
+        "right": 0,
+        "name": "maskBg",
+        "left": 0,
+        "bottom": 0,
+        "alpha": 0.7
+      },
+      "compId": 5
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Panel",
+          "props": {
+            "width": 750,
+            "var": "spinePanel",
+            "height": 1126,
+            "centerY": 0,
+            "centerX": 0
+          },
+          "compId": 6
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 620,
+            "x": -125,
+            "skin": "res_view/invite/bg_mask.png",
+            "centerX": 0,
+            "bottom": -117
+          },
+          "compId": 25
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 93,
+            "x": 232,
+            "skin": "res_view/invite/pic_fg.png"
+          },
+          "compId": 20,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 32,
+                "x": -123,
+                "skin": "res_view/invite/pic_guangdian.png"
+              },
+              "compId": 21
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 16,
+                "x": -48,
+                "text": "text",
+                "skin": "res_view/invite/text_hgdts.png"
+              },
+              "compId": 22
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 994,
+            "skin": "res_view/invite/panel_brown.png",
+            "centerX": 0
+          },
+          "compId": 7,
+          "child": [
+            {
+              "type": "HBox",
+              "props": {
+                "text": "label",
+                "centerY": 1,
+                "centerX": -12
+              },
+              "compId": 11,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "text": "【",
+                    "fontSize": 31,
+                    "font": "SimHei",
+                    "color": "#ecc799",
+                    "centerY": 0
+                  },
+                  "compId": 17
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "var": "beautyName",
+                    "text": "苏月谋",
+                    "fontSize": 31,
+                    "font": "SimHei",
+                    "color": "#ff9a9f",
+                    "centerY": 0
+                  },
+                  "compId": 12
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "text": "】",
+                    "fontSize": 31,
+                    "font": "SimHei",
+                    "color": "#ecc799",
+                    "centerY": 0
+                  },
+                  "compId": 18
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "text": "好感度",
+                    "fontSize": 31,
+                    "font": "SimHei",
+                    "color": "#ecc799",
+                    "centerY": 0
+                  },
+                  "compId": 19
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "width": 58,
+                    "skin": "res_common/icon_hgd.png",
+                    "height": 53,
+                    "centerY": 0
+                  },
+                  "compId": 23
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "var": "addLove",
+                    "text": "+5",
+                    "fontSize": 31,
+                    "font": "SimHei",
+                    "color": "#ecc799",
+                    "centerY": 0
+                  },
+                  "compId": 13
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 1126,
+            "text": "text",
+            "skin": "res_common/text_djgb.png",
+            "centerX": 0
+          },
+          "compId": 26
+        }
+      ]
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

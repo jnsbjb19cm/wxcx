@@ -1,0 +1,577 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "visible": true,
+        "var": "new_name",
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -163,
+            "x": -50,
+            "width": 850,
+            "var": "n_maskbg",
+            "skin": "res_common/bg.png",
+            "height": 1643,
+            "alpha": 0.45
+          },
+          "compId": 4
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 348,
+            "x": 35,
+            "width": 755,
+            "height": 728
+          },
+          "compId": 5,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 75,
+                "x": -7,
+                "width": 762,
+                "var": "n_bg",
+                "skin": "res_view/children/panel_ciming.png",
+                "height": 643
+              },
+              "compId": 6
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 31,
+                "x": 32,
+                "var": "cm_title",
+                "skin": "res_common/icon_head.png"
+              },
+              "compId": 49,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 3,
+                    "x": 108,
+                    "skin": "res_view/children/title_ciming.png"
+                  },
+                  "compId": 51
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 64,
+                "x": 643,
+                "var": "n_close",
+                "skin": "res_common/img_common_02.png"
+              },
+              "compId": 53,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -11,
+                    "x": -6,
+                    "skin": "netRes/task/btn_close.png"
+                  },
+                  "compId": 7
+                },
+                {
+                  "type": "Rect",
+                  "props": {
+                    "y": 0,
+                    "x": 9,
+                    "width": 65,
+                    "renderType": "hit",
+                    "lineWidth": 1,
+                    "height": 50,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 54
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 135,
+                "x": 240,
+                "var": "n_cmimg",
+                "skin": "netRes/task/bg_title01.png"
+              },
+              "compId": 8,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 6.5,
+                    "x": 89.5,
+                    "skin": "res_view/children/title_cm.png"
+                  },
+                  "compId": 9
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 278,
+                "x": 240,
+                "skin": "netRes/task/bg_title01.png"
+              },
+              "compId": 10,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 10,
+                    "x": 84,
+                    "skin": "res_view/children/title_sx.png"
+                  },
+                  "compId": 11
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 54,
+                "x": 107,
+                "width": 516,
+                "var": "doublechild",
+                "height": 222
+              },
+              "compId": 12,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 93.5,
+                    "x": 14,
+                    "visible": false,
+                    "var": "jiejie",
+                    "skin": "res_view/children/text_jiejie.png"
+                  },
+                  "compId": 13
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 93,
+                    "x": 14,
+                    "visible": false,
+                    "var": "gege",
+                    "skin": "res_view/children/texe_gege.png"
+                  },
+                  "compId": 14
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 166,
+                    "x": 15,
+                    "visible": false,
+                    "var": "meimei",
+                    "skin": "res_view/children/text_meimei.png"
+                  },
+                  "compId": 15
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 166,
+                    "x": 16,
+                    "visible": false,
+                    "var": "didi",
+                    "skin": "res_view/children/text_didi.png"
+                  },
+                  "compId": 16
+                },
+                {
+                  "type": "TextInput",
+                  "props": {
+                    "y": 88,
+                    "x": 107,
+                    "width": 329,
+                    "var": "textinput_1",
+                    "valign": "middle",
+                    "type": "text",
+                    "text": "名字最长六字",
+                    "skin": "res_view/children/panel_name.png",
+                    "maxChars": 6,
+                    "height": 44,
+                    "fontSize": 30,
+                    "font": "SimHei",
+                    "color": "#ffffff",
+                    "align": "center"
+                  },
+                  "compId": 17
+                },
+                {
+                  "type": "TextInput",
+                  "props": {
+                    "y": 160,
+                    "x": 107,
+                    "width": 329,
+                    "var": "textinput_2",
+                    "valign": "middle",
+                    "text": "名字最长六字",
+                    "skin": "res_view/children/panel_name.png",
+                    "height": 44,
+                    "fontSize": 30,
+                    "font": "SimHei",
+                    "color": "#ffffff",
+                    "align": "center"
+                  },
+                  "compId": 18
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 85,
+                    "x": 451,
+                    "var": "touzi_1",
+                    "skin": "res_view/children/icon_suiji.png"
+                  },
+                  "compId": 19
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 156,
+                    "x": 451,
+                    "var": "touzi_2",
+                    "skin": "res_view/children/icon_suiji.png"
+                  },
+                  "compId": 20
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 127,
+                "x": 111,
+                "width": 507,
+                "var": "onechild",
+                "height": 148
+              },
+              "compId": 21,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 87,
+                    "x": 11,
+                    "var": "xingming",
+                    "skin": "res_view/children/texe_name.png"
+                  },
+                  "compId": 22
+                },
+                {
+                  "type": "TextInput",
+                  "props": {
+                    "y": 80.5,
+                    "x": 103,
+                    "width": 329,
+                    "var": "one_input",
+                    "valign": "middle",
+                    "type": "text",
+                    "text": "名字最长六字",
+                    "skin": "res_view/children/panel_name.png",
+                    "maxChars": 6,
+                    "height": 44,
+                    "fontSize": 30,
+                    "font": "SimHei",
+                    "color": "#ffffff",
+                    "align": "center"
+                  },
+                  "compId": 23
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 78,
+                    "x": 447,
+                    "var": "one_touzi",
+                    "skin": "res_view/children/icon_suiji.png"
+                  },
+                  "compId": 24
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 340,
+                "x": 85,
+                "width": 581,
+                "skin": "res_view/children/frame_information_declaration.png",
+                "name": "sx_bg",
+                "height": 268
+              },
+              "compId": 25
+            },
+            {
+              "type": "Image",
+              "props": {
+                "var": "zixue",
+                "skin": "res_view/children/zixue_2.png",
+                "centerY": 95,
+                "centerX": -178
+              },
+              "compId": 26
+            },
+            {
+              "type": "Image",
+              "props": {
+                "var": "sishu",
+                "skin": "res_view/children/sishu_1.png",
+                "centerY": 95,
+                "centerX": -5,
+                "alpha": 1
+              },
+              "compId": 27,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "var": "sishubg",
+                    "skin": "res_view/children/panel_ss.png",
+                    "centerY": 76,
+                    "centerX": 0
+                  },
+                  "compId": 32,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 2.5,
+                        "x": 14,
+                        "width": 27,
+                        "skin": "res_view/children/icon_yuanbao.png",
+                        "height": 22
+                      },
+                      "compId": 33
+                    },
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": -1,
+                        "x": 53.5,
+                        "visible": true,
+                        "var": "sishunum",
+                        "value": "1",
+                        "text": "1",
+                        "skin": "res_common/number/num_24_wryh_fff2e2.png",
+                        "sheet": "0123456789",
+                        "fontSize": 24,
+                        "font": "Microsoft YaHei",
+                        "color": "#f9f9f9",
+                        "bold": true
+                      },
+                      "compId": 31
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "visible": false,
+                    "var": "ssopentip",
+                    "skin": "res_view/children/text_ss_2.png",
+                    "centerY": 3,
+                    "centerX": -31
+                  },
+                  "compId": 43,
+                  "child": [
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": -1,
+                        "x": 46,
+                        "visible": true,
+                        "var": "ssopennum",
+                        "value": "2",
+                        "skin": "res_common/number/num_23_jxzk_fff6eb.png",
+                        "sheet": "0123456789"
+                      },
+                      "compId": 44
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 1,
+                        "x": 62,
+                        "skin": "res_view/children/text_kq_2.png"
+                      },
+                      "compId": 45
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "visible": true,
+                "var": "fuxue",
+                "skin": "res_view/children/fuxue_1.png",
+                "centerY": 95,
+                "centerX": 170
+              },
+              "compId": 38,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "x": 0,
+                    "var": "fuxuebg",
+                    "skin": "res_view/children/panel_ss.png",
+                    "centerY": 76,
+                    "centerX": 0
+                  },
+                  "compId": 39,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 2.5,
+                        "x": 14,
+                        "width": 27,
+                        "skin": "res_view/children/icon_yuanbao.png",
+                        "height": 22
+                      },
+                      "compId": 40
+                    },
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": -1,
+                        "x": 53.5,
+                        "visible": true,
+                        "var": "fuxuenum",
+                        "value": "1",
+                        "text": "1",
+                        "skin": "res_common/number/num_24_wryh_fff2e2.png",
+                        "sheet": "0123456789",
+                        "fontSize": 24,
+                        "font": "Microsoft YaHei",
+                        "color": "#f9f9f9",
+                        "bold": true
+                      },
+                      "compId": 41
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "visible": false,
+                    "var": "fxopentip",
+                    "skin": "res_view/children/text_ss_2.png",
+                    "centerY": 4,
+                    "centerX": -36
+                  },
+                  "compId": 46,
+                  "child": [
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": 0,
+                        "x": 45,
+                        "var": "fxopennum",
+                        "value": "25",
+                        "spaceX": -4,
+                        "skin": "res_common/number/num_23_jxzk_fff6eb.png",
+                        "sheet": "0123456789"
+                      },
+                      "compId": 47
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 1,
+                        "x": 78,
+                        "skin": "res_view/children/text_kq_2.png"
+                      },
+                      "compId": 48
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 668.5,
+                "x": 418,
+                "width": 211,
+                "var": "queding_btn",
+                "skin": "res_common/btn_yellow.png",
+                "pivotY": 57,
+                "pivotX": 146,
+                "height": 72,
+                "alpha": 1
+              },
+              "compId": 28,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 21,
+                    "x": 53,
+                    "width": 93,
+                    "skin": "res_view/children/btn_queding.png",
+                    "scaleY": 1.1,
+                    "scaleX": 1.1,
+                    "height": 29
+                  },
+                  "compId": 29
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 723,
+                "x": 238.5,
+                "skin": "res_view/rank/text_djgb.png"
+              },
+              "compId": 30
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 585,
+                "x": 229.94921875,
+                "text": "*授学方式越好，徒弟加成越高！",
+                "fontSize": 20,
+                "font": "Microsoft YaHei",
+                "color": "#7b1700"
+              },
+              "compId": 35
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

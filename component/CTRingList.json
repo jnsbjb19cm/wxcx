@@ -1,0 +1,74 @@
+{
+  "type": "View",
+  "props": {
+    "width": 500,
+    "visible": true,
+    "height": 82
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "var": "bgTexturBox"
+      },
+      "compId": 18
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "top": 0,
+        "right": 0,
+        "name": "panel",
+        "left": 0,
+        "bottom": 0
+      },
+      "compId": 3
+    },
+    {
+      "type": "Image",
+      "props": {
+        "zOrder": 100,
+        "width": 46,
+        "var": "chgBtn",
+        "skin": "res_combat/public/aura_slot.png",
+        "right": 0,
+        "height": 46,
+        "centerY": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5
+      },
+      "compId": 10,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "var": "chgIcon",
+            "skin": "res_combat/public/aura_arrow_close.png",
+            "centerY": 0,
+            "centerX": 0,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 19
+        }
+      ]
+    },
+    {
+      "type": "Script",
+      "props": {
+        "panel": "@node:3",
+        "chgBtn": "@node:10",
+        "bgTexturBox": "@node:18",
+        "runtime": "game/script/combat/CTRingList.ts"
+      },
+      "compId": 15
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

@@ -1,0 +1,2006 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": true,
+    "height": 1344,
+    "drawCallOptimize": true,
+    "alpha": 1
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 672,
+        "x": 375,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.01
+      },
+      "compId": 164
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "var": "contentBox",
+        "height": 772,
+        "centerY": -91,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "y": 540,
+            "x": 0,
+            "width": 250,
+            "var": "box1",
+            "height": 200
+          },
+          "compId": 135,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 146,
+                "visible": false,
+                "var": "light1",
+                "skin": "res_combat/specialStageView/baoXiang/fx_box_light_blue.png",
+                "height": 692,
+                "centerX": 0,
+                "anchorY": 1,
+                "anchorX": 0.5
+              },
+              "compId": 153
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 184,
+                "x": 130,
+                "width": 189,
+                "var": "main1",
+                "skin": "res_combat/specialStageView/baoXiang/img_box_colorless.png",
+                "height": 177,
+                "anchorY": 1,
+                "anchorX": 0.5
+              },
+              "compId": 137
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 496,
+            "x": 243,
+            "width": 250,
+            "var": "box2",
+            "height": 200
+          },
+          "compId": 138,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 146,
+                "x": 129,
+                "visible": false,
+                "var": "light2",
+                "skin": "res_combat/specialStageView/baoXiang/fx_box_light_purple.png",
+                "height": 692,
+                "anchorY": 1,
+                "anchorX": 0.5
+              },
+              "compId": 154
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 185,
+                "x": 129,
+                "width": 189,
+                "var": "main2",
+                "skin": "res_combat/specialStageView/baoXiang/img_box_colorless.png",
+                "height": 177,
+                "anchorY": 1,
+                "anchorX": 0.5
+              },
+              "compId": 139
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 540,
+            "x": 500,
+            "width": 250,
+            "var": "box3",
+            "height": 200
+          },
+          "compId": 140,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 146,
+                "visible": false,
+                "var": "light3",
+                "skin": "res_combat/specialStageView/baoXiang/fx_box_light_purple.png",
+                "height": 692,
+                "centerX": 0,
+                "anchorY": 1,
+                "anchorX": 0.5
+              },
+              "compId": 155
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 183,
+                "x": 114,
+                "width": 189,
+                "var": "main3",
+                "skin": "res_combat/specialStageView/baoXiang/img_box_colorless.png",
+                "height": 177,
+                "anchorY": 1,
+                "anchorX": 0.5
+              },
+              "compId": 141
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 386,
+            "x": 375,
+            "width": 1000,
+            "visible": false,
+            "var": "sdImg",
+            "skin": "res_common/bg.png",
+            "height": 1625,
+            "centerY": 0,
+            "centerX": 0,
+            "anchorY": 0.5,
+            "anchorX": 0.5,
+            "alpha": 0.3
+          },
+          "compId": 165
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 539,
+            "x": 0,
+            "width": 250,
+            "var": "equipBox1",
+            "height": 200
+          },
+          "compId": 175
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 514,
+            "x": 245,
+            "width": 250,
+            "var": "equipBox2",
+            "height": 200
+          },
+          "compId": 182
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 540,
+            "x": 500,
+            "width": 250,
+            "var": "equipBox3",
+            "height": 200
+          },
+          "compId": 189
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 482,
+            "x": 125,
+            "width": 172,
+            "visible": true,
+            "var": "chooseBtn1",
+            "skin": "res_common/btn_blue.png",
+            "height": 78,
+            "anchorY": 0.5,
+            "anchorX": 0.5,
+            "alpha": 0
+          },
+          "compId": 179,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 23,
+                "x": 49,
+                "skin": "res_common/text_choice.png"
+              },
+              "compId": 180
+            },
+            {
+              "type": "Script",
+              "props": {
+                "runtime": "game/tools/BtnScale85.ts"
+              },
+              "compId": 181
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 483,
+            "x": 376,
+            "width": 172,
+            "visible": true,
+            "var": "chooseBtn2",
+            "skin": "res_common/btn_blue.png",
+            "height": 78,
+            "anchorY": 0.5,
+            "anchorX": 0.5,
+            "alpha": 0
+          },
+          "compId": 199,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 23,
+                "x": 49,
+                "skin": "res_common/text_choice.png"
+              },
+              "compId": 200
+            },
+            {
+              "type": "Script",
+              "props": {
+                "runtime": "game/tools/BtnScale85.ts"
+              },
+              "compId": 201
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 482,
+            "x": 626,
+            "width": 172,
+            "visible": true,
+            "var": "chooseBtn3",
+            "skin": "res_common/btn_blue.png",
+            "height": 78,
+            "anchorY": 0.5,
+            "anchorX": 0.5,
+            "alpha": 0
+          },
+          "compId": 203,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 23,
+                "x": 49,
+                "skin": "res_common/text_choice.png"
+              },
+              "compId": 204
+            },
+            {
+              "type": "Script",
+              "props": {
+                "runtime": "game/tools/BtnScale85.ts"
+              },
+              "compId": 205
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "width": 297,
+            "visible": true,
+            "var": "adAllGetBtn",
+            "skin": "res_common/btn_yellow.png",
+            "label": "label",
+            "height": 133,
+            "centerX": 4,
+            "bottom": 64,
+            "anchorY": 0.5,
+            "anchorX": 0.5,
+            "alpha": 0
+          },
+          "compId": 146,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 72,
+                "x": 78,
+                "width": 46,
+                "var": "videoIcon",
+                "skin": "res_combat/specialStageView/baoXiang/icon_ad.png",
+                "height": 37,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 149
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 51,
+                "x": 118,
+                "width": 121,
+                "skin": "res_combat/specialStageView/baoXiang/text_all.png",
+                "height": 37
+              },
+              "compId": 159
+            },
+            {
+              "type": "Script",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "runtime": "game/tools/BtnScale90.ts"
+              },
+              "compId": 349
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 422,
+            "width": 280,
+            "visible": false,
+            "var": "openBtn",
+            "skin": "res_common/btn_yellow.png",
+            "pivotY": 63,
+            "pivotX": 140,
+            "height": 126,
+            "centerX": 0,
+            "alpha": 0
+          },
+          "compId": 151,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 47.5,
+                "x": 54.5,
+                "width": 171,
+                "skin": "res_combat/specialStageView/baoXiang/text_open.png",
+                "height": 37
+              },
+              "compId": 152
+            },
+            {
+              "type": "Script",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "runtime": "game/tools/BtnScale90.ts"
+              },
+              "compId": 348
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "visible": false,
+            "var": "cloud",
+            "skin": "res_combat/public/fg_fog.png",
+            "right": 0,
+            "left": 0,
+            "bottom": -56
+          },
+          "compId": 168
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 117,
+            "x": 116,
+            "var": "title",
+            "skin": "res_combat/specialStageView/baoXiang/text_treasure.png",
+            "alpha": 0
+          },
+          "compId": 150
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 239,
+        "x": 74,
+        "var": "BeautyBoxItem",
+        "name": "BeautyBoxItem",
+        "alpha": 1
+      },
+      "compId": 266,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "y": -239,
+            "x": -74,
+            "var": "BeautyTextBox",
+            "name": "BeautyTextBox",
+            "alpha": 1
+          },
+          "compId": 328,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 295,
+                "x": 79,
+                "width": 604,
+                "skin": "res_view/beauty/bg_dialog.png",
+                "name": "TextBg",
+                "height": 120
+              },
+              "compId": 332,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 49,
+                    "x": 242.5,
+                    "var": "img_dialog",
+                    "skin": "res_combat/specialStageView/biaoJu/Dialogs/text_1.png",
+                    "name": "img_dialog"
+                  },
+                  "compId": 333
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 269,
+                "x": 163,
+                "width": 247,
+                "skin": "res_view/beauty/bg_namebar.png",
+                "name": "NameBg",
+                "height": 44,
+                "alpha": 1
+              },
+              "compId": 334
+            },
+            {
+              "type": "Text",
+              "props": {
+                "y": 269,
+                "x": 207,
+                "width": 176,
+                "var": "NpcName",
+                "valign": "middle",
+                "text": "苏月谋",
+                "strokeColor": "#734230",
+                "stroke": 2,
+                "name": "NpcName",
+                "height": 42,
+                "fontSize": 23,
+                "font": "Microsoft YaHei",
+                "color": "#f1dcbd",
+                "align": "center",
+                "runtime": "Laya.Text"
+              },
+              "compId": 335
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -112,
+            "x": -120,
+            "var": "BeautyProfileImg",
+            "name": "BeautyProfileImg",
+            "alpha": 1
+          },
+          "compId": 329
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -36,
+            "x": 417,
+            "width": 265,
+            "skin": "res_view/beauty/panel_kggtshgd.png",
+            "name": "tipsbarbg",
+            "height": 23
+          },
+          "compId": 330,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 7,
+                "width": 250,
+                "skin": "res_view/beauty/text_kggtshgd.png",
+                "name": "tipsbarbg",
+                "height": 21
+              },
+              "compId": 336
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 162,
+            "x": 38,
+            "width": 161,
+            "visible": true,
+            "var": "lovePro",
+            "scaleY": 0.6,
+            "scaleX": 0.6,
+            "pivotX": 0,
+            "name": "lovePro",
+            "height": 29
+          },
+          "compId": 331,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -2,
+                "x": -11,
+                "width": 228,
+                "var": "loveBar_empty",
+                "skin": "res_view/beauty/frame_card_blood02.png",
+                "name": "loveBar_empty",
+                "height": 35
+              },
+              "compId": 337
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 2,
+                "x": -7,
+                "width": 214,
+                "var": "loveBar",
+                "skin": "res_view/beauty/frame_card_hgd.png",
+                "sizeGrid": "0,13,0,8",
+                "name": "loveBar",
+                "height": 27
+              },
+              "compId": 338
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 6,
+                "x": 8,
+                "var": "loveNum",
+                "name": "loveNum"
+              },
+              "compId": 339,
+              "child": [
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": -11,
+                    "x": -38,
+                    "width": 183,
+                    "visible": true,
+                    "var": "FullTxt",
+                    "value": "12",
+                    "spaceY": 0,
+                    "spaceX": -12,
+                    "skin": "res_common/number/num_27_jxzk_ffffff_stk_1_gt.png",
+                    "sheet": "0123456789",
+                    "scaleY": 1.2,
+                    "scaleX": 1.2,
+                    "name": "FullTxt",
+                    "height": 33,
+                    "direction": "horizontal",
+                    "align": "center"
+                  },
+                  "compId": 340
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "var": "UnFullTxt",
+                    "name": "UnFullTxt"
+                  },
+                  "compId": 341,
+                  "child": [
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": -12,
+                        "x": -154,
+                        "width": 183,
+                        "visible": true,
+                        "var": "loveTxt",
+                        "value": "12",
+                        "spaceY": 0,
+                        "spaceX": -12,
+                        "skin": "res_common/number/num_27_jxzk_ffffff_stk_1_gt.png",
+                        "sheet": "0123456789",
+                        "scaleY": 1.2,
+                        "scaleX": 1.2,
+                        "name": "loveTxt",
+                        "height": 33,
+                        "direction": "horizontal",
+                        "align": "right"
+                      },
+                      "compId": 342
+                    },
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": -11,
+                        "x": 78,
+                        "var": "loveMax",
+                        "value": "40",
+                        "spaceX": -12,
+                        "skin": "res_common/number/num_27_jxzk_ffffff_stk_1_gt.png",
+                        "sheet": "0123456789",
+                        "scaleY": 1.2,
+                        "scaleX": 1.2,
+                        "name": "loveMax",
+                        "left": 78,
+                        "align": "left"
+                      },
+                      "compId": 343
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -1,
+                        "x": 76,
+                        "text": "text",
+                        "skin": "res_view/beauty/text_pzh.png",
+                        "scaleY": 1.2,
+                        "scaleX": 1.2,
+                        "name": "img_cut",
+                        "centerX": 83
+                      },
+                      "compId": 344
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": -25,
+                "x": -73,
+                "width": 88,
+                "texture": "res_common/icon_hgd.png",
+                "name": "img_heart",
+                "height": 82
+              },
+              "compId": 345
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -284,
+                "x": 249,
+                "var": "img_status",
+                "skin": "netRes/beautyStatus/status_1.png",
+                "scaleY": 1,
+                "scaleX": 1,
+                "name": "img_status"
+              },
+              "compId": 346
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 137,
+          "keyframes": {
+            "y": [
+              {
+                "value": 185,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 137,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 185,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 137,
+                "key": "y",
+                "index": 2
+              },
+              {
+                "value": 185,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 137,
+                "key": "y",
+                "index": 4
+              },
+              {
+                "value": 185,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 137,
+                "key": "y",
+                "index": 6
+              }
+            ],
+            "x": [
+              {
+                "value": 130,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 137,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 137,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 137,
+                "key": "x",
+                "index": 2
+              },
+              {
+                "value": 125,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 137,
+                "key": "x",
+                "index": 4
+              },
+              {
+                "value": 130,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 137,
+                "key": "x",
+                "index": 6
+              }
+            ],
+            "skin": [
+              {
+                "value": "res_combat/specialStageView/baoXiang/img_box_colorless.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 137,
+                "key": "skin",
+                "index": 0
+              },
+              {
+                "value": "res_combat/specialStageView/baoXiang/img_box_silver.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 137,
+                "key": "skin",
+                "index": 15
+              }
+            ]
+          }
+        },
+        {
+          "target": 153,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 153,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 153,
+                "key": "visible",
+                "index": 15
+              }
+            ]
+          }
+        }
+      ],
+      "name": "mainSilverAni1",
+      "id": 4,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 137,
+          "keyframes": {
+            "y": [
+              {
+                "value": 185,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 137,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 185,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 137,
+                "label": null,
+                "key": "y",
+                "index": 2
+              },
+              {
+                "value": 185,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 137,
+                "label": null,
+                "key": "y",
+                "index": 4
+              },
+              {
+                "value": 185,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 137,
+                "label": null,
+                "key": "y",
+                "index": 6
+              }
+            ],
+            "x": [
+              {
+                "value": 130,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 137,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 137,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 137,
+                "label": null,
+                "key": "x",
+                "index": 2
+              },
+              {
+                "value": 125,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 137,
+                "label": null,
+                "key": "x",
+                "index": 4
+              },
+              {
+                "value": 130,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 137,
+                "label": null,
+                "key": "x",
+                "index": 6
+              }
+            ],
+            "skin": [
+              {
+                "value": "res_combat/specialStageView/baoXiang/img_box_colorless.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 137,
+                "key": "skin",
+                "index": 0
+              },
+              {
+                "value": "res_combat/specialStageView/baoXiang/img_box_gold.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 137,
+                "key": "skin",
+                "index": 15
+              }
+            ]
+          }
+        },
+        {
+          "target": 153,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 153,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 153,
+                "key": "visible",
+                "index": 15
+              }
+            ],
+            "skin": [
+              {
+                "value": "res_combat/specialStageView/baoXiang/fx_box_light_blue.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 153,
+                "key": "skin",
+                "index": 0
+              },
+              {
+                "value": "res_combat/specialStageView/baoXiang/fx_box_light_purple.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 153,
+                "key": "skin",
+                "index": 15
+              }
+            ]
+          }
+        }
+      ],
+      "name": "mainGoldAni1",
+      "id": 4,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 139,
+          "keyframes": {
+            "y": [
+              {
+                "value": 185,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 139,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 185,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 139,
+                "label": null,
+                "key": "y",
+                "index": 2
+              },
+              {
+                "value": 185,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 139,
+                "label": null,
+                "key": "y",
+                "index": 4
+              },
+              {
+                "value": 185,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 139,
+                "label": null,
+                "key": "y",
+                "index": 6
+              }
+            ],
+            "x": [
+              {
+                "value": 129,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 139,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 136,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 139,
+                "key": "x",
+                "index": 2
+              },
+              {
+                "value": 124,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 139,
+                "key": "x",
+                "index": 4
+              },
+              {
+                "value": 129,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 139,
+                "key": "x",
+                "index": 6
+              }
+            ],
+            "skin": [
+              {
+                "value": "res_combat/specialStageView/baoXiang/img_box_colorless.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 139,
+                "key": "skin",
+                "index": 0
+              },
+              {
+                "value": "res_combat/specialStageView/baoXiang/img_box_silver.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 139,
+                "key": "skin",
+                "index": 15
+              }
+            ]
+          }
+        },
+        {
+          "target": 154,
+          "keyframes": {
+            "x": [
+              {
+                "value": 137,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 154,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 137,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 154,
+                "key": "x",
+                "index": 15
+              }
+            ],
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 154,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 154,
+                "key": "visible",
+                "index": 15
+              }
+            ],
+            "skin": [
+              {
+                "value": "res_combat/specialStageView/baoXiang/fx_box_light_purple.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 154,
+                "key": "skin",
+                "index": 0
+              },
+              {
+                "value": "res_combat/specialStageView/baoXiang/fx_box_light_blue.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 154,
+                "key": "skin",
+                "index": 15
+              }
+            ]
+          }
+        }
+      ],
+      "name": "mainSilverAni2",
+      "id": 5,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 139,
+          "keyframes": {
+            "y": [
+              {
+                "value": 185,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 139,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 185,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 139,
+                "label": null,
+                "key": "y",
+                "index": 2
+              },
+              {
+                "value": 185,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 139,
+                "label": null,
+                "key": "y",
+                "index": 4
+              },
+              {
+                "value": 185,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 139,
+                "label": null,
+                "key": "y",
+                "index": 6
+              }
+            ],
+            "x": [
+              {
+                "value": 129,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 139,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 136,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 139,
+                "label": null,
+                "key": "x",
+                "index": 2
+              },
+              {
+                "value": 124,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 139,
+                "label": null,
+                "key": "x",
+                "index": 4
+              },
+              {
+                "value": 129,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 139,
+                "label": null,
+                "key": "x",
+                "index": 6
+              }
+            ],
+            "skin": [
+              {
+                "value": "res_combat/specialStageView/baoXiang/img_box_colorless.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 139,
+                "key": "skin",
+                "index": 0
+              },
+              {
+                "value": "res_combat/specialStageView/baoXiang/img_box_gold.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 139,
+                "key": "skin",
+                "index": 15
+              }
+            ]
+          }
+        },
+        {
+          "target": 154,
+          "keyframes": {
+            "x": [
+              {
+                "value": 125,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 154,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 125,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 154,
+                "key": "x",
+                "index": 15
+              }
+            ],
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 154,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 154,
+                "key": "visible",
+                "index": 15
+              }
+            ],
+            "skin": [
+              {
+                "value": "res_combat/specialStageView/baoXiang/fx_box_light_purple.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 154,
+                "key": "skin",
+                "index": 0
+              },
+              {
+                "value": "res_combat/specialStageView/baoXiang/fx_box_light_purple.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 154,
+                "key": "skin",
+                "index": 15
+              }
+            ]
+          }
+        }
+      ],
+      "name": "mainGoldAni2",
+      "id": 5,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 141,
+          "keyframes": {
+            "y": [
+              {
+                "value": 185,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 141,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 185,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 141,
+                "key": "y",
+                "index": 2
+              },
+              {
+                "value": 185,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 141,
+                "key": "y",
+                "index": 4
+              },
+              {
+                "value": 185,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 141,
+                "key": "y",
+                "index": 6
+              }
+            ],
+            "x": [
+              {
+                "value": 114,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 141,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 121,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 141,
+                "key": "x",
+                "index": 2
+              },
+              {
+                "value": 109,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 141,
+                "key": "x",
+                "index": 4
+              },
+              {
+                "value": 114,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 141,
+                "key": "x",
+                "index": 6
+              }
+            ],
+            "skin": [
+              {
+                "value": "res_combat/specialStageView/baoXiang/img_box_colorless.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 141,
+                "key": "skin",
+                "index": 0
+              },
+              {
+                "value": "res_combat/specialStageView/baoXiang/img_box_silver.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 141,
+                "key": "skin",
+                "index": 15
+              }
+            ]
+          }
+        },
+        {
+          "target": 155,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 155,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 155,
+                "key": "visible",
+                "index": 15
+              }
+            ],
+            "skin": [
+              {
+                "value": "res_combat/specialStageView/baoXiang/fx_box_light_blue.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 155,
+                "key": "skin",
+                "index": 0
+              }
+            ]
+          }
+        }
+      ],
+      "name": "mainSilverAni3",
+      "id": 6,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 141,
+          "keyframes": {
+            "y": [
+              {
+                "value": 185,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 141,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 185,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 141,
+                "label": null,
+                "key": "y",
+                "index": 2
+              },
+              {
+                "value": 185,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 141,
+                "label": null,
+                "key": "y",
+                "index": 4
+              },
+              {
+                "value": 185,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 141,
+                "label": null,
+                "key": "y",
+                "index": 6
+              }
+            ],
+            "x": [
+              {
+                "value": 114,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 141,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 121,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 141,
+                "label": null,
+                "key": "x",
+                "index": 2
+              },
+              {
+                "value": 109,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 141,
+                "label": null,
+                "key": "x",
+                "index": 4
+              },
+              {
+                "value": 114,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 141,
+                "label": null,
+                "key": "x",
+                "index": 6
+              }
+            ],
+            "skin": [
+              {
+                "value": "res_combat/specialStageView/baoXiang/img_box_colorless.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 141,
+                "key": "skin",
+                "index": 0
+              },
+              {
+                "value": "res_combat/specialStageView/baoXiang/img_box_gold.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 141,
+                "key": "skin",
+                "index": 15
+              }
+            ]
+          }
+        },
+        {
+          "target": 155,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 155,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 155,
+                "key": "visible",
+                "index": 15
+              }
+            ],
+            "skin": [
+              {
+                "value": "res_combat/specialStageView/baoXiang/fx_box_light_blue.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 155,
+                "key": "skin",
+                "index": 0
+              },
+              {
+                "value": "res_combat/specialStageView/baoXiang/fx_box_light_purple.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 155,
+                "key": "skin",
+                "index": 15
+              }
+            ]
+          }
+        }
+      ],
+      "name": "mainGoldAni3",
+      "id": 6,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 179,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 179,
+                "key": "visible",
+                "index": 0
+              }
+            ]
+          }
+        },
+        {
+          "target": 199,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 199,
+                "key": "visible",
+                "index": 0
+              }
+            ]
+          }
+        },
+        {
+          "target": 203,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 203,
+                "key": "visible",
+                "index": 0
+              }
+            ]
+          }
+        },
+        {
+          "target": 146,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 146,
+                "key": "visible",
+                "index": 0
+              }
+            ]
+          }
+        },
+        {
+          "target": 150,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 150,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 150,
+                "key": "alpha",
+                "index": 10
+              }
+            ]
+          }
+        },
+        {
+          "target": 151,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 151,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 151,
+                "key": "visible",
+                "index": 9
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 151,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 151,
+                "key": "alpha",
+                "index": 9
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 151,
+                "key": "alpha",
+                "index": 14
+              }
+            ]
+          }
+        }
+      ],
+      "name": "EnterAni",
+      "id": 9,
+      "frameRate": 24,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 150,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 150,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 150,
+                "key": "alpha",
+                "index": 2
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 150,
+                "key": "alpha",
+                "index": 10
+              }
+            ]
+          }
+        },
+        {
+          "target": 266,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 266,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 266,
+                "key": "alpha",
+                "index": 10
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 266,
+                "key": "alpha",
+                "index": 20
+              }
+            ]
+          }
+        },
+        {
+          "target": 146,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 146,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 146,
+                "key": "visible",
+                "index": 8
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 146,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 146,
+                "key": "alpha",
+                "index": 8
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 146,
+                "key": "alpha",
+                "index": 13
+              }
+            ]
+          }
+        },
+        {
+          "target": 179,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 179,
+                "key": "visible",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 179,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 179,
+                "key": "alpha",
+                "index": 8
+              }
+            ]
+          }
+        },
+        {
+          "target": 199,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 199,
+                "key": "visible",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 199,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 199,
+                "key": "alpha",
+                "index": 8
+              }
+            ]
+          }
+        },
+        {
+          "target": 203,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 203,
+                "key": "visible",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 203,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 203,
+                "key": "alpha",
+                "index": 8
+              }
+            ]
+          }
+        },
+        {
+          "target": 165,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 165,
+                "key": "visible",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 165,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 165,
+                "key": "alpha",
+                "index": 8
+              },
+              {
+                "value": 0.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 165,
+                "key": "alpha",
+                "index": 24
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ShowDialogUnknown",
+      "id": 7,
+      "frameRate": 24,
+      "action": 0
+    }
+  ],
+  "loadList": [
+    "res_combat/specialStageView/baoXiang/fx_box_light_blue.png",
+    "res_combat/specialStageView/baoXiang/img_box_colorless.png",
+    "res_combat/specialStageView/baoXiang/fx_box_light_purple.png",
+    "res_common/icon_hgd.png",
+    "res_combat/specialStageView/baoXiang/img_box_silver.png",
+    "res_combat/specialStageView/baoXiang/img_box_gold.png"
+  ],
+  "loadList3D": []
+}

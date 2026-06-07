@@ -1,0 +1,48 @@
+{
+  "type": "View",
+  "props": {
+    "width": 620,
+    "height": 446,
+    "centerX": 0
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Label",
+      "props": {
+        "y": 83,
+        "width": 486,
+        "var": "heroName",
+        "text": "全新工坊玩法",
+        "stroke": 2,
+        "height": 36,
+        "fontSize": 36,
+        "font": "Microsoft YaHei",
+        "color": "#ffffff",
+        "centerX": 0,
+        "bold": true,
+        "align": "center"
+      },
+      "compId": 12
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 89,
+        "var": "img",
+        "skin": "pic/public/pic_workshop.png",
+        "centerX": 0
+      },
+      "compId": 19
+    },
+    {
+      "type": "Script",
+      "props": {
+        "runtime": "game/view/component/UnlockGf.ts"
+      },
+      "compId": 21
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

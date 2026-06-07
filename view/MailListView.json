@@ -1,0 +1,377 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 667,
+        "x": 375,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "mouseThrough": false,
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.8
+      },
+      "compId": 3
+    },
+    {
+      "type": "Image",
+      "props": {
+        "width": 761,
+        "skin": "netRes/mail/img_house_title02.png",
+        "sizeGrid": "150,0,216,0",
+        "height": 1046,
+        "centerY": 18,
+        "centerX": 0,
+        "alpha": 1
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -18,
+            "x": 41,
+            "skin": "res_common/icon_head.png"
+          },
+          "compId": 197
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -14,
+            "x": 156,
+            "var": "titleImg",
+            "skin": "res_view/mail/text_yj.png"
+          },
+          "compId": 198
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 87,
+            "x": 60,
+            "visible": false,
+            "var": "countLab",
+            "text": "当前邮件：00/00",
+            "fontSize": 18,
+            "font": "Microsoft YaHei",
+            "color": "#3b2716",
+            "bold": true
+          },
+          "compId": 8
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 72,
+            "x": 582,
+            "visible": false,
+            "var": "ruleImg",
+            "skin": "res_common/icon_inf.png"
+          },
+          "compId": 9
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 945,
+            "x": 214,
+            "width": 209,
+            "var": "delImg",
+            "skin": "res_common/btn_blue.png",
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 10,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 22,
+                "x": 32,
+                "skin": "res_view/mail/text_scyd.png"
+              },
+              "compId": 199
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 944,
+            "x": 550,
+            "width": 209,
+            "var": "getImg",
+            "skin": "res_common/btn_yellow.png",
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 11,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 22,
+                "x": 34,
+                "skin": "res_view/mail/text_yjlq.png"
+              },
+              "compId": 200
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 283,
+            "x": 177,
+            "skin": "res_view/mail/img_mail_nothing.png"
+          },
+          "compId": 204
+        },
+        {
+          "type": "List",
+          "props": {
+            "y": 91,
+            "x": 44,
+            "width": 674,
+            "var": "mailList",
+            "vScrollBarSkin": " ",
+            "spaceY": 10,
+            "spaceX": 0,
+            "repeatY": 7,
+            "repeatX": 1,
+            "renderType": "render",
+            "height": 772,
+            "elasticEnabled": false,
+            "alpha": 1
+          },
+          "compId": 14,
+          "child": [
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 0,
+                "x": 7,
+                "width": 651,
+                "renderType": "render",
+                "presetID": 1,
+                "height": 112,
+                "alpha": 1,
+                "isPresetRoot": true
+              },
+              "compId": 176,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 2,
+                    "x": 8,
+                    "width": 644,
+                    "presetID": 2,
+                    "height": 112,
+                    "skin": "res_view/mail/panel_mail_2.png",
+                    "sizeGrid": "21,24,29,20",
+                    "name": "bgImge"
+                  },
+                  "compId": 177
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "presetID": 3,
+                    "y": 41,
+                    "x": 28,
+                    "text": "(已读)",
+                    "name": "readLab",
+                    "fontSize": 18,
+                    "font": "Microsoft YaHei",
+                    "color": "#bf2222",
+                    "bold": true
+                  },
+                  "compId": 178
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 12,
+                    "x": 31,
+                    "skin": "res_view/mail/icon_mail.png",
+                    "alpha": 1
+                  },
+                  "compId": 254
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "var": "boxImg",
+                    "skin": "res_view/mail/icon_mail_1.png",
+                    "presetID": 4,
+                    "y": 14,
+                    "x": 27,
+                    "scaleY": 1,
+                    "scaleX": 1,
+                    "name": "boxImg"
+                  },
+                  "compId": 179
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 26,
+                    "x": 142,
+                    "width": 206,
+                    "text": "节日豪侠",
+                    "presetID": 6,
+                    "height": 42,
+                    "fontSize": 30,
+                    "font": "Microsoft YaHei",
+                    "color": "#55333e",
+                    "bold": true,
+                    "anchorY": 0,
+                    "anchorX": 0,
+                    "name": "titleLab"
+                  },
+                  "compId": 180
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 73,
+                    "x": 149,
+                    "presetID": 7,
+                    "fontSize": 24,
+                    "font": "Microsoft YaHei",
+                    "color": "#8d5a4e",
+                    "bold": true,
+                    "text": "2022/00/00",
+                    "name": "timeLab"
+                  },
+                  "compId": 181
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 41,
+                    "x": 558,
+                    "width": 113,
+                    "text": "有效期:2天",
+                    "presetID": 8,
+                    "pivotY": 11,
+                    "pivotX": 56,
+                    "height": 22,
+                    "fontSize": 23,
+                    "font": "SimHei",
+                    "color": "#ad2f24",
+                    "name": "validLab",
+                    "bold": true
+                  },
+                  "compId": 182
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 28,
+                    "x": 356,
+                    "presetID": 5,
+                    "skin": "res_common/tag_get.png",
+                    "name": "gotImg"
+                  },
+                  "compId": 183
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -1,
+                    "x": 600.04296875,
+                    "visible": false,
+                    "presetID": 9,
+                    "skin": "main/redpoint.png",
+                    "name": "redImg"
+                  },
+                  "compId": 184
+                },
+                {
+                  "type": "Script",
+                  "props": {
+                    "presetID": 12,
+                    "runtime": "gameplay/mail/MailListItem.ts"
+                  },
+                  "compId": 210
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 1066,
+            "x": 244,
+            "skin": "res_common/text_djgb.png"
+          },
+          "compId": 201
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 475,
+            "x": 243,
+            "var": "noText",
+            "skin": "res_view/mail/text_wsdxj.png"
+          },
+          "compId": 206
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 45,
+            "x": 584,
+            "width": 13,
+            "scaleY": 1.2,
+            "scaleX": 1.2,
+            "pivotY": 0,
+            "pivotX": 0,
+            "height": 15
+          },
+          "compId": 211,
+          "child": [
+            {
+              "type": "SkeletonPlayer",
+              "props": {
+                "url": "spine/ui/gezi.gz",
+                "runtime": "Laya.Skeleton"
+              },
+              "compId": 256
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "var": "btnClose",
+        "skin": "res_common/btn_close.png",
+        "centerY": -456,
+        "centerX": 304
+      },
+      "compId": 203
+    }
+  ],
+  "loadList": [
+    "netRes/mail/img_house_title02.png",
+    "prefab/MailListItem.prefab"
+  ],
+  "loadList3D": []
+}

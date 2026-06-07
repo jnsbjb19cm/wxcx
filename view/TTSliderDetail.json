@@ -1,0 +1,541 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": true,
+    "height": 1344,
+    "drawCallOptimize": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "width": 1000,
+        "var": "maskBg1",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 140
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 554,
+        "height": 880,
+        "centerY": 19,
+        "centerX": -3
+      },
+      "compId": 167,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -19,
+            "x": 488,
+            "width": 74,
+            "skin": "res_view/platformFeatures/img_common_02.png",
+            "height": 20
+          },
+          "compId": 188
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -4,
+            "x": -8,
+            "width": 568,
+            "skin": "res_view/platformFeatures/img house title_2.png",
+            "sizeGrid": "151,0,170,0",
+            "height": 890
+          },
+          "compId": 149
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 41,
+            "x": 145,
+            "skin": "res_view/platformFeatures/bg_title01.png"
+          },
+          "compId": 175
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -27,
+            "x": 484,
+            "width": 73,
+            "var": "closeBtn",
+            "skin": "res_view/platformFeatures/btn_close.png",
+            "label": "label",
+            "height": 74
+          },
+          "compId": 179
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 48,
+            "skin": "res_view/platformFeatures/ttSlider/text_xianshijiangli.png",
+            "centerX": 3
+          },
+          "compId": 166
+        },
+        {
+          "type": "Panel",
+          "props": {
+            "y": 111,
+            "width": 414,
+            "height": 460,
+            "centerX": 4
+          },
+          "compId": 155,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": -341,
+                "width": 341,
+                "var": "aniBg",
+                "skin": "res_view/platformFeatures/ttSlider/panel_douyin_2.png",
+                "height": 460
+              },
+              "compId": 158,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 341,
+                    "width": 414,
+                    "skin": "res_view/platformFeatures/ttSlider/panel_douyin_3.png",
+                    "height": 460
+                  },
+                  "compId": 156
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 159,
+                    "x": 29,
+                    "width": 60,
+                    "var": "gameIcon",
+                    "height": 60
+                  },
+                  "compId": 170,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 65,
+                        "var": "gameName",
+                        "text": "除三害",
+                        "fontSize": 15,
+                        "font": "SimHei",
+                        "centerX": 0,
+                        "bold": true
+                      },
+                      "compId": 172
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -13,
+                "x": -57,
+                "visible": true,
+                "var": "handEff",
+                "skin": "res_view/platformFeatures/ttSlider/click0001.png"
+              },
+              "compId": 165
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 122,
+                "x": 83,
+                "width": 121,
+                "visible": false,
+                "var": "hand",
+                "skin": "res_view/platformFeatures/ttSlider/icon_shou.png",
+                "rotation": 0,
+                "pivotY": 55,
+                "pivotX": 61,
+                "height": 110
+              },
+              "compId": 163
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 651.5,
+            "skin": "res_view/platformFeatures/ttSlider/bg_common_second_02.png",
+            "centerX": 0
+          },
+          "compId": 178
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 710,
+            "x": 276,
+            "skin": "res_view/platformFeatures/ttSlider/efx_light.png",
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 152
+        },
+        {
+          "type": "PropItem",
+          "props": {
+            "y": 672,
+            "x": 243,
+            "var": "rwdIcon",
+            "scaleY": 0.6,
+            "scaleX": 0.6,
+            "runtime": "ui.component.PropItemUI"
+          },
+          "compId": 162
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 609,
+            "x": 43,
+            "toY": 150,
+            "toX": 120,
+            "skin": "res_view/platformFeatures/ttSlider/line_common_title_01.png",
+            "lineWidth": 1,
+            "lineColor": "#ff0000"
+          },
+          "compId": 176
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 609,
+            "x": 401,
+            "toY": 150,
+            "toX": 120,
+            "skin": "res_view/platformFeatures/ttSlider/line_common_title_02.png",
+            "lineWidth": 1,
+            "lineColor": "#ff0000"
+          },
+          "compId": 177
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 598,
+            "x": 173,
+            "text": "text",
+            "skin": "res_view/platformFeatures/ttSlider/text_wanchengkedejiangli.png"
+          },
+          "compId": 185
+        },
+        {
+          "type": "Button",
+          "props": {
+            "y": 780,
+            "x": 174,
+            "width": 210,
+            "var": "confirmBtn",
+            "stateNum": 1,
+            "skin": "res_common/btn_yellow.png",
+            "height": 73
+          },
+          "compId": 151,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 21,
+                "x": 53,
+                "skin": "res_view/platformFeatures/ttSlider/text_qw.png"
+              },
+              "compId": 169
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": -7,
+                "x": 186,
+                "texture": "main/redpoint.png"
+              },
+              "compId": 157
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 885,
+            "x": 144,
+            "text": "text",
+            "skin": "res_view/platformFeatures/text_djgb.png"
+          },
+          "compId": 180
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 152,
+          "keyframes": {
+            "rotation": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 152,
+                "key": "rotation",
+                "index": 0
+              },
+              {
+                "value": 360,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 152,
+                "label": null,
+                "key": "rotation",
+                "index": 60
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani",
+      "id": 1,
+      "frameRate": 30,
+      "action": 2
+    },
+    {
+      "nodes": [
+        {
+          "target": 163,
+          "keyframes": {
+            "rotation": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 163,
+                "key": "rotation",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 163,
+                "key": "rotation",
+                "index": 10
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 163,
+                "label": null,
+                "key": "rotation",
+                "index": 14
+              },
+              {
+                "value": 20,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 163,
+                "key": "rotation",
+                "index": 19
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 163,
+                "key": "rotation",
+                "index": 23
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 163,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 163,
+                "key": "alpha",
+                "index": 10
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 163,
+                "label": null,
+                "key": "alpha",
+                "index": 14
+              },
+              {
+                "value": 1.1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 163,
+                "key": "alpha",
+                "index": 25
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 163,
+                "key": "alpha",
+                "index": 30
+              }
+            ]
+          }
+        },
+        {
+          "target": 165,
+          "keyframes": {
+            "visible": [
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 165,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 165,
+                "key": "visible",
+                "index": 23
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 165,
+                "key": "visible",
+                "index": 28
+              }
+            ],
+            "skin": [
+              {
+                "value": "res_view/platformFeatures/ttSlider/click0001.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 165,
+                "key": "skin",
+                "index": 0
+              },
+              {
+                "value": "res_view/platformFeatures/ttSlider/click0003.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 165,
+                "key": "skin",
+                "index": 24
+              },
+              {
+                "value": "res_view/platformFeatures/ttSlider/click0005.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 165,
+                "key": "skin",
+                "index": 25
+              },
+              {
+                "value": "res_view/platformFeatures/ttSlider/click0007.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 165,
+                "key": "skin",
+                "index": 26
+              },
+              {
+                "value": "res_view/platformFeatures/ttSlider/click0009.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 165,
+                "key": "skin",
+                "index": 27
+              }
+            ]
+          }
+        }
+      ],
+      "name": "handAni",
+      "id": 2,
+      "frameRate": 25,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 158,
+          "keyframes": {
+            "x": [
+              {
+                "value": -341,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 158,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 158,
+                "key": "x",
+                "index": 15
+              }
+            ]
+          }
+        }
+      ],
+      "name": "moveAni",
+      "id": 3,
+      "frameRate": 45,
+      "action": 0
+    }
+  ],
+  "loadList": [
+    "res_view/platformFeatures/ttSlider/click0001.png",
+    "component/PropItem.scene",
+    "main/redpoint.png",
+    "res_view/platformFeatures/ttSlider/click0003.png",
+    "res_view/platformFeatures/ttSlider/click0005.png",
+    "res_view/platformFeatures/ttSlider/click0007.png",
+    "res_view/platformFeatures/ttSlider/click0009.png"
+  ],
+  "loadList3D": []
+}

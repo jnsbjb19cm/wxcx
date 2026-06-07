@@ -1,0 +1,295 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": true,
+    "height": 1344,
+    "drawCallOptimize": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.8
+      },
+      "compId": 58
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 674,
+        "visible": true,
+        "var": "contentBox",
+        "height": 1119,
+        "centerY": -20,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -74.5,
+            "var": "pic",
+            "skin": "pic/hero/Uther_alpha.png",
+            "centerX": 0
+          },
+          "compId": 154
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 241,
+            "width": 558,
+            "skin": "main/awake/title_plist.png",
+            "centerX": 0
+          },
+          "compId": 160,
+          "child": [
+            {
+              "type": "HBox",
+              "props": {
+                "y": 28,
+                "height": 40,
+                "centerX": 0
+              },
+              "compId": 173,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "text": "剩余技能点：",
+                    "fontSize": 24,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffecc7",
+                    "centerY": 0,
+                    "bold": true
+                  },
+                  "compId": 161
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "var": "remainSkillPoint",
+                    "text": "10",
+                    "fontSize": 36,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffecc7",
+                    "centerY": 0,
+                    "bold": true
+                  },
+                  "compId": 174
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "List",
+          "props": {
+            "y": 338,
+            "width": 670,
+            "var": "skillList",
+            "vScrollBarSkin": "comp/vscroll.png",
+            "spaceY": 8,
+            "height": 800,
+            "centerX": 0
+          },
+          "compId": 162,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 660,
+                "var": "itemBox",
+                "renderType": "render",
+                "height": 152,
+                "centerX": 0
+              },
+              "compId": 163,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "top": 0,
+                    "skin": "common/plist_learn.png",
+                    "sizeGrid": "19,28,19,19",
+                    "right": 0,
+                    "left": 0,
+                    "bottom": 0
+                  },
+                  "compId": 164
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 22,
+                    "x": 56,
+                    "name": "skillIcon"
+                  },
+                  "compId": 27
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 81,
+                    "x": 30,
+                    "width": 100,
+                    "text": "陨石术",
+                    "name": "skillName",
+                    "height": 20,
+                    "fontSize": 20,
+                    "font": "Microsoft YaHei",
+                    "color": "#4c3425",
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 28
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 111,
+                    "x": 10,
+                    "width": 140,
+                    "name": "skillLvBox",
+                    "height": 20
+                  },
+                  "compId": 167
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 76,
+                    "x": 554,
+                    "skin": "common/btn_learn.png",
+                    "name": "confirmBtn",
+                    "label": "label",
+                    "centerY": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 168
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 66,
+                    "x": 526,
+                    "texture": "common/icon_max.png",
+                    "name": "maxIcon"
+                  },
+                  "compId": 169
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 28.5,
+                    "x": 62,
+                    "texture": "res_common/lock.png",
+                    "scaleY": 0.2,
+                    "scaleX": 0.2,
+                    "name": "iconLock"
+                  },
+                  "compId": 170
+                },
+                {
+                  "type": "VBox",
+                  "props": {
+                    "x": 165,
+                    "space": 8,
+                    "name": "txtBox",
+                    "centerY": 0
+                  },
+                  "compId": 172,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 32,
+                        "text": "冷却时间：5秒",
+                        "name": "skillCD",
+                        "fontSize": 18,
+                        "font": "SimSun",
+                        "color": "#72533d"
+                      },
+                      "compId": 29
+                    },
+                    {
+                      "type": "Box",
+                      "props": {
+                        "y": 52,
+                        "name": "descBox"
+                      },
+                      "compId": 31
+                    }
+                  ]
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "x": 490,
+                    "width": 144,
+                    "visible": true,
+                    "text": "需要\\n英雄等级1",
+                    "stroke": 2,
+                    "scaleY": 1,
+                    "name": "unlockTxt",
+                    "leading": 3,
+                    "height": 45,
+                    "fontSize": 20,
+                    "font": "Microsoft YaHei",
+                    "color": "#ff3c3c",
+                    "centerY": 0,
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 175
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -6,
+                    "x": -3,
+                    "text": "label",
+                    "skin": "combat/public/label.png"
+                  },
+                  "compId": 176
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 8,
+                    "x": 16,
+                    "text": "text",
+                    "skin": "combat/public/text_5.png",
+                    "name": "lvTip",
+                    "anchorX": 0.5
+                  },
+                  "compId": 177
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "comp/vscroll.png",
+    "common/icon_max.png",
+    "res_common/lock.png"
+  ],
+  "loadList3D": []
+}

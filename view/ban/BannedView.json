@@ -1,0 +1,165 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "var": "maskBg",
+        "top": 0,
+        "skin": "res_common/bg.png",
+        "right": 0,
+        "left": 0,
+        "bottom": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 3
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 391,
+        "x": 75,
+        "width": 600,
+        "height": 410,
+        "centerY": -76,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "width": 610,
+            "skin": "res_common/bg_common.png",
+            "height": 410,
+            "centerX": 0,
+            "alpha": 1
+          },
+          "compId": 5
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 48,
+            "skin": "res_common/bg_title01.png",
+            "rotation": 0,
+            "centerX": 0,
+            "alpha": 1
+          },
+          "compId": 8,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 9,
+                "x": 104,
+                "skin": "res_view/chapterDetail/title_tishi.png"
+              },
+              "compId": 9
+            }
+          ]
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 122,
+            "var": "tips",
+            "text": "账号冻结",
+            "fontSize": 35,
+            "font": "Microsoft YaHei",
+            "color": "#ff0007",
+            "centerX": 0,
+            "bold": true
+          },
+          "compId": 14
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 185,
+            "wordWrap": true,
+            "width": 477,
+            "var": "desc",
+            "valign": "top",
+            "text": "您的账号被系统检测异常，已被限制登录当前游戏。如有疑问，请联系游戏官方。",
+            "leading": 15,
+            "height": 105,
+            "fontSize": 25,
+            "font": "Microsoft YaHei",
+            "color": "#684546",
+            "centerX": 0,
+            "bold": true,
+            "align": "left"
+          },
+          "compId": 10
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 301,
+            "var": "contactWay",
+            "valign": "top",
+            "leading": 5,
+            "fontSize": 23,
+            "font": "Microsoft YaHei",
+            "color": "#684546",
+            "centerX": 0,
+            "bold": true,
+            "align": "center"
+          },
+          "compId": 15
+        },
+        {
+          "type": "HBox",
+          "props": {
+            "y": 336,
+            "space": 10,
+            "centerX": 0
+          },
+          "compId": 17,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "var": "userOpenId",
+                "valign": "top",
+                "text": "123456789123456789",
+                "leading": 5,
+                "fontSize": 20,
+                "font": "Microsoft YaHei",
+                "color": "#684546",
+                "centerY": 0,
+                "bold": true,
+                "align": "center"
+              },
+              "compId": 20
+            },
+            {
+              "type": "Image",
+              "props": {
+                "var": "btnCopyUID",
+                "toggle": false,
+                "stateNum": 1,
+                "skin": "netRes/user/icon_copy.png",
+                "labelSize": 20,
+                "labelAlign": "center",
+                "label": " 复制"
+              },
+              "compId": 19
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

@@ -1,0 +1,49 @@
+{
+  "type": "View",
+  "props": {
+    "width": 119,
+    "height": 380
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Sprite",
+      "props": {
+        "x": -10,
+        "texture": "viewPanel/rank/plane_rank.png"
+      },
+      "compId": 3
+    },
+    {
+      "type": "List",
+      "props": {
+        "y": 32,
+        "x": 7,
+        "width": 120,
+        "var": "rankList",
+        "vScrollBarSkin": "comp/vscroll.png",
+        "spaceY": 4,
+        "repeatX": 1,
+        "height": 335,
+        "elasticEnabled": true
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "RankModuleItem",
+          "props": {
+            "runtime": "game/view/component/RankModuleItem.ts",
+            "renderType": "render"
+          },
+          "compId": 5
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "viewPanel/rank/plane_rank.png",
+    "comp/vscroll.png",
+    "component/RankModuleItem.scene"
+  ],
+  "loadList3D": []
+}

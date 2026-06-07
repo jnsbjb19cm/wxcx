@@ -1,0 +1,179 @@
+{
+  "type": "View",
+  "props": {
+    "width": 720,
+    "height": 155
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 720,
+        "var": "bg",
+        "skin": "res_view/children/bg_family_organization_01.png",
+        "height": 155
+      },
+      "compId": 7
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 6,
+        "x": 21,
+        "width": 128,
+        "var": "headimg",
+        "skin": "res_common/solt_hero_blue.png",
+        "height": 128
+      },
+      "compId": 23,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "var": "headspine"
+          },
+          "compId": 24,
+          "child": [
+            {
+              "type": "Sprite",
+              "props": {
+                "renderType": "mask"
+              },
+              "compId": 25,
+              "child": [
+                {
+                  "type": "Circle",
+                  "props": {
+                    "y": 63.25,
+                    "x": 63.25,
+                    "radius": 48,
+                    "lineWidth": 1,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 26
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Label",
+      "props": {
+        "y": 18,
+        "x": 158,
+        "var": "child_name",
+        "text": "名字最多六字",
+        "fontSize": 26,
+        "font": "SimHei",
+        "color": "#825956"
+      },
+      "compId": 9
+    },
+    {
+      "type": "Label",
+      "props": {
+        "y": 62,
+        "x": 199,
+        "width": 111,
+        "height": 24,
+        "fontSize": 24,
+        "font": "Microsoft YaHei",
+        "color": "#6b5150",
+        "bold": true
+      },
+      "compId": 10,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -18,
+            "x": -50,
+            "width": 52,
+            "skin": "res_view/platformFeatures/concern/icon_gongde.png",
+            "height": 52
+          },
+          "compId": 21
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": -2,
+            "x": 3,
+            "width": 111,
+            "var": "gd_addnum",
+            "text": "+502",
+            "height": 24,
+            "fontSize": 24,
+            "font": "Microsoft YaHei",
+            "color": "#6b5150",
+            "bold": true
+          },
+          "compId": 14
+        }
+      ]
+    },
+    {
+      "type": "Label",
+      "props": {
+        "y": 103,
+        "x": 201,
+        "width": 111,
+        "var": "work",
+        "height": 24,
+        "fontSize": 24,
+        "font": "Microsoft YaHei",
+        "color": "#6b5150",
+        "bold": true
+      },
+      "compId": 17,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -9,
+            "x": -42,
+            "width": 34,
+            "var": "work_img",
+            "skin": "netRes/icon/traitIcon/icon_jb_ck.png",
+            "height": 34
+          },
+          "compId": 22
+        }
+      ]
+    },
+    {
+      "type": "Label",
+      "props": {
+        "y": 100,
+        "x": 206,
+        "width": 111,
+        "var": "attribute",
+        "text": "xx属性",
+        "height": 24,
+        "fontSize": 24,
+        "font": "Microsoft YaHei",
+        "color": "#6b5150",
+        "bold": true
+      },
+      "compId": 18
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 24,
+        "x": 632,
+        "visible": true,
+        "var": "sharingBtn",
+        "skin": "res_view/sg/btn_share_01.png"
+      },
+      "compId": 27
+    }
+  ],
+  "loadList": ["res_common/solt_hero_blue.png"],
+  "loadList3D": []
+}

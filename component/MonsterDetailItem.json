@@ -1,0 +1,1758 @@
+{
+  "type": "View",
+  "props": {
+    "x": 0,
+    "width": 377,
+    "visible": true,
+    "mouseThrough": true,
+    "mouseEnabled": true,
+    "height": 1334,
+    "drawCallOptimize": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "width": 377,
+        "mouseThrough": true,
+        "mouseEnabled": true,
+        "height": 1334,
+        "centerX": 0
+      },
+      "compId": 105,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "width": 630,
+            "var": "spineBtn",
+            "skin": "res_common/bg.png",
+            "height": 539,
+            "centerX": 0,
+            "alpha": 0
+          },
+          "compId": 180
+        },
+        {
+          "type": "Panel",
+          "props": {
+            "y": -290,
+            "width": 1200,
+            "var": "halfBodyPanel",
+            "vScrollBarSkin": " ",
+            "mouseEnabled": false,
+            "height": 1453,
+            "hScrollBarSkin": " ",
+            "centerX": 0,
+            "cacheAs": "bitmap"
+          },
+          "compId": 181,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "width": 1,
+                "var": "spineBox",
+                "centerX": 0
+              },
+              "compId": 224
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 518,
+            "x": -311,
+            "var": "maskPro",
+            "skin": "res_view/monsterDetail/img_CP_new05.png",
+            "mouseEnabled": false
+          },
+          "compId": 424
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 534,
+        "width": 377,
+        "var": "contentBox",
+        "mouseEnabled": true,
+        "height": 756,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "y": 3,
+            "x": 189,
+            "width": 100,
+            "var": "spineQ",
+            "height": 100
+          },
+          "compId": 242
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -67,
+            "visible": false,
+            "var": "maxLv",
+            "skin": "res_view/monsterDetail/text_mj.png",
+            "centerX": 0
+          },
+          "compId": 452
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -74,
+            "visible": false,
+            "var": "minLv",
+            "skin": "res_view/monsterDetail/text_cs.png",
+            "centerX": 0
+          },
+          "compId": 457
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -35,
+            "x": 83,
+            "visible": false,
+            "var": "careerUp",
+            "skin": "res_view/monsterDetail/img_ranking_common7.png"
+          },
+          "compId": 225,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 8,
+                "x": 66,
+                "var": "careerTypeUp",
+                "skin": "res_view/monsterDetail/text_wlsc.png"
+              },
+              "compId": 226
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "var": "bigBg",
+            "top": 0,
+            "skin": "res_view/monsterDetail/panel_01.png",
+            "sizeGrid": "242,0,191,0",
+            "right": 0,
+            "mouseThrough": false,
+            "mouseEnabled": true,
+            "left": 0,
+            "bottom": 0
+          },
+          "compId": 3,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "width": 482,
+                "visible": false,
+                "var": "bigBg2",
+                "top": -53,
+                "skin": "res_view/monsterDetail/panel_05.png",
+                "sizeGrid": "176,0,189,0",
+                "centerX": 0,
+                "bottom": -52
+              },
+              "compId": 469
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -13,
+            "x": 7,
+            "visible": false,
+            "var": "raceIcon",
+            "skin": "res_icon/racesIcon/img_shenguan_2.png"
+          },
+          "compId": 189
+        },
+        {
+          "type": "VBox",
+          "props": {
+            "y": 13,
+            "x": 6,
+            "var": "equipBox",
+            "space": 0,
+            "height": 85,
+            "anchorX": 1
+          },
+          "compId": 43
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 32,
+            "x": 54,
+            "var": "titleBg",
+            "skin": "res_common/bg_common_title.png"
+          },
+          "compId": 13,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 20,
+                "x": 171,
+                "var": "monsterName",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 91
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 54,
+            "x": 122,
+            "width": 56,
+            "visible": true,
+            "var": "lvIcon",
+            "skin": "res_icon/monsterLvIcon/icon_b.png",
+            "scaleY": 1.3,
+            "scaleX": 1.3,
+            "height": 56,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 206,
+          "child": [
+            {
+              "type": "FontClip",
+              "props": {
+                "y": -5,
+                "x": 33,
+                "visible": false,
+                "value": "2",
+                "spaceX": -10,
+                "skin": "res_common/number/num_12_jxzk_7e7ee1.png",
+                "sheet": "0123456789",
+                "scaleY": 0.8,
+                "scaleX": 0.8,
+                "name": "num"
+              },
+              "compId": 11
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 87,
+            "x": 82,
+            "width": 227,
+            "var": "traitBox",
+            "height": 76
+          },
+          "compId": 426,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 5,
+                "x": 21,
+                "width": 45,
+                "name": "traitIcon1",
+                "height": 45
+              },
+              "compId": 427
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 5,
+                "x": 88,
+                "width": 45,
+                "name": "traitIcon2",
+                "height": 45
+              },
+              "compId": 428
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 52,
+                "x": 159,
+                "text": "text",
+                "skin": "res_view/monsterDetail/text_sc.png"
+              },
+              "compId": 430
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 4,
+                "x": 155,
+                "width": 45,
+                "skin": "res_view/monsterDetail/panel_jineng.png",
+                "height": 45
+              },
+              "compId": 429
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 11,
+                "x": 178,
+                "text": "3",
+                "name": "range",
+                "fontSize": 30,
+                "font": "SimHei",
+                "color": "#ffffff",
+                "bold": true,
+                "anchorX": 0.5
+              },
+              "compId": 431
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 52,
+                "x": 44,
+                "text": "天官",
+                "name": "traitName1",
+                "fontSize": 18,
+                "font": "SimSun",
+                "color": "#684546",
+                "bold": true,
+                "anchorX": 0.5
+              },
+              "compId": 432
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 52,
+                "x": 111,
+                "text": "战士",
+                "name": "traitName2",
+                "fontSize": 18,
+                "font": "SimSun",
+                "color": "#684546",
+                "bold": true,
+                "anchorX": 0.5
+              },
+              "compId": 433
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 164,
+            "x": 68,
+            "skin": "res_view/monsterDetail/hp_solt.png",
+            "name": "hp"
+          },
+          "compId": 139,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "width": 3,
+                "var": "hpVolume",
+                "top": 2,
+                "skin": "res_view/monsterDetail/img_battle_HP_Current01.png",
+                "sizeGrid": "0,0,0,3",
+                "left": 2,
+                "height": 21
+              },
+              "compId": 140
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": -2,
+                "var": "hpTxt",
+                "value": "4129/5000",
+                "spaceX": -9,
+                "skin": "res_common/number/num_18_jxzk_ffffff.png",
+                "sheet": "0123456789+-*/%:()→?",
+                "centerX": 0
+              },
+              "compId": 141
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 197,
+            "width": 360,
+            "var": "attrBox",
+            "height": 80,
+            "centerX": 0
+          },
+          "compId": 20,
+          "child": [
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 3,
+                "x": 3,
+                "texture": "res_view/monsterDetail/panel_02.png",
+                "name": "atk"
+              },
+              "compId": 203,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 10,
+                    "x": 9,
+                    "var": "atkIcon",
+                    "skin": "res_view/monsterDetail/texy_wlgj.png"
+                  },
+                  "compId": 121
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 2,
+                    "x": 141,
+                    "width": 22,
+                    "var": "atkTxt",
+                    "value": "95",
+                    "spaceX": -10,
+                    "skin": "res_common/number/num_18_jxzk_8a6c6c.png",
+                    "sheet": "0123456789",
+                    "height": 29,
+                    "align": "right"
+                  },
+                  "compId": 122
+                }
+              ]
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 3,
+                "x": 182,
+                "texture": "res_view/monsterDetail/panel_02.png",
+                "name": "range"
+              },
+              "compId": 123,
+              "child": [
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 10,
+                    "x": 8,
+                    "texture": "res_view/monsterDetail/text_sc.png"
+                  },
+                  "compId": 124
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 2,
+                    "x": 141,
+                    "width": 22,
+                    "var": "rangeText",
+                    "value": "3",
+                    "spaceX": -10,
+                    "skin": "res_common/number/num_18_jxzk_8a6c6c.png",
+                    "sheet": "0123456789",
+                    "height": 29,
+                    "align": "right"
+                  },
+                  "compId": 125
+                }
+              ]
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 40,
+                "x": 3,
+                "texture": "res_view/monsterDetail/panel_02.png",
+                "name": "armor"
+              },
+              "compId": 126,
+              "child": [
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 10,
+                    "x": 9,
+                    "texture": "res_view/monsterDetail/text_wlfy.png"
+                  },
+                  "compId": 127
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 3,
+                    "x": 141,
+                    "width": 22,
+                    "var": "armorTxt",
+                    "value": "125",
+                    "spaceX": -10,
+                    "skin": "res_common/number/num_18_jxzk_8a6c6c.png",
+                    "sheet": "0123456789",
+                    "height": 29,
+                    "align": "right"
+                  },
+                  "compId": 128
+                }
+              ]
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 40,
+                "x": 182,
+                "texture": "res_view/monsterDetail/panel_02.png",
+                "name": "mageDef"
+              },
+              "compId": 129,
+              "child": [
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 10,
+                    "x": 9,
+                    "texture": "res_view/monsterDetail/text_fsfy.png"
+                  },
+                  "compId": 130
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 3,
+                    "x": 140,
+                    "width": 22,
+                    "var": "mageDefTxt",
+                    "value": "75",
+                    "spaceX": -10,
+                    "skin": "res_common/number/num_18_jxzk_8a6c6c.png",
+                    "sheet": "0123456789",
+                    "height": 29,
+                    "align": "right"
+                  },
+                  "compId": 131
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 284,
+            "x": 16,
+            "var": "skillBox",
+            "space": 10
+          },
+          "compId": 31,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 342,
+                "visible": false,
+                "name": "skill_1",
+                "height": 95
+              },
+              "compId": 250,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 8,
+                    "x": 1,
+                    "skin": "res_view/monsterDetail/panel_jineng.png",
+                    "name": "skillIcon_1"
+                  },
+                  "compId": 27,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "width": 71,
+                        "skin": "",
+                        "name": "icon",
+                        "height": 71,
+                        "centerY": 0,
+                        "centerX": 0
+                      },
+                      "compId": 173
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "visible": false,
+                        "skin": "res_view/monsterDetail/text_xjls_2.png",
+                        "scaleY": 1,
+                        "scaleX": 1,
+                        "name": "lock",
+                        "centerY": 0,
+                        "centerX": 0
+                      },
+                      "compId": 154
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 50.5,
+                        "name": "careerType",
+                        "centerX": 30
+                      },
+                      "compId": 230
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 7,
+                    "x": -17,
+                    "skin": "res_view/monsterDetail/icon_jnqh.png",
+                    "name": "intensify"
+                  },
+                  "compId": 458
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 6,
+                    "x": -18,
+                    "skin": "res_view/monsterDetail/icon_xjn.png",
+                    "name": "newSkill"
+                  },
+                  "compId": 459
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 1,
+                    "x": 90,
+                    "text": "最长有六个字",
+                    "name": "skillName",
+                    "fontSize": 18,
+                    "font": "Microsoft YaHei",
+                    "color": "#6c4a4a",
+                    "bold": true
+                  },
+                  "compId": 251
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "width": 100,
+                    "scaleY": 1,
+                    "right": 0,
+                    "name": "skillCD",
+                    "anchorX": 1
+                  },
+                  "compId": 252,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 5,
+                        "visible": false,
+                        "skin": "res_view/monsterDetail/text_mcxcs.png",
+                        "right": 0,
+                        "name": "num",
+                        "anchorX": 1
+                      },
+                      "compId": 254,
+                      "child": [
+                        {
+                          "type": "FontClip",
+                          "props": {
+                            "y": -13,
+                            "x": 39,
+                            "value": "1",
+                            "text": "1",
+                            "skin": "res_common/number/num_14_jxzk_957f7f.png",
+                            "sheet": "0123456789",
+                            "name": "skillNum"
+                          },
+                          "compId": 255
+                        }
+                      ]
+                    },
+                    {
+                      "type": "HBox",
+                      "props": {
+                        "y": 5,
+                        "visible": false,
+                        "right": 0,
+                        "name": "CD",
+                        "anchorX": 1
+                      },
+                      "compId": 253,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 0,
+                            "x": 0,
+                            "skin": "res_view/monsterDetail/text_lqsj.png"
+                          },
+                          "compId": 256
+                        },
+                        {
+                          "type": "Box",
+                          "props": {},
+                          "compId": 257,
+                          "child": [
+                            {
+                              "type": "FontClip",
+                              "props": {
+                                "y": -13,
+                                "x": -5,
+                                "value": "100",
+                                "text": "1",
+                                "spaceX": -10,
+                                "skin": "res_common/number/num_14_jxzk_957f7f.png",
+                                "sheet": "0123456789",
+                                "name": "cd"
+                              },
+                              "compId": 258
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "width": 5,
+                            "height": 14
+                          },
+                          "compId": 259
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "skin": "res_view/monsterDetail/text_s.png"
+                          },
+                          "compId": 311
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 5,
+                        "visible": false,
+                        "skin": "res_view/monsterDetail/text_bd.png",
+                        "right": 0,
+                        "name": "bd"
+                      },
+                      "compId": 312
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 21,
+                    "x": 90,
+                    "name": "descBox"
+                  },
+                  "compId": 260
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 342,
+                "visible": false,
+                "name": "skill_2",
+                "height": 87
+              },
+              "compId": 373,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 8,
+                    "x": 1,
+                    "skin": "res_view/monsterDetail/panel_jineng.png",
+                    "name": "skillIcon_1"
+                  },
+                  "compId": 374,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "width": 71,
+                        "skin": "",
+                        "name": "icon",
+                        "height": 71,
+                        "centerY": 0,
+                        "centerX": 0
+                      },
+                      "compId": 375
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "visible": false,
+                        "skin": "res_view/monsterDetail/text_xjls_2.png",
+                        "scaleY": 1,
+                        "scaleX": 1,
+                        "name": "lock",
+                        "centerY": 0,
+                        "centerX": 0
+                      },
+                      "compId": 376
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 50.5,
+                        "name": "careerType",
+                        "centerX": 30
+                      },
+                      "compId": 377
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 7,
+                    "x": -17,
+                    "skin": "res_view/monsterDetail/icon_jnqh.png",
+                    "name": "intensify"
+                  },
+                  "compId": 461
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 6,
+                    "x": -18,
+                    "skin": "res_view/monsterDetail/icon_xjn.png",
+                    "name": "newSkill"
+                  },
+                  "compId": 462
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 1,
+                    "x": 90,
+                    "text": "最长有六个字",
+                    "name": "skillName",
+                    "fontSize": 18,
+                    "font": "Microsoft YaHei",
+                    "color": "#6c4a4a",
+                    "bold": true
+                  },
+                  "compId": 378
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "width": 100,
+                    "right": 0,
+                    "name": "skillCD",
+                    "anchorX": 1
+                  },
+                  "compId": 379,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 5,
+                        "visible": false,
+                        "skin": "res_view/monsterDetail/text_mcxcs.png",
+                        "right": 0,
+                        "name": "num",
+                        "anchorX": 1
+                      },
+                      "compId": 380,
+                      "child": [
+                        {
+                          "type": "FontClip",
+                          "props": {
+                            "y": -13,
+                            "x": 39,
+                            "value": "1",
+                            "text": "1",
+                            "skin": "res_common/number/num_14_jxzk_957f7f.png",
+                            "sheet": "0123456789",
+                            "name": "skillNum"
+                          },
+                          "compId": 381
+                        }
+                      ]
+                    },
+                    {
+                      "type": "HBox",
+                      "props": {
+                        "y": 5,
+                        "visible": false,
+                        "right": 0,
+                        "name": "CD",
+                        "anchorX": 1
+                      },
+                      "compId": 382,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 0,
+                            "x": 0,
+                            "skin": "res_view/monsterDetail/text_lqsj.png"
+                          },
+                          "compId": 383
+                        },
+                        {
+                          "type": "Box",
+                          "props": {},
+                          "compId": 384,
+                          "child": [
+                            {
+                              "type": "FontClip",
+                              "props": {
+                                "y": -13,
+                                "x": -5,
+                                "value": "100",
+                                "text": "1",
+                                "spaceX": -10,
+                                "skin": "res_common/number/num_14_jxzk_957f7f.png",
+                                "sheet": "0123456789",
+                                "name": "cd"
+                              },
+                              "compId": 385
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "width": 5,
+                            "height": 14
+                          },
+                          "compId": 386
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "skin": "res_view/monsterDetail/text_s.png"
+                          },
+                          "compId": 387
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 5,
+                        "visible": false,
+                        "skin": "res_view/monsterDetail/text_bd.png",
+                        "right": 0,
+                        "name": "bd"
+                      },
+                      "compId": 388
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 21,
+                    "x": 90,
+                    "name": "descBox"
+                  },
+                  "compId": 389
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 342,
+                "visible": false,
+                "name": "skill_3",
+                "height": 87
+              },
+              "compId": 390,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 8,
+                    "x": 1,
+                    "skin": "res_view/monsterDetail/panel_jineng.png",
+                    "name": "skillIcon_1"
+                  },
+                  "compId": 391,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "width": 71,
+                        "skin": "",
+                        "name": "icon",
+                        "height": 71,
+                        "centerY": 0,
+                        "centerX": 0
+                      },
+                      "compId": 392
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "visible": false,
+                        "skin": "res_view/monsterDetail/text_xjls_2.png",
+                        "scaleY": 1,
+                        "scaleX": 1,
+                        "name": "lock",
+                        "centerY": 0,
+                        "centerX": 0
+                      },
+                      "compId": 393
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 50.5,
+                        "name": "careerType",
+                        "centerX": 30
+                      },
+                      "compId": 394
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 7,
+                    "x": -17,
+                    "skin": "res_view/monsterDetail/icon_jnqh.png",
+                    "name": "intensify"
+                  },
+                  "compId": 463
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 6,
+                    "x": -18,
+                    "skin": "res_view/monsterDetail/icon_xjn.png",
+                    "name": "newSkill"
+                  },
+                  "compId": 464
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 1,
+                    "x": 90,
+                    "text": "最长有六个字",
+                    "name": "skillName",
+                    "fontSize": 18,
+                    "font": "Microsoft YaHei",
+                    "color": "#6c4a4a",
+                    "bold": true
+                  },
+                  "compId": 395
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "width": 100,
+                    "right": 0,
+                    "name": "skillCD",
+                    "anchorX": 1
+                  },
+                  "compId": 396,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 5,
+                        "visible": false,
+                        "skin": "res_view/monsterDetail/text_mcxcs.png",
+                        "right": 0,
+                        "name": "num",
+                        "anchorX": 1
+                      },
+                      "compId": 397,
+                      "child": [
+                        {
+                          "type": "FontClip",
+                          "props": {
+                            "y": -13,
+                            "x": 39,
+                            "value": "1",
+                            "text": "1",
+                            "skin": "res_common/number/num_14_jxzk_957f7f.png",
+                            "sheet": "0123456789",
+                            "name": "skillNum"
+                          },
+                          "compId": 398
+                        }
+                      ]
+                    },
+                    {
+                      "type": "HBox",
+                      "props": {
+                        "y": 5,
+                        "visible": false,
+                        "right": 0,
+                        "name": "CD",
+                        "anchorX": 1
+                      },
+                      "compId": 399,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 0,
+                            "x": 0,
+                            "skin": "res_view/monsterDetail/text_lqsj.png"
+                          },
+                          "compId": 400
+                        },
+                        {
+                          "type": "Box",
+                          "props": {},
+                          "compId": 401,
+                          "child": [
+                            {
+                              "type": "FontClip",
+                              "props": {
+                                "y": -13,
+                                "x": -5,
+                                "value": "100",
+                                "text": "1",
+                                "spaceX": -10,
+                                "skin": "res_common/number/num_14_jxzk_957f7f.png",
+                                "sheet": "0123456789",
+                                "name": "cd"
+                              },
+                              "compId": 402
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "width": 5,
+                            "height": 14
+                          },
+                          "compId": 403
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "skin": "res_view/monsterDetail/text_s.png"
+                          },
+                          "compId": 404
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 5,
+                        "visible": false,
+                        "skin": "res_view/monsterDetail/text_bd.png",
+                        "right": 0,
+                        "name": "bd"
+                      },
+                      "compId": 405
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 21,
+                    "x": 90,
+                    "name": "descBox"
+                  },
+                  "compId": 406
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 342,
+                "visible": false,
+                "name": "skill_4",
+                "height": 87
+              },
+              "compId": 407,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 8,
+                    "x": 1,
+                    "skin": "res_view/monsterDetail/panel_jineng.png",
+                    "name": "skillIcon_1"
+                  },
+                  "compId": 408,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "width": 71,
+                        "skin": "",
+                        "name": "icon",
+                        "height": 71,
+                        "centerY": 0,
+                        "centerX": 0
+                      },
+                      "compId": 409
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "visible": false,
+                        "skin": "res_view/monsterDetail/text_xjls_2.png",
+                        "scaleY": 1,
+                        "scaleX": 1,
+                        "name": "lock",
+                        "centerY": 0,
+                        "centerX": 0
+                      },
+                      "compId": 410
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 50.5,
+                        "name": "careerType",
+                        "centerX": 30
+                      },
+                      "compId": 411
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 7,
+                    "x": -17,
+                    "skin": "res_view/monsterDetail/icon_jnqh.png",
+                    "name": "intensify"
+                  },
+                  "compId": 465
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 6,
+                    "x": -18,
+                    "skin": "res_view/monsterDetail/icon_xjn.png",
+                    "name": "newSkill"
+                  },
+                  "compId": 466
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 1,
+                    "x": 90,
+                    "text": "最长有六个字",
+                    "name": "skillName",
+                    "fontSize": 18,
+                    "font": "Microsoft YaHei",
+                    "color": "#6c4a4a",
+                    "bold": true
+                  },
+                  "compId": 412
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "width": 100,
+                    "right": 0,
+                    "name": "skillCD",
+                    "anchorX": 1
+                  },
+                  "compId": 413,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 5,
+                        "visible": false,
+                        "skin": "res_view/monsterDetail/text_mcxcs.png",
+                        "right": 0,
+                        "name": "num",
+                        "anchorX": 1
+                      },
+                      "compId": 414,
+                      "child": [
+                        {
+                          "type": "FontClip",
+                          "props": {
+                            "y": -13,
+                            "x": 39,
+                            "value": "1",
+                            "text": "1",
+                            "skin": "res_common/number/num_14_jxzk_957f7f.png",
+                            "sheet": "0123456789",
+                            "name": "skillNum"
+                          },
+                          "compId": 415
+                        }
+                      ]
+                    },
+                    {
+                      "type": "HBox",
+                      "props": {
+                        "y": 5,
+                        "visible": false,
+                        "right": 0,
+                        "name": "CD",
+                        "anchorX": 1
+                      },
+                      "compId": 416,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 0,
+                            "x": 0,
+                            "skin": "res_view/monsterDetail/text_lqsj.png"
+                          },
+                          "compId": 417
+                        },
+                        {
+                          "type": "Box",
+                          "props": {},
+                          "compId": 418,
+                          "child": [
+                            {
+                              "type": "FontClip",
+                              "props": {
+                                "y": -13,
+                                "x": -5,
+                                "value": "100",
+                                "text": "1",
+                                "spaceX": -10,
+                                "skin": "res_common/number/num_14_jxzk_957f7f.png",
+                                "sheet": "0123456789",
+                                "name": "cd"
+                              },
+                              "compId": 419
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "width": 5,
+                            "height": 14
+                          },
+                          "compId": 420
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "skin": "res_view/monsterDetail/text_s.png"
+                          },
+                          "compId": 421
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 5,
+                        "visible": false,
+                        "skin": "res_view/monsterDetail/text_bd.png",
+                        "right": 0,
+                        "name": "bd"
+                      },
+                      "compId": 422
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 21,
+                    "x": 90,
+                    "name": "descBox"
+                  },
+                  "compId": 423
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 342,
+                "visible": false,
+                "name": "skill_5",
+                "height": 87
+              },
+              "compId": 434,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 8,
+                    "x": 1,
+                    "skin": "res_view/monsterDetail/panel_jineng.png",
+                    "name": "skillIcon_1"
+                  },
+                  "compId": 435,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "width": 71,
+                        "skin": "",
+                        "name": "icon",
+                        "height": 71,
+                        "centerY": 0,
+                        "centerX": 0
+                      },
+                      "compId": 436
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "visible": false,
+                        "skin": "res_view/monsterDetail/text_xjls_2.png",
+                        "scaleY": 1,
+                        "scaleX": 1,
+                        "name": "lock",
+                        "centerY": 0,
+                        "centerX": 0
+                      },
+                      "compId": 437
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 50.5,
+                        "name": "careerType",
+                        "centerX": 30
+                      },
+                      "compId": 438
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 7,
+                    "x": -17,
+                    "skin": "res_view/monsterDetail/icon_jnqh.png",
+                    "name": "intensify"
+                  },
+                  "compId": 467
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 6,
+                    "x": -18,
+                    "skin": "res_view/monsterDetail/icon_xjn.png",
+                    "name": "newSkill"
+                  },
+                  "compId": 468
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 1,
+                    "x": 90,
+                    "text": "最长有六个字",
+                    "name": "skillName",
+                    "fontSize": 18,
+                    "font": "Microsoft YaHei",
+                    "color": "#6c4a4a",
+                    "bold": true
+                  },
+                  "compId": 439
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "width": 100,
+                    "right": 0,
+                    "name": "skillCD",
+                    "anchorX": 1
+                  },
+                  "compId": 440,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 5,
+                        "visible": false,
+                        "skin": "res_view/monsterDetail/text_mcxcs.png",
+                        "right": 0,
+                        "name": "num",
+                        "anchorX": 1
+                      },
+                      "compId": 441,
+                      "child": [
+                        {
+                          "type": "FontClip",
+                          "props": {
+                            "y": -13,
+                            "x": 39,
+                            "value": "1",
+                            "text": "1",
+                            "skin": "res_common/number/num_14_jxzk_957f7f.png",
+                            "sheet": "0123456789",
+                            "name": "skillNum"
+                          },
+                          "compId": 442
+                        }
+                      ]
+                    },
+                    {
+                      "type": "HBox",
+                      "props": {
+                        "y": 5,
+                        "visible": false,
+                        "right": 0,
+                        "name": "CD",
+                        "anchorX": 1
+                      },
+                      "compId": 443,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 0,
+                            "x": 0,
+                            "skin": "res_view/monsterDetail/text_lqsj.png"
+                          },
+                          "compId": 444
+                        },
+                        {
+                          "type": "Box",
+                          "props": {},
+                          "compId": 445,
+                          "child": [
+                            {
+                              "type": "FontClip",
+                              "props": {
+                                "y": -13,
+                                "x": -5,
+                                "value": "100",
+                                "text": "1",
+                                "spaceX": -10,
+                                "skin": "res_common/number/num_14_jxzk_957f7f.png",
+                                "sheet": "0123456789",
+                                "name": "cd"
+                              },
+                              "compId": 446
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "width": 5,
+                            "height": 14
+                          },
+                          "compId": 447
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "skin": "res_view/monsterDetail/text_s.png"
+                          },
+                          "compId": 448
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 5,
+                        "visible": false,
+                        "skin": "res_view/monsterDetail/text_bd.png",
+                        "right": 0,
+                        "name": "bd"
+                      },
+                      "compId": 449
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 21,
+                    "x": 90,
+                    "name": "descBox"
+                  },
+                  "compId": 450
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "visible": false,
+            "var": "confirmBtn",
+            "skin": "res_common/btn_yellow.png",
+            "label": "label",
+            "centerX": 0,
+            "bottom": 20,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 56,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "text": "text",
+                "skin": "res_view/monsterDetail/text_hecheng.png",
+                "centerY": 1,
+                "centerX": -2
+              },
+              "compId": 86
+            },
+            {
+              "type": "Script",
+              "props": {
+                "runtime": "game/tools/BtnScale90.ts"
+              },
+              "compId": 87
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "visible": false,
+            "var": "buyBtn",
+            "skin": "res_common/btn_yellow.png",
+            "label": "label",
+            "centerX": 0,
+            "bottom": 20,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 62,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "x": 96,
+                "width": 68,
+                "var": "priceLabel",
+                "text": "1000",
+                "height": 30,
+                "fontSize": 30,
+                "font": "SimHei",
+                "color": "#674445",
+                "centerY": 2,
+                "align": "center"
+              },
+              "compId": 63
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 20.5,
+                "x": 46,
+                "texture": "res_combat/public/icon_gold.png"
+              },
+              "compId": 88
+            },
+            {
+              "type": "Script",
+              "props": {
+                "runtime": "game/tools/BtnScale90.ts"
+              },
+              "compId": 97
+            }
+          ]
+        },
+        {
+          "type": "Button",
+          "props": {
+            "y": 4,
+            "x": 323.5,
+            "visible": false,
+            "var": "shareBtn",
+            "stateNum": 1,
+            "skin": "res_view/monsterDetail/icon_share.png"
+          },
+          "compId": 241
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 748,
+            "x": 53,
+            "var": "closeTip",
+            "skin": "res_common/text_djgb.png",
+            "centerX": 0,
+            "bottom": -39
+          },
+          "compId": 307
+        },
+        {
+          "type": "Box",
+          "props": {
+            "var": "guideBox",
+            "centerX": 108,
+            "bottom": 6
+          },
+          "compId": 236
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "res_view/monsterDetail/panel_01.png",
+    "res_view/monsterDetail/text_sc.png",
+    "res_view/monsterDetail/panel_02.png",
+    "res_view/monsterDetail/text_wlfy.png",
+    "res_view/monsterDetail/text_fsfy.png",
+    "res_combat/public/icon_gold.png"
+  ],
+  "loadList3D": []
+}

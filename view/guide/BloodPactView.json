@@ -1,0 +1,151 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "top": 0,
+        "skin": "res_common/bg.png",
+        "right": 0,
+        "name": "maskBg",
+        "left": 0,
+        "bottom": 0,
+        "alpha": 0.5
+      },
+      "compId": 7
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 750,
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "y": 630,
+            "x": 375,
+            "width": 750,
+            "var": "showBox",
+            "height": 800,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 4,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 26,
+                "x": 81,
+                "skin": "res_view/guide/img_xueqi.png"
+              },
+              "compId": 5,
+              "child": [
+                {
+                  "type": "HBox",
+                  "props": {
+                    "y": 617,
+                    "var": "content",
+                    "text": "text",
+                    "space": 10,
+                    "centerX": 37
+                  },
+                  "compId": 10
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 750,
+                "var": "spineBox",
+                "height": 800
+              },
+              "compId": 16,
+              "child": [
+                {
+                  "type": "SkeletonPlayer",
+                  "props": {
+                    "y": 790,
+                    "x": 363,
+                    "url": "res_view/guide/spine/xueqi.sk",
+                    "runtime": "Laya.Skeleton"
+                  },
+                  "compId": 23
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 192,
+                "x": 122,
+                "text": "text",
+                "skin": "res_view/guide/text_xq.png"
+              },
+              "compId": 19
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 519,
+                "x": 151,
+                "text": "text",
+                "skin": "res_view/guide/text_xqq.png"
+              },
+              "compId": 20
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 643,
+                "x": 190,
+                "text": "text",
+                "skin": "res_view/guide/text_jl_xq.png"
+              },
+              "compId": 22
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 644,
+                "x": 489,
+                "text": "text",
+                "skin": "res_view/guide/text_mi_xq.png"
+              },
+              "compId": 21
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 1043,
+            "x": 240,
+            "text": "text",
+            "skin": "res_common/text_djgb.png"
+          },
+          "compId": 9
+        }
+      ]
+    }
+  ],
+  "loadList": ["res_view/guide/spine/xueqi.sk"],
+  "loadList3D": []
+}

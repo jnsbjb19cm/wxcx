@@ -1,0 +1,22 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1000
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "width": 750,
+        "skin": "common/panel.png",
+        "sizeGrid": "19,24,18,22",
+        "height": 1000
+      },
+      "compId": 3
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

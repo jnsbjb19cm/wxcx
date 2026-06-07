@@ -1,0 +1,1859 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": true,
+    "height": 1344
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 672,
+        "x": 375,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.7
+      },
+      "compId": 58
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "var": "contentBox",
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 387,
+            "x": 375,
+            "skin": "res_view/equipAwake/liandanlu.png",
+            "rotation": 0,
+            "name": "liandanlu",
+            "mouseThrough": false,
+            "mouseEnabled": true,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 135,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -72,
+                "x": 95,
+                "skin": "res_view/equipAwake/fx/1.png",
+                "name": "fire",
+                "alpha": 1
+              },
+              "compId": 144
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 49,
+            "x": 108,
+            "name": "scoreBox",
+            "height": 75,
+            "centerX": 0,
+            "alpha": 1
+          },
+          "compId": 136,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 17,
+                "x": -23,
+                "skin": "res_common/panel_text.png"
+              },
+              "compId": 145
+            },
+            {
+              "type": "Label",
+              "props": {
+                "visible": true,
+                "var": "curScore",
+                "text": "450",
+                "stroke": 1,
+                "height": 38,
+                "fontSize": 36,
+                "font": "SimHei",
+                "color": "#0cff00",
+                "centerY": 10,
+                "centerX": 73,
+                "bold": true
+              },
+              "compId": 146,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "res_view/equipDetail/text_zbpf.png",
+                    "left": -159,
+                    "centerY": -1
+                  },
+                  "compId": 147
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "width": 100,
+                    "visible": false,
+                    "var": "addScore",
+                    "text": "+1",
+                    "right": -114,
+                    "fontSize": 24,
+                    "font": "SimHei",
+                    "color": "#0cff00",
+                    "centerY": 0,
+                    "bold": true,
+                    "align": "left"
+                  },
+                  "compId": 148
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 153,
+            "x": 0,
+            "width": 183,
+            "var": "equipItem",
+            "scaleY": 0.8,
+            "scaleX": 0.8,
+            "height": 183,
+            "centerX": 10,
+            "cacheAs": "bitmap",
+            "alpha": 1
+          },
+          "compId": 137,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "width": 198,
+                "skin": "res_view/equipDetail/plist_tubiaokuang.png",
+                "height": 198,
+                "centerY": 1,
+                "centerX": 1
+              },
+              "compId": 188
+            },
+            {
+              "type": "Image",
+              "props": {
+                "width": 160,
+                "skin": "netRes/icon/equipsIcon/icon_eq_blgd.png",
+                "name": "icon",
+                "height": 160,
+                "centerY": 0,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 149
+            },
+            {
+              "type": "Image",
+              "props": {
+                "width": 188,
+                "visible": true,
+                "skin": "res_common/equip_rank_blue.png",
+                "sizeGrid": "34,42,35,42",
+                "name": "iconK",
+                "height": 188,
+                "centerY": 0,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 150
+            },
+            {
+              "type": "Image",
+              "props": {
+                "width": 190,
+                "visible": false,
+                "skin": "res_common/equip_b.png",
+                "name": "iconAwkPoint",
+                "height": 190,
+                "centerY": 0,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 151
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 126,
+            "x": 52.5,
+            "var": "closeBtn",
+            "skin": "res_common/btn_back.png",
+            "pivotY": 70,
+            "pivotX": 56,
+            "label": "label",
+            "alpha": 1
+          },
+          "compId": 138
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 50,
+            "x": 646,
+            "var": "rankBtn",
+            "skin": "res_common/icon_phb.png",
+            "alpha": 1
+          },
+          "compId": 139
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 1079,
+            "x": 671,
+            "width": 578,
+            "skin": "res_view/equipAwake/panel.png",
+            "rotation": 0,
+            "pivotY": 709,
+            "pivotX": 578,
+            "name": "paper",
+            "height": 697
+          },
+          "compId": 140
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 444,
+            "x": 297,
+            "skin": "res_view/equipAwake/text_zbxl.png",
+            "name": "log",
+            "alpha": 1
+          },
+          "compId": 141
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 520,
+            "var": "equipName",
+            "text": "软猬甲",
+            "fontSize": 24,
+            "font": "SimHei",
+            "color": "#ca38d7",
+            "centerX": -128,
+            "bold": true,
+            "alpha": 1
+          },
+          "compId": 142,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 2,
+                "skin": "res_view/equipAwake/text_tigan1.png",
+                "left": -7
+              },
+              "compId": 153
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 2,
+                "skin": "res_view/equipAwake/text_tigan2.png",
+                "right": -29
+              },
+              "compId": 154,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "x": 33,
+                    "var": "equipType",
+                    "skin": "res_view/equipAwake/text_jszb_purple.png"
+                  },
+                  "compId": 155
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 16,
+                    "skin": "res_view/equipAwake/texe_dh.png",
+                    "right": -99
+                  },
+                  "compId": 156,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -17.5,
+                        "var": "chong",
+                        "skin": "res_view/equipAwake/text_sichong.png",
+                        "right": -49
+                      },
+                      "compId": 157,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 2,
+                            "x": 47,
+                            "skin": "res_view/equipAwake/texe_sxkxj.png"
+                          },
+                          "compId": 158
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "VBox",
+          "props": {
+            "y": 590,
+            "width": 376,
+            "var": "stageVbox",
+            "space": 0,
+            "height": 450,
+            "centerX": 76
+          },
+          "compId": 143,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 410,
+                "var": "box1",
+                "height": 90,
+                "alpha": 0
+              },
+              "compId": 159,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 8,
+                    "x": 0,
+                    "skin": "res_view/equipAwake/text_yichong.png"
+                  },
+                  "compId": 160
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 7,
+                    "text": "+ 50 物理攻击",
+                    "fontSize": 24,
+                    "font": "SimHei",
+                    "color": "#00ff3c",
+                    "centerX": 16,
+                    "bold": true
+                  },
+                  "compId": 161
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 10,
+                    "x": 197,
+                    "visible": false,
+                    "skin": "res_view/equipAwake/text_weizhishux.png",
+                    "name": "wenhao",
+                    "alpha": 0
+                  },
+                  "compId": 162
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 20,
+                    "x": 230,
+                    "visible": false,
+                    "skin": "res_view/equipAwake/text_tzsb.png",
+                    "name": "fail",
+                    "anchorY": 0.5,
+                    "anchorX": 0.5,
+                    "alpha": 0
+                  },
+                  "compId": 163
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 18,
+                    "x": -59,
+                    "skin": "res_view/equipAwake/unlock.png",
+                    "name": "lockSign",
+                    "anchorY": 0.5,
+                    "anchorX": 0.5,
+                    "alpha": 1
+                  },
+                  "compId": 182
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 90,
+                "width": 410,
+                "var": "box2",
+                "height": 90,
+                "alpha": 0
+              },
+              "compId": 164,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 8,
+                    "skin": "res_view/equipAwake/text_erchong.png"
+                  },
+                  "compId": 165
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 7,
+                    "text": "+ 50 物理攻击",
+                    "fontSize": 24,
+                    "font": "SimHei",
+                    "color": "#00ff3c",
+                    "centerX": 16,
+                    "bold": true
+                  },
+                  "compId": 166
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 10,
+                    "x": 197,
+                    "visible": false,
+                    "skin": "res_view/equipAwake/text_weizhishux.png",
+                    "name": "wenhao",
+                    "alpha": 0
+                  },
+                  "compId": 167
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 20,
+                    "x": 230,
+                    "visible": false,
+                    "skin": "res_view/equipAwake/text_tzsb.png",
+                    "name": "fail",
+                    "anchorY": 0.5,
+                    "anchorX": 0.5,
+                    "alpha": 0
+                  },
+                  "compId": 168
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 18,
+                    "x": -59,
+                    "skin": "res_view/equipAwake/unlock.png",
+                    "name": "lockSign",
+                    "anchorY": 0.5,
+                    "anchorX": 0.5,
+                    "alpha": 0
+                  },
+                  "compId": 183
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 180,
+                "width": 410,
+                "var": "box3",
+                "height": 90,
+                "alpha": 0
+              },
+              "compId": 169,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 8,
+                    "skin": "res_view/equipAwake/text_sanchong.png"
+                  },
+                  "compId": 170
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 7,
+                    "wordWrap": true,
+                    "width": 282,
+                    "leading": 2,
+                    "height": 90,
+                    "fontSize": 24,
+                    "font": "SimHei",
+                    "centerX": 9,
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 171
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 10,
+                    "x": 197,
+                    "visible": false,
+                    "skin": "res_view/equipAwake/text_weizhishux.png",
+                    "name": "wenhao",
+                    "alpha": 0
+                  },
+                  "compId": 172
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 20,
+                    "x": 230,
+                    "visible": false,
+                    "skin": "res_view/equipAwake/text_tzsb.png",
+                    "name": "fail",
+                    "anchorY": 0.5,
+                    "anchorX": 0.5,
+                    "alpha": 0
+                  },
+                  "compId": 173
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 18,
+                    "x": -59,
+                    "skin": "res_view/equipAwake/unlock.png",
+                    "name": "lockSign",
+                    "anchorY": 0.5,
+                    "anchorX": 0.5,
+                    "alpha": 0
+                  },
+                  "compId": 184
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 270,
+                "x": 0,
+                "width": 410,
+                "var": "box4",
+                "height": 90,
+                "alpha": 0
+              },
+              "compId": 174,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 8,
+                    "skin": "res_view/equipAwake/text_sichong.png"
+                  },
+                  "compId": 175
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 7,
+                    "wordWrap": true,
+                    "width": 286,
+                    "text": "+ 50 物理攻+ 50 物理攻击+ 50 物理击+ 50 物理攻击+ 50 物理攻击+ 50 物理攻击+ 50 物理攻 + 50 物理攻击",
+                    "leading": 2,
+                    "height": 90,
+                    "fontSize": 24,
+                    "font": "SimHei",
+                    "color": "#00ff3c",
+                    "centerX": 6,
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 176
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 10,
+                    "x": 197,
+                    "visible": false,
+                    "skin": "res_view/equipAwake/text_weizhishux.png",
+                    "name": "wenhao",
+                    "alpha": 0
+                  },
+                  "compId": 177
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 20,
+                    "x": 230,
+                    "visible": false,
+                    "skin": "res_view/equipAwake/text_tzsb.png",
+                    "name": "fail",
+                    "anchorY": 0.5,
+                    "anchorX": 0.5,
+                    "alpha": 0
+                  },
+                  "compId": 178
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 18,
+                    "x": -59,
+                    "skin": "res_view/equipAwake/unlock.png",
+                    "name": "lockSign",
+                    "anchorY": 0.5,
+                    "anchorX": 0.5,
+                    "alpha": 0
+                  },
+                  "compId": 185
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 1093,
+            "width": 246,
+            "var": "videoBox",
+            "height": 60,
+            "centerX": 128,
+            "alpha": 1
+          },
+          "compId": 179,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 28,
+                "x": 27,
+                "width": 53,
+                "var": "bindStone",
+                "skin": "res_common/img_btn_ad.png",
+                "height": 42,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 129
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 15,
+                "x": 48,
+                "width": 110,
+                "visible": true,
+                "var": "videoNum",
+                "text": "0/3",
+                "fontSize": 31,
+                "font": "Microsoft YaHei",
+                "color": "#f01b0e",
+                "bold": true,
+                "align": "center"
+              },
+              "compId": 130
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -7,
+                "x": 174,
+                "var": "videoBtn",
+                "skin": "res_view/equipAwake/btn_playad.png",
+                "label": "label"
+              },
+              "compId": 131
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 1095,
+            "width": 210,
+            "var": "coinBox",
+            "height": 60,
+            "centerX": -158,
+            "alpha": 1
+          },
+          "compId": 180,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 27,
+                "x": 47,
+                "var": "refreshIcon",
+                "skin": "netRes/icon/itemIcon/icon_xuantie_wuqi.png",
+                "scaleY": 0.4,
+                "scaleX": 0.4,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 126
+            },
+            {
+              "type": "Label",
+              "props": {
+                "x": 82,
+                "width": 110,
+                "visible": true,
+                "var": "refreshNum",
+                "text": "35/10",
+                "fontSize": 31,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "centerY": -1,
+                "bold": true,
+                "align": "center"
+              },
+              "compId": 127
+            }
+          ]
+        },
+        {
+          "type": "Button",
+          "props": {
+            "y": 1173,
+            "var": "confirmBtn",
+            "stateNum": 1,
+            "skin": "res_common/btn_equipment_Place.png",
+            "centerX": 0,
+            "alpha": 1
+          },
+          "compId": 134,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "skin": "res_view/equipAwake/text_xilian.png",
+                "centerY": 0,
+                "centerX": 0
+              },
+              "compId": 181
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 58,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0.6,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 58,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 58,
+                "key": "alpha",
+                "index": 10
+              }
+            ]
+          }
+        }
+      ],
+      "name": "tempAni",
+      "id": 1,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 144,
+          "keyframes": {
+            "skin": [
+              {
+                "value": "res_view/equipAwake/fx/1.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 144,
+                "label": null,
+                "key": "skin",
+                "index": 0
+              },
+              {
+                "value": "res_view/equipAwake/fx/2.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 144,
+                "label": null,
+                "key": "skin",
+                "index": 3
+              },
+              {
+                "value": "res_view/equipAwake/fx/3.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 144,
+                "label": null,
+                "key": "skin",
+                "index": 6
+              },
+              {
+                "value": "res_view/equipAwake/fx/4.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 144,
+                "label": null,
+                "key": "skin",
+                "index": 9
+              },
+              {
+                "value": "res_view/equipAwake/fx/5.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 144,
+                "label": null,
+                "key": "skin",
+                "index": 12
+              },
+              {
+                "value": "res_view/equipAwake/fx/6.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 144,
+                "label": null,
+                "key": "skin",
+                "index": 15
+              },
+              {
+                "value": "res_view/equipAwake/fx/7.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 144,
+                "label": null,
+                "key": "skin",
+                "index": 18
+              },
+              {
+                "value": "res_view/equipAwake/fx/8.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 144,
+                "label": null,
+                "key": "skin",
+                "index": 21
+              },
+              {
+                "value": "res_view/equipAwake/fx/9.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 144,
+                "label": null,
+                "key": "skin",
+                "index": 24
+              }
+            ]
+          }
+        }
+      ],
+      "name": "fireAni",
+      "id": 2,
+      "frameRate": 30,
+      "action": 2
+    },
+    {
+      "nodes": [
+        {
+          "target": 144,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 144,
+                "label": null,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 144,
+                "label": null,
+                "key": "alpha",
+                "index": 16
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 144,
+                "label": null,
+                "key": "alpha",
+                "index": 21
+              }
+            ]
+          }
+        },
+        {
+          "target": 136,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 136,
+                "label": null,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 136,
+                "label": null,
+                "key": "alpha",
+                "index": 13
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 136,
+                "label": null,
+                "key": "alpha",
+                "index": 18
+              }
+            ]
+          }
+        },
+        {
+          "target": 137,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 137,
+                "label": null,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 137,
+                "label": null,
+                "key": "alpha",
+                "index": 14
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 137,
+                "label": null,
+                "key": "alpha",
+                "index": 19
+              }
+            ]
+          }
+        },
+        {
+          "target": 138,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 138,
+                "label": null,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 138,
+                "label": null,
+                "key": "alpha",
+                "index": 13
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 138,
+                "label": null,
+                "key": "alpha",
+                "index": 18
+              }
+            ]
+          }
+        },
+        {
+          "target": 139,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 139,
+                "label": null,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 139,
+                "label": null,
+                "key": "alpha",
+                "index": 13
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 139,
+                "label": null,
+                "key": "alpha",
+                "index": 18
+              }
+            ]
+          }
+        },
+        {
+          "target": 141,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 141,
+                "label": null,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 141,
+                "label": null,
+                "key": "alpha",
+                "index": 16
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 141,
+                "label": null,
+                "key": "alpha",
+                "index": 21
+              }
+            ]
+          }
+        },
+        {
+          "target": 142,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 142,
+                "label": null,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 142,
+                "label": null,
+                "key": "alpha",
+                "index": 20
+              },
+              {
+                "value": 0.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 142,
+                "label": "showBox",
+                "key": "alpha",
+                "index": 24
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 142,
+                "label": null,
+                "key": "alpha",
+                "index": 25
+              }
+            ]
+          }
+        },
+        {
+          "target": 135,
+          "keyframes": {
+            "y": [
+              {
+                "value": -321,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 135,
+                "label": null,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 148,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 135,
+                "label": null,
+                "key": "y",
+                "index": 3
+              },
+              {
+                "value": 387,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 135,
+                "label": null,
+                "key": "y",
+                "index": 6
+              }
+            ],
+            "x": [
+              {
+                "value": 359,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 135,
+                "label": null,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 166,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 135,
+                "label": null,
+                "key": "x",
+                "index": 3
+              },
+              {
+                "value": 375,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 135,
+                "label": null,
+                "key": "x",
+                "index": 6
+              }
+            ],
+            "rotation": [
+              {
+                "value": -15,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 135,
+                "label": null,
+                "key": "rotation",
+                "index": 0
+              },
+              {
+                "value": -5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 135,
+                "label": null,
+                "key": "rotation",
+                "index": 6
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 135,
+                "label": null,
+                "key": "rotation",
+                "index": 7
+              },
+              {
+                "value": 3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 135,
+                "label": null,
+                "key": "rotation",
+                "index": 8
+              },
+              {
+                "value": 7,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 135,
+                "label": null,
+                "key": "rotation",
+                "index": 9
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 135,
+                "label": null,
+                "key": "rotation",
+                "index": 13
+              }
+            ]
+          }
+        },
+        {
+          "target": 140,
+          "keyframes": {
+            "y": [
+              {
+                "value": 1000,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 140,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 1000,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 140,
+                "label": null,
+                "key": "y",
+                "index": 4
+              },
+              {
+                "value": 1109,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 140,
+                "key": "y",
+                "index": 13
+              },
+              {
+                "value": 1079,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 140,
+                "key": "y",
+                "index": 17
+              }
+            ],
+            "x": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 140,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 140,
+                "label": null,
+                "key": "x",
+                "index": 4
+              },
+              {
+                "value": 671,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 140,
+                "key": "x",
+                "index": 13
+              },
+              {
+                "value": 671,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 140,
+                "key": "x",
+                "index": 17
+              }
+            ],
+            "rotation": [
+              {
+                "value": -90,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 140,
+                "key": "rotation",
+                "index": 0
+              },
+              {
+                "value": -90,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 140,
+                "label": null,
+                "key": "rotation",
+                "index": 4
+              },
+              {
+                "value": 4,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 140,
+                "key": "rotation",
+                "index": 13
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 140,
+                "key": "rotation",
+                "index": 17
+              }
+            ]
+          }
+        },
+        {
+          "target": 134,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 134,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 134,
+                "key": "alpha",
+                "index": 28
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 134,
+                "key": "alpha",
+                "index": 33
+              }
+            ]
+          }
+        },
+        {
+          "target": 179,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 179,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 179,
+                "key": "alpha",
+                "index": 17
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 179,
+                "key": "alpha",
+                "index": 22
+              }
+            ]
+          }
+        },
+        {
+          "target": 180,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 180,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 180,
+                "key": "alpha",
+                "index": 17
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 180,
+                "key": "alpha",
+                "index": 22
+              }
+            ]
+          }
+        }
+      ],
+      "name": "openAni",
+      "id": 3,
+      "frameRate": 30,
+      "action": 1
+    },
+    {
+      "nodes": [
+        {
+          "target": 159,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 159,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 159,
+                "key": "alpha",
+                "index": 5
+              }
+            ]
+          }
+        }
+      ],
+      "name": "boxAni1",
+      "id": 4,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 164,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 164,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 164,
+                "key": "alpha",
+                "index": 5
+              }
+            ]
+          }
+        }
+      ],
+      "name": "boxAni2",
+      "id": 5,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 169,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 169,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 169,
+                "key": "alpha",
+                "index": 5
+              }
+            ]
+          }
+        }
+      ],
+      "name": "boxAni3",
+      "id": 6,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 174,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 174,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 174,
+                "key": "alpha",
+                "index": 5
+              }
+            ]
+          }
+        }
+      ],
+      "name": "boxAni4",
+      "id": 7,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 182,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 182,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 182,
+                "key": "alpha",
+                "index": 5
+              }
+            ]
+          }
+        },
+        {
+          "target": 183,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 183,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 183,
+                "key": "alpha",
+                "index": 5
+              }
+            ]
+          }
+        },
+        {
+          "target": 184,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 184,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 184,
+                "key": "alpha",
+                "index": 5
+              }
+            ]
+          }
+        },
+        {
+          "target": 185,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 185,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 185,
+                "key": "alpha",
+                "index": 5
+              }
+            ]
+          }
+        }
+      ],
+      "name": "lockAni",
+      "id": 8,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 148,
+          "keyframes": {
+            "centerY": [
+              {
+                "value": 10,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 148,
+                "key": "centerY",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 148,
+                "key": "centerY",
+                "index": 4
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 148,
+                "key": "centerY",
+                "index": 14
+              },
+              {
+                "value": -8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 148,
+                "key": "centerY",
+                "index": 18
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 148,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 148,
+                "key": "alpha",
+                "index": 4
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 148,
+                "key": "alpha",
+                "index": 14
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 148,
+                "key": "alpha",
+                "index": 18
+              }
+            ]
+          }
+        }
+      ],
+      "name": "addScoreAni",
+      "id": 9,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 146,
+          "keyframes": {
+            "color": [
+              {
+                "value": "#0cff00",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 146,
+                "key": "color",
+                "index": 0
+              },
+              {
+                "value": "#ffffff",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 146,
+                "key": "color",
+                "index": 6
+              },
+              {
+                "value": "#0cff00",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 146,
+                "key": "color",
+                "index": 9
+              },
+              {
+                "value": "#ffffff",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 146,
+                "key": "color",
+                "index": 13
+              },
+              {
+                "value": "#0cff00",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 146,
+                "key": "color",
+                "index": 17
+              }
+            ]
+          }
+        }
+      ],
+      "name": "scoreLightAni",
+      "id": 10,
+      "frameRate": 30,
+      "action": 0
+    }
+  ],
+  "loadList": [
+    "res_view/equipAwake/fx/1.png",
+    "res_view/equipAwake/fx/2.png",
+    "res_view/equipAwake/fx/3.png",
+    "res_view/equipAwake/fx/4.png",
+    "res_view/equipAwake/fx/5.png",
+    "res_view/equipAwake/fx/6.png",
+    "res_view/equipAwake/fx/7.png",
+    "res_view/equipAwake/fx/8.png",
+    "res_view/equipAwake/fx/9.png"
+  ],
+  "loadList3D": []
+}

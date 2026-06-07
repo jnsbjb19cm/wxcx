@@ -1,0 +1,309 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "width": 1133,
+        "visible": true,
+        "var": "childnote",
+        "pivotY": 20,
+        "height": 1655,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "x": 0,
+            "width": 1133,
+            "var": "node_mask",
+            "skin": "res_common/bg.png",
+            "height": 1344,
+            "centerY": -4,
+            "alpha": 0.45
+          },
+          "compId": 4
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 90,
+            "x": 146
+          },
+          "compId": 5,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 367,
+                "x": 111,
+                "width": 605,
+                "var": "node_bg",
+                "skin": "res_common/bg_1.png",
+                "sizeGrid": "54,0,0,0",
+                "height": 645
+              },
+              "compId": 6
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 357,
+                "x": 626,
+                "var": "node_close",
+                "skin": "res_common/btn_close.png"
+              },
+              "compId": 7
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 427,
+                "x": 276.5,
+                "skin": "netRes/task/bg_title01.png"
+              },
+              "compId": 8,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 8,
+                    "x": 107,
+                    "skin": "res_combat/boss/text_shuoming.png"
+                  },
+                  "compId": 9
+                }
+              ]
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 493,
+                "x": 151,
+                "text": "一、徒弟属性：",
+                "fontSize": 24,
+                "font": "Microsoft YaHei",
+                "color": "#8b3939"
+              },
+              "compId": 10,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 35,
+                    "x": 0,
+                    "wordWrap": true,
+                    "width": 515,
+                    "text": "1. 徒弟品质：代表徒弟培养潜力，由美人的品质",
+                    "height": 28,
+                    "fontSize": 24,
+                    "font": "Microsoft YaHei",
+                    "color": "#684546"
+                  },
+                  "compId": 11
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 70,
+                    "x": 0,
+                    "wordWrap": true,
+                    "width": 515,
+                    "text": "和好感度等级决定，品质越高徒弟加成越高。",
+                    "height": 28,
+                    "fontSize": 24,
+                    "font": "Microsoft YaHei",
+                    "color": "#684546"
+                  },
+                  "compId": 12
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 106,
+                    "x": 0,
+                    "wordWrap": true,
+                    "width": 515,
+                    "text": "2. 徒弟加成：培养徒弟会获得功德和战斗内职业",
+                    "height": 28,
+                    "fontSize": 24,
+                    "font": "Microsoft YaHei",
+                    "color": "#684546"
+                  },
+                  "compId": 13
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 141,
+                    "x": 0,
+                    "wordWrap": true,
+                    "width": 515,
+                    "text": "属性的加成。",
+                    "height": 28,
+                    "fontSize": 24,
+                    "font": "Microsoft YaHei",
+                    "color": "#684546"
+                  },
+                  "compId": 14
+                }
+              ]
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 669,
+                "x": 151,
+                "text": "二、徒弟培养：",
+                "fontSize": 24,
+                "font": "Microsoft YaHei",
+                "color": "#8b3939"
+              },
+              "compId": 15,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 35,
+                    "x": 0,
+                    "wordWrap": true,
+                    "width": 515,
+                    "text": "1. 徒弟授学：培养前可选择授学方式，授学方式",
+                    "height": 28,
+                    "fontSize": 24,
+                    "font": "Microsoft YaHei",
+                    "color": "#684546"
+                  },
+                  "compId": 16
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 70,
+                    "x": 0,
+                    "wordWrap": true,
+                    "width": 515,
+                    "text": "越好，徒弟加成越高。",
+                    "height": 28,
+                    "fontSize": 24,
+                    "font": "Microsoft YaHei",
+                    "color": "#684546"
+                  },
+                  "compId": 17
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 106,
+                    "x": 0,
+                    "wordWrap": true,
+                    "width": 515,
+                    "text": "2. 培养徒弟需消耗活力，培养可增加徒弟培养进",
+                    "height": 28,
+                    "fontSize": 24,
+                    "font": "Microsoft YaHei",
+                    "color": "#684546"
+                  },
+                  "compId": 18
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 141,
+                    "x": 0,
+                    "wordWrap": true,
+                    "width": 515,
+                    "text": "度，并获得徒弟加成。",
+                    "height": 28,
+                    "fontSize": 24,
+                    "font": "Microsoft YaHei",
+                    "color": "#684546"
+                  },
+                  "compId": 19
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 175,
+                    "x": 0,
+                    "wordWrap": true,
+                    "width": 515,
+                    "text": "3. 活力：随时间自然恢复，每30分恢复一点。每",
+                    "height": 28,
+                    "fontSize": 24,
+                    "font": "Microsoft YaHei",
+                    "color": "#684546"
+                  },
+                  "compId": 20
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 210,
+                    "x": 0,
+                    "wordWrap": true,
+                    "width": 544,
+                    "text": "日可免费恢复活力3次，也可以使用道具增加活力。",
+                    "height": 28,
+                    "fontSize": 24,
+                    "font": "Microsoft YaHei",
+                    "color": "#684546"
+                  },
+                  "compId": 21
+                }
+              ]
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 914,
+                "x": 151,
+                "text": "三、徒弟成年：",
+                "fontSize": 24,
+                "font": "Microsoft YaHei",
+                "color": "#8b3939"
+              },
+              "compId": 22,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 35,
+                    "x": 0,
+                    "wordWrap": true,
+                    "width": 515,
+                    "text": "当徒弟的培养进度满时，可冠笄成年。",
+                    "height": 28,
+                    "fontSize": 24,
+                    "font": "Microsoft YaHei",
+                    "color": "#684546"
+                  },
+                  "compId": 23
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 1007,
+                "x": 266.5,
+                "skin": "res_view/rank/text_djgb.png"
+              },
+              "compId": 25
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": ["res_common/bg_1.png"],
+  "loadList3D": []
+}

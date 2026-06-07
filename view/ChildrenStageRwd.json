@@ -1,0 +1,81 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 143,
+        "x": -229,
+        "width": 1208,
+        "var": "mask_bg",
+        "skin": "res_common/bg.png",
+        "height": 1341,
+        "alpha": 0.45
+      },
+      "compId": 9
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 415,
+        "x": 78,
+        "width": 590,
+        "height": 860
+      },
+      "compId": 5,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 1,
+            "x": -4,
+            "width": 605,
+            "var": "node_bg",
+            "skin": "res_common/bg_1.png",
+            "sizeGrid": "54,0,0,0",
+            "height": 832
+          },
+          "compId": 4
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -8,
+            "x": 511,
+            "var": "node_close",
+            "skin": "res_common/btn_close.png"
+          },
+          "compId": 6
+        },
+        {
+          "type": "Panel",
+          "props": {
+            "y": 78,
+            "x": 0,
+            "width": 591,
+            "var": "cnlist",
+            "vScrollBarSkin": " ",
+            "height": 691
+          },
+          "compId": 7
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 833,
+            "x": 163,
+            "skin": "res_view/rank/text_djgb.png"
+          },
+          "compId": 8
+        }
+      ]
+    }
+  ],
+  "loadList": ["res_common/bg_1.png"],
+  "loadList3D": []
+}

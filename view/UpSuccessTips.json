@@ -1,0 +1,236 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 813,
+        "x": 500,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 3
+    },
+    {
+      "type": "Box",
+      "props": {
+        "x": 375,
+        "width": 750,
+        "height": 822,
+        "centerY": -32,
+        "anchorY": 0.5,
+        "anchorX": 0.5
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -1,
+            "var": "titleImg",
+            "skin": "res_view/workshop/text_title_shengjichenggong.png",
+            "centerX": 3
+          },
+          "compId": 5
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 500,
+            "x": 375,
+            "var": "buildImg",
+            "centerX": 0,
+            "anchorY": 1,
+            "anchorX": 0.5,
+            "alpha": 0
+          },
+          "compId": 14
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 527,
+            "var": "bg",
+            "skin": "res_common/panel_text.png",
+            "sizeGrid": "37,170,40,160",
+            "height": 190,
+            "centerX": -1,
+            "alpha": 0
+          },
+          "compId": 6,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 25,
+                "var": "nameImg",
+                "skin": "res_view/workshop/text_title_yaoqianshu.png",
+                "centerX": 0
+              },
+              "compId": 17
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 132,
+                "x": 63,
+                "wordWrap": true,
+                "width": 560,
+                "visible": false,
+                "var": "desc2",
+                "text": "炼金工坊",
+                "height": 24,
+                "fontSize": 24,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "centerX": 0,
+                "bold": true,
+                "align": "center"
+              },
+              "compId": 16
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 134,
+                "visible": false,
+                "var": "descLv",
+                "skin": "res_view/workshop/text_arrow.png",
+                "centerX": 0
+              },
+              "compId": 18,
+              "child": [
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": -11,
+                    "var": "preLv",
+                    "value": "1",
+                    "spaceX": -5,
+                    "skin": "res_common/number/num_36_jxzk_fffff_stk4.png",
+                    "sheet": "0123456789+-*/()<>",
+                    "centerX": -86
+                  },
+                  "compId": 20,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "skin": "res_view/workshop/text_title_ji.png",
+                        "right": -43
+                      },
+                      "compId": 19
+                    }
+                  ]
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": -11,
+                    "var": "nextLv",
+                    "value": "2",
+                    "spaceX": -5,
+                    "skin": "res_common/number/num_36_jxzk_fffff_stk4.png",
+                    "sheet": "0123456789+-*/()<>",
+                    "centerX": 36
+                  },
+                  "compId": 21,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "skin": "res_view/workshop/text_title_ji.png",
+                        "right": -43
+                      },
+                      "compId": 22
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 14,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 14,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 14,
+                "key": "alpha",
+                "index": 5
+              }
+            ]
+          }
+        },
+        {
+          "target": 6,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 6,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 6,
+                "key": "alpha",
+                "index": 5
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 6,
+                "key": "alpha",
+                "index": 10
+              }
+            ]
+          }
+        }
+      ],
+      "name": "openAni",
+      "id": 1,
+      "frameRate": 30,
+      "action": 0
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

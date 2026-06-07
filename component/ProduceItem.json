@@ -1,0 +1,80 @@
+{
+  "type": "View",
+  "props": {
+    "width": 72,
+    "height": 72
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "width": 72,
+        "skin": "res_view/workshop/solt_bg_res.png",
+        "height": 72
+      },
+      "compId": 3
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 36,
+        "x": 36,
+        "width": 78,
+        "var": "itemImg",
+        "skin": "netRes/icon/itemIcon/icon_gongde.png",
+        "height": 78,
+        "anchorY": 0.5,
+        "anchorX": 0.5
+      },
+      "compId": 4
+    },
+    {
+      "type": "Image",
+      "props": {
+        "width": 60,
+        "visible": false,
+        "var": "cdImg",
+        "skin": "res_common/bg21.png",
+        "height": 60,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.5
+      },
+      "compId": 6,
+      "child": [
+        {
+          "type": "Sprite",
+          "props": {
+            "var": "cdMask"
+          },
+          "compId": 7
+        }
+      ]
+    },
+    {
+      "type": "FontClip",
+      "props": {
+        "y": 37,
+        "width": 117,
+        "visible": false,
+        "var": "cdLab",
+        "value": "0",
+        "presetID": 1,
+        "height": 34,
+        "centerX": -6,
+        "x": 0,
+        "spaceX": -11,
+        "skin": "res_common/number/num_14_rhrc_ffffff_stk.png",
+        "sheet": "0123456789-+*:",
+        "isPresetRoot": true,
+        "align": "center"
+      },
+      "compId": 5
+    }
+  ],
+  "loadList": ["prefab/number/num_14_rhrc_ffffff_stk.prefab"],
+  "loadList3D": []
+}

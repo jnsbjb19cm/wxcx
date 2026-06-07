@@ -1,0 +1,854 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 3300
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "var": "bg",
+        "skin": "netRes/combat/map/worldmap_17.jpg"
+      },
+      "compId": 3
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "name": "signBox",
+        "height": 2821,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Sprite",
+          "props": {
+            "y": 2710,
+            "x": 455,
+            "width": 80,
+            "texture": "res_common/pro_mask.png",
+            "pivotY": 40,
+            "pivotX": 40,
+            "name": "17011",
+            "height": 80,
+            "alpha": 0.5
+          },
+          "compId": 6,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -8,
+                "x": -35,
+                "skin": "res_common/solt_hero_blue.png",
+                "scaleY": 0.2,
+                "scaleX": 0.2,
+                "name": "point_17021",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 57
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -43,
+                "x": -67,
+                "skin": "res_common/solt_hero_blue.png",
+                "scaleY": 0.2,
+                "scaleX": 0.2,
+                "name": "point_17021",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 58
+            }
+          ]
+        },
+        {
+          "type": "Sprite",
+          "props": {
+            "y": 2581,
+            "x": 282,
+            "width": 80,
+            "texture": "res_common/pro_mask.png",
+            "pivotY": 40,
+            "pivotX": 40,
+            "name": "17021",
+            "height": 80,
+            "alpha": 0.5
+          },
+          "compId": 7,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 5,
+                "skin": "res_common/solt_hero_blue.png",
+                "scaleY": 0.2,
+                "scaleX": 0.2,
+                "name": "point_17031",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 62
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -78,
+                "x": -4,
+                "skin": "res_common/solt_hero_blue.png",
+                "scaleY": 0.2,
+                "scaleX": 0.2,
+                "name": "point_17031",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 114
+            }
+          ]
+        },
+        {
+          "type": "Sprite",
+          "props": {
+            "y": 2376,
+            "x": 246,
+            "width": 80,
+            "texture": "res_common/pro_mask.png",
+            "pivotY": 40,
+            "pivotX": 40,
+            "name": "17031",
+            "height": 80,
+            "alpha": 0.5
+          },
+          "compId": 11,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 13,
+                "x": 52,
+                "skin": "res_common/solt_hero_blue.png",
+                "scaleY": 0.2,
+                "scaleX": 0.2,
+                "name": "point_17041",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 65
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -31,
+                "x": 20,
+                "skin": "res_common/solt_hero_blue.png",
+                "scaleY": 0.2,
+                "scaleX": 0.2,
+                "name": "point_17041",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 66
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -75,
+                "x": 46,
+                "skin": "res_common/solt_hero_blue.png",
+                "scaleY": 0.2,
+                "scaleX": 0.2,
+                "name": "point_17041",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 100
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -106,
+                "x": 59,
+                "skin": "res_common/solt_hero_blue.png",
+                "scaleY": 0.2,
+                "scaleX": 0.2,
+                "name": "point_17041",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 101
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -138,
+                "x": 40,
+                "skin": "res_common/solt_hero_blue.png",
+                "scaleY": 0.2,
+                "scaleX": 0.2,
+                "name": "point_17041",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 102
+            }
+          ]
+        },
+        {
+          "type": "Sprite",
+          "props": {
+            "y": 2152,
+            "x": 225,
+            "width": 80,
+            "texture": "res_common/pro_mask.png",
+            "pivotY": 40,
+            "pivotX": 40,
+            "name": "17041",
+            "height": 80,
+            "alpha": 0.5
+          },
+          "compId": 27,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 27,
+                "skin": "res_common/solt_hero_blue.png",
+                "scaleY": 0.2,
+                "scaleX": 0.2,
+                "name": "point_17051",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 68
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -142,
+                "x": 41,
+                "skin": "res_common/solt_hero_blue.png",
+                "scaleY": 0.2,
+                "scaleX": 0.2,
+                "name": "point_17051",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 103
+            }
+          ]
+        },
+        {
+          "type": "Sprite",
+          "props": {
+            "y": 1940,
+            "x": 251,
+            "width": 80,
+            "texture": "res_common/pro_mask.png",
+            "pivotY": 40,
+            "pivotX": 40,
+            "name": "17051",
+            "height": 80,
+            "alpha": 0.5
+          },
+          "compId": 17,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 5,
+                "x": 106,
+                "skin": "res_common/solt_hero_blue.png",
+                "scaleY": 0.2,
+                "scaleX": 0.2,
+                "name": "point_17061",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 71
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -70,
+                "x": 181,
+                "skin": "res_common/solt_hero_blue.png",
+                "scaleY": 0.2,
+                "scaleX": 0.2,
+                "name": "point_17061",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 115
+            }
+          ]
+        },
+        {
+          "type": "Sprite",
+          "props": {
+            "y": 1781,
+            "x": 401,
+            "width": 80,
+            "texture": "res_common/pro_mask.png",
+            "pivotY": 40,
+            "pivotX": 40,
+            "name": "17061",
+            "height": 80,
+            "alpha": 0.5
+          },
+          "compId": 18,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -35,
+                "x": 32,
+                "skin": "res_common/solt_hero_blue.png",
+                "scaleY": 0.2,
+                "scaleX": 0.2,
+                "name": "point_17071",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 76
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -110,
+                "x": 20,
+                "skin": "res_common/solt_hero_blue.png",
+                "scaleY": 0.2,
+                "scaleX": 0.2,
+                "name": "point_17071",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 77
+            }
+          ]
+        },
+        {
+          "type": "Sprite",
+          "props": {
+            "y": 1561.5,
+            "x": 374,
+            "width": 80,
+            "texture": "res_common/pro_mask.png",
+            "pivotY": 40,
+            "pivotX": 40,
+            "name": "17071",
+            "height": 80,
+            "alpha": 0.5
+          },
+          "compId": 28,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -70,
+                "x": -47,
+                "skin": "res_common/solt_hero_blue.png",
+                "scaleY": 0.2,
+                "scaleX": 0.2,
+                "name": "point_17081",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 81
+            }
+          ]
+        },
+        {
+          "type": "Sprite",
+          "props": {
+            "y": 1379,
+            "x": 204,
+            "width": 80,
+            "texture": "res_common/pro_mask.png",
+            "pivotY": 40,
+            "pivotX": 40,
+            "name": "17081",
+            "height": 80,
+            "alpha": 0.5
+          },
+          "compId": 31,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -45,
+                "x": -32,
+                "skin": "res_common/solt_hero_blue.png",
+                "scaleY": 0.2,
+                "scaleX": 0.2,
+                "name": "point_17091",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 86
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -75,
+                "x": -49,
+                "skin": "res_common/solt_hero_blue.png",
+                "scaleY": 0.2,
+                "scaleX": 0.2,
+                "name": "point_17091",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 104
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -120,
+                "x": -44,
+                "skin": "res_common/solt_hero_blue.png",
+                "scaleY": 0.2,
+                "scaleX": 0.2,
+                "name": "point_17091",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 105
+            }
+          ]
+        },
+        {
+          "type": "Sprite",
+          "props": {
+            "y": 1174,
+            "x": 134,
+            "width": 80,
+            "texture": "res_common/pro_mask.png",
+            "pivotY": 40,
+            "pivotX": 40,
+            "name": "17091",
+            "height": 80,
+            "alpha": 0.5
+          },
+          "compId": 34,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 66,
+                "skin": "res_common/solt_hero_blue.png",
+                "scaleY": 0.2,
+                "scaleX": 0.2,
+                "name": "point_17101",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 88
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -59,
+                "x": 152,
+                "skin": "res_common/solt_hero_blue.png",
+                "scaleY": 0.2,
+                "scaleX": 0.2,
+                "name": "point_17101",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 106
+            }
+          ]
+        },
+        {
+          "type": "Sprite",
+          "props": {
+            "y": 1023,
+            "x": 302,
+            "width": 80,
+            "texture": "res_common/pro_mask.png",
+            "pivotY": 40,
+            "pivotX": 40,
+            "name": "17101",
+            "height": 80,
+            "alpha": 0.5
+          },
+          "compId": 37,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -26,
+                "x": 80,
+                "skin": "res_common/solt_hero_blue.png",
+                "scaleY": 0.2,
+                "scaleX": 0.2,
+                "name": "point_17111",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 108
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -128,
+                "x": 120,
+                "skin": "res_common/solt_hero_blue.png",
+                "scaleY": 0.2,
+                "scaleX": 0.2,
+                "name": "point_17111",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 116
+            }
+          ]
+        },
+        {
+          "type": "Sprite",
+          "props": {
+            "y": 802,
+            "x": 415,
+            "width": 80,
+            "texture": "res_common/pro_mask.png",
+            "pivotY": 40,
+            "pivotX": 40,
+            "name": "17111",
+            "height": 80,
+            "alpha": 0.5
+          },
+          "compId": 40,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 14,
+                "x": 94,
+                "skin": "res_common/solt_hero_blue.png",
+                "scaleY": 0.2,
+                "scaleX": 0.2,
+                "name": "point_17121",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 107
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -20,
+                "x": 182,
+                "skin": "res_common/solt_hero_blue.png",
+                "scaleY": 0.2,
+                "scaleX": 0.2,
+                "name": "point_17121",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 109
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -61,
+                "x": 217,
+                "skin": "res_common/solt_hero_blue.png",
+                "scaleY": 0.2,
+                "scaleX": 0.2,
+                "name": "point_17121",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 110
+            }
+          ]
+        },
+        {
+          "type": "Sprite",
+          "props": {
+            "y": 619,
+            "x": 587,
+            "width": 80,
+            "texture": "res_common/pro_mask.png",
+            "pivotY": 40,
+            "pivotX": 40,
+            "name": "17121",
+            "height": 80,
+            "alpha": 0.5
+          },
+          "compId": 43,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 5,
+                "x": 40,
+                "skin": "res_common/solt_hero_blue.png",
+                "scaleY": 0.2,
+                "scaleX": 0.2,
+                "name": "point_17131",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 94
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -94,
+                "x": -10,
+                "skin": "res_common/solt_hero_blue.png",
+                "scaleY": 0.2,
+                "scaleX": 0.2,
+                "name": "point_17131",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 117
+            }
+          ]
+        },
+        {
+          "type": "Sprite",
+          "props": {
+            "y": 412,
+            "x": 522,
+            "width": 80,
+            "texture": "res_common/pro_mask.png",
+            "pivotY": 40,
+            "pivotX": 40,
+            "name": "17131",
+            "height": 80,
+            "alpha": 0.5
+          },
+          "compId": 46,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -35,
+                "x": 5,
+                "skin": "res_common/solt_hero_blue.png",
+                "scaleY": 0.2,
+                "scaleX": 0.2,
+                "name": "point_17141",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 112
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -88,
+                "x": -70,
+                "skin": "res_common/solt_hero_blue.png",
+                "scaleY": 0.2,
+                "scaleX": 0.2,
+                "name": "point_17141",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 113
+            }
+          ]
+        },
+        {
+          "type": "Sprite",
+          "props": {
+            "y": 265,
+            "x": 368,
+            "width": 80,
+            "texture": "res_common/pro_mask.png",
+            "pivotY": 40,
+            "pivotX": 40,
+            "name": "17141",
+            "height": 80,
+            "alpha": 0.5
+          },
+          "compId": 48,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": -24,
+                "skin": "res_common/solt_hero_blue.png",
+                "scaleY": 0.2,
+                "scaleX": 0.2,
+                "name": "point_17151",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 98
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -84,
+                "x": -70,
+                "skin": "res_common/solt_hero_blue.png",
+                "scaleY": 0.2,
+                "scaleX": 0.2,
+                "name": "point_17151",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 111
+            }
+          ]
+        },
+        {
+          "type": "Sprite",
+          "props": {
+            "y": 57,
+            "x": 251,
+            "width": 80,
+            "texture": "res_common/pro_mask.png",
+            "pivotY": 40,
+            "pivotX": 40,
+            "name": "17151",
+            "height": 80,
+            "alpha": 0.5
+          },
+          "compId": 50
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "name": "stageBox",
+        "height": 2821,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 51,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "zOrder": 1000,
+            "y": 2680,
+            "x": 543,
+            "width": 85,
+            "var": "heroBox",
+            "pivotY": 101,
+            "pivotX": 43,
+            "name": "heroBox",
+            "height": 101
+          },
+          "compId": 52,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "zOrder": 1000,
+                "y": 99,
+                "x": 44,
+                "width": 88,
+                "var": "hero",
+                "skin": "res_view/chapterDetail/solt_profile.png",
+                "pivotY": 105,
+                "pivotX": 44,
+                "name": "hero",
+                "height": 105
+              },
+              "compId": 53,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 84,
+                    "skin": "",
+                    "scaleY": 0.55,
+                    "scaleX": 0.55,
+                    "centerX": -1,
+                    "anchorY": 1,
+                    "anchorX": 0.5
+                  },
+                  "compId": 54
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 53,
+          "keyframes": {
+            "y": [
+              {
+                "value": 100,
+                "tweenMethod": "quadInOut",
+                "tween": true,
+                "target": 53,
+                "label": null,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 95,
+                "tweenMethod": "quadInOut",
+                "tween": true,
+                "target": 53,
+                "label": null,
+                "key": "y",
+                "index": 30
+              },
+              {
+                "value": 100,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 53,
+                "label": null,
+                "key": "y",
+                "index": 60
+              }
+            ],
+            "x": [
+              {
+                "value": 44,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 53,
+                "label": null,
+                "key": "x",
+                "index": 0
+              }
+            ]
+          }
+        }
+      ],
+      "name": "heroBreathAni",
+      "id": 1,
+      "frameRate": 30,
+      "action": 2
+    }
+  ],
+  "loadList": [
+    "netRes/combat/map/worldmap_17.jpg",
+    "res_common/pro_mask.png",
+    "res_common/solt_hero_blue.png"
+  ],
+  "loadList3D": []
+}

@@ -1,0 +1,250 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 813,
+        "x": 500,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 3
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 596,
+        "var": "context",
+        "height": 420,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 49,
+            "width": 795,
+            "skin": "res_common/bg_common.png",
+            "sizeGrid": "155,0,162,0",
+            "scaleY": 0.76,
+            "scaleX": 0.76,
+            "height": 510,
+            "centerX": -4,
+            "alpha": 1
+          },
+          "compId": 6
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 87,
+            "skin": "res_common/bg_title01.png",
+            "centerX": -4,
+            "alpha": 1
+          },
+          "compId": 7,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 7,
+                "x": 80,
+                "skin": "netRes/liuhe/viewUI/text_mrfl.png",
+                "alpha": 1
+              },
+              "compId": 8
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 288.5,
+            "x": 201,
+            "skin": "res_combat/public/text_jrsycs.png"
+          },
+          "compId": 9,
+          "child": [
+            {
+              "type": "FontClip",
+              "props": {
+                "y": -3,
+                "x": 164,
+                "var": "remainNum",
+                "value": "3",
+                "presetID": 1,
+                "align": "center",
+                "spaceX": -6,
+                "skin": "res_common/number/num_30_jxzk_2ba213.png",
+                "sheet": "0123456789-+",
+                "isPresetRoot": true
+              },
+              "compId": 10
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 151,
+            "skin": "res_combat/public/board_inkmask.png",
+            "centerX": -3
+          },
+          "compId": 11,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 4,
+                "x": 4,
+                "width": 107,
+                "skin": "res_combat/public/icon_shoutu.png",
+                "height": 107,
+                "centerX": 0
+              },
+              "compId": 12
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 79,
+                "x": 65,
+                "var": "countLab",
+                "value": "*50",
+                "presetID": 1,
+                "spaceX": -6,
+                "skin": "res_common/number/num_36_rhrc_ffffff_stk.png",
+                "sheet": "0123456789+-*/()<>",
+                "isPresetRoot": true
+              },
+              "compId": 13
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 369,
+            "x": 296,
+            "var": "adBtn",
+            "stateNum": 1,
+            "skin": "res_common/btn_blue.png",
+            "label": "label",
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 14,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 40,
+                "x": 54,
+                "var": "freeVideoIcon",
+                "skin": "res_common/icon_ad2.png",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 15
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 18,
+                "x": 68,
+                "width": 118,
+                "visible": false,
+                "var": "proLab",
+                "value": "(0/2)",
+                "spaceX": -11,
+                "presetID": 1,
+                "height": 44,
+                "align": "center",
+                "skin": "res_common/number/num_33_jxzk_e0e8f5.png",
+                "sheet": "0123456789+-*/()<>",
+                "isPresetRoot": true
+              },
+              "compId": 16
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 23.5,
+                "x": 89.5,
+                "visible": false,
+                "var": "freeImg",
+                "skin": "res_common/text_mianfei.png"
+              },
+              "compId": 17
+            },
+            {
+              "type": "Script",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "runtime": "game/tools/BtnScale90.ts"
+              },
+              "compId": 18
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 361,
+            "visible": false,
+            "var": "overSign",
+            "skin": "res_combat/public/text_des_jrysq.png",
+            "centerX": -4
+          },
+          "compId": 19
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 433,
+            "text": "text",
+            "skin": "res_common/text_djrhqygb.png",
+            "centerX": 7
+          },
+          "compId": 20
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "var": "closeBtn",
+        "skin": "res_common/btn_close.png",
+        "centerY": -152,
+        "centerX": 254
+      },
+      "compId": 5
+    }
+  ],
+  "loadList": [
+    "prefab/number/num_30_jxzk_f27b327.prefab",
+    "prefab/number/num_36_rhrc_ffffff_stk.prefab",
+    "prefab/number/num_36_ss_fffff_stk.prefab"
+  ],
+  "loadList3D": []
+}

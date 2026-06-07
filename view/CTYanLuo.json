@@ -1,0 +1,1066 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 672,
+        "x": 375,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.01
+      },
+      "compId": 3
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 200,
+        "x": 0,
+        "width": 750,
+        "var": "contentBox",
+        "height": 772
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "skin": "res_combat/specialStageView/yanluodian/bg_yanluo.png"
+          },
+          "compId": 45
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 472,
+            "x": 375,
+            "var": "skBox"
+          },
+          "compId": 34,
+          "child": [
+            {
+              "type": "SkeletonPlayer",
+              "props": {
+                "y": 190,
+                "x": 10,
+                "var": "role",
+                "scaleY": 0.5,
+                "scaleX": 0.5,
+                "alpha": 1,
+                "runtime": "Laya.Skeleton"
+              },
+              "compId": 46
+            }
+          ]
+        },
+        {
+          "type": "Sprite",
+          "props": {
+            "y": 300,
+            "x": 8,
+            "texture": "res_combat/specialStageView/yanluodian/img_zhuozi.png"
+          },
+          "compId": 35
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 584,
+            "x": 106,
+            "width": 279,
+            "var": "xqPanel",
+            "skin": "res_combat/specialStageView/fuDi/panel_lzg.png",
+            "pivotY": 185,
+            "pivotX": 120,
+            "height": 415
+          },
+          "compId": 12,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 45,
+                "x": 88.5,
+                "skin": "res_combat/specialStageView/yanluodian/img_mf.png",
+                "name": "r"
+              },
+              "compId": 13
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 201,
+                "x": 58,
+                "skin": "res_combat/specialStageView/yanluodian/text_fhygdz.png"
+              },
+              "compId": 14
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 289,
+                "x": 72.5,
+                "visible": false,
+                "texture": "res_combat/public/icon_gold.png"
+              },
+              "compId": 36,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 3,
+                    "x": 60,
+                    "skin": "res_combat/specialStageView/yanluodian/text_mf.png"
+                  },
+                  "compId": 37
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 306,
+                "x": 142,
+                "width": 180,
+                "var": "mfsy_btn",
+                "skin": "res_common/btn_blue.png",
+                "height": 62,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 62,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 17.5,
+                    "x": 23.5,
+                    "skin": "res_combat/specialStageView/yanluodian/text_gb.png"
+                  },
+                  "compId": 63
+                },
+                {
+                  "type": "Script",
+                  "props": {
+                    "runtime": "game/tools/BtnScale85.ts"
+                  },
+                  "compId": 70
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 584,
+            "x": 352,
+            "width": 279,
+            "var": "pbPanel",
+            "skin": "res_combat/specialStageView/fuDi/panel_lzg.png",
+            "pivotY": 185,
+            "pivotX": 120,
+            "height": 415
+          },
+          "compId": 20,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 45,
+                "x": 79,
+                "skin": "res_combat/specialStageView/yanluodian/img_sheng.png",
+                "name": "r"
+              },
+              "compId": 21
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 205.5,
+                "x": 47,
+                "skin": "res_combat/specialStageView/yanluodian/text_fhwgdz.png"
+              },
+              "compId": 22
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 287,
+                "x": 82.5,
+                "visible": false,
+                "texture": "res_combat/public/icon_gold.png"
+              },
+              "compId": 39,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 8.25,
+                    "x": 59,
+                    "skin": "res_combat/specialStageView/yanluodian/text_300.png"
+                  },
+                  "compId": 40
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 305,
+                "x": 144,
+                "width": 180,
+                "var": "sheng_btn",
+                "skin": "res_common/btn_yellow.png",
+                "height": 62,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 64,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 20,
+                    "x": 50,
+                    "skin": "res_combat/specialStageView/yanluodian/text_hs.png"
+                  },
+                  "compId": 65
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 19,
+                    "x": 10,
+                    "width": 40,
+                    "skin": "res_common/icon_camera.png",
+                    "height": 31
+                  },
+                  "compId": 66
+                },
+                {
+                  "type": "Script",
+                  "props": {
+                    "runtime": "game/tools/BtnScale85.ts"
+                  },
+                  "compId": 71
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 584,
+            "x": 597,
+            "width": 281,
+            "var": "lkPanel",
+            "skin": "res_combat/specialStageView/fuDi/panel_lzg.png",
+            "pivotY": 185,
+            "pivotX": 120,
+            "height": 413
+          },
+          "compId": 27,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 48,
+                "x": 81,
+                "skin": "res_combat/specialStageView/yanluodian/img_si.png",
+                "name": "r"
+              },
+              "compId": 28
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 204.5,
+                "x": 46.5,
+                "skin": "res_combat/specialStageView/yanluodian/text_sswgsj.png"
+              },
+              "compId": 29
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 288,
+                "x": 81.5,
+                "visible": false,
+                "texture": "res_combat/public/icon_gold.png"
+              },
+              "compId": 41,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 8,
+                    "x": 63,
+                    "skin": "res_combat/specialStageView/yanluodian/text_300.png"
+                  },
+                  "compId": 42
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 305,
+                "x": 147,
+                "width": 177,
+                "var": "si_btn",
+                "skin": "res_common/btn_yellow.png",
+                "height": 61,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 67,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 18,
+                    "x": 49,
+                    "skin": "res_combat/specialStageView/yanluodian/text_hs.png"
+                  },
+                  "compId": 68
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 17,
+                    "x": 10,
+                    "width": 39,
+                    "skin": "res_common/icon_camera.png",
+                    "height": 30
+                  },
+                  "compId": 69
+                },
+                {
+                  "type": "Script",
+                  "props": {
+                    "runtime": "game/tools/BtnScale85.ts"
+                  },
+                  "compId": 72
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 333,
+            "x": 291,
+            "skin": "res_combat/specialStageView/biaoJu/text_yourchoice.png"
+          },
+          "compId": 11
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "var": "BeautyBoxItem",
+        "presetID": 1,
+        "name": "BeautyBoxItem"
+      },
+      "compId": 47,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 204,
+            "x": 0,
+            "width": 302,
+            "skin": "res_view/beauty/panel_kggtshgd.png",
+            "name": "tipsbarbg",
+            "height": 23
+          },
+          "compId": 86,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 7,
+                "width": 250,
+                "skin": "res_view/beauty/text_kggtshgd.png",
+                "name": "tipsbarbg",
+                "height": 21
+              },
+              "compId": 88
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 250,
+            "x": 614,
+            "width": 161,
+            "visible": true,
+            "var": "lovePro",
+            "scaleY": 0.6,
+            "scaleX": 0.6,
+            "pivotX": 0,
+            "name": "lovePro",
+            "height": 29
+          },
+          "compId": 87,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -2,
+                "x": -11,
+                "width": 228,
+                "var": "loveBar_empty",
+                "skin": "res_view/beauty/frame_card_blood02.png",
+                "name": "loveBar_empty",
+                "height": 35
+              },
+              "compId": 89
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 2,
+                "x": -7,
+                "width": 214,
+                "var": "loveBar",
+                "skin": "res_view/beauty/frame_card_hgd.png",
+                "sizeGrid": "0,13,0,8",
+                "name": "loveBar",
+                "height": 27
+              },
+              "compId": 90
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 6,
+                "x": 8,
+                "name": "loveNum"
+              },
+              "compId": 91,
+              "child": [
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": -11,
+                    "x": -38,
+                    "width": 183,
+                    "visible": true,
+                    "var": "FullTxt",
+                    "value": "12",
+                    "spaceY": 0,
+                    "spaceX": -12,
+                    "skin": "res_common/number/num_27_jxzk_ffffff_stk_1_gt.png",
+                    "sheet": "0123456789",
+                    "scaleY": 1.2,
+                    "scaleX": 1.2,
+                    "name": "FullTxt",
+                    "height": 33,
+                    "direction": "horizontal",
+                    "align": "center"
+                  },
+                  "compId": 92
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "var": "UnFullTxt",
+                    "name": "UnFullTxt"
+                  },
+                  "compId": 93,
+                  "child": [
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": -12,
+                        "x": -154,
+                        "width": 183,
+                        "visible": true,
+                        "var": "loveTxt",
+                        "value": "12",
+                        "spaceY": 0,
+                        "spaceX": -12,
+                        "skin": "res_common/number/num_27_jxzk_ffffff_stk_1_gt.png",
+                        "sheet": "0123456789",
+                        "scaleY": 1.2,
+                        "scaleX": 1.2,
+                        "name": "loveTxt",
+                        "height": 33,
+                        "direction": "horizontal",
+                        "align": "right"
+                      },
+                      "compId": 94
+                    },
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": -11,
+                        "x": 78,
+                        "var": "loveMax",
+                        "value": "40",
+                        "spaceX": -12,
+                        "skin": "res_common/number/num_27_jxzk_ffffff_stk_1_gt.png",
+                        "sheet": "0123456789",
+                        "scaleY": 1.2,
+                        "scaleX": 1.2,
+                        "name": "loveMax",
+                        "left": 78,
+                        "align": "left"
+                      },
+                      "compId": 95
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -1,
+                        "x": 76,
+                        "var": "img_cut",
+                        "text": "text",
+                        "skin": "res_view/beauty/text_pzh.png",
+                        "scaleY": 1.2,
+                        "scaleX": 1.2,
+                        "name": "img_cut",
+                        "centerX": 83
+                      },
+                      "compId": 96
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": -25,
+                "x": -73,
+                "width": 88,
+                "texture": "res_common/icon_hgd.png",
+                "name": "img_heart",
+                "height": 82
+              },
+              "compId": 97
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -71,
+                "x": 34,
+                "var": "img_status",
+                "skin": "netRes/beautyStatus/status_1.png",
+                "scaleY": 1,
+                "scaleX": 1,
+                "name": "img_status"
+              },
+              "compId": 98
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 12,
+          "keyframes": {
+            "y": [
+              {
+                "value": 604,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 12,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 584,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 12,
+                "key": "y",
+                "index": 10
+              }
+            ],
+            "x": [
+              {
+                "value": 106,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 12,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 12,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 12,
+                "key": "alpha",
+                "index": 10
+              }
+            ]
+          }
+        },
+        {
+          "target": 20,
+          "keyframes": {
+            "y": [
+              {
+                "value": 604,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 20,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 584,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 20,
+                "key": "y",
+                "index": 10
+              }
+            ],
+            "x": [
+              {
+                "value": 352,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 20,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 352,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 20,
+                "key": "x",
+                "index": 10
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 20,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 20,
+                "key": "alpha",
+                "index": 10
+              }
+            ]
+          }
+        },
+        {
+          "target": 27,
+          "keyframes": {
+            "y": [
+              {
+                "value": 604,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 27,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 584,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 27,
+                "key": "y",
+                "index": 10
+              }
+            ],
+            "x": [
+              {
+                "value": 597,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 27,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 27,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 27,
+                "key": "alpha",
+                "index": 10
+              }
+            ]
+          }
+        },
+        {
+          "target": 35,
+          "keyframes": {
+            "x": [
+              {
+                "value": 8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 35,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 35,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 35,
+                "key": "alpha",
+                "index": 10
+              }
+            ]
+          }
+        },
+        {
+          "target": 34,
+          "keyframes": {
+            "x": [
+              {
+                "value": 375,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 34,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 375,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 34,
+                "key": "x",
+                "index": 6
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 34,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 34,
+                "key": "alpha",
+                "index": 6
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 34,
+                "key": "alpha",
+                "index": 15
+              }
+            ]
+          }
+        },
+        {
+          "target": 11,
+          "keyframes": {
+            "x": [
+              {
+                "value": 290,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 11,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 290,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 11,
+                "key": "x",
+                "index": 15
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 11,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 11,
+                "key": "alpha",
+                "index": 15
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 11,
+                "key": "alpha",
+                "index": 20
+              }
+            ]
+          }
+        }
+      ],
+      "name": "openAni",
+      "id": 1,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 13,
+          "keyframes": {
+            "y": [
+              {
+                "value": 52,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 13,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 46,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 13,
+                "key": "y",
+                "index": 5
+              },
+              {
+                "value": 52,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 13,
+                "key": "y",
+                "index": 10
+              }
+            ],
+            "x": [
+              {
+                "value": 88.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 13,
+                "key": "x",
+                "index": 0
+              }
+            ]
+          }
+        },
+        {
+          "target": 21,
+          "keyframes": {
+            "y": [
+              {
+                "value": 55,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 21,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 55,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 21,
+                "key": "y",
+                "index": 5
+              },
+              {
+                "value": 49,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 21,
+                "key": "y",
+                "index": 10
+              },
+              {
+                "value": 55,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 21,
+                "key": "y",
+                "index": 15
+              }
+            ],
+            "x": [
+              {
+                "value": 79,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 21,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 79,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 21,
+                "key": "x",
+                "index": 5
+              }
+            ]
+          }
+        },
+        {
+          "target": 28,
+          "keyframes": {
+            "y": [
+              {
+                "value": 55,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 28,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 55,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 28,
+                "key": "y",
+                "index": 10
+              },
+              {
+                "value": 49,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 28,
+                "key": "y",
+                "index": 15
+              },
+              {
+                "value": 55,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 28,
+                "key": "y",
+                "index": 20
+              },
+              {
+                "value": 55,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 28,
+                "key": "y",
+                "index": 45
+              }
+            ],
+            "x": [
+              {
+                "value": 81,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 28,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 81,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 28,
+                "key": "x",
+                "index": 10
+              }
+            ]
+          }
+        }
+      ],
+      "name": "optionAni",
+      "id": 2,
+      "frameRate": 30,
+      "action": 0
+    }
+  ],
+  "loadList": [
+    "res_combat/specialStageView/yanluodian/img_zhuozi.png",
+    "res_combat/public/icon_gold.png",
+    "prefab/BeautyBoxItem.prefab",
+    "res_common/icon_hgd.png"
+  ],
+  "loadList3D": []
+}

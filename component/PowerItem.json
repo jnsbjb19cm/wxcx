@@ -1,0 +1,107 @@
+{
+  "type": "View",
+  "props": {
+    "width": 500,
+    "height": 50
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 3,
+        "x": 0,
+        "skin": "res_view/vipUp/icon_dian.png"
+      },
+      "compId": 4
+    },
+    {
+      "type": "Box",
+      "props": {
+        "x": 52,
+        "width": 450,
+        "var": "powerBox",
+        "height": 50
+      },
+      "compId": 6
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 4,
+          "keyframes": {
+            "x": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 4,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 4,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 4,
+                "key": "alpha",
+                "index": 4
+              }
+            ]
+          }
+        },
+        {
+          "target": 6,
+          "keyframes": {
+            "x": [
+              {
+                "value": 52,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 6,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 6,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 6,
+                "key": "alpha",
+                "index": 4
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani1",
+      "id": 1,
+      "frameRate": 30,
+      "action": 1
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

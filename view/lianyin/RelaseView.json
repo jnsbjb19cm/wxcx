@@ -1,0 +1,156 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "var": "releaseview",
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -103,
+            "x": 25,
+            "width": 881,
+            "var": "r_maskbg",
+            "skin": "res_common/bg.png",
+            "height": 1443,
+            "alpha": 0.5
+          },
+          "compId": 4
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 369,
+            "x": 154,
+            "width": 600,
+            "height": 402
+          },
+          "compId": 5,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 8,
+                "x": 0,
+                "width": 606,
+                "skin": "res_common/bg_1.png",
+                "height": 353
+              },
+              "compId": 6
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 63,
+                "x": 164,
+                "skin": "res_common/bg_title01.png"
+              },
+              "compId": 7,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 7,
+                    "x": 104.5,
+                    "skin": "res_view/haream/text_ts.png"
+                  },
+                  "compId": 8
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 148,
+                "x": 117,
+                "skin": "res_view/lianyin/text_sfjc.png"
+              },
+              "compId": 9,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 42,
+                    "x": 56,
+                    "skin": "res_view/lianyin/text_jchcsql.png"
+                  },
+                  "compId": 10
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 266,
+                "x": 79,
+                "width": 151,
+                "var": "r_queding",
+                "skin": "res_common/btn_yellow.png",
+                "height": 59
+              },
+              "compId": 11,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 12,
+                    "x": 24,
+                    "skin": "res_view/haream/text_qd.png"
+                  },
+                  "compId": 12
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 266,
+                "x": 371,
+                "width": 152,
+                "var": "r_quxiao",
+                "skin": "res_common/btn_blue.png",
+                "height": 59
+              },
+              "compId": 13,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 13.5,
+                    "x": 25.5,
+                    "skin": "res_view/haream/text_qx.png"
+                  },
+                  "compId": 14
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 361,
+                "x": 170,
+                "skin": "res_view/rank/text_djgb.png"
+              },
+              "compId": 15
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": ["res_common/bg_1.png"],
+  "loadList3D": []
+}

@@ -1,0 +1,1362 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "runtime": "game/view/component/MainZoneDetail.ts",
+    "height": 1150
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Panel",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 750,
+        "var": "feishengBox",
+        "height": 1334,
+        "hScrollBarSkin": "comp/hscroll.png"
+      },
+      "compId": 253,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -59.5,
+            "x": 0,
+            "var": "feishengBg",
+            "skin": "res_main/bg_fs.png"
+          },
+          "compId": 254,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 1000,
+                "skin": "res_main/bg_fs.png",
+                "scaleX": -1,
+                "name": "bg"
+              },
+              "compId": 282
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 493,
+                "x": 202,
+                "var": "btnSX",
+                "skin": "res_main/icon_DTT-H-1.png"
+              },
+              "compId": 255,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 144,
+                    "x": 26,
+                    "skin": "res_main/panel_shenxu.png"
+                  },
+                  "compId": 256,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 5,
+                        "x": 60,
+                        "text": "text",
+                        "skin": "res_main/text_sx.png"
+                      },
+                      "compId": 257
+                    }
+                  ]
+                },
+                {
+                  "type": "Rect",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "width": 230,
+                    "renderType": "hit",
+                    "lineWidth": 1,
+                    "height": 190,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 258
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 433,
+                "x": 585,
+                "var": "btnSJ",
+                "skin": "res_main/panel_sanjie.png"
+              },
+              "compId": 260,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 14,
+                    "x": 9,
+                    "skin": "res_main/icon_sanjie_.png"
+                  },
+                  "compId": 262
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 66,
+                    "x": 8,
+                    "text": "text",
+                    "skin": "res_main/text_sanjie2.png"
+                  },
+                  "compId": 261
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 43,
+                    "visible": false,
+                    "skin": "res_common/redpoint.png"
+                  },
+                  "compId": 263
+                },
+                {
+                  "type": "Rect",
+                  "props": {
+                    "y": -4,
+                    "x": -8,
+                    "width": 90,
+                    "renderType": "hit",
+                    "lineWidth": 1,
+                    "height": 110,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 264
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 611,
+                "x": 728,
+                "var": "btnYS",
+                "skin": "res_main/panel_sanjie.png"
+              },
+              "compId": 265,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 12.5,
+                    "x": 10,
+                    "skin": "res_main/icon_yishou.png"
+                  },
+                  "compId": 267
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 67.5,
+                    "x": 7,
+                    "text": "text",
+                    "skin": "res_main/text_yishou_.png"
+                  },
+                  "compId": 266
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 43,
+                    "visible": false,
+                    "skin": "res_common/redpoint.png"
+                  },
+                  "compId": 268
+                },
+                {
+                  "type": "Rect",
+                  "props": {
+                    "y": 0,
+                    "x": -4,
+                    "width": 85,
+                    "renderType": "hit",
+                    "lineWidth": 1,
+                    "height": 103,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 269
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 685,
+                "x": 528,
+                "var": "btnXMDB",
+                "skin": "res_main/panel_sanjie.png"
+              },
+              "compId": 276,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 12,
+                    "x": 14,
+                    "skin": "res_main/icon_xmdb.png"
+                  },
+                  "compId": 277
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 66,
+                    "x": -21,
+                    "text": "text",
+                    "skin": "res_main/text_xmdb.png"
+                  },
+                  "compId": 278
+                },
+                {
+                  "type": "Rect",
+                  "props": {
+                    "y": 0,
+                    "x": -8,
+                    "width": 83,
+                    "renderType": "hit",
+                    "lineWidth": 1,
+                    "height": 100,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 279
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 507,
+                "x": 802,
+                "var": "btnShenXu",
+                "skin": "res_main/panel_shenxu.png"
+              },
+              "compId": 271,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 3.5,
+                    "x": 50.5,
+                    "text": "text",
+                    "skin": "res_main/text_shenxu.png"
+                  },
+                  "compId": 272
+                },
+                {
+                  "type": "Rect",
+                  "props": {
+                    "y": -90,
+                    "x": 2,
+                    "width": 153,
+                    "renderType": "hit",
+                    "lineWidth": 1,
+                    "height": 127,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 273
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "List",
+      "props": {
+        "y": 0,
+        "width": 750,
+        "visible": false,
+        "var": "zoneList",
+        "text": "1.啊啊啊",
+        "stroke": 2,
+        "renderType": "render",
+        "height": 830,
+        "hScrollBarSkin": "comp/hscroll.png",
+        "fontSize": 60,
+        "color": "#ffffff",
+        "centerX": 0,
+        "bold": true
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "width": 750,
+            "renderType": "render",
+            "height": 800
+          },
+          "compId": 19,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 503.5,
+                "skin": "netRes/island/img_map01.png",
+                "name": "pic",
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 9
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 720,
+                "value": "1-1",
+                "presetID": 1,
+                "name": "highestRecord",
+                "centerX": 59,
+                "x": 0,
+                "spaceX": -10,
+                "skin": "res_common/number/num_30_ss_aab0a4.png",
+                "sheet": "0123456789-+",
+                "isPresetRoot": true
+              },
+              "compId": 88,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": -118,
+                    "text": "text",
+                    "skin": "res_main/text_rec.png"
+                  },
+                  "compId": 94
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 720,
+                "text": "text",
+                "skin": "res_main/text_sc.png",
+                "name": "isPassLabel",
+                "centerX": 0
+              },
+              "compId": 112
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 760,
+                "value": "1-1",
+                "presetID": 1,
+                "name": "curProLabel",
+                "centerX": 59,
+                "x": 0,
+                "spaceX": -10,
+                "skin": "res_common/number/num_30_ss_e5e0c4.png",
+                "sheet": "0123456789-+",
+                "isPresetRoot": true
+              },
+              "compId": 89,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "x": -118,
+                    "text": "text",
+                    "skin": "res_main/text_cur.png"
+                  },
+                  "compId": 92
+                }
+              ]
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 405,
+                "x": 280,
+                "visible": false,
+                "texture": "res_main/lock.png",
+                "name": "lockIcon"
+              },
+              "compId": 22
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 720,
+                "x": 0,
+                "text": "未解锁",
+                "stroke": 2,
+                "name": "lockLabel",
+                "fontSize": 36,
+                "font": "Microsoft YaHei",
+                "color": "#f33535",
+                "centerX": 0,
+                "bold": true
+              },
+              "compId": 24
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 165,
+                "x": 0,
+                "width": 750,
+                "name": "nameBox",
+                "height": 750
+              },
+              "compId": 99,
+              "child": [
+                {
+                  "type": "Script",
+                  "props": {
+                    "runtime": "game/script/common/ZoneName.ts"
+                  },
+                  "compId": 109
+                }
+              ]
+            }
+          ],
+          "animations": [
+            {
+              "nodes": [
+                {
+                  "target": 9,
+                  "keyframes": {
+                    "y": [
+                      {
+                        "value": 205,
+                        "tweenMethod": "linearNone",
+                        "tween": true,
+                        "target": 9,
+                        "key": "y",
+                        "index": 0
+                      },
+                      {
+                        "value": 220,
+                        "tweenMethod": "linearNone",
+                        "tween": true,
+                        "target": 9,
+                        "key": "y",
+                        "index": 25
+                      },
+                      {
+                        "value": 205,
+                        "tweenMethod": "linearNone",
+                        "tween": true,
+                        "target": 9,
+                        "key": "y",
+                        "index": 50
+                      }
+                    ],
+                    "x": [
+                      {
+                        "value": 39,
+                        "tweenMethod": "linearNone",
+                        "tween": true,
+                        "target": 9,
+                        "key": "x",
+                        "index": 0
+                      }
+                    ]
+                  }
+                }
+              ],
+              "name": "ani1",
+              "id": 1,
+              "frameRate": 30,
+              "action": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 914.5,
+        "var": "btnL",
+        "stateNum": 1,
+        "skin": "res_main/icon_left.png",
+        "left": 108
+      },
+      "compId": 5
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 135,
+        "width": 240,
+        "visible": false,
+        "var": "btnM",
+        "height": 680,
+        "centerX": 0
+      },
+      "compId": 111
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 915.5,
+        "var": "btnR",
+        "skin": "res_main/icon_right.png",
+        "right": 105
+      },
+      "compId": 86
+    },
+    {
+      "type": "Label",
+      "props": {
+        "y": 884,
+        "var": "unlockTips",
+        "text": "通关第9章解锁",
+        "stroke": 2,
+        "fontSize": 36,
+        "font": "Microsoft YaHei",
+        "color": "#ffffff",
+        "centerX": 0,
+        "bold": true
+      },
+      "compId": 25
+    },
+    {
+      "type": "Box",
+      "props": {
+        "var": "rankIconBox",
+        "top": 20,
+        "left": 10
+      },
+      "compId": 60
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 105,
+        "visible": false,
+        "var": "rankBtn",
+        "top": 40,
+        "mouseThrough": true,
+        "mouseEnabled": true,
+        "left": 23,
+        "height": 353
+      },
+      "compId": 61,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "top": 0,
+            "skin": "res_common/bg.png",
+            "right": 0,
+            "left": 0,
+            "bottom": 0,
+            "alpha": 0.01
+          },
+          "compId": 63
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": -2,
+        "width": 750,
+        "var": "zoneGiftBoxNode",
+        "mouseThrough": true,
+        "height": 650,
+        "centerX": 0
+      },
+      "compId": 216,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 557,
+            "x": 105,
+            "var": "bx_yz",
+            "skin": "res_main/shadow.png",
+            "name": "bx_yz"
+          },
+          "compId": 217
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 495,
+            "x": 154,
+            "width": 58,
+            "var": "qipao",
+            "skin": "res_common/img_qipao.png",
+            "pivotY": 33,
+            "pivotX": 29,
+            "name": "",
+            "height": 64
+          },
+          "compId": 218
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 596,
+            "x": 150,
+            "width": 92,
+            "var": "zoneGiftBox",
+            "skin": "res_main/img_box_gold.png",
+            "pivotY": 86,
+            "pivotX": 46,
+            "name": "",
+            "height": 86,
+            "alpha": 1
+          },
+          "compId": 219,
+          "child": [
+            {
+              "type": "Rect",
+              "props": {
+                "width": 100,
+                "renderType": "hit",
+                "lineWidth": 1,
+                "height": 100,
+                "fillColor": "#ff0000"
+              },
+              "compId": 220
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "var": "heroSpineBox",
+        "centerY": 50,
+        "centerX": -65
+      },
+      "compId": 170
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 4,
+        "var": "spineBox",
+        "renderType": "render",
+        "height": 10,
+        "centerY": 0,
+        "centerX": -15
+      },
+      "compId": 117
+    },
+    {
+      "type": "List",
+      "props": {
+        "y": 875,
+        "x": 167,
+        "width": 420,
+        "var": "zoneList2",
+        "spaceX": 0,
+        "renderType": "render",
+        "height": 128,
+        "hScrollBarSkin": "comp/hscroll.png"
+      },
+      "compId": 142,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "y": 28,
+            "x": 0,
+            "width": 420,
+            "scaleY": 0.9,
+            "scaleX": 0.9,
+            "renderType": "render",
+            "height": 100
+          },
+          "compId": 143,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "name": "zoneBox"
+              },
+              "compId": 163,
+              "child": [
+                {
+                  "type": "HBox",
+                  "props": {
+                    "y": 41,
+                    "x": 262,
+                    "width": 327,
+                    "space": 8,
+                    "scaleY": 1,
+                    "scaleX": 1,
+                    "pivotY": 46,
+                    "pivotX": 164,
+                    "name": "hbox",
+                    "height": 91
+                  },
+                  "compId": 193,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 29,
+                        "x": -2,
+                        "skin": "res_main/text_ss.png"
+                      },
+                      "compId": 145
+                    },
+                    {
+                      "type": "Box",
+                      "props": {
+                        "y": 29,
+                        "x": 57,
+                        "name": "zBox"
+                      },
+                      "compId": 202,
+                      "child": [
+                        {
+                          "type": "FontClip",
+                          "props": {
+                            "y": -9,
+                            "x": -14,
+                            "value": "888",
+                            "spaceX": -25,
+                            "skin": "res_common/number/num_48_jxzk_ffffff_stk2.png",
+                            "sheet": "0123456789",
+                            "scaleY": 1,
+                            "scaleX": 1,
+                            "name": "zoneID",
+                            "height": 70,
+                            "align": "center"
+                          },
+                          "compId": 165
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 43,
+                        "x": 129,
+                        "skin": "netRes/chapterName/text_colon.png"
+                      },
+                      "compId": 149
+                    },
+                    {
+                      "type": "HBox",
+                      "props": {
+                        "y": 30,
+                        "x": 156,
+                        "space": 4,
+                        "name": "chapterNameBox"
+                      },
+                      "compId": 205,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "skin": "netRes/chapterName/niang.png"
+                          },
+                          "compId": 208
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "skin": "netRes/chapterName/qi.png"
+                          },
+                          "compId": 209
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 0,
+                            "x": 0,
+                            "skin": "netRes/chapterName/qiang.png"
+                          },
+                          "compId": 211
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 0,
+                            "x": 0
+                          },
+                          "compId": 212
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 354,
+                "name": "progressBox",
+                "height": 100
+              },
+              "compId": 167,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 54,
+                    "x": 150,
+                    "skin": "res_main/text_jxz.png"
+                  },
+                  "compId": 168
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 47,
+                    "x": 261,
+                    "width": 83,
+                    "value": "3-11",
+                    "spaceX": -10,
+                    "presetID": 1,
+                    "name": "progressFontClip",
+                    "height": 44,
+                    "skin": "res_common/number/num_30_jxzk_42ff6a_stk.png",
+                    "sheet": "0123456789-",
+                    "isPresetRoot": true
+                  },
+                  "compId": 169
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 25,
+                "x": 13,
+                "skin": "res_main/solt_ s.png"
+              },
+              "compId": 176
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -25,
+                "x": -15,
+                "skin": "netRes/icon/zoneIcon/XM-YZY-Q.png",
+                "name": "avatar",
+                "alpha": 1
+              },
+              "compId": 144
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 570,
+        "x": 358,
+        "width": 4,
+        "var": "chatBox",
+        "renderType": "render",
+        "height": 10,
+        "centerY": 0,
+        "centerX": -15
+      },
+      "compId": 215
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 92,
+        "x": 0,
+        "width": 750,
+        "var": "guideBox",
+        "mouseThrough": false,
+        "height": 1150
+      },
+      "compId": 225,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -105,
+            "x": -18,
+            "skin": "res_main/bj_tiankonh.png",
+            "name": "bg"
+          },
+          "compId": 227
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -50,
+            "x": -8,
+            "skin": "res_main/role.png"
+          },
+          "compId": 241
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 78,
+            "x": -125,
+            "skin": "res_main/lszjm-lf.png"
+          },
+          "compId": 239
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 491,
+            "x": 274,
+            "skin": "res_main/lszjm-qyz.png"
+          },
+          "compId": 243
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 453,
+            "x": 153,
+            "skin": "res_main/lszjm-qbg.png"
+          },
+          "compId": 244
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 558,
+            "x": 263,
+            "skin": "res_main/lszjm-q.png"
+          },
+          "compId": 240
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 897,
+            "x": 152,
+            "width": 354,
+            "name": "progressBox",
+            "height": 100
+          },
+          "compId": 234,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 54,
+                "x": 150,
+                "skin": "res_main/text_jxz.png"
+              },
+              "compId": 235
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 47,
+                "x": 261,
+                "width": 83,
+                "value": "3-11",
+                "spaceX": -10,
+                "presetID": 1,
+                "name": "progressFontClip",
+                "height": 44,
+                "skin": "res_common/number/num_30_jxzk_42ff6a_stk.png",
+                "sheet": "0123456789-",
+                "isPresetRoot": true
+              },
+              "compId": 236
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 408,
+            "x": -44,
+            "width": 837,
+            "skin": "res_main/panel_lszjm.png",
+            "sizeGrid": "20,0,20,0",
+            "height": 125
+          },
+          "compId": 245
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 425,
+            "x": 100,
+            "skin": "res_main/lszjm-wz.png"
+          },
+          "compId": 246
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 1072,
+        "width": 348,
+        "var": "startBtn",
+        "stateNum": 1,
+        "skin": "res_main/btn_start.png",
+        "labelStroke": 1,
+        "labelSize": 36,
+        "labelFont": "Microsoft YaHei",
+        "labelColors": "#ffffff",
+        "labelBold": true,
+        "height": 166,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0
+      },
+      "compId": 104,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 36,
+            "x": 87,
+            "var": "startBtnImg",
+            "text": "text",
+            "skin": "res_main/text_ks_zjm.png"
+          },
+          "compId": 237
+        },
+        {
+          "type": "Script",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "runtime": "game/tools/BtnScale90.ts"
+          },
+          "compId": 87
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 1049,
+        "x": 239,
+        "var": "notOpen",
+        "skin": "res_main/panel_jjkf.png"
+      },
+      "compId": 222,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 5,
+            "x": 55,
+            "skin": "res_main/text_jjkf.png"
+          },
+          "compId": 223
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 218,
+          "keyframes": {
+            "x": [
+              {
+                "value": 154,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 218,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 218,
+                "label": null,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 0.198,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 218,
+                "label": null,
+                "key": "scaleY",
+                "index": 1
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 218,
+                "label": null,
+                "key": "scaleY",
+                "index": 5
+              },
+              {
+                "value": 1.154,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 218,
+                "label": null,
+                "key": "scaleY",
+                "index": 9
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 218,
+                "label": null,
+                "key": "scaleY",
+                "index": 12
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 218,
+                "label": null,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 0.198,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 218,
+                "label": null,
+                "key": "scaleX",
+                "index": 1
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 218,
+                "label": null,
+                "key": "scaleX",
+                "index": 5
+              },
+              {
+                "value": 1.154,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 218,
+                "label": null,
+                "key": "scaleX",
+                "index": 9
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 218,
+                "label": null,
+                "key": "scaleX",
+                "index": 12
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 218,
+                "label": null,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 218,
+                "label": null,
+                "key": "alpha",
+                "index": 1
+              }
+            ]
+          }
+        },
+        {
+          "target": 219,
+          "keyframes": {
+            "x": [
+              {
+                "value": 150,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 219,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "rotation": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 219,
+                "label": null,
+                "key": "rotation",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 219,
+                "label": null,
+                "key": "rotation",
+                "index": 10
+              },
+              {
+                "value": -8.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 219,
+                "label": null,
+                "key": "rotation",
+                "index": 11
+              },
+              {
+                "value": 5.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 219,
+                "label": null,
+                "key": "rotation",
+                "index": 14
+              },
+              {
+                "value": -8.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 219,
+                "label": null,
+                "key": "rotation",
+                "index": 18
+              },
+              {
+                "value": 5.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 219,
+                "label": null,
+                "key": "rotation",
+                "index": 21
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 219,
+                "label": null,
+                "key": "rotation",
+                "index": 23
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 219,
+                "label": null,
+                "key": "rotation",
+                "index": 32
+              },
+              {
+                "value": -8.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 219,
+                "label": null,
+                "key": "rotation",
+                "index": 33
+              },
+              {
+                "value": 5.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 219,
+                "label": null,
+                "key": "rotation",
+                "index": 36
+              },
+              {
+                "value": -8.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 219,
+                "label": null,
+                "key": "rotation",
+                "index": 40
+              },
+              {
+                "value": 5.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 219,
+                "label": null,
+                "key": "rotation",
+                "index": 43
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 219,
+                "label": null,
+                "key": "rotation",
+                "index": 45
+              }
+            ]
+          }
+        }
+      ],
+      "name": "zoneGiftBoxAni",
+      "id": 1,
+      "frameRate": 24,
+      "action": 0
+    }
+  ],
+  "loadList": [
+    "comp/hscroll.png",
+    "prefab/number/num_30_ss_aab0a4.prefab",
+    "prefab/number/num_30_ss_e5e0c4.prefab",
+    "res_main/lock.png",
+    "prefab/num_30_jxzk_42ff6a_stk.prefab",
+    "res_main/bj_tiankonh.png",
+    "res_main/btn_start.png"
+  ],
+  "loadList3D": []
+}

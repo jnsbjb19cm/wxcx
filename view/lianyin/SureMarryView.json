@@ -1,0 +1,179 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "height": 1334,
+        "centerY": 0
+      },
+      "compId": 19,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": -52,
+            "width": 861,
+            "var": "mask_bg",
+            "skin": "res_common/bg.png",
+            "height": 1334,
+            "alpha": 0.5
+          },
+          "compId": 4
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 386,
+            "x": 58,
+            "width": 640,
+            "height": 410
+          },
+          "compId": 5,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 407,
+                "skin": "res_view/lianyin/pic_sy.png"
+              },
+              "compId": 7,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 27,
+                    "x": -399,
+                    "skin": "res_view/lianyin/panel_qrly.png"
+                  },
+                  "compId": 6
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 90,
+                "x": 92,
+                "skin": "res_view/lianyin/img_huaniao.png"
+              },
+              "compId": 16
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 180,
+                "x": 114,
+                "var": "sfyrzn",
+                "skin": "res_view/lianyin/text_qrly_3.png"
+              },
+              "compId": 8
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 179,
+                "var": "childname",
+                "text": "一二三四",
+                "fontSize": 25,
+                "font": "SimHei",
+                "color": "#e01616",
+                "centerX": 40
+              },
+              "compId": 18
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 179,
+                "x": 423,
+                "var": "dhs",
+                "skin": "res_view/lianyin/text_qrly_2.png"
+              },
+              "compId": 9
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 209,
+                "x": 156,
+                "skin": "res_view/lianyin/text_qrly_1.png"
+              },
+              "compId": 10
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 268.5,
+                "x": 212.5,
+                "var": "sure_btn",
+                "skin": "res_common/btn_yellow.png"
+              },
+              "compId": 11,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 19.5,
+                    "x": 54,
+                    "skin": "res_view/lianyin/txt_yy.png"
+                  },
+                  "compId": 12
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 91,
+                "x": 181.5,
+                "skin": "res_common/bg_title01.png"
+              },
+              "compId": 13,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 3,
+                    "x": 53,
+                    "skin": "res_view/lianyin/text_qrly.png"
+                  },
+                  "compId": 14
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 4,
+                "x": 509.5,
+                "var": "close_btn",
+                "skin": "netRes/task/btn_close.png"
+              },
+              "compId": 15
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 407,
+                "x": 183.5,
+                "skin": "res_view/rank/text_djgb.png"
+              },
+              "compId": 17
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

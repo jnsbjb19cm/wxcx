@@ -1,0 +1,253 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": true,
+    "height": 1334,
+    "drawCallOptimize": true,
+    "autoDestroyAtClosed": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Sprite",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "visible": false
+      },
+      "compId": 173
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 798,
+        "var": "contentBox",
+        "mouseThrough": true,
+        "height": 1211,
+        "centerY": 21,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 589,
+            "x": 399,
+            "width": 1000,
+            "var": "maskBg",
+            "skin": "res_common/bg.png",
+            "height": 1625,
+            "centerX": 0,
+            "anchorY": 0.5,
+            "anchorX": 0.5,
+            "alpha": 0.6
+          },
+          "compId": 58
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -20,
+            "x": -31,
+            "width": 861,
+            "skin": "res_view/manual/panel_tujianzzz.png",
+            "sizeGrid": "113,0,23,0",
+            "height": 1209
+          },
+          "compId": 133
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 115,
+            "x": 40,
+            "width": 723,
+            "skin": "res_view/manual/img_tujiandiban.png",
+            "sizeGrid": "372,0,322,0",
+            "height": 1061
+          },
+          "compId": 151
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -56,
+            "x": 56,
+            "skin": "res_common/icon_head.png"
+          },
+          "compId": 164
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -52,
+            "x": 171,
+            "skin": "res_view/manual/text_tj.png",
+            "name": "img_tujian"
+          },
+          "compId": 167
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -19,
+            "x": 700,
+            "var": "closeBtn",
+            "skin": "res_common/bg_common_close.png",
+            "label": "label"
+          },
+          "compId": 139,
+          "child": [
+            {
+              "type": "Rect",
+              "props": {
+                "y": -15,
+                "x": -11,
+                "width": 77,
+                "renderType": "hit",
+                "lineWidth": 1,
+                "height": 70,
+                "fillColor": "#ff0000"
+              },
+              "compId": 172
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": -52,
+            "x": 95,
+            "width": 624,
+            "var": "viewStack",
+            "selectedIndex": 0,
+            "height": 1290
+          },
+          "compId": 123
+        },
+        {
+          "type": "List",
+          "props": {
+            "y": 25,
+            "x": 299,
+            "width": 420,
+            "var": "tabList",
+            "spaceX": 13,
+            "selectedIndex": 1,
+            "selectEnable": true,
+            "repeatY": 1,
+            "repeatX": 3,
+            "mouseThrough": true,
+            "mouseEnabled": true,
+            "height": 99
+          },
+          "compId": 122,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 10,
+                "x": 15,
+                "width": 124,
+                "renderType": "render",
+                "mouseThrough": true,
+                "mouseEnabled": true,
+                "height": 75
+              },
+              "compId": 124,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 1,
+                    "x": 61,
+                    "skin": "res_view/manual/btn_1_2.png",
+                    "name": "tabBg",
+                    "anchorY": 0,
+                    "anchorX": 0.5
+                  },
+                  "compId": 125
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 24,
+                    "x": 22,
+                    "skin": "res_view/manual/text_jiban.png",
+                    "name": "img_txtType"
+                  },
+                  "compId": 152
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": -12,
+                    "x": 100,
+                    "visible": false,
+                    "texture": "main/redpoint.png",
+                    "name": "redPoint"
+                  },
+                  "compId": 145
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 59,
+                    "x": 1,
+                    "visible": false,
+                    "skin": "res_view/sg/img_fenyejiantou.png",
+                    "name": "jiantou"
+                  },
+                  "compId": 170
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 1183,
+            "x": 264,
+            "skin": "res_common/text_djgb.png",
+            "name": "img_blankClose",
+            "centerX": 0
+          },
+          "compId": 156
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "width": 3000,
+        "visible": true,
+        "var": "topClose",
+        "height": 830,
+        "centerY": -994,
+        "centerX": 0
+      },
+      "compId": 158
+    },
+    {
+      "type": "Image",
+      "props": {
+        "width": 3000,
+        "visible": true,
+        "var": "bottomClose",
+        "height": 648,
+        "centerY": 928,
+        "centerX": 0
+      },
+      "compId": 160
+    }
+  ],
+  "loadList": [
+    "res_view/manual/panel_tujianzzz.png",
+    "res_view/manual/img_tujiandiban.png",
+    "main/redpoint.png"
+  ],
+  "loadList3D": []
+}

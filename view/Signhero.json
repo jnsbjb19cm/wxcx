@@ -1,0 +1,174 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 667,
+        "x": 375,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 17
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 197,
+            "x": 44,
+            "skin": "res_main/bg_tingxiong.png",
+            "name": "yx"
+          },
+          "compId": 5,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 20,
+                "x": 6,
+                "visible": true,
+                "skin": "res_main/txt_yingxiong.png"
+              },
+              "compId": 12
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 830,
+            "x": 375,
+            "var": "half_body",
+            "scaleX": -1,
+            "centerX": 0
+          },
+          "compId": 6
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -35,
+            "x": -108,
+            "skin": "res_main/img_rwhm.png"
+          },
+          "compId": 7
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 648,
+            "x": 375,
+            "var": "roleBox",
+            "scaleX": -1,
+            "centerX": 0
+          },
+          "compId": 8
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 235,
+            "x": 87,
+            "var": "namebox",
+            "skin": "res_main/img_xtyg_name.png",
+            "name": "name"
+          },
+          "compId": 9,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": -13,
+                "visible": true,
+                "var": "hero_name",
+                "skin": "netRes/heroName/YX-HBWC-Q.png"
+              },
+              "compId": 13
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 962,
+            "x": 76,
+            "skin": "res_main/img_tgdb.png",
+            "name": "bg"
+          },
+          "compId": 10
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 1216,
+            "width": 211,
+            "var": "confrimBtn",
+            "skin": "res_common/btn_yellow.png",
+            "pivotY": 57,
+            "pivotX": 146,
+            "height": 72,
+            "centerX": 0
+          },
+          "compId": 11,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 21,
+                "x": 52.5,
+                "skin": "res_view/personalInfo/text_queding.png"
+              },
+              "compId": 14
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 1063,
+            "x": 242,
+            "skin": "res_view/sign/text_qdhd.png"
+          },
+          "compId": 15
+        },
+        {
+          "type": "Image",
+          "props": {
+            "zOrder": 10,
+            "y": 1323,
+            "width": 753,
+            "skin": "loading/panel_buttom.png",
+            "height": 157,
+            "centerX": 1
+          },
+          "compId": 16
+        }
+      ]
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

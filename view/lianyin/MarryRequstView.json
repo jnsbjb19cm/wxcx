@@ -1,0 +1,185 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "x": 0,
+        "width": 750,
+        "height": 1334,
+        "centerY": 0
+      },
+      "compId": 20,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -3,
+            "x": -66,
+            "width": 874,
+            "var": "maskbg",
+            "skin": "res_common/bg.png",
+            "height": 1334,
+            "alpha": 0.6
+          },
+          "compId": 3
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 211,
+            "x": 20,
+            "width": 725,
+            "height": 955
+          },
+          "compId": 17,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -8,
+                "x": -11,
+                "width": 742,
+                "var": "lyqq_bg",
+                "skin": "res_view/lianyin/panel_lyqq1.png",
+                "sizeGrid": "143,410,156,344",
+                "height": 955
+              },
+              "compId": 6,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 126,
+                    "x": 28,
+                    "width": 677,
+                    "var": "showpanel",
+                    "skin": "res_view/lianyin/panel_lyqq.png",
+                    "sizeGrid": "3,3,3,3",
+                    "height": 699
+                  },
+                  "compId": 7
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 2,
+                    "x": 657,
+                    "var": "lyqq_close",
+                    "skin": "netRes/task/btn_close.png"
+                  },
+                  "compId": 9
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 56,
+                "x": 220,
+                "skin": "res_common/bg_title01.png"
+              },
+              "compId": 10,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 7.5,
+                    "x": 71,
+                    "skin": "res_view/lianyin/text_lyqq.png"
+                  },
+                  "compId": 11
+                }
+              ]
+            },
+            {
+              "type": "Panel",
+              "props": {
+                "y": 119,
+                "x": 21,
+                "width": 672,
+                "var": "mr_list",
+                "vScrollBarSkin": " ",
+                "height": 696
+              },
+              "compId": 12
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 849,
+                "x": 253,
+                "var": "refuse_btn",
+                "skin": "res_view/lianyin/btn_common_red01.png"
+              },
+              "compId": 13,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 19,
+                    "x": 19,
+                    "skin": "res_view/lianyin/text_yjjj.png"
+                  },
+                  "compId": 14
+                }
+              ]
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 825,
+                "x": 333,
+                "var": "itemnum",
+                "text": "5/20",
+                "fontSize": 25,
+                "color": "#359e4a"
+              },
+              "compId": 15
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 944,
+                "x": 222,
+                "skin": "res_view/rank/text_djgb.png"
+              },
+              "compId": 16
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 233,
+                "x": 123,
+                "width": 464,
+                "visible": false,
+                "var": "zwqd",
+                "skin": "res_view/manual/img_anwen.png",
+                "height": 468
+              },
+              "compId": 18,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 214,
+                    "x": 48,
+                    "skin": "res_view/lianyin/text_zwlyqq.png"
+                  },
+                  "compId": 19
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

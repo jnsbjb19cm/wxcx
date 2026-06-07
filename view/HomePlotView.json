@@ -1,0 +1,98 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": true,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "width": 1000,
+        "visible": false,
+        "var": "maskBg",
+        "top": 0,
+        "skin": "res_common/bg.png",
+        "mouseThrough": false,
+        "centerX": 0,
+        "bottom": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.7
+      },
+      "compId": 3
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 9,
+      "child": [
+        {
+          "type": "Panel",
+          "props": {
+            "width": 750,
+            "var": "spinePanel",
+            "name": "spinePanel",
+            "height": 815,
+            "centerY": -260,
+            "centerX": 0,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 5,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 1600,
+                "width": 100,
+                "var": "roleBox",
+                "name": "roleBox",
+                "height": 100,
+                "centerX": 50,
+                "alpha": 1
+              },
+              "compId": 7
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "width": 686,
+            "var": "wakeup",
+            "skin": "res_view/openPlot/panel_text.png",
+            "sizeGrid": "20,0,27,0",
+            "name": "wakeup",
+            "height": 142,
+            "centerY": 216,
+            "centerX": 0,
+            "alpha": 1
+          },
+          "compId": 6,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 37,
+                "var": "wakeupContent",
+                "skin": "res_view/openPlot/text-zyssgz.png",
+                "centerX": 7
+              },
+              "compId": 8
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

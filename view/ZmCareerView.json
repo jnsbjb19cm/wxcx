@@ -1,0 +1,585 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": false,
+    "height": 1334,
+    "drawCallOptimize": true,
+    "autoDestroyAtClosed": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 798,
+        "var": "UnLockBox",
+        "name": "UnLockBox",
+        "height": 1211,
+        "centerY": 21,
+        "centerX": 0
+      },
+      "compId": 686,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 576,
+            "width": 1000,
+            "skin": "res_common/bg.png",
+            "height": 1625,
+            "centerX": -16,
+            "anchorY": 0.5,
+            "anchorX": 0.5,
+            "alpha": 0.6
+          },
+          "compId": 687
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 231,
+            "x": 102,
+            "width": 604,
+            "skin": "res_view/platformFeatures/panel_1.png",
+            "sizeGrid": "121,36,146,21",
+            "name": "Bg",
+            "height": 677
+          },
+          "compId": 688,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 69,
+                "x": 164,
+                "width": 280,
+                "skin": "res_view/haream/bg_common_title06.png",
+                "name": "bg2",
+                "height": 56,
+                "alpha": 0.3
+              },
+              "compId": 802
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 69,
+                "x": 164,
+                "width": 280,
+                "skin": "res_view/haream/bg_common_title06.png",
+                "name": "bg3",
+                "height": 56,
+                "alpha": 1
+              },
+              "compId": 803,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 7,
+                    "x": 80.5,
+                    "skin": "res_view/haream/text_mrlb.png",
+                    "name": "txt_bg"
+                  },
+                  "compId": 805
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 677,
+                "skin": "res_common/text_djgb.png",
+                "name": "img_blankClose",
+                "centerX": -10
+              },
+              "compId": 696
+            },
+            {
+              "type": "Image",
+              "props": {
+                "width": 3000,
+                "visible": true,
+                "var": "topClose",
+                "name": "topClose",
+                "height": 988,
+                "centerY": -814,
+                "centerX": -10
+              },
+              "compId": 697
+            },
+            {
+              "type": "Image",
+              "props": {
+                "width": 1505,
+                "visible": true,
+                "var": "leftClose",
+                "name": "leftClose",
+                "height": 1483,
+                "centerY": 41,
+                "centerX": -1048
+              },
+              "compId": 698
+            },
+            {
+              "type": "Image",
+              "props": {
+                "width": 1535,
+                "visible": true,
+                "var": "rightClose",
+                "name": "rightClose",
+                "height": 1483,
+                "centerY": 41,
+                "centerX": 1050
+              },
+              "compId": 699
+            },
+            {
+              "type": "Image",
+              "props": {
+                "width": 3000,
+                "visible": true,
+                "var": "bottomClose",
+                "name": "bottomClose",
+                "height": 834,
+                "centerY": 758,
+                "centerX": -31
+              },
+              "compId": 700
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 35,
+                "x": 564,
+                "width": 91,
+                "var": "btn_close",
+                "skin": "netRes/chat/btn_close.png",
+                "pivotY": 39,
+                "pivotX": 52,
+                "name": "btn_close",
+                "label": "label",
+                "height": 91,
+                "alpha": 1
+              },
+              "compId": 693,
+              "child": [
+                {
+                  "type": "Script",
+                  "props": {
+                    "y": 41,
+                    "x": 93,
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 695
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 364,
+            "x": 139,
+            "var": "BasicMesBox",
+            "name": "BasicMesBox"
+          },
+          "compId": 701,
+          "child": [
+            {
+              "type": "Panel",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 534,
+                "var": "mainPanel",
+                "vScrollBarSkin": "comp/vscroll.png",
+                "name": "mainPanel",
+                "height": 424,
+                "elasticEnabled": true
+              },
+              "compId": 783,
+              "child": [
+                {
+                  "type": "List",
+                  "props": {
+                    "y": -9,
+                    "x": 11,
+                    "width": 504,
+                    "var": "beautyList",
+                    "spaceY": 15,
+                    "spaceX": 29,
+                    "selectEnable": true,
+                    "repeatY": 10,
+                    "repeatX": 4,
+                    "name": "beautyList",
+                    "height": 631
+                  },
+                  "compId": 773,
+                  "child": [
+                    {
+                      "type": "Box",
+                      "props": {
+                        "y": 75,
+                        "x": 60,
+                        "width": 98,
+                        "renderType": "render",
+                        "pivotY": 52,
+                        "pivotX": 49,
+                        "name": "beautyBox",
+                        "height": 103
+                      },
+                      "compId": 776,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -17,
+                            "x": -11,
+                            "width": 132,
+                            "skin": "res_view/haream/panel_xz.png",
+                            "name": "hasChoose",
+                            "height": 132
+                          },
+                          "compId": 781
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -8,
+                            "x": -1,
+                            "width": 114,
+                            "skin": "res_common/solt_hero_blue.png",
+                            "name": "quality",
+                            "height": 114
+                          },
+                          "compId": 775
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -19,
+                            "x": -4,
+                            "width": 125,
+                            "skin": "netRes/beautyIcon/MR-SYM.png",
+                            "name": "profile",
+                            "height": 129,
+                            "gray": false
+                          },
+                          "compId": 777
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 94,
+                            "x": 52,
+                            "skin": "netRes/beautyStatus/status_1.png",
+                            "scaleY": 0.6,
+                            "scaleX": 0.6,
+                            "pivotY": 37,
+                            "pivotX": 50,
+                            "name": "txt_relation"
+                          },
+                          "compId": 778
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 12,
+                            "x": -8,
+                            "width": 32,
+                            "skin": "res_view/haream/icon_krm.png",
+                            "name": "hasWork",
+                            "height": 61
+                          },
+                          "compId": 780
+                        },
+                        {
+                          "type": "Script",
+                          "props": {
+                            "y": -990,
+                            "x": -498,
+                            "runtime": "game/tools/BtnScale90.ts"
+                          },
+                          "compId": 779
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 851,
+            "x": 406,
+            "width": 215,
+            "var": "btn_lvUp",
+            "skin": "res_combat/specialStageView/biaoJu/btn_yellow.png",
+            "pivotY": 41,
+            "pivotX": 115,
+            "name": "btn_lvUp",
+            "height": 77,
+            "alpha": 1
+          },
+          "compId": 747,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 22.5,
+                "x": 58.5,
+                "var": "btn_yes",
+                "skin": "res_view/haream/text_qd.png",
+                "name": "btn_yes"
+              },
+              "compId": 748
+            },
+            {
+              "type": "Script",
+              "props": {
+                "y": 41,
+                "x": 93,
+                "runtime": "game/tools/BtnScale90.ts"
+              },
+              "compId": 749
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 322,
+            "x": 58,
+            "width": 684,
+            "visible": false,
+            "var": "isBeautyWorking",
+            "name": "isBeautyWorking",
+            "height": 380,
+            "alpha": 1
+          },
+          "compId": 784,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 200,
+                "width": 1000,
+                "skin": "res_common/bg.png",
+                "mouseThrough": false,
+                "mouseEnabled": true,
+                "height": 1625,
+                "centerX": -20,
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 0.6
+              },
+              "compId": 834
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 10,
+                "x": 42,
+                "width": 599,
+                "skin": "res_view/platformFeatures/panel_1.png",
+                "sizeGrid": "54,98,29,43",
+                "name": "bg",
+                "height": 348
+              },
+              "compId": 794
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 64,
+                "x": 206,
+                "width": 272,
+                "skin": "res_view/haream/bg_common_title06.png",
+                "name": "bg2",
+                "height": 52
+              },
+              "compId": 795
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 71,
+                "x": 309.5,
+                "skin": "netRes/liuhe/viewUI/text_ts.png",
+                "name": "txt_tips"
+              },
+              "compId": 797
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 28,
+                "x": 605,
+                "width": 73,
+                "var": "btnClose",
+                "skin": "netRes/chat/btn_close.png",
+                "pivotY": 32,
+                "pivotX": 42,
+                "name": "btnClose",
+                "height": 74
+              },
+              "compId": 798,
+              "child": [
+                {
+                  "type": "Script",
+                  "props": {
+                    "y": -990,
+                    "x": -498,
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 799
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 293,
+                "x": 471,
+                "width": 212,
+                "var": "btn_true",
+                "skin": "res_combat/specialStageView/biaoJu/btn_yellow.png",
+                "pivotY": 37,
+                "pivotX": 99,
+                "name": "btn_true",
+                "height": 73
+              },
+              "compId": 785,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 19,
+                    "x": 54.5,
+                    "skin": "netRes/liuhe/viewUI/text_qd.png",
+                    "name": "sure"
+                  },
+                  "compId": 790
+                },
+                {
+                  "type": "Script",
+                  "props": {
+                    "y": -990,
+                    "x": -498,
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 835
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 289,
+                "x": 144,
+                "width": 209,
+                "var": "btn_false",
+                "skin": "res_combat/specialStageView/biaoJu/btn_blue.png",
+                "pivotY": 31,
+                "pivotX": 41,
+                "name": "btn_false",
+                "height": 72,
+                "alpha": 1
+              },
+              "compId": 786,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 20,
+                    "x": 49,
+                    "skin": "netRes/liuhe/viewUI/text_qx.png",
+                    "name": "cancel"
+                  },
+                  "compId": 791
+                },
+                {
+                  "type": "Script",
+                  "props": {
+                    "y": -990,
+                    "x": -498,
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 836
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "props": {
+                "y": 148,
+                "x": 57,
+                "width": 584,
+                "var": "BeautyTips",
+                "text": "正在担任职位哦!",
+                "name": "BeautyTips",
+                "height": 133,
+                "fontSize": 26,
+                "font": "Microsoft YaHei",
+                "color": "#613735",
+                "bold": true,
+                "align": "center",
+                "runtime": "Laya.Text"
+              },
+              "compId": 788
+            },
+            {
+              "type": "Text",
+              "props": {
+                "y": 185,
+                "x": 58,
+                "width": 584,
+                "text": "宗主大人是否确认让他过来任职?",
+                "name": "txt_Tips",
+                "height": 133,
+                "fontSize": 26,
+                "font": "Microsoft YaHei",
+                "color": "#613735",
+                "bold": true,
+                "align": "center",
+                "runtime": "Laya.Text"
+              },
+              "compId": 808
+            }
+          ]
+        },
+        {
+          "type": "Text",
+          "props": {
+            "y": 397,
+            "x": 132,
+            "width": 541,
+            "visible": false,
+            "var": "NoBeautyTips",
+            "valign": "middle",
+            "text": "暂无可任职美人",
+            "name": "NoBeautyTips",
+            "height": 358,
+            "fontSize": 50,
+            "font": "Microsoft YaHei",
+            "color": "#501919",
+            "bold": true,
+            "align": "center",
+            "runtime": "Laya.Text"
+          },
+          "compId": 807
+        }
+      ]
+    }
+  ],
+  "loadList": ["comp/vscroll.png", "res_common/solt_hero_blue.png"],
+  "loadList3D": []
+}

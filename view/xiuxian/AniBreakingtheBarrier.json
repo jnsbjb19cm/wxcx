@@ -1,0 +1,2630 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 750,
+        "var": "contentBox",
+        "height": 1334,
+        "centerY": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "width": 750,
+            "var": "mask_bg",
+            "skin": "res_common/bg.png",
+            "height": 1334,
+            "alpha": 0.6
+          },
+          "compId": 4
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "var": "bg",
+            "skin": "res_view/xiuxin/pojin/img_dj_bg.png",
+            "name": "bg"
+          },
+          "compId": 23
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 16,
+            "x": -12,
+            "var": "yunSpineBox",
+            "name": "yunSpineBox"
+          },
+          "compId": 19
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 973,
+            "x": 217,
+            "var": "ren",
+            "skin": "res_view/xiuxin/pojin/img_dj_ren.png",
+            "name": "ren"
+          },
+          "compId": 27
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 16,
+            "x": -12,
+            "var": "anibox",
+            "name": "anibox"
+          },
+          "compId": 16,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -210,
+                "x": 88,
+                "visible": true,
+                "var": "Spell",
+                "skin": "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_21.png",
+                "name": "Spell"
+              },
+              "compId": 17
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "var": "lei",
+                "name": "lei"
+              },
+              "compId": 18,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 983,
+                    "x": 242,
+                    "skin": "res_view/xiuxin/pojin/pingzhang.png"
+                  },
+                  "compId": 38
+                }
+              ]
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 635,
+                "x": 432,
+                "width": 776,
+                "var": "shanghaiNum",
+                "value": "9999",
+                "spaceX": -65,
+                "skin": "res_common/number/num_100_f74646_eycz_stk_2.png",
+                "sheet": "0123456789",
+                "rotation": -15,
+                "name": "shanghaiNum",
+                "height": 149
+              },
+              "compId": 25,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 67.5,
+                    "x": -30,
+                    "skin": "res_view/xiuxin/pojin/text_jianhao.png"
+                  },
+                  "compId": 32
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 196,
+                "x": 145,
+                "var": "tianle_t",
+                "skin": "res_view/xiuxin/pojin/text_dj_di.png",
+                "name": "tianle_t"
+              },
+              "compId": 33,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 11,
+                    "x": 99,
+                    "var": "tianle_num",
+                    "skin": "res_view/xiuxin/pojin/text_dj_2.png",
+                    "name": "tianle_num"
+                  },
+                  "compId": 35
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 206,
+                    "skin": "res_view/xiuxin/pojin/text_dj_dtl.png",
+                    "name": "tianle_end"
+                  },
+                  "compId": 36
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 1193,
+            "x": 23.5,
+            "width": 731,
+            "height": 73
+          },
+          "compId": 39,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 36.5,
+                "x": 0,
+                "var": "xuetiaoimg",
+                "skin": "res_view/xiuxin/pojin/iconl_upgrade2.png",
+                "name": "xuetiaoimg"
+              },
+              "compId": 26
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 41,
+                "x": 3,
+                "width": 703,
+                "var": "xuetiaoimg_pre",
+                "skin": "res_view/xiuxin/pojin/iconl_upgrade2_y.png",
+                "name": "xuetiaoimg_pre",
+                "height": 28
+              },
+              "compId": 37
+            },
+            {
+              "type": "Text",
+              "props": {
+                "y": 44,
+                "x": 387,
+                "width": 218,
+                "var": "maxcurgode_Text",
+                "text": "99999999999999",
+                "stroke": 1,
+                "name": "maxcurgode_Text",
+                "height": 24,
+                "fontSize": 24,
+                "font": "Microsoft YaHei",
+                "color": "#fff1cf",
+                "align": "left",
+                "runtime": "Laya.Text"
+              },
+              "compId": 29
+            },
+            {
+              "type": "Text",
+              "props": {
+                "y": 43,
+                "x": 368,
+                "text": "/",
+                "stroke": 1,
+                "name": "/",
+                "fontSize": 24,
+                "font": "Microsoft YaHei",
+                "color": "#fff1cf",
+                "runtime": "Laya.Text"
+              },
+              "compId": 30
+            },
+            {
+              "type": "Text",
+              "props": {
+                "y": 44,
+                "x": 157.4609375,
+                "var": "gode_Text",
+                "text": "99999999999999",
+                "stroke": 1,
+                "name": "gode_Text",
+                "leading": 1,
+                "fontSize": 24,
+                "font": "Microsoft YaHei",
+                "color": "#fff1cf",
+                "align": "right",
+                "runtime": "Laya.Text"
+              },
+              "compId": 28
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 17,
+          "keyframes": {
+            "y": [
+              {
+                "value": -210,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 17,
+                "key": "y",
+                "index": 0
+              }
+            ],
+            "x": [
+              {
+                "value": 88,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 17,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 17,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 17,
+                "key": "visible",
+                "index": 24
+              }
+            ],
+            "skin": [
+              {
+                "value": "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_00.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 17,
+                "key": "skin",
+                "index": 0
+              },
+              {
+                "value": "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_01.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 17,
+                "key": "skin",
+                "index": 1
+              },
+              {
+                "value": "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_02.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 17,
+                "key": "skin",
+                "index": 2
+              },
+              {
+                "value": "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_03.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 17,
+                "key": "skin",
+                "index": 3
+              },
+              {
+                "value": "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_04.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 17,
+                "key": "skin",
+                "index": 4
+              },
+              {
+                "value": "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_05.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 17,
+                "key": "skin",
+                "index": 5
+              },
+              {
+                "value": "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_06.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 17,
+                "key": "skin",
+                "index": 6
+              },
+              {
+                "value": "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_07.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 17,
+                "key": "skin",
+                "index": 7
+              },
+              {
+                "value": "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_08.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 17,
+                "key": "skin",
+                "index": 8
+              },
+              {
+                "value": "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_09.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 17,
+                "key": "skin",
+                "index": 9
+              },
+              {
+                "value": "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_10.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 17,
+                "key": "skin",
+                "index": 10
+              },
+              {
+                "value": "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_11.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 17,
+                "key": "skin",
+                "index": 11
+              },
+              {
+                "value": "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_13.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 17,
+                "key": "skin",
+                "index": 12
+              },
+              {
+                "value": "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_14.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 17,
+                "key": "skin",
+                "index": 13
+              },
+              {
+                "value": "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_15.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 17,
+                "key": "skin",
+                "index": 14
+              },
+              {
+                "value": "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_16.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 17,
+                "key": "skin",
+                "index": 15
+              },
+              {
+                "value": "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_17.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 17,
+                "key": "skin",
+                "index": 16
+              },
+              {
+                "value": "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_18.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 17,
+                "key": "skin",
+                "index": 17
+              },
+              {
+                "value": "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_19.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 17,
+                "key": "skin",
+                "index": 18
+              },
+              {
+                "value": "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_20.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 17,
+                "key": "skin",
+                "index": 19
+              },
+              {
+                "value": "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_21.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 17,
+                "key": "skin",
+                "index": 20
+              },
+              {
+                "value": "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_22.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 17,
+                "key": "skin",
+                "index": 21
+              },
+              {
+                "value": "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_23.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 17,
+                "key": "skin",
+                "index": 22
+              },
+              {
+                "value": "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_24.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 17,
+                "key": "skin",
+                "index": 23
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 17,
+                "key": "alpha",
+                "index": 0
+              }
+            ]
+          }
+        }
+      ],
+      "name": "aniSpell",
+      "id": 1,
+      "frameRate": 60,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 18,
+          "keyframes": {
+            "y": [
+              {
+                "value": -210,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": -210,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "y",
+                "index": 1
+              },
+              {
+                "value": -210,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "y",
+                "index": 2
+              },
+              {
+                "value": -210,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "y",
+                "index": 3
+              },
+              {
+                "value": -210,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "y",
+                "index": 4
+              },
+              {
+                "value": -210,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "y",
+                "index": 5
+              },
+              {
+                "value": -210,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "y",
+                "index": 6
+              },
+              {
+                "value": -210,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "y",
+                "index": 7
+              },
+              {
+                "value": -210,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "y",
+                "index": 8
+              },
+              {
+                "value": -210,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "y",
+                "index": 9
+              },
+              {
+                "value": -210,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "y",
+                "index": 10
+              },
+              {
+                "value": -210,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "y",
+                "index": 11
+              },
+              {
+                "value": -210,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "y",
+                "index": 12
+              }
+            ],
+            "x": [
+              {
+                "value": -406,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": -406,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "x",
+                "index": 1
+              },
+              {
+                "value": -406,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "x",
+                "index": 2
+              },
+              {
+                "value": -406,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "x",
+                "index": 3
+              },
+              {
+                "value": -406,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "x",
+                "index": 4
+              },
+              {
+                "value": -406,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "x",
+                "index": 5
+              },
+              {
+                "value": -406,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "x",
+                "index": 6
+              },
+              {
+                "value": -406,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "x",
+                "index": 7
+              },
+              {
+                "value": -406,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "x",
+                "index": 8
+              },
+              {
+                "value": -406,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "x",
+                "index": 9
+              },
+              {
+                "value": -406,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "x",
+                "index": 10
+              },
+              {
+                "value": -406,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "x",
+                "index": 11
+              },
+              {
+                "value": -406,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "x",
+                "index": 12
+              }
+            ],
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 18,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 18,
+                "key": "visible",
+                "index": 17
+              }
+            ],
+            "skin": [
+              {
+                "value": "res_view/xiuxin/pojin/lei/effect_skill0_hit-skill0_00.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 18,
+                "key": "skin",
+                "index": 0
+              },
+              {
+                "value": "res_view/xiuxin/pojin/lei/effect_skill0_hit-skill0_01.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 18,
+                "key": "skin",
+                "index": 1
+              },
+              {
+                "value": "res_view/xiuxin/pojin/lei/effect_skill0_hit-skill0_02.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 18,
+                "key": "skin",
+                "index": 2
+              },
+              {
+                "value": "res_view/xiuxin/pojin/lei/effect_skill0_hit-skill0_03.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 18,
+                "key": "skin",
+                "index": 3
+              },
+              {
+                "value": "res_view/xiuxin/pojin/lei/effect_skill0_hit-skill0_04.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 18,
+                "key": "skin",
+                "index": 4
+              },
+              {
+                "value": "res_view/xiuxin/pojin/lei/effect_skill0_hit-skill0_05.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 18,
+                "key": "skin",
+                "index": 5
+              },
+              {
+                "value": "res_view/xiuxin/pojin/lei/effect_skill0_hit-skill0_06.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 18,
+                "key": "skin",
+                "index": 6
+              },
+              {
+                "value": "res_view/xiuxin/pojin/lei/effect_skill0_hit-skill0_07.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 18,
+                "key": "skin",
+                "index": 7
+              },
+              {
+                "value": "res_view/xiuxin/pojin/lei/effect_skill0_hit-skill0_08.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 18,
+                "key": "skin",
+                "index": 8
+              },
+              {
+                "value": "res_view/xiuxin/pojin/lei/effect_skill0_hit-skill0_09.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 18,
+                "key": "skin",
+                "index": 9
+              },
+              {
+                "value": "res_view/xiuxin/pojin/lei/effect_skill0_hit-skill0_10.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 18,
+                "key": "skin",
+                "index": 10
+              },
+              {
+                "value": "res_view/xiuxin/pojin/lei/effect_skill0_hit-skill0_11.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 18,
+                "key": "skin",
+                "index": 11
+              },
+              {
+                "value": "res_view/xiuxin/pojin/lei/effect_skill0_hit-skill0_12.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 18,
+                "key": "skin",
+                "index": 12
+              },
+              {
+                "value": "res_view/xiuxin/pojin/lei/effect_skill0_hit-skill0_13.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 18,
+                "key": "skin",
+                "index": 13
+              },
+              {
+                "value": "res_view/xiuxin/pojin/lei/effect_skill0_hit-skill0_14.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 18,
+                "key": "skin",
+                "index": 14
+              },
+              {
+                "value": "res_view/xiuxin/pojin/lei/effect_skill0_hit-skill0_15.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 18,
+                "key": "skin",
+                "index": 15
+              },
+              {
+                "value": "res_view/xiuxin/pojin/lei/effect_skill0_hit-skill0_16.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 18,
+                "key": "skin",
+                "index": 16
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 1.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "scaleY",
+                "index": 12
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1.2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1.2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "scaleX",
+                "index": 12
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 18,
+                "key": "alpha",
+                "index": 0
+              }
+            ]
+          }
+        },
+        {
+          "target": 38,
+          "keyframes": {
+            "y": [
+              {
+                "value": 1038,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 38,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 914,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 38,
+                "key": "y",
+                "index": 7
+              },
+              {
+                "value": 872,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 38,
+                "key": "y",
+                "index": 10
+              },
+              {
+                "value": 839,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 38,
+                "key": "y",
+                "index": 12
+              },
+              {
+                "value": 771,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 38,
+                "key": "y",
+                "index": 17
+              }
+            ],
+            "x": [
+              {
+                "value": 642,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 38,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 553,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 38,
+                "key": "x",
+                "index": 7
+              },
+              {
+                "value": 508,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 38,
+                "key": "x",
+                "index": 10
+              },
+              {
+                "value": 489,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 38,
+                "key": "x",
+                "index": 12
+              },
+              {
+                "value": 437,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 38,
+                "key": "x",
+                "index": 17
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 0.1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 38,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 38,
+                "key": "scaleY",
+                "index": 10
+              },
+              {
+                "value": 1.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 38,
+                "key": "scaleY",
+                "index": 17
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 0.1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 38,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 38,
+                "key": "scaleX",
+                "index": 10
+              },
+              {
+                "value": 1.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 38,
+                "key": "scaleX",
+                "index": 17
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 38,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 38,
+                "key": "alpha",
+                "index": 10
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 38,
+                "key": "alpha",
+                "index": 17
+              }
+            ]
+          }
+        }
+      ],
+      "name": "anilei",
+      "id": 2,
+      "frameRate": 50,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 19,
+          "keyframes": {
+            "skin": [
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_000.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 0
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_001.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 1
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_002.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 2
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_003.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 3
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_004.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 4
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_005.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 5
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_006.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 6
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_007.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 7
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_008.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 8
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_009.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 9
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_010.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 10
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_011.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 11
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_012.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 12
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_013.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 13
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_014.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 14
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_015.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 15
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_016.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 16
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_017.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 17
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_018.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 18
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_019.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 19
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_020.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 20
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_021.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 21
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_022.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 22
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_023.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 23
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_024.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 24
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_025.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 25
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_026.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 26
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_027.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 27
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_028.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 28
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_029.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 29
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_030.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 30
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_031.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 31
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_032.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 32
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_033.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 33
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_034.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 34
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_035.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 35
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_036.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 36
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_037.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 37
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_038.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 38
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_039.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 39
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_040.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 40
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_041.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 41
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_042.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 42
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_043.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 43
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_044.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 44
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_045.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 45
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_046.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 46
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_047.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 47
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_048.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 48
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_049.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 49
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_050.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 50
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_051.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 51
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_052.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 52
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_053.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 53
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_054.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 54
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_055.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 55
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_056.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 56
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_057.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 57
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_058.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 58
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_059.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 59
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_060.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "key": "skin",
+                "index": 60
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_000.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 61
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_001.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 62
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_002.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 63
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_003.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 64
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_004.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 65
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_005.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 66
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_006.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 67
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_007.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 68
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_008.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 69
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_009.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 70
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_010.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 71
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_011.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 72
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_012.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 73
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_013.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 74
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_014.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 75
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_015.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 76
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_016.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 77
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_017.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 78
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_018.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 79
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_019.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 80
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_020.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 81
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_021.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 82
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_022.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 83
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_023.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 84
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_024.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 85
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_025.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 86
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_026.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 87
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_027.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 88
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_028.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 89
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_029.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 90
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_030.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 91
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_031.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 92
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_032.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 93
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_033.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 94
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_034.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 95
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_035.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 96
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_036.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 97
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_037.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 98
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_038.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 99
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_039.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 100
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_040.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 101
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_041.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 102
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_042.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 103
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_043.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 104
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_044.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 105
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_045.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 106
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_046.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 107
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_047.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 108
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_048.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 109
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_049.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 110
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_050.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 111
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_051.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 112
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_052.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 113
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_053.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 114
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_054.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 115
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_055.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 116
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_056.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 117
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_057.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 118
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_058.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 119
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_059.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 120
+              },
+              {
+                "value": "res_view/xiuxin/pojin/yun/eff_suet3-loop1_060.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 19,
+                "label": null,
+                "key": "skin",
+                "index": 121
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 19,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 19,
+                "key": "alpha",
+                "index": 122
+              }
+            ]
+          }
+        }
+      ],
+      "name": "aniyun",
+      "id": 3,
+      "frameRate": 60,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 33,
+          "keyframes": {
+            "y": [
+              {
+                "value": 159,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 218,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "key": "y",
+                "index": 15
+              },
+              {
+                "value": 218,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "key": "y",
+                "index": 30
+              }
+            ],
+            "x": [
+              {
+                "value": -77,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 100,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "key": "x",
+                "index": 15
+              }
+            ],
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 33,
+                "key": "visible",
+                "index": 0
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1.2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "key": "scaleY",
+                "index": 15
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1.2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "key": "scaleX",
+                "index": 15
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 33,
+                "key": "alpha",
+                "index": 15
+              }
+            ]
+          }
+        },
+        {
+          "target": 35,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 35,
+                "key": "visible",
+                "index": 0
+              }
+            ]
+          }
+        }
+      ],
+      "name": "aniTxetBig",
+      "id": 4,
+      "frameRate": 60,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 27,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 27,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 27,
+                "key": "alpha",
+                "index": 15
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani_ren",
+      "id": 5,
+      "frameRate": 60,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 25,
+          "keyframes": {
+            "y": [
+              {
+                "value": 661,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 25,
+                "key": "y",
+                "index": 0
+              }
+            ],
+            "x": [
+              {
+                "value": 167,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 25,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 25,
+                "key": "visible",
+                "index": 0
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 1.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 25,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 0.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 25,
+                "key": "scaleY",
+                "index": 5
+              },
+              {
+                "value": 0.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 25,
+                "label": null,
+                "key": "scaleY",
+                "index": 15
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 25,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 0.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 25,
+                "key": "scaleX",
+                "index": 5
+              },
+              {
+                "value": 0.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 25,
+                "label": null,
+                "key": "scaleX",
+                "index": 15
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 25,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 25,
+                "key": "alpha",
+                "index": 5
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 25,
+                "label": null,
+                "key": "alpha",
+                "index": 15
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 25,
+                "key": "alpha",
+                "index": 20
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani_aniTxetBig",
+      "id": 6,
+      "frameRate": 60,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 23,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 23,
+                "key": "visible",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 23,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 23,
+                "key": "alpha",
+                "index": 20
+              }
+            ]
+          }
+        }
+      ],
+      "name": "Scence",
+      "id": 7,
+      "frameRate": 60,
+      "action": 0
+    }
+  ],
+  "loadList": [
+    "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_21.png",
+    "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_00.png",
+    "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_01.png",
+    "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_02.png",
+    "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_03.png",
+    "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_04.png",
+    "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_05.png",
+    "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_06.png",
+    "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_07.png",
+    "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_08.png",
+    "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_09.png",
+    "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_10.png",
+    "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_11.png",
+    "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_13.png",
+    "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_14.png",
+    "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_15.png",
+    "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_16.png",
+    "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_17.png",
+    "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_18.png",
+    "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_19.png",
+    "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_20.png",
+    "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_22.png",
+    "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_23.png",
+    "res_view/xiuxin/pojin/dian/Spell_Active_Lightning-eff_24.png",
+    "res_view/xiuxin/pojin/lei/effect_skill0_hit-skill0_00.png",
+    "res_view/xiuxin/pojin/lei/effect_skill0_hit-skill0_01.png",
+    "res_view/xiuxin/pojin/lei/effect_skill0_hit-skill0_02.png",
+    "res_view/xiuxin/pojin/lei/effect_skill0_hit-skill0_03.png",
+    "res_view/xiuxin/pojin/lei/effect_skill0_hit-skill0_04.png",
+    "res_view/xiuxin/pojin/lei/effect_skill0_hit-skill0_05.png",
+    "res_view/xiuxin/pojin/lei/effect_skill0_hit-skill0_06.png",
+    "res_view/xiuxin/pojin/lei/effect_skill0_hit-skill0_07.png",
+    "res_view/xiuxin/pojin/lei/effect_skill0_hit-skill0_08.png",
+    "res_view/xiuxin/pojin/lei/effect_skill0_hit-skill0_09.png",
+    "res_view/xiuxin/pojin/lei/effect_skill0_hit-skill0_10.png",
+    "res_view/xiuxin/pojin/lei/effect_skill0_hit-skill0_11.png",
+    "res_view/xiuxin/pojin/lei/effect_skill0_hit-skill0_12.png",
+    "res_view/xiuxin/pojin/lei/effect_skill0_hit-skill0_13.png",
+    "res_view/xiuxin/pojin/lei/effect_skill0_hit-skill0_14.png",
+    "res_view/xiuxin/pojin/lei/effect_skill0_hit-skill0_15.png",
+    "res_view/xiuxin/pojin/lei/effect_skill0_hit-skill0_16.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_000.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_001.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_002.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_003.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_004.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_005.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_006.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_007.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_008.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_009.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_010.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_011.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_012.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_013.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_014.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_015.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_016.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_017.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_018.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_019.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_020.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_021.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_022.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_023.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_024.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_025.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_026.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_027.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_028.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_029.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_030.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_031.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_032.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_033.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_034.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_035.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_036.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_037.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_038.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_039.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_040.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_041.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_042.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_043.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_044.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_045.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_046.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_047.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_048.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_049.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_050.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_051.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_052.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_053.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_054.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_055.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_056.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_057.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_058.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_059.png",
+    "res_view/xiuxin/pojin/yun/eff_suet3-loop1_060.png"
+  ],
+  "loadList3D": []
+}

@@ -1,0 +1,56 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": -145.5,
+        "x": -124,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "alpha": 0.5
+      },
+      "compId": 7
+    },
+    {
+      "type": "Image",
+      "props": {
+        "skin": "res_combat/public/img_zr.png",
+        "centerY": -74,
+        "centerX": 8
+      },
+      "compId": 6
+    },
+    {
+      "type": "Image",
+      "props": {
+        "width": 598,
+        "skin": "res_common/bg_common_tips02.png",
+        "height": 181,
+        "centerY": 145,
+        "centerX": 1
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 61,
+            "x": 111.5,
+            "skin": "res_combat/public/text_zr_skill.png"
+          },
+          "compId": 5
+        }
+      ]
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

@@ -1,0 +1,254 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": true,
+    "height": 1344,
+    "drawCallOptimize": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 672,
+        "x": 375,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 58
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 720,
+        "var": "contentBox",
+        "height": 732,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -16,
+            "var": "title",
+            "skin": "combat/public/title2.png",
+            "centerX": 0
+          },
+          "compId": 77
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 100,
+            "width": 720,
+            "skin": "combat/public/panel_info_char_p.png",
+            "sizeGrid": "106,113,107,111",
+            "right": 0,
+            "mouseThrough": false,
+            "mouseEnabled": true,
+            "left": 0,
+            "height": 492
+          },
+          "compId": 3
+        },
+        {
+          "type": "List",
+          "props": {
+            "y": 132,
+            "x": 27,
+            "width": 665,
+            "var": "list",
+            "name": "list",
+            "height": 424
+          },
+          "compId": 94,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "renderType": "render",
+                "presetID": 1,
+                "y": 0,
+                "x": 0,
+                "width": 220,
+                "isPresetRoot": true,
+                "height": 500
+              },
+              "compId": 100,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "presetID": 5,
+                    "width": 26,
+                    "text": "1",
+                    "name": "haveNum",
+                    "fontSize": 18,
+                    "font": "SimHei",
+                    "color": "#4c3425",
+                    "centerY": 0,
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 90,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "presetID": 12,
+                        "skin": "res_combat/public/text_count.png",
+                        "centerY": 0
+                      },
+                      "compId": 105
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 6,
+                    "y": -12,
+                    "x": -96,
+                    "skin": "res_icon/monsterLvIcon/char_lv2.png",
+                    "scaleY": 2,
+                    "scaleX": 2,
+                    "name": "lvIcon"
+                  },
+                  "compId": 91
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "combat/public/btn_selected_p.png",
+                    "presetID": 7,
+                    "y": 455,
+                    "x": 110,
+                    "name": "chooseBtn",
+                    "label": "label",
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 92,
+                  "child": [
+                    {
+                      "type": "Text",
+                      "props": {
+                        "presetID": 11,
+                        "y": 11,
+                        "skin": "res_common/text_choice.png",
+                        "name": "img",
+                        "centerX": 0,
+                        "runtime": "Laya.Text"
+                      },
+                      "compId": 104
+                    },
+                    {
+                      "type": "Script",
+                      "props": {
+                        "presetID": 14,
+                        "runtime": "game/tools/BtnScale90.ts"
+                      },
+                      "compId": 107
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "presetID": 9,
+                    "y": 96,
+                    "x": 10,
+                    "width": 200,
+                    "name": "spineClickBox",
+                    "height": 200
+                  },
+                  "compId": 101
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 3,
+                    "y": 56,
+                    "x": 23,
+                    "width": 45,
+                    "skin": "res_icon/racesIcon/icon_race_XY.png",
+                    "name": "raceIcon",
+                    "height": 114,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 103
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 13,
+                    "y": 337,
+                    "skin": "netRes/monsterName/style_1/MJ-NZ.png",
+                    "scaleY": 0.45,
+                    "scaleX": 0.45,
+                    "name": "nameImg",
+                    "centerX": 18
+                  },
+                  "compId": 106
+                },
+                {
+                  "type": "HBox",
+                  "props": {
+                    "presetID": 15,
+                    "y": 370,
+                    "height": 30,
+                    "centerX": 0
+                  },
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "presetID": 5,
+                        "width": 26,
+                        "text": "1",
+                        "name": "haveNum",
+                        "fontSize": 18,
+                        "font": "SimHei",
+                        "color": "#4c3425",
+                        "centerY": 0,
+                        "bold": true,
+                        "align": "center"
+                      },
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "presetID": 12,
+                            "skin": "res_combat/public/text_count.png",
+                            "centerY": 0
+                          },
+                          "compId": 110
+                        }
+                      ],
+                      "compId": 109
+                    }
+                  ],
+                  "compId": 108
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": ["prefab/RwdMonsterItem.prefab"],
+  "loadList3D": []
+}

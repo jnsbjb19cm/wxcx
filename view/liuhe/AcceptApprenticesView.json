@@ -1,0 +1,712 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "name": "allbox",
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Sprite",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "width": 750,
+            "var": "Apprentices_msk",
+            "texture": "res_common/bg.png",
+            "height": 1334,
+            "alpha": 0.45
+          },
+          "compId": 4
+        },
+        {
+          "type": "Box",
+          "props": {
+            "width": 619,
+            "name": "mainBox",
+            "mouseThrough": false,
+            "height": 800,
+            "centerY": 0,
+            "centerX": 0
+          },
+          "compId": 5,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "skin": "netRes/liuhe/viewUI/pic_bg.png",
+                "centerY": 0,
+                "centerX": 0
+              },
+              "compId": 6
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 38,
+                "x": 585,
+                "var": "RankingList",
+                "texture": "netRes/liuhe/viewUI/icon_phb.png",
+                "name": "RankingList"
+              },
+              "compId": 7
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": -197,
+                "x": -6.5,
+                "width": 0,
+                "var": "secttitle",
+                "texture": "netRes/liuhe/viewUI/text_zmst.png",
+                "name": "secttitle",
+                "mouseThrough": true,
+                "height": 0
+              },
+              "compId": 9,
+              "child": [
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 57,
+                    "x": 510,
+                    "var": "information",
+                    "texture": "netRes/liuhe/viewUI/btn_sm.png",
+                    "name": "information"
+                  },
+                  "compId": 11
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 669,
+                "x": 236,
+                "var": "img_jjkf",
+                "skin": "netRes/liuhe/viewUI/text_jjkf.png",
+                "name": "img_jjkf",
+                "centerY": 287,
+                "centerX": 0
+              },
+              "compId": 47
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 672,
+                "x": 196,
+                "var": "cantGet_btn",
+                "name": "cantGet_btn"
+              },
+              "compId": 39,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -18,
+                    "x": 14,
+                    "skin": "netRes/liuhe/viewUI/text_tgss.png"
+                  },
+                  "compId": 41
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 31,
+                    "x": 39,
+                    "var": "bottonText",
+                    "skin": "netRes/liuhe/viewUI/text_jxst.png",
+                    "name": "bottonText"
+                  },
+                  "compId": 40
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": -18,
+                    "x": 171,
+                    "width": 39,
+                    "var": "cantGet_number",
+                    "value": "10",
+                    "spaceX": -5,
+                    "skin": "netRes/liuhe/viewUI/num_36_jxzk_c10006.png",
+                    "sheet": "0123456789",
+                    "name": "cantGet_number",
+                    "height": 30
+                  },
+                  "compId": 42
+                }
+              ]
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 655,
+                "x": 207,
+                "var": "AcceptBtn",
+                "texture": "netRes/liuhe/viewUI/btn_common_orange01.png",
+                "name": "AcceptBtn"
+              },
+              "compId": 12,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -41,
+                    "x": -27.5,
+                    "width": 125,
+                    "skin": "netRes/liuhe/viewUI/bg_araay_name.png",
+                    "height": 26
+                  },
+                  "compId": 27,
+                  "child": [
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": -2,
+                        "x": 53,
+                        "width": 39,
+                        "var": "accept_use",
+                        "value": "13",
+                        "spaceX": -5,
+                        "skin": "res_common/number/num_24_jxzk_ffffff_stk.png",
+                        "sheet": "0123456789",
+                        "name": "accept_use",
+                        "height": 30
+                      },
+                      "compId": 28
+                    },
+                    {
+                      "type": "Sprite",
+                      "props": {
+                        "y": 3,
+                        "x": 28,
+                        "width": 23,
+                        "texture": "res_combat/public/icon_tili_l.png",
+                        "name": "accept_decoration",
+                        "height": 20
+                      },
+                      "compId": 15
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -41,
+                    "x": 111,
+                    "width": 125,
+                    "skin": "netRes/liuhe/viewUI/bg_araay_name.png",
+                    "height": 26
+                  },
+                  "compId": 59,
+                  "child": [
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": -2,
+                        "x": 53,
+                        "width": 39,
+                        "var": "apprentice_use",
+                        "value": "13",
+                        "spaceX": -5,
+                        "skin": "res_common/number/num_24_jxzk_ffffff_stk.png",
+                        "sheet": "0123456789",
+                        "name": "apprentice_use",
+                        "height": 30
+                      },
+                      "compId": 60
+                    },
+                    {
+                      "type": "Sprite",
+                      "props": {
+                        "y": -3,
+                        "x": 28,
+                        "width": 32,
+                        "texture": "res_combat/public/icon_shoutu.png",
+                        "name": "accept_decoration",
+                        "height": 32
+                      },
+                      "compId": 61
+                    }
+                  ]
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 22,
+                    "x": 69,
+                    "var": "accept_shotu",
+                    "texture": "netRes/liuhe/viewUI/text_st.png",
+                    "name": "accept_shotu"
+                  },
+                  "compId": 13
+                },
+                {
+                  "type": "Rect",
+                  "props": {
+                    "y": 0,
+                    "x": -15.5,
+                    "width": 243,
+                    "renderType": "hit",
+                    "lineWidth": 1,
+                    "height": 74,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 38
+                }
+              ]
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 639,
+                "x": 475,
+                "var": "sixGift",
+                "texture": "netRes/liuhe/viewUI/btn_lb.png",
+                "scaleY": 1,
+                "scaleX": 1,
+                "name": "sixGift"
+              },
+              "compId": 16,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 48.5,
+                    "visible": false,
+                    "var": "redPoint_gift",
+                    "skin": "res_common/redpoint.png",
+                    "name": "redPoint_gift"
+                  },
+                  "compId": 44
+                }
+              ]
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 647,
+                "x": 68,
+                "var": "apprentice_book",
+                "texture": "netRes/liuhe/viewUI/btn_tj.png",
+                "scaleY": 1,
+                "scaleX": 1,
+                "name": "apprentice_book"
+              },
+              "compId": 18,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -8,
+                    "x": 50,
+                    "visible": false,
+                    "var": "redPoint_manual",
+                    "skin": "res_common/redpoint.png",
+                    "name": "redPoint_manual"
+                  },
+                  "compId": 43
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 38,
+                "x": 57,
+                "width": 150,
+                "var": "brawnBox",
+                "height": 65,
+                "alpha": 1
+              },
+              "compId": 20,
+              "child": [
+                {
+                  "type": "Rect",
+                  "props": {
+                    "y": -6,
+                    "x": -8,
+                    "width": 162,
+                    "renderType": "hit",
+                    "lineWidth": 1,
+                    "height": 79,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 21
+                },
+                {
+                  "type": "BrawnModule",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "runtime": "ui.component.BrawnModuleUI"
+                  },
+                  "compId": 22
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 38,
+                "x": 219,
+                "width": 150,
+                "var": "apprenticeBox",
+                "height": 65,
+                "alpha": 1
+              },
+              "compId": 51,
+              "child": [
+                {
+                  "type": "Rect",
+                  "props": {
+                    "y": -6,
+                    "x": -8,
+                    "width": 162,
+                    "renderType": "hit",
+                    "lineWidth": 1,
+                    "height": 79,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 52
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "skin": "res_combat/public/plist_tili.png"
+                  },
+                  "compId": 54
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -10,
+                    "x": -7,
+                    "width": 115,
+                    "var": "apprenticeImg",
+                    "skin": "res_combat/public/icon_shoutu.png",
+                    "scaleY": 0.6,
+                    "scaleX": 0.6,
+                    "height": 115
+                  },
+                  "compId": 55
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 34,
+                    "x": 37,
+                    "skin": "res_combat/public/hc_icon_add.png"
+                  },
+                  "compId": 56
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 9,
+                    "x": 36,
+                    "width": 109,
+                    "var": "apprenticeLab",
+                    "value": "0",
+                    "presetID": 1,
+                    "height": 34,
+                    "align": "center",
+                    "spaceX": -10,
+                    "skin": "res_common/number/num_18_rhrc_ffffff_stk.png",
+                    "sheet": "0123456789-+*/",
+                    "isPresetRoot": true
+                  },
+                  "compId": 57
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 464,
+                "x": 245,
+                "width": 129,
+                "var": "howday",
+                "skin": "netRes/liuhe/viewUI/panel_ts.png",
+                "name": "howday",
+                "height": 133
+              },
+              "compId": 30,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 21,
+                    "x": 37.5,
+                    "skin": "netRes/liuhe/viewUI/text_ts_3.png",
+                    "scaleY": 1,
+                    "scaleX": 1,
+                    "name": "tianshu"
+                  },
+                  "compId": 31
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 35,
+                    "x": -91,
+                    "width": 288,
+                    "var": "curLevel",
+                    "value": "12",
+                    "spaceX": -25,
+                    "skin": "netRes/liuhe/viewUI/num_48_jxzk_fdfdbd_fffffd_stk.png",
+                    "sheet": "0123456789",
+                    "name": "curLevel",
+                    "height": 70,
+                    "align": "center"
+                  },
+                  "compId": 36
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "width": 750,
+            "visible": false,
+            "var": "zmGuide",
+            "mouseEnabled": false,
+            "height": 1334,
+            "centerY": 0,
+            "centerX": 0
+          },
+          "compId": 45,
+          "child": [
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 986,
+                "x": 397,
+                "width": 116,
+                "texture": "res_common/yindao_shouzhi.png",
+                "scaleY": 1,
+                "scaleX": 1,
+                "rotation": -25,
+                "pivotY": 40,
+                "pivotX": 43,
+                "name": "hand",
+                "height": 141,
+                "alpha": 1
+              },
+              "compId": 46
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 46,
+          "keyframes": {
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 46,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 46,
+                "key": "scaleY",
+                "index": 3
+              },
+              {
+                "value": 0.75,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 46,
+                "key": "scaleY",
+                "index": 6
+              },
+              {
+                "value": 0.75,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 46,
+                "key": "scaleY",
+                "index": 13
+              },
+              {
+                "value": 0.75,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 46,
+                "key": "scaleY",
+                "index": 16
+              },
+              {
+                "value": 0.75,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 46,
+                "key": "scaleY",
+                "index": 35
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 46,
+                "key": "scaleY",
+                "index": 37
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 46,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 46,
+                "key": "scaleX",
+                "index": 3
+              },
+              {
+                "value": 0.75,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 46,
+                "key": "scaleX",
+                "index": 6
+              },
+              {
+                "value": 0.75,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 46,
+                "key": "scaleX",
+                "index": 13
+              },
+              {
+                "value": 0.75,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 46,
+                "key": "scaleX",
+                "index": 16
+              },
+              {
+                "value": 0.75,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 46,
+                "key": "scaleX",
+                "index": 35
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 46,
+                "key": "scaleX",
+                "index": 37
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 46,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 46,
+                "key": "alpha",
+                "index": 13
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 46,
+                "key": "alpha",
+                "index": 16
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 46,
+                "key": "alpha",
+                "index": 35
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 46,
+                "key": "alpha",
+                "index": 37
+              }
+            ]
+          }
+        }
+      ],
+      "name": "gameGuide",
+      "id": 1,
+      "frameRate": 30,
+      "action": 2
+    }
+  ],
+  "loadList": [
+    "res_common/bg.png",
+    "netRes/liuhe/viewUI/icon_phb.png",
+    "netRes/liuhe/viewUI/text_zmst.png",
+    "netRes/liuhe/viewUI/btn_sm.png",
+    "netRes/liuhe/viewUI/btn_common_orange01.png",
+    "res_combat/public/icon_tili_l.png",
+    "res_combat/public/icon_shoutu.png",
+    "netRes/liuhe/viewUI/text_st.png",
+    "netRes/liuhe/viewUI/btn_lb.png",
+    "netRes/liuhe/viewUI/btn_tj.png",
+    "component/BrawnModule.scene",
+    "prefab/number/num_18_rhrc_ffffff_stk.prefab",
+    "res_common/yindao_shouzhi.png"
+  ],
+  "loadList3D": []
+}

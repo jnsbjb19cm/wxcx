@@ -1,0 +1,1317 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "visible": false,
+        "var": "maskBg",
+        "top": 0,
+        "skin": "res_common/bg.png",
+        "right": 0,
+        "left": 0,
+        "bottom": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 1
+      },
+      "compId": 3
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 750,
+        "visible": false,
+        "var": "selectBox",
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 21,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -1,
+            "x": -1,
+            "width": 750,
+            "var": "bg",
+            "skin": "res_view/openPlot/bg_gmg.jpg",
+            "height": 1334,
+            "alpha": 1
+          },
+          "compId": 27
+        },
+        {
+          "type": "Panel",
+          "props": {
+            "width": 750,
+            "var": "spinePanel",
+            "height": 880,
+            "centerY": -228,
+            "centerX": 0
+          },
+          "compId": 45,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 1600,
+                "width": 100,
+                "var": "roleBox",
+                "height": 100,
+                "centerX": 50,
+                "alpha": 1
+              },
+              "compId": 31
+            },
+            {
+              "type": "Image",
+              "props": {
+                "visible": false,
+                "var": "gradualChange",
+                "skin": "res_view/openPlot/mask-wc.png",
+                "centerX": 0,
+                "bottom": 0
+              },
+              "compId": 157
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "var": "wakeup",
+            "skin": "res_view/openPlot/panel_text.png",
+            "centerY": 312,
+            "centerX": 0,
+            "alpha": 1
+          },
+          "compId": 28,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 55,
+                "x": 166,
+                "var": "wakeupContent",
+                "skin": "res_view/openPlot/text_wxx.png"
+              },
+              "compId": 30
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "width": 750,
+            "visible": false,
+            "var": "optionBox",
+            "height": 600,
+            "centerY": 394,
+            "centerX": 0
+          },
+          "compId": 34,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 9,
+                "skin": "res_view/openPlot/panel_text_s.png",
+                "centerX": 0
+              },
+              "compId": 41,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 6,
+                    "var": "tipsImg",
+                    "skin": "res_view/openPlot/text_xzgnlgxz.png",
+                    "centerX": -1
+                  },
+                  "compId": 42
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 298,
+                "x": 189,
+                "var": "selectAnimal",
+                "skin": "res_view/openPlot/panel_option_blue.png",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 32,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 68,
+                    "x": 120,
+                    "skin": "res_view/openPlot/text_tt.png",
+                    "centerX": -2
+                  },
+                  "compId": 35
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "var": "animalIcon",
+                    "skin": "res_view/openPlot/profile_a_2.png",
+                    "centerY": -47,
+                    "centerX": 3
+                  },
+                  "compId": 46
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 316,
+                    "var": "animalName",
+                    "skin": "res_view/openPlot/text_anm_2.png",
+                    "centerX": -2
+                  },
+                  "compId": 36
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 405,
+                    "var": "animalDesc",
+                    "skin": "res_view/openPlot/text_gdbz.png",
+                    "centerX": 2
+                  },
+                  "compId": 37
+                },
+                {
+                  "type": "Script",
+                  "props": {
+                    "runtime": "game/tools/BtnScale85.ts"
+                  },
+                  "compId": 43
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 298,
+                "x": 559,
+                "var": "selectHero",
+                "skin": "res_view/openPlot/panel_option_blue.png",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 33,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 67,
+                    "x": 150,
+                    "skin": "res_view/openPlot/text_wy.png",
+                    "centerX": 0
+                  },
+                  "compId": 38
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "res_view/openPlot/profile_h_1.png",
+                    "centerY": -45,
+                    "centerX": -3
+                  },
+                  "compId": 47
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 306,
+                    "var": "heroName",
+                    "skin": "res_view/openPlot/text-dfdc.png",
+                    "centerX": -2
+                  },
+                  "compId": 39
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 392,
+                    "x": 71,
+                    "skin": "res_view/openPlot/text-cwdfzq.png",
+                    "centerX": -1
+                  },
+                  "compId": 40
+                },
+                {
+                  "type": "Script",
+                  "props": {
+                    "runtime": "game/tools/BtnScale85.ts"
+                  },
+                  "compId": 44
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "width": 750,
+            "visible": false,
+            "var": "sceneBox",
+            "height": 600,
+            "centerY": 394,
+            "centerX": 0
+          },
+          "compId": 100,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 9,
+                "skin": "res_view/openPlot/panel_text_s.png",
+                "centerX": 0
+              },
+              "compId": 101,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 5,
+                    "skin": "res_view/openPlot/text_qwdygsj.png",
+                    "centerX": -3
+                  },
+                  "compId": 102
+                }
+              ]
+            },
+            {
+              "type": "List",
+              "props": {
+                "y": 50,
+                "x": 28,
+                "width": 715,
+                "var": "sceneList",
+                "repeatY": 1,
+                "height": 510,
+                "hScrollBarSkin": "comp/hscroll.png"
+              },
+              "compId": 116,
+              "child": [
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "width": 287,
+                    "renderType": "render",
+                    "height": 510
+                  },
+                  "compId": 117,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 6,
+                        "x": 1,
+                        "skin": "res_view/openPlot/img-fengmian.png"
+                      },
+                      "compId": 177
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 12,
+                        "x": 7,
+                        "skin": "res_view/openPlot/img-tgcf.jpg",
+                        "name": "icon"
+                      },
+                      "compId": 118
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 457,
+                        "x": 151,
+                        "skin": "res_view/openPlot/btn-xuanze.png",
+                        "name": "selectBtn",
+                        "anchorY": 0.5,
+                        "anchorX": 0.5
+                      },
+                      "compId": 120,
+                      "child": [
+                        {
+                          "type": "Script",
+                          "props": {
+                            "runtime": "game/tools/BtnScale85.ts"
+                          },
+                          "compId": 122
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 750,
+                "var": "sceneBoxMask",
+                "mouseThrough": false,
+                "mouseEnabled": true,
+                "height": 600
+              },
+              "compId": 131
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "var": "lightBox",
+            "top": 0,
+            "right": 0,
+            "left": 0,
+            "bottom": 0
+          },
+          "compId": 127,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 539,
+                "x": 247,
+                "width": 256,
+                "scaleY": 3,
+                "scaleX": 3,
+                "name": "light",
+                "height": 256,
+                "centerY": 0,
+                "centerX": 0
+              },
+              "compId": 123,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "res_view/openPlot/fx_f4.png",
+                    "scaleY": 5,
+                    "scaleX": 5,
+                    "name": "f4",
+                    "centerY": 0,
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5,
+                    "alpha": 0
+                  },
+                  "compId": 124
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "res_view/openPlot/fx_f3.png",
+                    "scaleY": 2,
+                    "scaleX": 2,
+                    "name": "f3",
+                    "centerY": 0,
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5,
+                    "alpha": 0
+                  },
+                  "compId": 125
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "res_view/openPlot/fx_f1.png",
+                    "scaleY": 2,
+                    "scaleX": 2,
+                    "rotation": 180,
+                    "name": "f1",
+                    "centerY": 0,
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5,
+                    "alpha": 0
+                  },
+                  "compId": 126
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "top": 0,
+                "right": 0,
+                "name": "whiteLight",
+                "left": 0,
+                "bottom": 0,
+                "bgColor": "#ffffff",
+                "alpha": 0
+              },
+              "compId": 128
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "visible": false,
+        "var": "textBox",
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 72,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "top": 0,
+            "skin": "res_common/bg.png",
+            "right": 0,
+            "left": 0,
+            "bottom": 0
+          },
+          "compId": 73
+        },
+        {
+          "type": "VBox",
+          "props": {
+            "y": 350,
+            "x": 0,
+            "width": 750,
+            "height": 600,
+            "align": "center"
+          },
+          "compId": 74,
+          "child": [
+            {
+              "type": "HBox",
+              "props": {
+                "var": "lineBox1",
+                "space": 4,
+                "height": 85,
+                "centerX": 0,
+                "align": "middle"
+              },
+              "compId": 75
+            },
+            {
+              "type": "HBox",
+              "props": {
+                "var": "lineBox2",
+                "space": 4,
+                "height": 85,
+                "centerX": 0,
+                "align": "middle"
+              },
+              "compId": 77
+            },
+            {
+              "type": "HBox",
+              "props": {
+                "var": "lineBox3",
+                "space": 4,
+                "height": 85,
+                "centerX": 0,
+                "align": "middle"
+              },
+              "compId": 79
+            },
+            {
+              "type": "HBox",
+              "props": {
+                "var": "lineBox4",
+                "space": 4,
+                "height": 85,
+                "centerX": 0,
+                "align": "middle"
+              },
+              "compId": 80
+            },
+            {
+              "type": "HBox",
+              "props": {
+                "var": "lineBox5",
+                "space": 4,
+                "height": 85,
+                "centerX": 0,
+                "align": "middle"
+              },
+              "compId": 83
+            },
+            {
+              "type": "HBox",
+              "props": {
+                "var": "lineBox6",
+                "space": 4,
+                "height": 85,
+                "centerX": 0,
+                "align": "middle"
+              },
+              "compId": 129
+            },
+            {
+              "type": "HBox",
+              "props": {
+                "var": "lineBox7",
+                "space": 4,
+                "height": 85,
+                "centerX": 0,
+                "align": "middle"
+              },
+              "compId": 130
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 1013,
+            "width": 260,
+            "var": "aginaBtn",
+            "skin": "res_common/btn_blue.png",
+            "height": 119,
+            "centerX": 0
+          },
+          "compId": 87,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 32,
+                "x": 66,
+                "text": "text",
+                "skin": "res_view/openPlot/text_cl.png"
+              },
+              "compId": 158
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Panel",
+      "props": {
+        "width": 750,
+        "visible": false,
+        "var": "startBox",
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 132,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "top": 0,
+            "right": 0,
+            "left": 0,
+            "bottom": 0,
+            "bgColor": "#000000"
+          },
+          "compId": 175
+        },
+        {
+          "type": "Box",
+          "props": {
+            "var": "dialogueBox",
+            "top": 0,
+            "right": 0,
+            "left": 0,
+            "bottom": 0
+          },
+          "compId": 176,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -146,
+                "x": -125,
+                "var": "roleImg",
+                "skin": "res_view/openPlot/img-sf.jpg"
+              },
+              "compId": 160
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -146,
+                "x": -125,
+                "skin": "res_view/openPlot/mas-sf.png"
+              },
+              "compId": 161
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 1166,
+                "x": 66,
+                "var": "dialogue1",
+                "skin": "res_view/openPlot/text-htr.png"
+              },
+              "compId": 162
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 1212,
+                "x": 675,
+                "var": "clickTips1",
+                "skin": "res_view/openPlot/img-zy-hg.png"
+              },
+              "compId": 182,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -23,
+                    "x": -3,
+                    "skin": "res_view/openPlot/img-zy-sj.png",
+                    "centerX": -1
+                  },
+                  "compId": 181
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "var": "eyeAni",
+                "top": 0,
+                "right": 0,
+                "left": 0,
+                "bottom": 0
+              },
+              "compId": 164
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "var": "monologueBox",
+            "top": 0,
+            "right": 0,
+            "left": 0,
+            "bottom": 0,
+            "bgColor": "#000000"
+          },
+          "compId": 165,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 525,
+                "x": 237,
+                "skin": "res_view/openPlot/text-sf.png",
+                "name": "a1"
+              },
+              "compId": 179
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 527,
+                "x": 381,
+                "skin": "res_view/openPlot/text-wh.png",
+                "name": "a2"
+              },
+              "compId": 180
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 270,
+                "x": 171,
+                "skin": "res_view/openPlot/text-wbsyxmzj.png",
+                "name": "b1"
+              },
+              "compId": 170
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 349,
+                "x": 68,
+                "skin": "res_view/openPlot/text-zxrdsf.png",
+                "name": "b2"
+              },
+              "compId": 169
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 350,
+                "x": 382,
+                "skin": "res_view/openPlot/text-qswqj.png",
+                "name": "b3"
+              },
+              "compId": 167
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 428,
+                "x": 146,
+                "skin": "res_view/openPlot/text-jwqjlcxd.png",
+                "name": "b4"
+              },
+              "compId": 168
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 586,
+                "x": 249,
+                "skin": "res_view/openPlot/text-rgncl.png",
+                "name": "b5"
+              },
+              "compId": 171
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 665,
+                "x": 205,
+                "skin": "res_view/openPlot/text-wyfc.png",
+                "name": "b6"
+              },
+              "compId": 173
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 1065,
+                "x": 375,
+                "var": "startBtn",
+                "skin": "res_view/openPlot/btn-jzyb.png",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 174
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 565,
+                "x": 559,
+                "var": "clickTips2",
+                "skin": "res_view/openPlot/img-zy-hg.png"
+              },
+              "compId": 183,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -23,
+                    "x": -3,
+                    "skin": "res_view/openPlot/img-zy-sj.png",
+                    "centerX": -1
+                  },
+                  "compId": 184
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 27,
+          "keyframes": {
+            "y": [
+              {
+                "value": -1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 27,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": -1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 27,
+                "key": "y",
+                "index": 10
+              },
+              {
+                "value": -1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 27,
+                "key": "y",
+                "index": 12
+              },
+              {
+                "value": -7,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 27,
+                "key": "y",
+                "index": 14
+              },
+              {
+                "value": -1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 27,
+                "key": "y",
+                "index": 16
+              },
+              {
+                "value": -1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 27,
+                "label": null,
+                "key": "y",
+                "index": 18
+              }
+            ],
+            "x": [
+              {
+                "value": -1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 27,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": -1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 27,
+                "key": "x",
+                "index": 10
+              },
+              {
+                "value": -7,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 27,
+                "key": "x",
+                "index": 12
+              },
+              {
+                "value": -1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 27,
+                "key": "x",
+                "index": 14
+              },
+              {
+                "value": 7,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 27,
+                "key": "x",
+                "index": 16
+              },
+              {
+                "value": -1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 27,
+                "label": null,
+                "key": "x",
+                "index": 18
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 27,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 27,
+                "key": "alpha",
+                "index": 10
+              }
+            ]
+          }
+        },
+        {
+          "target": 28,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 28,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 28,
+                "key": "alpha",
+                "index": 15
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 28,
+                "key": "alpha",
+                "index": 16
+              }
+            ]
+          }
+        },
+        {
+          "target": 31,
+          "keyframes": {
+            "y": [
+              {
+                "value": 1640,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 31,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 1640,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 31,
+                "key": "y",
+                "index": 16
+              },
+              {
+                "value": 1600,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 31,
+                "key": "y",
+                "index": 25
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 31,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 31,
+                "key": "alpha",
+                "index": 16
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 31,
+                "key": "alpha",
+                "index": 25
+              }
+            ]
+          }
+        }
+      ],
+      "name": "selectAni",
+      "id": 3,
+      "frameRate": 24,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 128,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 128,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 128,
+                "key": "alpha",
+                "index": 10
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 128,
+                "key": "alpha",
+                "index": 25
+              }
+            ]
+          }
+        },
+        {
+          "target": 124,
+          "keyframes": {
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 124,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 124,
+                "key": "scaleY",
+                "index": 10
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 124,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 124,
+                "key": "scaleX",
+                "index": 10
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 124,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 124,
+                "key": "alpha",
+                "index": 7
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 124,
+                "key": "alpha",
+                "index": 10
+              }
+            ]
+          }
+        },
+        {
+          "target": 125,
+          "keyframes": {
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 125,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 125,
+                "key": "scaleY",
+                "index": 10
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 125,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 125,
+                "key": "scaleX",
+                "index": 10
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 125,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 125,
+                "key": "alpha",
+                "index": 10
+              }
+            ]
+          }
+        },
+        {
+          "target": 126,
+          "keyframes": {
+            "scaleY": [
+              {
+                "value": 2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 126,
+                "key": "scaleY",
+                "index": 0
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 2,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 126,
+                "key": "scaleX",
+                "index": 0
+              }
+            ],
+            "rotation": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 126,
+                "key": "rotation",
+                "index": 0
+              },
+              {
+                "value": 90,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 126,
+                "key": "rotation",
+                "index": 12
+              },
+              {
+                "value": 180,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 126,
+                "key": "rotation",
+                "index": 16
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 126,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 126,
+                "key": "alpha",
+                "index": 12
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 126,
+                "key": "alpha",
+                "index": 16
+              }
+            ]
+          }
+        }
+      ],
+      "name": "lightAni",
+      "id": 4,
+      "frameRate": 30,
+      "action": 0
+    }
+  ],
+  "loadList": [
+    "res_view/openPlot/bg_gmg.jpg",
+    "comp/hscroll.png",
+    "res_view/openPlot/img-tgcf.jpg",
+    "res_view/openPlot/img-sf.jpg"
+  ],
+  "loadList3D": []
+}

@@ -1,0 +1,917 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Panel",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "width": 750,
+            "visible": false,
+            "var": "mianImgBox",
+            "height": 1334
+          },
+          "compId": 32,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -1,
+                "x": -125,
+                "skin": "res_main/bg_fs.png"
+              },
+              "compId": 30
+            },
+            {
+              "type": "Image",
+              "props": {
+                "visible": false,
+                "var": "mrImg",
+                "skin": "netRes/fly/bg_yzjy.png",
+                "centerY": 0,
+                "centerX": 0
+              },
+              "compId": 33
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 1235,
+                "visible": false,
+                "var": "tips3",
+                "text": "text",
+                "skin": "res_common/text_djgb.png",
+                "centerX": 0
+              },
+              "compId": 34
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "visible": false,
+            "var": "eyeImg",
+            "top": 0,
+            "skin": "res_common/bg.png",
+            "right": 0,
+            "left": 0,
+            "bottom": 0
+          },
+          "compId": 26
+        },
+        {
+          "type": "Panel",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "width": 750,
+            "var": "spineBox",
+            "height": 1334
+          },
+          "compId": 21
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 417,
+            "x": 75,
+            "width": 600,
+            "var": "textBox",
+            "height": 500,
+            "centerY": 0,
+            "centerX": 0
+          },
+          "compId": 35
+        },
+        {
+          "type": "Panel",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "width": 750,
+            "visible": false,
+            "var": "contentBox",
+            "height": 1334
+          },
+          "compId": 6,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "var": "bg",
+                "skin": "netRes/fly/bg.png",
+                "centerY": -2,
+                "centerX": -1
+              },
+              "compId": 7
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 396,
+                "width": 791,
+                "skin": "netRes/fly/pic_guan_l.png",
+                "rotation": -360,
+                "name": "guan1",
+                "height": 815,
+                "centerX": 1,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 9
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 426,
+                "x": 376,
+                "skin": "netRes/fly/pic_guan_s.png",
+                "name": "guan2",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 10
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 623,
+                "skin": "netRes/fly/pic_r.png",
+                "name": "ren",
+                "centerX": 9
+              },
+              "compId": 12
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 86,
+                "x": 36,
+                "visible": false,
+                "var": "tips1",
+                "text": "text",
+                "skin": "netRes/fly/text_zdfs.png"
+              },
+              "compId": 8
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 123,
+                "visible": false,
+                "var": "tips2",
+                "text": "text",
+                "skin": "netRes/fly/text_sffssj.png",
+                "centerX": -1
+              },
+              "compId": 17
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 880,
+                "x": 125,
+                "width": 500,
+                "visible": false,
+                "var": "btnBox",
+                "height": 350,
+                "centerX": 0
+              },
+              "compId": 20,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 283,
+                    "x": 191,
+                    "var": "closeBtn",
+                    "text": "text",
+                    "skin": "netRes/fly/text_wzxx.png"
+                  },
+                  "compId": 18,
+                  "child": [
+                    {
+                      "type": "Rect",
+                      "props": {
+                        "y": -11,
+                        "x": -15,
+                        "width": 154,
+                        "renderType": "hit",
+                        "lineWidth": 1,
+                        "height": 55,
+                        "fillColor": "#ff0000"
+                      },
+                      "compId": 19
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 172,
+                    "x": 253,
+                    "var": "flyBtn",
+                    "skin": "netRes/fly/btn_fs.png",
+                    "label": "label",
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 13,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 76,
+                        "x": 43,
+                        "text": "text",
+                        "skin": "netRes/fly/text_fs.png"
+                      },
+                      "compId": 14
+                    },
+                    {
+                      "type": "Circle",
+                      "props": {
+                        "y": 156,
+                        "x": 154,
+                        "renderType": "hit",
+                        "radius": 100,
+                        "lineWidth": 1,
+                        "fillColor": "#ff0000"
+                      },
+                      "compId": 15
+                    },
+                    {
+                      "type": "Script",
+                      "props": {
+                        "runtime": "game/tools/BtnScale90.ts"
+                      },
+                      "compId": 16
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "visible": false,
+            "var": "yunImg",
+            "skin": "netRes/fly/yun/1.png",
+            "centerY": 0,
+            "centerX": 0
+          },
+          "compId": 4
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 4,
+          "keyframes": {
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 4,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 4,
+                "key": "visible",
+                "index": 23
+              }
+            ],
+            "skin": [
+              {
+                "value": "netRes/fly/yun/1.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 4,
+                "key": "skin",
+                "index": 0
+              },
+              {
+                "value": "netRes/fly/yun/2.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 4,
+                "key": "skin",
+                "index": 2
+              },
+              {
+                "value": "netRes/fly/yun/3.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 4,
+                "label": "show1",
+                "key": "skin",
+                "index": 4
+              },
+              {
+                "value": "netRes/fly/yun/4.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 4,
+                "key": "skin",
+                "index": 6
+              },
+              {
+                "value": "netRes/fly/yun/5.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 4,
+                "key": "skin",
+                "index": 9
+              },
+              {
+                "value": "netRes/fly/yun/6.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 4,
+                "key": "skin",
+                "index": 11
+              },
+              {
+                "value": "netRes/fly/yun/7.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 4,
+                "label": "show2",
+                "key": "skin",
+                "index": 13
+              },
+              {
+                "value": "netRes/fly/yun/8.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 4,
+                "key": "skin",
+                "index": 15
+              },
+              {
+                "value": "netRes/fly/yun/9.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 4,
+                "key": "skin",
+                "index": 17
+              },
+              {
+                "value": "netRes/fly/yun/10.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 4,
+                "key": "skin",
+                "index": 20
+              },
+              {
+                "value": "",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 4,
+                "key": "skin",
+                "index": 23
+              }
+            ]
+          }
+        }
+      ],
+      "name": "yunAnim",
+      "id": 1,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 12,
+          "keyframes": {
+            "y": [
+              {
+                "value": 623,
+                "tweenMethod": "quadInOut",
+                "tween": true,
+                "target": 12,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 592,
+                "tweenMethod": "quadInOut",
+                "tween": true,
+                "target": 12,
+                "key": "y",
+                "index": 40
+              },
+              {
+                "value": 623,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 12,
+                "key": "y",
+                "index": 80
+              }
+            ]
+          }
+        }
+      ],
+      "name": "renAnim",
+      "id": 2,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 9,
+          "keyframes": {
+            "rotation": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 9,
+                "key": "rotation",
+                "index": 0
+              },
+              {
+                "value": -360,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 9,
+                "key": "rotation",
+                "index": 140
+              }
+            ]
+          }
+        }
+      ],
+      "name": "guan1Anim",
+      "id": 3,
+      "frameRate": 5,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 10,
+          "keyframes": {
+            "rotation": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 10,
+                "key": "rotation",
+                "index": 0
+              },
+              {
+                "value": 360,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 10,
+                "key": "rotation",
+                "index": 84
+              }
+            ]
+          }
+        }
+      ],
+      "name": "guan2Anim",
+      "id": 4,
+      "frameRate": 5,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 26,
+          "keyframes": {
+            "skin": [
+              {
+                "value": "res_common/bg.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "key": "skin",
+                "index": 0
+              },
+              {
+                "value": "res_view/openPlot/eye/1.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "key": "skin",
+                "index": 1
+              },
+              {
+                "value": "res_view/openPlot/eye/4.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "key": "skin",
+                "index": 2
+              },
+              {
+                "value": "res_view/openPlot/eye/8.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "key": "skin",
+                "index": 3
+              },
+              {
+                "value": "res_view/openPlot/eye/10.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "key": "skin",
+                "index": 4
+              },
+              {
+                "value": "res_view/openPlot/eye/12.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "key": "skin",
+                "index": 5
+              },
+              {
+                "value": "res_view/openPlot/eye/15.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "key": "skin",
+                "index": 6
+              },
+              {
+                "value": "res_view/openPlot/eye/12.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "label": null,
+                "key": "skin",
+                "index": 7
+              },
+              {
+                "value": "res_view/openPlot/eye/10.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "label": null,
+                "key": "skin",
+                "index": 8
+              },
+              {
+                "value": "res_view/openPlot/eye/8.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "label": null,
+                "key": "skin",
+                "index": 9
+              },
+              {
+                "value": "res_view/openPlot/eye/4.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "label": null,
+                "key": "skin",
+                "index": 10
+              },
+              {
+                "value": "res_common/bg.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "label": null,
+                "key": "skin",
+                "index": 11
+              },
+              {
+                "value": "res_view/openPlot/eye/4.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "label": null,
+                "key": "skin",
+                "index": 13
+              },
+              {
+                "value": "res_view/openPlot/eye/8.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "label": null,
+                "key": "skin",
+                "index": 14
+              },
+              {
+                "value": "res_view/openPlot/eye/10.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "label": null,
+                "key": "skin",
+                "index": 15
+              },
+              {
+                "value": "res_view/openPlot/eye/12.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "label": null,
+                "key": "skin",
+                "index": 16
+              },
+              {
+                "value": "res_view/openPlot/eye/15.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "label": null,
+                "key": "skin",
+                "index": 17
+              },
+              {
+                "value": "res_view/openPlot/eye/12.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "label": null,
+                "key": "skin",
+                "index": 18
+              },
+              {
+                "value": "res_view/openPlot/eye/10.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "label": null,
+                "key": "skin",
+                "index": 19
+              },
+              {
+                "value": "res_view/openPlot/eye/8.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "label": null,
+                "key": "skin",
+                "index": 20
+              },
+              {
+                "value": "res_view/openPlot/eye/4.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "label": null,
+                "key": "skin",
+                "index": 21
+              },
+              {
+                "value": "res_common/bg.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "label": null,
+                "key": "skin",
+                "index": 22
+              },
+              {
+                "value": "res_view/openPlot/eye/N-1.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "key": "skin",
+                "index": 24
+              },
+              {
+                "value": "res_view/openPlot/eye/N-2.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "key": "skin",
+                "index": 25
+              },
+              {
+                "value": "res_view/openPlot/eye/N-3.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "key": "skin",
+                "index": 26
+              },
+              {
+                "value": "res_view/openPlot/eye/N-4.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "key": "skin",
+                "index": 27
+              },
+              {
+                "value": "res_view/openPlot/eye/N-5.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "key": "skin",
+                "index": 28
+              },
+              {
+                "value": "res_view/openPlot/eye/N-6.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "key": "skin",
+                "index": 29
+              },
+              {
+                "value": "res_view/openPlot/eye/N-7.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "key": "skin",
+                "index": 30
+              },
+              {
+                "value": "res_view/openPlot/eye/N-8.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "key": "skin",
+                "index": 31
+              },
+              {
+                "value": "res_view/openPlot/eye/N-9.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "key": "skin",
+                "index": 32
+              },
+              {
+                "value": "res_view/openPlot/eye/N-10.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "key": "skin",
+                "index": 33
+              },
+              {
+                "value": "res_view/openPlot/eye/N-11.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "key": "skin",
+                "index": 34
+              },
+              {
+                "value": "res_view/openPlot/eye/N-12.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "key": "skin",
+                "index": 35
+              },
+              {
+                "value": "res_view/openPlot/eye/N-13.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "key": "skin",
+                "index": 36
+              },
+              {
+                "value": "res_view/openPlot/eye/N-14.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "key": "skin",
+                "index": 37
+              },
+              {
+                "value": "res_view/openPlot/eye/N-15.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "key": "skin",
+                "index": 38
+              },
+              {
+                "value": "res_view/openPlot/eye/N-16.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "key": "skin",
+                "index": 39
+              },
+              {
+                "value": "res_view/openPlot/eye/N-17.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "key": "skin",
+                "index": 40
+              },
+              {
+                "value": "res_view/openPlot/eye/N-18.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "key": "skin",
+                "index": 41
+              },
+              {
+                "value": "res_view/openPlot/eye/N-19.png",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "key": "skin",
+                "index": 42
+              },
+              {
+                "value": "",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 26,
+                "key": "skin",
+                "index": 43
+              }
+            ]
+          }
+        }
+      ],
+      "name": "eyeAnim",
+      "id": 5,
+      "frameRate": 18,
+      "action": 0
+    }
+  ],
+  "loadList": [
+    "res_common/bg.png",
+    "netRes/fly/yun/1.png",
+    "netRes/fly/yun/2.png",
+    "netRes/fly/yun/3.png",
+    "netRes/fly/yun/4.png",
+    "netRes/fly/yun/5.png",
+    "netRes/fly/yun/6.png",
+    "netRes/fly/yun/7.png",
+    "netRes/fly/yun/8.png",
+    "netRes/fly/yun/9.png",
+    "netRes/fly/yun/10.png",
+    "res_view/openPlot/eye/1.png",
+    "res_view/openPlot/eye/4.png",
+    "res_view/openPlot/eye/8.png",
+    "res_view/openPlot/eye/10.png",
+    "res_view/openPlot/eye/12.png",
+    "res_view/openPlot/eye/15.png",
+    "res_view/openPlot/eye/N-1.png",
+    "res_view/openPlot/eye/N-2.png",
+    "res_view/openPlot/eye/N-3.png",
+    "res_view/openPlot/eye/N-4.png",
+    "res_view/openPlot/eye/N-5.png",
+    "res_view/openPlot/eye/N-6.png",
+    "res_view/openPlot/eye/N-7.png",
+    "res_view/openPlot/eye/N-8.png",
+    "res_view/openPlot/eye/N-9.png",
+    "res_view/openPlot/eye/N-10.png",
+    "res_view/openPlot/eye/N-11.png",
+    "res_view/openPlot/eye/N-12.png",
+    "res_view/openPlot/eye/N-13.png",
+    "res_view/openPlot/eye/N-14.png",
+    "res_view/openPlot/eye/N-15.png",
+    "res_view/openPlot/eye/N-16.png",
+    "res_view/openPlot/eye/N-17.png",
+    "res_view/openPlot/eye/N-18.png",
+    "res_view/openPlot/eye/N-19.png"
+  ],
+  "loadList3D": []
+}

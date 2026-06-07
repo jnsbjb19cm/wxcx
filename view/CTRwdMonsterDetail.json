@@ -1,0 +1,581 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": true,
+    "height": 1334,
+    "drawCallOptimize": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 750,
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 195,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 667,
+            "x": 375,
+            "width": 1000,
+            "var": "maskBg",
+            "skin": "res_common/bg.png",
+            "height": 1625,
+            "centerY": 0,
+            "centerX": 0,
+            "anchorY": 0.5,
+            "anchorX": 0.5,
+            "alpha": 0.6
+          },
+          "compId": 58
+        },
+        {
+          "type": "Box",
+          "props": {
+            "x": 15,
+            "width": 720,
+            "var": "contentBox",
+            "height": 732,
+            "centerY": 3,
+            "centerX": 0
+          },
+          "compId": 4,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -121,
+                "x": -41,
+                "skin": "res_combat/public/panel_sjjl.png",
+                "mouseThrough": false,
+                "mouseEnabled": true,
+                "centerX": 0
+              },
+              "compId": 3
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -302.5,
+                "skin": "res_combat/public/img_sjjl.png",
+                "centerX": 0
+              },
+              "compId": 130
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -117,
+                "var": "title",
+                "skin": "res_combat/public/title_tgjl.png",
+                "centerX": -11
+              },
+              "compId": 77
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 706,
+                "visible": false,
+                "var": "confirmBtn",
+                "skin": "res_combat/public/btn_jiangli.png",
+                "scaleY": 1,
+                "scaleX": 1,
+                "label": "label",
+                "centerX": 4,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 144,
+              "child": [
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": -2,
+                    "x": -23,
+                    "var": "refreshnum",
+                    "space": -7,
+                    "scaleX": 1,
+                    "height": 57
+                  },
+                  "compId": 152,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 19,
+                        "x": 69,
+                        "skin": "res_combat/public/text_hyp.png"
+                      },
+                      "compId": 150
+                    },
+                    {
+                      "type": "Box",
+                      "props": {
+                        "y": 15,
+                        "x": 181,
+                        "height": 40
+                      },
+                      "compId": 153,
+                      "child": [
+                        {
+                          "type": "FontClip",
+                          "props": {
+                            "y": 0,
+                            "x": 0,
+                            "var": "chgLabel",
+                            "value": "(1000)",
+                            "spaceX": -6,
+                            "skin": "res_common/number/num_36_jxzk_ffffff_stk1.png",
+                            "sheet": "0123456789+-*/()<>"
+                          },
+                          "compId": 151
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 75,
+                    "x": 172,
+                    "var": "confirmTip",
+                    "skin": "res_combat/public/text_bdscejdz.png",
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 147
+                },
+                {
+                  "type": "Script",
+                  "props": {
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 192
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 708,
+                "x": 362,
+                "visible": false,
+                "var": "videoBtn",
+                "skin": "res_combat/public/btn_jiangli.png",
+                "scaleY": 1,
+                "scaleX": 1,
+                "label": "label",
+                "centerX": 2,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 139,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 38,
+                    "x": 98,
+                    "skin": "res_combat/public/icon_camera.png",
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 141
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 38,
+                    "x": 199,
+                    "skin": "res_combat/public/text_hyp.png",
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 142
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 75,
+                    "x": 167,
+                    "var": "videoTip1",
+                    "skin": "res_combat/public/text_bdscejdz.png",
+                    "centerX": -2,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 143
+                },
+                {
+                  "type": "Script",
+                  "props": {
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 193
+                }
+              ]
+            },
+            {
+              "type": "List",
+              "props": {
+                "y": 37,
+                "x": 5,
+                "width": 712,
+                "var": "list",
+                "spaceX": 30,
+                "renderType": "render",
+                "name": "list",
+                "height": 545,
+                "alpha": 1
+              },
+              "compId": 121,
+              "child": [
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "width": 220,
+                    "renderType": "render",
+                    "height": 545
+                  },
+                  "compId": 122,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 507,
+                        "x": 111,
+                        "width": 157,
+                        "skin": "res_common/btn_yellow.png",
+                        "name": "chooseBtn",
+                        "label": "label",
+                        "anchorY": 0.5,
+                        "anchorX": 0.5
+                      },
+                      "compId": 92,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 25,
+                            "skin": "res_common/text_xuanze.png",
+                            "name": "img",
+                            "centerX": -2
+                          },
+                          "compId": 97
+                        },
+                        {
+                          "type": "Script",
+                          "props": {
+                            "runtime": "game/tools/BtnScale90.ts"
+                          },
+                          "compId": 123
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 57,
+                        "x": 27,
+                        "visible": false,
+                        "skin": "res_icon/racesIcon/img_guidao.png",
+                        "name": "raceIcon",
+                        "anchorY": 0.5,
+                        "anchorX": 0.5
+                      },
+                      "compId": 80
+                    },
+                    {
+                      "type": "Box",
+                      "props": {
+                        "y": 79,
+                        "x": 10,
+                        "width": 200,
+                        "name": "spineClickBox",
+                        "height": 287
+                      },
+                      "compId": 94
+                    },
+                    {
+                      "type": "Box",
+                      "props": {
+                        "y": 79,
+                        "x": 10,
+                        "width": 200,
+                        "name": "starBox",
+                        "height": 287
+                      },
+                      "compId": 204,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 93.5,
+                            "x": 46,
+                            "skin": "res_combat/public/fx_flash.png",
+                            "anchorY": 0.5,
+                            "anchorX": 0.5
+                          },
+                          "compId": 205
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 172,
+                            "x": 145,
+                            "skin": "res_combat/public/fx_flash.png",
+                            "anchorY": 0.5,
+                            "anchorX": 0.5
+                          },
+                          "compId": 206
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 160,
+                            "x": 39,
+                            "skin": "res_combat/public/fx_flash.png",
+                            "anchorY": 0.5,
+                            "anchorX": 0.5
+                          },
+                          "compId": 207
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 14,
+                        "skin": "res_icon/racesIcon/panel_name.png",
+                        "name": "name",
+                        "centerX": 9
+                      },
+                      "compId": 99,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -6,
+                            "x": -24,
+                            "width": 56,
+                            "skin": "res_icon/monsterLvIcon/icon_a.png",
+                            "name": "lvIcon",
+                            "height": 56
+                          },
+                          "compId": 91
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "scaleY": 0.36,
+                            "scaleX": 0.36,
+                            "name": "nameImg",
+                            "centerY": -3,
+                            "centerX": 5,
+                            "anchorY": 0.5,
+                            "anchorX": 0.5
+                          },
+                          "compId": 138
+                        }
+                      ]
+                    },
+                    {
+                      "type": "HBox",
+                      "props": {
+                        "y": 444,
+                        "space": 5,
+                        "name": "haveNumBox",
+                        "height": 30,
+                        "centerX": -3
+                      },
+                      "compId": 126,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "skin": "res_combat/public/text_yongyou.png",
+                            "centerY": 0
+                          },
+                          "compId": 127
+                        },
+                        {
+                          "type": "Label",
+                          "props": {
+                            "x": 61,
+                            "width": 26,
+                            "text": "1",
+                            "name": "haveNum",
+                            "fontSize": 18,
+                            "font": "SimHei",
+                            "color": "#a17960",
+                            "centerY": 1,
+                            "bold": true,
+                            "align": "center"
+                          },
+                          "compId": 128
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 318,
+                        "x": 6.5,
+                        "skin": "res_common/text_khc.png",
+                        "name": "upLv"
+                      },
+                      "compId": 169
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 375,
+                        "x": 41,
+                        "width": 48,
+                        "name": "trait1",
+                        "height": 48
+                      },
+                      "compId": 197
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 375,
+                        "x": 120,
+                        "width": 48,
+                        "name": "trait2",
+                        "height": 48
+                      },
+                      "compId": 198
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 424,
+                        "x": 64,
+                        "name": "traitName1",
+                        "fontSize": 19,
+                        "font": "SimSun",
+                        "color": "#5a4435",
+                        "bold": true,
+                        "anchorX": 0.5
+                      },
+                      "compId": 199
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 425,
+                        "x": 141,
+                        "name": "traitName2",
+                        "fontSize": 19,
+                        "font": "SimSun",
+                        "color": "#5a4435",
+                        "bold": true,
+                        "anchorX": 0.5
+                      },
+                      "compId": 200
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 740,
+                "x": 130,
+                "width": 464,
+                "visible": false,
+                "var": "weaponEffect",
+                "height": 128
+              },
+              "compId": 157,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "x": -2,
+                    "skin": "res_view/sg/panel_fq.png",
+                    "centerY": -13
+                  },
+                  "compId": 158,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "x": 15,
+                        "skin": "res_view/sg/text_fq.png",
+                        "centerY": 0
+                      },
+                      "compId": 159
+                    }
+                  ]
+                },
+                {
+                  "type": "HBox",
+                  "props": {
+                    "y": 46,
+                    "space": 5,
+                    "centerX": 0
+                  },
+                  "compId": 186,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "skin": "res_view/sg/text_dizi2.png"
+                      },
+                      "compId": 187
+                    },
+                    {
+                      "type": "Box",
+                      "props": {},
+                      "compId": 188,
+                      "child": [
+                        {
+                          "type": "FontClip",
+                          "props": {
+                            "y": -3,
+                            "x": -10,
+                            "var": "extraRevives",
+                            "value": "5",
+                            "spaceX": -5,
+                            "skin": "res_common/number/num_22_jxzk_18ff00.png",
+                            "sheet": "0123456789+/%"
+                          },
+                          "compId": 189
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "skin": "res_view/sg/text_dizi1.png"
+                      },
+                      "compId": 191
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": ["res_combat/public/panel_sjjl.png"],
+  "loadList3D": []
+}

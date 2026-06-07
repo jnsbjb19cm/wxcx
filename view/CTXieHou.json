@@ -1,0 +1,589 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 180,
+        "x": 0,
+        "width": 750,
+        "var": "contentBox",
+        "height": 772
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": -4,
+            "skin": "res_combat/specialStageView/xiehou/bg_xh.png"
+          },
+          "compId": 33
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 57,
+            "x": 126,
+            "width": 479,
+            "text": "text",
+            "skin": "res_combat/specialStageView/xiehou/text_wan.png",
+            "height": 41
+          },
+          "compId": 70
+        },
+        {
+          "type": "List",
+          "props": {
+            "y": 98,
+            "x": 0,
+            "width": 750,
+            "var": "itemList",
+            "spaceX": 12,
+            "repeatY": 1,
+            "repeatX": 3,
+            "height": 670
+          },
+          "compId": 27,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 20,
+                "width": 232,
+                "renderType": "render",
+                "height": 670
+              },
+              "compId": 28,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 334,
+                    "x": 116,
+                    "skin": "res_combat/specialStageView/xiehou/panel_unknown.png",
+                    "name": "bg",
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 36
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 331,
+                    "x": 115,
+                    "width": 230,
+                    "visible": false,
+                    "name": "content",
+                    "height": 662,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 54,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 330,
+                        "x": 118,
+                        "visible": false,
+                        "skin": "res_combat/specialStageView/xiehou/panel_orange.png",
+                        "name": "commonBg",
+                        "anchorY": 0.5,
+                        "anchorX": 0.5
+                      },
+                      "compId": 37,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 4,
+                            "x": 8,
+                            "skin": "res_combat/specialStageView/xiehou/panel_up.png",
+                            "name": "top"
+                          },
+                          "compId": 38
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -19,
+                            "x": -1,
+                            "visible": false,
+                            "skin": "res_combat/specialStageView/xiehou/img_memory_lock03.png",
+                            "name": "butterfly"
+                          },
+                          "compId": 39
+                        },
+                        {
+                          "type": "Panel",
+                          "props": {
+                            "y": 20,
+                            "x": 22,
+                            "width": 197,
+                            "name": "imgPanel",
+                            "height": 618
+                          },
+                          "compId": 42
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -25,
+                        "x": -21,
+                        "visible": false,
+                        "skin": "res_combat/specialStageView/xiehou/panel_huajuan_.png",
+                        "name": "specialBg"
+                      },
+                      "compId": 57,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -7,
+                            "x": 13,
+                            "skin": "res_combat/specialStageView/xiehou/img_memory_lock.png"
+                          },
+                          "compId": 59
+                        },
+                        {
+                          "type": "Panel",
+                          "props": {
+                            "y": 40,
+                            "x": 33,
+                            "width": 202,
+                            "name": "imgPanel",
+                            "height": 617
+                          },
+                          "compId": 58
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 373,
+                        "skin": "res_combat/specialStageView/xiehou/frame_main_chapter1.png",
+                        "name": "bottom",
+                        "centerX": -3
+                      },
+                      "compId": 40
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 382,
+                        "x": 73,
+                        "skin": "res_combat/specialStageView/xiehou/frame_tiro06.png"
+                      },
+                      "compId": 55
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 463,
+                        "x": 118,
+                        "text": "text",
+                        "skin": "res_combat/specialStageView/xiehou/text_mz3.png",
+                        "name": "name",
+                        "anchorY": 0.5,
+                        "anchorX": 0.5
+                      },
+                      "compId": 41
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 274,
+                        "x": 187,
+                        "visible": false,
+                        "skin": "res_combat/specialStageView/xiehou/bg_array_view.png",
+                        "name": "tips1"
+                      },
+                      "compId": 60,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 51,
+                            "x": 6,
+                            "text": "text",
+                            "skin": "res_combat/specialStageView/xiehou/text_zkydqmgs.png"
+                          },
+                          "compId": 61
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 47,
+                        "x": 189,
+                        "width": 50,
+                        "skin": "res_view/beauty/icon_jp.png",
+                        "name": "qua",
+                        "height": 45,
+                        "anchorY": 0.5,
+                        "anchorX": 0.5
+                      },
+                      "compId": 52
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 53,
+                        "x": 39,
+                        "width": 107,
+                        "skin": "res_view/beauty/frame_card_blood02.png",
+                        "sizeGrid": "0,0,0,0",
+                        "name": "lovePro",
+                        "height": 15
+                      },
+                      "compId": 75,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 1,
+                            "x": 1,
+                            "width": 105,
+                            "skin": "res_view/beauty/frame_card_hgd.png",
+                            "sizeGrid": "0,0,0,0",
+                            "name": "loveBar",
+                            "height": 13
+                          },
+                          "compId": 77
+                        },
+                        {
+                          "type": "Sprite",
+                          "props": {
+                            "y": -11,
+                            "x": -24,
+                            "width": 38,
+                            "texture": "res_common/icon_hgd.png",
+                            "height": 35
+                          },
+                          "compId": 78
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 3.5,
+                            "text": "text",
+                            "skin": "res_view/beauty/text_pzh.png",
+                            "scaleY": 0.45,
+                            "scaleX": 0.45,
+                            "name": "slash",
+                            "centerX": 0
+                          },
+                          "compId": 79,
+                          "child": [
+                            {
+                              "type": "FontClip",
+                              "props": {
+                                "y": -9,
+                                "value": "10",
+                                "spaceX": -12,
+                                "skin": "res_common/number/num_27_jxzk_ffffff_stk_1_gt.png",
+                                "sheet": "0123456789",
+                                "name": "loveMaxTet",
+                                "left": 5
+                              },
+                              "compId": 80
+                            },
+                            {
+                              "type": "FontClip",
+                              "props": {
+                                "y": -9,
+                                "value": "67",
+                                "spaceX": -12,
+                                "skin": "res_common/number/num_27_jxzk_ffffff_stk_1_gt.png",
+                                "sheet": "0123456789",
+                                "right": 20,
+                                "name": "loveTxt",
+                                "anchorX": 1
+                              },
+                              "compId": 81
+                            }
+                          ]
+                        },
+                        {
+                          "type": "FontClip",
+                          "props": {
+                            "y": 0,
+                            "visible": false,
+                            "value": "67",
+                            "spaceX": -12,
+                            "skin": "res_common/number/num_27_jxzk_ffffff_stk_1_gt.png",
+                            "sheet": "0123456789",
+                            "scaleY": 0.45,
+                            "scaleX": 0.45,
+                            "name": "maxLvAff",
+                            "centerX": -4,
+                            "anchorX": 1
+                          },
+                          "compId": 82
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 36.5,
+                        "x": 86,
+                        "skin": "res_view/beauty/icon_jieyuan.png",
+                        "scaleY": 0.5,
+                        "scaleX": 0.5,
+                        "name": "loveLv",
+                        "anchorY": 0.5,
+                        "anchorX": 0.5
+                      },
+                      "compId": 76
+                    },
+                    {
+                      "type": "HBox",
+                      "props": {
+                        "y": 574,
+                        "x": 33,
+                        "visible": false,
+                        "text": "text",
+                        "name": "tips2",
+                        "centerX": 1
+                      },
+                      "compId": 56,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 0,
+                            "text": "text",
+                            "skin": "res_combat/specialStageView/xiehou/text_hgd.png"
+                          },
+                          "compId": 69
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 0,
+                            "visible": false,
+                            "text": "text",
+                            "skin": "res_combat/specialStageView/xiehou/text_yu.png"
+                          },
+                          "compId": 67
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 541,
+                        "x": 24,
+                        "width": 184,
+                        "visible": false,
+                        "skin": "res_common/btn_yellow.png",
+                        "name": "encounterBtn",
+                        "label": "label",
+                        "height": 85
+                      },
+                      "compId": 30,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 23,
+                            "x": 45,
+                            "text": "邂逅",
+                            "skin": "res_combat/specialStageView/xiehou/text_xh.png",
+                            "fontSize": 20,
+                            "font": "SimHei"
+                          },
+                          "compId": 31
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 538,
+                        "x": 14,
+                        "visible": false,
+                        "skin": "res_combat/specialStageView/xiehou/btn_tsxh.png",
+                        "name": "encounterBtn2",
+                        "label": "label"
+                      },
+                      "compId": 62,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 27,
+                            "x": 23,
+                            "text": "text",
+                            "skin": "res_combat/specialStageView/xiehou/text_tsxh.png"
+                          },
+                          "compId": 63
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 331,
+                        "x": 115,
+                        "visible": false,
+                        "skin": "res_combat/specialStageView/xiehou/img_g_green.png",
+                        "name": "light1",
+                        "anchorY": 0.5,
+                        "anchorX": 0.5
+                      },
+                      "compId": 64
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 320,
+                        "x": 112,
+                        "width": 297,
+                        "visible": false,
+                        "skin": "res_combat/specialStageView/xiehou/img_g_red.png",
+                        "name": "light2",
+                        "height": 730,
+                        "anchorY": 0.5,
+                        "anchorX": 0.5
+                      },
+                      "compId": 66
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 536,
+            "x": 375,
+            "width": 1000,
+            "var": "maskBg",
+            "skin": "res_common/bg.png",
+            "height": 1625,
+            "centerY": 0,
+            "centerX": 0,
+            "anchorY": 0.5,
+            "anchorX": 0.5,
+            "alpha": 0.01
+          },
+          "compId": 3
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 70,
+          "keyframes": {
+            "y": [
+              {
+                "value": 41,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 70,
+                "key": "y",
+                "index": 0
+              }
+            ],
+            "x": [
+              {
+                "value": 126,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 70,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 70,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 70,
+                "key": "alpha",
+                "index": 30
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani1",
+      "id": 1,
+      "frameRate": 60,
+      "action": 1
+    },
+    {
+      "nodes": [
+        {
+          "target": 27,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 27,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 27,
+                "key": "alpha",
+                "index": 25
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 27,
+                "key": "alpha",
+                "index": 40
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani2",
+      "id": 2,
+      "frameRate": 24,
+      "action": 1
+    }
+  ],
+  "loadList": [
+    "res_combat/specialStageView/xiehou/bg_xh.png",
+    "res_common/icon_hgd.png"
+  ],
+  "loadList3D": []
+}

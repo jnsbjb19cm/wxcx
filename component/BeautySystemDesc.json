@@ -1,0 +1,108 @@
+{
+  "type": "View",
+  "props": {
+    "y": 113,
+    "width": 580,
+    "height": 460,
+    "centerX": -2
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 580,
+        "var": "system",
+        "height": 460
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Label",
+          "props": {
+            "y": 13,
+            "x": 30,
+            "text": "一、美人好感度&品质：",
+            "fontSize": 24,
+            "font": "Microsoft YaHei",
+            "color": "#8b3939"
+          },
+          "compId": 4
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 48,
+            "x": 30,
+            "wordWrap": true,
+            "width": 504,
+            "text": "1．特殊关相遇、接听传音事件、赠送好感度道具，都可提升美人的好感度。\\n2． 好感度满足后，可提升好感度等级。\\n3.．美人品质会影响双胞胎的概率。",
+            "leading": 11,
+            "fontSize": 24,
+            "font": "Microsoft YaHei",
+            "color": "#684546"
+          },
+          "compId": 5
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 188,
+            "x": 30,
+            "text": "二、美人晋升：",
+            "fontSize": 24,
+            "font": "Microsoft YaHei",
+            "color": "#8b3939"
+          },
+          "compId": 6
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 223,
+            "x": 30,
+            "wordWrap": true,
+            "width": 504,
+            "text": "1．可获得特殊约会剧情。\\n2．提升徒弟的品质概率。",
+            "leading": 11,
+            "fontSize": 24,
+            "font": "Microsoft YaHei",
+            "color": "#684546"
+          },
+          "compId": 7
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 293,
+            "x": 30,
+            "text": "三、小记系统：",
+            "fontSize": 24,
+            "font": "Microsoft YaHei",
+            "color": "#8b3939"
+          },
+          "compId": 8
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 328,
+            "x": 30,
+            "wordWrap": true,
+            "width": 504,
+            "text": "1．传音：在章节地图中接听美人的传音事件，可领取对应的解锁奖励。\\n2．小记：达到对应的好感度，可随机解锁一条美人相关的传闻／音讯／心绪。",
+            "leading": 11,
+            "fontSize": 24,
+            "font": "Microsoft YaHei",
+            "color": "#684546"
+          },
+          "compId": 9
+        }
+      ]
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

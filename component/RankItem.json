@@ -1,0 +1,590 @@
+{
+  "type": "View",
+  "props": {
+    "width": 574,
+    "runtime": "game/view/component/RankItem.ts",
+    "height": 94
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "x": -1,
+        "width": 625,
+        "var": "bg",
+        "skin": "res_view/rank/bg_family_organization_03.png",
+        "height": 104
+      },
+      "compId": 44,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "visible": false,
+            "var": "sb_bg",
+            "skin": "res_view/rank/img_ranking_fightme02.png"
+          },
+          "compId": 49
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": -1,
+        "x": -4,
+        "var": "numBg1"
+      },
+      "compId": 4
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 1,
+        "x": 22,
+        "visible": false,
+        "var": "numBg2"
+      },
+      "compId": 43
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 52,
+        "x": 66,
+        "var": "numImg",
+        "skin": "res_view/rank/icon_3st.png",
+        "scaleY": 0.88,
+        "scaleX": 0.88,
+        "anchorY": 0.5,
+        "anchorX": 0.5
+      },
+      "compId": 6
+    },
+    {
+      "type": "FontClip",
+      "props": {
+        "y": 26,
+        "x": 28.5,
+        "width": 63,
+        "var": "numLab",
+        "value": "9",
+        "spaceX": -12,
+        "skin": "res_common/number/num_34_jxzk_684546.png",
+        "sheet": "0123456789!",
+        "height": 41,
+        "align": "center"
+      },
+      "compId": 35
+    },
+    {
+      "type": "Label",
+      "props": {
+        "y": 34,
+        "x": 250,
+        "width": 214,
+        "var": "nameLab",
+        "valign": "middle",
+        "text": "名字最长六个字",
+        "overflow": "hidden",
+        "height": 26,
+        "fontSize": 23,
+        "font": "Microsoft YaHei",
+        "color": "#47392c",
+        "bold": true
+      },
+      "compId": 7
+    },
+    {
+      "type": "Label",
+      "props": {
+        "y": 57,
+        "x": 248,
+        "visible": false,
+        "var": "childname",
+        "text": "徒弟：名字最长六字",
+        "fontSize": 20,
+        "font": "Microsoft YaHei",
+        "color": "#88595a"
+      },
+      "compId": 58
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 15,
+        "x": 475,
+        "var": "nightBox",
+        "space": 20,
+        "height": 28
+      },
+      "compId": 36,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 5,
+            "x": 22,
+            "var": "nightName",
+            "skin": "res_view/rank/text_sj.png"
+          },
+          "compId": 39
+        },
+        {
+          "type": "FontClip",
+          "props": {
+            "y": -2,
+            "x": 43,
+            "width": 51,
+            "var": "nightZoonLab",
+            "value": "123",
+            "valign": "middle",
+            "text": "梦魇123",
+            "stroke": 2,
+            "spaceX": -7,
+            "skin": "res_common/number/num_18_jxzk_684546.png",
+            "sheet": "0123456789-",
+            "height": 34,
+            "fontSize": 24,
+            "font": "Microsoft YaHei",
+            "color": "#ffffff",
+            "bold": true,
+            "align": "right"
+          },
+          "compId": 40
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 5,
+            "x": 94,
+            "visible": false,
+            "var": "zone",
+            "skin": "res_view/rank/text_z.png",
+            "name": "zone"
+          },
+          "compId": 47
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 20,
+        "x": 510,
+        "var": "equipScoreTip",
+        "skin": "res_view/rank/texe_zgdjc.png"
+      },
+      "compId": 37
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 43,
+        "x": 491,
+        "var": "numbg",
+        "skin": "res_view/rank/img_ranking_number02_ss_sj.png",
+        "sizeGrid": "0,46,0,44"
+      },
+      "compId": 48
+    },
+    {
+      "type": "FontClip",
+      "props": {
+        "y": 38,
+        "x": 487,
+        "width": 107,
+        "var": "mixZoonLab",
+        "value": "9-19",
+        "valign": "middle",
+        "text": "9-25",
+        "stroke": 2,
+        "spaceX": -6,
+        "skin": "res_common/number/num_18_jxzk_684546_stk.png",
+        "sheet": "0123456789-",
+        "height": 34,
+        "fontSize": 22,
+        "font": "Microsoft YaHei",
+        "color": "#ffffff",
+        "bold": true,
+        "align": "center"
+      },
+      "compId": 38
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "var": "head_1"
+      },
+      "compId": 63,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 7,
+            "x": 132,
+            "width": 80,
+            "var": "headImg",
+            "height": 80,
+            "centerY": 0
+          },
+          "compId": 15,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "width": 80,
+                "var": "headSd",
+                "skin": "res_view/rank/pro_mask.png",
+                "renderType": "mask",
+                "height": 80
+              },
+              "compId": 17
+            },
+            {
+              "type": "Label",
+              "props": {
+                "width": 56,
+                "visible": false,
+                "var": "passLab",
+                "text": "100",
+                "stroke": 2,
+                "right": 3,
+                "height": 21,
+                "fontSize": 21,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "bottom": 3,
+                "bold": true,
+                "align": "right"
+              },
+              "compId": 18
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 7,
+            "x": 132,
+            "width": 80,
+            "visible": false,
+            "var": "headbox",
+            "skin": "res_view/rank/pro_solt.png",
+            "height": 80,
+            "centerY": 0
+          },
+          "compId": 16
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 3,
+            "x": 128,
+            "width": 89,
+            "var": "headbox_2",
+            "skin": "res_view/rank/frame_common_selectedicon.png",
+            "height": 89
+          },
+          "compId": 45
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 5,
+            "x": 130,
+            "width": 85,
+            "var": "headcom",
+            "skin": "res_view/rank/frame_common_icon09.png",
+            "height": 85
+          },
+          "compId": 46
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 5,
+        "x": 130,
+        "width": 87,
+        "var": "head_2",
+        "height": 84
+      },
+      "compId": 64,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -5,
+            "x": -12,
+            "width": 93,
+            "var": "childicon",
+            "skin": "res_common/solt_hero_blue.png",
+            "height": 93
+          },
+          "compId": 68
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -1,
+            "x": -8,
+            "width": 87,
+            "var": "childhead",
+            "height": 88
+          },
+          "compId": 65,
+          "child": [
+            {
+              "type": "Sprite",
+              "props": {
+                "renderType": "mask"
+              },
+              "compId": 66,
+              "child": [
+                {
+                  "type": "Circle",
+                  "props": {
+                    "y": 42,
+                    "x": 41.5,
+                    "radius": 35,
+                    "lineWidth": 1,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 67
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 39,
+            "x": 50,
+            "width": 53,
+            "var": "playerhead",
+            "skin": "res_common/solt_profile_blue.png",
+            "height": 53
+          },
+          "compId": 73
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 45,
+            "x": 56,
+            "width": 41,
+            "var": "p_head",
+            "skin": "res_common/headImg_default.png",
+            "height": 41
+          },
+          "compId": 74,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 41,
+                "skin": "res_main/mask_profile.png",
+                "renderType": "mask",
+                "height": 41
+              },
+              "compId": 75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 8,
+        "x": 440,
+        "width": 117,
+        "visible": false,
+        "var": "divisionBox",
+        "height": 77
+      },
+      "compId": 26,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 6,
+            "var": "divisionName",
+            "centerX": 0
+          },
+          "compId": 27
+        },
+        {
+          "type": "FontClip",
+          "props": {
+            "y": 45,
+            "var": "cupLab",
+            "value": "123",
+            "valign": "middle",
+            "text": "梦魇123",
+            "stroke": 2,
+            "spaceX": -5,
+            "skin": "res_common/number/num_24_jxzk_ffffff_stk.png",
+            "sheet": "0123456789",
+            "height": 23,
+            "fontSize": 24,
+            "font": "Microsoft YaHei",
+            "color": "#ffffff",
+            "centerX": 18,
+            "bold": true,
+            "align": "left"
+          },
+          "compId": 28,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -4,
+                "left": -38
+              },
+              "compId": 29
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 13,
+        "x": 482.5,
+        "width": 117,
+        "visible": false,
+        "var": "damageBox",
+        "height": 77
+      },
+      "compId": 30,
+      "child": [
+        {
+          "type": "FontClip",
+          "props": {
+            "y": 23,
+            "var": "damageLab",
+            "value": "12",
+            "valign": "middle",
+            "text": "梦魇123",
+            "stroke": 2,
+            "spaceX": -3,
+            "skin": "res_common/number/num_24_jxzk_684546.png",
+            "sheet": "0123456789+-*/:.",
+            "fontSize": 24,
+            "font": "Microsoft YaHei",
+            "color": "#ffffff",
+            "centerX": -15,
+            "bold": true
+          },
+          "compId": 54,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 4,
+                "skin": "res_combat/boss/text_phb_wan.png",
+                "right": -25
+              },
+              "compId": 55
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 6,
+        "x": 241,
+        "width": 375,
+        "visible": false,
+        "var": "flybox",
+        "height": 83
+      },
+      "compId": 79,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 60,
+            "x": 11,
+            "skin": "res_view/rank/flylv/text_gds_2.png",
+            "name": "fly_gds"
+          },
+          "compId": 80,
+          "child": [
+            {
+              "type": "FontClip",
+              "props": {
+                "y": -8,
+                "x": 56,
+                "width": 107,
+                "var": "fly_gdsnum",
+                "value": "88888888888",
+                "valign": "middle",
+                "text": "9-25",
+                "stroke": 2,
+                "spaceX": -8,
+                "skin": "res_common/number/num_18_jxzk_684546.png",
+                "sheet": "0123456789-",
+                "height": 34,
+                "fontSize": 22,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "bold": true,
+                "align": "left"
+              },
+              "compId": 81
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 18.5,
+            "x": 262,
+            "var": "flylv_1",
+            "skin": "res_view/rank/flylv/text_huashen.png"
+          },
+          "compId": 82
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 18.5,
+            "x": 301,
+            "var": "flylv_2",
+            "skin": "res_view/rank/flylv/text_chuqi.png"
+          },
+          "compId": 83
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 42.5,
+            "x": 284,
+            "var": "flylv_3",
+            "skin": "res_view/rank/flylv/text_yc.png"
+          },
+          "compId": 84
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "res_common/solt_hero_blue.png",
+    "res_common/solt_profile_blue.png"
+  ],
+  "loadList3D": []
+}

@@ -1,0 +1,527 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": true,
+    "height": 1344,
+    "drawCallOptimize": true,
+    "autoDestroyAtClosed": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 672,
+        "x": 375,
+        "var": "maskBg",
+        "top": 0,
+        "skin": "res_common/bg.png",
+        "right": 0,
+        "left": 0,
+        "bottom": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 140
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 590,
+        "height": 804,
+        "centerY": -8,
+        "centerX": 0
+      },
+      "compId": 190,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -4,
+            "x": -6,
+            "width": 599,
+            "var": "changePanel",
+            "skin": "res_view/platformFeatures/img house title_2.png",
+            "sizeGrid": "143,208,179,169",
+            "height": 814
+          },
+          "compId": 163
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 14,
+            "x": -1,
+            "width": 590,
+            "skin": "res_view/platformFeatures/addGroup/panel_top.png",
+            "height": 81
+          },
+          "compId": 244
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -35,
+            "x": 513,
+            "skin": "res_view/platformFeatures/img_common_02.png"
+          },
+          "compId": 200
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -42,
+            "x": 508,
+            "var": "closeBtn",
+            "skin": "res_view/platformFeatures/btn_close.png",
+            "label": "label"
+          },
+          "compId": 195
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 809,
+            "x": 164,
+            "text": "text",
+            "skin": "res_view/platformFeatures/text_djgb.png"
+          },
+          "compId": 197
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -131,
+            "x": 8,
+            "skin": "res_view/platformFeatures/addGroup/title_jqlm.png"
+          },
+          "compId": 212
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 146,
+            "x": 35,
+            "skin": "res_view/platformFeatures/addGroup/bg_house_Pattern03.png"
+          },
+          "compId": 211
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 131,
+            "x": 14,
+            "skin": "res_view/platformFeatures/addGroup/bg.png",
+            "name": "bg"
+          },
+          "compId": 207,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 101,
+                "x": 21,
+                "skin": "res_view/platformFeatures/addGroup/efx_light2.png"
+              },
+              "compId": 219
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 193,
+                "x": 459,
+                "var": "bg1",
+                "skin": "res_view/platformFeatures/addGroup/efx_light.png",
+                "centerX": 178,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 182
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 145,
+                "x": 407,
+                "var": "bg2",
+                "skin": "res_view/platformFeatures/addGroup/icon_jqlm_03.png"
+              },
+              "compId": 169
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 93,
+            "x": 0,
+            "width": 590,
+            "var": "wjqBox",
+            "height": 710
+          },
+          "compId": 215,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 110,
+                "x": 55,
+                "text": "text",
+                "skin": "res_view/platformFeatures/addGroup/text_jqlq.png"
+              },
+              "compId": 216,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 1,
+                    "x": 211,
+                    "visible": false,
+                    "text": "text"
+                  },
+                  "compId": 217
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 190,
+                "x": 45,
+                "text": "text",
+                "skin": "res_view/platformFeatures/addGroup/text_hldjsbt.png"
+              },
+              "compId": 218
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 21,
+                "var": "title",
+                "text": "欢迎各位少侠加入Q群领取【兑换码】",
+                "skin": "res_view/platformFeatures/addGroup/text_hyxsjrqlq.png",
+                "fontSize": 24,
+                "font": "SimHei",
+                "color": "#5c504b",
+                "centerX": -4
+              },
+              "compId": 177
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 287,
+                "width": 201,
+                "var": "groupImg",
+                "height": 202,
+                "centerX": -3
+              },
+              "compId": 183
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 646,
+                "x": 292,
+                "width": 252,
+                "var": "exchangeBtn",
+                "stateNum": 1,
+                "skin": "res_common/btn_yellow.png",
+                "height": 87,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 185,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 26,
+                    "x": 74,
+                    "text": "兑  换",
+                    "fontSize": 40,
+                    "font": "Microsoft YaHei",
+                    "color": "#5b393a",
+                    "bold": true
+                  },
+                  "compId": 209
+                },
+                {
+                  "type": "Script",
+                  "props": {
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 193
+                }
+              ]
+            },
+            {
+              "type": "HBox",
+              "props": {
+                "y": 503,
+                "space": 30,
+                "height": 60,
+                "centerX": -8
+              },
+              "compId": 210,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 21,
+                    "var": "groupTxt",
+                    "text": "123456789（10群）",
+                    "strokeColor": "#3f2929",
+                    "stroke": 4,
+                    "fontSize": 30,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "centerY": 6,
+                    "bold": true
+                  },
+                  "compId": 180
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "width": 120,
+                    "height": 56,
+                    "centerY": 0
+                  },
+                  "compId": 213,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 28,
+                        "x": 60,
+                        "width": 120,
+                        "var": "copyBtn",
+                        "stateNum": 1,
+                        "skin": "res_common/btn_yellow.png",
+                        "height": 56,
+                        "centerY": 0,
+                        "anchorY": 0.5,
+                        "anchorX": 0.5
+                      },
+                      "compId": 184,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 15,
+                            "x": 23,
+                            "skin": "res_view/platformFeatures/addGroup/text_fz.png"
+                          },
+                          "compId": 187
+                        },
+                        {
+                          "type": "Script",
+                          "props": {
+                            "runtime": "game/tools/BtnScale90.ts"
+                          },
+                          "compId": 192
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 93,
+            "x": 0,
+            "width": 590,
+            "var": "gzhBox",
+            "height": 710
+          },
+          "compId": 220,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 139,
+                "x": 35,
+                "skin": "res_view/platformFeatures/addGroup/efx_light2.png"
+              },
+              "compId": 221
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 110,
+                "x": 55,
+                "text": "text",
+                "skin": "res_view/platformFeatures/addGroup/text_jqlq.png"
+              },
+              "compId": 222
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 190,
+                "x": 45,
+                "text": "text",
+                "skin": "res_view/platformFeatures/addGroup/text_hldjsbt.png"
+              },
+              "compId": 224
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 20,
+                "x": 150,
+                "text": "欢迎各位少侠加入Q群领取【兑换码】",
+                "skin": "res_view/platformFeatures/addGroup/text_hygwxsjrgzh.png",
+                "fontSize": 24,
+                "font": "SimHei",
+                "color": "#5c504b",
+                "centerX": -3
+              },
+              "compId": 227
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 287,
+                "width": 201,
+                "var": "publicCode",
+                "skin": "res_view/platformFeatures/addGroup/gzhCode.png",
+                "height": 202,
+                "centerX": -3
+              },
+              "compId": 228
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 626,
+                "x": 133,
+                "text": "text",
+                "skin": "res_view/platformFeatures/addGroup/text_qszwyxzx.png"
+              },
+              "compId": 238
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 523,
+                "var": "desc",
+                "text": "搜索关注公众号：",
+                "strokeColor": "#3f2929",
+                "stroke": 4,
+                "fontSize": 30,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "centerX": 0,
+                "bold": true
+              },
+              "compId": 233
+            }
+          ]
+        },
+        {
+          "type": "List",
+          "props": {
+            "y": 32,
+            "x": 95,
+            "width": 383,
+            "var": "tagList",
+            "spaceX": 39,
+            "label": "label",
+            "height": 61
+          },
+          "compId": 239,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "width": 171,
+                "renderType": "render",
+                "label": "label",
+                "height": 61
+              },
+              "compId": 240,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "skin": "res_common/btn_common_label02.png",
+                    "name": "notSelect",
+                    "label": "label"
+                  },
+                  "compId": 243
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "res_view/platformFeatures/addGroup/btn_xuanzhong.png",
+                    "name": "select",
+                    "label": "label"
+                  },
+                  "compId": 241
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 16,
+                    "x": 30,
+                    "text": "text",
+                    "skin": "res_view/platformFeatures/addGroup/text_gzh1.png",
+                    "name": "tagTextImg"
+                  },
+                  "compId": 242
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 182,
+          "keyframes": {
+            "rotation": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 182,
+                "label": null,
+                "key": "rotation",
+                "index": 0
+              },
+              {
+                "value": 360,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 182,
+                "label": null,
+                "key": "rotation",
+                "index": 60
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani",
+      "id": 1,
+      "frameRate": 30,
+      "action": 2
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

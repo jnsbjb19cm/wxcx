@@ -1,0 +1,207 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "visible": true,
+        "var": "chengnianlist",
+        "centerY": 196,
+        "centerX": 8
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -391,
+            "x": 35,
+            "width": 773,
+            "var": "cnlist_maskbg",
+            "skin": "res_common/bg.png",
+            "height": 1340,
+            "alpha": 0.45
+          },
+          "compId": 4
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": -142,
+            "x": -1
+          },
+          "compId": 5,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "width": 845,
+                "skin": "res_view/children/img_zinv_title03.png",
+                "sizeGrid": "137,410,150,344",
+                "name": "cnl_bg",
+                "height": 932
+              },
+              "compId": 9,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 132,
+                    "x": 40,
+                    "width": 753,
+                    "skin": "res_view/children/panel_zinv_2.png",
+                    "sizeGrid": "3,3,3,3",
+                    "height": 708
+                  },
+                  "compId": 10
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 19,
+                    "x": 157,
+                    "skin": "res_view/children/title_chengnianzinv.png"
+                  },
+                  "compId": 11
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 23,
+                    "x": 707,
+                    "var": "cn_closebtn",
+                    "skin": "netRes/task/btn_close.png"
+                  },
+                  "compId": 12
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 21,
+                "x": 561,
+                "width": 182,
+                "skin": "res_view/children/bg_card_number.png",
+                "height": 35
+              },
+              "compId": 6,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 3,
+                    "x": 38,
+                    "skin": "res_view/children/img_renshu.png"
+                  },
+                  "compId": 7
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 1,
+                    "x": 95,
+                    "var": "cnpeoplenum",
+                    "text": "3",
+                    "fontSize": 34,
+                    "font": "SimHei",
+                    "color": "#d1beaf"
+                  },
+                  "compId": 8
+                }
+              ]
+            },
+            {
+              "type": "Panel",
+              "props": {
+                "y": 134,
+                "x": 58,
+                "width": 717,
+                "var": "cnlist",
+                "vScrollBarSkin": " ",
+                "height": 645
+              },
+              "compId": 13
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 880,
+                "x": 280,
+                "skin": "res_view/rank/text_djgb.png"
+              },
+              "compId": 14
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 782,
+                "x": 639,
+                "var": "stagerwd_btn",
+                "skin": "res_view/children/btn_jl.png"
+              },
+              "compId": 16,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 15.5,
+                    "x": 61,
+                    "skin": "res_view/children/text_jl.png"
+                  },
+                  "compId": 17
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 11.5,
+                    "x": 117,
+                    "visible": false,
+                    "value": "1/40",
+                    "spaceX": -12,
+                    "skin": "res_common/number/num_26_jxzk_5c3c39.png",
+                    "sheet": "0123456789/"
+                  },
+                  "compId": 18
+                },
+                {
+                  "type": "Rect",
+                  "props": {
+                    "y": -4,
+                    "x": -8,
+                    "width": 144,
+                    "renderType": "hit",
+                    "lineWidth": 1,
+                    "height": 66,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 20
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -3,
+                    "x": 103,
+                    "visible": false,
+                    "var": "redpoint",
+                    "skin": "res_common/redpoint.png",
+                    "scaleY": 0.8,
+                    "scaleX": 0.8
+                  },
+                  "compId": 21
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

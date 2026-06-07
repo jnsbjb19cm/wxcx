@@ -1,0 +1,223 @@
+{
+  "type": "View",
+  "props": {
+    "width": 574,
+    "height": 94
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 3,
+        "x": 0,
+        "width": 566,
+        "var": "bg_1",
+        "skin": "res_view/rank/bg_family_organization_01.png",
+        "height": 92
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -7,
+            "x": 0,
+            "width": 567,
+            "visible": false,
+            "var": "bg_2",
+            "skin": "res_view/rank/img_ranking_fightme02.png",
+            "height": 106
+          },
+          "compId": 27
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 3,
+        "x": -2,
+        "var": "numBg1",
+        "skin": "res_view/rank/img_ranking_common1.png"
+      },
+      "compId": 4
+    },
+    {
+      "type": "Image",
+      "props": {
+        "x": 57,
+        "visible": true,
+        "var": "numImg",
+        "skin": "res_view/rank/text_first.png",
+        "centerY": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5
+      },
+      "compId": 21
+    },
+    {
+      "type": "Image",
+      "props": {
+        "width": 55,
+        "visible": true,
+        "var": "ranknumbg",
+        "skin": "res_view/rank/img_ranking_number03.png",
+        "height": 55,
+        "centerY": -5,
+        "centerX": -228
+      },
+      "compId": 23,
+      "child": [
+        {
+          "type": "FontClip",
+          "props": {
+            "y": 8,
+            "x": -21,
+            "width": 83,
+            "var": "numLab",
+            "value": "100",
+            "spaceX": -13,
+            "skin": "res_common/number/num_31_jxzk_684546.png",
+            "sheet": "0123456789",
+            "align": "center"
+          },
+          "compId": 22
+        }
+      ]
+    },
+    {
+      "type": "Label",
+      "props": {
+        "y": 13.5,
+        "x": 214,
+        "width": 233,
+        "var": "nameLab",
+        "valign": "middle",
+        "text": "名字最长六个字",
+        "overflow": "hidden",
+        "height": 44,
+        "fontSize": 23,
+        "font": "Microsoft YaHei",
+        "color": "#684546",
+        "bold": true,
+        "align": "left"
+      },
+      "compId": 8
+    },
+    {
+      "type": "FontClip",
+      "props": {
+        "y": 45,
+        "x": 212,
+        "width": 265,
+        "var": "markLab",
+        "value": "1234",
+        "valign": "middle",
+        "text": "label",
+        "stroke": 2,
+        "spaceX": -7,
+        "skin": "res_common/number/num_18_wryh_ffd200_stk.png",
+        "sheet": "0123456789-+*/",
+        "overflow": "hidden",
+        "height": 44,
+        "fontSize": 23,
+        "font": "Microsoft YaHei",
+        "color": "#ddbb0a",
+        "bold": true,
+        "align": "left"
+      },
+      "compId": 18
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 5,
+        "x": 112,
+        "width": 79,
+        "var": "headImg",
+        "height": 80,
+        "bottom": 6
+      },
+      "compId": 12,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "width": 80,
+            "skin": "res_view/rank/pro_mask.png",
+            "renderType": "mask",
+            "height": 80
+          },
+          "compId": 16
+        },
+        {
+          "type": "Label",
+          "props": {
+            "width": 56,
+            "visible": false,
+            "var": "passLab",
+            "text": "100",
+            "stroke": 2,
+            "right": 3,
+            "height": 21,
+            "fontSize": 21,
+            "font": "Microsoft YaHei",
+            "color": "#ffffff",
+            "bottom": 3,
+            "bold": true,
+            "align": "right"
+          },
+          "compId": 17
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 4,
+        "x": 112,
+        "width": 78,
+        "skin": "res_view/rank/pro_solt.png",
+        "height": 80,
+        "bottom": 7
+      },
+      "compId": 13
+    },
+    {
+      "type": "Image",
+      "props": {
+        "x": 446,
+        "var": "checkBtn",
+        "skin": "res_view/rank/anniu.png",
+        "centerY": 1
+      },
+      "compId": 20,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 11.5,
+            "x": 20.5,
+            "skin": "res_view/rank/text_chakan.png"
+          },
+          "compId": 26
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": -435,
+        "x": -90,
+        "visible": false,
+        "skin": "单件装备评分(1).png",
+        "name": "123456789",
+        "alpha": 0.5
+      },
+      "compId": 24
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

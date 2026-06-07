@@ -1,0 +1,43 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 750,
+        "var": "popup",
+        "height": 44,
+        "centerY": -228,
+        "centerX": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "width": 750,
+            "var": "contextBg",
+            "skin": "res_common/panel_text.png",
+            "sizeGrid": "0,303,0,319",
+            "height": 60,
+            "centerY": 0,
+            "centerX": 0,
+            "anchorY": 0.5,
+            "anchorX": 0.5,
+            "alpha": 1
+          },
+          "compId": 4
+        }
+      ]
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

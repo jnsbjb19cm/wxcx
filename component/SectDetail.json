@@ -1,0 +1,384 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1200
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Panel",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 750,
+        "var": "mPanle",
+        "vScrollBarSkin": "comp/vscroll.png",
+        "height": 1220
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "var": "mapBg",
+            "skin": "netRes/workShop/bg_mp.jpg"
+          },
+          "compId": 4,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 1294,
+                "x": 228,
+                "var": "door0",
+                "skin": "netRes/workShop/building_sm_a.png",
+                "anchorY": 1
+              },
+              "compId": 28
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 1168,
+                "x": 522,
+                "skin": "netRes/workShop/decoration_td_a.png",
+                "name": "res1",
+                "anchorY": 1
+              },
+              "compId": 29
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 1458,
+                "x": 693,
+                "skin": "netRes/workShop/creature_dy_a.png",
+                "name": "res11",
+                "anchorY": 1,
+                "anchorX": 0.5
+              },
+              "compId": 30
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 1272,
+                "x": 568,
+                "skin": "netRes/workShop/decoration_s_a.png",
+                "name": "res5",
+                "anchorY": 1
+              },
+              "compId": 31
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 1234,
+                "x": 668,
+                "skin": "netRes/workShop/decoration_s_a.png",
+                "name": "res5",
+                "anchorY": 1
+              },
+              "compId": 32
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 1170,
+                "x": 73,
+                "skin": "netRes/workShop/decoration_s_a.png",
+                "name": "res5",
+                "anchorY": 1
+              },
+              "compId": 33
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 1252,
+                "x": 33,
+                "skin": "netRes/workShop/decoration_s_a.png",
+                "name": "res5",
+                "anchorY": 1
+              },
+              "compId": 34
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 1221,
+                "x": 118,
+                "skin": "netRes/workShop/decoration_s_a.png",
+                "name": "res5",
+                "anchorY": 1
+              },
+              "compId": 35
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 1808,
+                "x": 170,
+                "skin": "netRes/workShop/creature_h_a.png",
+                "name": "res10",
+                "anchorY": 1,
+                "anchorX": 0.5
+              },
+              "compId": 36
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 1073,
+            "x": 618,
+            "width": 120,
+            "visible": false,
+            "var": "trvalBox",
+            "pivotY": 0,
+            "name": "trvalBox",
+            "height": 120,
+            "alpha": 1
+          },
+          "compId": 373,
+          "child": [
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 10,
+                "x": 92,
+                "visible": false,
+                "texture": "main/redpoint.png",
+                "name": "redPoint"
+              },
+              "compId": 374
+            },
+            {
+              "type": "Rect",
+              "props": {
+                "width": 120,
+                "renderType": "hit",
+                "lineWidth": 1,
+                "height": 120,
+                "fillColor": "#ff0000"
+              },
+              "compId": 375
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 813,
+        "x": 500,
+        "width": 1000,
+        "visible": false,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.5
+      },
+      "compId": 23
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 520,
+        "visible": false,
+        "var": "targetBox",
+        "centerY": 30,
+        "centerX": 0
+      },
+      "compId": 24,
+      "child": [
+        {
+          "type": "FontClip",
+          "props": {
+            "y": 0,
+            "x": 188,
+            "var": "targetLv",
+            "value": "2",
+            "spaceX": -7,
+            "skin": "res_common/number/num_30_jxzk_ff2f2f.png",
+            "sheet": "0123456789-+"
+          },
+          "compId": 26
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": 226,
+            "skin": "res_view/workshop/text_zkyyzjdhs.png"
+          },
+          "compId": 27
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 1,
+            "x": 43,
+            "skin": "res_view/workshop/text_tgsjd.png",
+            "anchorX": 0
+          },
+          "compId": 25
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 1,
+            "x": 125,
+            "skin": "res_view/workshop/text_ss_kaiqi.png",
+            "anchorX": 0
+          },
+          "compId": 41
+        }
+      ]
+    },
+    {
+      "type": "VBox",
+      "props": {
+        "y": 107,
+        "x": 8,
+        "var": "previewBox",
+        "space": -3
+      },
+      "compId": 37
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 23,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0.9,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 23,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 23,
+                "key": "alpha",
+                "index": 20
+              }
+            ]
+          }
+        },
+        {
+          "target": 24,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 24,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 24,
+                "key": "alpha",
+                "index": 20
+              }
+            ]
+          }
+        }
+      ],
+      "name": "shadowAni",
+      "id": 1,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 3,
+          "keyframes": {
+            "y": [
+              {
+                "value": -1005,
+                "tweenMethod": "circOut",
+                "tween": true,
+                "target": 3,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": -1005,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 3,
+                "key": "y",
+                "index": 15
+              },
+              {
+                "value": 0,
+                "tweenMethod": "circOut",
+                "tween": true,
+                "target": 3,
+                "key": "y",
+                "index": 45
+              }
+            ],
+            "height": [
+              {
+                "value": 2225,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 3,
+                "key": "height",
+                "index": 0
+              },
+              {
+                "value": 2225,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 3,
+                "key": "height",
+                "index": 45
+              },
+              {
+                "value": 1220,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 3,
+                "key": "height",
+                "index": 50
+              }
+            ]
+          }
+        }
+      ],
+      "name": "moveAni",
+      "id": 2,
+      "frameRate": 30,
+      "action": 0
+    }
+  ],
+  "loadList": [
+    "comp/vscroll.png",
+    "netRes/workShop/bg_mp.jpg",
+    "main/redpoint.png"
+  ],
+  "loadList3D": []
+}

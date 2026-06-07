@@ -1,0 +1,233 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": true,
+    "height": 1344,
+    "drawCallOptimize": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 813,
+        "x": 500,
+        "width": 1000,
+        "var": "maskBg1",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 140
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 600,
+        "height": 425,
+        "centerY": -74,
+        "centerX": 0
+      },
+      "compId": 166,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 7,
+            "width": 610,
+            "skin": "res_common/bg_common.png",
+            "height": 398,
+            "centerX": 0,
+            "alpha": 1
+          },
+          "compId": 149,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -19,
+                "x": 526,
+                "skin": "res_common/img_common_02.png"
+              },
+              "compId": 171
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -26,
+                "x": 518,
+                "var": "closeBtn",
+                "skin": "res_common/btn_close.png"
+              },
+              "compId": 170
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 55,
+            "skin": "res_common/bg_title01.png",
+            "centerX": 0,
+            "alpha": 1
+          },
+          "compId": 18,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 9,
+                "x": 104,
+                "skin": "res_view/chapterDetail/title_tishi.png"
+              },
+              "compId": 169
+            }
+          ]
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 119,
+            "var": "tipDesc",
+            "text": "数据异常",
+            "fontSize": 40,
+            "font": "SimHei",
+            "color": "#ff0000",
+            "centerX": -2,
+            "bold": true
+          },
+          "compId": 163
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 187,
+            "x": 90,
+            "text": "您当前的游戏数据异常，本次战斗无效。",
+            "fontSize": 22,
+            "font": "SimHei",
+            "color": "#66605d",
+            "bold": true
+          },
+          "compId": 176
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 267,
+            "x": 90,
+            "wordWrap": true,
+            "width": 408,
+            "text": "感谢您对游戏的支持，请勿再次修改游戏数据，严重时，将判定永久封号！",
+            "leading": 18,
+            "fontSize": 22,
+            "font": "SimHei",
+            "color": "#66605d",
+            "bold": true
+          },
+          "compId": 177
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 397.5,
+            "x": 165,
+            "text": "text",
+            "skin": "res_common/text_djgb.png"
+          },
+          "compId": 174
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 122,
+          "keyframes": {
+            "x": [
+              {
+                "value": 150,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 150,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "x",
+                "index": 50
+              }
+            ],
+            "text": [
+              {
+                "value": "5",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 0
+              },
+              {
+                "value": "4",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 10
+              },
+              {
+                "value": "3",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 20
+              },
+              {
+                "value": "2",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 30
+              },
+              {
+                "value": "1",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 40
+              },
+              {
+                "value": "0",
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "text",
+                "index": 50
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani",
+      "id": 1,
+      "frameRate": 10,
+      "action": 0
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

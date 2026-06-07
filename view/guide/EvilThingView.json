@@ -1,0 +1,546 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "top": 0,
+        "skin": "res_common/bg.png",
+        "right": 0,
+        "name": "maskBg",
+        "left": 0,
+        "bottom": 0,
+        "alpha": 0.5
+      },
+      "compId": 8
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "y": 664,
+            "x": 375,
+            "width": 750,
+            "var": "showBox",
+            "height": 790,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 4,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 40,
+                "x": 99,
+                "skin": "res_view/guide/panle_xiesui.png"
+              },
+              "compId": 5
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 40,
+                "x": 100,
+                "width": 575,
+                "skin": "res_view/guide/xzbj.png",
+                "height": 326
+              },
+              "compId": 93
+            },
+            {
+              "type": "Panel",
+              "props": {
+                "y": -228,
+                "x": 98,
+                "width": 576,
+                "height": 600
+              },
+              "compId": 91,
+              "child": [
+                {
+                  "type": "SkeletonPlayer",
+                  "props": {
+                    "y": 1205,
+                    "x": 242,
+                    "width": 100,
+                    "url": "res_view/guide/spine/myng.sk",
+                    "scaleY": 1.1,
+                    "scaleX": 1.1,
+                    "height": 100,
+                    "runtime": "Laya.Skeleton"
+                  },
+                  "compId": 92
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 517,
+                "x": 159,
+                "text": "text",
+                "skin": "res_view/guide/text_xs2.png"
+              },
+              "compId": 19
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 317,
+                "x": 128,
+                "text": "text",
+                "skin": "res_view/guide/text_xs.png"
+              },
+              "compId": 12
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 376,
+                "x": 448,
+                "text": "text",
+                "skin": "res_view/guide/text_zm.png"
+              },
+              "compId": 13
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 695,
+                "x": 112,
+                "width": 550,
+                "var": "proBox",
+                "height": 70
+              },
+              "compId": 14,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 15,
+                    "x": 36,
+                    "skin": "res_view/guide/bar_jindu_empty.png"
+                  },
+                  "compId": 15
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "var": "sunPillarsBox"
+                  },
+                  "compId": 56,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 21,
+                        "x": 22,
+                        "width": 64,
+                        "visible": false,
+                        "skin": "res_view/guide/bar_jindu.png",
+                        "height": 19
+                      },
+                      "compId": 58
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 21,
+                        "x": 75,
+                        "width": 69,
+                        "visible": false,
+                        "skin": "res_view/guide/bar_jindu.png",
+                        "height": 19
+                      },
+                      "compId": 59
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 21,
+                        "x": 127,
+                        "width": 76,
+                        "visible": false,
+                        "skin": "res_view/guide/bar_jindu.png",
+                        "height": 19
+                      },
+                      "compId": 60
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 21,
+                        "x": 184,
+                        "width": 73,
+                        "visible": false,
+                        "skin": "res_view/guide/bar_jindu.png",
+                        "height": 19
+                      },
+                      "compId": 61
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 21,
+                        "x": 239,
+                        "width": 75,
+                        "visible": false,
+                        "skin": "res_view/guide/bar_jindu.png",
+                        "height": 19
+                      },
+                      "compId": 62
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 21,
+                        "x": 296,
+                        "width": 74,
+                        "visible": false,
+                        "skin": "res_view/guide/bar_jindu.png",
+                        "height": 19
+                      },
+                      "compId": 63
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 21,
+                        "x": 348,
+                        "width": 77,
+                        "visible": false,
+                        "skin": "res_view/guide/bar_jindu.png",
+                        "height": 19
+                      },
+                      "compId": 64
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 21,
+                        "x": 407,
+                        "width": 73,
+                        "visible": false,
+                        "skin": "res_view/guide/bar_jindu.png",
+                        "height": 19
+                      },
+                      "compId": 65
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 21,
+                        "x": 464,
+                        "width": 73,
+                        "visible": false,
+                        "skin": "res_view/guide/bar_jindu.png",
+                        "height": 19
+                      },
+                      "compId": 66
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "var": "pointBox"
+                  },
+                  "compId": 57,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 13,
+                        "x": 8,
+                        "skin": "res_view/guide/frame_online_03.png"
+                      },
+                      "compId": 67,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -6.5,
+                            "x": -7.5,
+                            "visible": false,
+                            "skin": "res_view/guide/frame_online_05.png"
+                          },
+                          "compId": 68
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 13,
+                        "x": 64,
+                        "skin": "res_view/guide/frame_online_03.png"
+                      },
+                      "compId": 69,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -6.5,
+                            "x": -7.5,
+                            "visible": false,
+                            "skin": "res_view/guide/frame_online_05.png"
+                          },
+                          "compId": 70
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 13,
+                        "x": 120,
+                        "skin": "res_view/guide/frame_online_03.png"
+                      },
+                      "compId": 71,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -6.5,
+                            "x": -7.5,
+                            "visible": false,
+                            "skin": "res_view/guide/frame_online_05.png"
+                          },
+                          "compId": 72
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 13,
+                        "x": 176,
+                        "skin": "res_view/guide/frame_online_03.png"
+                      },
+                      "compId": 73,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -6.5,
+                            "x": -7.5,
+                            "visible": false,
+                            "skin": "res_view/guide/frame_online_05.png"
+                          },
+                          "compId": 74
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 13,
+                        "x": 232,
+                        "skin": "res_view/guide/frame_online_03.png"
+                      },
+                      "compId": 75,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -6.5,
+                            "x": -7.5,
+                            "visible": false,
+                            "skin": "res_view/guide/frame_online_05.png"
+                          },
+                          "compId": 76
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 13,
+                        "x": 287,
+                        "skin": "res_view/guide/frame_online_03.png"
+                      },
+                      "compId": 77,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -6.5,
+                            "x": -7.5,
+                            "visible": false,
+                            "skin": "res_view/guide/frame_online_05.png"
+                          },
+                          "compId": 78
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 13,
+                        "x": 343,
+                        "skin": "res_view/guide/frame_online_03.png"
+                      },
+                      "compId": 79,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -6.5,
+                            "x": -7.5,
+                            "visible": false,
+                            "skin": "res_view/guide/frame_online_05.png"
+                          },
+                          "compId": 80
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 13,
+                        "x": 399,
+                        "skin": "res_view/guide/frame_online_03.png"
+                      },
+                      "compId": 81,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -6.5,
+                            "x": -7.5,
+                            "visible": false,
+                            "skin": "res_view/guide/frame_online_05.png"
+                          },
+                          "compId": 82
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 13,
+                        "x": 455,
+                        "skin": "res_view/guide/frame_online_03.png"
+                      },
+                      "compId": 83,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -6.5,
+                            "x": -7.5,
+                            "visible": false,
+                            "skin": "res_view/guide/frame_online_05.png"
+                          },
+                          "compId": 84
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 13,
+                        "x": 511,
+                        "skin": "res_view/guide/frame_online_03.png"
+                      },
+                      "compId": 85,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -6.5,
+                            "x": -7.5,
+                            "visible": false,
+                            "skin": "res_view/guide/frame_online_05.png"
+                          },
+                          "compId": 86
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "HBox",
+              "props": {
+                "y": 620,
+                "space": 16,
+                "height": 80,
+                "centerX": 0
+              },
+              "compId": 51,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "text": "text",
+                    "skin": "res_view/guide/text_hs2.png",
+                    "centerY": 0
+                  },
+                  "compId": 53
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "var": "content",
+                    "text": "10",
+                    "stroke": 2,
+                    "fontSize": 48,
+                    "font": "SimHei",
+                    "color": "#ffffff",
+                    "centerY": 0
+                  },
+                  "compId": 55
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "text": "text",
+                    "skin": "res_view/guide/text_g.png",
+                    "centerY": 0
+                  },
+                  "compId": 52
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 1056,
+            "x": 235,
+            "var": "tips",
+            "text": "text",
+            "skin": "res_common/text_djgb.png"
+          },
+          "compId": 9
+        }
+      ]
+    }
+  ],
+  "loadList": ["res_view/guide/spine/myng.sk"],
+  "loadList3D": []
+}

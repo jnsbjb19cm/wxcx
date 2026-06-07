@@ -1,0 +1,446 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 750,
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 34,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 667,
+            "x": 375,
+            "width": 1000,
+            "var": "maskBg",
+            "skin": "res_common/bg.png",
+            "height": 1625,
+            "centerY": 0,
+            "centerX": 0,
+            "anchorY": 0.5,
+            "anchorX": 0.5,
+            "alpha": 0.6
+          },
+          "compId": 35
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 1194,
+            "x": 240,
+            "skin": "res_view/rank/text_djgb.png"
+          },
+          "compId": 70
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 100,
+            "x": -54,
+            "width": 861,
+            "var": "bgPanel",
+            "skin": "res_view/manual/panel_tujianzzz.png",
+            "sizeGrid": "113,0,23,0",
+            "height": 1109
+          },
+          "compId": 36,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -13,
+                "x": 587,
+                "skin": "res_common/img_sz_1.png"
+              },
+              "compId": 37
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 45,
+                "x": 71,
+                "width": 723,
+                "skin": "res_view/manual/img_tujiandiban.png",
+                "sizeGrid": "372,0,322,0",
+                "height": 1060
+              },
+              "compId": 38
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -31,
+                "x": 86,
+                "skin": "res_common/icon_head.png"
+              },
+              "compId": 39
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -26,
+                "x": 179,
+                "skin": "res_combat/boss/title_pmjl.png",
+                "name": "title"
+              },
+              "compId": 40
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -4,
+                "x": 709,
+                "var": "closeBtn",
+                "skin": "res_common/btn_close.png",
+                "label": "label"
+              },
+              "compId": 41,
+              "child": [
+                {
+                  "type": "Rect",
+                  "props": {
+                    "y": 0,
+                    "x": 8,
+                    "width": 77,
+                    "renderType": "hit",
+                    "lineWidth": 1,
+                    "height": 70,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 42
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 57,
+                "x": 84,
+                "var": "panel_mask",
+                "skin": "res_common/panel_mask.png"
+              },
+              "compId": 43,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 266,
+                    "x": 148,
+                    "var": "decoration",
+                    "skin": "res_view/manual/img_anwen.png"
+                  },
+                  "compId": 44
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 86,
+                "width": 280,
+                "var": "remainTips",
+                "height": 26,
+                "centerX": 0
+              },
+              "compId": 7,
+              "child": [
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": -3,
+                    "var": "remainLab_h",
+                    "value": "888",
+                    "text": "剩余领奖时间：11天11时",
+                    "stroke": 3,
+                    "spaceX": -5,
+                    "skin": "res_common/number/num_24_jxzk_503236.png",
+                    "sheet": "0123456789+-*/:.",
+                    "fontSize": 18,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "centerX": 35,
+                    "bold": true
+                  },
+                  "compId": 28,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 3,
+                        "skin": "res_combat/boss/texe_syljsj.png",
+                        "left": -180
+                      },
+                      "compId": 62
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 3,
+                        "var": "unit1Icon",
+                        "skin": "res_combat/boss/text_shi.png",
+                        "right": -32
+                      },
+                      "compId": 63
+                    },
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": 0,
+                        "var": "remainLab_m",
+                        "value": "11",
+                        "text": "剩余领奖时间：11天11时",
+                        "stroke": 3,
+                        "spaceX": -5,
+                        "skin": "res_common/number/num_24_jxzk_503236.png",
+                        "sheet": "0123456789+-*/:.",
+                        "left": 75,
+                        "fontSize": 18,
+                        "font": "Microsoft YaHei",
+                        "color": "#ffffff",
+                        "bold": true
+                      },
+                      "compId": 65,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 3,
+                            "var": "unit2Icon",
+                            "skin": "res_combat/boss/text_fen.png",
+                            "right": -33
+                          },
+                          "compId": 64
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "List",
+              "props": {
+                "y": 127,
+                "width": 668,
+                "var": "rwdList",
+                "vScrollBarSkin": " ",
+                "spaceY": 8,
+                "height": 832,
+                "centerX": -1
+              },
+              "compId": 45,
+              "child": [
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "width": 668,
+                    "renderType": "render",
+                    "height": 160
+                  },
+                  "compId": 46,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "width": 668,
+                        "skin": "res_common/panel_bz.png",
+                        "name": "bg",
+                        "height": 160
+                      },
+                      "compId": 47
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 28,
+                        "x": 41,
+                        "skin": "res_common/img_panle.png"
+                      },
+                      "compId": 18
+                    },
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": 55,
+                        "x": 47,
+                        "value": "11-20",
+                        "spaceX": -15,
+                        "skin": "res_common/number/num_32_ss_392a1a.png",
+                        "sheet": "0123456789-",
+                        "name": "gradeLab",
+                        "centerX": -250
+                      },
+                      "compId": 29
+                    },
+                    {
+                      "type": "HBox",
+                      "props": {
+                        "y": 25,
+                        "width": 525,
+                        "space": 15,
+                        "scaleY": 0.87,
+                        "scaleX": 0.87,
+                        "right": 40,
+                        "name": "propBox",
+                        "height": 124
+                      },
+                      "compId": 50,
+                      "child": [
+                        {
+                          "type": "PropItem",
+                          "props": {
+                            "y": 0,
+                            "x": 0,
+                            "runtime": "ui.component.PropItemUI"
+                          },
+                          "compId": 59
+                        },
+                        {
+                          "type": "PropItem",
+                          "props": {
+                            "y": 0,
+                            "x": 130,
+                            "runtime": "ui.component.PropItemUI"
+                          },
+                          "compId": 60
+                        },
+                        {
+                          "type": "PropItem",
+                          "props": {
+                            "y": 0,
+                            "x": 260,
+                            "runtime": "ui.component.PropItemUI"
+                          },
+                          "compId": 61
+                        },
+                        {
+                          "type": "PropItem",
+                          "props": {
+                            "y": 0,
+                            "x": 260,
+                            "runtime": "ui.component.PropItemUI"
+                          },
+                          "compId": 69
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 63,
+                        "x": 46,
+                        "visible": false,
+                        "skin": "res_combat/boss/texe_wsb.png",
+                        "scaleY": 1.2,
+                        "scaleX": 1.2,
+                        "name": "noGrade"
+                      },
+                      "compId": 32
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 981,
+                "x": 159,
+                "width": 540,
+                "var": "selfBox",
+                "height": 80,
+                "centerX": 0
+              },
+              "compId": 22,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 24,
+                    "x": -19,
+                    "skin": "res_combat/boss/text_sqpm.png"
+                  },
+                  "compId": 23
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 352,
+                    "var": "btnGetReward",
+                    "skin": "res_combat/boss/btn_lingqu.png"
+                  },
+                  "compId": 24
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 0,
+                    "x": 538,
+                    "visible": true,
+                    "var": "redPoint",
+                    "texture": "main/redpoint.png",
+                    "name": "redPoint"
+                  },
+                  "compId": 71
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 22,
+                    "x": 117,
+                    "var": "noRank",
+                    "skin": "res_combat/boss/texe_wsb.png",
+                    "scaleY": 1.2,
+                    "scaleX": 1.2
+                  },
+                  "compId": 26
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 1,
+                    "x": 104,
+                    "width": 96,
+                    "visible": false,
+                    "var": "rankLab",
+                    "value": "0",
+                    "spaceX": -30,
+                    "skin": "res_common/number/num_48_jxzk_503236.png",
+                    "sheet": "0123456789",
+                    "height": 57,
+                    "align": "center"
+                  },
+                  "compId": 27
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "res_view/manual/panel_tujianzzz.png",
+    "res_view/manual/img_tujiandiban.png",
+    "component/PropItem.scene",
+    "main/redpoint.png"
+  ],
+  "loadList3D": []
+}

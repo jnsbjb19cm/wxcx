@@ -1,0 +1,657 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 813,
+        "x": 500,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 3
+    },
+    {
+      "type": "Box",
+      "props": {
+        "x": 0,
+        "width": 666,
+        "visible": false,
+        "var": "context",
+        "height": 860,
+        "centerY": -60,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -15,
+            "x": 31,
+            "width": 604,
+            "skin": "res_view/platformFeatures/panel_1.png",
+            "sizeGrid": "155,37,138,42",
+            "name": "bg",
+            "height": 785
+          },
+          "compId": 5
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 43,
+            "width": 268,
+            "skin": "res_view/haream/bg_common_title06.png",
+            "name": "titlebg",
+            "height": 54,
+            "centerX": -1
+          },
+          "compId": 6
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 54,
+            "x": 296,
+            "skin": "res_combat/arena/text_sd.png",
+            "name": "title"
+          },
+          "compId": 73
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 106,
+            "text": "当日造成的伤害越多，扫荡造成的伤害越高",
+            "fontSize": 25,
+            "font": "SimHei",
+            "color": "#47392c",
+            "centerX": 4,
+            "bold": true
+          },
+          "compId": 21
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 352,
+            "var": "bossIcon",
+            "centerX": 0,
+            "anchorY": 1,
+            "anchorX": 0.5
+          },
+          "compId": 19
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 415,
+            "x": 333,
+            "var": "bossName",
+            "centerX": 0,
+            "anchorY": 1,
+            "anchorX": 0.5
+          },
+          "compId": 22
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 415,
+            "x": 49.74609375,
+            "width": 560,
+            "name": "bg",
+            "height": 213,
+            "alpha": 1
+          },
+          "compId": 23,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 560,
+                "skin": "res_combat/arena/bg_daily_dark.png",
+                "name": "bg_black",
+                "height": 214,
+                "alpha": 1
+              },
+              "compId": 77
+            },
+            {
+              "type": "Label",
+              "props": {
+                "var": "hurtLab",
+                "text": "今日尚未造成伤害",
+                "fontSize": 36,
+                "font": "SimHei",
+                "color": "#47392c",
+                "centerY": 2,
+                "centerX": 2,
+                "bold": true
+              },
+              "compId": 25
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -2,
+                "x": 416,
+                "var": "bestImg",
+                "skin": "res_combat/boss/text_zuijia.png",
+                "name": "bestImg"
+              },
+              "compId": 29
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 671,
+            "width": 207,
+            "var": "adBtn",
+            "stateNum": 1,
+            "skin": "res_combat/specialStageView/biaoJu/btn_yellow.png",
+            "label": "label",
+            "height": 74,
+            "centerX": 1,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 12,
+          "child": [
+            {
+              "type": "Script",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "runtime": "game/tools/BtnScale90.ts"
+              },
+              "compId": 16
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 40,
+                "x": 55,
+                "var": "freeVideoIcon",
+                "skin": "res_combat/boss/icon_sd_ad.png",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 13
+            },
+            {
+              "type": "Image",
+              "props": {
+                "x": 91,
+                "width": 77,
+                "var": "freeImg",
+                "skin": "res_combat/boss/text_sd_1.png",
+                "sizeGrid": "0,32,0,31",
+                "height": 34,
+                "centerY": 3
+              },
+              "compId": 15
+            }
+          ]
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 723,
+            "x": 202,
+            "text": "今日剩余扫荡次数： 次",
+            "fontSize": 23,
+            "font": "SimHei",
+            "color": "#47392c",
+            "bold": true
+          },
+          "compId": 26
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 724,
+            "var": "remainLab",
+            "text": "0",
+            "right": 245,
+            "fontSize": 23,
+            "font": "SimHei",
+            "color": "#ff0000",
+            "bold": true
+          },
+          "compId": 27
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 18,
+            "x": 593,
+            "var": "closeBtn2",
+            "skin": "netRes/chat/btn_close.png",
+            "pivotY": 35,
+            "pivotX": 49,
+            "name": "closeBtn2"
+          },
+          "compId": 74,
+          "child": [
+            {
+              "type": "Script",
+              "props": {
+                "runtime": "game/tools/BtnScale85.ts"
+              },
+              "compId": 75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 664,
+        "visible": false,
+        "var": "nightBox",
+        "height": 851,
+        "centerY": -63,
+        "centerX": 0
+      },
+      "compId": 30,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 44,
+            "x": 28,
+            "width": 605,
+            "skin": "res_view/platformFeatures/panel_1.png",
+            "sizeGrid": "155,37,138,42",
+            "name": "bg",
+            "height": 788
+          },
+          "compId": 31
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 106,
+            "width": 271,
+            "skin": "res_view/haream/bg_common_title06.png",
+            "name": "titlebg",
+            "height": 51,
+            "centerX": -3
+          },
+          "compId": 32,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 7.5,
+                "x": 100.5,
+                "skin": "res_combat/arena/text_sd.png",
+                "name": "title"
+              },
+              "compId": 72
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "var": "maxLvBox",
+            "name": "maxLvBox"
+          },
+          "compId": 85,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 425,
+                "skin": "res_combat/arena/text_ytgzgzj.png",
+                "name": "text_describe",
+                "left": 186
+              },
+              "compId": 51
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 419,
+                "var": "maxLv",
+                "value": "35",
+                "spaceX": -6,
+                "skin": "res_common/number/num_30_jxzk_2ba213.png",
+                "sheet": "0123456789-+",
+                "name": "maxLv",
+                "centerX": 200
+              },
+              "compId": 52,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 1,
+                    "width": 30,
+                    "skin": "res_combat/arena/text_zhang_2.png",
+                    "right": -35,
+                    "name": "text_zhang",
+                    "height": 31
+                  },
+                  "compId": 53
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 206,
+            "x": 217,
+            "skin": "res_combat/arena/pic_sdtb.png",
+            "name": "icon"
+          },
+          "compId": 56
+        },
+        {
+          "type": "Text",
+          "props": {
+            "y": 167,
+            "x": 114,
+            "width": 440,
+            "valign": "top",
+            "text": "历史通关章节越高，扫荡奖励越丰富",
+            "name": "describe",
+            "height": 174,
+            "fontSize": 25,
+            "font": "SimHei",
+            "color": "#47392c",
+            "align": "center",
+            "runtime": "Laya.Text"
+          },
+          "compId": 69
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 730,
+            "width": 210,
+            "var": "confirmBtn",
+            "stateNum": 1,
+            "skin": "res_common/btn_yellow.png",
+            "name": "confirmBtn",
+            "label": "label",
+            "height": 72,
+            "centerX": 1,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 40,
+          "child": [
+            {
+              "type": "Script",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "runtime": "game/tools/BtnScale90.ts"
+              },
+              "compId": 43
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 23,
+                "x": 34,
+                "skin": "res_combat/boss/icon_sd_ad.png",
+                "name": "img_ad"
+              },
+              "compId": 60
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 22,
+                "x": 94,
+                "width": 71,
+                "skin": "res_combat/boss/text_sd_1.png",
+                "sizeGrid": "0,32,0,31",
+                "scaleY": 1.1,
+                "scaleX": 1.1,
+                "name": "txt_ad",
+                "height": 34
+              },
+              "compId": 61
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 786,
+            "x": 168,
+            "visible": false,
+            "skin": "res_combat/arena/text_drtzcs.png",
+            "name": "txt_tips"
+          },
+          "compId": 57,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 277,
+                "skin": "res_combat/arena/text_tl.png",
+                "name": "txt_energy"
+              },
+              "compId": 58
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": -5,
+                "x": 228,
+                "var": "font_cost",
+                "value": "135",
+                "spaceX": -12,
+                "skin": "res_common/number/num_30_jxzk_674445.png",
+                "sheet": "0123456789",
+                "scaleY": 0.8,
+                "scaleX": 0.8,
+                "name": "font_cost",
+                "align": "left"
+              },
+              "compId": 59
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 0,
+                "x": 19.95703125,
+                "visible": false,
+                "text": "消耗当日挑战次数与",
+                "name": "txt1",
+                "fontSize": 23,
+                "font": "SimHei",
+                "color": "#47392c",
+                "bold": true
+              },
+              "compId": 79
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 0,
+                "x": 278,
+                "visible": false,
+                "text": "体力",
+                "name": "txt2",
+                "fontSize": 23,
+                "font": "SimHei",
+                "color": "#47392c",
+                "bold": true
+              },
+              "compId": 80
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 470,
+            "x": 52,
+            "width": 554,
+            "name": "rwd_bg",
+            "height": 215
+          },
+          "compId": 62,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 553,
+                "skin": "res_combat/arena/bg_daily_dark.png",
+                "name": "img_black",
+                "height": 217
+              },
+              "compId": 78
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -20,
+                "x": 400,
+                "var": "tips",
+                "skin": "res_combat/arena/tab_yjhd.png",
+                "name": "tips"
+              },
+              "compId": 64
+            },
+            {
+              "type": "Text",
+              "props": {
+                "y": 21,
+                "x": 72,
+                "width": 412,
+                "var": "lvTips",
+                "valign": "middle",
+                "text": "暂无通关章节数",
+                "name": "lvTips",
+                "height": 173,
+                "fontSize": 36,
+                "font": "SimHei",
+                "color": "#47392c",
+                "bold": true,
+                "align": "center",
+                "runtime": "Laya.Text"
+              },
+              "compId": 66
+            }
+          ]
+        },
+        {
+          "type": "HBox",
+          "props": {
+            "y": 530,
+            "x": 332,
+            "var": "rwdBox",
+            "name": "rwdBox",
+            "height": 120,
+            "centerX": 0,
+            "align": "middle"
+          },
+          "compId": 48
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 72,
+            "x": 592,
+            "width": 85,
+            "var": "closeBtn1",
+            "skin": "netRes/chat/btn_close.png",
+            "pivotY": 37,
+            "pivotX": 49,
+            "name": "closeBtn1",
+            "height": 86
+          },
+          "compId": 71,
+          "child": [
+            {
+              "type": "Script",
+              "props": {
+                "runtime": "game/tools/BtnScale85.ts"
+              },
+              "compId": 76
+            }
+          ]
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 786,
+            "x": 168,
+            "text": "消耗当日挑战次数与",
+            "name": "txtDescribe",
+            "fontSize": 23,
+            "font": "SimHei",
+            "color": "#47392c",
+            "bold": true
+          },
+          "compId": 81,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "y": 0,
+                "text": "135",
+                "right": -41,
+                "name": "font_cost_str",
+                "fontSize": 23,
+                "font": "SimHei",
+                "color": "#ff0000",
+                "bold": true
+              },
+              "compId": 82
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 0,
+                "x": 260,
+                "text": "体力",
+                "name": "txtDescribe",
+                "fontSize": 23,
+                "font": "SimHei",
+                "color": "#47392c",
+                "bold": true
+              },
+              "compId": 83
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

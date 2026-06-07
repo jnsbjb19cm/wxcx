@@ -1,0 +1,452 @@
+{
+  "type": "View",
+  "props": {
+    "width": 150,
+    "pivotY": 75,
+    "pivotX": 75,
+    "height": 150
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 27.5,
+        "x": 8.5,
+        "visible": false,
+        "skin": "res_view/hero/label_now_2.png",
+        "scaleY": 1,
+        "scaleX": 1,
+        "name": "herolight"
+      },
+      "compId": 41
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "scaleY": 0.75,
+        "scaleX": 0.75,
+        "presetID": 1,
+        "name": "iconBg",
+        "centerX": 0,
+        "bottom": 0,
+        "skin": "res_common/solt_profile_blue.png",
+        "isPresetRoot": true,
+        "anchorY": 1,
+        "anchorX": 0.5
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "visible": false,
+            "presetID": 3,
+            "name": "icon",
+            "y": 160,
+            "x": 70,
+            "anchorY": 1,
+            "anchorX": 0.5
+          },
+          "compId": 11,
+          "child": [
+            {
+              "type": "Rect",
+              "props": {
+                "y": -97,
+                "x": -15,
+                "width": 150,
+                "renderType": "hit",
+                "lineWidth": 1,
+                "height": 150,
+                "fillColor": "#ff0000"
+              },
+              "compId": 24
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 68,
+        "x": 111,
+        "visible": false,
+        "text": "label",
+        "skin": "res_view/hero/label_now.png",
+        "name": "curSign"
+      },
+      "compId": 4
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 101,
+        "x": 17,
+        "width": 100,
+        "visible": false,
+        "name": "talenLvBox",
+        "height": 25,
+        "cacheAs": "bitmap"
+      },
+      "compId": 5,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -3,
+            "x": 17
+          },
+          "compId": 12
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": 39
+          },
+          "compId": 13
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -3,
+            "x": 61
+          },
+          "compId": 14
+        }
+      ]
+    },
+    {
+      "type": "Label",
+      "props": {
+        "y": 63,
+        "x": 45,
+        "visible": false,
+        "text": "挑战中",
+        "stroke": 2,
+        "name": "challIng",
+        "fontSize": 20,
+        "font": "Microsoft YaHei",
+        "color": "#00ff4e",
+        "centerX": -18,
+        "bold": true
+      },
+      "compId": 6
+    },
+    {
+      "type": "Sprite",
+      "props": {
+        "y": 100,
+        "x": 0,
+        "width": 150,
+        "visible": false,
+        "name": "proBg"
+      },
+      "compId": 7,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 2,
+            "x": 3,
+            "width": 94,
+            "visible": false,
+            "sizeGrid": "0,29,0,25",
+            "name": "proBar",
+            "height": 22
+          },
+          "compId": 15
+        },
+        {
+          "type": "FontClip",
+          "props": {
+            "value": "20/20",
+            "spaceX": -6,
+            "presetID": 1,
+            "name": "proVal",
+            "centerX": 11,
+            "y": 0,
+            "x": 0,
+            "skin": "res_common/number/num_22_jxzk_ffffff_stk.png",
+            "sheet": "0123456789-+/",
+            "isPresetRoot": true
+          },
+          "compId": 22,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -13,
+                "skin": "res_view/hero/icon_fra.png",
+                "left": -46
+              },
+              "compId": 23
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 15,
+        "x": 0,
+        "width": 150,
+        "visible": false,
+        "name": "unlockBox",
+        "height": 150
+      },
+      "compId": 8,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "visible": false,
+            "skin": "res_view/hero/text_qdjs.png",
+            "name": "sign",
+            "centerY": 9,
+            "centerX": -2
+          },
+          "compId": 18
+        },
+        {
+          "type": "Image",
+          "props": {
+            "visible": false,
+            "name": "pass",
+            "centerY": -17,
+            "centerX": -43
+          },
+          "compId": 19,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 3,
+                "x": 16,
+                "skin": "res_view/hero/text_ss_white.png"
+              },
+              "compId": 27
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 29,
+                "x": 22.5,
+                "skin": "res_view/hero/text_js.png"
+              },
+              "compId": 29
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": -1,
+                "width": 25,
+                "var": "unlockLab",
+                "value": "20",
+                "spaceX": -7,
+                "skin": "res_common/number/num_20_jxzk_ffffff_stk_1.png",
+                "sheet": "0123456789/",
+                "scaleY": 1,
+                "scaleX": 1,
+                "height": 34,
+                "centerX": 67,
+                "align": "center"
+              },
+              "compId": 37
+            }
+          ]
+        },
+        {
+          "type": "FontClip",
+          "props": {
+            "visible": false,
+            "value": "8",
+            "spaceX": -9,
+            "presetID": 1,
+            "name": "tarVIP",
+            "centerY": -14,
+            "centerX": 14,
+            "y": 0,
+            "x": 0,
+            "skin": "res_common/number/num_24_ss_ffffff.png",
+            "sheet": "0123456789+-x/",
+            "isPresetRoot": true
+          },
+          "compId": 21,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 7,
+                "skin": "res_view/hero/text_act_vip.png",
+                "left": -38
+              },
+              "compId": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 84,
+        "x": 43,
+        "visible": false,
+        "skin": "res_view/hero/text_l_able.png",
+        "scaleY": 0.7,
+        "scaleX": 0.7,
+        "name": "adGet"
+      },
+      "compId": 9
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 138,
+        "x": 75,
+        "visible": false,
+        "skin": "res_view/hero/profile_hero_lock_purple.png",
+        "name": "hideImg",
+        "anchorY": 1,
+        "anchorX": 0.5
+      },
+      "compId": 10,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 40,
+            "x": 34,
+            "skin": "res_view/hero/text_yincang.png"
+          },
+          "compId": 25
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 73,
+        "x": 50.5,
+        "visible": false,
+        "skin": "res_view/hero/text_fsjs_white.png",
+        "name": "flyunlock"
+      },
+      "compId": 43
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 4,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 4,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 4,
+                "key": "alpha",
+                "index": 10
+              }
+            ]
+          }
+        },
+        {
+          "target": 7,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 7,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 7,
+                "key": "alpha",
+                "index": 18
+              }
+            ]
+          }
+        },
+        {
+          "target": 8,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 8,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 8,
+                "key": "alpha",
+                "index": 15
+              }
+            ]
+          }
+        },
+        {
+          "target": 9,
+          "keyframes": {
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 9,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 9,
+                "key": "alpha",
+                "index": 18
+              }
+            ]
+          }
+        }
+      ],
+      "name": "startShowAni",
+      "id": 1,
+      "frameRate": 30,
+      "action": 0
+    }
+  ],
+  "loadList": [
+    "prefab/HeroIcon2.prefab",
+    "prefab/number/num_22_jxzk_ffffff_stk.prefab",
+    "prefab/number/num_24_ss_ffffff.prefab"
+  ],
+  "loadList3D": []
+}

@@ -1,0 +1,144 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": true,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "width": 640,
+        "visible": false,
+        "var": "horseRace1",
+        "presetID": 1,
+        "height": 60,
+        "centerY": -476,
+        "centerX": 0,
+        "y": 0,
+        "x": 0,
+        "isPresetRoot": true
+      },
+      "compId": 30,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "presetID": 2,
+            "skin": "res_main/panel_broadcast.png",
+            "name": "tipBg",
+            "centerY": 0,
+            "centerX": 0
+          },
+          "compId": 3
+        },
+        {
+          "type": "Panel",
+          "props": {
+            "presetID": 3,
+            "y": 0,
+            "width": 551,
+            "name": "maskBox",
+            "height": 60,
+            "centerX": 0
+          },
+          "compId": 4,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "presetID": 4,
+                "x": 601,
+                "width": 500,
+                "name": "tipBox",
+                "height": 60
+              },
+              "compId": 5
+            }
+          ]
+        },
+        {
+          "type": "Script",
+          "props": {
+            "presetID": 6,
+            "tipBox": "@node:5",
+            "tipBg": "@node:3",
+            "runtime": "gameplay/broadcast/prefab/HorseRace.ts"
+          },
+          "compId": 31
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "visible": false,
+        "var": "horseRace2",
+        "presetID": 1,
+        "height": 60,
+        "centerY": -533,
+        "centerX": 0,
+        "y": 0,
+        "x": 0,
+        "isPresetRoot": true
+      },
+      "compId": 27,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "presetID": 2,
+            "skin": "res_main/panel_broadcast_2.png",
+            "name": "tipBg",
+            "centerY": 0,
+            "centerX": 0
+          },
+          "compId": 28
+        },
+        {
+          "type": "Panel",
+          "props": {
+            "presetID": 3,
+            "width": 600,
+            "name": "maskBox",
+            "height": 60,
+            "centerX": 0
+          },
+          "compId": 29,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "presetID": 4,
+                "y": 0,
+                "x": 675,
+                "width": 600,
+                "name": "tipBox",
+                "height": 60
+              },
+              "compId": 6
+            }
+          ]
+        },
+        {
+          "type": "Script",
+          "props": {
+            "presetID": 5,
+            "tipBox": "@node:6",
+            "tipBg": "@node:3",
+            "runtime": "gameplay/broadcast/prefab/HorseRace2.ts"
+          },
+          "compId": 10
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "view/broadcast/prefab/HorseRace.prefab",
+    "view/broadcast/prefab/HorseRace2.prefab"
+  ],
+  "loadList3D": []
+}

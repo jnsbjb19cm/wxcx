@@ -1,0 +1,579 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "runtime": "gameplay/verbalStruggle/view/DialogueView.ts",
+    "mouseThrough": true,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "top": 0,
+        "right": 0,
+        "mouseThrough": true,
+        "left": 0,
+        "bottom": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "var": "dialogueBox1",
+            "skin": "res_view/verbalStruggle/bg_plot_frame_1.png",
+            "centerY": 283,
+            "centerX": 0
+          },
+          "compId": 5,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -30,
+                "x": 59,
+                "width": 329,
+                "var": "leftBox",
+                "skin": "res_view/verbalStruggle/bg_plot_name.png",
+                "sizeGrid": "0,82,0,82",
+                "height": 51
+              },
+              "compId": 6,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "var": "leftName",
+                    "text": "宣姬",
+                    "strokeColor": "#734030",
+                    "stroke": 3,
+                    "fontSize": 28,
+                    "font": "Microsoft YaHei",
+                    "color": "#f1dcbd",
+                    "centerY": -2.5,
+                    "centerX": 0
+                  },
+                  "compId": 7
+                }
+              ]
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 44,
+                "x": 44,
+                "wordWrap": true,
+                "width": 653,
+                "var": "content1",
+                "leading": 20,
+                "fontSize": 25,
+                "font": "Microsoft YaHei",
+                "color": "#fae178"
+              },
+              "compId": 10
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 851,
+            "x": 13,
+            "var": "dialogueBox2",
+            "skin": "res_view/verbalStruggle/bg_plot_frame_1.png",
+            "centerY": 283,
+            "centerX": 0
+          },
+          "compId": 32,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -30,
+                "x": 332,
+                "width": 329,
+                "var": "rightBox",
+                "skin": "res_view/verbalStruggle/bg_plot_name.png",
+                "sizeGrid": "0,82,0,82",
+                "height": 51
+              },
+              "compId": 35,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "var": "rightName",
+                    "text": "莫夫人",
+                    "strokeColor": "#734030",
+                    "stroke": 3,
+                    "fontSize": 28,
+                    "font": "Microsoft YaHei",
+                    "color": "#f1dcbd",
+                    "centerY": -2.5,
+                    "centerX": 0
+                  },
+                  "compId": 36
+                }
+              ]
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 44,
+                "x": 44,
+                "wordWrap": true,
+                "width": 653,
+                "var": "content2",
+                "leading": 20,
+                "fontSize": 25,
+                "font": "Microsoft YaHei",
+                "color": "#fae178"
+              },
+              "compId": 37
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "var": "dialogueBox3",
+            "skin": "res_view/verbalStruggle/bg_plot_frame_2.png",
+            "centerY": 283,
+            "centerX": 0
+          },
+          "compId": 12,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "y": 41,
+                "x": 41,
+                "wordWrap": true,
+                "width": 647,
+                "var": "content3",
+                "leading": 11,
+                "fontSize": 25,
+                "font": "Microsoft YaHei",
+                "color": "#65462f"
+              },
+              "compId": 13
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "var": "dialogueBox4",
+            "skin": "res_view/verbalStruggle/bg_plot_frame_2.png",
+            "centerY": 284,
+            "centerX": 0,
+            "alpha": 1
+          },
+          "compId": 20,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -33,
+                "x": 341,
+                "width": 329,
+                "skin": "res_view/verbalStruggle/bg_plot_name.png",
+                "sizeGrid": "0,82,0,82",
+                "height": 51
+              },
+              "compId": 22,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "var": "name4",
+                    "text": "莫夫人",
+                    "strokeColor": "#734030",
+                    "stroke": 3,
+                    "fontSize": 28,
+                    "font": "Microsoft YaHei",
+                    "color": "#f1dcbd",
+                    "centerY": -2.5,
+                    "centerX": 0
+                  },
+                  "compId": 23
+                }
+              ]
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 52,
+                "x": 219,
+                "wordWrap": true,
+                "width": 476,
+                "var": "content4",
+                "leading": 11,
+                "fontSize": 25,
+                "font": "Microsoft YaHei",
+                "color": "#65462f"
+              },
+              "compId": 21
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -86,
+                "x": -21,
+                "var": "roleIcon"
+              },
+              "compId": 30
+            }
+          ]
+        },
+        {
+          "type": "VBox",
+          "props": {
+            "y": 591,
+            "x": 131,
+            "width": 515,
+            "var": "optionsBox",
+            "space": 31,
+            "mouseThrough": true,
+            "centerY": 19,
+            "centerX": 13
+          },
+          "compId": 15,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "width": 515,
+                "name": "option1",
+                "height": 80
+              },
+              "compId": 24,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 40,
+                    "x": 257,
+                    "skin": "res_view/verbalStruggle/btn_1.png",
+                    "name": "img",
+                    "label": "label",
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 14,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "text": "毫不在意",
+                        "name": "desc",
+                        "fontSize": 32,
+                        "font": "Microsoft YaHei",
+                        "color": "#330d16",
+                        "centerY": -2,
+                        "centerX": -10
+                      },
+                      "compId": 18
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 515,
+                "name": "option2",
+                "height": 80
+              },
+              "compId": 25,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 40,
+                    "x": 257,
+                    "skin": "res_view/verbalStruggle/btn_1.png",
+                    "name": "img",
+                    "label": "label",
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 26,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "text": "毫不在意",
+                        "name": "desc",
+                        "fontSize": 32,
+                        "font": "Microsoft YaHei",
+                        "color": "#330d16",
+                        "centerY": -2,
+                        "centerX": -10
+                      },
+                      "compId": 27
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 5,
+          "keyframes": {
+            "scaleY": [
+              {
+                "value": 0.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 5,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 5,
+                "key": "scaleY",
+                "index": 3
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0.4,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 5,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 5,
+                "key": "alpha",
+                "index": 3
+              }
+            ]
+          }
+        }
+      ],
+      "name": "show1",
+      "id": 1,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 15,
+          "keyframes": {
+            "centerY": [
+              {
+                "value": 41.4,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 15,
+                "key": "centerY",
+                "index": 0
+              },
+              {
+                "value": 19,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 15,
+                "key": "centerY",
+                "index": 4
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 15,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 15,
+                "key": "alpha",
+                "index": 4
+              }
+            ]
+          }
+        }
+      ],
+      "name": "showOptions",
+      "id": 3,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 12,
+          "keyframes": {
+            "scaleY": [
+              {
+                "value": 0.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 12,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 12,
+                "key": "scaleY",
+                "index": 3
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0.4,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 12,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 12,
+                "key": "alpha",
+                "index": 3
+              }
+            ]
+          }
+        }
+      ],
+      "name": "show3",
+      "id": 4,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 20,
+          "keyframes": {
+            "scaleY": [
+              {
+                "value": 0.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 20,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 20,
+                "key": "scaleY",
+                "index": 3
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0.4,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 20,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 20,
+                "key": "alpha",
+                "index": 3
+              }
+            ]
+          }
+        }
+      ],
+      "name": "show4",
+      "id": 6,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 32,
+          "keyframes": {
+            "scaleY": [
+              {
+                "value": 0.3,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "key": "scaleY",
+                "index": 3
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0.4,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 32,
+                "key": "alpha",
+                "index": 3
+              }
+            ]
+          }
+        }
+      ],
+      "name": "show2",
+      "id": 1,
+      "frameRate": 30,
+      "action": 0
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

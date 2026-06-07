@@ -1,0 +1,1491 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "runtime": "game/view/component/MainHeroDetail.ts",
+    "height": 1200
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "res_view/hero/bg_hero.png"
+      },
+      "compId": 182
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 184,
+        "width": 750,
+        "right": 0,
+        "left": 0,
+        "height": 756,
+        "drawCallOptimize": true
+      },
+      "compId": 22,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 51,
+            "x": 406,
+            "width": 330,
+            "skin": "common/panel_tips.png",
+            "height": 615
+          },
+          "compId": 71
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 51,
+            "x": 406,
+            "width": 330,
+            "var": "infoBox",
+            "height": 615
+          },
+          "compId": 27,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "top": 15,
+                "skin": "common/grain.png",
+                "sizeGrid": "77,74,77,72",
+                "right": 10,
+                "left": 10,
+                "bottom": 15
+              },
+              "compId": 18
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 35,
+                "wordWrap": true,
+                "width": 276,
+                "var": "desc",
+                "text": "希尔瓦娜斯·风行者福克斯的JFK快乐圣诞节分厘卡kfdsj反对法sdj 色开了附近开了电视机反抗精神独立开发d",
+                "leading": 3,
+                "height": 85,
+                "fontSize": 18,
+                "font": "SimHei",
+                "color": "#4c3425",
+                "centerX": 0,
+                "bold": true,
+                "align": "left"
+              },
+              "compId": 28
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 146,
+                "x": 180
+              },
+              "compId": 29,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 8,
+                    "x": 56,
+                    "var": "startHp",
+                    "text": "100",
+                    "fontSize": 24,
+                    "font": "Microsoft YaHei",
+                    "color": "#000000",
+                    "bold": true
+                  },
+                  "compId": 30
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 8,
+                    "x": -133,
+                    "text": "初始生命：",
+                    "fontSize": 24,
+                    "font": "Microsoft YaHei",
+                    "color": "#000000",
+                    "bold": true
+                  },
+                  "compId": 32
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "texture": "common/icon_hp1.png"
+                  },
+                  "compId": 36
+                }
+              ]
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 209,
+                "x": 180
+              },
+              "compId": 37,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 8,
+                    "x": 56,
+                    "var": "startGold",
+                    "text": "100",
+                    "fontSize": 24,
+                    "font": "Microsoft YaHei",
+                    "color": "#000000",
+                    "bold": true
+                  },
+                  "compId": 38
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 8,
+                    "x": -133,
+                    "text": "初始金币：",
+                    "fontSize": 24,
+                    "font": "Microsoft YaHei",
+                    "color": "#000000",
+                    "bold": true
+                  },
+                  "compId": 39
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": -11,
+                    "x": 0,
+                    "texture": "common/icon_gold.png"
+                  },
+                  "compId": 40
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 288,
+                "width": 264,
+                "skin": "common/plist_dark.png",
+                "sizeGrid": "24,16,20,24",
+                "height": 185,
+                "centerX": 0
+              },
+              "compId": 41,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 86,
+                    "wordWrap": true,
+                    "width": 243,
+                    "var": "skillDesc",
+                    "valign": "middle",
+                    "text": "希尔瓦娜斯·风行者福克斯的JFK快乐圣反抗精神独立开发d",
+                    "leading": 10,
+                    "height": 89,
+                    "fontSize": 20,
+                    "font": "SimHei",
+                    "color": "#4c3425",
+                    "centerX": 0,
+                    "bold": false,
+                    "align": "left"
+                  },
+                  "compId": 52
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 13,
+                    "width": 248,
+                    "var": "skillTitleBox",
+                    "height": 56,
+                    "centerX": 0
+                  },
+                  "compId": 66,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 17.4,
+                        "var": "skillName",
+                        "text": "一顿四个菜",
+                        "stroke": 2,
+                        "height": 24,
+                        "fontSize": 24,
+                        "font": "Microsoft YaHei",
+                        "color": "#ffffff",
+                        "centerX": 30,
+                        "bold": true,
+                        "align": "left"
+                      },
+                      "compId": 51,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": -14,
+                            "x": -61,
+                            "skin": "common/panel_skill.png",
+                            "scaleY": 0.85,
+                            "scaleX": 0.85
+                          },
+                          "compId": 44,
+                          "child": [
+                            {
+                              "type": "Image",
+                              "props": {
+                                "y": 2.5,
+                                "x": 3,
+                                "width": 57,
+                                "var": "skillIcon",
+                                "height": 57
+                              },
+                              "compId": 45
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 497,
+                "x": 88.5,
+                "var": "chooseSign",
+                "texture": "main/hero/tags_on.png"
+              },
+              "compId": 42
+            },
+            {
+              "type": "Button",
+              "props": {
+                "y": 497.5,
+                "width": 160,
+                "var": "chooseBtn",
+                "stateNum": 1,
+                "skin": "",
+                "labelStroke": 2,
+                "labelSize": 30,
+                "labelFont": "Microsoft YaHei",
+                "labelColors": "#ffffff",
+                "labelBold": true,
+                "label": "出  战",
+                "height": 80,
+                "centerX": 0
+              },
+              "compId": 63
+            },
+            {
+              "type": "Button",
+              "props": {
+                "y": 497,
+                "width": 160,
+                "var": "videoBtn",
+                "stateNum": 1,
+                "skin": "common/btn_blue1.png",
+                "sizeGrid": "19,25,19,29",
+                "labelStroke": 2,
+                "labelSize": 30,
+                "labelPadding": "-3,0,0,30",
+                "labelFont": "Microsoft YaHei",
+                "labelColors": "#ffffff",
+                "labelBold": true,
+                "labelAlign": "center",
+                "label": "(0/2)",
+                "height": 80,
+                "centerX": 0
+              },
+              "compId": 64,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 38,
+                    "x": 42,
+                    "var": "videoIcon",
+                    "skin": "res_common/icon_ad2.png",
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 65
+                }
+              ]
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 526,
+                "x": 23,
+                "width": 297,
+                "var": "produceTip",
+                "text": "通关第5章解锁",
+                "height": 25,
+                "fontSize": 24,
+                "font": "Microsoft YaHei",
+                "color": "#fc0000",
+                "bold": true,
+                "align": "center"
+              },
+              "compId": 67
+            },
+            {
+              "type": "Button",
+              "props": {
+                "y": 493,
+                "x": 78.5,
+                "var": "chipBtn1",
+                "stateNum": 1,
+                "skin": "main/hero/btn_fg.png"
+              },
+              "compId": 178
+            },
+            {
+              "type": "Button",
+              "props": {
+                "y": 493,
+                "x": 78,
+                "var": "chipBtn2",
+                "stateNum": 1,
+                "skin": "main/hero/btn_fs.png"
+              },
+              "compId": 179
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 51,
+            "x": 406,
+            "width": 330,
+            "visible": false,
+            "var": "talenBox",
+            "height": 615,
+            "cacheAs": "bitmap"
+          },
+          "compId": 72,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 350,
+                "width": 162,
+                "var": "talen1",
+                "height": 249,
+                "centerX": 0
+              },
+              "compId": 103,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 55,
+                    "x": 22,
+                    "width": 125,
+                    "skin": "common/mask.png",
+                    "name": "icon",
+                    "height": 165
+                  },
+                  "compId": 102
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 55,
+                    "x": 22,
+                    "width": 125,
+                    "skin": "common/mask.png",
+                    "name": "grayIcon",
+                    "height": 165,
+                    "gray": true
+                  },
+                  "compId": 136,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "width": 125,
+                        "skin": "res_common/bg.png",
+                        "renderType": "mask",
+                        "name": "mask",
+                        "height": 165
+                      },
+                      "compId": 138
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -45,
+                    "x": 88,
+                    "skin": "main/hero/arrow_dark_s.png",
+                    "rotation": 180,
+                    "name": "arrow",
+                    "anchorY": 0.6,
+                    "anchorX": 0.55
+                  },
+                  "compId": 97
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 30,
+                    "x": 84,
+                    "skin": "main/hero/talent_g.png",
+                    "name": "stateIcon",
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 99
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "var": "k",
+                    "skin": "main/hero/plist_talent.png"
+                  },
+                  "compId": 94
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 185,
+                    "x": 27,
+                    "texture": "main/hero/light_green.png",
+                    "name": "lvIcon1"
+                  },
+                  "compId": 120
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 199,
+                    "x": 48,
+                    "texture": "main/hero/light_green.png",
+                    "name": "lvIcon2"
+                  },
+                  "compId": 121
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 205,
+                    "x": 77,
+                    "texture": "main/hero/light_green.png",
+                    "name": "lvIcon3"
+                  },
+                  "compId": 122
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 198.5,
+                    "x": 105,
+                    "texture": "main/hero/light_green.png",
+                    "name": "lvIcon4"
+                  },
+                  "compId": 123
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 185,
+                    "x": 126,
+                    "texture": "main/hero/light_green.png",
+                    "name": "lvIcon5"
+                  },
+                  "compId": 124
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 86.5,
+                    "x": 45.5,
+                    "skin": "res_common/lock.png",
+                    "scaleY": 0.4,
+                    "scaleX": 0.4,
+                    "name": "lock"
+                  },
+                  "compId": 150
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 111,
+                    "wordWrap": true,
+                    "width": 97,
+                    "valign": "middle",
+                    "text": "梦魇4 解锁",
+                    "stroke": 2,
+                    "name": "tips",
+                    "leading": 8,
+                    "height": 61,
+                    "fontSize": 24,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "centerX": 3,
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 119
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 133.5,
+                    "x": 87,
+                    "text": "text",
+                    "skin": "main/hero/text_ing.png",
+                    "name": "tips1",
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 166
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 55,
+                    "x": 119,
+                    "texture": "main/redpoint.png",
+                    "name": "rp"
+                  },
+                  "compId": 162
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 30,
+                "x": 84,
+                "width": 162,
+                "var": "talen2",
+                "height": 249
+              },
+              "compId": 109,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 55,
+                    "x": 22,
+                    "width": 125,
+                    "skin": "common/mask.png",
+                    "name": "icon",
+                    "height": 165
+                  },
+                  "compId": 112
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 55,
+                    "x": 22,
+                    "width": 125,
+                    "skin": "common/mask.png",
+                    "name": "grayIcon",
+                    "height": 165,
+                    "gray": true
+                  },
+                  "compId": 139,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "width": 125,
+                        "skin": "res_common/bg.png",
+                        "renderType": "mask",
+                        "name": "mask",
+                        "height": 165
+                      },
+                      "compId": 171
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -46.5,
+                    "x": 57,
+                    "skin": "main/hero/arrow_dark_s.png",
+                    "rotation": 165,
+                    "name": "arrow",
+                    "anchorY": 0.6,
+                    "anchorX": 0.55,
+                    "alpha": 0
+                  },
+                  "compId": 110
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 30,
+                    "x": 84,
+                    "width": 44,
+                    "skin": "main/hero/talent_b.png",
+                    "name": "stateIcon",
+                    "height": 50,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 111
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "skin": "main/hero/plist_talent.png"
+                  },
+                  "compId": 113
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 185,
+                    "x": 27,
+                    "texture": "main/hero/light_green.png",
+                    "name": "lvIcon1"
+                  },
+                  "compId": 125
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 199,
+                    "x": 48,
+                    "texture": "main/hero/light_green.png",
+                    "name": "lvIcon2"
+                  },
+                  "compId": 126
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 205,
+                    "x": 77,
+                    "texture": "main/hero/light_green.png",
+                    "name": "lvIcon3"
+                  },
+                  "compId": 127
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 198,
+                    "x": 105,
+                    "texture": "main/hero/light_green.png",
+                    "name": "lvIcon4"
+                  },
+                  "compId": 128
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 185,
+                    "x": 126,
+                    "texture": "main/hero/light_green.png",
+                    "name": "lvIcon5"
+                  },
+                  "compId": 129
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 86,
+                    "x": 45,
+                    "texture": "res_common/lock.png",
+                    "scaleY": 0.4,
+                    "scaleX": 0.4,
+                    "name": "lock"
+                  },
+                  "compId": 151
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 107,
+                    "x": 0,
+                    "wordWrap": true,
+                    "width": 97,
+                    "valign": "middle",
+                    "text": "挑战中",
+                    "stroke": 2,
+                    "name": "tips",
+                    "leading": 8,
+                    "height": 61,
+                    "fontSize": 24,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "centerX": 3,
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 159
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 55,
+                    "x": 119,
+                    "texture": "main/redpoint.png",
+                    "name": "rp"
+                  },
+                  "compId": 163
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 133,
+                    "x": 87,
+                    "text": "text",
+                    "skin": "main/hero/text_ing.png",
+                    "name": "tips1",
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 167
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 23,
+                "x": 88,
+                "width": 162,
+                "visible": false,
+                "var": "talen3",
+                "height": 249
+              },
+              "compId": 114,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 55,
+                    "x": 22,
+                    "width": 125,
+                    "skin": "common/mask.png",
+                    "name": "icon",
+                    "height": 165
+                  },
+                  "compId": 117
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 55,
+                    "x": 22,
+                    "width": 125,
+                    "skin": "common/mask.png",
+                    "name": "grayIcon",
+                    "height": 165,
+                    "gray": true
+                  },
+                  "compId": 141,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "width": 125,
+                        "skin": "res_common/bg.png",
+                        "renderType": "mask",
+                        "name": "mask",
+                        "height": 165
+                      },
+                      "compId": 172
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 30,
+                    "x": 84,
+                    "skin": "main/hero/talent_p.png",
+                    "name": "stateIcon",
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 116
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "skin": "main/hero/plist_talent.png"
+                  },
+                  "compId": 118
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 185,
+                    "x": 27,
+                    "texture": "main/hero/light_green.png",
+                    "name": "lvIcon1"
+                  },
+                  "compId": 130
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 199,
+                    "x": 48,
+                    "texture": "main/hero/light_green.png",
+                    "name": "lvIcon2"
+                  },
+                  "compId": 131
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 205,
+                    "x": 77,
+                    "texture": "main/hero/light_green.png",
+                    "name": "lvIcon3"
+                  },
+                  "compId": 132
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 198,
+                    "x": 105,
+                    "texture": "main/hero/light_green.png",
+                    "name": "lvIcon4"
+                  },
+                  "compId": 133
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 185,
+                    "x": 126,
+                    "texture": "main/hero/light_green.png",
+                    "name": "lvIcon5"
+                  },
+                  "compId": 134
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 86,
+                    "x": 45,
+                    "texture": "res_common/lock.png",
+                    "scaleY": 0.4,
+                    "scaleX": 0.4,
+                    "name": "lock"
+                  },
+                  "compId": 152
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 107,
+                    "x": 0,
+                    "wordWrap": true,
+                    "width": 97,
+                    "valign": "middle",
+                    "text": "挑战中",
+                    "stroke": 2,
+                    "name": "tips",
+                    "leading": 8,
+                    "height": 61,
+                    "fontSize": 24,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "centerX": 3,
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 160
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 55,
+                    "x": 119,
+                    "texture": "main/redpoint.png",
+                    "name": "rp"
+                  },
+                  "compId": 164
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 133,
+                    "x": 87,
+                    "text": "text",
+                    "skin": "main/hero/text_ing.png",
+                    "name": "tips1",
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 168
+                }
+              ]
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 36,
+                "x": 274,
+                "var": "talenInfo",
+                "texture": "main/hero/icon_inf.png"
+              },
+              "compId": 147
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 16,
+                "x": -1,
+                "texture": "main/hero/icon_fra.png"
+              },
+              "compId": 180,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 22,
+                    "x": 52,
+                    "var": "chipNum",
+                    "text": "1",
+                    "stroke": 2,
+                    "fontSize": 18,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "bold": true
+                  },
+                  "compId": 181
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Sprite",
+          "props": {
+            "y": 90,
+            "x": 327,
+            "texture": "main/hero/plist_flag.png",
+            "scaleY": -1
+          },
+          "compId": 23
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 40,
+            "x": 29,
+            "width": 361,
+            "var": "curHeroPic",
+            "skin": "common/mask.png",
+            "height": 624
+          },
+          "compId": 53,
+          "child": [
+            {
+              "type": "Sprite",
+              "props": {
+                "y": -40,
+                "x": 181,
+                "texture": "main/hero/solt_hero_pic_r.png"
+              },
+              "compId": 24,
+              "child": [
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 0,
+                    "x": 4,
+                    "texture": "main/hero/solt_hero_pic_r.png",
+                    "scaleX": -1
+                  },
+                  "compId": 25
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 40,
+            "x": 29,
+            "width": 361,
+            "var": "preHeroPic",
+            "skin": "common/mask.png",
+            "height": 624
+          },
+          "compId": 58,
+          "child": [
+            {
+              "type": "Sprite",
+              "props": {
+                "y": -40,
+                "x": 181,
+                "texture": "main/hero/solt_hero_pic_r.png"
+              },
+              "compId": 59,
+              "child": [
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": 0,
+                    "x": 4,
+                    "texture": "main/hero/solt_hero_pic_r.png",
+                    "scaleX": -1
+                  },
+                  "compId": 60
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 21,
+            "x": 429,
+            "width": 297,
+            "var": "heroName",
+            "text": "希尔瓦娜斯·风行者",
+            "stroke": 2,
+            "height": 30,
+            "fontSize": 30,
+            "font": "Microsoft YaHei",
+            "color": "#ffffff",
+            "bold": true,
+            "align": "center"
+          },
+          "compId": 26
+        },
+        {
+          "type": "Sprite",
+          "props": {
+            "y": 21,
+            "x": 38,
+            "visible": true,
+            "var": "talentBtn",
+            "texture": "main/hero/icon_talent.png"
+          },
+          "compId": 148,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 81,
+                "x": 45,
+                "text": "text",
+                "skin": "main/hero/text_talent.png",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 165
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": -3,
+                "x": -5,
+                "width": 100,
+                "name": "talenLvBox",
+                "height": 25,
+                "cacheAs": "bitmap"
+              },
+              "compId": 155,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 14,
+                    "skin": "main/hero/solt_empty.png"
+                  },
+                  "compId": 156
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -10,
+                    "x": 39,
+                    "skin": "main/hero/solt_empty.png"
+                  },
+                  "compId": 157
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 65,
+                    "skin": "main/hero/solt_empty.png"
+                  },
+                  "compId": 158
+                }
+              ]
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 9.5,
+                "x": 66,
+                "var": "talentBtnRed",
+                "texture": "main/redpoint.png"
+              },
+              "compId": 170
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "List",
+      "props": {
+        "y": 828,
+        "width": 750,
+        "var": "heroList",
+        "spaceY": 25,
+        "spaceX": -18,
+        "repeatY": 2,
+        "repeatX": 5,
+        "height": 346,
+        "hScrollBarSkin": "comp/hscroll.png",
+        "centerX": 0
+      },
+      "compId": 54,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "y": 116,
+            "x": 75,
+            "width": 166,
+            "renderType": "render",
+            "pivotY": 65,
+            "pivotX": 65,
+            "height": 130
+          },
+          "compId": 55,
+          "child": [
+            {
+              "type": "Sprite",
+              "props": {
+                "width": 130,
+                "texture": "main/hero/plist_hero.png",
+                "height": 130
+              },
+              "compId": 56
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 130,
+                "skin": "netRes/icon/heroIcon/profile_elf_bxzy.png",
+                "scaleY": 0.95,
+                "scaleX": 0.95,
+                "name": "icon",
+                "centerX": -18,
+                "anchorY": 1,
+                "anchorX": 0.5
+              },
+              "compId": 57
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 9,
+                "x": 96,
+                "text": "label",
+                "skin": "main/hero/label_now.png",
+                "name": "curSign"
+              },
+              "compId": 62
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 35,
+                "x": 16.5,
+                "wordWrap": false,
+                "width": 99,
+                "text": "签到",
+                "stroke": 2,
+                "name": "produceTip",
+                "leading": 5,
+                "height": 35,
+                "fontSize": 30,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "bold": true,
+                "align": "center"
+              },
+              "compId": 68,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 34,
+                    "x": 0,
+                    "wordWrap": false,
+                    "width": 99,
+                    "text": "解锁",
+                    "stroke": 2,
+                    "leading": 5,
+                    "height": 35,
+                    "fontSize": 30,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 69
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 101,
+                "x": 17,
+                "width": 100,
+                "name": "talenLvBox",
+                "height": 25,
+                "cacheAs": "bitmap"
+              },
+              "compId": 143,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -3,
+                    "x": 17,
+                    "skin": "main/hero/solt_empty.png"
+                  },
+                  "compId": 144
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 39,
+                    "skin": "main/hero/solt_empty.png"
+                  },
+                  "compId": 145
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -3,
+                    "x": 61,
+                    "skin": "main/hero/solt_empty.png"
+                  },
+                  "compId": 146
+                }
+              ]
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 53,
+                "text": "挑战中",
+                "stroke": 2,
+                "name": "challIng",
+                "fontSize": 20,
+                "font": "Microsoft YaHei",
+                "color": "#00ff4e",
+                "centerX": -18,
+                "bold": true
+              },
+              "compId": 161
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 101,
+                "x": 22,
+                "visible": false,
+                "texture": "main/hero/bar_exp_fra.png",
+                "name": "proBg"
+              },
+              "compId": 173,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 2,
+                    "x": 3,
+                    "width": 94,
+                    "skin": "main/hero/bar_fra.png",
+                    "sizeGrid": "0,29,0,25",
+                    "name": "proBar",
+                    "height": 22
+                  },
+                  "compId": 174
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": -17,
+                    "x": -35.5,
+                    "texture": "main/hero/icon_fra.png"
+                  },
+                  "compId": 175
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 3,
+                    "x": 0,
+                    "wordWrap": false,
+                    "width": 99,
+                    "text": "17/20",
+                    "name": "proVal",
+                    "fontSize": 18,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 176
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 58,
+          "keyframes": {
+            "y": [
+              {
+                "value": 40,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 58,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 160,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 58,
+                "key": "y",
+                "index": 13
+              }
+            ],
+            "x": [
+              {
+                "value": 29,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 58,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": -488,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 58,
+                "key": "x",
+                "index": 13
+              }
+            ],
+            "rotation": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 58,
+                "key": "rotation",
+                "index": 0
+              },
+              {
+                "value": -10,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 58,
+                "key": "rotation",
+                "index": 13
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 58,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 58,
+                "key": "alpha",
+                "index": 13
+              }
+            ]
+          }
+        }
+      ],
+      "name": "chgHeroAni",
+      "id": 1,
+      "frameRate": 60,
+      "action": 0
+    }
+  ],
+  "loadList": [
+    "res_view/hero/bg_hero.png",
+    "common/icon_hp1.png",
+    "common/icon_gold.png",
+    "main/hero/tags_on.png",
+    "main/hero/light_green.png",
+    "res_common/lock.png",
+    "main/redpoint.png",
+    "main/hero/icon_inf.png",
+    "main/hero/icon_fra.png",
+    "main/hero/plist_flag.png",
+    "main/hero/solt_hero_pic_r.png",
+    "main/hero/icon_talent.png",
+    "comp/hscroll.png",
+    "main/hero/plist_hero.png",
+    "main/hero/bar_exp_fra.png"
+  ],
+  "loadList3D": []
+}

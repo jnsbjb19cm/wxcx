@@ -1,0 +1,285 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": true,
+    "height": 1344,
+    "drawCallOptimize": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 813,
+        "x": 500,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 155
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 594,
+        "var": "context",
+        "height": 493,
+        "centerY": -11,
+        "centerX": -1
+      },
+      "compId": 156,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -22,
+            "x": -3,
+            "width": 606,
+            "skin": "res_view/platformFeatures/panel_1.png",
+            "sizeGrid": "72,0,101,0",
+            "height": 521
+          },
+          "compId": 197
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -22,
+            "x": 518,
+            "width": 85,
+            "skin": "res_view/platformFeatures/img_common_02.png",
+            "height": 23
+          },
+          "compId": 193
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -31,
+            "x": 513,
+            "var": "closeBtn",
+            "skin": "res_view/platformFeatures/btn_close.png",
+            "label": "label"
+          },
+          "compId": 190
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 47,
+            "skin": "res_view/platformFeatures/concern/text_gzgfh.png",
+            "centerX": 1
+          },
+          "compId": 158
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 111,
+            "skin": "res_view/platformFeatures/concern/img_ranking_number02.png",
+            "centerX": 2
+          },
+          "compId": 160,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 2,
+                "x": 16,
+                "text": "text",
+                "skin": "res_view/platformFeatures/concern/text_gzzl.png"
+              },
+              "compId": 186
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 497,
+            "x": 162,
+            "text": "text",
+            "skin": "res_view/platformFeatures/text_djgb.png"
+          },
+          "compId": 187
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 325,
+            "x": 66,
+            "wordWrap": true,
+            "width": 463,
+            "text": "关注官方抖音号，持续推送最新信息\\n为了感谢你的关注，我们准备了一份礼物",
+            "leading": 11,
+            "height": 53,
+            "fontSize": 20,
+            "font": "Microsoft YaHei",
+            "color": "#8a6c6c",
+            "centerX": 0,
+            "bold": true,
+            "align": "center"
+          },
+          "compId": 178
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 432,
+            "x": 301,
+            "width": 210,
+            "var": "confirmBtn",
+            "stateNum": 1,
+            "skin": "res_common/btn_yellow.png",
+            "label": "label",
+            "height": 74,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 172,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 21,
+                "x": 53,
+                "skin": "res_view/platformFeatures/concern/text_gz.png"
+              },
+              "compId": 173
+            },
+            {
+              "type": "Script",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "runtime": "game/tools/BtnScale90.ts"
+              },
+              "compId": 174
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 175,
+            "x": 237,
+            "width": 120,
+            "var": "itemBox",
+            "height": 120
+          },
+          "compId": 179,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "width": 128,
+                "visible": false,
+                "var": "qualityImg",
+                "skin": "res_common/equip_slot_orange.png",
+                "height": 128,
+                "centerY": 0,
+                "centerX": 0
+              },
+              "compId": 180
+            },
+            {
+              "type": "Image",
+              "props": {
+                "width": 128,
+                "visible": false,
+                "var": "img",
+                "skin": "res_view/platformFeatures/concern/icon_gongde.png",
+                "height": 128,
+                "centerY": 0,
+                "centerX": 0
+              },
+              "compId": 181
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 94,
+                "x": 61,
+                "width": 58,
+                "visible": false,
+                "skin": "res_view/platformFeatures/concern/panel.png",
+                "height": 20
+              },
+              "compId": 189
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 86,
+                "visible": false,
+                "var": "numLab",
+                "value": "60",
+                "spaceX": -6,
+                "skin": "res_common/number/num_42_wryh_ffffff_stk_3.png",
+                "sheet": "0123456789",
+                "scaleY": 0.57,
+                "scaleX": 0.57,
+                "right": 13,
+                "name": "numLab",
+                "align": "right"
+              },
+              "compId": 182
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 152,
+          "keyframes": {
+            "x": [
+              {
+                "value": 250,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 152,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "rotation": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 152,
+                "key": "rotation",
+                "index": 0
+              },
+              {
+                "value": 360,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 152,
+                "key": "rotation",
+                "index": 60
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani",
+      "id": 1,
+      "frameRate": 30,
+      "action": 2
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

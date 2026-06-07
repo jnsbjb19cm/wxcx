@@ -1,0 +1,164 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": true,
+    "height": 1344,
+    "drawCallOptimize": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 672,
+        "x": 375,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.5
+      },
+      "compId": 58
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 412,
+        "var": "contentBox",
+        "height": 356,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 87,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "top": 0,
+            "skin": "res_main/panel_tips.png",
+            "sizeGrid": "200,0,136,0",
+            "right": 0,
+            "name": "bg",
+            "left": 0,
+            "bottom": 0
+          },
+          "compId": 81,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "width": 552,
+                "var": "equipQuaBg",
+                "top": -49,
+                "skin": "res_main/panel_p.png",
+                "sizeGrid": "51,98,44,47",
+                "scaleY": 1,
+                "scaleX": 1,
+                "left": -45,
+                "height": 244,
+                "anchorY": 0,
+                "anchorX": 0
+              },
+              "compId": 82
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 22,
+            "x": 19,
+            "width": 58,
+            "skin": "res_combat/public/panel_gh.png",
+            "scaleY": 2.1,
+            "scaleX": 2.1,
+            "height": 60
+          },
+          "compId": 84,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "width": 58,
+                "var": "ringIcon",
+                "scaleY": 0.95,
+                "scaleX": 0.97,
+                "height": 58,
+                "centerY": -1.5,
+                "centerX": 1,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 103
+            }
+          ]
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 47,
+            "var": "ringName",
+            "valign": "middle",
+            "text": "希瓦的守护",
+            "strokeColor": "#000000",
+            "fontSize": 30,
+            "font": "Microsoft YaHei",
+            "color": "#f438d3",
+            "centerX": 36,
+            "bold": false,
+            "align": "right"
+          },
+          "compId": 14,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "y": 46,
+                "x": 0,
+                "var": "ringLayers",
+                "valign": "top",
+                "text": "(2层)",
+                "strokeColor": "#000000",
+                "fontSize": 18,
+                "font": "Microsoft YaHei",
+                "color": "#fdda89",
+                "bold": false,
+                "align": "left"
+              },
+              "compId": 79
+            }
+          ]
+        },
+        {
+          "type": "VBox",
+          "props": {
+            "y": 177,
+            "width": 390,
+            "var": "skillBox",
+            "spaceY": 15,
+            "space": 15,
+            "centerX": 0,
+            "align": "left"
+          },
+          "compId": 62
+        },
+        {
+          "type": "Image",
+          "props": {
+            "skin": "res_common/text_djgb.png",
+            "centerY": 198,
+            "centerX": 0
+          },
+          "compId": 86
+        }
+      ]
+    }
+  ],
+  "loadList": ["res_main/panel_tips.png"],
+  "loadList3D": []
+}

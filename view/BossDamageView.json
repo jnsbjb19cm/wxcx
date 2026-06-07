@@ -1,0 +1,317 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 750,
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 48,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 667,
+            "x": 375,
+            "width": 1000,
+            "var": "maskBg",
+            "skin": "res_common/bg.png",
+            "height": 1625,
+            "centerY": 0,
+            "centerX": 0,
+            "anchorY": 0.5,
+            "anchorX": 0.5,
+            "alpha": 0.6
+          },
+          "compId": 3
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 100,
+            "x": -54,
+            "width": 861,
+            "var": "bgPanel",
+            "skin": "res_view/manual/panel_tujianzzz.png",
+            "sizeGrid": "113,0,23,0",
+            "height": 1109
+          },
+          "compId": 49,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -13,
+                "x": 587,
+                "skin": "res_common/img_sz_1.png"
+              },
+              "compId": 56
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 45,
+                "x": 71,
+                "width": 723,
+                "skin": "res_view/manual/img_tujiandiban.png",
+                "sizeGrid": "372,0,322,0",
+                "height": 1060
+              },
+              "compId": 50
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -31,
+                "x": 86,
+                "skin": "res_common/icon_head.png"
+              },
+              "compId": 51
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -26,
+                "x": 179,
+                "skin": "res_combat/boss/title_shyj.png",
+                "name": "title"
+              },
+              "compId": 52
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -4,
+                "x": 709,
+                "var": "closeBtn",
+                "skin": "res_common/btn_close.png",
+                "label": "label"
+              },
+              "compId": 53,
+              "child": [
+                {
+                  "type": "Rect",
+                  "props": {
+                    "y": 0,
+                    "x": 8,
+                    "width": 77,
+                    "renderType": "hit",
+                    "lineWidth": 1,
+                    "height": 70,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 55
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 57,
+                "x": 84,
+                "var": "panel_mask",
+                "skin": "res_common/panel_mask.png"
+              },
+              "compId": 57,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 266,
+                    "x": 148,
+                    "var": "decoration",
+                    "skin": "res_view/manual/img_anwen.png"
+                  },
+                  "compId": 58
+                }
+              ]
+            },
+            {
+              "type": "List",
+              "props": {
+                "y": 77,
+                "width": 668,
+                "var": "rwdList",
+                "vScrollBarSkin": " ",
+                "spaceY": 5,
+                "height": 995,
+                "centerX": 0
+              },
+              "compId": 15,
+              "child": [
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "width": 668,
+                    "renderType": "render",
+                    "height": 195
+                  },
+                  "compId": 59,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "skin": "res_common/panel_bz.png",
+                        "name": "bg"
+                      },
+                      "compId": 497
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 21,
+                        "x": 35,
+                        "text": "累计伤害达到：500万",
+                        "name": "tip",
+                        "fontSize": 28,
+                        "font": "SimHei",
+                        "color": "#684546",
+                        "bold": true
+                      },
+                      "compId": 587
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 110,
+                        "x": 535,
+                        "visible": false,
+                        "skin": "res_combat/boss/btn_lingqu.png",
+                        "name": "stateBtn",
+                        "label": "label",
+                        "anchorY": 0.5,
+                        "anchorX": 0.5
+                      },
+                      "compId": 588
+                    },
+                    {
+                      "type": "HBox",
+                      "props": {
+                        "y": 56,
+                        "x": 30,
+                        "width": 514,
+                        "space": 15,
+                        "scaleY": 0.87,
+                        "scaleX": 0.87,
+                        "name": "propBox",
+                        "height": 124
+                      },
+                      "compId": 37
+                    },
+                    {
+                      "type": "Box",
+                      "props": {
+                        "y": 91.5,
+                        "x": 413,
+                        "width": 240,
+                        "visible": false,
+                        "name": "proBox",
+                        "height": 27
+                      },
+                      "compId": 42,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 0,
+                            "x": 0,
+                            "width": 240,
+                            "skin": "res_combat/boss/iconl_upgrade_1.png",
+                            "sizeGrid": "0,29,0,29",
+                            "height": 27
+                          },
+                          "compId": 34
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 3.5,
+                            "x": 13,
+                            "width": 205,
+                            "skin": "res_combat/boss/iconl_upgrade_2.png",
+                            "sizeGrid": "0,8,0,12",
+                            "scaleX": 1,
+                            "name": "proBar",
+                            "height": 16
+                          },
+                          "compId": 35,
+                          "child": [
+                            {
+                              "type": "Image",
+                              "props": {
+                                "y": 0,
+                                "x": 0,
+                                "width": 212,
+                                "visible": false,
+                                "skin": "res_combat/boss/iconl_upgrade.png",
+                                "sizeGrid": "0,33,0,12",
+                                "scaleX": 1,
+                                "height": 16,
+                                "alpha": 1
+                              },
+                              "compId": 595
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Label",
+                          "props": {
+                            "width": 180,
+                            "text": "850万/1000万",
+                            "strokeColor": "#470707",
+                            "stroke": 1,
+                            "name": "proVal",
+                            "height": 15,
+                            "fontSize": 15,
+                            "font": "Microsoft YaHei",
+                            "color": "#ffffff",
+                            "centerY": -3,
+                            "centerX": 0,
+                            "bold": false,
+                            "align": "center"
+                          },
+                          "compId": 36
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Sprite",
+                      "props": {
+                        "y": 90,
+                        "x": 476,
+                        "visible": false,
+                        "texture": "res_combat/boss/text_des_yilingqu.png",
+                        "name": "gotSign"
+                      },
+                      "compId": 45
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "res_view/manual/panel_tujianzzz.png",
+    "res_view/manual/img_tujiandiban.png",
+    "res_combat/boss/text_des_yilingqu.png"
+  ],
+  "loadList3D": []
+}

@@ -1,0 +1,147 @@
+{
+  "type": "View",
+  "props": {
+    "y": 110,
+    "x": 0,
+    "width": 600,
+    "height": 367
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 600,
+        "height": 367
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Label",
+          "props": {
+            "y": 33,
+            "var": "tip",
+            "text": "与美人[苏月谋]四处走走，可有效增进关系！",
+            "fontSize": 24,
+            "font": "Microsoft YaHei",
+            "color": "#684546",
+            "centerX": 0
+          },
+          "compId": 4
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 107,
+            "x": 160,
+            "skin": "res_view/beauty/text_khdzn.png"
+          },
+          "compId": 5,
+          "child": [
+            {
+              "type": "Sprite",
+              "props": {
+                "y": -29.5,
+                "x": 197,
+                "texture": "res_view/beauty/icon_zn.png"
+              },
+              "compId": 6
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 195.5,
+            "x": 163,
+            "skin": "res_view/beauty/text_khdhgd.png"
+          },
+          "compId": 7,
+          "child": [
+            {
+              "type": "Sprite",
+              "props": {
+                "y": -19,
+                "x": 84,
+                "texture": "res_common/icon_hgd.png",
+                "scaleY": 0.7,
+                "scaleX": 0.7
+              },
+              "compId": 8
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": -3,
+                "x": 232,
+                "var": "addValue",
+                "value": "+10",
+                "spaceX": -10,
+                "skin": "res_common/number/num_28_jxzk_00b029.png",
+                "sheet": "0123456789+-"
+              },
+              "compId": 14
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 253,
+            "x": 196.5,
+            "var": "xiehouBtn",
+            "skin": "res_common/btn_yellow.png"
+          },
+          "compId": 9,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 22,
+                "x": 37,
+                "var": "ad",
+                "skin": "res_common/icon_camera.png"
+              },
+              "compId": 10
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 22,
+                "var": "xh",
+                "skin": "res_common/text_xiehou_2.png",
+                "centerX": 28
+              },
+              "compId": 11
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -6,
+                "x": 184.5,
+                "skin": "res_common/redpoint.png"
+              },
+              "compId": 13
+            }
+          ]
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 339,
+            "x": 150,
+            "text": "若徒弟位已满，则无法获得新徒弟哦",
+            "fontSize": 19,
+            "font": "Microsoft YaHei",
+            "color": "#867979"
+          },
+          "compId": 12
+        }
+      ]
+    }
+  ],
+  "loadList": ["res_view/beauty/icon_zn.png", "res_common/icon_hgd.png"],
+  "loadList3D": []
+}

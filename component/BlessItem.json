@@ -1,0 +1,138 @@
+{
+  "type": "View",
+  "props": {
+    "width": 580,
+    "height": 242
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 50,
+        "x": 126,
+        "width": 450,
+        "skin": "common/plist_cs.png",
+        "sizeGrid": "40,46,25,60",
+        "height": 155
+      },
+      "compId": 18
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 56,
+        "x": 14,
+        "var": "blessIcon",
+        "skin": "combat/season/pic_test.png",
+        "name": "blessIcon"
+      },
+      "compId": 15
+    },
+    {
+      "type": "Sprite",
+      "props": {
+        "y": 0,
+        "x": 5,
+        "texture": "combat/season/solt_au.png"
+      },
+      "compId": 14
+    },
+    {
+      "type": "Label",
+      "props": {
+        "y": 52,
+        "x": 5,
+        "width": 141,
+        "text": "加速祝福",
+        "stroke": 2,
+        "name": "blessName1",
+        "fontSize": 18,
+        "font": "Microsoft YaHei",
+        "color": "#ffffff",
+        "bold": true,
+        "align": "center"
+      },
+      "compId": 23
+    },
+    {
+      "type": "Sprite",
+      "props": {
+        "y": 26,
+        "x": 236,
+        "texture": "combat/season/plist_name.png"
+      },
+      "compId": 16
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": -8,
+        "x": 46,
+        "var": "isGetIcon",
+        "skin": "common/tag_received.png",
+        "name": "isGetIcon"
+      },
+      "compId": 19
+    },
+    {
+      "type": "Label",
+      "props": {
+        "y": 44,
+        "x": 239,
+        "width": 220,
+        "var": "blessName",
+        "text": "加速祝福",
+        "stroke": 2,
+        "name": "blessName",
+        "height": 24,
+        "fontSize": 24,
+        "font": "Microsoft YaHei",
+        "color": "#ffffff",
+        "bold": true,
+        "align": "center"
+      },
+      "compId": 20
+    },
+    {
+      "type": "Label",
+      "props": {
+        "y": 87,
+        "x": 225,
+        "width": 258,
+        "var": "blessState",
+        "text": "已激活",
+        "stroke": 2,
+        "name": "blessState",
+        "fontSize": 18,
+        "font": "Microsoft YaHei",
+        "color": "#54ec26",
+        "bold": true,
+        "align": "center"
+      },
+      "compId": 21
+    },
+    {
+      "type": "Label",
+      "props": {
+        "x": 172,
+        "wordWrap": true,
+        "width": 363,
+        "var": "blessDesc",
+        "valign": "middle",
+        "text": "111111",
+        "name": "blessDesc",
+        "leading": 5,
+        "height": 81,
+        "fontSize": 18,
+        "font": "SimHei",
+        "color": "#684935",
+        "centerY": 29,
+        "align": "center"
+      },
+      "compId": 22
+    }
+  ],
+  "loadList": ["combat/season/solt_au.png", "combat/season/plist_name.png"],
+  "loadList3D": []
+}

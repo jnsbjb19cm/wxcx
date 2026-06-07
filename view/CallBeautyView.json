@@ -1,0 +1,582 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -145,
+            "x": -125,
+            "width": 1000,
+            "var": "maskbg",
+            "skin": "res_common/bg.png",
+            "height": 1625,
+            "centerY": 0,
+            "centerX": 0,
+            "alpha": 0.6
+          },
+          "compId": 4
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 1001,
+            "x": 375,
+            "width": 724,
+            "visible": false,
+            "var": "dialog",
+            "height": 198,
+            "centerX": 0,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 21,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "skin": "res_view/plot/bg_plot_frame_2.png",
+                "name": "frame",
+                "innerHTML": "没想这个美娇娘竟然是个三，她叫"
+              },
+              "compId": 22
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": 44,
+                "x": 39,
+                "wordWrap": true,
+                "width": 647,
+                "text": "我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我",
+                "name": "content",
+                "leading": 11,
+                "height": 102,
+                "fontSize": 25,
+                "font": "Microsoft YaHei",
+                "color": "#65462f"
+              },
+              "compId": 25
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -32,
+                "x": 340,
+                "width": 332,
+                "skin": "res_view/plot/bg_plot_name.png",
+                "sizeGrid": "0,81,0,82",
+                "name": "name_bg",
+                "height": 50
+              },
+              "compId": 23
+            },
+            {
+              "type": "Label",
+              "props": {
+                "y": -9.5,
+                "x": 510.5,
+                "text": "蓝家弟子",
+                "strokeColor": "#734230",
+                "stroke": 2,
+                "name": "name",
+                "height": 28,
+                "fontSize": 28,
+                "font": "Microsoft YaHei",
+                "color": "#f1dcbd",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 24
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -145,
+            "x": -125,
+            "width": 1000,
+            "skin": "res_common/bg.png",
+            "mouseEnabled": false,
+            "height": 1625,
+            "alpha": 0.2
+          },
+          "compId": 268
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 187,
+            "var": "title",
+            "skin": "res_view/beauty/text_thz.png",
+            "centerX": 2,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 6
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 100.5,
+            "x": 600,
+            "var": "closeBtn",
+            "skin": "res_common/btn_close.png"
+          },
+          "compId": 7
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 333,
+            "x": 289.5,
+            "var": "hand",
+            "skin": "res_view/beauty/frame_team_head.png"
+          },
+          "compId": 8,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "var": "handImg",
+                "centerY": 0,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 9
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 139,
+                "x": 0,
+                "width": 174,
+                "height": 126
+              },
+              "compId": 17,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "var": "nameRes",
+                    "centerY": 0,
+                    "centerX": 0
+                  },
+                  "compId": 18
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 830,
+            "var": "callBtn",
+            "skin": "res_view/beauty/icon_dh.png",
+            "centerX": 6
+          },
+          "compId": 10,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 10.5,
+                "x": 0,
+                "var": "no",
+                "skin": "res_view/beauty/icon_dh_bj.png"
+              },
+              "compId": 11,
+              "child": [
+                {
+                  "type": "Rect",
+                  "props": {
+                    "y": 32.5,
+                    "x": 22.5,
+                    "width": 130,
+                    "renderType": "hit",
+                    "lineWidth": 1,
+                    "height": 130,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 12
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 123,
+                "x": 502,
+                "width": 183,
+                "var": "yes",
+                "skin": "res_view/beauty/icon_dh_j.png",
+                "pivotY": 94,
+                "pivotX": 92,
+                "height": 187
+              },
+              "compId": 13,
+              "child": [
+                {
+                  "type": "Rect",
+                  "props": {
+                    "width": 130,
+                    "renderType": "hit",
+                    "lineWidth": 1,
+                    "height": 130,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 14
+                }
+              ]
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 63,
+                "x": 523,
+                "var": "ad",
+                "texture": "res_view/beauty/icon_sxj_s.png"
+              },
+              "compId": 15
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 960,
+            "x": 381,
+            "width": 220,
+            "visible": false,
+            "var": "newUserBtn",
+            "skin": "res_view/beauty/btn_jieting.png",
+            "height": 220,
+            "centerX": 10,
+            "anchorY": 0.5,
+            "anchorX": 0.485
+          },
+          "compId": 270
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 675,
+            "width": 750,
+            "var": "options",
+            "height": 498,
+            "centerX": 0
+          },
+          "compId": 26,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 29,
+                "x": 388,
+                "presetID": 1,
+                "width": 680,
+                "skin": "res_view/beauty/btn.png",
+                "name": "option_2",
+                "height": 61,
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "alpha": 1,
+                "isPresetRoot": true
+              },
+              "compId": 27,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "presetID": 2,
+                    "valign": "middle",
+                    "text": "举证咖啡",
+                    "fontSize": 30,
+                    "font": "Microsoft YaHei",
+                    "color": "#330d16",
+                    "centerY": -1,
+                    "centerX": -7,
+                    "alpha": 1,
+                    "align": "center"
+                  },
+                  "compId": 111
+                },
+                {
+                  "type": "Script",
+                  "props": {
+                    "presetID": 3,
+                    "runtime": "game/tools/BtnScale90.ts"
+                  },
+                  "compId": 263
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 270,
+          "keyframes": {
+            "skewY": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 270,
+                "key": "skewY",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 270,
+                "key": "skewY",
+                "index": 2
+              },
+              {
+                "value": -1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 270,
+                "key": "skewY",
+                "index": 5
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 270,
+                "key": "skewY",
+                "index": 7
+              }
+            ],
+            "skewX": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 270,
+                "key": "skewX",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 270,
+                "key": "skewX",
+                "index": 2
+              },
+              {
+                "value": -1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 270,
+                "key": "skewX",
+                "index": 5
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 270,
+                "key": "skewX",
+                "index": 7
+              }
+            ],
+            "rotation": [
+              {
+                "value": 0,
+                "tweenMethod": "quintInOut",
+                "tween": true,
+                "target": 270,
+                "key": "rotation",
+                "index": 0
+              },
+              {
+                "value": 10,
+                "tweenMethod": "quadInOut",
+                "tween": true,
+                "target": 270,
+                "key": "rotation",
+                "index": 2
+              },
+              {
+                "value": -10,
+                "tweenMethod": "quadInOut",
+                "tween": true,
+                "target": 270,
+                "key": "rotation",
+                "index": 5
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 270,
+                "key": "rotation",
+                "index": 7
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani1",
+      "id": 1,
+      "frameRate": 60,
+      "action": 2
+    },
+    {
+      "nodes": [
+        {
+          "target": 13,
+          "keyframes": {
+            "x": [
+              {
+                "value": 502,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 13,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "skewY": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 13,
+                "key": "skewY",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 13,
+                "key": "skewY",
+                "index": 2
+              },
+              {
+                "value": -1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 13,
+                "key": "skewY",
+                "index": 4
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 13,
+                "key": "skewY",
+                "index": 6
+              }
+            ],
+            "skewX": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 13,
+                "key": "skewX",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 13,
+                "key": "skewX",
+                "index": 2
+              },
+              {
+                "value": -1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 13,
+                "key": "skewX",
+                "index": 4
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 13,
+                "key": "skewX",
+                "index": 6
+              }
+            ],
+            "rotation": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 13,
+                "key": "rotation",
+                "index": 0
+              },
+              {
+                "value": 10,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 13,
+                "key": "rotation",
+                "index": 2
+              },
+              {
+                "value": -10,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 13,
+                "key": "rotation",
+                "index": 4
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 13,
+                "key": "rotation",
+                "index": 6
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani2",
+      "id": 2,
+      "frameRate": 60,
+      "action": 2
+    }
+  ],
+  "loadList": ["res_view/beauty/icon_sxj_s.png", "prefab/option_2.prefab"],
+  "loadList3D": []
+}

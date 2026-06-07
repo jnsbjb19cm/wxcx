@@ -1,0 +1,173 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 813,
+        "x": 500,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.7
+      },
+      "compId": 8
+    },
+    {
+      "type": "Image",
+      "props": {
+        "width": 604,
+        "skin": "res_common/bg_1.png",
+        "height": 470,
+        "centerY": -50,
+        "centerX": 2
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 61,
+            "x": 163,
+            "skin": "res_common/bg_title01.png"
+          },
+          "compId": 17,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 5,
+                "skin": "res_view/workshop/text_js.png",
+                "centerX": -2
+              },
+              "compId": 10
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -9,
+            "x": 518,
+            "var": "closeBtn",
+            "skin": "res_common/btn_close.png"
+          },
+          "compId": 18,
+          "child": [
+            {
+              "type": "Rect",
+              "props": {
+                "y": -10,
+                "x": -2,
+                "width": 100,
+                "renderType": "hit",
+                "lineWidth": 1,
+                "height": 100,
+                "fillColor": "#ff0000"
+              },
+              "compId": 19
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 188,
+            "var": "tipsImg",
+            "skin": "res_view/workshop/text_kjsxd.png",
+            "centerX": -7
+          },
+          "compId": 9
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 361,
+            "x": 194.5,
+            "var": "unlockBtn",
+            "skin": "res_common/btn_yellow.png"
+          },
+          "compId": 5,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "skin": "res_view/workshop/text_js.png",
+                "centerY": 1,
+                "centerX": -1
+              },
+              "compId": 14
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 294.5,
+            "skin": "res_view/workshop/bg_array_view.png",
+            "centerX": -19
+          },
+          "compId": 12,
+          "child": [
+            {
+              "type": "Sprite",
+              "props": {
+                "y": -11,
+                "x": -1,
+                "texture": "netRes/icon/itemIcon/icon_yuanbao.png",
+                "scaleY": 0.31,
+                "scaleX": 0.31
+              },
+              "compId": 6
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 5,
+                "x": 33,
+                "var": "openLab",
+                "value": "200",
+                "presetID": 1,
+                "name": "openLab",
+                "width": 116,
+                "spaceX": -5,
+                "skin": "res_common/number/num_24_rhrc_f1efe0.png",
+                "sheet": "0123456789+-*/:.",
+                "isPresetRoot": true,
+                "height": 29,
+                "align": "center"
+              },
+              "compId": 13
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 469,
+            "x": 160.5,
+            "text": "text",
+            "skin": "res_common/text_djgb.png"
+          },
+          "compId": 20
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "res_common/bg_1.png",
+    "netRes/icon/itemIcon/icon_yuanbao.png",
+    "prefab/num24_rhrc.prefab"
+  ],
+  "loadList3D": []
+}

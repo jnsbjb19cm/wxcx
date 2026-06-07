@@ -1,0 +1,1384 @@
+{
+  "type": "Scene",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 20,
+        "x": 0,
+        "width": 750,
+        "var": "contentBox",
+        "height": 1334
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -58,
+            "skin": "res_view/children/bg.png",
+            "name": "bg",
+            "centerX": 0
+          },
+          "compId": 8
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 1057,
+            "x": -2,
+            "width": 753,
+            "var": "Bg_tx",
+            "skin": "res_view/children/bg_tx.png",
+            "height": 268
+          },
+          "compId": 307
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 247,
+            "x": 750,
+            "skin": "res_view/children/bg_mask.png",
+            "scaleY": -1,
+            "scaleX": -1
+          },
+          "compId": 207
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 832,
+            "x": -2,
+            "skin": "res_view/children/bg_mask.png"
+          },
+          "compId": 206
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "var": "one_child_spine"
+          },
+          "compId": 178
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "var": "double_child_spine"
+          },
+          "compId": 179
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 1031,
+            "x": 416,
+            "width": 211,
+            "visible": false,
+            "var": "newname_image",
+            "pivotY": 57,
+            "pivotX": 146,
+            "height": 72,
+            "alpha": 1
+          },
+          "compId": 14,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 208,
+                "var": "newname_btn",
+                "skin": "res_common/btn_yellow.png",
+                "height": 72
+              },
+              "compId": 314
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 21,
+                "x": 53,
+                "skin": "res_view/children/title_cm.png",
+                "scaleY": 1.1,
+                "scaleX": 1.1
+              },
+              "compId": 15
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -548,
+                "x": -215,
+                "visible": false,
+                "var": "cm_quitly",
+                "skin": "res_view/children/icon_pingyong.png"
+              },
+              "compId": 302
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -729,
+                "x": -256,
+                "skin": "res_view/children/text_fq.png"
+              },
+              "compId": 309,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 0,
+                    "x": 74,
+                    "var": "dou_fq_text_t",
+                    "underlineColor": "#ffffff",
+                    "underline": true,
+                    "text": "最多五个字",
+                    "stroke": 2,
+                    "fontSize": 29,
+                    "font": "SimHei",
+                    "color": "#ffffff",
+                    "bold": true
+                  },
+                  "compId": 311
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -777,
+                "x": -256,
+                "skin": "res_view/children/text_zz.png"
+              },
+              "compId": 310,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 73,
+                    "var": "dou_quality_image_t",
+                    "skin": "res_view/children/text_py.png"
+                  },
+                  "compId": 312
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 3,
+                    "x": 74,
+                    "width": 116,
+                    "visible": false,
+                    "text": "平庸",
+                    "stroke": 1,
+                    "height": 29,
+                    "fontSize": 24,
+                    "font": "SimHei",
+                    "color": "#00e626"
+                  },
+                  "compId": 313
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": -30,
+            "x": 0,
+            "width": 753,
+            "visible": false,
+            "var": "grow_box",
+            "height": 1168
+          },
+          "compId": 94,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 86,
+                "x": 134,
+                "width": 495,
+                "visible": true,
+                "skin": "res_view/children/bg_main_progress.png",
+                "height": 72
+              },
+              "compId": 155,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 19,
+                    "x": 10,
+                    "width": 452,
+                    "var": "Progress",
+                    "skin": "res_view/children/bg_zinv_2.png",
+                    "height": 35
+                  },
+                  "compId": 156
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 25,
+                    "var": "growprogress",
+                    "valign": "middle",
+                    "text": "100000/100000",
+                    "strokeColor": "#000000",
+                    "stroke": 2,
+                    "fontSize": 27,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffffff",
+                    "centerX": 0,
+                    "bold": true,
+                    "align": "center"
+                  },
+                  "compId": 203
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 967,
+                "x": 14,
+                "visible": true,
+                "var": "gongde",
+                "skin": "res_view/children/icon_hdgd.png"
+              },
+              "compId": 99,
+              "child": [
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": -4,
+                    "x": 69,
+                    "var": "gongdeNum",
+                    "value": "678",
+                    "spaceX": -32,
+                    "skin": "res_common/number/num_45_eycz_e0bf70.png",
+                    "sheet": "0123456789：",
+                    "scaleY": 0.9,
+                    "scaleX": 0.9
+                  },
+                  "compId": 102
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 879,
+                "x": 93,
+                "visible": true,
+                "var": "two_gongde",
+                "skin": "res_view/children/icon_hdgd.png"
+              },
+              "compId": 243,
+              "child": [
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": -4,
+                    "x": 67.5,
+                    "var": "o_gdnum",
+                    "value": "678",
+                    "spaceX": -32,
+                    "skin": "res_common/number/num_45_eycz_e0bf70.png",
+                    "sheet": "0123456789：",
+                    "scaleY": 0.9,
+                    "scaleX": 0.9
+                  },
+                  "compId": 245
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 341,
+                    "skin": "res_view/children/icon_hdgd.png"
+                  },
+                  "compId": 246,
+                  "child": [
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": -4,
+                        "x": 67.5,
+                        "var": "t_gdnum",
+                        "value": "678",
+                        "spaceX": -32,
+                        "skin": "res_common/number/num_45_eycz_e0bf70.png",
+                        "sheet": "0123456789：",
+                        "scaleY": 0.9,
+                        "scaleX": 0.9
+                      },
+                      "compId": 248
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 999,
+                "x": 374,
+                "var": "grow_bg",
+                "skin": "res_view/children/btn_py.png",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 167,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 136,
+                    "x": 24.5,
+                    "var": "grow_type",
+                    "skin": "res_view/children/icon_yuanbaodiban.png"
+                  },
+                  "compId": 96
+                },
+                {
+                  "type": "Script",
+                  "props": {
+                    "runtime": "game/tools/BtnScale85.ts"
+                  },
+                  "compId": 257
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 127,
+                    "x": 117.5,
+                    "visible": false,
+                    "var": "hfybnum",
+                    "value": "1",
+                    "text": "1",
+                    "strokeColor": "#000000",
+                    "stroke": 1,
+                    "skin": "res_common/number/num_30_jxzk_f7eacf_stk.png",
+                    "sheet": "0123456789",
+                    "fontSize": 30,
+                    "font": "Microsoft YaHei",
+                    "color": "#f6ebc8",
+                    "bold": true
+                  },
+                  "compId": 260
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 950,
+                "x": 366,
+                "visible": false,
+                "var": "adult_bg",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 216,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -46,
+                    "x": -85,
+                    "var": "adult_btn",
+                    "skin": "res_view/children/btn_gj.png"
+                  },
+                  "compId": 240
+                },
+                {
+                  "type": "Script",
+                  "props": {
+                    "runtime": "game/tools/BtnScale85.ts"
+                  },
+                  "compId": 250
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 991,
+                "x": 558,
+                "width": 222,
+                "var": "energy",
+                "skin": "res_view/children/bg_zn.png",
+                "height": 38
+              },
+              "compId": 18,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -13,
+                    "x": 6.5,
+                    "width": 65,
+                    "var": "recover_btn",
+                    "skin": "res_view/children/icon_huolidan.png",
+                    "scaleY": 0.8,
+                    "scaleX": 0.8,
+                    "height": 68
+                  },
+                  "compId": 19
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 13.5,
+                    "x": 46,
+                    "width": 41,
+                    "skin": "res_view/children/btn_card_buy.png",
+                    "scaleY": 0.7,
+                    "scaleX": 0.7,
+                    "height": 41
+                  },
+                  "compId": 20
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 10,
+                    "var": "energy_num",
+                    "text": "30/30",
+                    "fontSize": 22,
+                    "font": "Microsoft YaHei",
+                    "color": "#eeddc1",
+                    "centerX": 18,
+                    "bold": true
+                  },
+                  "compId": 166
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -28,
+                    "x": 62.212890625,
+                    "width": 134,
+                    "visible": false,
+                    "var": "Countdown",
+                    "skin": "res_view/children/frame_common_title02.png",
+                    "height": 26
+                  },
+                  "compId": 299,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 5,
+                        "x": 43.962890625,
+                        "var": "countdowntime",
+                        "text": "02:53",
+                        "fontSize": 18,
+                        "font": "Microsoft YaHei",
+                        "color": "#3bae46"
+                      },
+                      "compId": 300
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 1031,
+                "x": 558,
+                "visible": false,
+                "var": "autogrow",
+                "skin": "res_view/children/bg_zn.png"
+              },
+              "compId": 21,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -2,
+                    "x": 0,
+                    "visible": true,
+                    "skin": "res_view/children/bg_entry02.png"
+                  },
+                  "compId": 22
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -8,
+                    "x": -3,
+                    "visible": false,
+                    "skin": "res_view/children/bg_entry01.png"
+                  },
+                  "compId": 23
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 3,
+                    "x": 40,
+                    "skin": "res_view/children/text_yjpy.png"
+                  },
+                  "compId": 24
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -4,
+                    "x": 153,
+                    "skin": "res_view/children/btn_card_prompt.png"
+                  },
+                  "compId": 25
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 438,
+                "x": 54,
+                "visible": false,
+                "var": "quality",
+                "skin": "res_view/children/icon_pingyong.png"
+              },
+              "compId": 12
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 80.5,
+                "x": 93,
+                "var": "attr",
+                "skin": "res_view/children/icon_zsxs.png"
+              },
+              "compId": 16
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 364,
+                "x": 220.5,
+                "width": 291,
+                "visible": false,
+                "var": "child_name",
+                "skin": "res_view/children/panel_mz.png",
+                "height": 65
+              },
+              "compId": 100,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 15,
+                    "x": 68,
+                    "width": 155,
+                    "var": "childname",
+                    "text": "名字最多六字",
+                    "height": 27,
+                    "fontSize": 30,
+                    "font": "SimHei",
+                    "color": "#ebd8aa",
+                    "align": "center"
+                  },
+                  "compId": 101
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 253,
+                "x": 75,
+                "width": 291,
+                "visible": false,
+                "var": "one_child_name",
+                "skin": "res_view/children/panel_mz.png",
+                "height": 65
+              },
+              "compId": 236,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 15,
+                    "x": 68,
+                    "width": 155,
+                    "var": "o_name",
+                    "text": "名字最多六字",
+                    "height": 27,
+                    "fontSize": 30,
+                    "font": "SimHei",
+                    "color": "#ebd8aa",
+                    "align": "center"
+                  },
+                  "compId": 237
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 325,
+                    "width": 291,
+                    "var": "two_child_name",
+                    "skin": "res_view/children/panel_mz.png",
+                    "height": 65
+                  },
+                  "compId": 238,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 15,
+                        "x": 68,
+                        "width": 155,
+                        "var": "t_name",
+                        "text": "名字最多六字",
+                        "height": 27,
+                        "fontSize": 30,
+                        "font": "SimHei",
+                        "color": "#ebd8aa",
+                        "align": "center"
+                      },
+                      "compId": 239
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 103,
+                "x": 630,
+                "var": "node_btn",
+                "skin": "res_view/children/icon_sm.png"
+              },
+              "compId": 294
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 260,
+                "x": 14,
+                "var": "dou_fc",
+                "skin": "res_view/children/text_fq.png"
+              },
+              "compId": 305,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 0,
+                    "x": 72,
+                    "var": "dou_fq_text",
+                    "underlineColor": "#ffffff",
+                    "underline": true,
+                    "text": "最多五个字",
+                    "stroke": 2,
+                    "fontSize": 29,
+                    "font": "SimHei",
+                    "color": "#ffffff",
+                    "bold": true
+                  },
+                  "compId": 306
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 209,
+                "x": 13,
+                "var": "dou_quality",
+                "skin": "res_view/children/text_nzz.png"
+              },
+              "compId": 303,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 70,
+                    "var": "dou_quality_image",
+                    "skin": "res_view/children/text_py.png"
+                  },
+                  "compId": 308
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 2,
+                    "x": 70,
+                    "width": 116,
+                    "visible": false,
+                    "var": "dou_quality_text",
+                    "text": "平庸",
+                    "stroke": 1,
+                    "height": 29,
+                    "fontSize": 24,
+                    "font": "SimHei",
+                    "color": "#00e626"
+                  },
+                  "compId": 304
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 182,
+            "x": 606,
+            "visible": true,
+            "var": "adult_children",
+            "skin": "res_view/lianyin/icon_znly.png"
+          },
+          "compId": 17,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 1,
+                "x": 82,
+                "visible": false,
+                "var": "adult_redpoint",
+                "skin": "res_common/redpoint.png",
+                "scaleY": 0.8,
+                "scaleX": 0.8
+              },
+              "compId": 316
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 603.5,
+            "x": 36,
+            "visible": false,
+            "var": "nochild_tip",
+            "skin": "res_common/panel_text.png"
+          },
+          "compId": 229,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "y": 14,
+                "x": 32,
+                "text": "暂无可培养的徒弟，可前往【宗门】收徒",
+                "strokeColor": "#000000",
+                "stroke": 1,
+                "fontSize": 30,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "bold": true
+              },
+              "compId": 231
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 15,
+                "x": 586,
+                "var": "jump",
+                "skin": "res_view/children/texe_qianwang.png"
+              },
+              "compId": 259
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 87,
+            "x": 264,
+            "width": 215,
+            "visible": false,
+            "var": "addgdbox",
+            "height": 49
+          },
+          "compId": 233,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": -6,
+                "x": -24,
+                "var": "gdani"
+              },
+              "compId": 254,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "width": 66,
+                    "skin": "res_view/platformFeatures/concern/icon_gongde.png",
+                    "height": 66
+                  },
+                  "compId": 234
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 22,
+                    "x": 64,
+                    "var": "addgd_text",
+                    "text": "+999",
+                    "strokeColor": "#000000",
+                    "stroke": 1,
+                    "fontSize": 30,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffd800",
+                    "bold": true
+                  },
+                  "compId": 235
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": -6,
+                "x": 126,
+                "var": "fqani"
+              },
+              "compId": 255,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "res_view/sg/panel_fq.png",
+                    "scaleY": 0.6,
+                    "scaleX": 0.6
+                  },
+                  "compId": 251,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 22,
+                        "x": 13,
+                        "skin": "res_view/sg/text_fq.png"
+                      },
+                      "compId": 252
+                    }
+                  ]
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "y": 22,
+                    "x": 36,
+                    "var": "addfqgd_text",
+                    "text": "+5",
+                    "strokeColor": "#000000",
+                    "stroke": 1,
+                    "fontSize": 30,
+                    "font": "Microsoft YaHei",
+                    "color": "#ffd800",
+                    "bold": true
+                  },
+                  "compId": 253
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "x": 0,
+            "width": 619,
+            "visible": false,
+            "var": "unlockbox",
+            "height": 457,
+            "centerY": -70,
+            "centerX": 0
+          },
+          "compId": 321,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -391,
+                "x": -66,
+                "width": 752,
+                "visible": false,
+                "var": "unlock_maskbg",
+                "skin": "res_common/bg.png",
+                "height": 1341,
+                "alpha": 0.45
+              },
+              "compId": 322
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0
+              },
+              "compId": 323,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "var": "unlock_bg",
+                    "skin": "res_view/equipDetail/panel_2.png"
+                  },
+                  "compId": 324
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 91.5,
+                    "x": 174,
+                    "skin": "netRes/task/bg_title01.png"
+                  },
+                  "compId": 325
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 96,
+                    "x": 271,
+                    "skin": "res_view/children/title_jiesuo.png"
+                  },
+                  "compId": 326
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 171,
+                    "x": 213.5,
+                    "skin": "res_view/children/text_jsygpyw.png"
+                  },
+                  "compId": 327
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 230,
+                    "x": 225.5,
+                    "skin": "res_view/children/bg_house_Information.png"
+                  },
+                  "compId": 328,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -6,
+                        "x": -10,
+                        "skin": "res_view/children/icon_yuanbao 拷贝 4.png"
+                      },
+                      "compId": 329
+                    },
+                    {
+                      "type": "FontClip",
+                      "props": {
+                        "y": -1,
+                        "x": 54,
+                        "var": "unlocknum",
+                        "value": "1000",
+                        "spaceX": -5,
+                        "skin": "res_common/number/num_23_jxzk_f2ece1.png",
+                        "sheet": "0123456789",
+                        "align": "center"
+                      },
+                      "compId": 330
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 344,
+                    "x": 349,
+                    "width": 211,
+                    "var": "unlock_btn",
+                    "skin": "res_common/btn_yellow.png",
+                    "pivotY": 57,
+                    "pivotX": 146,
+                    "height": 72,
+                    "alpha": 1
+                  },
+                  "compId": 331,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 21,
+                        "x": 53,
+                        "skin": "res_view/children/txt_jiesuo.png",
+                        "scaleY": 1.1,
+                        "scaleX": 1.1
+                      },
+                      "compId": 332
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 408,
+                    "x": 175,
+                    "visible": false,
+                    "skin": "res_view/rank/text_djgb.png"
+                  },
+                  "compId": 333
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "List",
+      "props": {
+        "y": 1076,
+        "x": 22,
+        "width": 716,
+        "var": "childList",
+        "spaceX": 22,
+        "repeatY": 1,
+        "repeatX": 5,
+        "height": 134
+      },
+      "compId": 48,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "y": 13,
+            "x": 6,
+            "width": 119,
+            "var": "chillditem",
+            "renderType": "render",
+            "height": 120
+          },
+          "compId": 50,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -9,
+                "x": -9,
+                "width": 139,
+                "skin": "res_view/hero/label_now_2.png",
+                "name": "xuanzhong ",
+                "height": 139
+              },
+              "compId": 60
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -2,
+                "x": -2,
+                "width": 125,
+                "skin": "res_common/solt_hero_purple.png",
+                "name": "item_bg",
+                "height": 125
+              },
+              "compId": 59
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 10,
+                "x": 10,
+                "name": "item_childimage"
+              },
+              "compId": 66,
+              "child": [
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": -1,
+                    "x": 0,
+                    "visible": false,
+                    "renderType": "mask"
+                  },
+                  "compId": 225,
+                  "child": [
+                    {
+                      "type": "Circle",
+                      "props": {
+                        "y": 50,
+                        "x": 50,
+                        "radius": 46,
+                        "lineWidth": 1,
+                        "fillColor": "#ff0000"
+                      },
+                      "compId": 228
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 36,
+                "x": 37,
+                "skin": "res_view/children/text_kong.png",
+                "name": "item_null"
+              },
+              "compId": 61
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 73.5,
+                "x": -20.5,
+                "skin": "res_view/children/frame_main_title.png",
+                "name": "item_dcm"
+              },
+              "compId": 62,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 17,
+                    "x": 44.5,
+                    "skin": "res_view/children/text_dcm.png"
+                  },
+                  "compId": 63
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 38.5,
+                "x": -20.5,
+                "skin": "res_view/children/frame_main_title.png",
+                "name": "item_djs"
+              },
+              "compId": 64,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 14,
+                    "x": 27,
+                    "skin": "res_view/children/texe_djjs.png"
+                  },
+                  "compId": 65
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 36,
+                "x": 23.5,
+                "skin": "res_view/children/img_CP_lock02.png",
+                "name": "item_lock"
+              },
+              "compId": 180
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 73,
+                "x": -20,
+                "skin": "res_view/children/frame_main_title.png",
+                "name": "item_dgy"
+              },
+              "compId": 241,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 17,
+                    "x": 44.5,
+                    "skin": "res_view/children/texe_dgy.png"
+                  },
+                  "compId": 242
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -3,
+                "x": 76,
+                "visible": false,
+                "skin": "main/redpoint.png",
+                "name": "redPoint"
+              },
+              "compId": 301
+            },
+            {
+              "type": "Rect",
+              "props": {
+                "y": 0,
+                "x": -4,
+                "width": 129,
+                "renderType": "hit",
+                "lineWidth": 1,
+                "height": 123,
+                "fillColor": "#ff0000"
+              },
+              "compId": 320
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "var": "lockFunctionBox",
+        "top": 0,
+        "right": 0,
+        "left": 0,
+        "bottom": 0
+      },
+      "compId": 334,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "top": 0,
+            "skin": "loading/bg.png",
+            "right": 0,
+            "left": 0,
+            "bottom": 0,
+            "alpha": 0.5
+          },
+          "compId": 335
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 476,
+            "x": 177,
+            "text": "「师徒之缘，尚待机缘」",
+            "fontSize": 36,
+            "font": "SimHei",
+            "color": "#ffffff"
+          },
+          "compId": 337
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 553,
+            "x": 190,
+            "text": "解锁条件：",
+            "fontSize": 25,
+            "font": "SimHei",
+            "color": "#ffffff"
+          },
+          "compId": 338
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 553,
+            "x": 318,
+            "var": "unlockCondition1",
+            "text": "建立【宗门】   (0/1)",
+            "fontSize": 25,
+            "font": "SimHei",
+            "color": "#ff0008"
+          },
+          "compId": 339
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 591,
+            "x": 318,
+            "var": "unlockCondition2",
+            "text": "完成收徒第一天 (0/1)",
+            "fontSize": 25,
+            "font": "SimHei",
+            "color": "#01e406"
+          },
+          "compId": 342
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 233,
+          "keyframes": {
+            "y": [
+              {
+                "value": 87,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 233,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 48,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 233,
+                "key": "y",
+                "index": 10
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 233,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 233,
+                "key": "alpha",
+                "index": 5
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 233,
+                "key": "alpha",
+                "index": 10
+              }
+            ]
+          }
+        }
+      ],
+      "name": "addgongde",
+      "id": 1,
+      "frameRate": 24,
+      "action": 0
+    }
+  ],
+  "loadList": ["res_view/children/bg.png", "res_common/solt_hero_purple.png"],
+  "loadList3D": []
+}

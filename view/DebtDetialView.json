@@ -1,0 +1,299 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1633,
+        "centerY": 0,
+        "centerX": 0,
+        "alpha": 0.6
+      },
+      "compId": 25
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "mouseThrough": true,
+        "mouseEnabled": true,
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 9,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "y": 61,
+            "x": -55,
+            "name": "panel",
+            "mouseEnabled": false
+          },
+          "compId": 27,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -12,
+                "x": 588,
+                "skin": "res_common/img_sz_1.png"
+              },
+              "compId": 220
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 1,
+                "x": 0,
+                "width": 861,
+                "skin": "res_view/manual/panel_tujianzzz.png",
+                "sizeGrid": "113,0,23,0",
+                "height": 1211
+              },
+              "compId": 12
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 134,
+                "x": 71,
+                "width": 723,
+                "skin": "res_view/manual/img_tujiandiban.png",
+                "sizeGrid": "372,0,322,0",
+                "height": 1063
+              },
+              "compId": 13
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 1205,
+                "skin": "res_common/text_djgb.png",
+                "name": "img_blankClose",
+                "centerX": -1
+              },
+              "compId": 17
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": -17,
+                "x": 682,
+                "texture": "res_common/img_pellet_01.png"
+              },
+              "compId": 222
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -7,
+                "x": 710,
+                "var": "closeBtn",
+                "skin": "res_common/btn_close.png",
+                "label": "label"
+              },
+              "compId": 19,
+              "child": [
+                {
+                  "type": "Rect",
+                  "props": {
+                    "y": -19,
+                    "x": 0,
+                    "width": 100,
+                    "renderType": "hit",
+                    "lineWidth": 1,
+                    "height": 115,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 225
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Rect",
+          "props": {
+            "y": 92,
+            "x": 18,
+            "width": 718,
+            "renderType": "hit",
+            "lineWidth": 1,
+            "height": 1164,
+            "fillColor": "#ff0000"
+          },
+          "compId": 217
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "var": "viewPage",
+            "mouseThrough": true,
+            "mouseEnabled": true
+          },
+          "compId": 215
+        },
+        {
+          "type": "List",
+          "props": {
+            "y": 105,
+            "x": 49,
+            "width": 414,
+            "var": "tabList",
+            "spaceX": 8,
+            "selectedIndex": 2,
+            "selectEnable": true,
+            "repeatY": 1,
+            "repeatX": 3,
+            "mouseThrough": false,
+            "mouseEnabled": true,
+            "height": 109
+          },
+          "compId": 18,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 3,
+                "x": 64,
+                "width": 128,
+                "scaleY": 1,
+                "scaleX": 1,
+                "renderType": "render",
+                "mouseThrough": true,
+                "mouseEnabled": true,
+                "height": 101,
+                "anchorY": 0,
+                "anchorX": 0.5
+              },
+              "compId": 20,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 48,
+                    "x": 326,
+                    "width": 128,
+                    "skin": "res_view/manual/btn_1_2.png",
+                    "scaleY": 1.05,
+                    "scaleX": 1.05,
+                    "name": "tabBg",
+                    "height": 76,
+                    "centerX": 0,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 21
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 36,
+                    "x": 287,
+                    "skin": "res_view/sg/text_fq_s.png",
+                    "name": "img_txtType",
+                    "centerX": -1
+                  },
+                  "compId": 22
+                },
+                {
+                  "type": "Sprite",
+                  "props": {
+                    "y": -4,
+                    "x": 103,
+                    "visible": false,
+                    "texture": "main/redpoint.png",
+                    "name": "redPoint"
+                  },
+                  "compId": 23
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 70,
+                    "x": 266,
+                    "visible": false,
+                    "skin": "res_view/sg/img_fenyejiantou.png",
+                    "name": "jiantou",
+                    "centerX": 9
+                  },
+                  "compId": 30
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 619,
+            "x": 693,
+            "var": "turnRight",
+            "skin": "res_view/manual/btn_next.png"
+          },
+          "compId": 226,
+          "child": [
+            {
+              "type": "Rect",
+              "props": {
+                "y": -34,
+                "x": -12,
+                "width": 100,
+                "renderType": "hit",
+                "lineWidth": 1,
+                "height": 135,
+                "fillColor": "#ff0000"
+              },
+              "compId": 229
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 619,
+            "x": 13,
+            "var": "turnLeft",
+            "skin": "res_view/manual/btn_prev.png"
+          },
+          "compId": 227,
+          "child": [
+            {
+              "type": "Rect",
+              "props": {
+                "y": -34,
+                "x": -40,
+                "width": 100,
+                "renderType": "hit",
+                "lineWidth": 1,
+                "height": 135,
+                "fillColor": "#ff0000"
+              },
+              "compId": 230
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "res_view/manual/panel_tujianzzz.png",
+    "res_view/manual/img_tujiandiban.png",
+    "res_common/img_pellet_01.png",
+    "main/redpoint.png"
+  ],
+  "loadList3D": []
+}

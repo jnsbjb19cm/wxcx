@@ -1,0 +1,147 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": false,
+    "height": 1334,
+    "drawCallOptimize": true,
+    "autoDestroyAtClosed": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 750,
+        "var": "UnLockBox",
+        "name": "UnLockBox",
+        "height": 1334
+      },
+      "compId": 771,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 613,
+            "x": 384,
+            "width": 1000,
+            "skin": "res_common/bg.png",
+            "name": "black",
+            "height": 1937,
+            "anchorY": 0.5,
+            "anchorX": 0.5,
+            "alpha": 0.6
+          },
+          "compId": 772
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 150,
+            "x": 0,
+            "width": 750,
+            "name": "Bg",
+            "height": 1334,
+            "alpha": 1
+          },
+          "compId": 773,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 202,
+                "x": 98,
+                "skin": "res_view/haream/text_title_jsxsf.png",
+                "name": "Title"
+              },
+              "compId": 775
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 324.5,
+                "x": 192.5,
+                "var": "img_build",
+                "scaleY": 0.7,
+                "scaleX": 0.7,
+                "pivotX": 14,
+                "name": "img_build"
+              },
+              "compId": 776
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 737,
+                "x": 21,
+                "width": 711,
+                "var": "RewBg",
+                "skin": "res_common/panel_text.png",
+                "sizeGrid": "13,0,8,0",
+                "name": "RewBg",
+                "height": 276
+              },
+              "compId": 774
+            },
+            {
+              "type": "Text",
+              "props": {
+                "y": 761,
+                "x": 152,
+                "width": 445,
+                "var": "Name",
+                "valign": "top",
+                "text": "宗门主峰",
+                "stroke": 4,
+                "name": "Name",
+                "height": 406,
+                "fontSize": 69,
+                "font": "SimHei",
+                "color": "#ffffff",
+                "align": "center",
+                "runtime": "Laya.Text"
+              },
+              "compId": 806
+            },
+            {
+              "type": "Text",
+              "props": {
+                "y": 889,
+                "x": 56,
+                "wordWrap": true,
+                "width": 640,
+                "var": "Describe",
+                "text": "描述",
+                "stroke": 3,
+                "name": "Describe",
+                "height": 317,
+                "fontSize": 31,
+                "font": "SimHei",
+                "color": "#ffffff",
+                "align": "center",
+                "runtime": "Laya.Text"
+              },
+              "compId": 805
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": -286,
+            "x": -187,
+            "width": 1176,
+            "var": "ClickBox",
+            "name": "ClickBox",
+            "height": 1693
+          },
+          "compId": 802
+        }
+      ]
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

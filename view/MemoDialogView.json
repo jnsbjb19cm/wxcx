@@ -1,0 +1,370 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": -145,
+        "x": -125,
+        "width": 1000,
+        "var": "maskbg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "alpha": 0.6
+      },
+      "compId": 4
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "height": 1334,
+        "centerY": -40,
+        "centerX": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 230,
+            "width": 598,
+            "skin": "res_view/beauty/panel_xj.png",
+            "sizeGrid": "196,0,100,0",
+            "mouseEnabled": true,
+            "height": 955,
+            "centerX": 0
+          },
+          "compId": 5
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 347,
+            "x": 82,
+            "skin": "res_view/beauty/bg_xiaoji_white.png"
+          },
+          "compId": 85
+        },
+        {
+          "type": "HBox",
+          "props": {
+            "y": 372,
+            "x": 128,
+            "space": 10,
+            "height": 32,
+            "centerX": -156
+          },
+          "compId": 40,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "var": "nameImg"
+              },
+              "compId": 19
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -9,
+                "x": 109,
+                "width": 99,
+                "var": "lv",
+                "skin": "res_view/beauty/icon_banlv.png",
+                "scaleY": 0.73,
+                "scaleX": 0.73,
+                "height": 74
+              },
+              "compId": 41
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 370,
+            "width": 150,
+            "skin": "res_view/beauty/panel_ax_xj.png",
+            "sizeGrid": "0,59,0,52",
+            "right": 85
+          },
+          "compId": 39,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -9,
+                "x": -12,
+                "width": 57,
+                "var": "love",
+                "skin": "res_common/icon_hgd.png",
+                "left": -12,
+                "height": 54
+              },
+              "compId": 20
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": -12,
+                "var": "loveNum",
+                "value": "5555",
+                "spaceX": -17,
+                "skin": "res_common/number/num_37_jxzk_ffffff_gt.png",
+                "sheet": "0123456789",
+                "scaleY": 1,
+                "scaleX": 1,
+                "centerY": -2,
+                "centerX": 6
+              },
+              "compId": 21
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "width": 750,
+            "var": "uiBox",
+            "height": 1334
+          },
+          "compId": 86
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "width": 750,
+            "name": "staic",
+            "height": 1206
+          },
+          "compId": 10,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 1067,
+                "skin": "res_view/beauty/panel_mask.png",
+                "centerX": 1
+              },
+              "compId": 9
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 1207,
+                "x": 240,
+                "text": "text",
+                "skin": "res_common/text_djgb.png"
+              },
+              "compId": 16
+            }
+          ]
+        },
+        {
+          "type": "FontClip",
+          "props": {
+            "y": 1124,
+            "var": "hasNum",
+            "value": "1/8",
+            "spaceX": -15,
+            "skin": "res_common/number/num_26_jxzk_5c3c39.png",
+            "sheet": "0123456789/",
+            "right": 108
+          },
+          "compId": 56,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 4,
+                "skin": "res_view/beauty/text_sjd.png",
+                "left": -88
+              },
+              "compId": 55,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -15,
+                    "x": -58,
+                    "skin": "res_view/beauty/btn_xj_s.png"
+                  },
+                  "compId": 54,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -5.5,
+                        "x": 32.5,
+                        "visible": false,
+                        "skin": "res_common/redpoint.png",
+                        "scaleY": 0.7,
+                        "scaleX": 0.7,
+                        "name": "redPoint"
+                      },
+                      "compId": 89
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Rect",
+              "props": {
+                "y": -9,
+                "x": -145,
+                "width": 197,
+                "renderType": "hit",
+                "lineWidth": 1,
+                "height": 50,
+                "fillColor": "#ff0000"
+              },
+              "compId": 57
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 286,
+            "x": 295,
+            "visible": false,
+            "var": "xiaojibtn",
+            "skin": "res_view/beauty/brn_anxia.png"
+          },
+          "compId": 58,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 18,
+                "x": 31,
+                "skin": "res_view/beauty/text_xj.png"
+              },
+              "compId": 59
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -8,
+                "x": 146.5,
+                "skin": "res_common/redpoint.png",
+                "scaleY": 0.8,
+                "scaleX": 0.8,
+                "name": "redPoint"
+              },
+              "compId": 80
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 286,
+            "x": 483,
+            "visible": false,
+            "var": "huigu",
+            "skin": "res_view/beauty/brn_anxia.png"
+          },
+          "compId": 90,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 18,
+                "x": 31,
+                "skin": "res_view/beauty/text_jq.png"
+              },
+              "compId": 91
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -8,
+                "x": 146.5,
+                "visible": false,
+                "skin": "res_common/redpoint.png",
+                "scaleY": 0.8,
+                "scaleX": 0.8,
+                "name": "redPoint"
+              },
+              "compId": 92
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 286,
+            "x": 106,
+            "visible": false,
+            "var": "cybtn",
+            "skin": "res_view/beauty/brn_wanxia.png"
+          },
+          "compId": 60,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 15.5,
+                "x": 32,
+                "skin": "res_view/beauty/text_cy.png"
+              },
+              "compId": 61
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": -8,
+                "x": 146,
+                "skin": "res_common/redpoint.png",
+                "scaleY": 0.8,
+                "scaleX": 0.8,
+                "name": "redPoint"
+              },
+              "compId": 81
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "width": 750,
+            "var": "botClose",
+            "height": 500,
+            "centerX": 0,
+            "bottom": -350
+          },
+          "compId": 88
+        },
+        {
+          "type": "Image",
+          "props": {
+            "width": 750,
+            "var": "topClose",
+            "top": -283,
+            "height": 500,
+            "centerX": 0
+          },
+          "compId": 87
+        }
+      ]
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

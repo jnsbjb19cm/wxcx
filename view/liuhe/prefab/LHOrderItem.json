@@ -1,0 +1,264 @@
+{
+  "type": "Box",
+  "props": {
+    "y": 0,
+    "x": 0,
+    "width": 250,
+    "presetID": 1,
+    "name": "LHOrderItem",
+    "isPresetRoot": true,
+    "height": 425
+  },
+  "compId": 69,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "visible": false,
+        "top": 0,
+        "right": 0,
+        "presetID": 4,
+        "name": "orderContent",
+        "left": 0,
+        "bottom": 0
+      },
+      "compId": 76,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "width": 250,
+            "var": "spineBox",
+            "presetID": 2,
+            "height": 425
+          },
+          "compId": 73
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 79,
+            "x": 130,
+            "width": 110,
+            "presetID": 5,
+            "name": "studentBg",
+            "height": 110
+          },
+          "compId": 77,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 20,
+                "width": 110,
+                "skin": "netRes/liuhe/ui2/frame_daily_bottom02.png",
+                "presetID": 20,
+                "name": "2",
+                "height": 110,
+                "alpha": 0
+              },
+              "compId": 92
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 10,
+                "width": 110,
+                "skin": "netRes/liuhe/ui2/frame_daily_bottom02.png",
+                "presetID": 21,
+                "name": "1",
+                "height": 110,
+                "alpha": 0
+              },
+              "compId": 93
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 110,
+                "skin": "netRes/liuhe/ui2/frame_daily_bottom02.png",
+                "presetID": 22,
+                "name": "0",
+                "height": 110,
+                "alpha": 0
+              },
+              "compId": 94
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 87,
+            "x": 138,
+            "width": 94,
+            "presetID": 6,
+            "name": "studentSpineBox",
+            "height": 94,
+            "alpha": 0
+          },
+          "compId": 79
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 200,
+        "visible": false,
+        "presetID": 8,
+        "name": "coinContent",
+        "height": 160,
+        "centerX": 0,
+        "bottom": 0
+      },
+      "compId": 81,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 4,
+            "x": 53,
+            "skin": "netRes/liuhe/ui2/bg_friend_Join.png",
+            "presetID": 9,
+            "name": "btn"
+          },
+          "compId": 80,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 116,
+                "x": 2,
+                "skin": "netRes/liuhe/ui2/frame_shop_black.png",
+                "presetID": 18
+              },
+              "compId": 90
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 108,
+                "x": 2,
+                "skin": "netRes/liuhe/ui2/img_tongqian.png",
+                "presetID": 10
+              },
+              "compId": 82
+            },
+            {
+              "type": "FontClip",
+              "props": {
+                "y": 112,
+                "value": "0",
+                "text": "100",
+                "strokeColor": "4D3131",
+                "stroke": 4,
+                "spaceX": -4,
+                "skin": "netRes/liuhe/ui2/num_24_jxzk_ffffff.png",
+                "sheet": "0123456789+-*/:.",
+                "presetID": 11,
+                "name": "price",
+                "fontSize": 30,
+                "color": "#ffffff",
+                "centerX": 11
+              },
+              "compId": 83
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 200,
+        "visible": false,
+        "presetID": 12,
+        "name": "adContent",
+        "height": 160,
+        "centerX": 0,
+        "bottom": 0
+      },
+      "compId": 84,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 4,
+            "x": 38,
+            "skin": "netRes/liuhe/ui2/bg_friend_Join.png",
+            "presetID": 13,
+            "name": "btn"
+          },
+          "compId": 85,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 116,
+                "x": 2,
+                "skin": "netRes/liuhe/ui2/frame_shop_black.png",
+                "presetID": 19
+              },
+              "compId": 91
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 116,
+                "x": 11,
+                "width": 31,
+                "skin": "netRes/liuhe/ui2/icon_ad1.png",
+                "presetID": 14,
+                "height": 26
+              },
+              "compId": 86
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 114,
+                "text": "解锁",
+                "strokeColor": "4D3131",
+                "stroke": 4,
+                "skin": "netRes/liuhe/ui2/texe_ggjs.png",
+                "presetID": 15,
+                "fontSize": 30,
+                "font": "Microsoft YaHei",
+                "color": "#ffffff",
+                "centerX": 14
+              },
+              "compId": 87
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Script",
+      "props": {
+        "studentSpineBox": "@node:79",
+        "studentBg": "@node:77",
+        "spineBox": "@node:73",
+        "price": "@node:83",
+        "presetID": 16,
+        "orderPro": "@node:78",
+        "orderImg": "@node:79",
+        "orderContent": "@node:76",
+        "container": "@node:72",
+        "coinContent": "@node:81",
+        "adContent": "@node:84",
+        "runtime": "gameplay/liuhe/prefab/LHOrderItem.ts"
+      },
+      "compId": 88
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

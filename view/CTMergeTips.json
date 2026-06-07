@@ -1,0 +1,140 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "mouseThrough": true,
+    "height": 1344,
+    "drawCallOptimize": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 672,
+        "x": 375,
+        "width": 1000,
+        "var": "maskBg",
+        "skin": "res_common/bg.png",
+        "height": 1625,
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "alpha": 0.6
+      },
+      "compId": 58
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "var": "contentBox",
+        "height": 609,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "visible": true,
+            "var": "tips",
+            "skin": "viewPanel/settlement/win_dia.png",
+            "centerY": -12,
+            "centerX": 0,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 116
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 122,
+          "keyframes": {
+            "x": [
+              {
+                "value": 150,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 150,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "x",
+                "index": 50
+              }
+            ],
+            "text": [
+              {
+                "value": "5",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 0
+              },
+              {
+                "value": "4",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 10
+              },
+              {
+                "value": "3",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 20
+              },
+              {
+                "value": "2",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 30
+              },
+              {
+                "value": "1",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 122,
+                "key": "text",
+                "index": 40
+              },
+              {
+                "value": "0",
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 122,
+                "key": "text",
+                "index": 50
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani",
+      "id": 1,
+      "frameRate": 10,
+      "action": 0
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

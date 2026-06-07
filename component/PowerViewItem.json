@@ -1,0 +1,870 @@
+{
+  "type": "BaseDynamicUI",
+  "props": {
+    "y": 0,
+    "x": 0,
+    "width": 750,
+    "mouseThrough": true,
+    "mouseEnabled": true,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "var": "powerDetail",
+        "mouseThrough": true,
+        "mouseEnabled": true,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 5,
+      "child": [
+        {
+          "type": "Panel",
+          "props": {
+            "y": 207,
+            "x": 25,
+            "width": 700,
+            "height": 1051
+          },
+          "compId": 402,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": -2,
+                "width": 704,
+                "skin": "res_view/sg/bg_sl.png",
+                "rotation": 0,
+                "height": 1030
+              },
+              "compId": 282
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "width": 750,
+            "var": "powersBox",
+            "mouseThrough": true,
+            "mouseEnabled": true,
+            "height": 1334
+          },
+          "compId": 21,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 487,
+                "x": 151,
+                "presetID": 1,
+                "name": "powerItem_2",
+                "width": 120,
+                "isPresetRoot": true,
+                "height": 120,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 441,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 2,
+                    "y": 60,
+                    "x": 60,
+                    "width": 118,
+                    "name": "icon",
+                    "height": 119,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 442
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 5,
+                    "y": 1,
+                    "x": 73,
+                    "skin": "res_common/redpoint.png",
+                    "name": "redPoint"
+                  },
+                  "compId": 445
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "presetID": 6,
+                    "y": 84,
+                    "value": "12",
+                    "spaceX": -15,
+                    "skin": "res_common/number/num_22_wryh_ead3a3_pjt_stk_2.png",
+                    "sheet": "0123456789",
+                    "name": "lv",
+                    "centerX": -8
+                  },
+                  "compId": 446
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 7,
+                    "y": 86.5,
+                    "skin": "res_view/sg/text_slmj.png",
+                    "name": "maxLv",
+                    "centerX": 0
+                  },
+                  "compId": 447
+                },
+                {
+                  "type": "Circle",
+                  "props": {
+                    "presetID": 8,
+                    "y": 59,
+                    "x": 59,
+                    "renderType": "hit",
+                    "radius": 55,
+                    "lineWidth": 1,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 448
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 562,
+                "x": 225,
+                "presetID": 1,
+                "name": "powerItem_6",
+                "width": 120,
+                "isPresetRoot": true,
+                "height": 120,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 440,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 2,
+                    "y": 60,
+                    "x": 60,
+                    "width": 118,
+                    "name": "icon",
+                    "height": 119,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 414
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 5,
+                    "y": 1,
+                    "x": 73,
+                    "skin": "res_common/redpoint.png",
+                    "name": "redPoint"
+                  },
+                  "compId": 417
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "presetID": 6,
+                    "y": 84,
+                    "value": "12",
+                    "spaceX": -15,
+                    "skin": "res_common/number/num_22_wryh_ead3a3_pjt_stk_2.png",
+                    "sheet": "0123456789",
+                    "name": "lv",
+                    "centerX": -8
+                  },
+                  "compId": 418
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 7,
+                    "y": 86.5,
+                    "skin": "res_view/sg/text_slmj.png",
+                    "name": "maxLv",
+                    "centerX": 0
+                  },
+                  "compId": 421
+                },
+                {
+                  "type": "Circle",
+                  "props": {
+                    "presetID": 8,
+                    "y": 59,
+                    "x": 59,
+                    "renderType": "hit",
+                    "radius": 55,
+                    "lineWidth": 1,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 422
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 638,
+                "x": 151,
+                "presetID": 1,
+                "name": "powerItem_4",
+                "width": 120,
+                "isPresetRoot": true,
+                "height": 120,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 432,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 2,
+                    "y": 60,
+                    "x": 60,
+                    "width": 118,
+                    "name": "icon",
+                    "height": 119,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 433
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 5,
+                    "y": 1,
+                    "x": 73,
+                    "skin": "res_common/redpoint.png",
+                    "name": "redPoint"
+                  },
+                  "compId": 436
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "presetID": 6,
+                    "y": 84,
+                    "value": "12",
+                    "spaceX": -15,
+                    "skin": "res_common/number/num_22_wryh_ead3a3_pjt_stk_2.png",
+                    "sheet": "0123456789",
+                    "name": "lv",
+                    "centerX": -8
+                  },
+                  "compId": 437
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 7,
+                    "y": 86.5,
+                    "skin": "res_view/sg/text_slmj.png",
+                    "name": "maxLv",
+                    "centerX": 0
+                  },
+                  "compId": 438
+                },
+                {
+                  "type": "Circle",
+                  "props": {
+                    "presetID": 8,
+                    "y": 59,
+                    "x": 59,
+                    "renderType": "hit",
+                    "radius": 55,
+                    "lineWidth": 1,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 439
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 484,
+                "x": 600,
+                "width": 120,
+                "presetID": 1,
+                "pivotY": 60,
+                "pivotX": 60,
+                "name": "powerItem_5",
+                "height": 120,
+                "isPresetRoot": true,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 449,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 2,
+                    "y": 60,
+                    "x": 60,
+                    "width": 118,
+                    "name": "icon",
+                    "height": 119,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 450
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 5,
+                    "y": 1,
+                    "x": 73,
+                    "skin": "res_common/redpoint.png",
+                    "name": "redPoint"
+                  },
+                  "compId": 453
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "presetID": 6,
+                    "y": 84,
+                    "value": "12",
+                    "spaceX": -15,
+                    "skin": "res_common/number/num_22_wryh_ead3a3_pjt_stk_2.png",
+                    "sheet": "0123456789",
+                    "name": "lv",
+                    "centerX": -8
+                  },
+                  "compId": 454
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 7,
+                    "y": 86.5,
+                    "skin": "res_view/sg/text_slmj.png",
+                    "name": "maxLv",
+                    "centerX": 0
+                  },
+                  "compId": 455
+                },
+                {
+                  "type": "Circle",
+                  "props": {
+                    "presetID": 8,
+                    "y": 59,
+                    "x": 59,
+                    "renderType": "hit",
+                    "radius": 55,
+                    "lineWidth": 1,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 456
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 559,
+                "x": 525,
+                "presetID": 1,
+                "name": "powerItem_1",
+                "width": 120,
+                "isPresetRoot": true,
+                "height": 120,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 457,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 2,
+                    "y": 60,
+                    "x": 60,
+                    "width": 118,
+                    "name": "icon",
+                    "height": 119,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 458
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 5,
+                    "y": 1,
+                    "x": 73,
+                    "skin": "res_common/redpoint.png",
+                    "name": "redPoint"
+                  },
+                  "compId": 461
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "presetID": 6,
+                    "y": 84,
+                    "value": "12",
+                    "spaceX": -15,
+                    "skin": "res_common/number/num_22_wryh_ead3a3_pjt_stk_2.png",
+                    "sheet": "0123456789",
+                    "name": "lv",
+                    "centerX": -8
+                  },
+                  "compId": 462
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 7,
+                    "y": 86.5,
+                    "skin": "res_view/sg/text_slmj.png",
+                    "name": "maxLv",
+                    "centerX": 0
+                  },
+                  "compId": 463
+                },
+                {
+                  "type": "Circle",
+                  "props": {
+                    "presetID": 8,
+                    "y": 59,
+                    "x": 59,
+                    "renderType": "hit",
+                    "radius": 55,
+                    "lineWidth": 1,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 464
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 635,
+                "x": 600,
+                "presetID": 1,
+                "name": "powerItem_3",
+                "width": 120,
+                "isPresetRoot": true,
+                "height": 120,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 465,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 2,
+                    "y": 60,
+                    "x": 60,
+                    "width": 118,
+                    "name": "icon",
+                    "height": 119,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 466
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 5,
+                    "y": 1,
+                    "x": 73,
+                    "skin": "res_common/redpoint.png",
+                    "name": "redPoint"
+                  },
+                  "compId": 469
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "presetID": 6,
+                    "y": 84,
+                    "value": "12",
+                    "spaceX": -15,
+                    "skin": "res_common/number/num_22_wryh_ead3a3_pjt_stk_2.png",
+                    "sheet": "0123456789",
+                    "name": "lv",
+                    "centerX": -8
+                  },
+                  "compId": 470
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 7,
+                    "y": 86.5,
+                    "skin": "res_view/sg/text_slmj.png",
+                    "name": "maxLv",
+                    "centerX": 0
+                  },
+                  "compId": 471
+                },
+                {
+                  "type": "Circle",
+                  "props": {
+                    "presetID": 8,
+                    "y": 59,
+                    "x": 59,
+                    "renderType": "hit",
+                    "radius": 55,
+                    "lineWidth": 1,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 472
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 710,
+                "x": 374,
+                "presetID": 1,
+                "name": "powerItem_10",
+                "width": 120,
+                "isPresetRoot": true,
+                "height": 120,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 473,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 2,
+                    "y": 60,
+                    "x": 60,
+                    "width": 118,
+                    "name": "icon",
+                    "height": 119,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 474
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 5,
+                    "y": 1,
+                    "x": 73,
+                    "skin": "res_common/redpoint.png",
+                    "name": "redPoint"
+                  },
+                  "compId": 477
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "presetID": 6,
+                    "y": 84,
+                    "value": "12",
+                    "spaceX": -15,
+                    "skin": "res_common/number/num_22_wryh_ead3a3_pjt_stk_2.png",
+                    "sheet": "0123456789",
+                    "name": "lv",
+                    "centerX": -8
+                  },
+                  "compId": 478
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 7,
+                    "y": 86.5,
+                    "skin": "res_view/sg/text_slmj.png",
+                    "name": "maxLv",
+                    "centerX": 0
+                  },
+                  "compId": 479
+                },
+                {
+                  "type": "Circle",
+                  "props": {
+                    "presetID": 8,
+                    "y": 59,
+                    "x": 59,
+                    "renderType": "hit",
+                    "radius": 55,
+                    "lineWidth": 1,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 480
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 785,
+                "x": 450,
+                "presetID": 1,
+                "name": "powerItem_9",
+                "width": 120,
+                "isPresetRoot": true,
+                "height": 120,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 489,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 2,
+                    "y": 60,
+                    "x": 60,
+                    "width": 118,
+                    "name": "icon",
+                    "height": 119,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 490
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 5,
+                    "y": 1,
+                    "x": 73,
+                    "skin": "res_common/redpoint.png",
+                    "name": "redPoint"
+                  },
+                  "compId": 493
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "presetID": 6,
+                    "y": 84,
+                    "value": "12",
+                    "spaceX": -15,
+                    "skin": "res_common/number/num_22_wryh_ead3a3_pjt_stk_2.png",
+                    "sheet": "0123456789",
+                    "name": "lv",
+                    "centerX": -8
+                  },
+                  "compId": 494
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 7,
+                    "y": 86.5,
+                    "skin": "res_view/sg/text_slmj.png",
+                    "name": "maxLv",
+                    "centerX": 0
+                  },
+                  "compId": 495
+                },
+                {
+                  "type": "Circle",
+                  "props": {
+                    "presetID": 8,
+                    "y": 59,
+                    "x": 59,
+                    "renderType": "hit",
+                    "radius": 55,
+                    "lineWidth": 1,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 496
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 786,
+                "x": 298,
+                "presetID": 1,
+                "name": "powerItem_7",
+                "width": 120,
+                "isPresetRoot": true,
+                "height": 120,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 481,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 2,
+                    "y": 60,
+                    "x": 60,
+                    "width": 118,
+                    "name": "icon",
+                    "height": 119,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 482
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 5,
+                    "y": 1,
+                    "x": 73,
+                    "skin": "res_common/redpoint.png",
+                    "name": "redPoint"
+                  },
+                  "compId": 485
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "presetID": 6,
+                    "y": 84,
+                    "value": "12",
+                    "spaceX": -15,
+                    "skin": "res_common/number/num_22_wryh_ead3a3_pjt_stk_2.png",
+                    "sheet": "0123456789",
+                    "name": "lv",
+                    "centerX": -8
+                  },
+                  "compId": 486
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 7,
+                    "y": 86.5,
+                    "skin": "res_view/sg/text_slmj.png",
+                    "name": "maxLv",
+                    "centerX": 0
+                  },
+                  "compId": 487
+                },
+                {
+                  "type": "Circle",
+                  "props": {
+                    "presetID": 8,
+                    "y": 59,
+                    "x": 59,
+                    "renderType": "hit",
+                    "radius": 55,
+                    "lineWidth": 1,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 488
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 861,
+                "x": 374,
+                "presetID": 1,
+                "name": "powerItem_8",
+                "width": 120,
+                "isPresetRoot": true,
+                "height": 120,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 497,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 2,
+                    "y": 60,
+                    "x": 60,
+                    "width": 118,
+                    "name": "icon",
+                    "height": 119,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 498
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 5,
+                    "y": 1,
+                    "x": 73,
+                    "skin": "res_common/redpoint.png",
+                    "name": "redPoint"
+                  },
+                  "compId": 501
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "presetID": 6,
+                    "y": 84,
+                    "value": "12",
+                    "spaceX": -15,
+                    "skin": "res_common/number/num_22_wryh_ead3a3_pjt_stk_2.png",
+                    "sheet": "0123456789",
+                    "name": "lv",
+                    "centerX": -8
+                  },
+                  "compId": 502
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "presetID": 7,
+                    "y": 86.5,
+                    "skin": "res_view/sg/text_slmj.png",
+                    "name": "maxLv",
+                    "centerX": 0
+                  },
+                  "compId": 503
+                },
+                {
+                  "type": "Circle",
+                  "props": {
+                    "presetID": 8,
+                    "y": 59,
+                    "x": 59,
+                    "renderType": "hit",
+                    "radius": 55,
+                    "lineWidth": 1,
+                    "fillColor": "#ff0000"
+                  },
+                  "compId": 504
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": ["prefab/powerItem.prefab"],
+  "loadList3D": []
+}

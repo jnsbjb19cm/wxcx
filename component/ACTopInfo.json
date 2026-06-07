@@ -1,0 +1,1177 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 166,
+    "drawCallOptimize": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 20,
+        "x": 0,
+        "var": "returnBtn",
+        "stateNum": 1,
+        "skin": "res_combat/arena/icon_return.png",
+        "label": "label"
+      },
+      "compId": 66
+    },
+    {
+      "type": "Sprite",
+      "props": {
+        "y": 13,
+        "x": 299,
+        "var": "avator"
+      },
+      "compId": 67,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "y": 81,
+            "x": 80,
+            "width": 140,
+            "scaleY": 1,
+            "renderType": "render",
+            "pivotY": 70,
+            "pivotX": 70,
+            "height": 140
+          },
+          "compId": 74,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 150,
+                "x": 70,
+                "presetID": 1,
+                "skin": "res_common/solt_hero_blue.png",
+                "isPresetRoot": true,
+                "anchorY": 1,
+                "anchorX": 0.5
+              },
+              "compId": 75,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 156,
+                    "x": 70,
+                    "presetID": 3,
+                    "name": "heroIcon",
+                    "anchorY": 1,
+                    "anchorX": 0.5
+                  },
+                  "compId": 76
+                }
+              ]
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 58,
+                "x": 20,
+                "visible": false,
+                "texture": "res_combat/public/text_evo.png"
+              },
+              "compId": 77
+            }
+          ]
+        },
+        {
+          "type": "Sprite",
+          "props": {
+            "y": 120,
+            "x": 11.5,
+            "texture": "res_combat/public/bar_exp_empty.png"
+          },
+          "compId": 78
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 125,
+            "x": 12,
+            "skin": "res_combat/public/bar_exp.png",
+            "sizeGrid": "0,19,0,11",
+            "scaleX": 1,
+            "name": "heroLvPro",
+            "height": 22
+          },
+          "compId": 79
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 127,
+            "x": 41,
+            "width": 81,
+            "text": "等级 0",
+            "name": "heroLvLab",
+            "height": 18,
+            "fontSize": 18,
+            "font": "SimHei",
+            "color": "#ffffff",
+            "bold": true,
+            "align": "center"
+          },
+          "compId": 80
+        }
+      ]
+    },
+    {
+      "type": "Sprite",
+      "props": {
+        "y": 42,
+        "x": 28,
+        "var": "skill"
+      },
+      "compId": 68,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 50,
+            "x": 70,
+            "var": "heroSkill1",
+            "skin": "res_combat/public/panel_skill.png"
+          },
+          "compId": 81,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "width": 50,
+                "var": "skillIcon1",
+                "height": 50,
+                "centerY": 0,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 82,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -9,
+                    "x": -9,
+                    "skin": "res_combat/public/panel_skill.png",
+                    "renderType": "mask"
+                  },
+                  "compId": 83
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 34,
+                "x": 35,
+                "visible": false,
+                "skin": "res_combat/public/efx_skill_available.png",
+                "rotation": 360,
+                "name": "ligth",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 84
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 50,
+            "x": 153,
+            "var": "heroSkill2",
+            "skin": "res_combat/public/panel_skill.png"
+          },
+          "compId": 85,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "width": 50,
+                "var": "skillIcon2",
+                "height": 50,
+                "gray": true,
+                "centerY": 0,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 86,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -9,
+                    "x": -9,
+                    "skin": "res_combat/public/panel_skill.png",
+                    "renderType": "mask"
+                  },
+                  "compId": 87
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 34,
+                "x": 35,
+                "visible": false,
+                "skin": "res_combat/public/efx_skill_available.png",
+                "rotation": 360,
+                "name": "light",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 88
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 10,
+                "x": 12,
+                "var": "skill2Lock",
+                "texture": "res_common/lock1.png"
+              },
+              "compId": 89
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 50,
+            "x": 237,
+            "visible": false,
+            "var": "heroSkill3",
+            "skin": "res_combat/public/panel_skill.png"
+          },
+          "compId": 106,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "width": 50,
+                "var": "skillIcon3",
+                "height": 50,
+                "gray": true,
+                "centerY": 0,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 107,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -9,
+                    "x": -9,
+                    "skin": "res_combat/public/panel_skill.png",
+                    "renderType": "mask"
+                  },
+                  "compId": 108
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 34,
+                "x": 35,
+                "visible": false,
+                "skin": "res_combat/public/efx_skill_available.png",
+                "rotation": 360,
+                "name": "light",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 109
+            },
+            {
+              "type": "Sprite",
+              "props": {
+                "y": 10,
+                "x": 12,
+                "var": "skill3Lock",
+                "texture": "res_common/lock1.png"
+              },
+              "compId": 110
+            }
+          ]
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 72,
+            "x": 150,
+            "visible": false,
+            "var": "skillName",
+            "text": "技能名称",
+            "fontSize": 24,
+            "font": "SimHei",
+            "color": "#ffffff",
+            "bold": true
+          },
+          "compId": 98
+        }
+      ]
+    },
+    {
+      "type": "Sprite",
+      "props": {
+        "y": 45,
+        "x": 114,
+        "var": "life",
+        "texture": "res_combat/public/icon_hp.png"
+      },
+      "compId": 69,
+      "child": [
+        {
+          "type": "Label",
+          "props": {
+            "y": 5.25,
+            "x": 63,
+            "text": "100",
+            "name": "heroHpLab",
+            "fontSize": 24,
+            "font": "Microsoft YaHei",
+            "color": "#000000",
+            "bold": true
+          },
+          "compId": 90,
+          "child": [
+            {
+              "type": "Rect",
+              "props": {
+                "y": -24,
+                "x": -72,
+                "width": 172,
+                "renderType": "hit",
+                "lineWidth": 1,
+                "height": 58,
+                "fillColor": "#ff0000"
+              },
+              "compId": 91
+            }
+          ]
+        },
+        {
+          "type": "Label",
+          "props": {
+            "y": 6.25,
+            "x": 119.40234375,
+            "visible": false,
+            "text": "-5",
+            "name": "subHpLab",
+            "fontSize": 20,
+            "font": "Microsoft YaHei",
+            "color": "#c51512",
+            "bold": true
+          },
+          "compId": 92
+        }
+      ]
+    },
+    {
+      "type": "Sprite",
+      "props": {
+        "y": 29,
+        "x": 501,
+        "width": 68,
+        "var": "money",
+        "texture": "netRes/arenaN/icon_lingshi.png",
+        "height": 68
+      },
+      "compId": 70,
+      "child": [
+        {
+          "type": "Label",
+          "props": {
+            "y": 20,
+            "x": 78,
+            "text": "0",
+            "name": "coin",
+            "fontSize": 24,
+            "font": "Microsoft YaHei",
+            "color": "#000000",
+            "bold": true
+          },
+          "compId": 93,
+          "child": [
+            {
+              "type": "Rect",
+              "props": {
+                "y": -17,
+                "x": -72,
+                "width": 172,
+                "renderType": "hit",
+                "lineWidth": 1,
+                "height": 58,
+                "fillColor": "#ff0000"
+              },
+              "compId": 94
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Sprite",
+      "props": {
+        "y": 101,
+        "x": 499,
+        "var": "popular",
+        "texture": "res_combat/public/icon_population.png"
+      },
+      "compId": 71,
+      "child": [
+        {
+          "type": "Label",
+          "props": {
+            "y": 17,
+            "x": 82,
+            "text": "0/0",
+            "name": "popularLvLab",
+            "fontSize": 24,
+            "font": "Microsoft YaHei",
+            "color": "#000000",
+            "bold": true
+          },
+          "compId": 95,
+          "child": [
+            {
+              "type": "Rect",
+              "props": {
+                "y": -24,
+                "x": -72,
+                "width": 172,
+                "renderType": "hit",
+                "lineWidth": 1,
+                "height": 58,
+                "fillColor": "#ff0000"
+              },
+              "compId": 96
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Button",
+      "props": {
+        "y": 68,
+        "x": 660,
+        "visible": false,
+        "var": "doubleSpdBtn",
+        "stateNum": 1,
+        "skin": "res_combat/arena/btn_battle_2.png"
+      },
+      "compId": 73
+    },
+    {
+      "type": "Script",
+      "props": {
+        "zmShopBtn2": "@node:100",
+        "zmShopBtn1": "@node:99",
+        "y": 0,
+        "x": 0,
+        "subHpLabel": "@node:92",
+        "skillName": "@node:98",
+        "skillLight3": "@node:109",
+        "skillLight2": "@node:88",
+        "skillLight1": "@node:84",
+        "skillLight": "@node:84",
+        "skillIcon3": "@node:107",
+        "skillIcon2": "@node:86",
+        "skillIcon1": "@node:82",
+        "skillIcon": "@node:82",
+        "returnBtn": "@node:66",
+        "popularLabel": "@node:95",
+        "heroSkill3": "@node:106",
+        "heroSkill2": "@node:85",
+        "heroSkill1": "@node:81",
+        "heroSkill": "@node:81",
+        "heroLvPro": "@node:79",
+        "heroLvLabel": "@node:80",
+        "heroIcon": "@node:76",
+        "heroHpLabel": "@node:90",
+        "curGold": "@node:93",
+        "curCoin": "@node:93",
+        "runtime": "game/script/arena/ACTopInfo.ts"
+      },
+      "compId": 53
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 84,
+          "keyframes": {
+            "x": [
+              {
+                "value": 35,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 84,
+                "label": null,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 84,
+                "label": null,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 84,
+                "label": null,
+                "key": "alpha",
+                "index": 15
+              },
+              {
+                "value": 0.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 84,
+                "label": null,
+                "key": "alpha",
+                "index": 30
+              }
+            ]
+          }
+        }
+      ],
+      "name": "skillLightAni1",
+      "id": 1,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 77,
+          "keyframes": {
+            "y": [
+              {
+                "value": 76,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 77,
+                "label": null,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 56,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 77,
+                "label": null,
+                "key": "y",
+                "index": 8
+              },
+              {
+                "value": 56,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 77,
+                "label": null,
+                "key": "y",
+                "index": 19
+              },
+              {
+                "value": 36,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 77,
+                "label": null,
+                "key": "y",
+                "index": 30
+              }
+            ],
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 77,
+                "label": null,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 77,
+                "label": null,
+                "key": "visible",
+                "index": 33
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 77,
+                "label": null,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 77,
+                "label": null,
+                "key": "alpha",
+                "index": 8
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 77,
+                "label": null,
+                "key": "alpha",
+                "index": 19
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 77,
+                "label": null,
+                "key": "alpha",
+                "index": 30
+              }
+            ]
+          }
+        }
+      ],
+      "name": "upLvAni",
+      "id": 2,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 90,
+          "keyframes": {
+            "x": [
+              {
+                "value": 70,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 90,
+                "label": null,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 70,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "label": null,
+                "index": 25
+              }
+            ],
+            "color": [
+              {
+                "value": "#000000",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "label": null,
+                "index": 0
+              },
+              {
+                "value": "#000000",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "label": null,
+                "index": 25
+              },
+              {
+                "value": "#ff0000",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "label": null,
+                "index": 33
+              },
+              {
+                "value": "#000000",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "label": null,
+                "index": 38
+              }
+            ]
+          }
+        },
+        {
+          "target": 92,
+          "keyframes": {
+            "y": [
+              {
+                "value": 11.25,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "label": null,
+                "index": 0
+              },
+              {
+                "value": 7.25,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "label": null,
+                "index": 6
+              },
+              {
+                "value": 7.25,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "label": null,
+                "index": 20
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "label": null,
+                "index": 27
+              }
+            ],
+            "x": [
+              {
+                "value": 122,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 92,
+                "label": null,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 122,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "label": null,
+                "index": 6
+              },
+              {
+                "value": 122,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "label": null,
+                "index": 20
+              },
+              {
+                "value": 122,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "label": null,
+                "index": 27
+              }
+            ],
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "label": null,
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "label": null,
+                "index": 30
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "label": null,
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "label": null,
+                "index": 6
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "label": null,
+                "index": 20
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "label": null,
+                "index": 27
+              }
+            ]
+          }
+        }
+      ],
+      "name": "subHpAni",
+      "id": 3,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 90,
+          "keyframes": {
+            "x": [
+              {
+                "value": 70,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 90,
+                "label": null,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 70,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 90,
+                "label": null,
+                "key": "x",
+                "index": 25
+              }
+            ],
+            "color": [
+              {
+                "value": "#000000",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 90,
+                "label": null,
+                "key": "color",
+                "index": 0
+              },
+              {
+                "value": "#000000",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 90,
+                "label": null,
+                "key": "color",
+                "index": 25
+              },
+              {
+                "value": "#00ff00",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 90,
+                "label": null,
+                "key": "color",
+                "index": 33
+              },
+              {
+                "value": "#000000",
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 90,
+                "label": null,
+                "key": "color",
+                "index": 38
+              }
+            ]
+          }
+        },
+        {
+          "target": 92,
+          "keyframes": {
+            "y": [
+              {
+                "value": 11.25,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 92,
+                "label": null,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 7.25,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 92,
+                "label": null,
+                "key": "y",
+                "index": 6
+              },
+              {
+                "value": 7.25,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 92,
+                "label": null,
+                "key": "y",
+                "index": 20
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 92,
+                "label": null,
+                "key": "y",
+                "index": 27
+              }
+            ],
+            "x": [
+              {
+                "value": 122,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 92,
+                "label": null,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 122,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 92,
+                "label": null,
+                "key": "x",
+                "index": 6
+              },
+              {
+                "value": 122,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 92,
+                "label": null,
+                "key": "x",
+                "index": 20
+              },
+              {
+                "value": 122,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 92,
+                "label": null,
+                "key": "x",
+                "index": 27
+              }
+            ],
+            "visible": [
+              {
+                "value": true,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 92,
+                "label": null,
+                "key": "visible",
+                "index": 0
+              },
+              {
+                "value": false,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 92,
+                "label": null,
+                "key": "visible",
+                "index": 29
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 92,
+                "label": null,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 92,
+                "label": null,
+                "key": "alpha",
+                "index": 6
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 92,
+                "label": null,
+                "key": "alpha",
+                "index": 20
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 92,
+                "label": null,
+                "key": "alpha",
+                "index": 27
+              }
+            ]
+          }
+        }
+      ],
+      "name": "addHpAni",
+      "id": 3,
+      "frameRate": 30,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 88,
+          "keyframes": {
+            "x": [
+              {
+                "value": 35,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 88,
+                "label": null,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 88,
+                "label": null,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 88,
+                "label": null,
+                "key": "alpha",
+                "index": 15
+              },
+              {
+                "value": 0.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 88,
+                "label": null,
+                "key": "alpha",
+                "index": 30
+              }
+            ]
+          }
+        }
+      ],
+      "name": "skillLightAni2",
+      "id": 4,
+      "frameRate": 24,
+      "action": 0
+    },
+    {
+      "nodes": [
+        {
+          "target": 109,
+          "keyframes": {
+            "x": [
+              {
+                "value": 35,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 109,
+                "label": null,
+                "key": "x",
+                "index": 0
+              }
+            ],
+            "alpha": [
+              {
+                "value": 0.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 109,
+                "label": null,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 109,
+                "label": null,
+                "key": "alpha",
+                "index": 15
+              },
+              {
+                "value": 0.5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 109,
+                "label": null,
+                "key": "alpha",
+                "index": 30
+              }
+            ]
+          }
+        }
+      ],
+      "name": "skillLightAni3",
+      "id": 4,
+      "frameRate": 24,
+      "action": 0
+    }
+  ],
+  "loadList": [
+    "prefab/HeroIcon.prefab",
+    "res_combat/public/text_evo.png",
+    "res_combat/public/bar_exp_empty.png",
+    "res_common/lock1.png",
+    "res_combat/public/icon_hp.png",
+    "netRes/arenaN/icon_lingshi.png",
+    "res_combat/public/icon_population.png"
+  ],
+  "loadList3D": []
+}

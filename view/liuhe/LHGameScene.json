@@ -1,0 +1,1111 @@
+{
+  "type": "Scene",
+  "props": {
+    "width": 750,
+    "runtime": "gameplay/liuhe/LHGameScene.ts",
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "width": 750,
+        "height": 1334,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 8,
+      "child": [
+        {
+          "type": "Panel",
+          "props": {
+            "top": 0,
+            "right": 0,
+            "name": "topBg",
+            "left": 0,
+            "height": 425
+          },
+          "compId": 7,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -7,
+                "skin": "netRes/liuhe/ui2/img_bg.png",
+                "centerX": -1
+              },
+              "compId": 9
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 0,
+            "var": "orderNode",
+            "right": 0,
+            "name": "orderNode",
+            "left": 0,
+            "height": 425
+          },
+          "compId": 68
+        },
+        {
+          "type": "Panel",
+          "props": {
+            "y": 0,
+            "var": "topBg2",
+            "top": 0,
+            "right": 0,
+            "name": "topBg2",
+            "left": 0,
+            "height": 425
+          },
+          "compId": 198,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 375,
+                "skin": "netRes/liuhe/ui2/bg_climb_tower01.png",
+                "name": "door1",
+                "anchorX": 1
+              },
+              "compId": 201
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 375,
+                "skin": "netRes/liuhe/ui2/bg_climb_tower02.png",
+                "name": "door2"
+              },
+              "compId": 202
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 424,
+            "x": -5,
+            "skin": "netRes/liuhe/ui2/img_taimian.png",
+            "name": "bg",
+            "centerX": -1
+          },
+          "compId": 3
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 435,
+            "x": 0,
+            "width": 750,
+            "name": "main",
+            "height": 600
+          },
+          "compId": 16,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "width": 750,
+                "name": "bg",
+                "height": 600
+              },
+              "compId": 17
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 750,
+                "var": "posBox",
+                "height": 600
+              },
+              "compId": 102,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 15,
+                    "x": 25,
+                    "visible": false,
+                    "skin": "netRes/liuhe/ui2/img_1-1.png",
+                    "name": "1-1"
+                  },
+                  "compId": 104
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 13,
+                    "x": 201,
+                    "visible": false,
+                    "skin": "netRes/liuhe/ui2/img_2-1.png",
+                    "name": "1-2"
+                  },
+                  "compId": 110
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 13,
+                    "x": 380,
+                    "visible": false,
+                    "skin": "netRes/liuhe/ui2/img_3-1.png",
+                    "name": "1-3"
+                  },
+                  "compId": 116
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 14,
+                    "x": 554,
+                    "visible": false,
+                    "skin": "netRes/liuhe/ui2/img_4-1.png",
+                    "name": "1-4"
+                  },
+                  "compId": 122
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 107,
+                    "x": 22,
+                    "visible": false,
+                    "skin": "netRes/liuhe/ui2/img_1-2.png",
+                    "name": "2-1"
+                  },
+                  "compId": 105
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 105,
+                    "x": 200,
+                    "visible": false,
+                    "skin": "netRes/liuhe/ui2/img_2-2.png",
+                    "name": "2-2"
+                  },
+                  "compId": 111
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 106,
+                    "x": 380,
+                    "visible": false,
+                    "skin": "netRes/liuhe/ui2/img_3-2.png",
+                    "name": "2-3"
+                  },
+                  "compId": 117
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 106,
+                    "x": 556,
+                    "visible": false,
+                    "skin": "netRes/liuhe/ui2/img_4-2.png",
+                    "name": "2-4"
+                  },
+                  "compId": 123
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 198,
+                    "x": 19,
+                    "visible": false,
+                    "skin": "netRes/liuhe/ui2/img_1-3.png",
+                    "name": "3-1"
+                  },
+                  "compId": 106
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 197,
+                    "x": 199,
+                    "visible": false,
+                    "skin": "netRes/liuhe/ui2/img_2-3.png",
+                    "name": "3-2"
+                  },
+                  "compId": 112
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 198,
+                    "x": 380,
+                    "visible": false,
+                    "skin": "netRes/liuhe/ui2/img_3-3.png",
+                    "name": "3-3"
+                  },
+                  "compId": 118
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 198,
+                    "x": 559,
+                    "visible": false,
+                    "skin": "netRes/liuhe/ui2/img_4-3.png",
+                    "name": "3-4"
+                  },
+                  "compId": 124
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 295,
+                    "x": 16,
+                    "visible": false,
+                    "skin": "netRes/liuhe/ui2/img_1-4.png",
+                    "name": "4-1"
+                  },
+                  "compId": 107
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 293,
+                    "x": 198,
+                    "visible": false,
+                    "skin": "netRes/liuhe/ui2/img_2-4.png",
+                    "name": "4-2"
+                  },
+                  "compId": 113
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 293,
+                    "x": 380,
+                    "visible": false,
+                    "skin": "netRes/liuhe/ui2/img_3-4.png",
+                    "name": "4-3"
+                  },
+                  "compId": 119
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 293,
+                    "x": 559,
+                    "visible": false,
+                    "skin": "netRes/liuhe/ui2/img_4-4.png",
+                    "name": "4-4"
+                  },
+                  "compId": 125
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 396,
+                    "x": 12,
+                    "visible": false,
+                    "skin": "netRes/liuhe/ui2/img_1-5.png",
+                    "name": "5-1"
+                  },
+                  "compId": 108
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 396,
+                    "x": 197,
+                    "visible": false,
+                    "skin": "netRes/liuhe/ui2/img_2-5.png",
+                    "name": "5-2"
+                  },
+                  "compId": 114
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 396,
+                    "x": 380,
+                    "visible": false,
+                    "skin": "netRes/liuhe/ui2/img_3-5.png",
+                    "name": "5-3"
+                  },
+                  "compId": 120
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 395,
+                    "x": 561,
+                    "visible": false,
+                    "skin": "netRes/liuhe/ui2/img_4-5.png",
+                    "name": "5-4"
+                  },
+                  "compId": 126
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 495,
+                    "x": 7,
+                    "visible": false,
+                    "skin": "netRes/liuhe/ui2/img_1-6.png",
+                    "name": "6-1"
+                  },
+                  "compId": 109
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 495,
+                    "x": 195,
+                    "visible": false,
+                    "skin": "netRes/liuhe/ui2/img_2-6.png",
+                    "name": "6-2"
+                  },
+                  "compId": 115
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 494,
+                    "x": 381,
+                    "visible": false,
+                    "skin": "netRes/liuhe/ui2/img_3-6.png",
+                    "name": "6-3"
+                  },
+                  "compId": 121
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 494,
+                    "x": 563,
+                    "visible": false,
+                    "skin": "netRes/liuhe/ui2/img_4-6.png",
+                    "name": "6-4"
+                  },
+                  "compId": 128
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 300,
+                "x": 375,
+                "width": 750,
+                "var": "chessBoard",
+                "height": 600,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "compId": 18,
+              "child": [
+                {
+                  "type": "Box",
+                  "props": {
+                    "var": "bgNode",
+                    "top": 0,
+                    "right": 0,
+                    "left": 0,
+                    "bottom": 0
+                  },
+                  "compId": 19
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "var": "wrapper",
+                    "top": 0,
+                    "right": 0,
+                    "left": 0,
+                    "bottom": 0
+                  },
+                  "compId": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 0,
+            "width": 750,
+            "right": 0,
+            "name": "top",
+            "left": 0,
+            "height": 70
+          },
+          "compId": 94,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 75,
+                "var": "closeBtn",
+                "height": 75
+              },
+              "compId": 95,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 4,
+                    "x": 10,
+                    "skin": "netRes/liuhe/ui2/btn_fanhui.png"
+                  },
+                  "compId": 96
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 16,
+                "x": 105,
+                "skin": "netRes/liuhe/ui2/panel_ccy.png"
+              },
+              "compId": 97,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -12.5,
+                    "x": -12,
+                    "skin": "netRes/liuhe/ui2/solt_ccy.png"
+                  },
+                  "compId": 143
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -6,
+                    "x": -6,
+                    "var": "coinImg",
+                    "skin": "netRes/liuhe/ui2/img_tongqian.png"
+                  },
+                  "compId": 144
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 2,
+                    "x": 131,
+                    "var": "coinNum",
+                    "value": "0",
+                    "text": "0",
+                    "spaceX": -5,
+                    "skin": "res_common/number/num_24_rhrc_f1efe0.png",
+                    "sheet": "0123456789+-*/:.",
+                    "right": 9,
+                    "fontSize": 30,
+                    "color": "#ffffff",
+                    "bold": true
+                  },
+                  "compId": 98
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 15,
+                "x": 289,
+                "skin": "netRes/liuhe/ui2/panel_ccy.png"
+              },
+              "compId": 99,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 4,
+                    "x": 30,
+                    "width": 0,
+                    "var": "orderPro",
+                    "skin": "netRes/liuhe/ui2/bar_vip_exp.png",
+                    "sizeGrid": "0,12,0,0",
+                    "height": 26
+                  },
+                  "compId": 147
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -19,
+                    "x": -19,
+                    "skin": "netRes/liuhe/ui2/dl_icon_yhzx.png"
+                  },
+                  "compId": 146
+                },
+                {
+                  "type": "FontClip",
+                  "props": {
+                    "y": 2,
+                    "var": "orderNum",
+                    "value": "0/0",
+                    "text": "0/0",
+                    "spaceX": -5,
+                    "skin": "res_common/number/num_24_rhrc_f1efe0.png",
+                    "sheet": "0123456789+-*/:.",
+                    "fontSize": 30,
+                    "color": "#ffffff",
+                    "centerX": 14,
+                    "bold": true
+                  },
+                  "compId": 100
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "x": 0,
+            "width": 750,
+            "name": "bottom",
+            "height": 290,
+            "bottom": 0
+          },
+          "compId": 14,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": -2,
+                "x": -5,
+                "skin": "netRes/liuhe/ui2/img_zhuozi.png",
+                "name": "bg"
+              },
+              "compId": 6
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 0,
+                "width": 649,
+                "var": "provide",
+                "height": 125,
+                "centerX": 0
+              },
+              "compId": 21
+            },
+            {
+              "type": "Box",
+              "props": {
+                "width": 712,
+                "var": "skillWrapper",
+                "name": "skillWrapper",
+                "height": 150,
+                "centerX": 0,
+                "bottom": 0
+              },
+              "compId": 55,
+              "child": [
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 4,
+                    "width": 220,
+                    "var": "removeOne",
+                    "height": 150
+                  },
+                  "compId": 61,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 10,
+                        "x": 3,
+                        "skin": "netRes/liuhe/ui2/btn_recharge_icon1.png"
+                      },
+                      "compId": 62
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 12,
+                        "x": 51,
+                        "skin": "netRes/liuhe/ui2/img_ycyc.png",
+                        "name": "icon"
+                      },
+                      "compId": 63
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 7,
+                        "x": 3,
+                        "visible": false,
+                        "skin": "netRes/liuhe/ui2/icon_ad.png",
+                        "name": "adIcon"
+                      },
+                      "compId": 31
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 3,
+                        "x": 4,
+                        "visible": false,
+                        "skin": "netRes/liuhe/ui2/redpoint_2.png",
+                        "name": "numBox"
+                      },
+                      "compId": 135,
+                      "child": [
+                        {
+                          "type": "FontClip",
+                          "props": {
+                            "y": 6,
+                            "width": 15,
+                            "value": "0",
+                            "spaceX": -5,
+                            "skin": "netRes/liuhe/ui2/num_24_jxzk_ffffff_stk_2.png",
+                            "sheet": "0123456789",
+                            "name": "num",
+                            "height": 29,
+                            "centerX": -3
+                          },
+                          "compId": 136
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 248,
+                    "width": 220,
+                    "var": "refreshProvide",
+                    "height": 150
+                  },
+                  "compId": 129,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 10,
+                        "x": 3,
+                        "skin": "netRes/liuhe/ui2/btn_recharge_icon1.png"
+                      },
+                      "compId": 130
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 19,
+                        "x": 50,
+                        "skin": "netRes/liuhe/ui2/img_ghyp.png",
+                        "name": "icon"
+                      },
+                      "compId": 131
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 7,
+                        "x": 3,
+                        "visible": false,
+                        "skin": "netRes/liuhe/ui2/icon_ad.png",
+                        "name": "adIcon"
+                      },
+                      "compId": 132
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 3,
+                        "x": 4,
+                        "visible": false,
+                        "skin": "netRes/liuhe/ui2/redpoint_2.png",
+                        "name": "numBox"
+                      },
+                      "compId": 133,
+                      "child": [
+                        {
+                          "type": "FontClip",
+                          "props": {
+                            "y": 6,
+                            "width": 15,
+                            "value": "0",
+                            "spaceX": -5,
+                            "skin": "netRes/liuhe/ui2/num_24_jxzk_ffffff_stk_2.png",
+                            "sheet": "0123456789",
+                            "name": "num",
+                            "height": 29,
+                            "centerX": -3
+                          },
+                          "compId": 134
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 0,
+                    "x": 490,
+                    "width": 220,
+                    "var": "removeColumn",
+                    "height": 150
+                  },
+                  "compId": 137,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 10,
+                        "x": 3,
+                        "skin": "netRes/liuhe/ui2/btn_recharge_icon1.png"
+                      },
+                      "compId": 138
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 12,
+                        "x": 50,
+                        "skin": "netRes/liuhe/ui2/img_qcyl.png",
+                        "name": "icon"
+                      },
+                      "compId": 139
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 7,
+                        "x": 3,
+                        "visible": false,
+                        "skin": "netRes/liuhe/ui2/icon_ad.png",
+                        "name": "adIcon"
+                      },
+                      "compId": 140
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 3,
+                        "x": 4,
+                        "visible": false,
+                        "skin": "netRes/liuhe/ui2/redpoint_2.png",
+                        "name": "numBox"
+                      },
+                      "compId": 141,
+                      "child": [
+                        {
+                          "type": "FontClip",
+                          "props": {
+                            "y": 6,
+                            "width": 15,
+                            "value": "0",
+                            "spaceX": -5,
+                            "skin": "netRes/liuhe/ui2/num_24_jxzk_ffffff_stk_2.png",
+                            "sheet": "0123456789",
+                            "name": "num",
+                            "height": 29,
+                            "centerX": -3
+                          },
+                          "compId": 142
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "visible": false,
+                "var": "removeColumnNode",
+                "right": 0,
+                "mouseThrough": false,
+                "left": 0,
+                "height": 120
+              },
+              "compId": 89,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 21,
+                    "x": 64,
+                    "skin": "netRes/liuhe/ui2/btn_friend_refuse.png"
+                  },
+                  "compId": 90
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 21,
+                    "x": 248,
+                    "skin": "netRes/liuhe/ui2/btn_friend_refuse.png"
+                  },
+                  "compId": 91
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 21,
+                    "x": 432,
+                    "skin": "netRes/liuhe/ui2/btn_friend_refuse.png"
+                  },
+                  "compId": 92
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 21,
+                    "x": 617,
+                    "skin": "netRes/liuhe/ui2/btn_friend_refuse.png"
+                  },
+                  "compId": 93
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "width": 750,
+                "visible": false,
+                "var": "skillUseBox",
+                "right": 0,
+                "left": 0,
+                "height": 164,
+                "bottom": 0
+              },
+              "compId": 204,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 17,
+                    "x": 704,
+                    "var": "exitSkillUse",
+                    "skin": "netRes/liuhe/ui2/btn_common_close01.png",
+                    "label": "label"
+                  },
+                  "compId": 205
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 80,
+                    "visible": false,
+                    "text": "text",
+                    "skin": "netRes/liuhe/ui2/text_xzxyycdyc.png",
+                    "name": "1",
+                    "centerX": 1
+                  },
+                  "compId": 206
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 80,
+                    "x": 212,
+                    "visible": false,
+                    "text": "text",
+                    "skin": "netRes/liuhe/ui2/text_xzxyycdyl.png",
+                    "name": "3"
+                  },
+                  "compId": 207
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Box",
+          "props": {
+            "var": "mergeAnimWrapper",
+            "top": 0,
+            "right": 0,
+            "left": 0,
+            "bottom": 0
+          },
+          "compId": 67
+        },
+        {
+          "type": "Image",
+          "props": {
+            "skin": "loading/panel_top.png",
+            "centerY": -745,
+            "centerX": 0
+          },
+          "compId": 196
+        },
+        {
+          "type": "Image",
+          "props": {
+            "skin": "loading/panel_buttom.png",
+            "centerY": 737,
+            "centerX": 0
+          },
+          "compId": 197
+        },
+        {
+          "type": "Box",
+          "props": {
+            "width": 750,
+            "visible": false,
+            "var": "guide",
+            "name": "guide",
+            "height": 1334
+          },
+          "compId": 209,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 871.1111111111111,
+                "x": 335.55555555555557,
+                "skin": "res_view/guide/yindao_shouzhi.png",
+                "scaleY": 0.8,
+                "scaleX": 0.8,
+                "pivotY": 40,
+                "pivotX": 43,
+                "name": "hand",
+                "alpha": 0
+              },
+              "compId": 211
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 211,
+          "keyframes": {
+            "y": [
+              {
+                "value": 1110,
+                "tweenMethod": "cubicInOut",
+                "tween": true,
+                "target": 211,
+                "key": "y",
+                "index": 0
+              },
+              {
+                "value": 680,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 211,
+                "key": "y",
+                "index": 24
+              },
+              {
+                "value": 680,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 211,
+                "key": "y",
+                "index": 28
+              },
+              {
+                "value": 1110,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 211,
+                "key": "y",
+                "index": 37
+              }
+            ],
+            "x": [
+              {
+                "value": 180,
+                "tweenMethod": "cubicInOut",
+                "tween": true,
+                "target": 211,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 460,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 211,
+                "key": "x",
+                "index": 24
+              },
+              {
+                "value": 460,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 211,
+                "key": "x",
+                "index": 28
+              },
+              {
+                "value": 180,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 211,
+                "key": "x",
+                "index": 37
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 211,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 1,
+                "tweenMethod": "cubicIn",
+                "tween": true,
+                "target": 211,
+                "key": "alpha",
+                "index": 24
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": false,
+                "target": 211,
+                "key": "alpha",
+                "index": 28
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 211,
+                "key": "alpha",
+                "index": 37
+              }
+            ]
+          }
+        }
+      ],
+      "name": "guideAni",
+      "id": 1,
+      "frameRate": 30,
+      "action": 0
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

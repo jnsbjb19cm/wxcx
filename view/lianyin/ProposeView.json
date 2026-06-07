@@ -1,0 +1,684 @@
+{
+  "type": "View",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "var": "tiqinview",
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 3,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": -1,
+            "x": 25,
+            "width": 881,
+            "var": "tiqin_maskbg",
+            "skin": "res_common/bg.png",
+            "height": 1342,
+            "alpha": 0.5
+          },
+          "compId": 4
+        },
+        {
+          "type": "Box",
+          "props": {
+            "y": 150,
+            "x": 79,
+            "width": 768,
+            "visible": true,
+            "height": 1102
+          },
+          "compId": 5,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 10,
+                "x": -40,
+                "width": 845,
+                "var": "tq_bg",
+                "skin": "res_view/children/img_zinv_title03.png",
+                "sizeGrid": "137,410,151,344",
+                "height": 1102
+              },
+              "compId": 6,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 145,
+                    "x": 38,
+                    "width": 759,
+                    "var": "showpanel",
+                    "skin": "res_view/children/panel_zinv_2.png",
+                    "sizeGrid": "3,3,3,3",
+                    "height": 816
+                  },
+                  "compId": 7
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 15,
+                    "x": 160,
+                    "skin": "res_view/lianyin/text_tq_bt.png"
+                  },
+                  "compId": 8
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 23,
+                    "x": 707,
+                    "var": "tq_close",
+                    "skin": "netRes/task/btn_close.png"
+                  },
+                  "compId": 9
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 160,
+                "x": -9,
+                "width": 779,
+                "var": "bfly",
+                "height": 806
+              },
+              "compId": 10,
+              "child": [
+                {
+                  "type": "Panel",
+                  "props": {
+                    "y": 4,
+                    "x": 26,
+                    "width": 721,
+                    "var": "bflylist",
+                    "height": 778
+                  },
+                  "compId": 11
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 788,
+                    "x": 655,
+                    "var": "refresh_btn",
+                    "skin": "res_view/lianyin/btn_house_Rotation02.png"
+                  },
+                  "compId": 17,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 64,
+                        "x": 13,
+                        "var": "refresh_num",
+                        "text": "2/10",
+                        "fontSize": 23,
+                        "font": "SimHei",
+                        "color": "#725958"
+                      },
+                      "compId": 31
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 32,
+                        "x": 44,
+                        "visible": false,
+                        "var": "adimg",
+                        "skin": "res_view/lianyin/icon_ad.png"
+                      },
+                      "compId": 33
+                    },
+                    {
+                      "type": "Label",
+                      "props": {
+                        "y": 64,
+                        "x": -14,
+                        "visible": false,
+                        "var": "adtext",
+                        "text": "刷新次数+5",
+                        "fontSize": 20,
+                        "font": "SimHei",
+                        "color": "#026200"
+                      },
+                      "compId": 34
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 822,
+                    "x": 31,
+                    "skin": "res_view/lianyin/text_lyhc.png"
+                  },
+                  "compId": 18
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "y": 151,
+                "x": 0,
+                "width": 762,
+                "visible": false,
+                "var": "zdly",
+                "height": 879
+              },
+              "compId": 12,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": -3,
+                    "skin": "res_view/lianyin/panel_ly.png"
+                  },
+                  "compId": 24,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 49,
+                        "x": -12,
+                        "skin": "res_view/lianyin/img_CP_big.png"
+                      },
+                      "compId": 25
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 17,
+                    "x": 240,
+                    "var": "zd_tjlb",
+                    "skin": "res_common/bg_title01.png"
+                  },
+                  "compId": 21,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 8.5,
+                        "x": 71,
+                        "var": "curlistname",
+                        "skin": "res_view/lianyin/text_tjlb.png"
+                      },
+                      "compId": 22
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 25,
+                    "x": 575,
+                    "var": "sjlb_btn",
+                    "skin": "res_view/lianyin/text_sjlb.png"
+                  },
+                  "compId": 23
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 506,
+                    "x": 76.5,
+                    "skin": "res_view/lianyin/img_hw.png"
+                  },
+                  "compId": 26
+                },
+                {
+                  "type": "TextInput",
+                  "props": {
+                    "y": 538,
+                    "x": 137,
+                    "width": 526,
+                    "var": "qsrbh",
+                    "valign": "middle",
+                    "skin": "res_view/lianyin/panel_qsrbh.png",
+                    "promptColor": "#b4a99b",
+                    "prompt": "  请输入玩家编号",
+                    "height": 49,
+                    "fontSize": 24,
+                    "font": "Microsoft YaHei",
+                    "color": "#b4a99b"
+                  },
+                  "compId": 27,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": -11,
+                        "x": 536,
+                        "var": "lock_btn",
+                        "skin": "res_view/lianyin/btn_CP_chakan.png"
+                      },
+                      "compId": 28
+                    }
+                  ]
+                },
+                {
+                  "type": "Panel",
+                  "props": {
+                    "y": 86,
+                    "x": 18,
+                    "width": 721,
+                    "var": "tj_list",
+                    "vScrollBarSkin": " ",
+                    "height": 399
+                  },
+                  "compId": 29
+                },
+                {
+                  "type": "List",
+                  "props": {
+                    "y": 606,
+                    "x": 18,
+                    "width": 719,
+                    "visible": false,
+                    "var": "wj_list",
+                    "vScrollBarSkin": " ",
+                    "height": 247
+                  },
+                  "compId": 30,
+                  "child": [
+                    {
+                      "type": "Box",
+                      "props": {
+                        "y": 0,
+                        "x": 0,
+                        "width": 679,
+                        "renderType": "render",
+                        "name": "box",
+                        "height": 146
+                      },
+                      "compId": 35,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 0,
+                            "x": 0,
+                            "width": 668,
+                            "skin": "res_view/children/bg_family_organization_01.png",
+                            "name": "bg",
+                            "height": 156
+                          },
+                          "compId": 75
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 0,
+                            "x": 14,
+                            "width": 128,
+                            "skin": "res_common/solt_hero_blue.png",
+                            "name": "headimg",
+                            "height": 128
+                          },
+                          "compId": 36,
+                          "child": [
+                            {
+                              "type": "Box",
+                              "props": {
+                                "name": "headspine"
+                              },
+                              "compId": 37,
+                              "child": [
+                                {
+                                  "type": "Sprite",
+                                  "props": {
+                                    "renderType": "mask"
+                                  },
+                                  "compId": 38,
+                                  "child": [
+                                    {
+                                      "type": "Circle",
+                                      "props": {
+                                        "y": 63.25,
+                                        "x": 63.25,
+                                        "radius": 48,
+                                        "lineWidth": 1,
+                                        "fillColor": "#ff0000"
+                                      },
+                                      "compId": 39
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Label",
+                          "props": {
+                            "y": 16,
+                            "x": 146,
+                            "text": "名字最多六字",
+                            "name": "child_name",
+                            "fontSize": 26,
+                            "font": "SimHei",
+                            "color": "#825956"
+                          },
+                          "compId": 40
+                        },
+                        {
+                          "type": "Label",
+                          "props": {
+                            "y": 60,
+                            "x": 182,
+                            "width": 111,
+                            "name": "gd",
+                            "height": 24,
+                            "fontSize": 24,
+                            "font": "Microsoft YaHei",
+                            "color": "#6b5150",
+                            "bold": true
+                          },
+                          "compId": 41,
+                          "child": [
+                            {
+                              "type": "Image",
+                              "props": {
+                                "y": -18,
+                                "x": -42,
+                                "width": 47,
+                                "skin": "res_view/platformFeatures/concern/icon_gongde.png",
+                                "height": 47
+                              },
+                              "compId": 42
+                            },
+                            {
+                              "type": "Label",
+                              "props": {
+                                "y": -2,
+                                "x": 3,
+                                "width": 111,
+                                "text": "功德加成：+502",
+                                "name": "gd_addnum",
+                                "height": 24,
+                                "fontSize": 24,
+                                "font": "Microsoft YaHei",
+                                "color": "#6b5150",
+                                "bold": true
+                              },
+                              "compId": 43
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Label",
+                          "props": {
+                            "y": 95,
+                            "x": 189,
+                            "width": 111,
+                            "name": "work",
+                            "height": 24,
+                            "fontSize": 24,
+                            "font": "Microsoft YaHei",
+                            "color": "#6b5150",
+                            "bold": true
+                          },
+                          "compId": 44,
+                          "child": [
+                            {
+                              "type": "Image",
+                              "props": {
+                                "y": -9,
+                                "x": -42,
+                                "width": 34,
+                                "skin": "netRes/icon/traitIcon/icon_jb_ck.png",
+                                "name": "work_img",
+                                "height": 34
+                              },
+                              "compId": 45
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Label",
+                          "props": {
+                            "y": 95,
+                            "x": 186,
+                            "name": "work_name",
+                            "fontSize": 24,
+                            "font": "Microsoft YaHei",
+                            "color": "#6b5150"
+                          },
+                          "compId": 46,
+                          "child": [
+                            {
+                              "type": "Label",
+                              "props": {
+                                "y": 1,
+                                "x": -1,
+                                "width": 111,
+                                "text": "xx属性",
+                                "name": "work_attr",
+                                "height": 24,
+                                "fontSize": 24,
+                                "font": "Microsoft YaHei",
+                                "color": "#6b5150",
+                                "bold": true
+                              },
+                              "compId": 47
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 41,
+                            "x": 550,
+                            "width": 136,
+                            "skin": "res_common/btn_yellow.png",
+                            "name": "shenqing_btn",
+                            "height": 54
+                          },
+                          "compId": 55,
+                          "child": [
+                            {
+                              "type": "Image",
+                              "props": {
+                                "y": 12,
+                                "x": 34,
+                                "skin": "res_view/lianyin/text_shenqing.png"
+                              },
+                              "compId": 56
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 260.5,
+                    "x": 275.5,
+                    "visible": false,
+                    "var": "zwsjtips",
+                    "skin": "res_view/lianyin/text_zwlyxq.png"
+                  },
+                  "compId": 32
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 546,
+                    "x": 12,
+                    "width": 116,
+                    "visible": false,
+                    "var": "chosebtn",
+                    "skin": "res_view/lianyin/panel_gd.png",
+                    "sizeGrid": "0,46,0,10",
+                    "height": 34
+                  },
+                  "compId": 77,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 4.5,
+                        "x": 78,
+                        "var": "openchose",
+                        "skin": "res_view/lianyin/btn_team_extension.png"
+                      },
+                      "compId": 79
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 5.5,
+                        "x": 8,
+                        "var": "curchose",
+                        "skin": "res_view/lianyin/text_shijie.png"
+                      },
+                      "compId": 80
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "props": {
+                    "y": 438,
+                    "x": -20,
+                    "width": 115,
+                    "visible": false,
+                    "var": "chose_box",
+                    "height": 113
+                  },
+                  "compId": 78,
+                  "child": [
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 75,
+                        "x": 32,
+                        "width": 77,
+                        "var": "chose_1",
+                        "skin": "res_view/lianyin/panel_gd (2).png",
+                        "height": 34
+                      },
+                      "compId": 81,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 5.5,
+                            "x": 9.5,
+                            "skin": "res_view/lianyin/text_benfu.png"
+                          },
+                          "compId": 82
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "y": 42,
+                        "x": 32,
+                        "width": 77,
+                        "var": "chose_2",
+                        "skin": "res_view/lianyin/panel_gd (2).png",
+                        "height": 34
+                      },
+                      "compId": 83,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 5.5,
+                            "x": 9.5,
+                            "skin": "res_view/lianyin/text_shijie.png"
+                          },
+                          "compId": 84
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 92,
+                "x": 199,
+                "width": 171,
+                "var": "bfly_btn",
+                "skin": "res_view/rank/btn_common_label01(1).png",
+                "scaleY": 1,
+                "height": 79
+              },
+              "compId": 13,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 15.5,
+                    "x": 14.5,
+                    "var": "bfly_name",
+                    "skin": "res_view/lianyin/text_bfly.png"
+                  },
+                  "compId": 14
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 93,
+                "x": 382,
+                "width": 168,
+                "var": "zdly_btn",
+                "skin": "res_view/rank/btn_common_label02.png",
+                "height": 63
+              },
+              "compId": 15,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 14.5,
+                    "x": 14,
+                    "var": "zdly_name",
+                    "skin": "res_view/lianyin/text_zdly.png"
+                  },
+                  "compId": 16
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 1053,
+                "x": 243,
+                "skin": "res_view/rank/text_djgb.png"
+              },
+              "compId": 19
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": ["res_common/solt_hero_blue.png"],
+  "loadList3D": []
+}
